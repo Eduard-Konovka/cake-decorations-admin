@@ -11,7 +11,7 @@
   border-radius: 2.5vw;
 
   background-color: #cea563;
-  color: #000000;
+  color: #270000;
 
   font-weight: 500;
   font-size: 5vw;
@@ -61,7 +61,7 @@
 
 .btn:disabled {
   background-color: #cea563bb;
-  color: #000000;
+  color: #270000;
   box-shadow: none;
   cursor: not-allowed;
   transform: scale(1);

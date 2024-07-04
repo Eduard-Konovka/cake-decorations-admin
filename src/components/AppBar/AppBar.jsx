@@ -7,12 +7,17 @@ import {
   updateLanguage,
 } from 'state';
 import { Button } from 'components';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { LANGUAGE } from 'constants';
 import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
 export default function AppBar({ setBooksByTag }) {
   const { user, language } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
+
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
     <header className={s.header}>
@@ -28,10 +33,10 @@ export default function AppBar({ setBooksByTag }) {
               onClick={setBooksByTag}
               end
             >
-              <h1 className={s.logo}>JS Band Store</h1>
+              <h1 className={s.logo}>{languageDeterminer(LANGUAGE.brand)}</h1>
             </NavLink>
           ) : (
-            <h1 className={s.brand}>JS Band Store</h1>
+            <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
           )}
 
           <a
@@ -41,7 +46,7 @@ export default function AppBar({ setBooksByTag }) {
             rel="noopener noreferrer"
             className={s.resume}
           >
-            <h2 className={s.title}>...by Eduard Konovka</h2>
+            <h2 className={s.title}>{languageDeterminer(LANGUAGE.brand)}</h2>
           </a>
         </div>
 
@@ -81,9 +86,21 @@ export default function AppBar({ setBooksByTag }) {
       <Button
         title="Select your language"
         typeForm="icon"
-        onClick={() => changeGlobalState(updateLanguage, 'en')}
+        disabled={language === 'EN'}
+        onClick={() => changeGlobalState(updateLanguage, 'EN')}
       >
-        {language || 'null'}
+        {'EN'}
+      </Button>
+
+      {'|'}
+
+      <Button
+        title="Select your language"
+        typeForm="icon"
+        disabled={language === 'UA'}
+        onClick={() => changeGlobalState(updateLanguage, 'UA')}
+      >
+        {'UA'}
       </Button>
     </header>
   );

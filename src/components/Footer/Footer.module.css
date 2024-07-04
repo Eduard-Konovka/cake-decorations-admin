@@ -4,8 +4,8 @@
   border-radius: 8px;
   padding: 10px 16px;
   margin-top: 5px;
-  color: #2a363b;
-  background-image: linear-gradient(10deg, #e7e7e7, #61676b);
+  color: #360f0f;
+  background-image: linear-gradient(10deg, #f8a39b, #c68dff);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 3px rgba(0, 0, 0, 0.15);
   font-weight: 400;
@@ -58,7 +58,7 @@
 
 .link:hover,
 .link:focus {
-  color: #000000;
+  color: #270000;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 3px rgba(0, 0, 0, 0.15);
 }

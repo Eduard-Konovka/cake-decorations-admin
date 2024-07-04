@@ -10,8 +10,8 @@
   border: none;
   border-radius: 1vw;
 
-  background-color: #cea563;
-  color: #000000;
+  background-color: #834812;
+  color: #ffffff;
 
   font-weight: 500;
   font-size: 4.8vw;
@@ -56,8 +56,8 @@
 
 .btn:hover,
 .btn:focus {
-  background-color: #a8803f;
-  color: #ffffff;
+  background-color: #c09212;
+  color: #270000;
   box-shadow: 0 0.3vw 0.3vw #56ca21;
   transform: scale(1.05);
 }
@@ -68,7 +68,7 @@
 
 .btn:disabled {
   background-color: #cea563bb;
-  color: #000000;
+  color: #270000;
   box-shadow: none;
   cursor: not-allowed;
   transform: scale(1);

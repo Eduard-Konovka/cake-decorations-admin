@@ -18,7 +18,7 @@
 
 .black {
   composes: altSpinner;
-  color: #000000;
+  color: #270000;
 }
 
 .white {
@@ -28,7 +28,7 @@
 
 .red {
   composes: altSpinner;
-  color: #ff0000;
+  color: #f800ba;
 }
 
 .blue {
