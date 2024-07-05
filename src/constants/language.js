@@ -176,11 +176,6 @@ export const LANGUAGE = {
       eng: 'Add to cart',
       ukr: 'Купити',
     },
-
-    xxx: {
-      eng: '',
-      ukr: '',
-    },
   },
 
   xxx: {
