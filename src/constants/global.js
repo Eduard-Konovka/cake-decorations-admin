@@ -6,6 +6,8 @@ export const GLOBAL = {
     maxLength: 16,
   },
 
+  signInViewPattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
+
   keyСodes: {
     enter: ENTER_KEY_CODE,
     zero: 48,

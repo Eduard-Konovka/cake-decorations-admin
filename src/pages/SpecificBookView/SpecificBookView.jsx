@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchBook } from 'api';
 import { Spinner, Button, Tags, Links, CountForm } from 'components';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificBookView.module.css';
 
@@ -26,6 +28,8 @@ export default function SpecificBookView({
 
   const [count, setCount] = useState(selectedBook ? selectedBook.count : 0);
 
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   useEffect(() => {
     if (books.length > 0) {
       setBook(savedBook);
@@ -43,10 +47,12 @@ export default function SpecificBookView({
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
-      {loading && <Spinner size={70} color="blue" />}
+      {loading && <Spinner size={70} color="red" />}
 
       {error && (
-        <p className={s.error}>Whoops, something went wrong: {error.message}</p>
+        <p className={s.error}>
+          {languageDeterminer(LANGUAGE.viewError) + error.message}
+        </p>
       )}
 
       {book && (
@@ -63,12 +69,18 @@ export default function SpecificBookView({
                 <div className={s.stats}>
                   <h3 className={s.title}>{book.title}</h3>
                   <p className={s.stat}>
-                    <span className={s.statName}>Book author: </span>
+                    <span className={s.statName}>
+                      {languageDeterminer(
+                        LANGUAGE.specificBookView.manufacturer,
+                      )}
+                    </span>
                     {book.author}
                   </p>
 
                   <p className={s.stat}>
-                    <span className={s.statName}>Book tags: </span>
+                    <span className={s.statName}>
+                      {languageDeterminer(LANGUAGE.specificBookView.tags)}
+                    </span>
                     {book.title && (
                       <Tags
                         title={book.title}
@@ -79,14 +91,19 @@ export default function SpecificBookView({
                   </p>
 
                   <p className={s.stat}>
-                    <span className={s.statName}>Google links: </span>
+                    <span className={s.statName}>
+                      {languageDeterminer(LANGUAGE.specificBookView.links)}
+                    </span>
                     {book.title && <Links title={book.title} styles={s.link} />}
                   </p>
                 </div>
 
                 <div className={s.controls}>
                   <p className={s.count}>
-                    <span className={s.boldfont}>Price: </span>${book.price}
+                    <span className={s.boldfont}>
+                      {languageDeterminer(LANGUAGE.specificBookView.price)}
+                    </span>
+                    ${book.price}
                   </p>
 
                   <CountForm
@@ -113,7 +130,9 @@ export default function SpecificBookView({
 
                   <div>
                     <Button
-                      title="Add book to cart"
+                      title={languageDeterminer(
+                        LANGUAGE.specificBookView.buttonTitle,
+                      )}
                       type="button"
                       disabled={!count}
                       styles={s.btn}
@@ -121,7 +140,7 @@ export default function SpecificBookView({
                         addToCart({ ...book, count: Number(count) })
                       }
                     >
-                      Add to cart
+                      {languageDeterminer(LANGUAGE.specificBookView.buttonText)}
                     </Button>
                   </div>
                 </div>

@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useGlobalState, useChangeGlobalState, updateUser } from 'state';
 import { Button } from 'components';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import avatar from 'assets/avatar.png';
 import s from './SignInView.module.css';
 
@@ -11,6 +13,8 @@ export default function SignInView() {
   const changeGlobalState = useChangeGlobalState();
 
   const [name, setName] = useState('');
+
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   const handleChange = event => {
     const value = event.target.value.trim();
@@ -30,9 +34,11 @@ export default function SignInView() {
           <input
             type="text"
             name="username"
-            title="The length of the name must not be less than 4 and more than 16 characters. The name can only consist of letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan, etc."
-            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            placeholder="Enter your name..."
+            title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
+            pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+            placeholder={languageDeterminer(
+              LANGUAGE.signInView.inputPlaceholder,
+            )}
             minLength={GLOBAL.signInViewInput.minLength}
             maxLength={GLOBAL.signInViewInput.maxLength}
             className={s.input}
@@ -40,7 +46,7 @@ export default function SignInView() {
           />
 
           <Button
-            title="Sign in to your account"
+            title={languageDeterminer(LANGUAGE.signInView.buttonTitle)}
             type="button"
             typeForm="signin"
             disabled={
@@ -52,10 +58,12 @@ export default function SignInView() {
             {name.length >= GLOBAL.signInViewInput.minLength &&
             name.length <= GLOBAL.signInViewInput.maxLength ? (
               <Link to="/books" className={s.btnLink}>
-                Sign in
+                {languageDeterminer(LANGUAGE.signInView.buttonText)}
               </Link>
             ) : (
-              <p className={s.btnLink}>Sign in</p>
+              <p className={s.btnLink}>
+                {languageDeterminer(LANGUAGE.signInView.buttonText)}
+              </p>
             )}
           </Button>
         </form>

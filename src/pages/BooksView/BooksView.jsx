@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateBooks } from 'state';
 import { fetchBooks } from 'api';
 import { Spinner, Blank, Button, OptionList, BookList } from 'components';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './BooksView.module.css';
@@ -20,6 +22,8 @@ export default function BooksView({ booksByTag }) {
   const [visibleBooks, setVisibleBooks] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
+
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
     if (books.length === 0) {
@@ -97,7 +101,7 @@ export default function BooksView({ booksByTag }) {
     } else if (targetBooks.length > 0) {
       setBooksByName(targetBooks);
     } else {
-      toast.error('Please enter the correct book title!');
+      toast.error(languageDeterminer(LANGUAGE.searchByName.error));
       setBooksByName([]);
     }
   }
@@ -190,17 +194,19 @@ export default function BooksView({ booksByTag }) {
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
-      {loading && <Spinner size={70} color="blue" />}
+      {loading && <Spinner size={70} color="red" />}
 
       {error && (
-        <p className={s.error}>Whoops, something went wrong: {error.message}</p>
+        <p className={s.error}>
+          {languageDeterminer(LANGUAGE.viewError) + error.message}
+        </p>
       )}
 
       {!loading && !error && books.length === 0 && (
         <Blank
-          title="There are currently no books for sale in the store"
+          title={languageDeterminer(LANGUAGE.noProducts)}
           image={imageBlank}
-          alt="Open shop"
+          alt={languageDeterminer(LANGUAGE.openShopAlt)}
         />
       )}
 
@@ -210,9 +216,9 @@ export default function BooksView({ booksByTag }) {
             <form className={s.searchBar}>
               <div className={s.searchByName}>
                 <input
-                  name="searchByName"
+                  name={languageDeterminer(LANGUAGE.searchByName.title)}
                   type="text"
-                  placeholder="Search by book name"
+                  placeholder={languageDeterminer(LANGUAGE.searchByName.title)}
                   value={searchByName}
                   className={s.inputByName}
                   onKeyPress={handleKeyPress}
@@ -220,10 +226,10 @@ export default function BooksView({ booksByTag }) {
                 />
 
                 <Button
-                  title="Search by book name"
+                  title={languageDeterminer(LANGUAGE.searchByName.title)}
                   type="button"
                   typeForm="icon"
-                  aria-label="Search by book name"
+                  aria-label={languageDeterminer(LANGUAGE.searchByName.title)}
                   styles={s.iconButton}
                   onClick={handleNameClick}
                 >
@@ -236,18 +242,18 @@ export default function BooksView({ booksByTag }) {
               </select>
 
               <Button
-                title="Reset all filters"
+                title={languageDeterminer(LANGUAGE.resetFiltersButton.title)}
                 type="button"
                 styles={s.btn}
                 onClick={reset}
               >
-                Reset filters
+                {languageDeterminer(LANGUAGE.resetFiltersButton.text)}
               </Button>
             </form>
 
             <form className={s.sortBar}>
               <label htmlFor="sort" className={s.sortLabel}>
-                Sort by
+                {languageDeterminer(LANGUAGE.sortBy.label)}
               </label>
 
               <select
@@ -255,13 +261,17 @@ export default function BooksView({ booksByTag }) {
                 className={s.inputBySort}
                 onChange={handleSort}
               >
-                <option value={'ascendingCode'}>Ascending SKU</option>
-                <option value={'descendingCode'}>Descending SKU</option>
                 <option value={'ascendingPrice'}>
-                  From cheap to expensive
+                  {languageDeterminer(LANGUAGE.sortBy.ascendingPrice)}
                 </option>
                 <option value={'descendingPrice'}>
-                  From expensive to cheap
+                  {languageDeterminer(LANGUAGE.sortBy.descendingPrice)}
+                </option>
+                <option value={'ascendingCode'}>
+                  {languageDeterminer(LANGUAGE.sortBy.ascendingCode)}
+                </option>
+                <option value={'descendingCode'}>
+                  {languageDeterminer(LANGUAGE.sortBy.descendingCode)}
                 </option>
               </select>
             </form>

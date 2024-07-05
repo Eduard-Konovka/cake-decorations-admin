@@ -1,14 +1,23 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { LANGUAGE } from 'constants';
 
 export default async function ordersApi(data) {
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   try {
     const response = await axios.post('/api/orders', data);
 
     return toast.success(
-      `Status: ${response.status}. Cart contents successfully accepted for processing. Thanks for your order!`,
+      `${languageDeterminer(LANGUAGE.order.status)}${
+        response.status
+      }${languageDeterminer(LANGUAGE.order.success)}`,
     );
   } catch (error) {
-    return toast.error(`Failed to process order! Error: ${error.message}`);
+    return toast.error(
+      `${languageDeterminer(LANGUAGE.order.error)}${error.message}`,
+    );
   }
 }
