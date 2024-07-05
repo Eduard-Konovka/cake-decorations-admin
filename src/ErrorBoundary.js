@@ -17,7 +17,7 @@ class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     console.error(error);
-    console.error('Information about this error: ', errorInfo);
+    console.error(languageDeterminer(LANGUAGE.errorInfo), errorInfo);
   }
 
   render() {

@@ -4,7 +4,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import { Puff } from 'react-loader-spinner';
 import { sendСart } from 'api';
 import {
-  GlobalState,
   useGlobalState,
   useChangeGlobalState,
   updateMainHeight,
@@ -17,7 +16,9 @@ import {
   PublicRoute,
   PrivateRoute,
 } from 'components';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import 'api/baseUrl';
 import 'App.css';
 
@@ -37,12 +38,14 @@ const NotFoundView = lazy(() =>
   import('pages/NotFoundView' /* webpackChunkName: "NotFoundView" */),
 );
 
-function App() {
+export default function App() {
   const { user, cart } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [booksByTag, setBooksByTag] = useState([]);
   const [sending, setSending] = useState(false);
+
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
     const appWidth = window.innerWidth;
@@ -77,19 +80,23 @@ function App() {
 
     changeGlobalState(
       updateCart,
-      cart.map(book => (book._id === obj._id ? setCount(book) : book)),
+      cart.map(product =>
+        product._id === obj._id ? setCount(product) : product,
+      ),
     );
   }
 
-  function addToCart(bookToBeAdded) {
-    const bookDuplication = cart.filter(obj => obj._id === bookToBeAdded._id);
+  function addToCart(productToBeAdded) {
+    const productDuplication = cart.filter(
+      obj => obj._id === productToBeAdded._id,
+    );
 
-    if (bookDuplication.length > 0) {
-      toast.error('This item is already in the cart!');
+    if (productDuplication.length > 0) {
+      toast.error(languageDeterminer(LANGUAGE.productDuplication));
       return;
     }
 
-    changeGlobalState(updateCart, [...cart, bookToBeAdded]);
+    changeGlobalState(updateCart, [...cart, productToBeAdded]);
   }
 
   function removeFromCart(_id) {
@@ -122,7 +129,7 @@ function App() {
             height="200"
             width="200"
             radius={1}
-            color="#00BFFF"
+            color="#FF00BF"
             ariaLabel="puff-loading"
             wrapperStyle={{
               position: 'absolute',
@@ -187,7 +194,9 @@ function App() {
             path="*"
             element={
               <PrivateRoute redirectTo="/signin">
-                <NotFoundView message="Check the correctness of the entered in the address bar" />
+                <NotFoundView
+                  message={languageDeterminer(LANGUAGE.notFoundView)}
+                />
               </PrivateRoute>
             }
           />
@@ -198,13 +207,5 @@ function App() {
 
       <ToastContainer />
     </Container>
-  );
-}
-
-export default function AppWrapper() {
-  return (
-    <GlobalState>
-      <App />
-    </GlobalState>
   );
 }
