@@ -29,21 +29,24 @@ export default function Book({ book }) {
       </div>
 
       <p className={s.author}>
-        Author: <span className={s.value}>{book.author}</span>
+        {languageDeterminer(LANGUAGE.product.manufacturer)}
+        <span className={s.value}>{book.author}</span>
       </p>
 
       <p className={s.sku}>
-        SKU: <span className={s.value}>{book.id}</span>
+        {languageDeterminer(LANGUAGE.product.sku)}
+        <span className={s.value}>{book.id}</span>
       </p>
 
       <div className={s.control}>
         <p className={s.price}>
-          Price: <span className={s.value}>${book.price}</span>
+          {languageDeterminer(LANGUAGE.product.price)}
+          <span className={s.value}>₴{book.price}</span>
         </p>
 
-        <Button title={languageDeterminer(LANGUAGE.product.title)}>
+        <Button title={languageDeterminer(LANGUAGE.product.buttonTitle)}>
           <Link to={`/books/:${book._id}`} className={s.btnLink}>
-            {languageDeterminer(LANGUAGE.product.text)}
+            {languageDeterminer(LANGUAGE.product.buttonText)}
           </Link>
         </Button>
       </div>

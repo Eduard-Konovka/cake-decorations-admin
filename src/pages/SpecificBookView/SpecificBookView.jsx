@@ -106,7 +106,7 @@ export default function SpecificBookView({
                     <span className={s.boldfont}>
                       {languageDeterminer(LANGUAGE.specificBookView.price)}
                     </span>
-                    ${book.price}
+                    ₴{book.price}
                   </p>
 
                   <CountForm

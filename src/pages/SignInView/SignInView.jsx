@@ -28,7 +28,7 @@ export default function SignInView() {
 
         <form className={s.form}>
           <label htmlFor="username" className={s.label}>
-            Username:
+            {languageDeterminer(LANGUAGE.signInView.username)}
           </label>
 
           <input

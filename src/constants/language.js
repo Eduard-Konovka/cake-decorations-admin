@@ -66,17 +66,17 @@ export const LANGUAGE = {
   order: {
     status: {
       eng: 'Status: ',
-      ukr: '',
+      ukr: 'Статус: ',
     },
 
     success: {
       eng: '. Cart contents successfully accepted for processing. Thanks for your order!',
-      ukr: '',
+      ukr: '. Вміст кошика успішно прийнято для обробки. Дякую за ваше замовлення!',
     },
 
     error: {
       eng: 'Failed to process order! Error: ',
-      ukr: '',
+      ukr: 'Не вдалося обробити замовлення! Помилка:',
     },
   },
 
@@ -159,6 +159,11 @@ export const LANGUAGE = {
   },
 
   signInView: {
+    username: {
+      eng: 'Username:',
+      ukr: 'Ім’я користувача:',
+    },
+
     inputTitle: {
       eng: 'The length of the name must not be less than 4 and more than 16 characters. The name can only consist of letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d’Artagnan, etc.',
       ukr: 'Довжина імені не повинна бути менше 4 і більше 16 символів. Ім’я може складатися лише з букв, апострофа, тире та пробілів. Наприклад, Адріан, Якоб Мерсер, Шарль де Бац де Кастельмор д’Артаньян тощо.',
@@ -213,12 +218,27 @@ export const LANGUAGE = {
   },
 
   product: {
-    title: {
+    manufacturer: {
+      eng: 'Manufacturer: ',
+      ukr: 'Виробник: ',
+    },
+
+    sku: {
+      eng: 'SKU: ',
+      ukr: 'Артикул: ',
+    },
+
+    price: {
+      eng: 'Price: ',
+      ukr: 'Ціна: ',
+    },
+
+    buttonTitle: {
       eng: 'More about the product',
       ukr: 'Детальніше про товар',
     },
 
-    text: {
+    buttonText: {
       eng: 'View',
       ukr: 'Переглянути',
     },
