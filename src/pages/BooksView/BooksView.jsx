@@ -197,9 +197,12 @@ export default function BooksView({ booksByTag }) {
       {loading && <Spinner size={70} color="red" />}
 
       {error && (
-        <p className={s.error}>
-          {languageDeterminer(LANGUAGE.viewError) + error.message}
-        </p>
+        <div className={s.errorBox}>
+          <p className={s.errorLabel}>
+            {languageDeterminer(LANGUAGE.viewError)}
+          </p>
+          <p className={s.errorText}>{error.message}</p>
+        </div>
       )}
 
       {!loading && !error && books.length === 0 && (

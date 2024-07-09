@@ -2,7 +2,10 @@
   position: relative;
 }
 
-.error {
+.errorBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,8 +14,18 @@
   margin: 0;
 
   color: #ff0000;
-  font-size: 2vw;
   font-weight: 400;
+  font-size: 2vw;
+}
+
+.errorText {
+  padding: 0;
+  margin: 0;
+}
+
+.errorLabel {
+  composes: errorText;
+  font-weight: 500;
 }
 
 .row {
