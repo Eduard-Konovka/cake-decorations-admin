@@ -1,15 +1,18 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { getTags } from 'functions';
-import { TAMPLATES } from 'constants';
+import { getTags, getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { TAMPLATES, LANGUAGE } from 'constants';
 import s from './Links.module.css';
 
 export default function Links({ title, styles }) {
   const links = getTags(title, TAMPLATES.links);
 
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   return links.map(link => (
     <a
-      title={`Look it up on Google "${link}"`}
+      title={`${languageDeterminer(LANGUAGE.links)} "${link}"`}
       href={`https://www.google.com/search?q=${link}`}
       target="_blank"
       rel="noopener noreferrer"

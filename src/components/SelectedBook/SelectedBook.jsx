@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { CountForm, Button } from 'components';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './SelectedBook.module.css';
 
@@ -12,10 +14,17 @@ export default function SelectedBook({
 }) {
   const { _id, image, title, price, count } = selectedBook;
 
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   return (
     <article className={s.card}>
       <div className={s.thumb}>
-        <Link to={`/books/:${_id}`} title={`Go to the book "${title}"`}>
+        <Link
+          to={`/books/:${_id}`}
+          title={`${languageDeterminer(
+            LANGUAGE.selectedBook.titleLink,
+          )} "${title}"`}
+        >
           <img
             src={image && image !== '' ? image : defaultImage}
             alt={title}
@@ -32,8 +41,10 @@ export default function SelectedBook({
 
       <div className={s.controls}>
         <p className={s.price}>
-          <span className={s.priceTitle}>Price: </span>
-          <span className={s.priceValue}>${price}</span>
+          <span className={s.priceTitle}>
+            {languageDeterminer(LANGUAGE.selectedBook.price)}
+          </span>
+          <span className={s.priceValue}>₴{price}</span>
         </p>
 
         <CountForm
@@ -53,12 +64,12 @@ export default function SelectedBook({
         />
 
         <Button
-          title="Remove book from cart"
+          title={languageDeterminer(LANGUAGE.selectedBook.buttonTitle)}
           type="button"
           styles={s.btn}
           onClick={onDeleteBook}
         >
-          Delete
+          {languageDeterminer(LANGUAGE.selectedBook.buttonText)}
         </Button>
       </div>
     </article>

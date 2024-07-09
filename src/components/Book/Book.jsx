@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Button from 'components/Button';
-import { GLOBAL } from 'constants';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './Book.module.css';
 
 export default function Book({ book }) {
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   return (
     <article>
       <img
@@ -37,9 +41,9 @@ export default function Book({ book }) {
           Price: <span className={s.value}>${book.price}</span>
         </p>
 
-        <Button title="More about the book">
+        <Button title={languageDeterminer(LANGUAGE.product.title)}>
           <Link to={`/books/:${book._id}`} className={s.btnLink}>
-            View
+            {languageDeterminer(LANGUAGE.product.text)}
           </Link>
         </Button>
       </div>

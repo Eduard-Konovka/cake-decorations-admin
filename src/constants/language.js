@@ -24,6 +24,40 @@ export const LANGUAGE = {
     ukr: 'Цей товар вже в кошику!',
   },
 
+  appBar: {
+    cartLink: {
+      eng: 'Go to cart',
+      ukr: 'Перейти до кошика',
+    },
+
+    signOut: {
+      title: {
+        eng: 'Signing out of your account',
+        ukr: 'Вихід з облікового запису',
+      },
+
+      text: {
+        eng: 'Sign out',
+        ukr: 'Вийти з аккаунта',
+      },
+    },
+
+    avatarAlt: {
+      eng: 'User avatar',
+      ukr: 'Аватар користувача',
+    },
+
+    hello: {
+      eng: 'Hello, guest!',
+      ukr: 'Привіт, гість!',
+    },
+
+    language: {
+      eng: 'Select your language',
+      ukr: 'Виберіть свою мову',
+    },
+  },
+
   notFoundView: {
     eng: 'Check the correctness of the entered in the address bar',
     ukr: 'Перевірте правильність введеного в адресному рядку',
@@ -178,8 +212,154 @@ export const LANGUAGE = {
     },
   },
 
-  xxx: {
-    eng: '',
-    ukr: '',
+  product: {
+    title: {
+      eng: 'More about the product',
+      ukr: 'Детальніше про товар',
+    },
+
+    text: {
+      eng: 'View',
+      ukr: 'Переглянути',
+    },
+  },
+
+  cartBar: {
+    totalCost: {
+      eng: 'Total cost: ₴',
+      ukr: 'Загальна вартість: ₴',
+    },
+
+    buttonTitle: {
+      eng: 'Send order for clearance',
+      ukr: 'Відправити замовлення на оформлення',
+    },
+
+    buttonText: {
+      eng: 'Purchase',
+      ukr: 'Оформлення',
+    },
+  },
+
+  countForm: {
+    label: {
+      eng: 'Count, units:',
+      ukr: 'Кількість',
+    },
+
+    totalPrice: {
+      eng: 'Total price:',
+      ukr: 'Загальна сума:',
+    },
+
+    error: {
+      prefix: {
+        eng: 'Please enter an integer value from',
+        ukr: 'Будь ласка, введіть ціле число від',
+      },
+
+      suffix: {
+        eng: 'to',
+        ukr: 'до',
+      },
+
+      postfix: {
+        eng: 'inclusive!',
+        ukr: 'включно!',
+      },
+    },
+  },
+
+  links: {
+    eng: 'Look it up on Google',
+    ukr: 'Шукати в Google',
+  },
+
+  tags: {
+    eng: 'Browse products tagged',
+    ukr: 'Перегляньте продукти з тегом',
+  },
+
+  optionList: {
+    all: {
+      eng: 'All prices',
+      ukr: 'Всі ціни',
+    },
+
+    down: {
+      eng: 'Prices <',
+      ukr: 'Менше за',
+    },
+
+    middle: {
+      eng: '< prices <',
+      ukr: '< ціна <',
+    },
+
+    up: {
+      eng: 'Prices >',
+      ukr: 'Більше за',
+    },
+  },
+
+  processing: {
+    title: {
+      eng: 'Your order has been sent for processing',
+      ukr: 'Ваше замовлення відправлено в обробку',
+    },
+
+    gearsAlt: {
+      eng: 'Gears',
+      ukr: 'Шестерні',
+    },
+
+    processingAlt: {
+      eng: 'Order processing',
+      ukr: 'Обробка замовлення',
+    },
+  },
+
+  selectedBook: {
+    titleLink: {
+      eng: 'Go to the product',
+      ukr: 'Перейти до товару',
+    },
+
+    price: {
+      eng: 'Price: ',
+      ukr: 'Ціна: ',
+    },
+
+    buttonTitle: {
+      eng: 'Remove product from cart',
+      ukr: 'Видалити товар з кошика',
+    },
+
+    buttonText: {
+      eng: 'Delete',
+      ukr: 'Видалити',
+    },
+  },
+
+  spinnerAlt: {
+    eng: 'Spinner',
+    ukr: 'Спіннер',
+  },
+
+  footer: {
+    label: {
+      eng: 'Created by',
+      ukr: 'Розробник:',
+    },
+
+    title: {
+      eng: 'Go to the resume site of Eduard Konovka',
+      ukr: 'Перейти на сайт-резюме Едуарда Коновки',
+    },
+
+    name: {
+      eng: 'Eduard Konovka',
+      ukr: 'Едуард Коновка',
+    },
   },
 };

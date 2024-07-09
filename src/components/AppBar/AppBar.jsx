@@ -53,7 +53,7 @@ export default function AppBar({ setBooksByTag }) {
         {user.name ? (
           <div className={s.userbar}>
             <NavLink
-              title="Go to book basket"
+              title={languageDeterminer(LANGUAGE.appBar.cartLink)}
               to="/cart"
               className={({ isActive }) =>
                 isActive ? s.activeCart : s.inactiveCart
@@ -61,30 +61,30 @@ export default function AppBar({ setBooksByTag }) {
             />
 
             <Button
-              title="Signing out of your account"
+              title={languageDeterminer(LANGUAGE.appBar.signOut.title)}
               type="button"
               onClick={() => changeGlobalState(updateUser, {})}
             >
               <Link to="/signin" className={s.btnLink}>
-                Sign out
+                {languageDeterminer(LANGUAGE.appBar.signOut.text)}
               </Link>
             </Button>
 
             <img
               className={s.avatar}
               src={user.avatar ?? defaultAvatar}
-              alt="User avatar"
+              alt={languageDeterminer(LANGUAGE.appBar.avatarAlt)}
             />
 
             <p className={s.user}>{user.name}</p>
           </div>
         ) : (
-          <p className={s.user}>Hello, guest!</p>
+          <p className={s.user}>{languageDeterminer(LANGUAGE.appBar.hello)}</p>
         )}
       </nav>
 
       <Button
-        title="Select your language"
+        title={languageDeterminer(LANGUAGE.appBar.language)}
         typeForm="icon"
         disabled={language === 'EN'}
         onClick={() => changeGlobalState(updateLanguage, 'EN')}
@@ -95,7 +95,7 @@ export default function AppBar({ setBooksByTag }) {
       {'|'}
 
       <Button
-        title="Select your language"
+        title={languageDeterminer(LANGUAGE.appBar.language)}
         typeForm="icon"
         disabled={language === 'UA'}
         onClick={() => changeGlobalState(updateLanguage, 'UA')}

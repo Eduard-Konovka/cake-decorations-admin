@@ -2,12 +2,17 @@ import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { CartList, Button } from 'components';
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { LANGUAGE } from 'constants';
 import s from './CartBar.module.css';
 
 export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
   const { cart } = useGlobalState('global');
 
   const [totalCost, setTotalCost] = useState(0);
+
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
     setTotalCost(
@@ -24,14 +29,17 @@ export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
       />
 
       <div className={s.priceBox}>
-        <p className={s.totalCost}>Total cost: ${totalCost}</p>
+        <p className={s.totalCost}>
+          {languageDeterminer(LANGUAGE.cartBar.totalCost)}
+          {totalCost}
+        </p>
 
         <Button
-          title="Send order for clearance"
+          title={languageDeterminer(LANGUAGE.cartBar.buttonTitle)}
           type="button"
           onClick={() => onSubmit(Number(totalCost))}
         >
-          Purchase
+          {languageDeterminer(LANGUAGE.cartBar.buttonText)}
         </Button>
       </div>
     </div>

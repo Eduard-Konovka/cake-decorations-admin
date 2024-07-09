@@ -476,6 +476,18 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .totalPrice {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .totalPrice {
+    width: 35%;
+  }
+}
+
 .totalPriceTitle {
   composes: priceTitle;
 }

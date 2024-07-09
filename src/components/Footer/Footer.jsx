@@ -1,17 +1,22 @@
+import { getLanguage } from 'functions';
+import { languageWrapper } from 'middlewares';
+import { LANGUAGE } from 'constants';
 import s from './Footer.module.css';
 
 export default function Footer() {
+  const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   return (
     <footer className={s.footer}>
-      Created by
+      {languageDeterminer(LANGUAGE.footer.label)}
       <a
-        title="Go to the resume site of Eduard Konovka"
+        title={languageDeterminer(LANGUAGE.footer.title)}
         href="https://eduard-konovka.github.io/resume-pdf/"
         target="_blank"
         rel="noopener noreferrer"
         className={s.link}
       >
-        Eduard Konovka
+        {languageDeterminer(LANGUAGE.footer.name)}
       </a>
       ©{new Date().getFullYear()}
     </footer>
