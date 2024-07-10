@@ -14,6 +14,11 @@ export const LANGUAGE = {
     ukr: 'Ой! Щось пішло не так...',
   },
 
+  logoAlt: {
+    eng: 'Logotype',
+    ukr: 'Логотип',
+  },
+
   brand: {
     eng: 'Cake decorations',
     ukr: 'Тортові прикраси',

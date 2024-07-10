@@ -144,50 +144,44 @@
 /*#endregion LINK */
 
 /*#region LOGO_BRAND */
-.logo {
+.logoBox {
+  display: flex;
+  align-items: center;
   margin: 0;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 320px) {
-  .logo {
+  .logoBox {
     margin: 0 1vw 0 0;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .logo {
+  .logoBox {
     margin: -0.4vw 1vw 0 0;
   }
 }
 
+.logo {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 0.5vw;
+  margin-right: 10px;
+}
+
 .brand {
-  composes: link;
-  composes: logo;
-  font-size: 7.5vw;
+  margin: 0;
 }
 
 @media screen and (min-width: 320px) {
   .brand {
-    font-size: 5.4vw;
+    margin: 0 1vw 0 0;
   }
 }
 
 @media screen and (min-width: 420px) {
   .brand {
-    font-size: 3.45vw;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .brand {
-    font-size: 3vw;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .brand {
-    font-size: 2.7vw;
+    margin: -0.4vw 1vw 0 0;
   }
 }
 /*#endregion LOGO_BRAND */

@@ -10,6 +10,7 @@ import { Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
+import logo from 'assets/logo.jpg';
 import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
@@ -33,21 +34,27 @@ export default function AppBar({ setBooksByTag }) {
               onClick={setBooksByTag}
               end
             >
-              <h1 className={s.logo}>{languageDeterminer(LANGUAGE.brand)}</h1>
+              <div className={s.logoBox}>
+                <img
+                  className={s.logo}
+                  src={logo}
+                  alt={languageDeterminer(LANGUAGE.logoAlt)}
+                />
+                <h1 className={s.brand}>
+                  {languageDeterminer(LANGUAGE.brand)}
+                </h1>
+              </div>
             </NavLink>
           ) : (
-            <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
+            <div className={s.logoBox}>
+              <img
+                className={s.logo}
+                src={logo}
+                alt={languageDeterminer(LANGUAGE.logoAlt)}
+              />
+              <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
+            </div>
           )}
-
-          <a
-            title="Go to Eduard Konovka's CV"
-            href="https://eduard-konovka.github.io/resume-pdf/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={s.resume}
-          >
-            <h2 className={s.title}>{languageDeterminer(LANGUAGE.brand)}</h2>
-          </a>
         </div>
 
         {user.name ? (
