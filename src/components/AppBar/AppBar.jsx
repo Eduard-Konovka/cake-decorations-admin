@@ -22,11 +22,56 @@ export default function AppBar({ setBooksByTag }) {
 
   return (
     <header className={s.header}>
+      <div className={s.panel}>
+        <div className={s.headbar}>
+          <NavLink
+            title={languageDeterminer(LANGUAGE.appBar.homeLink)}
+            to="/books"
+            className={({ isActive }) =>
+              isActive ? s.activeLink : s.inactiveLink
+            }
+            onClick={setBooksByTag}
+            end
+          >
+            <div className={s.logoBox}>
+              <img
+                className={s.logo}
+                src={logo}
+                alt={languageDeterminer(LANGUAGE.logoAlt)}
+              />
+              <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
+            </div>
+          </NavLink>
+        </div>
+
+        <div>{'+380 (50) 131-66-43'}</div>
+        <div>{'+380 (98) 133-20-37'}</div>
+        <div>{'Центральний ринок, магазин № 316, Ізмаїл, Україна'}</div>
+
+        <Button
+          title={languageDeterminer(LANGUAGE.appBar.language)}
+          typeForm="icon"
+          disabled={language === 'EN'}
+          onClick={() => changeGlobalState(updateLanguage, 'EN')}
+        >
+          {'EN'}
+        </Button>
+
+        <Button
+          title={languageDeterminer(LANGUAGE.appBar.language)}
+          typeForm="icon"
+          disabled={language === 'UA'}
+          onClick={() => changeGlobalState(updateLanguage, 'UA')}
+        >
+          {'UA'}
+        </Button>
+      </div>
+
       <nav className={s.nav}>
         <div className={s.headbar}>
           {user.name ? (
             <NavLink
-              title="Go to book list"
+              title={languageDeterminer(LANGUAGE.appBar.homeLink)}
               to="/books"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
@@ -35,14 +80,7 @@ export default function AppBar({ setBooksByTag }) {
               end
             >
               <div className={s.logoBox}>
-                <img
-                  className={s.logo}
-                  src={logo}
-                  alt={languageDeterminer(LANGUAGE.logoAlt)}
-                />
-                <h1 className={s.brand}>
-                  {languageDeterminer(LANGUAGE.brand)}
-                </h1>
+                <h1 className={s.brand}>Головна</h1>
               </div>
             </NavLink>
           ) : (
@@ -89,26 +127,6 @@ export default function AppBar({ setBooksByTag }) {
           <p className={s.user}>{languageDeterminer(LANGUAGE.appBar.hello)}</p>
         )}
       </nav>
-
-      <Button
-        title={languageDeterminer(LANGUAGE.appBar.language)}
-        typeForm="icon"
-        disabled={language === 'EN'}
-        onClick={() => changeGlobalState(updateLanguage, 'EN')}
-      >
-        {'EN'}
-      </Button>
-
-      {'|'}
-
-      <Button
-        title={languageDeterminer(LANGUAGE.appBar.language)}
-        typeForm="icon"
-        disabled={language === 'UA'}
-        onClick={() => changeGlobalState(updateLanguage, 'UA')}
-      >
-        {'UA'}
-      </Button>
     </header>
   );
 }

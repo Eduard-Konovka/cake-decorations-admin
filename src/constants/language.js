@@ -30,6 +30,16 @@ export const LANGUAGE = {
   },
 
   appBar: {
+    homeLink: {
+      eng: 'Go to the main page',
+      ukr: 'Перейти на головну сторінку',
+    },
+
+    productListLink: {
+      eng: 'Go to product list',
+      ukr: 'Перейти до списку товарів',
+    },
+
     cartLink: {
       eng: 'Go to cart',
       ukr: 'Перейти до кошика',

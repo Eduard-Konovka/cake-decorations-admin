@@ -1,12 +1,7 @@
 /*#region HEADER */
 .header {
-  display: flex;
-  align-items: center;
   border-radius: 8px;
-  padding: 10px 16px;
   margin-bottom: 5px;
-  color: #360f0f;
-  background-image: linear-gradient(350deg, #fec76f, #fec76f);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 3px rgba(0, 0, 0, 0.15);
 }
@@ -19,7 +14,6 @@
 
 @media screen and (min-width: 420px) {
   .header {
-    padding: 5px 16px;
     margin-bottom: 7px;
   }
 }
@@ -27,7 +21,6 @@
 @media screen and (min-width: 800px) {
   .header {
     border-radius: 10px;
-    padding: 20px 16px;
     margin-bottom: 8px;
   }
 }
@@ -41,20 +34,48 @@
 @media screen and (min-width: 1600px) {
   .header {
     border-radius: 0.625vw;
-    padding: 1.25vw 1vw;
     margin-bottom: 0.625vw;
   }
 }
-/*#endregion HEADER */
 
-/*#region NAV */
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #360f0f;
+  background-image: linear-gradient(350deg, #fec76f, #fec76f);
+  padding: 10px 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+@media screen and (min-width: 420px) {
+  .panel {
+    padding: 5px 16px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .panel {
+    padding: 20px 16px;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .panel {
+    padding: 1.25vw 1vw;
+  }
+}
+
 .nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-
+  background-image: linear-gradient(350deg, #7d2126, #7d2126);
   width: 100%;
+  padding: 10px 16px;
+  border-radius: 0 0 8px 8px;
 }
 
 @media screen and (min-width: 420px) {
@@ -62,9 +83,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 16px;
   }
 }
-/*#endregion NAV */
+
+@media screen and (min-width: 800px) {
+  .nav {
+    padding: 20px 16px;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .nav {
+    padding: 1.25vw 1vw;
+  }
+}
+/*#endregion HEADER */
 
 /*#region HEADBAR */
 @media screen and (min-width: 320px) {
@@ -85,7 +120,7 @@
 
 @media screen and (min-width: 800px) {
   .headbar {
-    width: auto;
+    width: 100%;
     flex-direction: row;
   }
 }
@@ -163,13 +198,14 @@
 }
 
 .logo {
-  width: 3.6vw;
-  height: 3.6vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 0.5vw;
   margin: 0 1vw 0 0;
 }
 
 .brand {
+  font-size: 1.5em;
   margin: 0;
 }
 
