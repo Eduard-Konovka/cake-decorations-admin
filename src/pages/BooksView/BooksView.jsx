@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateBooks } from 'state';
-import { fetchBooks } from 'api';
+import { fetchProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, BookList } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -29,9 +29,11 @@ export default function BooksView({ booksByTag }) {
     if (books.length === 0) {
       setLoading(true);
 
-      fetchBooks()
+      fetchProducts()
         .then(books => {
-          books.sort((firstBook, secondBook) => firstBook.id - secondBook.id);
+          books.sort(
+            (firstBook, secondBook) => firstBook.barcode - secondBook.barcode,
+          );
           changeGlobalState(updateBooks, books);
           setBooksByName(books);
           setBooksByPrice(books);
@@ -150,10 +152,10 @@ export default function BooksView({ booksByTag }) {
     const value = event.target.value;
 
     const ascendingCode = [...visibleBooks].sort(
-      (firstBook, secondBook) => firstBook.id - secondBook.id,
+      (firstBook, secondBook) => firstBook.barcode - secondBook.barcode,
     );
     const descendingCode = [...visibleBooks].sort(
-      (firstBook, secondBook) => secondBook.id - firstBook.id,
+      (firstBook, secondBook) => secondBook.barcode - firstBook.barcode,
     );
     const ascendingPrice = [...visibleBooks].sort(
       (firstBook, secondBook) => firstBook.price - secondBook.price,

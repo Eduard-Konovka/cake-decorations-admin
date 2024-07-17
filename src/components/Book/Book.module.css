@@ -233,7 +233,7 @@
 }
 /*#endregion AUTHOR */
 
-.sku {
+.barcode {
   composes: paragraph;
   font-weight: 500;
 }

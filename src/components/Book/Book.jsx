@@ -33,9 +33,9 @@ export default function Book({ book }) {
         <span className={s.value}>{book.author}</span>
       </p>
 
-      <p className={s.sku}>
-        {languageDeterminer(LANGUAGE.product.sku)}
-        <span className={s.value}>{book.id}</span>
+      <p className={s.barcode}>
+        {languageDeterminer(LANGUAGE.product.barcode)}
+        <span className={s.value}>{book.barcode}</span>
       </p>
 
       <div className={s.control}>

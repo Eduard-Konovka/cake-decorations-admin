@@ -141,13 +141,13 @@ export const LANGUAGE = {
     },
 
     ascendingCode: {
-      eng: 'by ascending SKU',
-      ukr: 'за зростанням артикулу',
+      eng: 'by ascending barcode',
+      ukr: 'за зростанням штрих-коду',
     },
 
     descendingCode: {
-      eng: 'by descending SKU',
-      ukr: 'за зниженням артикулу',
+      eng: 'by descending barcode',
+      ukr: 'за зниженням штрих-коду',
     },
 
     ascendingPrice: {
@@ -238,9 +238,9 @@ export const LANGUAGE = {
       ukr: 'Виробник: ',
     },
 
-    sku: {
-      eng: 'SKU: ',
-      ukr: 'Артикул: ',
+    barcode: {
+      eng: 'Barcode: ',
+      ukr: 'Штрих-код: ',
     },
 
     price: {
