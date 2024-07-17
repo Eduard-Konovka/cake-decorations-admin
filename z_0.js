@@ -20,18 +20,17 @@ const aaa = {
 };
 
 const bbb = {
-  id: 1798970109,
-  title: 'Барвник харчовий натуральний сухий жовто-лимонний (Р0351) 2 г',
+  id: '1798969377',
+  title: 'Барвник харчовий натуральний сухий "Помаранчевий" (Кармін 0301) 2г',
   description:
     'Slado - по праву є одним з кращих харчових барвників. Виготовляється виключно в Україні. Ці барвники ідеально підходять для фарбування мастики, глазурі, кремів, тіста, марципану та багато іншого. Головною особливістю цієї фарби є його економічність у використанні, невеликої кількості достатньо для фарбування мастики, тіста, крему. Колір, як правило, збігається з палітрою, виходить насичений колір, а найголовніше - це один із найбезпечніших барвників, тому що походження його повністю натуральне з рослинної сировини. Барвник не токсичний, можливе використання у виробництві дитячих десертів. Купити барвник у містах України дуже просто і все це за прийнятною ціною від Інтернет магазину "Затишний дім". Увага! Залежно від складу мастики (особливо промислового виробництва) колір може незначно змінюватись. Це пов’язано із взаємодією барвника та компонентів цукрової пасти. Насиченість відтінку залежить від кількості барвника.',
-
-  link: 'https://zatyshno.prom.ua/ua/p1798970109-krasitel-zhelto-limonnyj.html?source=merchant_center',
+  link: 'https://zatyshno.prom.ua/ua/p1798969377-barvnik-harchovij-pomaranchevij.html?source=merchant_center',
   ads_redirect:
-    'https://zatyshno.prom.ua/ua/p1798970109-krasitel-zhelto-limonnyj.html?source=merchant_center',
+    'https://zatyshno.prom.ua/ua/p1798969377-barvnik-harchovij-pomaranchevij.html?source=merchant_center',
   image:
-    'https://images.prom.ua/hxe5kP2jDjc0WNFL-L06OnOkALxHlyoT6W_6RviJsJg=/4364292660_barvnik-harchovij-naturalnij.jpg',
+    'https://images.prom.ua/MX8wKsD0Nk9Y1PRv8lEwjsQQqie17sRBAi_tbk0WDP4=/4364217838_barvnik-harchovij-naturalnij.jpg',
   availability: 'out of stock',
-  price: '75.00 UAH',
+  price: '45.00',
   product_type:
     'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
   identifier_exists: 'no',

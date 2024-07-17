@@ -3984,14 +3984,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4016,14 +4018,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4046,14 +4050,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4078,14 +4084,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4110,14 +4118,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4144,14 +4154,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4178,14 +4190,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4208,14 +4222,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4240,14 +4256,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4270,14 +4288,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4300,14 +4320,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4330,14 +4352,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4362,14 +4386,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4394,14 +4420,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4424,14 +4452,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4456,14 +4486,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4488,14 +4520,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4516,14 +4550,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4546,14 +4582,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4580,14 +4618,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4610,14 +4650,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4640,14 +4682,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4672,14 +4716,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4702,14 +4748,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4734,14 +4782,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4766,14 +4816,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4798,14 +4850,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4832,14 +4886,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4862,14 +4918,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4892,14 +4950,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4922,14 +4982,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4956,14 +5018,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -4990,14 +5054,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5026,14 +5092,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5058,14 +5126,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5090,14 +5160,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5122,14 +5194,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5156,14 +5230,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5190,14 +5266,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5222,14 +5300,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5256,14 +5336,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5290,14 +5372,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5324,14 +5408,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5356,14 +5442,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5388,14 +5476,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5420,14 +5510,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5448,14 +5540,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5482,14 +5576,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5516,14 +5612,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -5543,24 +5641,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5580,24 +5680,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5617,24 +5719,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5654,24 +5758,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5691,24 +5797,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5728,24 +5836,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5769,24 +5879,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5806,24 +5918,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5843,24 +5957,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5881,24 +5997,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5918,24 +6036,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5955,24 +6075,26 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'США',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'США',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -5992,24 +6114,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6029,24 +6153,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6066,24 +6192,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6103,24 +6231,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6140,24 +6270,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6177,24 +6309,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6214,24 +6348,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6251,24 +6387,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6288,24 +6426,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6325,24 +6465,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6362,24 +6504,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6399,24 +6543,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6436,24 +6582,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6473,24 +6621,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6510,24 +6660,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -6601,15 +6753,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -6629,15 +6783,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -6659,15 +6815,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -6691,15 +6849,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -6719,20 +6879,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6753,20 +6921,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6787,20 +6963,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6821,20 +7005,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6855,20 +7047,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6887,20 +7087,28 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6920,20 +7128,28 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6952,20 +7168,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
   },
 
   {
@@ -6986,19 +7210,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7019,19 +7245,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7052,19 +7280,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7085,19 +7315,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7118,19 +7350,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7151,19 +7385,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7184,19 +7420,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7217,19 +7455,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7250,19 +7490,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7284,19 +7526,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7317,19 +7561,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7349,19 +7595,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7381,19 +7629,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7413,19 +7663,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7445,19 +7697,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7478,19 +7732,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7510,19 +7766,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7543,19 +7801,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7576,19 +7836,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -7609,24 +7871,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -7653,14 +7923,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7687,14 +7959,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7723,14 +7997,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7755,14 +8031,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7787,14 +8065,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7819,14 +8099,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7853,14 +8135,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7883,14 +8167,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7913,14 +8199,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7945,14 +8233,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -7977,14 +8267,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8046,14 +8338,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8080,14 +8374,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8110,14 +8406,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8142,14 +8440,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8176,14 +8476,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8208,14 +8510,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8240,14 +8544,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8272,14 +8578,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8302,14 +8610,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8334,14 +8644,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8364,14 +8676,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8394,14 +8708,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8426,14 +8742,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8458,14 +8776,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8490,14 +8810,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8524,14 +8846,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8556,14 +8880,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8588,14 +8914,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8620,14 +8948,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8652,14 +8982,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8684,14 +9016,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8716,14 +9050,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8748,14 +9084,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8780,14 +9118,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8812,14 +9152,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8844,14 +9186,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8878,14 +9222,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8908,14 +9254,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8940,14 +9288,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -8972,14 +9322,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -9004,14 +9356,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -9036,14 +9390,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -9070,14 +9426,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -9098,14 +9456,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -9180,19 +9540,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9211,19 +9573,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9242,19 +9606,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9273,19 +9639,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9304,19 +9672,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9336,19 +9706,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9367,19 +9739,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9398,19 +9772,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9430,19 +9806,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9461,19 +9839,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9493,19 +9873,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9524,19 +9906,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9555,19 +9939,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9586,19 +9972,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Пастоподібний барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '25 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Пастоподібний барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      { attribute_name: 'Вага', attribute_value: '25 г' },
+    ],
   },
 
   {
@@ -9973,14 +10361,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10003,15 +10393,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '1 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      { attribute_name: 'Вага', attribute_value: '1 г' },
+    ],
   },
 
   {
@@ -10032,15 +10424,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '1 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      { attribute_name: 'Вага', attribute_value: '1 г' },
+    ],
   },
 
   {
@@ -10062,19 +10456,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -10094,19 +10490,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -10126,19 +10524,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -10158,19 +10558,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -10195,14 +10597,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10227,14 +10631,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10259,14 +10665,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10293,14 +10701,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10325,14 +10735,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10355,14 +10767,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10389,14 +10803,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10421,14 +10837,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10453,14 +10871,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10483,14 +10903,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10517,14 +10939,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10545,14 +10969,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10579,14 +11005,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10615,14 +11043,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10647,14 +11077,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10679,14 +11111,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10711,14 +11145,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10743,14 +11179,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10777,14 +11215,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10809,14 +11249,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10841,14 +11283,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10873,14 +11317,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10903,14 +11349,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10933,14 +11381,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10965,14 +11415,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -10997,14 +11449,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11029,15 +11483,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '1 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      { attribute_name: 'Вага', attribute_value: '1 г' },
+    ],
   },
 
   {
@@ -11060,15 +11516,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '1 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      { attribute_name: 'Вага', attribute_value: '1 г' },
+    ],
   },
 
   {
@@ -11093,14 +11551,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+    ],
   },
 
   {
@@ -11123,14 +11583,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+    ],
   },
 
   {
@@ -11153,14 +11615,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+    ],
   },
 
   {
@@ -11183,14 +11647,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+    ],
   },
 
   {
@@ -11219,14 +11685,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11253,14 +11721,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11283,14 +11753,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11315,14 +11787,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11349,14 +11823,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11381,14 +11857,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11411,14 +11889,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11443,14 +11923,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -11470,19 +11952,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11503,19 +11987,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11535,19 +12021,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11568,19 +12056,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11601,19 +12091,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11634,19 +12126,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -11665,14 +12159,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11691,14 +12187,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11717,14 +12215,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11743,14 +12243,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11769,14 +12271,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11795,14 +12299,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11821,14 +12327,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11849,14 +12357,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -11875,14 +12385,16 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_chocolateType: {
-      attribute_name: 'Тип шоколаду',
-      attribute_value: 'Молочний',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Тип шоколаду',
+        attribute_value: 'Молочний',
+      },
+    ],
   },
 
   {
@@ -12066,26 +12578,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Мішок кондитерський',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
-    product_detail_length: {
-      attribute_name: 'Довжина',
-      attribute_value: '300 мм',
-    },
-    product_detail_setQuantity: {
-      attribute_name: 'Кількість в наборі',
-      attribute_value: '1 шт.',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Китай',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Мішок кондитерський',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+      {
+        attribute_name: 'Довжина',
+        attribute_value: '300 мм',
+      },
+      {
+        attribute_name: 'Кількість в наборі',
+        attribute_value: '1 шт.',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Китай',
+      },
+    ],
   },
 
   {
@@ -12105,26 +12619,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Мішок кондитерський',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
-    product_detail_length: {
-      attribute_name: 'Довжина',
-      attribute_value: '350 мм',
-    },
-    product_detail_setQuantity: {
-      attribute_name: 'Кількість в наборі',
-      attribute_value: '1 шт.',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Китай',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Мішок кондитерський',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+      {
+        attribute_name: 'Довжина',
+        attribute_value: '350 мм',
+      },
+      {
+        attribute_name: 'Кількість в наборі',
+        attribute_value: '1 шт.',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Китай',
+      },
+    ],
   },
 
   {
@@ -12144,26 +12660,28 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Мішок кондитерський',
-    },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
-    product_detail_length: {
-      attribute_name: 'Довжина',
-      attribute_value: '350 мм',
-    },
-    product_detail_setQuantity: {
-      attribute_name: 'Кількість в наборі',
-      attribute_value: '1 шт.',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Китай',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Мішок кондитерський',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+      {
+        attribute_name: 'Довжина',
+        attribute_value: '350 мм',
+      },
+      {
+        attribute_name: 'Кількість в наборі',
+        attribute_value: '1 шт.',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Китай',
+      },
+    ],
   },
 
   {
@@ -12184,14 +12702,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -12229,10 +12749,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -12602,15 +13124,17 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      { attribute_name: 'Вага', attribute_value: '5 г' },
+    ],
   },
 
   {
@@ -12630,20 +13154,25 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'Состав: вода, лимонная кислота, глицерин, сахар, крахмал, загустители:   Е410, Е412; консерванты: Е202, Е211, красители пищевые: Е102, Е124, Е132. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '90 г',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'Состав: вода, лимонная кислота, глицерин, сахар, крахмал, загустители:   Е410, Е412; консерванты: Е202, Е211, красители пищевые: Е102, Е124, Е132. ',
+      },
+    ],
   },
 
   {
@@ -12961,14 +13490,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -12997,14 +13528,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13033,14 +13566,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13063,14 +13598,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13095,14 +13632,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13127,14 +13666,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13159,14 +13700,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13189,14 +13732,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13219,14 +13764,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13249,14 +13796,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13279,14 +13828,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13313,14 +13864,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13345,14 +13898,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -13372,19 +13927,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -13601,19 +14158,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -13655,19 +14214,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13687,19 +14251,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13719,19 +14288,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13751,19 +14325,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13783,19 +14362,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13815,19 +14399,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13847,19 +14436,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13879,19 +14473,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13911,19 +14510,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13943,19 +14547,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -13976,19 +14585,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -14008,19 +14622,24 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+    ],
   },
 
   {
@@ -14258,19 +14877,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -14290,19 +14911,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -14322,19 +14945,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -14357,19 +14982,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -14389,20 +15016,22 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+    ],
   },
 
   {
@@ -14423,24 +15052,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14461,24 +15098,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14499,24 +15144,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14537,24 +15190,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14575,24 +15236,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14613,24 +15282,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14651,24 +15328,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14689,24 +15374,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14726,24 +15419,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14763,24 +15464,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -14802,16 +15511,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14833,16 +15544,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14864,16 +15577,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14895,16 +15610,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14926,16 +15643,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14957,16 +15676,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -14988,16 +15709,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -15019,16 +15742,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -15050,16 +15775,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -15081,16 +15808,18 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '90 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '90 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахар, желатин, регулятор кислотности- кислота лимонная моногидрат пищевой   Е330, ароматизатор пищевой, идентичный натуральному, краситель   синтетический пищевой Е 122. ',
+      },
+    ],
   },
 
   {
@@ -15110,11 +15839,16 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '75 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '75 г',
+      },
+    ],
   },
 
   {
@@ -15135,11 +15869,16 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '75 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '75 г',
+      },
+    ],
   },
 
   {
@@ -15159,11 +15898,13 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '70 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '70 г' },
+    ],
   },
 
   {
@@ -15183,11 +15924,13 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '70 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '70 г' },
+    ],
   },
 
   {
@@ -15207,11 +15950,13 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '70 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '70 г' },
+    ],
   },
 
   {
@@ -15231,11 +15976,13 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '70 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      { attribute_name: 'Вага', attribute_value: '70 г' },
+    ],
   },
 
   {
@@ -15256,18 +16003,20 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Шоколад',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Шоколад',
+      },
+    ],
   },
 
   {
@@ -15288,18 +16037,20 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Шоколад',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Шоколад',
+      },
+    ],
   },
 
   {
@@ -15320,19 +16071,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15353,19 +16106,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15387,19 +16142,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15421,19 +16178,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15455,19 +16214,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15489,19 +16250,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15521,19 +16284,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -15553,24 +16318,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -15591,28 +16364,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -15633,28 +16414,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -15675,28 +16464,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -15717,28 +16514,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -15757,19 +16562,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -15791,24 +16598,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -15830,24 +16645,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -15868,24 +16691,32 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -15906,24 +16737,32 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -15945,24 +16784,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -15983,24 +16830,32 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -16022,24 +16877,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -16061,24 +16924,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -16100,24 +16971,32 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '5 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '5 г',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+    ],
   },
 
   {
@@ -16136,19 +17015,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16167,19 +17048,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16198,19 +17081,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16229,19 +17114,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16260,19 +17147,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16291,19 +17180,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16322,19 +17213,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16354,19 +17247,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16386,19 +17281,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16418,19 +17315,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16449,19 +17348,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16480,19 +17381,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16511,19 +17414,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16543,19 +17448,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16574,19 +17481,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16605,19 +17514,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16636,19 +17547,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16667,19 +17580,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16698,19 +17613,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16729,19 +17646,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16760,19 +17679,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16791,19 +17712,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16823,19 +17746,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16855,19 +17780,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16886,19 +17813,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16917,19 +17846,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16948,19 +17879,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -16979,19 +17912,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17010,19 +17945,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17041,19 +17978,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17072,19 +18011,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17103,19 +18044,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17134,19 +18077,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17165,19 +18110,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17196,19 +18143,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17228,19 +18177,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17259,19 +18210,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17291,19 +18244,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17322,19 +18277,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17353,19 +18310,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -17384,15 +18343,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17411,15 +18375,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17438,15 +18407,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17465,15 +18439,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17492,15 +18471,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17519,15 +18503,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17546,15 +18535,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17573,15 +18567,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17600,15 +18599,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17627,15 +18631,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17654,15 +18663,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17681,15 +18695,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17708,15 +18727,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17735,15 +18759,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17762,15 +18791,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17789,15 +18823,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17816,15 +18855,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -17845,19 +18889,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -17896,24 +18942,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -17933,24 +18987,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -17970,24 +19032,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18007,24 +19077,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18044,24 +19122,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18081,24 +19167,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18118,24 +19212,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18155,24 +19257,32 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -18205,34 +19315,36 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Харчове золото',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Картонна',
-    },
-    product_detail_minTemperature: {
-      attribute_name: 'Мінімальна температура зберігання',
-      attribute_value: '20 град.',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '30 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Харчове золото',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Картонна',
+      },
+      {
+        attribute_name: 'Мінімальна температура зберігання',
+        attribute_value: '20 град.',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '30 град.',
+      },
+    ],
   },
 
   {
@@ -18261,28 +19373,30 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '1 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Харчове золото',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Без смаку і запаху',
-    },
-    product_detail_minTemperature: {
-      attribute_name: 'Мінімальна температура зберігання',
-      attribute_value: '20 град.',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '30 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      { attribute_name: 'Вага', attribute_value: '1 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Харчове золото',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Без смаку і запаху',
+      },
+      {
+        attribute_name: 'Мінімальна температура зберігання',
+        attribute_value: '20 град.',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '30 град.',
+      },
+    ],
   },
 
   {
@@ -18417,15 +19531,20 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Сухий барвник',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '3 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Сухий барвник',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '3 г',
+      },
+    ],
   },
 
   {
@@ -18482,14 +19601,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -18509,24 +19630,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -18546,24 +19669,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -18583,24 +19708,26 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Гелевий барвник',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластикова банка',
-    },
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Італія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '20 г' },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Гелевий барвник',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'вода, кукурузный сироп с высоким содержанием фруктозы, глицерин, сахар,   сорбит, модифицированный пищевой кукурузный крахмал, красный 40 (Е129),   желтый 5 (Е102), голубой 1 (Е133), желтый 6 (Е1 ), карагенан, агар,   бензонат натрия (консервант), голубой 2 (Е132), лимонная кислота, сорбат   калия (консервант). ',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластикова банка',
+      },
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Італія',
+      },
+      { attribute_name: 'Вага', attribute_value: '20 г' },
+    ],
   },
 
   {
@@ -18619,10 +19746,12 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Олівець/Фломастер',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Олівець/Фломастер',
+      },
+    ],
   },
 
   {
@@ -18643,18 +19772,20 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Шоколад',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Шоколад',
+      },
+    ],
   },
 
   {
@@ -18677,18 +19808,20 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Шоколад',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Шоколад',
+      },
+    ],
   },
 
   {
@@ -18708,11 +19841,16 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Німеччина',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Німеччина',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '8 г',
+      },
+    ],
   },
 
   {
@@ -18732,11 +19870,16 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Німеччина',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Німеччина',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '8 г',
+      },
+    ],
   },
 
   {
@@ -18756,11 +19899,16 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Німеччина',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Німеччина',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '8 г',
+      },
+    ],
   },
 
   {
@@ -18780,11 +19928,16 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Німеччина',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Німеччина',
+      },
+      {
+        attribute_name: 'Вага',
+        attribute_value: '8 г',
+      },
+    ],
   },
 
   {
@@ -18919,10 +20072,12 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Олівець/Фломастер',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Олівець/Фломастер',
+      },
+    ],
   },
 
   {
@@ -18944,14 +20099,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Олівець/Фломастер',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Олівець/Фломастер',
+      },
+    ],
   },
 
   {
@@ -18977,14 +20134,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19006,14 +20165,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19035,14 +20196,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19066,14 +20229,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19094,14 +20259,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19122,14 +20289,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_coverageType: {
-      attribute_name: 'Вид покриття',
-      attribute_value: 'глазур',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид покриття',
+        attribute_value: 'глазур',
+      },
+    ],
   },
 
   {
@@ -19149,23 +20318,25 @@ export const db = [
     brand: 'Schokinag',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Німеччина',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Какао-порошок',
-    },
-    product_detail_fatness: {
-      attribute_name: 'Жирність',
-      attribute_value: '53 %',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '100 г' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Дой-пак',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Німеччина',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Какао-порошок',
+      },
+      {
+        attribute_name: 'Жирність',
+        attribute_value: '53 %',
+      },
+      { attribute_name: 'Вага', attribute_value: '100 г' },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Дой-пак',
+      },
+    ],
   },
 
   {
@@ -19184,31 +20355,33 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Туреччина',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '50 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: {
-      attribute_name: 'Смак',
-      attribute_value: 'Шоколад',
-    },
-    product_detail_minTemperature: {
-      attribute_name: 'Мінімальна температура зберігання',
-      attribute_value: '18 град.',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '20 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Туреччина',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Вага', attribute_value: '50 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Шоколад',
+      },
+      {
+        attribute_name: 'Мінімальна температура зберігання',
+        attribute_value: '18 град.',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '20 град.',
+      },
+    ],
   },
 
   {
@@ -19228,16 +20401,18 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '7 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'бикарбонат аммония Е503іі, антислеживатель: карбонат магния Е504і ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '7 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'бикарбонат аммония Е503іі, антислеживатель: карбонат магния Е504і ',
+      },
+    ],
   },
 
   {
@@ -19257,16 +20432,18 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '48 г' },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'сахарная пудра, сироп глюкозы, загуститель: модифицированный картоплянний   крахмал, гидрогенизированное пальмоядровое масло, эмульгаторы: Е471,   Е472е, козеинат натрия, стабилизаторы: фосфат калия, фосфат кальция,   искусственный ароматизатор сливки ',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '48 г' },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'сахарная пудра, сироп глюкозы, загуститель: модифицированный картоплянний   крахмал, гидрогенизированное пальмоядровое масло, эмульгаторы: Е471,   Е472е, козеинат натрия, стабилизаторы: фосфат калия, фосфат кальция,   искусственный ароматизатор сливки ',
+      },
+    ],
   },
 
   {
@@ -19286,11 +20463,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '100 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '100 г' },
+    ],
   },
 
   {
@@ -19312,11 +20491,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '100 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '100 г' },
+    ],
   },
 
   {
@@ -19338,11 +20519,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '100 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '100 г' },
+    ],
   },
 
   {
@@ -19362,11 +20545,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -19388,11 +20573,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '8 г' },
+    ],
   },
 
   {
@@ -19412,11 +20599,13 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '8 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '8 г' },
+    ],
   },
 
   {
@@ -19440,23 +20629,25 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Какао-порошок',
-    },
-    product_detail_fatness: {
-      attribute_name: 'Жирність',
-      attribute_value: '22 %',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '100 г' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Картонна пачка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Какао-порошок',
+      },
+      {
+        attribute_name: 'Жирність',
+        attribute_value: '22 %',
+      },
+      { attribute_name: 'Вага', attribute_value: '100 г' },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Картонна пачка',
+      },
+    ],
   },
 
   {
@@ -19482,15 +20673,17 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '200 г' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пачка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '200 г' },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пачка',
+      },
+    ],
   },
 
   {
@@ -19512,19 +20705,21 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '50 г' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пакет',
-    },
-    product_detail_expirationDate: {
-      attribute_name: 'Термін придатності',
-      attribute_value: '18 міс',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Вага', attribute_value: '50 г' },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пакет',
+      },
+      {
+        attribute_name: 'Термін придатності',
+        attribute_value: '18 міс',
+      },
+    ],
   },
 
   {
@@ -19545,20 +20740,22 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    ],
   },
 
   {
@@ -19580,10 +20777,12 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+    ],
   },
 
   {
@@ -19604,20 +20803,22 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    ],
   },
 
   {
@@ -19638,20 +20839,22 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+      { attribute_name: 'Смак', attribute_value: 'Ваніль' },
+    ],
   },
 
   {
@@ -19671,16 +20874,18 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+    ],
   },
 
   {
@@ -19700,16 +20905,18 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Румунія',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Кондитерська посипання',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Румунія',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Кондитерська посипання',
+      },
+    ],
   },
 
   {
@@ -19730,19 +20937,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19763,19 +20972,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19796,19 +21007,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19829,19 +21042,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19860,19 +21075,21 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19901,19 +21118,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Безе',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Безе',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19937,18 +21156,20 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -19969,27 +21190,29 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -20120,24 +21343,34 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
+    product_detail: [
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+    ],
   },
 
   {
@@ -20157,24 +21390,34 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
+    product_detail: [
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+    ],
   },
 
   {
@@ -20194,24 +21437,34 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+    ],
+    product_detail: [
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+    ],
   },
 
   {
@@ -20289,19 +21542,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20322,19 +21577,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20355,19 +21612,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20388,19 +21647,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20421,19 +21682,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20454,19 +21717,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20487,19 +21752,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20520,19 +21787,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20553,19 +21822,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20586,19 +21857,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20619,19 +21892,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20652,19 +21927,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20685,19 +21962,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20718,19 +21997,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20751,19 +22032,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20784,19 +22067,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20817,19 +22102,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20852,19 +22139,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20885,19 +22174,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20918,19 +22209,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20951,19 +22244,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -20984,19 +22279,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21017,19 +22314,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21050,19 +22349,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21083,19 +22384,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21116,19 +22419,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21205,19 +22510,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -21236,19 +22543,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -21267,19 +22576,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -21298,19 +22609,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -21329,19 +22642,21 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Польща',
-    },
-    product_detail_composition: {
-      attribute_name: 'Склад',
-      attribute_value:
-        'смесь ароматических веществ, пропиленгликоль с дозатором.',
-    },
-    product_detail_volume: {
-      attribute_name: 'Об`єм',
-      attribute_value: '10 мл',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Польща',
+      },
+      {
+        attribute_name: 'Склад',
+        attribute_value:
+          'смесь ароматических веществ, пропиленгликоль с дозатором.',
+      },
+      {
+        attribute_name: 'Об`єм',
+        attribute_value: '10 мл',
+      },
+    ],
   },
 
   {
@@ -21362,19 +22677,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21395,19 +22712,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21468,19 +22787,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21500,19 +22821,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21663,28 +22986,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -21725,19 +23056,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21758,19 +23091,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21793,19 +23128,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21826,20 +23163,22 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '114 г' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      { attribute_name: 'Вага', attribute_value: '114 г' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -21879,19 +23218,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
   },
 
   {
@@ -22091,19 +23432,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -22125,19 +23468,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -22157,19 +23502,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -22193,19 +23540,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -22225,19 +23574,21 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Великобританія',
-    },
-    product_detail_typeAndFormOfIssue: {
-      attribute_name: 'Вид та форма випуску',
-      attribute_value: 'Кандурин',
-    },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Пластиковий флакон спрей',
-    },
-    product_detail_weight: { attribute_name: 'Вага', attribute_value: '10 г' },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Великобританія',
+      },
+      {
+        attribute_name: 'Вид та форма випуску',
+        attribute_value: 'Кандурин',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Пластиковий флакон спрей',
+      },
+      { attribute_name: 'Вага', attribute_value: '10 г' },
+    ],
   },
 
   {
@@ -22262,14 +23613,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Нержавіюча сталь',
-    },
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Нержавіюча сталь',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -22290,28 +23643,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -22392,28 +23753,36 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_producingCountry: {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    product_detail_confectioneryProductsType: {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Кондитерський декор',
-    },
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Фасовані' },
-    product_detail_decorType: {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-    product_detail_taste: { attribute_name: 'Смак', attribute_value: 'Ваніль' },
-    product_detail_packaging: {
-      attribute_name: 'Упаковка',
-      attribute_value: 'Коробка',
-    },
-    product_detail_maxTemperature: {
-      attribute_name: 'Максимальна температура зберігання',
-      attribute_value: '25 град.',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Кондитерський декор',
+      },
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Фасовані',
+      },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+      {
+        attribute_name: 'Смак',
+        attribute_value: 'Ваніль',
+      },
+      {
+        attribute_name: 'Упаковка',
+        attribute_value: 'Коробка',
+      },
+      {
+        attribute_name: 'Максимальна температура зберігання',
+        attribute_value: '25 град.',
+      },
+    ],
   },
 
   {
@@ -25327,10 +26696,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -25404,11 +26775,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Плунжер' },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Плунжер',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -25703,10 +27079,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Килимок кондитерський',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Килимок кондитерський',
+      },
+    ],
   },
 
   {
@@ -25870,10 +27248,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -25892,10 +27272,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -25914,10 +27296,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -25936,10 +27320,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -25958,10 +27344,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -25980,10 +27368,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -26002,10 +27392,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -26066,10 +27458,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -26088,10 +27482,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -26110,11 +27506,16 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Вирубка' },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Вирубка',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -27996,10 +29397,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -28019,11 +29422,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Плунжер' },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Плунжер',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -29912,10 +31320,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -29936,10 +31346,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -29958,10 +31370,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -29980,10 +31394,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30002,10 +31418,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -30024,10 +31442,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30064,7 +31484,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Вирубка' },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Вирубка',
+      },
+    ],
   },
 
   {
@@ -30121,10 +31546,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -30161,7 +31588,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Вирубка' },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Вирубка',
+      },
+    ],
   },
 
   {
@@ -30182,11 +31614,16 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Вирубка' },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Вирубка',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -30353,11 +31790,16 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_type: { attribute_name: 'Тип', attribute_value: 'Плунжер' },
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Плунжер',
+      },
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -30376,10 +31818,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30398,10 +31842,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30420,10 +31866,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30442,10 +31890,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30464,10 +31914,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30486,10 +31938,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30508,10 +31962,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30590,10 +32046,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30697,10 +32155,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -30719,10 +32179,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -31018,10 +32480,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -31081,10 +32545,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Пластик',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Пластик',
+      },
+    ],
   },
 
   {
@@ -31804,10 +33270,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -31826,10 +33294,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -31884,10 +33354,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32228,10 +33700,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32251,10 +33725,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32274,10 +33750,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32296,10 +33774,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32319,10 +33799,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32342,10 +33824,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32365,10 +33849,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Помаранчевий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32388,10 +33874,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32410,10 +33898,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32433,10 +33923,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32456,10 +33948,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32478,10 +33972,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32501,10 +33997,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32523,10 +34021,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -32546,10 +34046,12 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Дерево',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Дерево',
+      },
+    ],
   },
 
   {
@@ -34203,10 +35705,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -34225,10 +35729,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Силікон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Силікон',
+      },
+    ],
   },
 
   {
@@ -35557,10 +37063,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35580,10 +37088,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35603,10 +37113,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35626,10 +37138,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35649,10 +37163,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35672,10 +37188,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -35694,10 +37212,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_material: {
-      attribute_name: 'Матеріал',
-      attribute_value: 'Картон',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Матеріал',
+        attribute_value: 'Картон',
+      },
+    ],
   },
 
   {
@@ -36345,10 +37865,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36367,10 +37889,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36389,10 +37913,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36411,10 +37937,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36433,10 +37961,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36455,10 +37985,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
@@ -36477,10 +38009,12 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail_type: {
-      attribute_name: 'Тип',
-      attribute_value: 'Насадка кондитерська',
-    },
+    product_detail: [
+      {
+        attribute_name: 'Тип',
+        attribute_value: 'Насадка кондитерська',
+      },
+    ],
   },
 
   {
