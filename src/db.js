@@ -10,7 +10,7 @@ export const db = [
     image:
       'https://images.prom.ua/MX8wKsD0Nk9Y1PRv8lEwjsQQqie17sRBAi_tbk0WDP4=/4364217838_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -28,7 +28,7 @@ export const db = [
     image:
       'https://images.prom.ua/hxe5kP2jDjc0WNFL-L06OnOkALxHlyoT6W_6RviJsJg=/4364292660_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -46,7 +46,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hd1MyzcR5MhKawgzF4OBLEhLZHgfEJqCAgZO8OJJ8f4=/4364299170_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -64,7 +64,7 @@ export const db = [
     image:
       'https://images.prom.ua/TGreGRDP6FTbjDNYVNGMzShn6UGgaXYEHuBxmEocD5E=/4364302518_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -82,7 +82,7 @@ export const db = [
     image:
       'https://images.prom.ua/KuoAXuouwOkSm4LycvFDJntMGkBJXr3wfN7B43WnbKc=/4364305188_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'БЕТ',
@@ -101,7 +101,7 @@ export const db = [
     image:
       'https://images.prom.ua/VhcGciMk1q3YnArGwGXSPHhmLetsjb-yIKSzFTxCTLs=/4364308542_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '105.00',
+    price: 105.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -119,7 +119,7 @@ export const db = [
     image:
       'https://images.prom.ua/rnTxVxFGT5YD8gbPVjs4y1T7Imk-Nt5msuLm9H6onQA=/4364312129_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '49.00',
+    price: 49.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -138,7 +138,7 @@ export const db = [
     image:
       'https://images.prom.ua/yX7990QgsyZcv6OvuwdXarUGAeoUQR5Fl57eQWol5eM=/4364320809_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -156,7 +156,7 @@ export const db = [
     image:
       'https://images.prom.ua/CAqKEoVzuy_IfJKx0ioH6i-T_wAOHHnA9tHXqxeFO3Q=/4364323351_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '49.00',
+    price: 49.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -175,7 +175,7 @@ export const db = [
     image:
       'https://images.prom.ua/BczqFimqAyxsKaWAdakmi8EJqua749Y0U-5b0_m5wF0=/4364330689_barvnik-harchovij-naturalnij.jpg',
     availability: 'in stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -194,7 +194,7 @@ export const db = [
     image:
       'https://images.prom.ua/tMJfIp90VS-KZz-fjTG0_0lgCF-1627eo_MQhqIugjo=/4364342093_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '49.00',
+    price: 49.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -213,7 +213,7 @@ export const db = [
     image:
       'https://images.prom.ua/wwGGhb0_zjTkC4mNYQZmUTvlSp2F2hkBpPnlpqXURvE=/4364350155_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -231,7 +231,7 @@ export const db = [
     image:
       'https://images.prom.ua/eq3_8q3SNIxczKpSc76edDahE4qv3bQlI0fvFjfG39Y=/4364356763_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '49.00',
+    price: 49.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -250,7 +250,7 @@ export const db = [
     image:
       'https://images.prom.ua/S1tRlamTPc3eR9gnXp_yqavjs39k0mMAacUwqmSYs8w=/4364361942_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -268,7 +268,7 @@ export const db = [
     image:
       'https://images.prom.ua/KIqPpOmJziUn371Pm-R1Bf4dUPk9W6_V3ZPy9ErviyY=/4364379449_barvnik-naturalnij-suhij.jpg',
     availability: 'in stock',
-    price: '38.00',
+    price: 38.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -286,7 +286,7 @@ export const db = [
     image:
       'https://images.prom.ua/Nv6tRtyVgN_KvEoUb6ORjwtENczmhRG5efWmdPh_C_A=/4364389191_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '38.00',
+    price: 38.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -305,7 +305,7 @@ export const db = [
     image:
       'https://images.prom.ua/iZk3-OCp0FNNUCuLZ0JFpSRvHX9BrytkGYUlIYMrN9s=/4364398826_barvnik-naturalnij-suhij.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -324,7 +324,7 @@ export const db = [
     image:
       'https://images.prom.ua/qChPiS51MuM2ovmIn54pnER3pTIBvtJd3xAiWbB6QE0=/4364412709_barvnik-naturalnij-suhij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -343,7 +343,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZeyPeP8XBrNvE3fsZ8snCSMbF51hXDo7Zovs6gwTA5U=/4365957764_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -361,7 +361,7 @@ export const db = [
     image:
       'https://images.prom.ua/rMWqCRBumkyHu5SPMWyaVjv5f-zYnzM02fkhdyA1Ejs=/4365972665_barvnik-harchovij-naturalnij.jpg',
     availability: 'out of stock',
-    price: '115.00',
+    price: 115.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -380,7 +380,7 @@ export const db = [
     image:
       'https://images.prom.ua/fi7VRO9kpCqEJumUrCprgKrCcAQvKHZYp_LoHrK6T9M=/4365981563_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -398,7 +398,7 @@ export const db = [
     image:
       'https://images.prom.ua/vBKWKdvUskutgjbJm4iyV6wnCvgBc-pmdj7_59Gzlww=/4366086459_barvnik-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -416,7 +416,7 @@ export const db = [
     image:
       'https://images.prom.ua/gj689FygtS6FMYd_-GXt1f-PCfAXI27rEM0aAeCzcTQ=/4366092137_barvnik-fuksiya-harchovij.jpg',
     availability: 'out of stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -434,7 +434,7 @@ export const db = [
     image:
       'https://images.prom.ua/1980mfnP2mRDOgL0McUT9fKT4SK7DPqoqkAhBIfSMdU=/4366104708_barvnik-zhovtij-harchovij.jpg',
     availability: 'out of stock',
-    price: '67.00',
+    price: 67.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -452,7 +452,7 @@ export const db = [
     image:
       'https://images.prom.ua/P4BZS6XZ-fDWJoV02b_Z11-psUh3VylYH4wgV3mGHJQ=/4366269943_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -470,7 +470,7 @@ export const db = [
     image:
       'https://images.prom.ua/c_asL_s_wxiegToCcxvaf1lSTykOF8ytGRjrM8uE2T4=/4366291854_barvnik-morska-hvilya.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -488,7 +488,7 @@ export const db = [
     image:
       'https://images.prom.ua/tIGO1tIM6FGsz-0rifkVRNNjAYq2nPVxQhhSdRg_J7Q=/4366300126_barvnik-korichnevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -506,7 +506,7 @@ export const db = [
     image:
       'https://images.prom.ua/WDmBAxIZA0nXF4I-bqfMukrefTGZoOn_olgRjLpLSXk=/4366309155_barvnik-bordovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -524,7 +524,7 @@ export const db = [
     image:
       'https://images.prom.ua/rXDW73fICxpQ6TXa7aJja6NAcrIsR1slzIPkEJg86xc=/4366318722_barvnik-zelene-yabluko.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -542,7 +542,7 @@ export const db = [
     image:
       'https://images.prom.ua/8xQ0uX6nospb2lD4T42w87ZRU-WeHJIqOka3TUF9n00=/4366324795_barvnik-zhovtij-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -560,7 +560,7 @@ export const db = [
     image:
       'https://images.prom.ua/vYRn_19GNuXzf0HK0sWwWlbmlIByIACinPwZg5lznWM=/4366343875_barvnik-temno-sinij-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -578,7 +578,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vo8hnRc2RlCfFPRjhpc29sEMTL3nUG7JzWO74YT1Htc=/4366344346_barvnik-malina-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -596,7 +596,7 @@ export const db = [
     image:
       'https://images.prom.ua/mzZsE3QIIFQ28vnjcHqzU1yfAXx41VExln6mSfaenhM=/4366352306_barvnik-yaskravo-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -614,7 +614,7 @@ export const db = [
     image:
       'https://images.prom.ua/P_SY35g6l-MvPWi8QHxTUUkd6X0Au94YpUzmDnZBgng=/4366355391_barvnik-svitlo-rozhevij-harchovij.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -632,7 +632,7 @@ export const db = [
     image:
       'https://images.prom.ua/J9thoVPCxt0YhntjJDn_ew9xOIz_niswwUNyGm3mZ5s=/4366366999_barvnik-yaskravo-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -650,7 +650,7 @@ export const db = [
     image:
       'https://images.prom.ua/4j-ctiAEDyQjL2tcZpWB4_pUDl4eUQQpVP62cMlrhuY=/4366373339_barvnik-rozhevo-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -668,7 +668,7 @@ export const db = [
     image:
       'https://images.prom.ua/UBEJumpdUPlrQBrZABU_gIvBc8WyUYURuMBEUfsFSq4=/4366377947_barvnik-temno-biryuzovij-harchovij.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -686,7 +686,7 @@ export const db = [
     image:
       'https://images.prom.ua/_yV5ygsVRPGaU1bCWLkZAcBdYuI0mE4yEh0ov80qTac=/4366384665_barvnik-svitlo-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -704,7 +704,7 @@ export const db = [
     image:
       'https://images.prom.ua/6od4giZ8-Ftxf8IQAhItE6-MXBQTMvB0pI-MBcr8ln4=/4366395528_barvnik-svitlo-biryuzovij-harchovij.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -722,7 +722,7 @@ export const db = [
     image:
       'https://images.prom.ua/S-ppL0GJwHzdq-wSEWxdZjEWf1vXjaJg26qBr7kTOFg=/4366401386_barvnik-svitlo-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -740,7 +740,7 @@ export const db = [
     image:
       'https://images.prom.ua/npZZ9jqWWZW1GU6uJOWV9R7H2tMxjde4toUKdX_VnJ8=/4366405064_barvnik-svitlo-blakitnij-harchovij.jpg',
     availability: 'out of stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -758,7 +758,7 @@ export const db = [
     image:
       'https://images.prom.ua/NCwi53CA4WPYHYsixjwJ6REPZaRAB7dLg0iNk42LgpQ=/4366410217_barvnik-yaskravo-zelenij-harchovij.jpg',
     availability: 'out of stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -776,7 +776,7 @@ export const db = [
     image:
       'https://images.prom.ua/tZOQ6zGC-8PMeDkPW15oPiYF_FvhNuD6ylz2DR5b1gg=/4366417513_barvnik-blakitnij-geliyevij.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -794,7 +794,7 @@ export const db = [
     image:
       'https://images.prom.ua/dwZfonbydoQOL8EWoBpnoUZboCaeSen49BRtqKJA9a4=/4366477330_barvnik-zelenij-vinograd.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -812,7 +812,7 @@ export const db = [
     image:
       'https://images.prom.ua/uEKbkWLiDV70UoaKphoAAuHtlF-yo9-AJ9Uk7fk5rdE=/4366483345_barvnik-shokoladnij-desert.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -830,7 +830,7 @@ export const db = [
     image:
       'https://images.prom.ua/SVeYBJM-Lvu_nX9n48qD6UgJZveswpIr_hq9ldn8kuM=/4366490722_barvnik-pyana-vishnya.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -848,7 +848,7 @@ export const db = [
     image:
       'https://images.prom.ua/7XBl2YvKsNawyvCFZLN14E6gzLqFoZHg02LAXpY2mLc=/4366500870_barvnik-sokovita-polunitsya.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -866,7 +866,7 @@ export const db = [
     image:
       'https://images.prom.ua/D14AQLE0BLQTv5RVaFFMjZyXXf5rONAkXIwOaQVCK_I=/4366511133_barvnik-sonyachnij-limon.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -884,7 +884,7 @@ export const db = [
     image:
       'https://images.prom.ua/MeZ9KYqsSHXGjPv71rHDv1BPrA_gL3jEZDzAl5c0JtI=/4366561191_barvnik-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -902,7 +902,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vrf9qDo5F-WxUpzS9WWJq96dY5rbLyJZFtqL0xtpdeo=/4366567818_barvnik-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -920,7 +920,7 @@ export const db = [
     image:
       'https://images.prom.ua/gyKSYpG4y-w1fLbDoVbBOL_XoVRvrdq-j_bBkS2s_tQ=/4366573844_barvnik-temno-korichnevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -938,7 +938,7 @@ export const db = [
     image:
       'https://images.prom.ua/VaGR3AmcrD1sfBz93_xdqC4XohKUq9gvmU7PTrBx958=/4366578806_barvnik-temno-sinij-harchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -956,7 +956,7 @@ export const db = [
     image:
       'https://images.prom.ua/kXIi3fEGmaxOhDQ3fLiCbq8ofbWsuQwQBPlloCoMC8I=/4366582233_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -974,7 +974,7 @@ export const db = [
     image:
       'https://images.prom.ua/Yp1AGfP4iZ8E9bMMQctqdQaSuzILTonnATP3Oamg0yk=/4366585257_barvnik-biryuzovij-harchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -992,7 +992,7 @@ export const db = [
     image:
       'https://images.prom.ua/7FqXkKmmfCshfeGVMGnOiM-D4QJGNX2g4EbfzuGxU9s=/4366589276_barvnik-zelenij-harchovij.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1010,7 +1010,7 @@ export const db = [
     image:
       'https://images.prom.ua/NnyWh0kD4NvzgZWz0JJ82MOG3KXBxDsOiQLnIeTLEI8=/4366591765_barvnik-zelene-yabluko.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1028,7 +1028,7 @@ export const db = [
     image:
       'https://images.prom.ua/IZbQy6bomeD_KSFiBTBYfaIJ1PsOZgh7cJ5V3ioFz3U=/4366595001_barvnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1046,7 +1046,7 @@ export const db = [
     image:
       'https://images.prom.ua/c0r6Ywo5rhC2RDrnUHVh34bNe2esUmu7RUPef7GgbUc=/4366602410_barvnik-diamantovij-sinij.jpg',
     availability: 'out of stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1064,7 +1064,7 @@ export const db = [
     image:
       'https://images.prom.ua/IeRBmvL0eKqtHN5ibUNbQT4cu21sVkvaYThH4BEhL2I=/4366607901_barvnik-chornij-sinij.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1084,7 +1084,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tAWHW5JAutOuS84mtB6YqOhPNeoDWFZ89eZWzUna6mg=/4552561275_kandurin-bilij-hameleon.jpg',
     availability: 'out of stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1104,7 +1104,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/CmFozXcjB6Hv7TTF-D9BhmOKRH_Tf_QNdQZ7a8dGL0c=/4552604603_kandurin-antichne-zoloto.jpg',
     availability: 'out of stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1124,7 +1124,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/r96dDlfzn3YJZ7wwHRz58eInVKu4Q-AKIhoFw3qwlng=/4552571757_kandurin-super-zoloto.jpg',
     availability: 'in stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1144,7 +1144,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/FE-nx4p_UH_WjpBw07IijjJCpLnCgM3v9qlTmKwxZqM=/4552600640_kandurin-zolotoj-diamant.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1164,7 +1164,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/RoEw-LFB6_S9-mXiCcOm9zUKeUZrkoRw0j3tYRlCozo=/4552607497_kandurin-antichne-sriblo.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1184,7 +1184,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/DuYs4Zo2hVjS_yBLMseB1G6ngHBJ6k0N_kiMD-iVRzc=/4552596055_kandurin-sribnij-blisk2.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1204,7 +1204,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/GTiOcJO_ppx9jwXVVpHbRk2kiE2olfhVl8ThXUf71dM=/4552580713_kandurin-chornij-2.jpg',
     availability: 'in stock',
-    price: '86.00',
+    price: 86.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1224,7 +1224,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/oAWBzIX8qTSH_U1FOe_RWQvSXkT6JBW8ztmNIpAvZVY=/4552590727_kandurin-chervonij-2.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1244,7 +1244,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/x36CzFVbCmtznkAroavwKbY3tOVRDW4_huqngrNG5iw=/4552613746_kandurin-fuksiya-2.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1264,7 +1264,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/w8wBnMjywmZ9qP9cypfDSgn-nzrc7stGWQ6UVkbrC-o=/4552550303_kandurin-fioletovij-2.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1284,7 +1284,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/y689zwyTdxgzjCJz6xdSAwjXOfVF1EQIxRgkIJVgSn8=/4552597826_kandurin-smaragd-2.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1304,7 +1304,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/hsQbXoJPF5Mu46nScMrVOIUAdgonRseONtyctk-5vFs=/4552593056_kandurin-sinij-granit2.jpg',
     availability: 'in stock',
-    price: '44.00',
+    price: 44.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1324,7 +1324,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/t1Vjl3AV1dDkTuCcdZ8cm3IEIIjqv-fgR7zN6M3OovU=/4552565775_kandurin-satin-2.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1344,7 +1344,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/DtBMv9-je7diP3GCgzbC78mnupOvZS7QN9dXF2ZluQI=/4552568674_kandurin-metalik-2.jpg',
     availability: 'in stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1364,7 +1364,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Tzp5kN3jGV36puWI8DdlTxJAcLzheefsz_kghC0jZFs=/4552573921_kandurin-korichnevij-2.jpg',
     availability: 'out of stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1384,7 +1384,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/_ewNiCkjjThfrc9JQlmVH5U1GMqoz-nLBn6rdi09qKI=/4552583795_kandurin-indigo-2.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1404,7 +1404,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/aIg6fZS9EIRxSiqcmmBkyI23df_IyXrHbQ9EHHPdHIA=/4552610710_kandurin-zolotista-myata.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1424,7 +1424,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Q6Ia9J-7krw7EX4W3sODH5F8YrWsd7yiR6-d1dErAkA=/4552615682_kandurin-zolotisto-zhovtij-2.jpg',
     availability: 'out of stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1444,7 +1444,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/qV6u-m48X_hWJKFIvDEY1Vk_TZp9PFQZ2jf3ftzi_u0=/4552576102_kandurin-zolotistij-pisok.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1464,7 +1464,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/8iUNU6AKNcpRfAmo9gzUyBwNSECfZ6Ec0ZZ_dDlb5RY=/4552578660_kandurin-blakitnij-2.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1484,7 +1484,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/fQ1HNoBrw7hh_c3mioRMPOrQ9r-vHf1FtO9J8Fu4rek=/4552602505_kandurin-stare-zoloto.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1504,7 +1504,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/28RBYwktsGDSsGqhsnzz58IsEruEzpR3vdEUXWLsR58=/4552586581_kandurin-zolotij-blisk.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1524,7 +1524,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/1qpY5HuWeEh-Dob613CnFL-yoHWZuia332mlRdmjgr8=/4552588072_kandurin-perlamutrovij-blisk.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1542,7 +1542,7 @@ export const db = [
     image:
       'https://images.prom.ua/yH6GwsFfQ0QSw00TP-nT32MPZCoVb8GgP4gmwUtQxIQ=/4367205474_barvnik-zelene-yabluko.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1560,7 +1560,7 @@ export const db = [
     image:
       'https://images.prom.ua/1Kvk3QLsJcPJWkWGStkNow1Ghq1B4RFOq8slkghPj2I=/4367225691_barvnik-korichnevij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1578,7 +1578,7 @@ export const db = [
     image:
       'https://images.prom.ua/QIC0yLe-cfubsCZj_HR322D24CJYuBiAijUo4vrmuDI=/4367236866_barvnik-lavandovij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1596,7 +1596,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZCP7qqyh0yIWdjLRtuCQWdJTApZk5LUd6FNmP14_gZU=/4367249868_barvnik-biryuzovij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1614,7 +1614,7 @@ export const db = [
     image:
       'https://images.prom.ua/xdgsg0SZsngux2bVKRRZJf4p26EQiH-6Ig7JsxnWiwk=/4367270115_barvnik-rozhevyj-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1632,7 +1632,7 @@ export const db = [
     image:
       'https://images.prom.ua/MA1VJsthGVAIFkMWDtJPgdUvJvPT7n9h_AotLEx_w7M=/4367270915_barvnik-blakitnij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1650,7 +1650,7 @@ export const db = [
     image:
       'https://images.prom.ua/xbPK_sRHgW_56tCuwWJLl_xHERnYk3ngz2S5UfmK7qg=/4367283829_barvnik-bilij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1668,7 +1668,7 @@ export const db = [
     image:
       'https://images.prom.ua/9fpPG8kSPrmndHts7YZOm9aqZUyqPkazG9PjJePb69U=/4367284629_barvnik-fioletovij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1686,7 +1686,7 @@ export const db = [
     image:
       'https://images.prom.ua/LEPqtGr6nki0gPwnNFFCbn31dKBAtlo3Aa8MboRvd8M=/4367285350_barvnik-zelenij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1704,7 +1704,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZJmMLpBJI8ycGKKTsyCAyPlvMP11WeTWd6rK3EdsN5g=/4367286567_barvnik-sinij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1722,7 +1722,7 @@ export const db = [
     image:
       'https://images.prom.ua/F0AES03aJlK--PGdJMDa6VBfqbBz4FGMM9-3X9uwSUc=/4367296297_barvnik-pomvrvnchevij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1740,7 +1740,7 @@ export const db = [
     image:
       'https://images.prom.ua/gB9vBIGOm4xdRZMofFXTjEeg6nkRIPRo5do7CvfCra8=/4367296902_barvnik-chernij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1758,7 +1758,7 @@ export const db = [
     image:
       'https://images.prom.ua/wnfD8gijA4b0ymXD_ezrZ9-0-Ny_BFP5Izrx9vK1oy4=/4367297357_barvnik-chervonij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1776,7 +1776,7 @@ export const db = [
     image:
       'https://images.prom.ua/JBxDalYULzN8pHPFbpRqDmUybwlc8yO1LhwY3C0emXM=/4367297928_barvnik-zhovtij-universalnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -1795,7 +1795,7 @@ export const db = [
     image:
       'https://images.prom.ua/Y7CiRjjGFRfcAhZZDFZS2W0qIr9s4eiG0uxNrMAPY-E=/4367341487_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -1815,7 +1815,7 @@ export const db = [
     image:
       'https://images.prom.ua/aPdaEmlj4R2OzlBh0-mMHcXx1fx_6pPs9jWPxxh3Tzs=/4383445459_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -1835,7 +1835,7 @@ export const db = [
     image:
       'https://images.prom.ua/D_J4E1I234mHENdisVWn9qeQtCahmnj1haVowHKgApg=/4490066174_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -1854,7 +1854,7 @@ export const db = [
     image:
       'https://images.prom.ua/rF6hJmuw7kys49XVAsSKZA4ar7Ojzr9AyMpELq6UOxU=/4367355421_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '159.00',
+    price: 159.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -1873,7 +1873,7 @@ export const db = [
     image:
       'https://images.prom.ua/KxUQHCKBjT1GQ6c1XEkefyUWYpu5y019Fogaex_3Oec=/4368367489_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '145.00',
+    price: 145.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1893,7 +1893,7 @@ export const db = [
     image:
       'https://images.prom.ua/5yHkwj-5M-jr0y5LZyr_-fV2ShWBnAdNYQepRj9rGHo=/4383470303_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1913,7 +1913,7 @@ export const db = [
     image:
       'https://images.prom.ua/qWLLH7kUsRZSMLSlOMlS0YMW7R8u76lcGUi9KZzYTlE=/5420508535_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1933,7 +1933,7 @@ export const db = [
     image:
       'https://images.prom.ua/OW7CluPn4X3uZrTv_BnHOMzGnlwwOudDNNNihPyItKw=/4368415428_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1953,7 +1953,7 @@ export const db = [
     image:
       'https://images.prom.ua/y-mDPSIZhYA--OnV168BndcIvN3xboDIFJqebjMms0o=/4368426776_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1975,7 +1975,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/4HMwJ9QZqHuBKAosEx5lgMKjGnNvPDVQTsQqHUAZOJM=/4383453343_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -1996,7 +1996,7 @@ export const db = [
     image:
       'https://images.prom.ua/j_ElUsi3oYqu4dFFjwtQZszr4Qhgr3ymK7sxCL8_c3A=/4368478536_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '120.00',
+    price: 120.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2015,7 +2015,7 @@ export const db = [
     image:
       'https://images.prom.ua/acSerzWIjjq4i6oLpiXfmYQz7E1o6UcDXm4VS1lSNL4=/4368490346_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2035,7 +2035,7 @@ export const db = [
     image:
       'https://images.prom.ua/gMBG_jr9m7xBxt_C8NH7rj_hpAU1-X3vXHA8eSCMP8s=/4368495090_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2055,7 +2055,7 @@ export const db = [
     image:
       'https://images.prom.ua/hFo1JwVrXTIUjBNepEplK5-Z6pqk_LsSB8iv_pCm8UQ=/4368502477_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2075,7 +2075,7 @@ export const db = [
     image:
       'https://images.prom.ua/kcHZ3EIdQkY99OADj_GZ9lQ-emY_LqHJpF92TSt9rVU=/4368506022_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2095,7 +2095,7 @@ export const db = [
     image:
       'https://images.prom.ua/za1ASjGG1sgp5x4v6n0sV1Rj-y3XBkgmvIhci11WVsg=/4368508592_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2115,7 +2115,7 @@ export const db = [
     image:
       'https://images.prom.ua/Oynn3mIewIv1M6tRmnezKJis7-3cd3w0EbDDH_98Sgg=/4368979237_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2135,7 +2135,7 @@ export const db = [
     image:
       'https://images.prom.ua/UpvB2RjDQdn6_A0XKrC89-97fpc2767AN_4GT6t0Xng=/4368988774_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2155,7 +2155,7 @@ export const db = [
     image:
       'https://images.prom.ua/2kinnHME20gXjwtnCPMkcLGR2BYrYO8EjWZX8Umncug=/4368992508_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2175,7 +2175,7 @@ export const db = [
     image:
       'https://images.prom.ua/_ufc6ZaJ9ghubPITvFDiLJtNVDBPA1LEawHqPEul2ro=/4369006120_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '159.00',
+    price: 159.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2194,7 +2194,7 @@ export const db = [
     image:
       'https://images.prom.ua/j34w_2w8xetM9f51WQLfNFJ1xgKt34JCvuf1hoeYn4s=/4638933250_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '117.00',
+    price: 117.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2214,7 +2214,7 @@ export const db = [
     image:
       'https://images.prom.ua/kfcSYEl1M2hOm4vIYRwQX2EIdUZbh-a9kvZhl66PzP0=/4530880623_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2234,7 +2234,7 @@ export const db = [
     image:
       'https://images.prom.ua/1XcdiwKra8VYHDt4DSKgBRyHjG9hKZqcVq_uVEfBeWI=/4369029620_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2255,7 +2255,7 @@ export const db = [
     image:
       'https://images.prom.ua/bV4B16z5BH9grhxp7K7ms6-MHM8fcHXQdKzw-vJFwps=/4369046971_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '133.00',
+    price: 133.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2276,7 +2276,7 @@ export const db = [
     image:
       'https://images.prom.ua/Tj-uHt2Ji0xrWEIU4rezaFebReyw5zpMIacJmzB46iQ=/4369052869_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2297,7 +2297,7 @@ export const db = [
     image:
       'https://images.prom.ua/ceSKqDpqBWt2taSHB3GXGwIJt-4UVqRfDOBxmpE9PWY=/4369063223_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2317,7 +2317,7 @@ export const db = [
     image:
       'https://images.prom.ua/-vbK43p_8x0V0n7anKJ78VvDtTK9yqPHEfTkz46aANQ=/4374307498_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '93.00',
+    price: 93.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2337,7 +2337,7 @@ export const db = [
     image:
       'https://images.prom.ua/kODlz_qSfA6YF1RP1oHoVKu9mnc4afOrraFOymD3GJc=/4374317070_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '88.00',
+    price: 88.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2357,7 +2357,7 @@ export const db = [
     image:
       'https://images.prom.ua/jx2oIt74jtZsJksBuEwMRPql5VEKmO5EN3nU3uvJ1SY=/4374333826_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '117.00',
+    price: 117.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2376,7 +2376,7 @@ export const db = [
     image:
       'https://images.prom.ua/6FaGLNF_GLK6ptRM8nbyl2wAasPo_1vBP--IY_gAk5s=/4374335426_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2396,7 +2396,7 @@ export const db = [
     image:
       'https://images.prom.ua/lrqs862qQxEQoibGgr8iktQffqptL-Al3BnZrnduxVc=/4518171313_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '119.00',
+    price: 119.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2415,7 +2415,7 @@ export const db = [
     image:
       'https://images.prom.ua/BB9YoUmLPGqb_866qMIfRlF3MOt1pjGlEoc2wSasmmc=/4374342344_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2434,7 +2434,7 @@ export const db = [
     image:
       'https://images.prom.ua/RQtAIJ_il8-XaDA_2mVVEByVKrc0x217lctLVezcvc8=/4374345836_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2455,7 +2455,7 @@ export const db = [
     image:
       'https://images.prom.ua/r0jFDRpCLjyAB5gZrLQ2IIxC0668RbINO9f37gj4f6A=/4374351545_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2475,7 +2475,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ms-soe4I7b_TC9qBoVizP62BxSOGLn6Oq3YxPEeV7B0=/4374352480_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '69.00',
+    price: 69.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2495,7 +2495,7 @@ export const db = [
     image:
       'https://images.prom.ua/XOFppy8WJwi3QSJi66mfKo0g_Sg163MVflTsrEq5DWo=/4374354708_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '69.00',
+    price: 69.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2515,7 +2515,7 @@ export const db = [
     image:
       'https://images.prom.ua/c6FHnQL05G1w_yUlQnaZv5xZ7bcqz7Jvgc8fypUEBHY=/4374355315_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2535,7 +2535,7 @@ export const db = [
     image:
       'https://images.prom.ua/cFCox0Txd6Hfnhuxps2aavVKZs9FxsvHsLoI7_QQX40=/4374357614_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '97.00',
+    price: 97.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2555,7 +2555,7 @@ export const db = [
     image:
       'https://images.prom.ua/3NDG5wn7kmBd3tNeIw9w0xm8BejY7lNkFSLqw96xiXE=/4374359848_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2575,7 +2575,7 @@ export const db = [
     image:
       'https://images.prom.ua/fUTqJHRZcLhulxkzmzruVzhKF3jhwYpEamISDS2eF2w=/4374363670_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '139.00',
+    price: 139.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2594,7 +2594,7 @@ export const db = [
     image:
       'https://images.prom.ua/WmF2s4m7naCHtt8jQI1OkfJhmY4CfPB0yP7Hy6K1X6w=/4374365677_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2618,7 +2618,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-dlya.jpg',
     availability: 'out of stock',
-    price: '250.00',
+    price: 250.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2637,7 +2637,7 @@ export const db = [
     image:
       'https://images.prom.ua/QUiUNAfUAGu1-6yqrkgYJdkMz60m6gjAj5CZstQkWxc=/4384898272_sriblo-harchove-dlya.jpg',
     availability: 'in stock',
-    price: '250.00',
+    price: 250.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2655,7 +2655,7 @@ export const db = [
     image:
       'https://images.prom.ua/t9INllwQp_0eL-CLfns2QeNCs_71bDt7SuWwiKXa_Ak=/5320479818_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '38.00',
+    price: 38.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2673,7 +2673,7 @@ export const db = [
     image:
       'https://images.prom.ua/BQzXqKoqGz7825zJBzgvBwA2qbyVh1MtSyzNbnRiEDw=/4384930748_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2692,7 +2692,7 @@ export const db = [
     image:
       'https://images.prom.ua/DV6JDfG1b3bHUrJLiBV3fYK-UZR1IZlYkncpR8eWHSI=/4384935878_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2710,7 +2710,7 @@ export const db = [
     image:
       'https://images.prom.ua/04XmVa28moMfrHPPWbny1HZGr49jwLyRgP8Ep8UJFdA=/4384940103_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '63.00',
+    price: 63.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2729,7 +2729,7 @@ export const db = [
     image:
       'https://images.prom.ua/vTUu1IoekRmS8GWOvV092apFc2aYuijZyQ24j4jAWmY=/4384943862_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2748,7 +2748,7 @@ export const db = [
     image:
       'https://images.prom.ua/BH3g4GLXbmhwMU383IUIPZuwdOg4dOgiBkm0Xcxu6rU=/5320477397_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '56.00',
+    price: 56.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -2767,7 +2767,7 @@ export const db = [
     image:
       'https://images.prom.ua/_dOWvkjrOepI9stbk5Sh-qIyJyVaMfjfn4Rm0qYMJgY=/5306258670_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '48.00',
+    price: 48.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2786,7 +2786,7 @@ export const db = [
     image:
       'https://images.prom.ua/RbdEk9MDqeyfPvJ6TxBCUMnrlA6ztc7xpfq_-qBZApA=/5320462343_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2805,7 +2805,7 @@ export const db = [
     image:
       'https://images.prom.ua/8h_0y41dS0nRywVirxFfiO-f1VwU5NT02rOvz0BLkns=/5306260176_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2824,7 +2824,7 @@ export const db = [
     image:
       'https://images.prom.ua/CyRxTrHtIzWMmAmULzFuTjpBYQsIEyqXkfHZtzFshJA=/5306263204_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2844,7 +2844,7 @@ export const db = [
     image:
       'https://images.prom.ua/xYvydZ7u0B_N-UeMMXBWBfl34xe1JZFYH0YtP0Jr8Sk=/5306254323_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2864,7 +2864,7 @@ export const db = [
     image:
       'https://images.prom.ua/JKrqXdZ_Mlod9RPBKYFUSiBCnGQ6_qSpxmq32oS8iWg=/4385000060_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2884,7 +2884,7 @@ export const db = [
     image:
       'https://images.prom.ua/qsucAp-F0NXO6a4O0_o3bgFASz2KVWhF03vEpWOBrgk=/5306264667_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2903,7 +2903,7 @@ export const db = [
     image:
       'https://images.prom.ua/tCmm2kRTGSNDQaMmQvESd2IUGUy5zE9yIyp1FLeKWoA=/5306147336_tsukrova-prikrasa-yistivna.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2921,7 +2921,7 @@ export const db = [
     image:
       'https://images.prom.ua/RjVUqvR4DYTUcBHEJrZ14kgD138UD3JR04-Gp6mthxU=/5306120287_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2940,7 +2940,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ya3kx_XVa73_71MPn5Ct5gHufNz0P51D02ZR3eB4-2s=/4385061016_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '47.00',
+    price: 47.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Украса',
@@ -2959,7 +2959,7 @@ export const db = [
     image:
       'https://images.prom.ua/LlA1Kf49twYP0Y6m7rmCEzGUYPo0WDtZZVwo468Vp6Q=/4385072142_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '119.00',
+    price: 119.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2978,7 +2978,7 @@ export const db = [
     image:
       'https://images.prom.ua/AWka3Bd11LnPKOYd8OavVeL1JeEQH0AtjczKuBMBfd0=/5306124641_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -2996,7 +2996,7 @@ export const db = [
     image:
       'https://images.prom.ua/Gmi3_xWtahl4_tuC7emEmzn2DFulNI35pzXoYIX0n9Q=/5306110635_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '89.00',
+    price: 89.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -3015,7 +3015,7 @@ export const db = [
     image:
       'https://images.prom.ua/9ehxkNg99vFtS6a_ubK20XG8H_4oU8uGHWsVm4xNf-w=/4385117809_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3033,7 +3033,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vs3ybHQGrshXiOKPrSEwlj2QlATrnr4bhm0tgxp1f4M=/5543496751_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -3052,7 +3052,7 @@ export const db = [
     image:
       'https://images.prom.ua/tVtL7B865RoEaxTh1kW4C0qm6u2xsT_vYY1nV3S1y-g=/5306092181_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '118.00',
+    price: 118.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3070,7 +3070,7 @@ export const db = [
     image:
       'https://images.prom.ua/nOmPmoZNPJkdVD9_8yRrnOL2tQDWiCdG4ZSdNrL-ojo=/4385136056_barvnik-blakitnij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3089,7 +3089,7 @@ export const db = [
     image:
       'https://images.prom.ua/nv7A3L5jgntqAGlaosIL4_CK28mrZSyd8eDdU4vOlig=/4385141630_barvnik-buzkovyj-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3108,7 +3108,7 @@ export const db = [
     image:
       'https://images.prom.ua/x3NoJzggsyitUX9DHxFOTS4OdSaQuzb2g2CSVLdcOH0=/4385144185_barvnik-vishnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3127,7 +3127,7 @@ export const db = [
     image:
       'https://images.prom.ua/CsTOtjiFE42uCjceUpX_Yx926xNVfna1IThF6fmzA4k=/4385147213_barvnik-granatovij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3146,7 +3146,7 @@ export const db = [
     image:
       'https://images.prom.ua/HKE_PwvqWj6zxXl6a7epUQfEYxukctZZXor-I_jfy3Y=/4385149909_barvnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3165,7 +3165,7 @@ export const db = [
     image:
       'https://images.prom.ua/TMgee_xHcfjX7nyjoQuu4gxUX8T8-VV_nzOkP9rVzk0=/4385152052_barvnik-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3184,7 +3184,7 @@ export const db = [
     image:
       'https://images.prom.ua/8zIrSc57ZKwkHVIWD0Ugw65KzIk4MA3Y7CuN7vCpf7I=/4385154454_barvnik-korichnevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3203,7 +3203,7 @@ export const db = [
     image:
       'https://images.prom.ua/6NGVPBYbtcb5HFBdJPpFK4Dzw7bhlmrB-eduDi5mRy0=/4385158602_barvnik-pomaranchevyj-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3222,7 +3222,7 @@ export const db = [
     image:
       'https://images.prom.ua/c5gyOBFY7y_9nFZrB9leKIAigihZaYXpDivqkMf7Juo=/4385161902_barvnik-svitlo-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3241,7 +3241,7 @@ export const db = [
     image:
       'https://images.prom.ua/NDRkFlpkBVV9l73Vw68hVRvHPfA0KA9Za1iSKFTUy0w=/4385166237_barvnik-sinij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3260,7 +3260,7 @@ export const db = [
     image:
       'https://images.prom.ua/bJR-aXnLeHG8FrUWqlv_WD3oj4JuI5rwI6AQwpwRWJk=/4385170721_barvnik-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3279,7 +3279,7 @@ export const db = [
     image:
       'https://images.prom.ua/fVwzL1tx1WA00KYcZTc2YEXA1qB7tLg5iGOQbx0ixFk=/4385173649_barvnik-chornij-harchovij.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3298,7 +3298,7 @@ export const db = [
     image:
       'https://images.prom.ua/dRX_SzygUxzUQLirBvwisiFIfj21xoJFdtXO5e6_TBQ=/5080432894_tsukrove-posipannya-ditinstvo.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3316,7 +3316,7 @@ export const db = [
     image:
       'https://images.prom.ua/xUo4wHdQ4rRX_yN_kI-UDOwLVaFjW2sV1_UUo4JLlF4=/5080463018_tsukrovi-serdechka-z.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3334,7 +3334,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vm4NMbIz8I7pwsSzIpj14EfirBeVwfzNCSv50fCthek=/5080447801_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3352,7 +3352,7 @@ export const db = [
     image:
       'https://images.prom.ua/ip23riUkGDCracQo1Jk-vPF24F3K9ZQqwyqVv90qIhA=/5080392992_tsukrova-posipka-miks.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3371,7 +3371,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ht8dXpGhQxsr2ddfpt2GIvXFMgoN-HKO557CSHvlQpw=/5080423526_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3389,7 +3389,7 @@ export const db = [
     image:
       'https://images.prom.ua/puEdRR1zyLG-B607Rcs1oMqeDWtkiidUiV5vp5RZrTg=/5080457415_tsukrova-posipka-miks.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3407,7 +3407,7 @@ export const db = [
     image:
       'https://images.prom.ua/9Rwf0UGLlhaokPrJou7Q4-8pNBiaCQ2z4gnhFIp-gtg=/5080443185_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3426,7 +3426,7 @@ export const db = [
     image:
       'https://images.prom.ua/FtHkV9oPJEg_R8vu-tVMdqvfmtq3dqWxSuCW7OPqGhg=/5080410956_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3444,7 +3444,7 @@ export const db = [
     image:
       'https://images.prom.ua/eWFGLabny-CjgShykMdHYRq5cmt3drc0rgxfWnYw_-g=/4418252519_shokoladne-posipannya-rozhevi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3463,7 +3463,7 @@ export const db = [
     image:
       'https://images.prom.ua/UR6NaLHkc9YilzGc3vtPYn_qhmQDAOvqhum5vT57VdE=/4418253110_shokoladne-posipannya-chervoni.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3482,7 +3482,7 @@ export const db = [
     image:
       'https://images.prom.ua/z_Yit2R07b4ZeGC08f3JGpP_ft2psnFYEODXip396Bg=/5080418527_tsukrovi-perlini-blaktni.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3501,7 +3501,7 @@ export const db = [
     image:
       'https://images.prom.ua/CoUzTvHbnSYs-oHJjiXZi5acFbohBlT7_y0z94ZJ0v0=/5105851748_tsukrovi-perlini-rozhevi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3520,7 +3520,7 @@ export const db = [
     image:
       'https://images.prom.ua/F9687xjvLvfSXeOLVBCViYoi7UIDIObqFgggmT09lek=/4391550184_barvnik-blakitnij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3539,7 +3539,7 @@ export const db = [
     image:
       'https://images.prom.ua/TaqOqHqmJh7A8lj3fBX1ibzF74DRyWecJOt5E5Bx3Dk=/4391652189_barvnik-biryuzovij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3558,7 +3558,7 @@ export const db = [
     image:
       'https://images.prom.ua/cT2u0qtEcdWV0jCYfhG0kGL4QyGbKo9n5RiHSr44sXY=/4391661981_barvnik-buzkovij-harchovij.jpg',
     availability: 'in stock',
-    price: '72.00',
+    price: 72.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3577,7 +3577,7 @@ export const db = [
     image:
       'https://images.prom.ua/eEWC7eU3nfZB6L635pjUDDpwGAwoGOENRLsrbDeMoGY=/4391668264_barvnik-vishnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3596,7 +3596,7 @@ export const db = [
     image:
       'https://images.prom.ua/rL0IKkg3Fd3dAZzlW94qAOOFU3AxcUscH21EFRy1s60=/4391677107_barvnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3615,7 +3615,7 @@ export const db = [
     image:
       'https://images.prom.ua/L8IOlmCQ6QXDUFOjHOIxPFONUaf3sN4-Fl6laMdkrzo=/4391680721_barvnik-zelenij-kivi.jpg',
     availability: 'in stock',
-    price: '72.00',
+    price: 72.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3634,7 +3634,7 @@ export const db = [
     image:
       'https://images.prom.ua/plg91tQjGVg3xiXCdjDWlX-EdCZ17acEgc0z7n3PdUQ=/4391685651_barvnik-zelene-yabluko.jpg',
     availability: 'in stock',
-    price: '72.00',
+    price: 72.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3653,7 +3653,7 @@ export const db = [
     image:
       'https://images.prom.ua/HGzzj0xTsmVSnCp-ym3faWE35WvqhezRrdda7Avuhvw=/4391690343_barvnik-korichnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3672,7 +3672,7 @@ export const db = [
     image:
       'https://images.prom.ua/xwK3WD47Eg88QTY4QXGNz8ucf2_erisxKlq1ZpzX-P4=/4391695172_barvnik-nizhno-rozhevij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3691,7 +3691,7 @@ export const db = [
     image:
       'https://images.prom.ua/B-cZRolVb4n6kJvqMtjOlKc8737QihbkSi0hd5Sk-dc=/4391707646_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3710,7 +3710,7 @@ export const db = [
     image:
       'https://images.prom.ua/mXDOoJ80e9BnkB8h1b4rPZH_E4fVi28qHHM8ieZE7x0=/4391712627_barvnik-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '72.00',
+    price: 72.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3729,7 +3729,7 @@ export const db = [
     image:
       'https://images.prom.ua/a5D2lTMW743LRzFW5ggZ8TzG3OleHhRej9YHpNo-eAc=/4391719387_barvnik-chervonij-harchovij.jpg',
     availability: 'out of stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3748,7 +3748,7 @@ export const db = [
     image:
       'https://images.prom.ua/a5UqHZlEwJ-GD8g6FDE9ZyQxtKGN85PzUjrbRKF6Sfg=/4391726590_barvnik-bilij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3767,7 +3767,7 @@ export const db = [
     image:
       'https://images.prom.ua/4znP1LmQ-9vkFyKfNidk-OjbqEO9MNwSG7Y1VsG3j1M=/4391730309_barvnik-chornij-harchovij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3786,7 +3786,7 @@ export const db = [
     image:
       'https://images.prom.ua/NbaqJk7nD7VcmgOnjzugB4mByLNNJ-HC5ofrS3PqCqA=/4391801733_farbnik-sinij-harchovij.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3805,7 +3805,7 @@ export const db = [
     image:
       'https://images.prom.ua/dPLp5z2XfMjuPj-eWaXSyAUkW-dhlKhz6RBAKL3Z6g8=/4391796753_farbnik-blakitnij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3824,7 +3824,7 @@ export const db = [
     image:
       'https://images.prom.ua/UZ3IA2UFzwasQ3xjh0Ts0RhvSTKhB2pQQVvZk7vmFyk=/4391818508_farbnik-pomaranchevij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3843,7 +3843,7 @@ export const db = [
     image:
       'https://images.prom.ua/36PErZshViY9QgCGlPC0SKWQTBM5AXQ0ITo7wE5q5zE=/4391828483_farbnik-vishnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3862,7 +3862,7 @@ export const db = [
     image:
       'https://images.prom.ua/mEiQEuY-hYP5VxoOdSUonjHqh-CUViPYQ7HsMRiuMFQ=/4391841294_farbnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3881,7 +3881,7 @@ export const db = [
     image:
       'https://images.prom.ua/I4-ZXa42HVb85MljH2dsfqWBctm69UmKMS5WBaDR01M=/4391881808_farbnik-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3900,7 +3900,7 @@ export const db = [
     image:
       'https://images.prom.ua/7ulH5psxwLfO4jWauQAA4GX4kUbHP03Gx3TU33rFBk4=/4391888035_farbnik-korichnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3919,7 +3919,7 @@ export const db = [
     image:
       'https://images.prom.ua/3Dcf0hsqfO9Eq7wFvMG9EpyJOOZhmv5lXAt8voepkZg=/4391893109_farbnik-malinovij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3938,7 +3938,7 @@ export const db = [
     image:
       'https://images.prom.ua/FB-hQ-O75h-YTu1M7SZvX9FI2BgdzeztLYFGse6QoaA=/4391899462_farbnik-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -3957,7 +3957,7 @@ export const db = [
     image:
       'https://images.prom.ua/EW2Fe7yXpfSX9UTpoBgGoCyeVyA6FHuXWxGepNmeOqM=/4399508447_shokoladni-groshi--.jpg',
     availability: 'in stock',
-    price: '3.00',
+    price: 3.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -3977,7 +3977,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/6sIo8PmMHRgfFTGg4Xoct7fL06N4mGqUbn9qVTKot9Q=/4400032504_konditerska-nasadka-hrizantema.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4011,7 +4011,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/UYYeO1QtWpqGWT6SvA9CsmYA92zeJbrLaocU1Wz5Hh8=/4400039411_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4043,7 +4043,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/TkBJ4YGI12cWjEKecqoa-QIvYiyPaPpNJ8dT-PuvR9U=/4400041289_konditerska-nasadka-pelyustkok.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4077,7 +4077,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/en7ZjOkg1zcMQN3HbdaCkpPLB7fvk9ILzSkLEgESZIw=/4400050710_konditerska-nasadka-hrizantema.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4111,7 +4111,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/AwS77HZWWgIBVp6CjI6xWFf8CU61odUCm0qlni9sX-M=/4400053364_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4147,7 +4147,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/vG42_2v8oP867rZOCiosmyJw8Qoh1KPZORrgJ_h28iQ=/4400062014_konditerska-nasadka-hrizantema.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4183,7 +4183,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tXRnZWa6FXKRc3avBoCf5nxa-OuKae2KvEa-TSY0TlA=/4400073162_konditerska-nasadka-hrizantema.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4215,7 +4215,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/e9mKRfnQVETW5rbtdRbiWi29O-7F13GecJovOOlWzJY=/4400076893_konditerska-nasadka-hrizantema.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4249,7 +4249,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tJ6hDDRH5meSyhi3IcrENwGECIX7EkEU3bHFM9TiQJo=/4400083784_konditerska-nasadka-krugla.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4281,7 +4281,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/9OIee9KwFJ-7gS21aW5IJl4RM7B3Wj4mIAOCagULIYw=/4400102334_konditerska-nasadka-krugla.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4313,7 +4313,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/EzOWPf_uYNTuxcuY4d2Vr1DL-Rgn1Yl-oMbXwjk0LJ8=/4400112406_konditerska-nasadka-krugla.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4345,7 +4345,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/99sVoT2XjZIWfOnsoSdZgW4J6KgzELwZWxEFyvjtkb8=/4400131765_konditerska-nasadka-krugla.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4379,7 +4379,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Y-3zksMqRcJR-vZw_FCgbn83IxMPBRzLlYu-w-spRXY=/4400984290_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4413,7 +4413,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/OZwkU7VD9L3Y6x0Il-4-hUvZ42Be-N67pBs4SGgntJU=/4400990075_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4445,7 +4445,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/e_TS6oqq5xeCbY8Kguv5hz8KOgS9bk4zisDCUmqDlzw=/4400993971_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4479,7 +4479,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/-6IO4F8brpHPbK0wCmaMqucL4RIKwqvSSemgymC2AL8=/4400999577_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4513,7 +4513,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/CSKaz4jpRYxMJ1BW6xBPGSOYaC0TqX6gxryNavB2XP8=/4401007241_konditerska-nasadka-travichka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4543,7 +4543,7 @@ export const db = [
     image:
       'https://images.prom.ua/FvzUkRofFHb4FNJY61ECjDjpJjw54c6Q4susbicVcKs=/4401012277_konditerska-nasadka-travichka.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4575,7 +4575,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/b20GJoQXceoYloxxzt8mWLpN92v5B6o7p2aKjfgX3Vk=/4401016419_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4611,7 +4611,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Qsg2oq6dCpbYLYdnDazVdqcpmPY660pyfFPDkDPCWnE=/4401019369_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4643,7 +4643,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/xS9sLqO9-If_OkgkJbMPuDIbr46rMohTWekjnLapCmI=/4401021171_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4675,7 +4675,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/R5BcvNmE56hvRLGaS9NxnVR74PMxSYZN_McoU1QHQj4=/4401023341_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4709,7 +4709,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/r4T7BVLwPAa6bKOwrh92PJPb76LMFJXAbao0snLmvKA=/4401025443_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4741,7 +4741,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/EzqOAWfn9B-lhZht7qa1q1xlN6UKY3Ya7p-9gEt4yNo=/4401029813_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4775,7 +4775,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/PFIiKNLFbum8IqSPSDjh-57CHs9x6O30tcy4sQ9tPoY=/4401034621_konditerska-nasadka-zakrita.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4809,7 +4809,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/w8sWsnusx8JG_lr0lnR3mIJbzQeiR6HbcYt4FaqLDrY=/4401037004_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4843,7 +4843,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/I-JGmWYjJGPU3EKy6p4Ap7YrF5yda20TJAUQwqsOVZ4=/4401040060_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4879,7 +4879,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/kfiNjdv2jFBNavV0aEZcQBzoea0VlZ8HOR7lV6-MTUQ=/4401066583_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4911,7 +4911,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/LPT_RQWlqRNAhcbRrff4PNCnwA4KFTqdmfNWxI0IQZA=/4401074863_konditerska-nasadka-frantsuzska.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4943,7 +4943,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/AzS3ZoC8It-8GpkBrfY0nYoE2EdxI40JBFkjhh1xSBM=/4401078999_konditerska-nasadka-frantsuzska.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -4975,7 +4975,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/DTDlRz4weTGU680fXyXRPIaV-Gq60AbZzQLASProWQ8=/4401083799_konditerska-nasadka-frantsuzska.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5011,7 +5011,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/FKBJ9BFT_6pR3Q0iSomPSqRVPDeNhrBo0z6UzTbuvpM=/4401090308_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5047,7 +5047,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/0-VyrNMrZ1tP0-puvR2zc49VqqL-5-kJzpJfXctuM04=/4401106552_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5085,7 +5085,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5ZGDzWNXeC5OdVukN7hsSxeerM_QeRQmSQWWHMGC7Vo=/4401117041_konditerska-nasadka-dorizhka.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5119,7 +5119,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/P2585Yt5lG1OOwN4M6khev900UJTJzk6FFO3zk4BdSw=/4401127438_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5153,7 +5153,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/z_OQnp5GkEjzM0x5XvAfLkfgC0crclDn0eZkLhQVfxc=/4401136053_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5187,7 +5187,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ecOrKEbALVzmMk-GYG20skt91Qto_HjY_H6ETogBEEQ=/4401152192_konditerska-nasadka-pelyustok.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5223,7 +5223,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/WwGFtywlcDsiOAJ5jUfUPQkGv-nvGMP9sb6XtPOpmkk=/4401155219_konditerska-nasadka-pelyustok.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5259,7 +5259,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5Ysi4mrW6GBDnAXw0ZcjzPPjXrb-b3oUI1VbuYhsZ8g=/4401173160_konditerska-nasadka-zakrita.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5293,7 +5293,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/x7GNkttUY7uOt-oFxmpLt_eq_YnD1CWuLj1ZQ5HyvxM=/4401177414_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5329,7 +5329,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/uPSJLP_aoYDPDmNpgeOOczP0d9GMkjRkVK-6O28Uiok=/4401181739_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5365,7 +5365,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5PAj6Xf_TnAUpn_Ru6fCWccKDefBwOvflX2M54zCScE=/4401188473_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5401,7 +5401,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZW0y9VYcd8NmafcF3ds9Ha2CByvzbRbAEEK7rJMIj5c=/4401192513_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5435,7 +5435,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/oNZa_ywlWUCoJsA9URaZ3Vv-dsKimJ1Oamq7Yz9CSCk=/4401198417_konditerska-nasadka-kvitka.jpg',
     availability: 'in stock',
-    price: '70.00',
+    price: 70.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5469,7 +5469,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/UbsNi12TzxAD4dml3aeniIJemi8aOztf3OFJLwDIOyU=/4401201879_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5503,7 +5503,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ynUAx1Erx_dKJu88gOTEDm3_GrKaRpGdq--lqntFZp4=/4401206109_konditerska-nasadka-frantsuzska.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5533,7 +5533,7 @@ export const db = [
     image:
       'https://images.prom.ua/Sl8BLiLHYf1Q03H_KG-psqSeiWq1IoDsPMEheFzhmhw=/4401210748_konditerska-nasadka-dorizhka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5569,7 +5569,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/cufr5P2xhgbWIlPbuWLGqgkpQbMY47lLIk45zpmPZ8M=/4401221044_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5605,7 +5605,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/wUQ-KN8x4FsFMQ968xIEw4Q-91Nu83Q1e3j8X6c32w4=/4401224847_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -5635,7 +5635,7 @@ export const db = [
     image:
       'https://images.prom.ua/m5VtYgzLO8sXP0uXTBPGs3X7zqAdTfVmp-I9_Zy-qss=/4401816574_gelevij-barvnik-zelenij.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5674,7 +5674,7 @@ export const db = [
     image:
       'https://images.prom.ua/DqzeHRc6yzANrGHanMk3k8eNlevVnLmJNpyUCPygt6A=/4401840658_gelevij-barvnik-fioletovyj.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5713,7 +5713,7 @@ export const db = [
     image:
       'https://images.prom.ua/yLP7d3fGp5btSBookEyp8WBHb3kLzN3s4E3eQCTEIFc=/4401851524_gelevij-barvnik-biryuzovij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5752,7 +5752,7 @@ export const db = [
     image:
       'https://images.prom.ua/4iZbOM5jaIfQCDmlC2fNuM1Em9c0uRiCv4o63q8-OoY=/4401870662_gelevij-barvnik-myatnij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5791,7 +5791,7 @@ export const db = [
     image:
       'https://images.prom.ua/SJuy_XEjkI7EdO4MpjxKMZ_34fC2fcGu6wsMLPVfXRg=/4401883643_gelevij-barvnik-bordovij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5830,7 +5830,7 @@ export const db = [
     image:
       'https://images.prom.ua/u30Mzbh6cF6nGoZe7ORUpWbDQLHuFMLqsRmov6lsuRI=/4401893284_gelevij-barvnik-temno-rozhevij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5873,7 +5873,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/qmBajhsKOW37k8Z0xSurLQ6zZrMwMwPrU_CCd1BxNKw=/4401902310_gelevij-barvnik-telesnij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5912,7 +5912,7 @@ export const db = [
     image:
       'https://images.prom.ua/Wd6j8IFClifqM3OIOgUlb93pBd8sGvQnQS4_2XFmdtY=/4401907705_gelevij-barvnik-fuksiya.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5951,7 +5951,7 @@ export const db = [
     image:
       'https://images.prom.ua/8fBWkoJQb0DYEGPH4f5NZHhRQD1XkJ-n0k_wyZL1O3w=/4401914045_gelevij-barvnik-persikovij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -5991,7 +5991,7 @@ export const db = [
     image:
       'https://images.prom.ua/Kt6cnNNzR5sieMGNszUT3yJgnHT8GpjpkMDXFC6bkVg=/4401922550_gelevij-barvnik-pomaranchevij.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -6030,7 +6030,7 @@ export const db = [
     image:
       'https://images.prom.ua/H4tYWPnl20qmraeeOFQ3uc6dG2g08o-QEI-F97CYukc=/4401930401_gelevij-barvnik-buzkovij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -6069,7 +6069,7 @@ export const db = [
     image:
       'https://images.prom.ua/-gU6txUERvEpGLuBMbQRbD76JcWiAgWEVSLIm5FcbLc=/4401939428_gelevij-barvnik-akvamarinovij.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Chefmaster',
@@ -6108,7 +6108,7 @@ export const db = [
     image:
       'https://images.prom.ua/VMetVRLZdLybX92e6IXX0_3Nextx13dgzBWFqQmh_bQ=/4401962490_gelevij-barvnik-biryuzovij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6147,7 +6147,7 @@ export const db = [
     image:
       'https://images.prom.ua/NUFzQge_bjqV2Fi5qZX6x-HzsHiqjrSx65uPi4QlCn8=/4401973705_gelevij-barvnik-bordovij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6186,7 +6186,7 @@ export const db = [
     image:
       'https://images.prom.ua/z0Au7JrUgwoKzM1M_M-O-F-UEyacMAxiC2Ki-mCWxm4=/4401978630_gelevij-barvnik-blakitnij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6225,7 +6225,7 @@ export const db = [
     image:
       'https://images.prom.ua/h2IuNB3wDJBbGFFZ76Y2k1bKF_joBXV_6fsk_H3vFc8=/4401982392_gelevij-barvnik-zhovtij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6264,7 +6264,7 @@ export const db = [
     image:
       'https://images.prom.ua/RbcT3_v9tnlGgFFLJOx6J9nI3Z5nmKctDuBiX7eokCA=/4401992580_gelevij-barvnik-zelenij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6303,7 +6303,7 @@ export const db = [
     image:
       'https://images.prom.ua/v-MYbel19RzarxaH9A2OQJDz8dTXMB2QwAOOjdifSDY=/4402015190_gelevij-barvnik-polunichnij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6342,7 +6342,7 @@ export const db = [
     image:
       'https://images.prom.ua/2Dj-DB2ockJqLdI8NHfXnlbQoJbeNUTK4VHI1RzhMYg=/4402022091_gelevij-barvnik-purpurovij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6381,7 +6381,7 @@ export const db = [
     image:
       'https://images.prom.ua/8_J2nKJ7NZWcuxaWAvH3EAw1z5CRRrZ09_PmSPaP6_I=/4402026356_gelevij-barvnik-korichnevij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6420,7 +6420,7 @@ export const db = [
     image:
       'https://images.prom.ua/FU7P7DLYq1zx8CMNU8UloNLI4NiYQrvq8KAe00i7Tt8=/4402035319_gelevij-barvnik-zhovtogaryachij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6459,7 +6459,7 @@ export const db = [
     image:
       'https://images.prom.ua/uxutddx_Vs06E4EtQEClSXdRX_HfeKuPcCWYqGHQwyE=/4402040559_gelevij-barvnik-rozhevij.jpg',
     availability: 'out of stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6498,7 +6498,7 @@ export const db = [
     image:
       'https://images.prom.ua/M0yshO8LVb8UtIjD3Gex7u1HMpWXyy54NflbJ6XcA0E=/4402048650_gelevij-barvnik-svitlo-zelenij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6537,7 +6537,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBeR2cSLDyXmgUYm9VVcmhPT1HKPMaagOpQ5ZSHan0M=/4402053901_gelevij-barvnik-temno-zelenij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6576,7 +6576,7 @@ export const db = [
     image:
       'https://images.prom.ua/xOyivAWCr_LYgTzAOyjvMZqE6OR0mpeDAGQHzgb5mqg=/4402068099_gelevij-barvnik-fioletovij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6615,7 +6615,7 @@ export const db = [
     image:
       'https://images.prom.ua/1Eoewf6QW2XDjj-42055H6f2adGj__hLBq-Idk3z480=/4402072469_gelevij-barvnik-chornij.jpg',
     availability: 'out of stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6654,7 +6654,7 @@ export const db = [
     image:
       'https://images.prom.ua/m3DWpP5CBkuoSl1e2iywNV_PdHnAbQZjXhp-NhEUwRA=/4402075842_gelevij-barvnik-temno-sinij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -6693,7 +6693,7 @@ export const db = [
     image:
       'https://images.prom.ua/KDTxN0tTVCx5I2EEmt0cF5Y7nXGs2cglEffe0tBGmcM=/4402973492_barvnik-dlya-shokoladu.jpg',
     availability: 'in stock',
-    price: '175.00',
+    price: 175.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6711,7 +6711,7 @@ export const db = [
     image:
       'https://images.prom.ua/SLki_fBFJDcoLt9aBFfQlwmhTaT7hrGbt1omFDigNCc=/4402980368_barvnik-dlya-shokoladu.jpg',
     availability: 'in stock',
-    price: '175.00',
+    price: 175.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6729,7 +6729,7 @@ export const db = [
     image:
       'https://images.prom.ua/XTJW6Ad5DrfS7p-unaZLk2vXly0elvITrahKw6jzyxo=/4402984850_barvnik-dlya-shokoladu.jpg',
     availability: 'out of stock',
-    price: '175.00',
+    price: 175.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6747,7 +6747,7 @@ export const db = [
     image:
       'https://images.prom.ua/QgVS6M4_LbTiCuK_BfBrVEnNKESKEJwBQs3_xEIyrBQ=/4403004462_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6777,7 +6777,7 @@ export const db = [
     image:
       'https://images.prom.ua/Cx3e9vWpeM2uHdbmbyvCei_--RPnheOmLXuY-ipOA1o=/4464491893_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6809,7 +6809,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Rjx2aiHSQhX4lfdXLoVO_iAQmXmzZMPYHVCE2WXGQd8=/4403025857_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6843,7 +6843,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/LtQnlI3OcZvizR46QkyXz659qcnsDbi4wSBu3OLmWV8=/4403033613_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -6873,7 +6873,7 @@ export const db = [
     image:
       'https://images.prom.ua/t3B48Y0jtTG9MEzCVxgAHexxwhK6UIc3yIgmm1RTCFE=/5306256882_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -6914,7 +6914,7 @@ export const db = [
     image:
       'https://images.prom.ua/Pjo_pPHAu1Zpw9F23sWq3rfgdeyuNMF4CiOAO4HVxOU=/4412335296_tsukrova-prikrasa-nabir.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -6956,7 +6956,7 @@ export const db = [
     image:
       'https://images.prom.ua/hmB5G6NaDClhBcDe4_BMQ44Lg2fb6dCdrdWGW2lINVY=/4412359237_tsukrova-prikrasa-nabir.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -6998,7 +6998,7 @@ export const db = [
     image:
       'https://images.prom.ua/2z4tPfl4-jSfUdq6GYq7DoR6n7b3oR9_3yQf5oV7K-U=/4412373231_tsukrova-prikrasa-nabir.jpg',
     availability: 'out of stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7040,7 +7040,7 @@ export const db = [
     image:
       'https://images.prom.ua/Y06JGnkFxdQRfg5Eyuyk_ROWPk7MxSpmxs0-eZ1nYHA=/4412384827_tsukrova-prikrasa-nabir.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7082,7 +7082,7 @@ export const db = [
     image:
       'https://images.prom.ua/TI_g-VDTCQV1o_ItXpFquSvY0lG2NNwsFe8uhzcRbgo=/4412394857_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '162.00',
+    price: 162.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7122,7 +7122,7 @@ export const db = [
     image:
       'https://images.prom.ua/rCWBX87s_Pije_mmND1Yb2c-s7FqTRDceIXLIz3Zj6w=/4412432022_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7162,7 +7162,7 @@ export const db = [
     image:
       'https://images.prom.ua/M2m8rBdZCqJbJib7BEPEFLqOBhAW17dMnXA_SVgYBwU=/4412461218_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '182.00',
+    price: 182.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7203,7 +7203,7 @@ export const db = [
     image:
       'https://images.prom.ua/mxT8zrEfnokvS8nUbatCRHzdFDQwy-ZQap6_Kmly7_w=/4412473975_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7238,7 +7238,7 @@ export const db = [
     image:
       'https://images.prom.ua/6s_1UZvM0BtWM9y2BXE3ADWM-syHRJQbDorofunXx_0=/4412485619_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '98.00',
+    price: 98.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7273,7 +7273,7 @@ export const db = [
     image:
       'https://images.prom.ua/7q0CWKrEiD9lU3KVrrfQ-wCtyobq0RgBBWvk5OsI6wE=/4412502451_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '114.00',
+    price: 114.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7308,7 +7308,7 @@ export const db = [
     image:
       'https://images.prom.ua/SsQ6x3TWwTGXyxYooudsZwyI2p5gKnuUtaDgq-9Sx2Y=/4412520682_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7343,7 +7343,7 @@ export const db = [
     image:
       'https://images.prom.ua/T0hpjZnRXA0Ir2yQowa3Jz64xpodttA0_xksobrtZlk=/4412525130_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7379,7 +7379,7 @@ export const db = [
     image:
       'https://images.prom.ua/NHdfbwgFat2MOpymxlrQfqPUhRS3Zcvigo8x-npWpKU=/4412534332_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7413,7 +7413,7 @@ export const db = [
     image:
       'https://images.prom.ua/5ccJ83uK7ywuMWgvQjieDmPAi6-BQkgtjITFb172A2Y=/4412542846_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7448,7 +7448,7 @@ export const db = [
     image:
       'https://images.prom.ua/cTYPhgnaeHLdU9ThNm6AA1rCYitSMD1MpfM39J9IdOs=/4412549321_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7483,7 +7483,7 @@ export const db = [
     image:
       'https://images.prom.ua/NZE-GEYMNFsDUjXVla5OVucC7q3I5waRMB-pay1FXok=/4412664286_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '86.00',
+    price: 86.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7520,7 +7520,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/E8QiLDT1C3qgkdJ6wKlhVbieI_3XOTRQ_PlvKIJvuZI=/4412672750_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7554,7 +7554,7 @@ export const db = [
     image:
       'https://images.prom.ua/tjMUi88vod0YC_ylP1oHEBn4bJKUb-SJ7vTL7nUKPzM=/4412678371_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7589,7 +7589,7 @@ export const db = [
     image:
       'https://images.prom.ua/iZKnLGWDYDgLEISqY-yqz_Fx9rz5tXGVw10JYc1MDAA=/4412692996_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7623,7 +7623,7 @@ export const db = [
     image:
       'https://images.prom.ua/d9Khuk4tkvti6ckLMJ3hElH0M1oS4MJTv-WsjoyGZyM=/4412702399_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7657,7 +7657,7 @@ export const db = [
     image:
       'https://images.prom.ua/4RzJdEZwCiR25kdK6_IFdMtczCnlV1edzcM8cwFvi68=/4412703564_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '128.00',
+    price: 128.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7691,7 +7691,7 @@ export const db = [
     image:
       'https://images.prom.ua/6EST9V14Ff6S9jMivzKIkwZTfNHqxAMAwmAW3eIBsdE=/4412704904_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7725,7 +7725,7 @@ export const db = [
     image:
       'https://images.prom.ua/7Sk6cFNxsZnufeLqiXo6-7dlqkq6YvELaLwJWZ31h8Y=/4688230698_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '98.00',
+    price: 98.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7760,7 +7760,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hj9WgtSrHrfAkmbC8Uon7a16SlCpC8xKM1skKm1g6hA=/4412729923_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '149.00',
+    price: 149.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -7794,7 +7794,7 @@ export const db = [
     image:
       'https://images.prom.ua/fz2BOVwMWgV12YiAfc7taMHsP1sdTfu8EApPTFgsJ6I=/4412750069_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7829,7 +7829,7 @@ export const db = [
     image:
       'https://images.prom.ua/VFQyTPXVdP_GwqLwqpwGoYiXEaxMBk8KpivyONgR_xQ=/4412928361_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -7864,7 +7864,7 @@ export const db = [
     image:
       'https://images.prom.ua/6WKhd0T6mHuIcIDdP9Wr98z_4mPS7qtxowqC9kgeF6A=/4529462302_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -7916,7 +7916,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/UXz3NVQQ_2c8bonuHibGaYQ5-nZNtTJA2O_Jts9N5rk=/4413178895_konditerska-nasadka-hrizantema.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -7952,7 +7952,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Ugxie3jEFpQs7ORJ4IjL5TK-LLEsz7qrjef6AFkiKy8=/4413196450_konditerska-nasadka-dorizhka.jpg',
     availability: 'in stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -7990,7 +7990,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/mQvui4AN5edb7EE-WMyEnA73WvGC28ZjQjkJsKvOQ9Y=/4413204318_adapter-perehidnik-potrijnij-dlya.jpg',
     availability: 'in stock',
-    price: '63.00',
+    price: 63.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8024,7 +8024,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/XdsN9b7JcWVTWVG1XzigTkTk6Uxo9-4qreQerlPJA1s=/4413209032_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8058,7 +8058,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/O3iRmzAAUlAk-JRJg7vf3RejYqCA24HK2I4WhtNgtAA=/4413215839_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8092,7 +8092,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/TQHdDn7OceLa5emuenuFk5GMAtHoK4S1rrHyvy_eUYU=/4413220382_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8128,7 +8128,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/-ALkAMCU04BzWPQyYyouwM4qkq0Vq2-ti6tGdv92B54=/4413231496_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8160,7 +8160,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/wq6uKN3GmukDGn5TP_fov0UUf9yrRoHS1lzmVYflLZQ=/4413242125_konditerska-nasadka-kvitka.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8192,7 +8192,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/EXYvv0vx0oG1D_i9Q8-AaCroBJoZR_zJnsZK-qeeLOU=/4413250248_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8226,7 +8226,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5isVTr5dvfHEbhLFOW1buBu4SpzZ6ZbnkHTXKv9BANA=/4413266608_konditerska-nasadka-sertse.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8260,7 +8260,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/_RNH3XggJwil-OXv--jUsZcS1h2ytvWLY9uLZngWt-w=/4413281461_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8290,7 +8290,7 @@ export const db = [
     image:
       'https://images.prom.ua/Wfv-5AsrEAX1RuiNxBLWYOTlfQ2bQ5-iAWIOeCTjZz0=/5306268685_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -8310,7 +8310,7 @@ export const db = [
     image:
       'https://images.prom.ua/ToV5Z0RaNilIu9tUeYJftdlgtRWb_Yd_6oUqtI3SArk=/4413866823_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -8331,7 +8331,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/BXi1nS5Wi7EBWtltfF_0G6dd7jb3QquWCS8od5bn0Jk=/4414882293_konditerska-nasadka-bismark.jpg',
     availability: 'out of stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8367,7 +8367,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/xxgIYZJWvl9Y4pOagqvuk7vxP01WYjSL3VyRaS2I-Sw=/4414892516_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8399,7 +8399,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/LxTNa7Ytht4gHgiCow4RxTSoX27o5UbWKaLHkwx1vAQ=/4414897014_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8433,7 +8433,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/APRk6imEUiUJMsGS-0cR_g_IxKS1bnjkMAVWOqQj9cM=/4414906364_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8469,7 +8469,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/RF1LZUaqJffmrbaMV4eyX3eAZQqbyWYtj4qzKJDrf70=/4414913116_konditerska-nasadka-ateco.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8503,7 +8503,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/hm9Jd8RI8yiFISZCrzJmS52AGzfzti6fbNdxBVJeG78=/4414927668_konditerska-nasadka-ateco.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8537,7 +8537,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ii5cNix1i-mxX9UOuey5VXSIYWOWfA7kNscmjLEusQg=/4414956587_konditerska-nasadka-sant.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8571,7 +8571,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/C5xnB4BwB-E7d2pLm9rbwM3COO-Am89uomBySTn2Qp0=/4415854374_konditerska-nasadka-ateco.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8603,7 +8603,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/H09D2zO34FCHEQnRow2sieLs7hu27x_fxLStjsOm0go=/4415843200_konditerska-nasadka-sultan.jpg',
     availability: 'in stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8637,7 +8637,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/nFfNfeKHtXF1S8I3hTgahwNZl2OaYLzRdOusNhq_7Vs=/4415865684_konditerska-nasadka-bordyurna.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8669,7 +8669,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/BUOGuIiURs0i5t3bZEVhF0Jfr683x_oSRASRtNOmD9o=/4415872444_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8701,7 +8701,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/gy7w6duMLdBOH58qTN8QCesg0RxvE3n5kwH1GAYkf7A=/4415891480_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8735,7 +8735,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/PMQURZxH1-RYVt5kblbEa8nbWeIWhM1VDBirdXVvO9I=/4415897736_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8769,7 +8769,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Dfk-iIneVRY13uu1t0-s-cd6Gux5xvpZk54TW-mQNh0=/4415901927_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8803,7 +8803,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/U3VFqUlaLI79cInRi6Y4caP9iWSfRpXtqCh_a0ovrFI=/4415907659_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8839,7 +8839,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ivFp57tQ92sSkDVuZHJMWGE6KmHDlOV-FBbGRBE_L8M=/4417268675_konditerska-nasadka-gortenziya.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8873,7 +8873,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/fk1gU_z1a7xd8kO7Iqyk38vFG1PV-mC2h7ADhXGeUtQ=/4417276671_konditerska-nasadka-kvitka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8907,7 +8907,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/6VpvdJORzrcyVvHmv99khRLGiJpyWb1F5yU1-8jS6V8=/4417295210_konditerska-nasadka-sertsevina.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8941,7 +8941,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/8LGBXwRW_J3TzAAiv1m4992mOEtrZOyAYJ0N7sNAXE0=/4417761206_konditerska-nasadka-sertsevina.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -8975,7 +8975,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/OsraDWgv2x6D1WjzJz9RuRbtuqvzoeRTIeN1DRYV3MA=/4417767898_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9009,7 +9009,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/z63nff3xaAE02LuEROi7swjEeMxDNqi6ZXjjboSh5tI=/4417811369_konditerskaya-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9043,7 +9043,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/MjNulCnzokqArwzuT_pK7oWNhfysTSbsVNW7ETvx4WA=/4417821251_konditerska-nasadka-tyulpan.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9077,7 +9077,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IGWWhgeYM-XN0HHQTFzN9DIirGCwjmqn7DH67BGlCV0=/4417827144_konditerska-nasadka-tyulpan.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9111,7 +9111,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/RnNgkFjvJAmMyuMm4fLEr7ecFi_H7n2CK9gVBeC1Ai0=/4417830182_konditerska-nasadka-tyulpan.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9145,7 +9145,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/LWItGyhRx_0a5sUT3oWjILxJPFNBZvwDCxWFxGBWQ6s=/4417840167_konditerska-nasadka-sfera.jpg',
     availability: 'in stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9179,7 +9179,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Fhm9UQ5_Av_kR_IX3mAFD1XgGw2V34Cc3MfyWfSgpjk=/4417845700_konditerska-nasadka-sfera.jpg',
     availability: 'in stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9215,7 +9215,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Fs1uOJi2OK9eSy8KBn9-9RlHTxkek7zr9EuD-HP8ALM=/4417857455_konditerska-nasadka-gortenziya.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9247,7 +9247,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/bT6KDRSIMn5O0n3mi5AIUWxCuYKEt3Lh7j7365JJuJM=/4417862971_konditerska-nasadka-bordyurna.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9281,7 +9281,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/L9Ngdwlghk5HoIuACkE04xLwIlUZmcn2n9tMlF06JVw=/4417869178_tsvyashok-dlya-kvitiv.jpg',
     availability: 'out of stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9315,7 +9315,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/HBH-RVivHt_bKrlCSWckdweCZSFfMamvObETJTI2bhc=/4417872496_tsvyashok-dlya-kvitiv.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9349,7 +9349,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/dzV1Fqp6T0BtmV3Y3GXLWNb2Hf__LN-9obZnR4hV62g=/4417872781_tsvyashok-dlya-kvitiv.jpg',
     availability: 'out of stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9383,7 +9383,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5FgloiuCi0A1CQ2S7uvmiEagjxy0KSJcir6SQerRqpM=/4417875138_tsvyashok-dlya-kvitiv.jpg',
     availability: 'out of stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9419,7 +9419,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2lcs-cSfgtKXTrTh03G2WsHxcp4ME9wptsH8gLNU7Qc=/4417905455_konditerskij-mishok-ateco.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9449,7 +9449,7 @@ export const db = [
     image:
       'https://images.prom.ua/73Un8YNOKxhzJCmZYelc2Vrss9BBvxtwlU29cbJgOX0=/4417910038_konditerski-mishki-odnorazovi.jpg',
     availability: 'in stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -9479,7 +9479,7 @@ export const db = [
     image:
       'https://images.prom.ua/1YW3k7wsOcoAMfQFDqY-wPZk1gIRfDdCiqI-c1vGGnA=/4417921127_barvnik-harchovij-chervonij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -9498,7 +9498,7 @@ export const db = [
     image:
       'https://images.prom.ua/QKF3I-VNS6oma4H4llrgAhJpuF0HOSlcDbxAhecFEws=/4417925074_barvnik-harchovij-zhovtij.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -9517,7 +9517,7 @@ export const db = [
     image:
       'https://images.prom.ua/symQxrzOhzBsWlGV43BDB1Thq50z1oBwBclSEZzqiYY=/4418077737_barvnik-bilij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9535,7 +9535,7 @@ export const db = [
     image:
       'https://images.prom.ua/2d1hiB3UeT6B70CeurKflynj9NnQefvhEAU4rtT3RaQ=/4418077994_barvnik-blakitnij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9568,7 +9568,7 @@ export const db = [
     image:
       'https://images.prom.ua/1kfwgU3UnUqZhLur8WRtiU-gLPjYnsUAIvLHhZvJtLI=/4418081370_barvnik-bordovij-harchovij.jpg',
     availability: 'in stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9601,7 +9601,7 @@ export const db = [
     image:
       'https://images.prom.ua/P6fsfqiEf7-wK9qfQLtwSCfeblhFrumJQr4muMt1EKU=/4418082308_barvnik-zhovtij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9634,7 +9634,7 @@ export const db = [
     image:
       'https://images.prom.ua/NMfst7-bvqMnpNmtv-THdcvRNig4QvQ9JLVTXu8xoI4=/4418083025_barvnik-korichnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9667,7 +9667,7 @@ export const db = [
     image:
       'https://images.prom.ua/UBQhGhU2ZP0tjyAjgr2-P8z_lt8rLsDieZIdaTKh8ME=/4418083656_barvnik-lavanda-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9701,7 +9701,7 @@ export const db = [
     image:
       'https://images.prom.ua/SpeIf0ufoD-Tm02u58syBGyOnwEKn1p_mf-eEx16xEo=/4418084167_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'in stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9734,7 +9734,7 @@ export const db = [
     image:
       'https://images.prom.ua/F5Q_ih6lMXHdsl6mRTzyS80-rUH4pAwoaNThnvDRHTc=/4418084474_barvnik-rozhevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9767,7 +9767,7 @@ export const db = [
     image:
       'https://images.prom.ua/yJDPuMO1HvoganA6exHSVAfNlp2T4UEy9KuPALkrWoE=/4418085097_barvnik-sirij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9801,7 +9801,7 @@ export const db = [
     image:
       'https://images.prom.ua/xcVHu41Gb1QJTlOEgta9OpB6mnBu-xTa_HoymEKpu84=/4418087578_barvnik-svitlo-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9834,7 +9834,7 @@ export const db = [
     image:
       'https://images.prom.ua/UxAl3B5LmVxnVFTl2G2sZ09AOECnJDh5uXtdF7u-8UI=/4418088837_barvnik-sinij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9868,7 +9868,7 @@ export const db = [
     image:
       'https://images.prom.ua/V6kW4Yt1KaHftfy-JhnKBwpuZYMUuYHWIA6u4bt6NNc=/4418091918_barvnik-temno-zelenij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9901,7 +9901,7 @@ export const db = [
     image:
       'https://images.prom.ua/gfmFhyG4_u8F9DTPVuen_dhDvQTTjUya2XvNQUefBas=/4418092543_barvnik-fioletovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9934,7 +9934,7 @@ export const db = [
     image:
       'https://images.prom.ua/xeJkpkL8jduvWYk_8lEixZsq1dkhs9f2xFATlB_MdtQ=/4418093377_barvnik-chervonij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -9967,7 +9967,7 @@ export const db = [
     image:
       'https://images.prom.ua/5ozDzDsBU98Qla3cAzmYI4N4H2n5hzY2iQZ8vkKBnjw=/4418093726_barvnik-chornij-harchovij.jpg',
     availability: 'out of stock',
-    price: '57.00',
+    price: 57.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10000,7 +10000,7 @@ export const db = [
     image:
       'https://images.prom.ua/6NA0OVM0m_cVm-eekFcwpEjIMNk0HbrEvNuw-KdnYek=/4418094332_barvnik-harchovij-zhovtij.jpg',
     availability: 'in stock',
-    price: '38.00',
+    price: 38.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -10020,7 +10020,7 @@ export const db = [
     image:
       'https://images.prom.ua/0QVEyJh48KjS21xo2Ql-ITL7ut8y-6496GDxy9mbZk4=/4418100848_barvnik-polunichnij-chervonij.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10038,7 +10038,7 @@ export const db = [
     image:
       'https://images.prom.ua/MWhEV1_X0SH6YRoGG2DY5pJ4Zrv_7FlhH4ntgtvKbxk=/4418103142_barvnik-super-chervonij.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10056,7 +10056,7 @@ export const db = [
     image:
       'https://images.prom.ua/YskZ88ycP51vZjZTUSHrcPTOpuyhVCOAnBSyMgOqsso=/5080413725_tsukrovi-perlini-biryuzovij.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10075,7 +10075,7 @@ export const db = [
     image:
       'https://images.prom.ua/zYrSBG9x2HUr0Z4UiAs2qOdLK7Q8Rr7ECaSLctYK1P4=/4502497834_tsukrovi-rozhevi-perlini.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10094,7 +10094,7 @@ export const db = [
     image:
       'https://images.prom.ua/-GYmxEMDLfMq8OyxrBWzThzFZmiCqodqEIT_lAtbHJ4=/5080468171_tsukrovi-purpurni-perlini.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10113,7 +10113,7 @@ export const db = [
     image:
       'https://images.prom.ua/Kk-ZTdhF9IsbOXrTy4X2Fw9vk0fL7VsAjTlE3H6iwtk=/4502532194_tsukrovi-perlini-riznokolorovij.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10131,7 +10131,7 @@ export const db = [
     image:
       'https://images.prom.ua/UTI68sg7YYTEOddtvI933mlwWqNw5HsSzFmKLg-lTyI=/5080408052_tsukrove-posipannya-kolorove.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10149,7 +10149,7 @@ export const db = [
     image:
       'https://images.prom.ua/zNE_ztoMS6pTc4wHs53AH4jtTtD7VrZyup7_VWwkuP0=/5080460203_tsukrove-posipannya-kolorove.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10167,7 +10167,7 @@ export const db = [
     image:
       'https://images.prom.ua/jLUW4odCCSZvVc1g-rueWdFU0hbyGPlgMk2koj8G2HY=/5080396833_tsukrove-posipannya-kolorove.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10185,7 +10185,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hse_tf3gE3a6C8Vsh8IQn3HeLSK90Acrqo0JZxxKXjg=/4502548495_tsukrove-posipannya-kolorove.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10203,7 +10203,7 @@ export const db = [
     image:
       'https://images.prom.ua/7TN2ghBqeqGuh2UbwWaFAX2U3w4hZsR21qAB4QW8Y4k=/5080425624_tsukrovi-perlini-salatovi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10221,7 +10221,7 @@ export const db = [
     image:
       'https://images.prom.ua/BlHtip_geIohGnmhoPVr9_frf117LyNL3wlDwqFGyNU=/5080428993_tsukrovi-perlini-bilij.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10251,7 +10251,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-listove.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10278,7 +10278,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZcFQWrOEPwFYDmhmqcdj6vqDqJN6BoTyJEqYH-J6RXI=/4550920037_sriblo-potal-harchove.jpg',
     availability: 'out of stock',
-    price: '200.00',
+    price: 200.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10297,7 +10297,7 @@ export const db = [
     image:
       'https://images.prom.ua/b-nF2CFjSaJO_RCZTAW2a7CLP7SwgO1BhMUJ2Be_4hM=/5559786839_zoloto-harchove-dlya.jpg',
     availability: 'in stock',
-    price: '250.00',
+    price: 250.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10317,7 +10317,7 @@ export const db = [
     image:
       'https://images.prom.ua/bNlsqcdtN5Wii-RjReBSJ-ncXRz2kA3dT9IcgQ2Rvwg=/4433366116_sriblo-harchove-dlya.jpg',
     availability: 'in stock',
-    price: '225.00',
+    price: 225.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10336,7 +10336,7 @@ export const db = [
     image:
       'https://images.prom.ua/bNlsqcdtN5Wii-RjReBSJ-ncXRz2kA3dT9IcgQ2Rvwg=/4433366116_bronza-harchova-dlya.jpg',
     availability: 'in stock',
-    price: '225.00',
+    price: 225.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -10354,7 +10354,7 @@ export const db = [
     image:
       'https://images.prom.ua/JmYFgQAgWHPe8JL-8DieETHnvq9rA_7m_vy-F6WeM4I=/4451199673_konditerskij-mishok-odnorazovij.jpg',
     availability: 'in stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10386,7 +10386,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/fCl8HOpDyfN9DGhodGuWBeoHHDRNBVHfFkfY11rRYR0=/4558935496_kandurin-antichne-sriblo.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'AXXIS ПОЛЬША',
@@ -10417,7 +10417,7 @@ export const db = [
     image:
       'https://images.prom.ua/fmdwFt5Rc9gcEoKEhRp6l9J07bxtxrB9kQw1AoGV1JY=/4464481468_kandurin-antichne-zoloto.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'AXXIS ПОЛЬША',
@@ -10450,7 +10450,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/NZPmCR0yj9_l6x_ymD-tgD_eVZ2x_BytT5Iv2sCSpU0=/4464502340_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10484,7 +10484,7 @@ export const db = [
     image:
       'https://images.prom.ua/i90Vwv5ZrY2EehjHI5UywM3ur6FkdLlA7jkjP1ndWag=/4464513983_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10518,7 +10518,7 @@ export const db = [
     image:
       'https://images.prom.ua/7YhsjJFiEIoy-yn4efWBhBZPR56doz3maH9fOCJPvkw=/4464517920_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10552,7 +10552,7 @@ export const db = [
     image:
       'https://images.prom.ua/4S_AGrho1Md0pgP-FLwbLB8V8ntMgrPY1xEKtBaSUok=/4464525014_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -10590,7 +10590,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tBuON6Xdx206f8B_xEPWiOA-CjqNWiss8ini1bFtTmc=/4464550559_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10624,7 +10624,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/_4Jm0KMKGa4L-m0URjZCaytajd-itVz-aEANflpYbHM=/4464567083_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10658,7 +10658,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/JZw2GJzxC0tjdRa-MFOoqrpOFkw6LxrubgP2dx1vLO4=/4464575366_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10694,7 +10694,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2yxQd2nr0qrzvqWUjzi579east7oZRXLXMsnMqbhM78=/4464583434_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10728,7 +10728,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Wds9LJAnLa9dRbVqkEcl9TeUNQCNqkkuOE1Bys5bZxM=/4464592944_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10760,7 +10760,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/KaI8bZg-orIEHEzNMn5Yd2yoz0AUtedGMYviAI0xzVY=/4464599660_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10796,7 +10796,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Ye-bATsupz65TPZxQy-Yc_IfNjUCt83F5U3X_p2xwBY=/4464612896_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10830,7 +10830,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/NBrY1xkl6iJ-iATkDhT6GGIlctTkTvz2335bR3DdBF8=/4464620065_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10864,7 +10864,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/NJTvL6w01A2MHqZzRpECJ6cM8x0C3m7BZfDgaxEilKs=/4464625556_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10896,7 +10896,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/nMtB54s5Kbp-A94runSIQjdOFqXdYaKaIQtskYWGz1w=/4464633865_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10932,7 +10932,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5pegUkI2cqf5ppmhepfWXz-VX8uvoOOosnbxY5tnWM8=/4464720582_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10962,7 +10962,7 @@ export const db = [
     image:
       'https://images.prom.ua/evQve1LpOE4I-fvikxHaekgdHAgDEuoNSMsHpvAy-tg=/4464727999_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -10998,7 +10998,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/QuJdVsNzwWb_9hgHOMlh-3-ZjoSoDIONI-hgobJKAbE=/4464736838_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11036,7 +11036,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/4BWy40g_7fSKysVAJ_GXXVKz4NmgLm9CP8gcv81e1Fs=/4464745240_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11070,7 +11070,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/x_wF0hYXeJLMSIdVT_PWbVJnyTUCfN0Yrt7RDHkjzgc=/4464757086_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11104,7 +11104,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/3wu6mbfLXOppIZPY7GEWgPye6Wt7h71smPHXlXsfeUs=/4464768766_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11138,7 +11138,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/7IG_-lV7bwZqGLQEfN_SI0UCLN73WO226-_fxAh8Q0c=/4464779500_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11172,7 +11172,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2yZGgnO8ZOpQXCw6PUn19egHo120K4Y-Vukf4rOCmTM=/4464788138_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11208,7 +11208,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Oygr78Fp5FzyXNAQf1K5Gs1okwQSnm9spAMocH6JJvM=/4464798392_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11242,7 +11242,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Q0l_Nz3PQD6ovMmBpERJ5hKpktZHQj7B7qpM4byUNQc=/4464805638_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11276,7 +11276,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/iO59Qby_NtFBjnT8ry5k6xuSFJHLIsxi2pANwoLIP5I=/4464812527_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11310,7 +11310,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/cXVRGUVaghnZelc1MSqO6gZLamfEllWcHmGmjRA9jlw=/4464834798_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11342,7 +11342,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/9mpQwYyMwEKSgwurHx3hV8iFY9oivDGUbq7lOrNCnlc=/4464847634_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11374,7 +11374,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/qMPuYMk3ivGPEDIPJ7fzEzjYR9--njeQb_X-j--KkkY=/4464855198_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11408,7 +11408,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Q7SJMeT9FENun8KCe7CmwGgv6eHnQ1qIogQfxNAxz1o=/4464863354_konditerska-nasadka-pelyustka.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11442,7 +11442,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/W8uUZSDyfOZBRRT4Q1pee5CRC-jH17yml7pk5Ztwk5Q=/4464873179_konditerska-nasadka-pelyustka.jpg',
     availability: 'in stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11476,7 +11476,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/7vj1YG5PY_uqsND5N1RV4oz-K7d8MYhWbVzZ-SSbpAg=/4464874871_kandurin-antichne-zoloto.jpg',
     availability: 'in stock',
-    price: '186.00',
+    price: 186.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'AXXIS ПОЛЬША',
@@ -11509,7 +11509,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/-rYZPaUK5n1s-VqL5XZ4LD7ZKnyDRNqWfSiSGGvvJho=/4558935989_kandurin-antichne-sriblo.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'AXXIS ПОЛЬША',
@@ -11544,7 +11544,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tDzULBVlWY34FD0VuLJcad7_Z1_nTS7Tsgb8575ucj4=/4467409758_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11576,7 +11576,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ljHhfmIYrMSPZuFVdvyeRfuW3teQ0n68RVBVP5nF0vo=/4467430092_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11608,7 +11608,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/seySzGNwi2ZIDJfhZ_jVoC58KX9cYjUo4_RpHoBjcrs=/4467457920_konditerska-nasadka-zakrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11640,7 +11640,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ncvsZ6HU-yxZPat98XkFxni7ZV_WPWhKr0EbZf5oaUU=/4467485875_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11678,7 +11678,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2nvy3lKbhR1SCK7orXau8EoEVL3sqaGRSAt8aKOm-vE=/4467634195_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11714,7 +11714,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IHYIPD3IFCYf7oKyLyQaHML8MvRvp9cFYVJ25VUvFTo=/4467645875_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11746,7 +11746,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Xi4qp7X4HVvdE-7WLh7iI9-bOJdyC0DwfCd-MVQYDow=/4467676746_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11780,7 +11780,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/VZwyR14Wtf9JnHb93pmX6g-U5K4jZqiQ_sitoHkAL_E=/4467685645_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11816,7 +11816,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/FhU21o76gXmZ4TKB4jDsEhWf5hLxsyT3pe3Cek4NE-w=/4467703496_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11850,7 +11850,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/sFBl579awWyxxwEgZLMi6uU0el_eyB61nsdWWlaSVgA=/4467711452_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11882,7 +11882,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/YCqs78RPdphugQINYisO1_7tSs74LmYM2HgbDHFGyjs=/4467719415_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11916,7 +11916,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/5itahYDtuofZdLlFb5EnYFfbHQKZtqgbgGnvvHBxjaE=/4467741774_konditerska-nasadka-vidkrita.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -11946,7 +11946,7 @@ export const db = [
     image:
       'https://images.prom.ua/aOOW5kWAzoaOscdwJWYyzdJ3cRAF2WPZwcySDvXxDbM=/4467873612_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -11980,7 +11980,7 @@ export const db = [
     image:
       'https://images.prom.ua/B_727AvGB0ewz9FhclTULdqa7mTi2sxlFtjVenaWCWo=/4467910988_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '79.00',
+    price: 79.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -12015,7 +12015,7 @@ export const db = [
     image:
       'https://images.prom.ua/hfPgIEf4j9MAk5aDqgTmc5VnnSt7yerBoD28Y-daEIY=/4467922943_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '114.00',
+    price: 114.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -12049,7 +12049,7 @@ export const db = [
     image:
       'https://images.prom.ua/GtlTnVhmzR9zK10F8-QKAPTCV18s40rAqHq0YhVTVPI=/4467943274_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '89.00',
+    price: 89.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -12084,7 +12084,7 @@ export const db = [
     image:
       'https://images.prom.ua/M_doRz_ZaFmOc7YtSmzJnnufV_SWCwwuNQHTUeZc51I=/4468140167_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '79.00',
+    price: 79.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -12119,7 +12119,7 @@ export const db = [
     image:
       'https://images.prom.ua/X-Dkzi_s9Jh-BAjEYDIlXEJSjNKLHi3A54Sk9CEjn9A=/4468146804_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -12154,7 +12154,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ueg8RHFxZ6PN5CtgM1OmTMC0os9X1RZKL1jzvhM2BkU=/4468236985_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12182,7 +12182,7 @@ export const db = [
     image:
       'https://images.prom.ua/TJSH7VEP-WhV1rnEqlneO7jN3IkT8bWTDDIdKDejG2g=/4468261400_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12210,7 +12210,7 @@ export const db = [
     image:
       'https://images.prom.ua/XNAhHwH_V9Mx7XbPH1eQKI0mSDa1qRnwt-7hSSkA8kk=/4468264643_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12238,7 +12238,7 @@ export const db = [
     image:
       'https://images.prom.ua/DjCt1blHPHOc5Rt6BUmuAsoMO_rcZuM9zCg-ksjYEA0=/4468266264_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12266,7 +12266,7 @@ export const db = [
     image:
       'https://images.prom.ua/f9zd1---dqb66BNPcLdImv9skdAiGKJjNvFssZ7kolE=/4468271525_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12294,7 +12294,7 @@ export const db = [
     image:
       'https://images.prom.ua/h3yKSgk5s9bFxvRXEf-fJepGZ7v9VKuNXkF4FWXlJQs=/4468273604_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12322,7 +12322,7 @@ export const db = [
     image:
       'https://images.prom.ua/TrDepirNkf7UUyevl6CSVyOBaAfNjsPs_8AuG6IuAA4=/4468275092_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12352,7 +12352,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12380,7 +12380,7 @@ export const db = [
     image:
       'https://images.prom.ua/UXCDzXKlql-wpxpcT6DzwpPU85lzxCceb2QJY9HoQFA=/4468279844_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
@@ -12412,7 +12412,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/gKcGsCShKwmiEp8EnIYPZTOxJHIfEKBZj7Km9NoQRrg=/4553136146_barvnik-rozhevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12434,7 +12434,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/XAGoClpA0KCzlXh_FbwEoQFeAvSQnFbWVkyEF9UWpyM=/4553137102_barvnik-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12454,7 +12454,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtogaryachij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12474,7 +12474,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12494,7 +12494,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-korichnevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12514,7 +12514,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-blakitnij-harchovij.jpg',
     availability: 'in stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12534,7 +12534,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-buzkovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12554,7 +12554,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zelenij-harchovij.jpg',
     availability: 'out of stock',
-    price: '285.00',
+    price: 285.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -12572,7 +12572,7 @@ export const db = [
     image:
       'https://images.prom.ua/cii3v2vz87oDZEg5SF_KVviFR7myIobdvKkBZ0kvEFY=/4469119469_konditerskij-mishok-silikonovij.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12613,7 +12613,7 @@ export const db = [
     image:
       'https://images.prom.ua/Z8gK7WbOSJ2x5RFs5Dz1d-LBxYjnlohYpRQs6I6PLpc=/4469131101_konditerskij-mishok-silikonovij.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12654,7 +12654,7 @@ export const db = [
     image:
       'https://images.prom.ua/zjiXFygBzXdDTnfAmrPcej8ZFcKDpFMff-t_cdpLpb4=/4469133766_konditerskij-mishok-silikonovij.jpg',
     availability: 'out of stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12695,7 +12695,7 @@ export const db = [
     image:
       'https://images.prom.ua/gUWwVElMqrHE9Ob1E_OOwYnZkD2YJuLVQ5EIK8jd2AU=/4469147389_perehidnik-dlya-konditerskih.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -12725,7 +12725,7 @@ export const db = [
     image:
       'https://images.prom.ua/OFbLqF8GovGzxz3ZqDlVt5D9FdJACb440M16xYJcw_4=/4469151360_termometr-kulinarnij-konditerskij.jpg',
     availability: 'in stock',
-    price: '160.00',
+    price: 160.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12743,7 +12743,7 @@ export const db = [
     image:
       'https://images.prom.ua/bN8RnaE1NfNA1Co2xubtNco_tzJnDf7xiKtGxWtMdRw=/5559877949_termometr-kulinarnij-konditerskij.jpg',
     availability: 'in stock',
-    price: '155.00',
+    price: 155.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12776,7 +12776,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Mh3emq6-Fr8oJaJjtk-gQEkL2Rp-LotSZXBBvyVSuek=/4469202998_termometr-kulinarnij-konditerskij.jpg',
     availability: 'in stock',
-    price: '172.00',
+    price: 172.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -12794,7 +12794,7 @@ export const db = [
     image:
       'https://images.prom.ua/r-M50TV_OEOiGFMHSatgK38wtnLD6vIPG9ghv_s4mLs=/4469221216_barvnik-bezhevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12813,7 +12813,7 @@ export const db = [
     image:
       'https://images.prom.ua/WzHlOOJkrqKlVAXOaOd-MBlXIWtcexCTdKRp-vkcQgM=/4469234793_barvnik-bilij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12832,7 +12832,7 @@ export const db = [
     image:
       'https://images.prom.ua/vHJYq17OOIfoYPcvzzqu8z0yV7gnBOIT2-w9hI_cGc4=/4469237292_barvnik-biryuzovij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12851,7 +12851,7 @@ export const db = [
     image:
       'https://images.prom.ua/hPofw7vgt6QtfuIHS7A5Oj5fd5qJ84pjwyJ21xd-YFU=/4469239493_barvnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12870,7 +12870,7 @@ export const db = [
     image:
       'https://images.prom.ua/y1VR55L0nIxzoUJYLZlKyZkB9sIAUffaZ-VY4QXvJls=/4469243752_barvnik-zelene-listya.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12889,7 +12889,7 @@ export const db = [
     image:
       'https://images.prom.ua/g_-qIUaa_f_7WjcfrDlJEWWkjW00DmzH58vxYKwGQQ8=/4469246646_barvnik-korichnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12908,7 +12908,7 @@ export const db = [
     image:
       'https://images.prom.ua/VUJHH2rkA23mpWjgQGFelFbGy0P1pHJuq2as6YN8Om4=/4469249144_barvnik-lavandovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12927,7 +12927,7 @@ export const db = [
     image:
       'https://images.prom.ua/X2Z_Cz8dWk9pgxFUxksmC0BRHlx7jxUPvrtt-MClvsI=/4469262378_barvnik-medovo-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12946,7 +12946,7 @@ export const db = [
     image:
       'https://images.prom.ua/y7OZuQMBuyXtovDoVkK218agpIUsNt4eYRvQ9f99MGE=/4469265245_barvnik-malinovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12965,7 +12965,7 @@ export const db = [
     image:
       'https://images.prom.ua/wtJZ2IEEUD7R1KrCL8O-AJBP1yRIrHrKRT0yFqU4gV8=/4469268145_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -12984,7 +12984,7 @@ export const db = [
     image:
       'https://images.prom.ua/_TfodovEaGiq7vcQN8xJuejF_QeLHgRN8ixA6wFhhpk=/4469273820_barvnik-sinij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13003,7 +13003,7 @@ export const db = [
     image:
       'https://images.prom.ua/_8NI-aay7LUH1nOUEyQUHw6RiTslNiWgK9O4rM3ATXA=/4470785881_barvnik-purpurovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13022,7 +13022,7 @@ export const db = [
     image:
       'https://images.prom.ua/-jA_BPeI--G7JLA_glL4W1M8wSRT7HD7MGOD5nU9IGM=/4470788473_barvnik-buzkovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13041,7 +13041,7 @@ export const db = [
     image:
       'https://images.prom.ua/_En7ADNMwKRjPpWdgAWO4Z4S10qsaRV_BsncVtF7uF4=/4470793516_barvnik-nebesno-blakitnij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13060,7 +13060,7 @@ export const db = [
     image:
       'https://images.prom.ua/LsnWXdw734E25f8NMKDK6DacpEb0Gu2Nkz0DXXa0YAg=/4470796178_barvnik-chornij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13079,7 +13079,7 @@ export const db = [
     image:
       'https://images.prom.ua/MnnRgn3q2iD-Zs9i_7QWcNA2yBRD7HQNlIhH3u5KcNY=/4470798161_barvnik-zelenij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13098,7 +13098,7 @@ export const db = [
     image:
       'https://images.prom.ua/4acy7qlCiyxrGNwSgBmGravfYEvzu5ND2uOu3SicXM4=/4470800132_barvnik-fuksiya-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13117,7 +13117,7 @@ export const db = [
     image:
       'https://images.prom.ua/GMzOakEYpoy7LGnzyKR6NOfmxAaZOGsxOPQMu1F6RNY=/4471839267_barvnik-bilij-harchovij.jpg',
     availability: 'in stock',
-    price: '39.00',
+    price: 39.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -13148,7 +13148,7 @@ export const db = [
     image:
       'https://images.prom.ua/jd6zGKkqovZkWaF6w76Pquw6PGzwLlxQ8zNvE6ytXYo=/4471852210_barvnik-lak-konditerskij-harchovij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -13186,7 +13186,7 @@ export const db = [
     image:
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvniki-harchovi-suhi.jpg',
     availability: 'out of stock',
-    price: '2280.00',
+    price: 2280.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -13208,7 +13208,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/JXaCuQ-Hj2z0_l8uaQq8PeA5fU9vloz_QMYP-pm9F48=/4480852880_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '137.00',
+    price: 137.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -13228,7 +13228,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ue78NGcryVDOd-xuiGhcRKOCSKwBxftts8pae--ACz8=/4480859325_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13247,7 +13247,7 @@ export const db = [
     image:
       'https://images.prom.ua/zGeITPw5bAHRARQgotiSLOFlPpAr4PF0wbIgg-9rKSk=/4490113121_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13266,7 +13266,7 @@ export const db = [
     image:
       'https://images.prom.ua/KMLgisXdR1oZ82J-k5Dw3EtK9M9Q47dNWgaFrOigaDs=/4490039867_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '97.00',
+    price: 97.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13285,7 +13285,7 @@ export const db = [
     image:
       'https://images.prom.ua/eOmZxD6k6rm9LaNOvnwq4iGfmM29KeSoRPm9n_YZdcY=/4490055628_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -13305,7 +13305,7 @@ export const db = [
     image:
       'https://images.prom.ua/ef8KJDtujlWu-gGbk8m7AVP4R5Bfb-uFBFYlg7Zld3M=/4490073329_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '86.00',
+    price: 86.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -13325,7 +13325,7 @@ export const db = [
     image:
       'https://images.prom.ua/WJfL5pnzOan8jdtPlHpjA_4rm6uIv9BJH9gG-9AYcPk=/4490092065_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '56.00',
+    price: 56.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -13347,7 +13347,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/8GOCp9bRb2U0JIk8h5VV6eDKNRvRFS-T0AT1qBdTqnw=/4490138518_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '183.00',
+    price: 183.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13368,7 +13368,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/d3LAaY56X82NTHlATfCgtfRNr6MxED_7ag_0RBlTEIA=/4490145850_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '183.00',
+    price: 183.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13386,7 +13386,7 @@ export const db = [
     image:
       'https://images.prom.ua/Jj3lpz-zV-pNzVByHvwE6jP6LxcnbluCCRLM5M6cInY=/4490161015_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13405,7 +13405,7 @@ export const db = [
     image:
       'https://images.prom.ua/NhhVf5v3vNfDeAeV7d6F2qGcYz4BVmNLqM8cZgPQXEg=/4490197066_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '93.00',
+    price: 93.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13424,7 +13424,7 @@ export const db = [
     image:
       'https://images.prom.ua/q-9D5qrUj3bR-lLsjS2crBaua5lC9O6SEo_i-wtqcnA=/4490202999_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '214.00',
+    price: 214.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13443,7 +13443,7 @@ export const db = [
     image:
       'https://images.prom.ua/Zgh40wwiOAOdJkbdzXbIEErM6k7-PtmflHED30YfM3E=/4490217121_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -13463,7 +13463,7 @@ export const db = [
     image:
       'https://images.prom.ua/MqzynuAZWk9B7aqXbIN3O1PRY6VMiyYYB6ZFXe2W7pk=/4490312554_barvnik-lajm-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -13483,7 +13483,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/6W-x39v08dZsBKZOkP6-mov_YuzctT81nJDWvvLKSoc=/4491555586_konditerska-nasadka-ateco.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13521,7 +13521,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/sU6zB4_dRL2YSxba2DhHU5c6wHmLK5MoQs_JdmhdmxI=/4493665303_konditerska-nasadka-ateco.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13559,7 +13559,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/S_6_ea2d86r7MmhOJnUyLCH5woGEB_Us-Y1ZYC5d3_U=/4493695125_konditerska-nasadka-ateco.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13591,7 +13591,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/dcGnqz714-2ySrORJ_BND3V191ugrpuw79oYfc3bGC8=/4493721830_konditerska-nasadka-listochok.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13625,7 +13625,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/j2wLDo4fuJ4xZkOyDTax20o8ERinSD-nm1CrNHjOGE8=/4493929164_konditerska-nasadka-tyulpan.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13659,7 +13659,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/uQqO9-GilwFFquvDkUwpblXRvGHg7ffYtBBSfFQUcvE=/4493933749_konditerska-nasadka-tyulpan.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13693,7 +13693,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/n8ajiFBEKUhIbOU1gpqHe-snKypcrH5RWwBSo8Wrnjc=/4494138588_konditerska-nasadka-tyulpan.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13725,7 +13725,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/P0-EMTHpaObmzEdh3x2CtphBWCWLn1A0eupy7y3Dxz0=/4494153259_konditerska-nasadka-ateco.jpg',
     availability: 'out of stock',
-    price: '630.00',
+    price: 630.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13757,7 +13757,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/gD__jzG3MeR0-zjg6opJrP8y3EzJvPZBqHeqrSF9f9U=/4494166273_nabir-konditerskih-nasadok.jpg',
     availability: 'out of stock',
-    price: '180.00',
+    price: 180.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13789,7 +13789,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2FdICjzB7G0vcw3PvkgVuOkNWuSbBbRof4D_HGa2z7Y=/4494176100_nabir-konditerskih-nasadok.jpg',
     availability: 'out of stock',
-    price: '300.00',
+    price: 300.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13821,7 +13821,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/zxcThxNNm1ah24diPkbnsvwT3sPftlcK82RA7dkLVZc=/4494185460_nabir-konditerskih-nasadok.jpg',
     availability: 'out of stock',
-    price: '420.00',
+    price: 420.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13857,7 +13857,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/wYFBxT2sgOq69RLZcvJ_BiQVDl2M0GCBGMrjIqALJFk=/4494198984_nabir-z-3.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13891,7 +13891,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/nhTrgkhaPN1urc2c0qF3aGveODvUWijPX3BPjmsxriw=/4494208467_nabir-iz-3.jpg',
     availability: 'in stock',
-    price: '240.00',
+    price: 240.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -13921,7 +13921,7 @@ export const db = [
     image:
       'https://images.prom.ua/jnx4rerlFe4nkgFNNPDNzU1FTKU_3tvhfVwPEZfCo2M=/4494223042_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -13955,7 +13955,7 @@ export const db = [
     image:
       'https://images.prom.ua/2tVCnKw_00_8gCXPQ9rqiMzcS0w9U-ZMgLuNSKhFmgI=/5306272343_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '147.00',
+    price: 147.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13975,7 +13975,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IIwmw4Ayo9CEpxRmDuvNdPzk67sxHkAHYdWcR4LOOCk=/4496332093_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -13995,7 +13995,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Edrb55VfVeA_CrxLUMHwcnqKw3jC0Eam6spngVTizxQ=/4496336332_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14018,7 +14018,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/_TcaOMwJp3abdPJrsCbvepfRGYYMWFYazm6e-OJmhxY=/4496338711_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14037,7 +14037,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ccnz4VZEaOnBmQiV_UjJMm65iJy5u0LJpk1nxa8pByo=/4496341456_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14056,7 +14056,7 @@ export const db = [
     image:
       'https://images.prom.ua/sL4ylvwNUhc5ZxWDtE12su8CRLCeGFkMlnS0WAKYbHw=/4496344211_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14076,7 +14076,7 @@ export const db = [
     image:
       'https://images.prom.ua/uXk395KbJ91AlmZsZJmI4uNVQfmLara0vz0-3yHL6jQ=/4496346591_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14095,7 +14095,7 @@ export const db = [
     image:
       'https://images.prom.ua/guPcilHStmM15OYIgYzgRK28U3aB_JCHGIgfsqMFfrI=/5080454443_tsukrovi-perlini-bronzovi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14113,7 +14113,7 @@ export const db = [
     image:
       'https://images.prom.ua/7ceos2BUvpSg1GtNR7PXq0n81G_urivPcB30kRsAop8=/4518200390_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '123.00',
+    price: 123.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14132,7 +14132,7 @@ export const db = [
     image:
       'https://images.prom.ua/UXaweYKkcJw-gJWmlByeUXJLItHm0lESzwhqlH4UKyw=/4518312052_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14152,7 +14152,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2n706-P-k1gELGkRPQfkyud3eWQpNMT-_LtR74i1zK0=/4518333804_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '123.00',
+    price: 123.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14188,7 +14188,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/faRpJOm_rmhA8qyqFxz3ZVY91aNDNlaicn1_wCnhjA0=/4518356634_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -14208,7 +14208,7 @@ export const db = [
     image:
       'https://images.prom.ua/DEQPJS-YDD1pdwgO5urwYwqsIat6Ag5xEyo5Wn8oPf0=/4518399721_barvnik-harchovij-zelene.jpg',
     availability: 'in stock',
-    price: '51.00',
+    price: 51.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14245,7 +14245,7 @@ export const db = [
     image:
       'https://images.prom.ua/CmEnHOo4MZ8zmxoJ05rTH-MUMvQIT_hAcTXhUpYsE54=/4518417083_barvnik-harchovij-sinij.jpg',
     availability: 'out of stock',
-    price: '47.00',
+    price: 47.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14282,7 +14282,7 @@ export const db = [
     image:
       'https://images.prom.ua/Qb6ACZNlT8yq18c4Yd8LLUB1Y_yVR7bQqdq-zBDteU4=/4518430694_barvnik-harchovij-blakitnij.jpg',
     availability: 'in stock',
-    price: '47.00',
+    price: 47.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14319,7 +14319,7 @@ export const db = [
     image:
       'https://images.prom.ua/kIDA8JPsbeYOB6izQfMWLgXmQsdLeqSgm7ZqbV2d7Y4=/4518437333_barvnik-harchovij-buzkovij.jpg',
     availability: 'in stock',
-    price: '37.00',
+    price: 37.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14356,7 +14356,7 @@ export const db = [
     image:
       'https://images.prom.ua/G2dADugvxkdHGgQXiK62dk8DhVky79TdMM1JyoTevP0=/4518450443_barvnik-harchovij-biryuzovij.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14393,7 +14393,7 @@ export const db = [
     image:
       'https://images.prom.ua/HMb_OCB_3tf4lZz-YP21NkjK5fS1Pl9zXFwLCOFeIDo=/4518458125_barvnik-harchovij-korichnevij.jpg',
     availability: 'out of stock',
-    price: '37.00',
+    price: 37.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14430,7 +14430,7 @@ export const db = [
     image:
       'https://images.prom.ua/HnHvG9NYa8dFWNMwPUWG-5ILru59jkCwY_Llq_bXL5s=/4518469736_barvnik-harchovij-vishnevij.jpg',
     availability: 'out of stock',
-    price: '41.00',
+    price: 41.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14467,7 +14467,7 @@ export const db = [
     image:
       'https://images.prom.ua/WxdGQRUaK0GP0DW0wkxyGQbnL4WIcRCA3-WiW01U-YM=/4518484126_barvnik-harchovij-pomaranchevij.jpg',
     availability: 'in stock',
-    price: '29.00',
+    price: 29.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14504,7 +14504,7 @@ export const db = [
     image:
       'https://images.prom.ua/DHZX13y4ZzACsGq5eaf5prw0DwSZ9BvGdc5vaKYnLkY=/4518503088_barvnik-harchovij-fioletovij.jpg',
     availability: 'in stock',
-    price: '37.00',
+    price: 37.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14541,7 +14541,7 @@ export const db = [
     image:
       'https://images.prom.ua/Y2MOKl7p8c6BFd5fdZUGhgTr2fSXq66uJuHqQkJBSg8=/4518512204_barvnik-harchovij-malinovij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14579,7 +14579,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ly23Ul5Tf9IwBIkflirYNJH4JdwglzietgEerKLkRck=/4518522072_barvnik-harchovij-yaskravo-zelenij.jpg',
     availability: 'in stock',
-    price: '49.00',
+    price: 49.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14616,7 +14616,7 @@ export const db = [
     image:
       'https://images.prom.ua/Lmnko4L5YQrvb5bejzLU0x-Uz41MaFDGWG2MBpuLDoE=/4518530778_barvnik-harchovij-rozhevij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Украса',
@@ -14653,7 +14653,7 @@ export const db = [
     image:
       'https://images.prom.ua/dOH10YRNBopU3GfKCtzX4GSt82mUviEmnbYixnuNL64=/4526086071_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -14670,7 +14670,7 @@ export const db = [
     image:
       'https://images.prom.ua/YwH3C1pp74Q5hRta0nmI657mLkq9QHi7kPZAfR-lvM0=/4526132171_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14688,7 +14688,7 @@ export const db = [
     image:
       'https://images.prom.ua/IWJzLBxRq93MKp1ElG-L0EuD67I3rY8gZfTRtnQANuI=/4526137692_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14706,7 +14706,7 @@ export const db = [
     image:
       'https://images.prom.ua/h2fhjyUiooyVqJGdD17nbEIPhM8aNhPhfBwwyw5dKs4=/4526140121_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14724,7 +14724,7 @@ export const db = [
     image:
       'https://images.prom.ua/yL1X8FxBDD-dZrUueQ3HLSCJy8XFw_UlfRpBj9LNH3E=/4526141644_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14742,7 +14742,7 @@ export const db = [
     image:
       'https://images.prom.ua/tGCBPrXuVbRXwAaWAkRwkzdGprU_ZwHcIFGYTed-Y18=/4526143195_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14760,7 +14760,7 @@ export const db = [
     image:
       'https://images.prom.ua/qTI6a5rG7-X3GH-kPeyXqKVlXSrJhvm9sGBI7UIEEXg=/4526143703_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14778,7 +14778,7 @@ export const db = [
     image:
       'https://images.prom.ua/eU1RfxFfWDxt_DJmeb59qCeAEaIZH9Las4RI0g4ht6o=/4526145297_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14796,7 +14796,7 @@ export const db = [
     image:
       'https://images.prom.ua/cjKfGTqhC778TnmBIyoJwliG78InAQct22vQqJzjujQ=/4526145909_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14814,7 +14814,7 @@ export const db = [
     image:
       'https://images.prom.ua/9aYffVO15wGU_5Nb1BColpu1Hsyc9_aJ-8PHV27uRko=/4526156525_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14833,7 +14833,7 @@ export const db = [
     image:
       'https://images.prom.ua/2Mc3SBZbhIenvy2CZzIGZUivadO-F5mhFsHjRNrczuU=/4526158243_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '167.00',
+    price: 167.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14852,7 +14852,7 @@ export const db = [
     image:
       'https://images.prom.ua/8Ko7tkfLjPY0lgSoyxvZJSe12CAoauEYS1E-5H08C8Q=/4526159460_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '182.00',
+    price: 182.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14871,7 +14871,7 @@ export const db = [
     image:
       'https://images.prom.ua/BogfAsMl68fwi_t1hbLwHQ8lWvVRUOsZfMRSPC7wjDg=/4526162683_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '106.00',
+    price: 106.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14905,7 +14905,7 @@ export const db = [
     image:
       'https://images.prom.ua/R3Zd-L5mF1tDLh5fOWOJs4ILh6PEIDjUy-aJGb7C9WI=/4526164067_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '184.00',
+    price: 184.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14939,7 +14939,7 @@ export const db = [
     image:
       'https://images.prom.ua/4c_boLp5BPy_ZoDVPtqRw_53TBbCz6kgYVvmdnMmY6Q=/4526168130_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '184.00',
+    price: 184.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -14975,7 +14975,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/amrcQ8y23V3S4au88T5IsSsWeyaEI-fku5y7omcl0yg=/4526170599_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '78.00',
+    price: 78.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -15010,7 +15010,7 @@ export const db = [
     image:
       'https://images.prom.ua/3J_ezZdSjd4CgM_v3CxgikNlql_L4g8P-DnV9MDr8ZA=/4529434796_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '83.00',
+    price: 83.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15045,7 +15045,7 @@ export const db = [
     image:
       'https://images.prom.ua/rJt30s3_SwrPkKLhMJUggnRu9Q0mtFHjZvcvBrKZEvM=/4529475358_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15091,7 +15091,7 @@ export const db = [
     image:
       'https://images.prom.ua/1es3CC7-fLVOnOjZnSE-qQHfCbGAwK67EPL1kuRBk_k=/4529477224_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15137,7 +15137,7 @@ export const db = [
     image:
       'https://images.prom.ua/QNLcC9Eq__AHQPshJk_nRf9DyzIWkG4TcInxn-EyZ_I=/4529478360_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15183,7 +15183,7 @@ export const db = [
     image:
       'https://images.prom.ua/gP8XMB5ipVdFjEkcU64ewXU8jdXikgZDWEYUO2Nx4kE=/4529481936_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15229,7 +15229,7 @@ export const db = [
     image:
       'https://images.prom.ua/IAhk0LGIqDWdAFONidf1LZQrl7PFN4y3xaza5IdyyYY=/4529483014_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15275,7 +15275,7 @@ export const db = [
     image:
       'https://images.prom.ua/hchzAsl3G20xMXbcC1JzxWcAGHYfcjypxwDRba-OeKs=/4529483786_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15322,7 +15322,7 @@ export const db = [
     image:
       'https://images.prom.ua/h7ZshDjgWZ9yAJdYao1bLwq4BD5zEMHLubeQPfTnd8Y=/4529486074_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15368,7 +15368,7 @@ export const db = [
     image:
       'https://images.prom.ua/iX8hircjCNk80Bl9M6yherWwm1pRRGSVtqZ2ZEGYU4c=/4529492236_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15413,7 +15413,7 @@ export const db = [
     image:
       'https://images.prom.ua/1pQSBxaNKI8T9_lndsW3g3_wMwlHzeyjm3VIXDH1uGk=/4529493726_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15458,7 +15458,7 @@ export const db = [
     image:
       'https://images.prom.ua/LaXJnjPTHQgsrrXyPoS6_nXfICDQhhzRsG7nuAYiJIU=/4529495133_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -15505,7 +15505,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IMiZwFWnWonSf2aKAW03xklHEJ6vNiEPf8kgSm2EPf8=/4529751305_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15538,7 +15538,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/kSn7PpEOWGjSexTJ4X_AAUjWzynM5kGaJHETTAB7bCQ=/4529762967_zhele-zi-smakom.jpg',
     availability: 'out of stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15571,7 +15571,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/CGbgoMGMyq82bsxSVYTX3IcUGKDFyQ5LHvrS0oIFWys=/4529772643_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15604,7 +15604,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/DYCIdbWj2GkQNtzGlV4Mk_Wqp6Zhyn-64pSsiHvLzyg=/4529776233_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15637,7 +15637,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/2lNv3DROcTVvORDhVTVMfwEMP2vIsRZInhLE8WNIfZg=/4529780706_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15670,7 +15670,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/qXjXpWqW_t4Nezg3g4WleQ9YXV8RS9SWavlUfIcdJNg=/4529782446_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15703,7 +15703,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/BTuXQaScmVbXTlXPsdty0CANLqMV7hrP8FjGMih97KM=/4529785419_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15736,7 +15736,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/_rqaCzR7AmdmMbhCLxQDcBv9SNFLiVRxFLg10HDlKnM=/4529787818_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15769,7 +15769,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/-W4HSLCUbpJHqDpCqqWpNDhT_Ru5dtJgw8zA6LUI7jI=/4529793833_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15802,7 +15802,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/zWJ2WxJG4ghYPG4dxzUq5DX3zMRO62BkCWAQvv-YbB0=/4529796103_zhele-zi-smakom.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Iris',
@@ -15833,7 +15833,7 @@ export const db = [
     image:
       'https://images.prom.ua/mrG5jaYdFsZltYkGEL_gtaoWJFrwTAM9WSCcMywJGAk=/4529810376_krem-zavarnij-shokoladnij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15863,7 +15863,7 @@ export const db = [
     image:
       'https://images.prom.ua/-eVAenAuuVEmwQmPGorLAZrEADF5jj5nBp-wDqOwUjE=/4529829539_krem-zavarnij-shokoladnij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15892,7 +15892,7 @@ export const db = [
     image:
       'https://images.prom.ua/adLu4F40Zi96lMllzfUvOO2SJcCpHWS2aXxBoAouLd0=/4529838321_krem-smetannij-polunitsya.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15918,7 +15918,7 @@ export const db = [
     image:
       'https://images.prom.ua/f8DpZCWyWnaYNH8ivpkYVVVBEhyxGbgj_MrgN-SPyhE=/4529856145_krem-smetannij-shokolad.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15944,7 +15944,7 @@ export const db = [
     image:
       'https://images.prom.ua/9D-I8Sx2FAVbzmYVpR4xQmNqnAFcbuOj-KzTa7CTLVY=/4529868975_krem-smetannij-banan.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15970,7 +15970,7 @@ export const db = [
     image:
       'https://images.prom.ua/9AWDda4zvapusOen4Dz_Cvn3q71FMFPmSVztnkki1AY=/4529873122_krem-smetannij-vanilno-vershkovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Украса',
@@ -15996,7 +15996,7 @@ export const db = [
     image:
       'https://images.prom.ua/qN9sw0K_uxaXzphZ4c6JLDJC80CYv6DJWep7Xh_8zdk=/4529930386_glazur-shokoladna-75.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Ямуна',
@@ -16030,7 +16030,7 @@ export const db = [
     image:
       'https://images.prom.ua/I10U0p_eTr7auyfMgR-aTepcQLBq4QJ-J7WcHXczQKI=/4529935310_glazur-shokoladna-100.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -16064,7 +16064,7 @@ export const db = [
     image:
       'https://images.prom.ua/2e4rCGsCAMH3eZeinv6V2afkBP4HhQ8I5n-ePtQARQI=/4530896831_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16099,7 +16099,7 @@ export const db = [
     image:
       'https://images.prom.ua/SRsdZ6AzyLheM8cwOtFFUzlUHKQH03C_UXkpxWX5F6g=/4531010113_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '61.00',
+    price: 61.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16135,7 +16135,7 @@ export const db = [
     image:
       'https://images.prom.ua/bQ6k9wiTC5CRO9AsqX2GCu-ogfYOqzzhfpZ4CXk9B9A=/4531021303_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '77.00',
+    price: 77.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16172,7 +16172,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/U131ds3cQnSCcsmq3bOxYjSp4v1f1FQ_qnW9xj2inkk=/4640781795_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '172.00',
+    price: 172.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16208,7 +16208,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/iv5TU6s3QVP4PIyrhH9uR_pd1rNaE8z1viUtTd7pIRg=/4540438983_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '172.00',
+    price: 172.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16244,7 +16244,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/fgY6SANz5IcGevTF0fNrqMSqzDq33iGSCAYViis4_oA=/4540434971_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '172.00',
+    price: 172.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16278,7 +16278,7 @@ export const db = [
     image:
       'https://images.prom.ua/mEVQ3NQhpMq-VDsbLN2z9bjYSkbFcz66mn9-TWFPebA=/4531359084_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16312,7 +16312,7 @@ export const db = [
     image:
       'https://images.prom.ua/jp_sk2h_qXQ8QG5aB1Bezx_hyPcU87coE1OO2oCexKI=/4531365478_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -16358,7 +16358,7 @@ export const db = [
     image:
       'https://images.prom.ua/BGAZRRH35aJaOKY21-_Sev2qFsngx9ZpWSca81cqgEc=/4536491437_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16408,7 +16408,7 @@ export const db = [
     image:
       'https://images.prom.ua/fH62fKKcJl1w0Qn1Id_GZnXvaqT3ao4TKkpJ7bnx8I0=/4536500863_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16458,7 +16458,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hs3Sng2GRiNvB-gPoQxAnmrwuWi8bzXNgij2EsrBc60=/4536512345_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16508,7 +16508,7 @@ export const db = [
     image:
       'https://images.prom.ua/hPfgHDV2NeRPsmOeaU-hSrjery8W4xyJ1H3wNCXd3lo=/4536516082_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -16557,7 +16557,7 @@ export const db = [
     image:
       'https://images.prom.ua/oICwe8de5L92C9lI9Ta--00aDFmnQ9q81hWZ8nsPOww=/4536580560_aromatizator-vanil-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -16592,7 +16592,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/hRwSDwErYatGEtCVxBElr0VLDD2b39K1jfACm1fAY8I=/4536630408_gliter-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16639,7 +16639,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/SyxAMmB5_KtFjptXLUS21TAdlOD_ZRXv1iOTurbkOeE=/4536723745_gliter-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16686,7 +16686,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/N4nRTLi0FNWirQvi2H-zpDuVA7JUDOk_tegeYaANELs=/4536727828_gliter-sriblo-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16732,7 +16732,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/CSSEy-I7KufpuJg8ORGOHuFgMa0R-qERixWiaBaXfmk=/4536730963_gliter-zoloto-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16778,7 +16778,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/q7UauUwg476O8PuAvt3fZuVpTXACgm7KpAiL0iiEM8s=/4536734196_gliter-rozhevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16825,7 +16825,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/y2cW8ZzSafuvH6anKko1u4CPDlg5Lq-q3xVN69lhx_U=/4536737060_gliter-chornij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16871,7 +16871,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IJwk4N6rRBXJaC34_JglPb_iPEsnK1ec-fnOqRH9aOA=/4537602499_gliter-sinij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16918,7 +16918,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/dOLHq-2qZZ9Gh8y0QOtauROYLWKgd-z0WvvrrrV35Qo=/4537606201_gliter-zelenij-harchovij.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -16965,7 +16965,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ekA4PkEzVzlnODcwU766ComixdP6860tiiGGIurRXj4=/4537609560_gliter-chervonij-harchovij.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -17010,7 +17010,7 @@ export const db = [
     image:
       'https://images.prom.ua/CF8niFVltpjEyYa7sSjuYX6bB8Di9jCOpdXX-76GHPI=/4537619738_aromatizator-karamel-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17043,7 +17043,7 @@ export const db = [
     image:
       'https://images.prom.ua/Eln8FzT-BMWCa-PrP1ADUJr24ytniGS2_8Y8jXK3A9Y=/4537660710_aromatizator-abrikos-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17076,7 +17076,7 @@ export const db = [
     image:
       'https://images.prom.ua/jQhyQ1WXyDVeFftQX3vSWHBSnChLXPyT73k6a-33Jqw=/4537667072_aromatizator-amaretto-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17109,7 +17109,7 @@ export const db = [
     image:
       'https://images.prom.ua/Sg9LXygopt1TB5mgalkaZq9GDiyQ-ixoY0rRTIEw9zQ=/4537671929_aromatizator-ananas-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17142,7 +17142,7 @@ export const db = [
     image:
       'https://images.prom.ua/cwtKU4NpglrZp9EnjP8WC3Q0go_CWPjJvUAot1sWg8E=/4537676479_aromatizator-apelsin-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17175,7 +17175,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ak7gehO0Lgf7UiV-x9wn7YwViK1YvVZB1mMRoBsl5QU=/4537681227_aromatizator-banan-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17208,7 +17208,7 @@ export const db = [
     image:
       'https://images.prom.ua/_6COFZBCodEhUB1BUa5o6YsGdrPs_9bqwjjw_RgvUHo=/4537686066_aromatizator-barbaris-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17242,7 +17242,7 @@ export const db = [
     image:
       'https://images.prom.ua/MCUbGaY18H63DF3Bsph6cTJBqyP2Dv1aM4fX2ccZJ_E=/4537711287_aromatizator-vinograd-chervonij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17276,7 +17276,7 @@ export const db = [
     image:
       'https://images.prom.ua/yt2rzuvOc-Sl_AmmwdJhTrE2ajSBsMLd7KnKsex6w4w=/4537717322_aromatizator-vishnya-chervonij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17310,7 +17310,7 @@ export const db = [
     image:
       'https://images.prom.ua/qwPWaPpyUZ4IGj6Db0wdweCLCVgVQMR0DHNoBmwX71k=/4537721649_aromatizator-granat-chervonij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17343,7 +17343,7 @@ export const db = [
     image:
       'https://images.prom.ua/UDt8iQpAXuByB7NHFxZ0NRxPbg7tSuv4yEH_3Ohamig=/4537726237_aromatizator-grejpfrut-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17376,7 +17376,7 @@ export const db = [
     image:
       'https://images.prom.ua/PpsIZisQ9lle720qrqj3eXyWeE3X7LaObIiNI2ig1Bo=/4537954962_aromatizator-dinya-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17409,7 +17409,7 @@ export const db = [
     image:
       'https://images.prom.ua/ameAqeX33SoYeB7FL0yEFCaOGP1IDszyIwbY6QZLlBs=/4537749700_aromatizator-dyushes-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17443,7 +17443,7 @@ export const db = [
     image:
       'https://images.prom.ua/EH_ylI5P732XfItIttvMyQTsFUJ7ssdlzVkcj04Hz-I=/4537755248_aromatizator-irlandskij-krem.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17476,7 +17476,7 @@ export const db = [
     image:
       'https://images.prom.ua/pGaY3UvS46vMkHbcFpARmpHzOeKAR4FfhQseOjCoR8Q=/4537974642_aromatizator-ekzotik-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17509,7 +17509,7 @@ export const db = [
     image:
       'https://images.prom.ua/9UJLfxV9e4ZUpqwRVE09_Expv29wAV5Ijv_e8zJpjNo=/4537766451_aromatizator-kokos-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17542,7 +17542,7 @@ export const db = [
     image:
       'https://images.prom.ua/RdjtA4KtkKkW0JqNcPKapPKO0Ke_HdUW_rXexz6SS-c=/4537768899_aromatizator-kava-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17575,7 +17575,7 @@ export const db = [
     image:
       'https://images.prom.ua/srJMwEEpxp2Ow8MAQfgDt5S83W4huAaUkcnx5OSIXpo=/4537773917_aromatizator-konyak-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17608,7 +17608,7 @@ export const db = [
     image:
       'https://images.prom.ua/lOhlef6jROYxU7cLI6sq7SQT7QjjYzqArXbbemHHkUc=/4537956442_aromatizator-kola-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17641,7 +17641,7 @@ export const db = [
     image:
       'https://images.prom.ua/rDzYMtQ_SDEmvVid6DXPXV9fB8pdIswOAeKa_7KWYTI=/4537957153_aromatizator-lavanda-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17674,7 +17674,7 @@ export const db = [
     image:
       'https://images.prom.ua/zUBs4G_goEpF5dVOrOPuhz-r7ZoX6GmD0YMxJyMrAbY=/4537957971_aromatizator-limonad-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17707,7 +17707,7 @@ export const db = [
     image:
       'https://images.prom.ua/742BeVCZAiwPMYuJWs65UdXaFyGWcXQJ6NI3COUjgQs=/4537799500_aromatizator-limon-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17741,7 +17741,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZieNs1akx8vkea_mwJ4sEYkkM6FuDggjTVxEjmrOENQ=/4537804250_aromatizator-lisovi-yagodi.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17775,7 +17775,7 @@ export const db = [
     image:
       'https://images.prom.ua/MjfZvzu7d1NBB9pBkNYAfuNBY88XQC7R5mPPHHLu5fI=/4537958775_aromatizator-lisovij-gorih.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17808,7 +17808,7 @@ export const db = [
     image:
       'https://images.prom.ua/fIHXoymp8nF29kGdYA0VvIBDHrT9sx5iuuVgmVtDrd8=/4537816543_aromatizator-malina-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17841,7 +17841,7 @@ export const db = [
     image:
       'https://images.prom.ua/pqxv9bRXiLlAJWtb3lpyDgdnWG5dcFgZS_M0oQH-H9U=/4537959718_aromatizator-mango-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17874,7 +17874,7 @@ export const db = [
     image:
       'https://images.prom.ua/wylo4l1OKtoL4ba-0mkg7I1ys4ZnLv_Gs7q7GpSmBJs=/4537960661_aromatizator-maslo-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17907,7 +17907,7 @@ export const db = [
     image:
       'https://images.prom.ua/RlnHPRC0jyU4V3FO2mx55pRuWtDlupTZolkkCrkcImE=/4537829946_aromatizator-migdal-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17940,7 +17940,7 @@ export const db = [
     image:
       'https://images.prom.ua/UT4NnRS6yd2oPILfc2UULUgqIFJGwGrNvNJJbN86eXA=/4537961401_aromatizator-mohito-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -17973,7 +17973,7 @@ export const db = [
     image:
       'https://images.prom.ua/R-8P2KXLvHnveM-l1MLflw4L-y2n6vALFzCt7iAff04=/4537853049_aromatizator-polunitsya-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18006,7 +18006,7 @@ export const db = [
     image:
       'https://images.prom.ua/vX6Oh9IYbSR2D2yXnXiDWrz6WkasdrpWXX4TIVFsyOM=/4537855388_aromatizator-rom-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18039,7 +18039,7 @@ export const db = [
     image:
       'https://images.prom.ua/zOSo74fjls9AnXuwu949ax_Ay0IPCZ3sFtYcQlbHNf8=/4537938887_aromatizator-persik-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18072,7 +18072,7 @@ export const db = [
     image:
       'https://images.prom.ua/BGwrq047es9rnZdJdHpN4v7TbhILdEzk-3quznjZ6B8=/4537893218_aromatizator-tofi-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18105,7 +18105,7 @@ export const db = [
     image:
       'https://images.prom.ua/GXL6WbhKoPg8mt4kqHrUsz-CQZ1XpCnjbocInp9q1Zc=/4537895298_aromatizator-tiramisu-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18138,7 +18138,7 @@ export const db = [
     image:
       'https://images.prom.ua/fs8da0blL1hwupFYDmAleJpwMsYXR5i3QltOQ5EjajM=/4537898029_aromatizator-fistashka-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18172,7 +18172,7 @@ export const db = [
     image:
       'https://images.prom.ua/Q5vMYMU1f5s9DByh2jF255aXeIkPo6a2HFLCB-WgTOY=/4537901058_aromatizator-chorna-smorodina.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18205,7 +18205,7 @@ export const db = [
     image:
       'https://images.prom.ua/eQvCk0_nBBjoclRS26JyXuRZGkMxJYyzyy0vBJ-Qjh4=/4537904508_aromatizator-shokolad-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18239,7 +18239,7 @@ export const db = [
     image:
       'https://images.prom.ua/hVCL34Sak7w3mq41VM0tBJd_wgiJEwjuSfgsGb8gPAQ=/4537909742_aromatizator-shokoladnij-tryufel.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18272,7 +18272,7 @@ export const db = [
     image:
       'https://images.prom.ua/8NoEsAAubpvMiFL20WtK8erYJtKpmjf0txkmXD6NJjw=/4537912508_aromatizator-chernosliv-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18305,7 +18305,7 @@ export const db = [
     image:
       'https://images.prom.ua/QruNWFqVV2ys_oTeSzN8MFqRZuanFllPORsoW_xjfJQ=/4537939891_aromatizator-yabluko-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -18338,7 +18338,7 @@ export const db = [
     image:
       'https://images.prom.ua/nn4JHqk0pa86xmEfUXCSyn6L2HD1O5sTbQ-EeVVjJDs=/4539207227_barvnik-lajm-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18370,7 +18370,7 @@ export const db = [
     image:
       'https://images.prom.ua/rSkHVjd4f8xl_T9rcjm_LEJxRq55B14TwpGRxOUJDC4=/4539221469_barvnik-buzkovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18402,7 +18402,7 @@ export const db = [
     image:
       'https://images.prom.ua/ELef5khBQmfX2IzXwwXJWTR7ZSJMveljeJx9SbARKjQ=/4539264328_barvnik-vishnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18434,7 +18434,7 @@ export const db = [
     image:
       'https://images.prom.ua/x8FC3QTpIIMFqWvmSUXZtk4_UhFByqewlpOK0Wdajfg=/4539274012_barvnik-smorodina-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18466,7 +18466,7 @@ export const db = [
     image:
       'https://images.prom.ua/o15Yf2SbT6_gd1tfx07GX4cEOKzH0jcTennAFUf1dp0=/4539286861_barvnik-fioletovij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18498,7 +18498,7 @@ export const db = [
     image:
       'https://images.prom.ua/lFdH7FB-AZnfmKAPo2C5qGN_0pd0QzrEtDYxsTlHiLA=/4539304374_barvnik-polunichnij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18530,7 +18530,7 @@ export const db = [
     image:
       'https://images.prom.ua/el1m37pv7K9pOn3sUr3OECn3zyjhYYLZCsIo9db63KY=/4539310220_barvnik-bilij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18562,7 +18562,7 @@ export const db = [
     image:
       'https://images.prom.ua/FkqE4sari0HUKpugjDuvajfOBbBxwIc3Y5sJao6kidU=/4539314905_barvnik-pomaranchevij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18594,7 +18594,7 @@ export const db = [
     image:
       'https://images.prom.ua/mWf3MqSIHFekloMgGuP6iNVKOAq4iW5uosC-1BIghKM=/4539319765_barvnik-persikovij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18626,7 +18626,7 @@ export const db = [
     image:
       'https://images.prom.ua/SXeW6PJNq2qIF-HTahH46PuiQItma7CFrbDcamICuP0=/4539329480_barvnik-zelene-yabluko.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18658,7 +18658,7 @@ export const db = [
     image:
       'https://images.prom.ua/jy_9DZSCzB_jNR6AqueWIWT7c1p1IRCY9cVBsek3HJM=/4539333798_barvnik-chornij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18690,7 +18690,7 @@ export const db = [
     image:
       'https://images.prom.ua/GhwN4aSnHpeSFDLH3n_30bCMq-yfdcSyAxBsmIbQHQQ=/4539336505_barvnik-granat-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18722,7 +18722,7 @@ export const db = [
     image:
       'https://images.prom.ua/LEaMxKsHBjRsqmlqZoS8khwDqztyDiCrFzJrHZGxbUc=/4539339396_barvnik-sinij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18754,7 +18754,7 @@ export const db = [
     image:
       'https://images.prom.ua/1yw8gc3LdgYM7dXUnEh6U-fcwFJQjsaosZHe4-JpzWQ=/4539343442_barvnik-korichnevij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18786,7 +18786,7 @@ export const db = [
     image:
       'https://images.prom.ua/CDAgereL8Sas8ahxEgJ4BLnUiE_T_YKbUWQwfj22KQQ=/4539347267_barvnik-chervonij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18818,7 +18818,7 @@ export const db = [
     image:
       'https://images.prom.ua/z_Xv5YkLdMSSUEptga4ira8FlXayW1JExTEoEf9aXZU=/4539353401_barvnik-malinovij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18850,7 +18850,7 @@ export const db = [
     image:
       'https://images.prom.ua/HAbzNttLqWVqTypi99qCEU7pW-vfzhIFazvn2ujto9E=/4539356606_barvnik-zhovtij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -18882,7 +18882,7 @@ export const db = [
     image:
       'https://images.prom.ua/2jAY0Vbh-5gpY3InnPYnv0EsD88PfPPPT6Tx3b6QjeQ=/4539373564_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '98.00',
+    price: 98.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -18917,7 +18917,7 @@ export const db = [
     image:
       'https://images.prom.ua/jRScF8GXbtmyaA9Qzcyx1W1qAt5Bb1rINWY9SkxPu-s=/5128111193_posipannya-tsukrovi-hlopchikam.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -18936,7 +18936,7 @@ export const db = [
     image:
       'https://images.prom.ua/RgN-jC77RpYCOSWBm_fSJpAsheAMiPMo2L_x7S8TV6g=/4543165699_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -18981,7 +18981,7 @@ export const db = [
     image:
       'https://images.prom.ua/dKJXkdCSs2zPRWAfFUm8ZfcTiogDRVWy3G5BIPXz-aU=/4543166132_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19026,7 +19026,7 @@ export const db = [
     image:
       'https://images.prom.ua/SV51TBbn__p5cz3I_xU2pjXZkFMT6VPW1tTndOFvloc=/4543166666_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19071,7 +19071,7 @@ export const db = [
     image:
       'https://images.prom.ua/Fb9mPGXiumuB1Mmg6b3zxojdQiaNEwFizlltfurzaxM=/4543169356_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19116,7 +19116,7 @@ export const db = [
     image:
       'https://images.prom.ua/NIojLQuBd0xYEogxjneRrzZbnAUI8tXnIXjW6EHHElk=/4543169812_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19161,7 +19161,7 @@ export const db = [
     image:
       'https://images.prom.ua/0hI-sOmh4O6qgede9y4Ew0NnpnLapPuf_Y4MGjq20KU=/4543170218_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19206,7 +19206,7 @@ export const db = [
     image:
       'https://images.prom.ua/0IeQbzXHW_w-8hb8jjcJ9tB0zlUjVX3e1QcHMcyUMWI=/4543172236_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19251,7 +19251,7 @@ export const db = [
     image:
       'https://images.prom.ua/87FI5g9j2Vlk0VqQTsBLaz3x7mBO83hGrqwAVNsWrHU=/4546036725_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -19308,7 +19308,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/DJDhD_lDzBA5xOf4QrJhNS1b4lrZ7n31NQIhF2EBwCA=/4547067509_zoloto-susalne-harchove.jpg',
     availability: 'out of stock',
-    price: '462.00',
+    price: 462.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'РАРИТЕТ',
@@ -19368,7 +19368,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/3Xy93ePneIOG2zf-Pk2nXXcR5FHnqXaaV6QYrF7iuxU=/4547129402_zoloto-susalne-harchove.jpg',
     availability: 'out of stock',
-    price: '479.00',
+    price: 479.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -19417,7 +19417,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/4dTCkzeQaOIa_Da7pqERpI5_m5laulWtmC4k5kjZrY4=/4550933184_zoloto-harchove-listove.jpg',
     availability: 'out of stock',
-    price: '300.00',
+    price: 300.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -19435,7 +19435,7 @@ export const db = [
     image:
       'https://images.prom.ua/42x_76EU9CK0jT2DS3xGmCOpmbQwgwokl8IhprPIb60=/4553186844_barvnik-holinovo-zhovtij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19453,7 +19453,7 @@ export const db = [
     image:
       'https://images.prom.ua/T0Fo4EcJ2Ot5TRLqDINgMZznVPM_sNwuc9pbSJ4M6ow=/4553188659_barvnik-rozhevij-harchovij.jpg',
     availability: 'out of stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19471,7 +19471,7 @@ export const db = [
     image:
       'https://images.prom.ua/lcyss5-V0nmrHhTY4ifPoqtcQnIc8vGYGitqKEGFhLY=/4553197855_barvnik-chervonij-alyur.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Алюр',
@@ -19490,7 +19490,7 @@ export const db = [
     image:
       'https://images.prom.ua/lppQE6dftkKdgomK1-DKC6ny_fpx9tXoIlJIQKS3OAw=/4553200507_barvnik-blakitnij-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19508,7 +19508,7 @@ export const db = [
     image:
       'https://images.prom.ua/c6KncDclsm7YYLHCBryeBlC7JQxIVQcuMWDdOiyYGGM=/4553203726_barvnik-zelenij-temnij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19526,7 +19526,7 @@ export const db = [
     image:
       'https://images.prom.ua/N2N2i9884w90XkAI4_XkiPCaXgloa2cb_CVO8s92mVg=/4553206468_barvnik-fuksiya-harchovij.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19558,7 +19558,7 @@ export const db = [
     image:
       'https://images.prom.ua/lyAK9hjqVEOp_CTv553MjcqqdFCcIVlxqPD7f9vlZDw=/4553208951_barvnik-morska-hvilya.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19576,7 +19576,7 @@ export const db = [
     image:
       'https://images.prom.ua/ARtBpbNqJj_O91B0Ve-pGIqJJYFtSf-lk4iHajhpINM=/4553210578_barvnik-zelenij-kivi.jpg',
     availability: 'in stock',
-    price: '22.00',
+    price: 22.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19594,7 +19594,7 @@ export const db = [
     image:
       'https://images.prom.ua/pPOfbWdNQUt8xQUuxNjpcLSp47byEzgjV2AyYkLcLB4=/4560919734_konditerski-mishki-odnorazovi.jpg',
     availability: 'in stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -19624,7 +19624,7 @@ export const db = [
     image:
       'https://images.prom.ua/GmWK6zygpyYhLq897RGqj81I6cEOi94qa_0Wf4RKgYA=/4560973277_gelevij-barvnik-siro.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -19663,7 +19663,7 @@ export const db = [
     image:
       'https://images.prom.ua/cYtEo8t2skIHlLMdv5BOVC6ZJvROB05u5P0a6tZ9PL0=/4560977157_gelevij-barvnik-bezhevij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -19702,7 +19702,7 @@ export const db = [
     image:
       'https://images.prom.ua/OscPhGm-4SWS8iYJFkP-UICgKyjfXbfIH0-3-7oOlGM=/4560980910_gelevij-barvnik-svitlo-zhovtij.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Modecor',
@@ -19741,7 +19741,7 @@ export const db = [
     image:
       'https://images.prom.ua/KDODT19Shn0zUBGR2jCVhwX--YtvdLJPTZ5QYJqNaTY=/4563605442_flomasteri-olivtsi-harchovi.jpg',
     availability: 'in stock',
-    price: '100.00',
+    price: 100.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -19765,7 +19765,7 @@ export const db = [
     image:
       'https://images.prom.ua/bRlhngiDNpIlq0mtjDdA35qBme7e2JikNbkxWKumJLI=/4561046569_glazur-konditerska-chorna.jpg',
     availability: 'in stock',
-    price: '24.00',
+    price: 24.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Мір',
@@ -19801,7 +19801,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/TB0M3Z37H_FA3oD-Mp9NUOFieo8b6byTwRHk22FXz38=/4561081770_shokoladnye-dropsy-kapli.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Мір',
@@ -19835,7 +19835,7 @@ export const db = [
     image:
       'https://images.prom.ua/J9tmmVh8ksfE7SnFvmb_u_zl6sg3PdsLfozC6M00jxg=/4561286534_aromatizator-harchovij-rom.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -19864,7 +19864,7 @@ export const db = [
     image:
       'https://images.prom.ua/aGKX5M4HqfH5bXtoEg9FMveesg409avg91rMYZV-Lpw=/4561278692_aromatizator-harchovij-limon.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -19893,7 +19893,7 @@ export const db = [
     image:
       'https://images.prom.ua/gmtrZrCfnicJoQ2LJHPohcexMbfjPyScofwQfYx-qNE=/4561282167_aromatizator-harchovij-vanil.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -19922,7 +19922,7 @@ export const db = [
     image:
       'https://images.prom.ua/g8v2wp93b3Enfdg1GurwFVVDOLog8TU-Lc8kChpcUV8=/4561283652_aromatizator-harchovij-migdal.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -19951,7 +19951,7 @@ export const db = [
     image:
       'https://images.prom.ua/t9lm9e_33eAnfylX85oPwaXK-blmH1o2OoclAbFaV5c=/4562625823_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -19970,7 +19970,7 @@ export const db = [
     image:
       'https://images.prom.ua/tLLIUdtvhx8F7hIx9WdSl9qbOHJW0C43Fvx0kEOM90c=/5080479835_tsukrova-posipka-bebi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -19989,7 +19989,7 @@ export const db = [
     image:
       'https://images.prom.ua/BVK23QaYa-llNxtZvBwW49TT7zSSHm1MaVjTOSCJnx0=/4562656858_tsukrova-posipka-sribnij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20008,7 +20008,7 @@ export const db = [
     image:
       'https://images.prom.ua/meMZ6q44uErzqzGpQ9ZbX6KPpnTxdAZGlfSlXWtql8A=/4562657126_tsukrova-posipka-zolota.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20028,7 +20028,7 @@ export const db = [
     image:
       'https://images.prom.ua/BJk_R7vKUv6fDeNlJdDDr5OPKHjRMrg0Xb_kujcQqLc=/4562624029_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20048,7 +20048,7 @@ export const db = [
     image:
       'https://images.prom.ua/rp6DlrXGIpl-2dtgnDPSGEHdvIRmhZ4MGWVtyrMf-pY=/4562627053_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20067,7 +20067,7 @@ export const db = [
     image:
       'https://images.prom.ua/or9nZ2WSswN8MjgHUTXAE83K5McjGvR6uRLs3yO_zto=/4563622815_flomasteri-nabir-chervonijchornij.jpg',
     availability: 'in stock',
-    price: '125.00',
+    price: 125.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -20092,7 +20092,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZzwPXjTraHK0SJv0xu17zfYfrQBRhVo8P5oKxANvdPU=/4563604085_flomaster-chornij-harchovij.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     brand: 'Sugarflair Colours',
@@ -20128,7 +20128,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/UH4WXb1cf2MO1x4xsXOyii7pgTyFJETIZgdkHRM9U4c=/4563680340_shokolad-obtikayuchij-chornij.jpg',
     availability: 'in stock',
-    price: '215.00',
+    price: 215.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20159,7 +20159,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/6Z--95f3Q9l4YxVCLFhZo6orH1GzfqDEG7IYK-ERpRk=/4563695254_shokolad-obtikayuchij-chervonij.jpg',
     availability: 'in stock',
-    price: '215.00',
+    price: 215.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20190,7 +20190,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/wYTmKIQNIZw7wXn4UK6qFYUZhmO0yKpBRyY3Q4jQBqM=/4591153036_shokolad-obtikayuchij-bilij.jpg',
     availability: 'in stock',
-    price: '215.00',
+    price: 215.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20223,7 +20223,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/kqt7a8QEsslipQKx2UOCH1h4TDamCuoJ4EfxZMGM3nU=/4591152603_shokolad-obtikayuchij-korichnevij.jpg',
     availability: 'in stock',
-    price: '215.00',
+    price: 215.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20253,7 +20253,7 @@ export const db = [
     image:
       'https://images.prom.ua/cRuFyDCSn2lowAs4p-571Zb2E16Qjrjdq56hS_JeMQk=/4564522336_shokolad-obtikayuchij-sriblo.jpg',
     availability: 'in stock',
-    price: '365.00',
+    price: 365.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20283,7 +20283,7 @@ export const db = [
     image:
       'https://images.prom.ua/OudezkbxU58sx6vfNSWTGsAU8BPEpeUSPgxcAi7mLn8=/4564531382_shokolad-obtikayuchij-zoloto.jpg',
     availability: 'in stock',
-    price: '365.00',
+    price: 365.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -20312,7 +20312,7 @@ export const db = [
     image:
       'https://images.prom.ua/1wJFrMbk6LbSNVs2t2fw9UfKEu-Yica8_caxIUJPvn8=/4564540117_kakao-terte-u.jpg',
     availability: 'out of stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > напої > Чай, кава, какао > какао',
     brand: 'Schokinag',
@@ -20350,7 +20350,7 @@ export const db = [
     image:
       'https://images.prom.ua/C_GqFH5LFtSQ8PFP1_SKQ61HB7juBrEizPFw9AevVEU=/5105925672_kamintsi-shokoladni-svitli.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20395,7 +20395,7 @@ export const db = [
     image:
       'https://images.prom.ua/zRHCdDrVIjdyJQBlJNQV7le1isz9NwFbEIhPHT-w7iw=/4569595436_rozpushuvach-dlya-testu.jpg',
     availability: 'out of stock',
-    price: '7.00',
+    price: 7.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20426,7 +20426,7 @@ export const db = [
     image:
       'https://images.prom.ua/kzIoBF3CLrAwswBWtwoowdmH-IGS37K7LFw1Oosfez8=/4569622556_zbitij-desert-amonij.jpg',
     availability: 'in stock',
-    price: '39.00',
+    price: 39.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20457,7 +20457,7 @@ export const db = [
     image:
       'https://images.prom.ua/nT0JPFRxwBOK5GTsDHt75fkLqODk-cvKnE5JG90gedQ=/4569652293_glazur-iz-shokoladnim.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20485,7 +20485,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/pfSGDL2L29jqaOxA6rU4AMdX26-HOHW3FPF_HcZLSXQ=/4569696756_glazur-temno-bilij-shokolad.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20513,7 +20513,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/1KRguLFE5KPKRv2EWXmhj9-Io_2gx-8zF4XUMtBjRig=/4569702469_glazur-temnij-shokolad.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20539,7 +20539,7 @@ export const db = [
     image:
       'https://images.prom.ua/gGWaIAq0sdOYYE5zEqRjHGF2UXM6_92CiWN7p3oC_80=/4569720131_glazur-temnij-shokolad.jpg',
     availability: 'in stock',
-    price: '51.00',
+    price: 51.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20567,7 +20567,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/biqI8hpeCdQmK8Uh3eLASbf1J3h2rj1d7IfxAifMFyk=/4569790110_zhele-bezbarvne-prozore.jpg',
     availability: 'in stock',
-    price: '12.00',
+    price: 12.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20593,7 +20593,7 @@ export const db = [
     image:
       'https://images.prom.ua/uj_v7vYqOo8GSDeGfwvs6TUEH3QnnKhg8n2-N56f-_w=/4569813457_zhele-chervone-dlya.jpg',
     availability: 'in stock',
-    price: '12.00',
+    price: 12.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Dr. Oetker',
@@ -20623,7 +20623,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/W403CDZr6pmA016tDuSgq55oiEi1aDUo-LeFKpntT84=/4569877212_kakao-temnij-poroshok.jpg',
     availability: 'in stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'продукти харчування, напої > напої > Чай, кава, какао > какао',
     brand: 'Dr. Oetker',
@@ -20667,7 +20667,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Qa-jkugSfLmhgvOqBzvRfCKCE4QTBpNS2copuw-Cg-0=/4573665761_krohmal-kukurudzyanij-bez.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > крохмаль',
     brand: 'Dr. Oetker',
@@ -20699,7 +20699,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/pazQB1SGDYasMFfuLXgh0qH_-wrN63WdPiuYm5Qzx-M=/4575193506_krohmal-kukurudzyanij-bez.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > крохмаль',
     brand: 'Dr. Oetker',
@@ -20733,7 +20733,7 @@ export const db = [
     image:
       'https://images.prom.ua/sz30G_FhdIhp4h3N9iDGmTw-CU7FN974Sbrmq-vb2n4=/4575239992_posipka-tsukrova-perli.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Dr. Oetker',
@@ -20771,7 +20771,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/tcOGavzt5M7E5-OfF-2JW6ledmKZ-3ySd6_5vXWLBU4=/4575198915_krem-dlya-torta.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський крем та начинки',
     brand: 'Dr. Oetker',
@@ -20796,7 +20796,7 @@ export const db = [
     image:
       'https://images.prom.ua/sZdvY2iu8gUVtnh_CDkBmYe4uuK0Ye4UsmCYVcBl7Oo=/4575275838_posipka-tsukrova-perli.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Dr. Oetker',
@@ -20832,7 +20832,7 @@ export const db = [
     image:
       'https://images.prom.ua/8L9suSWY6aRRJEKQah2cHSkiZMPE_LvJYhTuACnH-cM=/4575278976_posipka-tsukrova-perli.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Dr. Oetker',
@@ -20868,7 +20868,7 @@ export const db = [
     image:
       'https://images.prom.ua/IzQfOGIMx2joG5qGYZve4pE8qrn59X1zsMFLN4_FdlA=/4575288310_rozpushuvach-tista-10.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Dr. Oetker',
@@ -20899,7 +20899,7 @@ export const db = [
     image:
       'https://images.prom.ua/qV-IOjg7rExGoWkanAytZvdViMtNHzlA6iRMJ-Pl0pI=/4575321961_rozpushuvach-tista-10.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Dr. Oetker',
@@ -20931,7 +20931,7 @@ export const db = [
     image:
       'https://images.prom.ua/O_ey3PyR4d3s-hJAHmSjiTyHFls0RtdjHMVqHwQoXco=/4575388545_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -20966,7 +20966,7 @@ export const db = [
     image:
       'https://images.prom.ua/Er_RIw6Xw_V-tr4bFWmR9Nouqlq9XgBF4pyhqSzmTmI=/4575399458_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21000,7 +21000,7 @@ export const db = [
     image:
       'https://images.prom.ua/-raLAAdM0Ns0AzBolIIiqhXw3TSAE3Igsk_bKhWVPjc=/4575471810_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21035,7 +21035,7 @@ export const db = [
     image:
       'https://images.prom.ua/y8MkV2lXx6FyPrOMy1egMbj8oEJ3To5Ub6_iruTdhmc=/4575524600_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '81.00',
+    price: 81.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21070,7 +21070,7 @@ export const db = [
     image:
       'https://images.prom.ua/09kzJ4Q7WtpzdyuHehZAbUOWBgF-8vWfc6nmKYeDKXg=/4576090581_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '139.00',
+    price: 139.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21112,7 +21112,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '114.00',
+    price: 114.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21151,7 +21151,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/FOuXftnZP8Q4zwWZ6gKEqXmY4c2Sk8DykIki8FTwb_A=/4576354401_tsukrovi-prikrasi-kotiki.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21185,7 +21185,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/BbqY_DU6frMsv-7XTOvkPA0gXVyPNiYILnGTeGcjSaM=/4576388403_tsukrova-prikrasa-ribalka.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21226,7 +21226,7 @@ export const db = [
     image:
       'https://images.prom.ua/HJ8dOfy4iTJo8GrZVoHSu4wDUez1tthMSSqHe01V-RQ=/4580554404_tsukrova-prikrasa-na.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21244,7 +21244,7 @@ export const db = [
     image:
       'https://images.prom.ua/JZUAn9a7ZPhIBOzlXL67OfbJ02Xa_69jp_BfJV4skko=/4580557649_tsukrova-prikrasa-na.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21262,7 +21262,7 @@ export const db = [
     image:
       'https://images.prom.ua/cRp1Yh5iitLBS-C7KsqCORgxOWpGIHcb0RHRq-I9gns=/4580560522_tsukrova-prikrasa-na.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21280,7 +21280,7 @@ export const db = [
     image:
       'https://images.prom.ua/n8J8yXvm8B7es8j1A0BwUbik7kNOcKa1tZ2JuXwdwPc=/4580562863_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21298,7 +21298,7 @@ export const db = [
     image:
       'https://images.prom.ua/57iZfFF7dXh0gTpPUkIjGYwZAKtfT04zTsUPaPi-BHs=/4580565288_tsukrova-prikrasa-na.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21319,7 +21319,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Jz3dVdblVYoBsKarJ_yGH5RX6ZsKSCyTjz7XCatkha4=/4425819550_zoloto-harchova-potal.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21337,7 +21337,7 @@ export const db = [
     image:
       'https://images.prom.ua/MhGadHpFxg_ChwcP05D51K2dwSfEurUwhnEtdWn_DAU=/4607378759_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '65.00',
+    price: 65.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -21384,7 +21384,7 @@ export const db = [
     image:
       'https://images.prom.ua/DZdqCWgLLVbue9FpD72802Zv24Mc3fVh3K_kcjBMc5I=/4607405654_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -21431,7 +21431,7 @@ export const db = [
     image:
       'https://images.prom.ua/qhtyOSskZrtacS0I2wgrhpWnFStsLdrHaCMzgwdaP5w=/4607408868_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '65.00',
+    price: 65.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Slado',
@@ -21478,7 +21478,7 @@ export const db = [
     image:
       'https://images.prom.ua/XvNkZHHbmPumkeQyCzBt51PKgRh4i5dwErGVP-MWI78=/4610065613_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '149.00',
+    price: 149.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21497,7 +21497,7 @@ export const db = [
     image:
       'https://images.prom.ua/9gDOCcGrjHEro866YJjufGy7RlvtLSWIsq-w71QAdAo=/4610083386_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '149.00',
+    price: 149.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21517,7 +21517,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/aepLbCrqfWRPh_7_BPnHgSEvxWLP4EMsFRwHpLg2Yt8=/5567983526_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -21535,7 +21535,7 @@ export const db = [
     image:
       'https://images.prom.ua/ghYuLlUpCu8Rid969OGWoblA1EMBd6lGf6nXB_YVRXo=/4610140337_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '41.00',
+    price: 41.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21570,7 +21570,7 @@ export const db = [
     image:
       'https://images.prom.ua/oO4bvsojFzWqzfdqOr2-yKabiR6w2z-RAXX-gIZIVWk=/4610166791_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '114.00',
+    price: 114.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21605,7 +21605,7 @@ export const db = [
     image:
       'https://images.prom.ua/QyKASorJBG_ROTQbzZ7wdM14Oq5I3e5Tr031wGxF9RM=/4610185169_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21640,7 +21640,7 @@ export const db = [
     image:
       'https://images.prom.ua/wKcyam-dur2rnEmqNUUnxAkWgMc9RQBNKvjIglE-ElE=/4610201989_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '79.00',
+    price: 79.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21675,7 +21675,7 @@ export const db = [
     image:
       'https://images.prom.ua/ogUlDyqvH6d5slOitIY8kdzrptXdAjyrNzJwBooFCrM=/4610284591_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21710,7 +21710,7 @@ export const db = [
     image:
       'https://images.prom.ua/Du1AQXgTl1RzcMlwo9GfUPk8PDyAsieC7k4u-vIPnGQ=/4610313623_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21745,7 +21745,7 @@ export const db = [
     image:
       'https://images.prom.ua/TK_koavU5ieF9t9fA06xtPA5J6xMpqGU_V6o2Gxc0a0=/4610326856_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21780,7 +21780,7 @@ export const db = [
     image:
       'https://images.prom.ua/NW6RqtLnhtuF39v6tlfLjKD_eposWB0TviTDWJehXLs=/4610332902_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21815,7 +21815,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ix_eWxcSarrJgQpXnKwC0x856OX_vS8LfLSZOSZ15sc=/4610335283_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21850,7 +21850,7 @@ export const db = [
     image:
       'https://images.prom.ua/WDCcByhkZdcjsGpZmDDcoLlusZTlx40fIbewPavQw5g=/4618930376_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21885,7 +21885,7 @@ export const db = [
     image:
       'https://images.prom.ua/jvpkdvL5CgRWRgD6o8xFg94MnBbl9vdDXBAtNhkHuyM=/4618959215_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21920,7 +21920,7 @@ export const db = [
     image:
       'https://images.prom.ua/miU26EIcILYg9RycqDtYQVwshtgIHenMjctDYO9GhT4=/4618984119_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21955,7 +21955,7 @@ export const db = [
     image:
       'https://images.prom.ua/w08z9_xOcQLwbMRD_t1eYQzp02dLP16hCOePHyWX0OA=/4619001919_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -21990,7 +21990,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZZXbMA5GwSpA6wBHU5hhhDN47PRgGrlUmCB7Vjz4N5I=/4619020914_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22025,7 +22025,7 @@ export const db = [
     image:
       'https://images.prom.ua/eZ1Vd1Jq2JR6gOy7zUiYkda9haWqOcY3L4erWmPfDn4=/4619055490_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22060,7 +22060,7 @@ export const db = [
     image:
       'https://images.prom.ua/TWTZ9cn0va-WkAMouNJy4vUubTAFBD8D_OohKXhhLbE=/4619066318_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22095,7 +22095,7 @@ export const db = [
     image:
       'https://images.prom.ua/kXToej7BDDbh6XPLkNKwoUyVd1k4w8mlHxKUvekGZC0=/4619080247_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '115.00',
+    price: 115.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22132,7 +22132,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/dVEYa0_Kqy2FjpOnhWsL3HGCn5h3D41DwC9m17uDFmQ=/5306244979_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '115.00',
+    price: 115.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22167,7 +22167,7 @@ export const db = [
     image:
       'https://images.prom.ua/67F51uKnpeK3Tc5_jRzxL9tylxU-THVVAjgb8fCyMuM=/4619096098_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '115.00',
+    price: 115.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22202,7 +22202,7 @@ export const db = [
     image:
       'https://images.prom.ua/gmyI1bi34Uk_ixxStk8c9m5PFpNIa_XjqGgAAo3TlzY=/4619098737_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '115.00',
+    price: 115.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22237,7 +22237,7 @@ export const db = [
     image:
       'https://images.prom.ua/qs_9rxpGQ7Bw4_MBdguvLVj3Sk2FpJ8aiiWMNMcXpDo=/4619145462_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22272,7 +22272,7 @@ export const db = [
     image:
       'https://images.prom.ua/MdZhjYn8pYGNvV4bM0u_qT4VriofYpIe64g9w9jwumw=/4619165395_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22307,7 +22307,7 @@ export const db = [
     image:
       'https://images.prom.ua/ILXKBKpAQ-GFOOIuwTG_VscH_IvxXa8uMHpZSvO2l4g=/4619213823_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22342,7 +22342,7 @@ export const db = [
     image:
       'https://images.prom.ua/LobSX4jvWrZWgbsOifRZWiMICnQhtiP9V28mRSnCw00=/4619229952_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22377,7 +22377,7 @@ export const db = [
     image:
       'https://images.prom.ua/MAKuV2WDkK9-njPIvmA2rmEiM-12ezvKrys3dFUNv8o=/4619236696_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22412,7 +22412,7 @@ export const db = [
     image:
       'https://images.prom.ua/RTL-lc-WdvH4IHxqLAzDSeZvReP2kB1-SVAjJQ-HV-Y=/4619238099_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22447,7 +22447,7 @@ export const db = [
     image:
       'https://images.prom.ua/dT9PdGE2jFPk8fowS6M2Q0zC0LDe1AdjgslR1Oc6MJg=/4619248498_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '149.00',
+    price: 149.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22466,7 +22466,7 @@ export const db = [
     image:
       'https://images.prom.ua/E4uRqUWFqooGs_DZ4ZGkXXMGgjCDb_crYdqOVPYIQGY=/4619257068_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '69.00',
+    price: 69.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22485,7 +22485,7 @@ export const db = [
     image:
       'https://images.prom.ua/LS7VkoxY8FUgutj7xSwVvKM28yD7-KZpND0BEOOms24=/4619624860_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22505,7 +22505,7 @@ export const db = [
     image:
       'https://images.prom.ua/LMdHtAq4PNTZLX7iufEI-1KKr8IZBVJlUQXnDikhtG4=/4635447746_aromatizator-med-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -22538,7 +22538,7 @@ export const db = [
     image:
       'https://images.prom.ua/LhWc1olnlZvFyunVr-I0Hd1tfUQAJ_RIjNfb2FqZz1o=/4635449398_aromatizator-viski-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -22571,7 +22571,7 @@ export const db = [
     image:
       'https://images.prom.ua/IdR-2pLXVSeaDUieJ2evPS0nM6i0pAiLrOYQM5IvURk=/4635463672_aromatizator-koritsya-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -22604,7 +22604,7 @@ export const db = [
     image:
       'https://images.prom.ua/vLui4dqqRAjAwbsGRSvv0nM_sGRb4oTrQi20YTyJjL4=/4635465692_aromatizator-anis-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -22637,7 +22637,7 @@ export const db = [
     image:
       'https://images.prom.ua/U1cNqlCE7zWamk5TJWeeNgjOiA-aLA6wJNAPQ1L0I1Y=/4635467623_aromatizator-sunitsya-harchovij.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -22670,7 +22670,7 @@ export const db = [
     image:
       'https://images.prom.ua/lEHvvieaQftyUCc_zSJVsT-8fWhKoObcXk5DcI8gjus=/4635499790_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22705,7 +22705,7 @@ export const db = [
     image:
       'https://images.prom.ua/ipNHS1uK2s1vsCnTy8uxo3GfkLaIFkLlpRVRnxhwsbQ=/4636734096_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '125.00',
+    price: 125.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22740,7 +22740,7 @@ export const db = [
     image:
       'https://images.prom.ua/DwhDzJe-H_ohYX2IQjoCHlODtN3AVpwFiu8I8jfOAu0=/4636463288_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '195.00',
+    price: 195.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22760,7 +22760,7 @@ export const db = [
     image:
       'https://images.prom.ua/oQ4QKzUgsK5amhHsfY3MMM3AtFoltRSyFDrPQSRiArA=/4636478653_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22780,7 +22780,7 @@ export const db = [
     image:
       'https://images.prom.ua/sF3hwIq9uIzb1jh3VwOqSBmfD_a0xi95dEEzJ65kifM=/4636549267_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22815,7 +22815,7 @@ export const db = [
     image:
       'https://images.prom.ua/ls78xZfyi7chfUPA73ZrrfufvKqc4yUqaOeDEtMRnBs=/4636647351_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '130.00',
+    price: 130.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22849,7 +22849,7 @@ export const db = [
     image:
       'https://images.prom.ua/pu-lFQBPTE6nXi6F7ZEs5enGLX4pjjzN-OqjhPTg9hY=/4636665011_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -22866,7 +22866,7 @@ export const db = [
     image:
       'https://images.prom.ua/8OFTt_36Z4xFpcpDEg9SRkwxObknN7nDyc7azri4YIQ=/4636667296_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -22883,7 +22883,7 @@ export const db = [
     image:
       'https://images.prom.ua/F-DKwsqb9kc9DO3lBBuXXG8RaWOs3V2ISMzd1SQ0SHM=/4636690301_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22903,7 +22903,7 @@ export const db = [
     image:
       'https://images.prom.ua/wS9EbU9BtpVXEgaZ0nEVY9fxn5fw8re98WCbyLMOWpc=/4636737283_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '125.00',
+    price: 125.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -22923,7 +22923,7 @@ export const db = [
     image:
       'https://images.prom.ua/bIYCQOwFhij_xEvodExsMOPaW5MkY4YM2WXer2qDgMc=/4637020765_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22942,7 +22942,7 @@ export const db = [
     image:
       'https://images.prom.ua/znSKsh4gWbUg38G25LcuwcZqQ3k3FZZUofhOsPn7TPk=/4637026192_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '139.00',
+    price: 139.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22961,7 +22961,7 @@ export const db = [
     image:
       'https://images.prom.ua/k1Nof_1aXV0gs7uR59aR0QsbfO7tnHrENHqYB4rg-EI=/4637032559_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -22980,7 +22980,7 @@ export const db = [
     image:
       'https://images.prom.ua/SWngURTHVT6oCAzag31mMmIehiPNQIIGmnBeQpBZRmw=/4638862745_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23029,7 +23029,7 @@ export const db = [
     image:
       'https://images.prom.ua/BwECKEa9-tKh3BFX_ABLh5N42di2poeQSlcDZzXGcDA=/4638874978_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '118.00',
+    price: 118.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23049,7 +23049,7 @@ export const db = [
     image:
       'https://images.prom.ua/RsdTR6xH4r7ZsnXUXL_gthUfyeJ8Td5KZdhGvUX4Rik=/4638884321_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23084,7 +23084,7 @@ export const db = [
     image:
       'https://images.prom.ua/QJ6P3fOxgss21VvTafiCxSHhE7A8aDX6zUWVziraeNk=/4638906034_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '108.00',
+    price: 108.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23121,7 +23121,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/C3Bc7wRqVPlYzfMZXko1mkjwlEkgzje0eflwIO6nQSs=/4695102765_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '98.00',
+    price: 98.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23156,7 +23156,7 @@ export const db = [
     image:
       'https://images.prom.ua/eKaBz2-WLwpQEy7B9u1wYaRd_MGFniO9X_cOeFYROf0=/5546576856_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '185.00',
+    price: 185.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23192,7 +23192,7 @@ export const db = [
     image:
       'https://images.prom.ua/e-dZQtJ2KzwbTKLnZRdtB_cE3E7_58If6a-EgfEXohc=/4638967435_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -23211,7 +23211,7 @@ export const db = [
     image:
       'https://images.prom.ua/vliGdR8u3a93AhEKvLwh-CGs4-043Lt0IpPiHSl0WsE=/4638975952_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23246,7 +23246,7 @@ export const db = [
     image:
       'https://images.prom.ua/bjelyKREZcP1xsEVyfvBXDG-PpoIX9M1PvVoC8xpZvI=/4638988764_barvnik-blido-zelenij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23264,7 +23264,7 @@ export const db = [
     image:
       'https://images.prom.ua/Naqgl1T25bRKbyUrF-syzTvF-FYixZOKfVIqTcGrBoQ=/4638995964_barvnik-biryuzovo-zelenij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23282,7 +23282,7 @@ export const db = [
     image:
       'https://images.prom.ua/iz4ebFrcp_u_gx2jLa0N_S7yi53b6wspGU8qStkegYI=/4639000104_barvnik-zhovto-salatovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23300,7 +23300,7 @@ export const db = [
     image:
       'https://images.prom.ua/8aMlVE_FOyUL_Hpgj3RPNOnqhjsx7EI2XDKvuAZlMqI=/4639006474_barvnik-blakitno-zelenijharchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23318,7 +23318,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZHXO7qBQmPfWEF24Lm1KoEmOWNFKvpG-jtHo0c7BS-M=/4639014595_barvnik-pudrovij-rozhevo-bezhevij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23336,7 +23336,7 @@ export const db = [
     image:
       'https://images.prom.ua/RK7q7BXujD_5hGkeygLLi-D4tN3e4vncounwjgw6kRI=/4639020480_barvnik-granatovij-temno.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23354,7 +23354,7 @@ export const db = [
     image:
       'https://images.prom.ua/aAFY8oaxAIj9fi-hBfWVDMtBm-NJSk0DHQ53ZW880p4=/4639026357_barvnik-kapuchino-harchovij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23372,7 +23372,7 @@ export const db = [
     image:
       'https://images.prom.ua/RzH8V1xfFjM2ixRnZtXLEsM1QnWxXarU01kv5rxEwJQ=/4639033065_barvnik-blido-rozhevij.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23390,7 +23390,7 @@ export const db = [
     image:
       'https://images.prom.ua/oqg592UUT4T90VwTViG8oVHPM7pNPAH-z9zgjszyDxs=/4639037213_barvnik-yaskravo-rozhevij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23408,7 +23408,7 @@ export const db = [
     image:
       'https://images.prom.ua/GfF1wETOgXNCtmM4hG_mQQRz2byaI1zWCufl2wjqaSI=/4639110016_barvnik-malinovij-harchovij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23426,7 +23426,7 @@ export const db = [
     image:
       'https://images.prom.ua/TEeDojKx5QS1dnxpt1yns__fZG1oAkor7sotvcONiVQ=/4709427655_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23462,7 +23462,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/FWUaXQLwQ5R3F0ndTU5YLN8XUV14hgG2OeKrAe36lz8=/4709436150_kandurin-z-rozpilyuvachem.jpg',
     availability: 'in stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23496,7 +23496,7 @@ export const db = [
     image:
       'https://images.prom.ua/4jQ6E6g_okaLrcEZTZ56RWyT91d8UMnfWjyXUnLPuVw=/4709445169_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23534,7 +23534,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/o7xYKxtjrlZASe_Y7xlR_70yteSo66JrIxcaFxHxkls=/4709449738_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23568,7 +23568,7 @@ export const db = [
     image:
       'https://images.prom.ua/PNMsZxOfcelE7_ursAjaizm0KVtxkcWMtAPZfIcQIaM=/4709461268_kandurin-z-rozpilyuvachem.jpg',
     availability: 'out of stock',
-    price: '396.00',
+    price: 396.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23606,7 +23606,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZVVv3IDAkAqSgxA1ZCOnV61TJGtlmHX1BZeoCSf4nKI=/4709492439_konditerska-nasadka-ateco.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -23637,7 +23637,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZfHzr_eBoc3VLHnpcAxosUO3BWT7iO96Rr5sGNo-vbQ=/4725124026_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23686,7 +23686,7 @@ export const db = [
     image:
       'https://images.prom.ua/ham7Q3jzm2ndfr-t_9muz44IsRpYwf4TYFI8X4siZ8I=/4725155803_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '136.00',
+    price: 136.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23706,7 +23706,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZzhqWaPO03Wpf_DXzGqhQplmQEC4pQLgz3B-Zs7Q7w4=/4725161008_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '142.00',
+    price: 142.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23726,7 +23726,7 @@ export const db = [
     image:
       'https://images.prom.ua/mLH9voR0Iv6rMAxv2DjARe1IW1fVh9tnmntVlJ2JQgA=/4725169010_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '86.00',
+    price: 86.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23747,7 +23747,7 @@ export const db = [
     image:
       'https://images.prom.ua/DJ9UVDSodRQGiPcEbngp3Tm6ORN5F65GF0CEoTiLEtU=/4725175028_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23796,7 +23796,7 @@ export const db = [
     image:
       'https://images.prom.ua/Q19zHurvdgdKiaxO3IFwLLcLenHGzJajQVSjStuA-u4=/4725334815_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '71.00',
+    price: 71.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23816,7 +23816,7 @@ export const db = [
     image:
       'https://images.prom.ua/Q19zHurvdgdKiaxO3IFwLLcLenHGzJajQVSjStuA-u4=/4725334815_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '71.00',
+    price: 71.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23836,7 +23836,7 @@ export const db = [
     image:
       'https://images.prom.ua/iymXfK96NZMGRaptq7kRc50e9gBSlLRsPSPfQ-u_ZUs=/4734360877_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -23855,7 +23855,7 @@ export const db = [
     image:
       'https://images.prom.ua/NByz6OacNulRSKmN9kcloD7zUf701Nzq7Thywj89eiU=/4734362107_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -23873,7 +23873,7 @@ export const db = [
     image:
       'https://images.prom.ua/WmhNg8rDp3TN_0UwbNVexqgr5-lYvGU0xZJsnmGtM-A=/4734363053_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -23893,7 +23893,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ssT6FUEIo-X3J_aft2a4RWdxwuZu02rURbKciQWdKZc=/4777534008_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23913,7 +23913,7 @@ export const db = [
     image:
       'https://images.prom.ua/FcUbfMSyqNBdbILK4-4ASu5XTG_4QQmoiIpYWohFzs0=/4777542371_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23933,7 +23933,7 @@ export const db = [
     image:
       'https://images.prom.ua/PWHoiUA49V3-MeFw1qwds0mhPX_jGrvHcU_H8JaLcRo=/4777553161_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -23953,7 +23953,7 @@ export const db = [
     image:
       'https://images.prom.ua/HHlzNllIZv6KWSodcPSvMxb8yua2kR2pJG1BkIMtYQI=/4819797104_barvnik-chervonij-harchovij.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -23971,7 +23971,7 @@ export const db = [
     image:
       'https://images.prom.ua/fkCV0SHJN9_CKOGRFkGZCQuWIF-3SUb90qmP994Pj4I=/4900187376_shokolad-bilij-naturalnij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -23989,7 +23989,7 @@ export const db = [
     image:
       'https://images.prom.ua/pm_pS8aXRzpdWrZZNVZtnzebOcMCYj6kzN8mtyJxZQA=/4900301305_kakao-poroshok-alkalizovanij-22-24.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24007,7 +24007,7 @@ export const db = [
     image:
       'https://images.prom.ua/d75eJmWo3tH64JnnojfN-GLEl9JaM1aU1p7BdUIrfOU=/4900321090_pomarancheva-glazur-konditerska.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24025,7 +24025,7 @@ export const db = [
     image:
       'https://images.prom.ua/ipLhuhU4OYgYQJRssO79i-GIIB4ye-BHl-2Mw1I-kZI=/4900330447_tm-mir-konditerska.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24043,7 +24043,7 @@ export const db = [
     image:
       'https://images.prom.ua/rAVK-Y0LT7czEVRTtpMU925WNGgLwej1UNTJgGxCUL8=/4900356822_tm-mir-shokoladni.jpg',
     availability: 'in stock',
-    price: '44.00',
+    price: 44.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24061,7 +24061,7 @@ export const db = [
     image:
       'https://images.prom.ua/7_vvyygGsP4qLp_efW5nWvMtJZN5iLfQ7JSOLr_Pg2Y=/4900372970_ariba-molochnij-shokolad.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Master Martini',
@@ -24083,7 +24083,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/7uYI2w8jmQe0SYN_zD_Fs-CEio6r1RpqyocJS-p0CQY=/4900390194_glazur-konditerska-blakitna.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Master Martini',
@@ -24104,7 +24104,7 @@ export const db = [
     image:
       'https://images.prom.ua/9-Q30IhvuQqPmsLRkm_SovzDEy749vXUFjgHqZMI1n4=/4900402388_konditerska-glazur-tsentramerika.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -24122,7 +24122,7 @@ export const db = [
     image:
       'https://images.prom.ua/UB7sTxc1xcGGUcqch_XLEkBcvh-NTGmDxFi-44A59II=/4906502219_kupyuri-shokoladni-1.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -24138,7 +24138,7 @@ export const db = [
     image:
       'https://images.prom.ua/NzbYv-q5RFO4jqMx1TtYUmHfaMnbckqwngvYcj3qUX0=/4907307214_nabir-na-tort.jpg',
     availability: 'in stock',
-    price: '140.00',
+    price: 140.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24156,7 +24156,7 @@ export const db = [
     image:
       'https://images.prom.ua/YvSdg8u8w7TN0bACApWfy1wZlZecjwMI4MoVEX9oljs=/4907614719_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24173,7 +24173,7 @@ export const db = [
     image:
       'https://images.prom.ua/3KowQTSmKGW73SnifbVrmTAG3p9KGI2ymjVv2L0EgG0=/4907633166_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24191,7 +24191,7 @@ export const db = [
     image:
       'https://images.prom.ua/qcHySUHksaD-5MJ8fYX9wBWIS5uWoTPySOmqStwPUnU=/4907688452_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '185.00',
+    price: 185.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24209,7 +24209,7 @@ export const db = [
     image:
       'https://images.prom.ua/QCvjtsYVOoy5HWLZEE0tmbkTYzM8fA3T4qXmIhn8in8=/4908017846_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24227,7 +24227,7 @@ export const db = [
     image:
       'https://images.prom.ua/IMQR43nwpopZY7fHT57fjSzPsz9Bl6maQ3xOHq14qG8=/4908033294_tsukrovi-prikrasi-toperi.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24245,7 +24245,7 @@ export const db = [
     image:
       'https://images.prom.ua/JUuWAgAdG_eHegxXQxgj-hIbAzJqxWNGT_RNpFftJXM=/4908046665_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '78.00',
+    price: 78.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24263,7 +24263,7 @@ export const db = [
     image:
       'https://images.prom.ua/qfd0xCUGOCM9rxonwNiiTV9nv6H5zJ2p76nw9-fhfSw=/4910100093_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24281,7 +24281,7 @@ export const db = [
     image:
       'https://images.prom.ua/g8QUjlFxU8RUyNLMvQS5OtewJZzRKvwsfq2kTUa9QWk=/4910103136_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24299,7 +24299,7 @@ export const db = [
     image:
       'https://images.prom.ua/DwQsTsymvHjs1UNFwHHZ_7fnud_egSVUQDJcMboHJKM=/4910104839_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24317,7 +24317,7 @@ export const db = [
     image:
       'https://images.prom.ua/guXP3jixaiZldlQfNEQyH4oRUYIciMMI_LHgnDnNUp8=/4910106344_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24335,7 +24335,7 @@ export const db = [
     image:
       'https://images.prom.ua/e4KBD0T2TMIPVSF1_Y-kTEbbz4wuSUp6t5TULPwCJcA=/4910108050_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '2.00',
+    price: 2.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24353,7 +24353,7 @@ export const db = [
     image:
       'https://images.prom.ua/sHbeAy-xwwqEnr0pVU5WZBwC_Ktyzzc8OBgEDlEaA5I=/4913942333_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '96.00',
+    price: 96.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24372,7 +24372,7 @@ export const db = [
     image:
       'https://images.prom.ua/zO_RZWqRBB-hRz6SDXGq2dX-z36-0Gs3h99X5YvF074=/4914032015_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24390,7 +24390,7 @@ export const db = [
     image:
       'https://images.prom.ua/9zzZqnEgGaQ_hL7F9t3Y7OP5qy7Y13AkP7d6FyEV70E=/4914048310_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '150.00',
+    price: 150.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24412,7 +24412,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/rTtwtlsjIaekV8b6mxNr9PosqozFCyH5wuqXXnwe0rE=/4914060613_nabir-konditerskih-tsukrovih.jpg',
     availability: 'out of stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24430,7 +24430,7 @@ export const db = [
     image:
       'https://images.prom.ua/O0SJ5lR_8UmoRxLfZimz_Z9mPLEfoKtNX6eAgNruiRU=/4914438940_tsukrova-prifarba-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24447,7 +24447,7 @@ export const db = [
     image:
       'https://images.prom.ua/h7tlaof9ZA11PtIn8Ouojz8F8_S8T4tRGNfmU-AbZgo=/4914441976_tsukrova-prifarba-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24464,7 +24464,7 @@ export const db = [
     image:
       'https://images.prom.ua/chtc-8vPm2Im_sa6MJqWgLbfn8Bcvmf-DO7qMp4fE7I=/4914444254_tsukrova-prifarba-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24481,7 +24481,7 @@ export const db = [
     image:
       'https://images.prom.ua/EL4ptkL-rHEEjB3LC9adUrDnqGg1MawViO6BnY_BGXo=/4914446145_tsukrova-prifarba-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24501,7 +24501,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/nLfH7u5YHay0zOsFRN1RPsJyqCxf351YqWZnCDsAe0w=/4915519800_tsukrova-prikrasa-gilochka.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24522,7 +24522,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/IEoWBnBgL6NUCsUwsNAxgmFqFDW4TMUsaI4NdTo5zHU=/4933128167_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '181.00',
+    price: 181.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24540,7 +24540,7 @@ export const db = [
     image:
       'https://images.prom.ua/uQI28TsCR7vU-u_JrrJX4Y_FuM99iOlMtpAnj_1yuWs=/4933244464_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '179.00',
+    price: 179.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24560,7 +24560,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/yfab6gHftNRuQ_rrpYxK64osesh9l0qx17_LYD2KdBg=/4945822623_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -24580,7 +24580,7 @@ export const db = [
     image:
       'https://images.prom.ua/vjrVFGJXTyHRLCAvyvuQg0RDWvz8BMeJXQ81OWFxAuY=/4954214714_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -24599,7 +24599,7 @@ export const db = [
     image:
       'https://images.prom.ua/RBgikb6BQ9z4B6eh4VXXelf5XAVUoAGr_I-l0jCWOJo=/4986524380_tsukrova-prikrasa-na.jpg',
     availability: 'out of stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24616,7 +24616,7 @@ export const db = [
     image:
       'https://images.prom.ua/QkL8UBSdGvo7yCp3xximblhjHSl90UaumAGpIzPHls4=/4986565979_tsukrova-prikrasa-yangolyatko.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24634,7 +24634,7 @@ export const db = [
     image:
       'https://images.prom.ua/1CMGvChOaHCPsw48cydd8VljfvU0KfqadBZltVaNzCI=/4986592445_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '179.00',
+    price: 179.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -24651,7 +24651,7 @@ export const db = [
     image:
       'https://images.prom.ua/VWnaURP4pxvS8-2-LjwlCXRm0-e4CT2Uhr8vZcuJQQ0=/4987114200_tortsovij-topper-tayinstvo.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -24667,7 +24667,7 @@ export const db = [
     image:
       'https://images.prom.ua/5tCv2PnXnQIUSSm6xpKxRLcCA3ipRb7c3oCp33OWp6w=/4987119217_tortsovij-topper-one.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -24684,7 +24684,7 @@ export const db = [
     image:
       'https://images.prom.ua/qWNl3SfzblvyyP3VlceOzwUafecduoEMW63yF3hk-mw=/4987157624_vanilnij-ekstrakt-naturalnij.jpg',
     availability: 'in stock',
-    price: '340.00',
+    price: 340.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24702,7 +24702,7 @@ export const db = [
     image:
       'https://images.prom.ua/Z99ttPSY6jz-N4qw3yIxmmRoRqNnNcFnobxkM9hzgLw=/4987179494_kokosova-struzhka-medium.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24720,7 +24720,7 @@ export const db = [
     image:
       'https://images.prom.ua/AG6-jPIuWqfnKfkSmmXAYeHWYftUA4hqTh6KCkiLZKQ=/4987282538_migdaleve-boroshno-tm.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24738,7 +24738,7 @@ export const db = [
     image:
       'https://images.prom.ua/Adx0Gtmtx8DS5Wf5DX6iZVwC06VKLsXro2ulw6enXKQ=/4987295352_migdalevi-plastivtsi-ispaniya.jpg',
     availability: 'in stock',
-    price: '64.00',
+    price: 64.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24756,7 +24756,7 @@ export const db = [
     image:
       'https://images.prom.ua/251F54dqCLutDNoso-DbAAgyKNko7opHBAYvQZPb_H8=/4987336242_shokolad-chornij-651.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Barry Callebaut',
@@ -24775,7 +24775,7 @@ export const db = [
     image:
       'https://images.prom.ua/hUz8FdFeequ9JQ1mBqSvi1sd7VcM9Ux1C_z1OQRoLYk=/5327674069_shokolad-molochnij-316.jpg',
     availability: 'in stock',
-    price: '88.00',
+    price: 88.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Barry Callebaut',
@@ -24794,7 +24794,7 @@ export const db = [
     image:
       'https://images.prom.ua/Cf4TZiJZGKBm-NxUWG1f6CdJndxpMinDbYp9bzA6UoU=/4987352531_shokolad-bilij-28.jpg',
     availability: 'in stock',
-    price: '88.00',
+    price: 88.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     brand: 'Barry Callebaut',
@@ -24813,7 +24813,7 @@ export const db = [
     image:
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
     identifier_exists: 'no',
@@ -24831,7 +24831,7 @@ export const db = [
     image:
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
     identifier_exists: 'no',
@@ -24849,7 +24849,7 @@ export const db = [
     image:
       'https://images.prom.ua/EDZNjOai0Mjsd8eu5OnoJIiUTo3fHg_vaLD28azwEzI=/4987511342_funduk-droblenij-karamelizovanij.jpg',
     availability: 'in stock',
-    price: '64.00',
+    price: 64.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24867,7 +24867,7 @@ export const db = [
     image:
       'https://images.prom.ua/u_xX8WR5qB-vUh095us1Tp-G8ePNACjuPVTGKkRhN5k=/4987520330_arahis-droblenij-karamelizovanij.jpg',
     availability: 'in stock',
-    price: '28.00',
+    price: 28.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24885,7 +24885,7 @@ export const db = [
     image:
       'https://images.prom.ua/fIRTVSDQWmRE2ItuJfb_dbQVbTcX0QTDohSt1EGI0Kc=/4987530990_vanilnij-tsukor-500.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24903,7 +24903,7 @@ export const db = [
     image:
       'https://images.prom.ua/df2z5YIaFCW0Chk0FokTPkRp_2qVr8bNbiexKrvFgKg=/4987550540_tsukrova-pudra-z.jpg',
     availability: 'in stock',
-    price: '64.00',
+    price: 64.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24921,7 +24921,7 @@ export const db = [
     image:
       'https://images.prom.ua/xLc5hhDmIttKNQBnZflcpPnoX9uGDd1Ov4foPKlOBQ8=/4987557866_kerob-naturalnij-yero.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24939,7 +24939,7 @@ export const db = [
     image:
       'https://images.prom.ua/hzYqUhr1WOCGOytZfwPavIX8RxgiCZwG9511isb2KKM=/4987566853_vanilna-tsukrova-pudra.jpg',
     availability: 'in stock',
-    price: '64.00',
+    price: 64.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24957,7 +24957,7 @@ export const db = [
     image:
       'https://images.prom.ua/ty62wdpptYmUQwMOYzX02Q2LIBLeBsevIUJYtk_LUWE=/4987578646_eritritol-eritrit-100.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -24975,7 +24975,7 @@ export const db = [
     image:
       'https://images.prom.ua/9eV8slF8AjWILVjGS228FwHRWXkuxOw2CjG1W_QqwVE=/4987596842_stijka-dlya-torta.jpg',
     availability: 'in stock',
-    price: '262.00',
+    price: 262.0,
     product_type:
       'промислове обладнання та верстати > обладнання для харчової промисловості > обладнання для хлібобулочних та кондитерських виробів > обладнання для хлібобулочних та кондитерських виробів, загальне',
     identifier_exists: 'no',
@@ -24993,7 +24993,7 @@ export const db = [
     image:
       'https://images.prom.ua/O3qTxKd-KEr58lm_fooj5Xya9wSQJN3EQTejcxSBsX0=/4987606439_gazovij-palnik-turbo.jpg',
     availability: 'out of stock',
-    price: '516.00',
+    price: 516.0,
     product_type:
       'будівництво > водо-, газо-, теплозабезпечення > опалювальне обладнання > пальники',
     identifier_exists: 'no',
@@ -25011,7 +25011,7 @@ export const db = [
     image:
       'https://images.prom.ua/7tHvGMQv88GgpxD0dMWYz-BnlaBYRUaB61azynwaLyg=/4987622493_atsetatni-listi-300h200.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'тара та упаковка > пакувальні матеріали > пакувальні плівки > універсальні плівки',
     identifier_exists: 'no',
@@ -25029,7 +25029,7 @@ export const db = [
     image:
       'https://images.prom.ua/fxvHMrnhaIvpj7Xo3sbpFiCTNG-P1yT0CyRYz_Vxg3E=/5032161074_gelevij-barvnik-chervonij.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25047,7 +25047,7 @@ export const db = [
     image:
       'https://images.prom.ua/PcGqh70raJofVIJUzu0C24Pb7kws7yFng_Cm53aksqM=/5045638036_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25065,7 +25065,7 @@ export const db = [
     image:
       'https://images.prom.ua/HbbswS2Zdy0QAEcYvKJrNGP6wyUK1bR5xEipvCWuMKk=/5045643031_gelevij-barvnik-chefmaster.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25083,7 +25083,7 @@ export const db = [
     image:
       'https://images.prom.ua/nxZaEJ7aJQBuHunYJtBbMrX-fFYeZqLuuypi6Cw_El8=/5045646924_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25101,7 +25101,7 @@ export const db = [
     image:
       'https://images.prom.ua/pXhA3S-UvDWl_1WGiHRwFQgQETr6BBzF3ShHa5s-2VU=/5045654200_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25119,7 +25119,7 @@ export const db = [
     image:
       'https://images.prom.ua/NXOeYnL3BllrRkPmCJOEKp5_SnlOOK5PICe7oD9qq9U=/5045668694_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25137,7 +25137,7 @@ export const db = [
     image:
       'https://images.prom.ua/uZvSB-YdGhKShGG9GaWKhrGTzXgMbpno3amZY2t0HPQ=/5045674615_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25155,7 +25155,7 @@ export const db = [
     image:
       'https://images.prom.ua/f8DkPcL1iVaQssBJbxLP3PXAly8H29C5qWSATCw4TCo=/5045681782_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25173,7 +25173,7 @@ export const db = [
     image:
       'https://images.prom.ua/n0JYS7CYOOyb6SbQKjefFJyARwG55XhOxmoF3sOsTjE=/5045685766_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25191,7 +25191,7 @@ export const db = [
     image:
       'https://images.prom.ua/hyUDsxPOJCsyRHkYhuMIZNDG5jtNSPTIgMf0jC8fAwQ=/5045693590_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25209,7 +25209,7 @@ export const db = [
     image:
       'https://images.prom.ua/CmUsDHRRTuL17FBdaVVzw5Px947ly7Yk-Rp1wg2eas4=/5045700262_gelevij-barvnik-chefmaster.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25227,7 +25227,7 @@ export const db = [
     image:
       'https://images.prom.ua/BMmc5Ldddy7rCwcRVFgtt_1KLw-gRmcnxGGr26SH2Bs=/5045703521_gelevij-barvnik-chefmaster.jpg',
     availability: 'out of stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -25245,7 +25245,7 @@ export const db = [
     image:
       'https://images.prom.ua/m29o8-Mt6JMlOIYWna3QPo8-9AgDALWZKu0U4n8NZqY=/5080434426_tsukrova-posipka-ditinstvo.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25263,7 +25263,7 @@ export const db = [
     image:
       'https://images.prom.ua/KEt0HrVFQL0mDW3xVxrgsNLpkfXMboGHGoZyfqv8r-k=/5080438938_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25281,7 +25281,7 @@ export const db = [
     image:
       'https://images.prom.ua/v6O49Y8wMg4_FBRbWd2iDCYL29ewfw8_2sGYYKHTvtI=/5080470367_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25298,7 +25298,7 @@ export const db = [
     image:
       'https://images.prom.ua/sOlSRPdcDT7QTyhsv89ZRjAu3dLl1y94mlzbNDVcYhs=/5080496900_posipka-tsukrova-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25315,7 +25315,7 @@ export const db = [
     image:
       'https://images.prom.ua/jaXsueLZSHRpbE3_ikhqGr_vLK61oyEBY53SzAR_l8g=/5080504746_posipka-na-tort.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25333,7 +25333,7 @@ export const db = [
     image:
       'https://images.prom.ua/CsGrx9wwtsF1-XLzRZHyim1dhr4RsjMMCOGUJl1J5XU=/5080523604_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25351,7 +25351,7 @@ export const db = [
     image:
       'https://images.prom.ua/F-phSf9gWUO--sVxmSHBQJnGcEQXeZgOa-x88RHMgEs=/5080526756_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25368,7 +25368,7 @@ export const db = [
     image:
       'https://images.prom.ua/LCNYl_clWmX67xHRYIuXhHB4TRVHTX-8U5oum6uCvsU=/5080528397_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25386,7 +25386,7 @@ export const db = [
     image:
       'https://images.prom.ua/CvVpinfK8gsHxyzgMaNvnM5faUJKuzBIVVzlLuASSSk=/5080530131_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25403,7 +25403,7 @@ export const db = [
     image:
       'https://images.prom.ua/zeQE9fc-kfifz_olqAjc7YfdbNEnM_X2lB9oEvq5W4c=/5080531111_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25420,7 +25420,7 @@ export const db = [
     image:
       'https://images.prom.ua/xkfUHV5NY9hJrvh1ZVSHbkivuIut8LKWomkbt2v3GI0=/5080532739_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25438,7 +25438,7 @@ export const db = [
     image:
       'https://images.prom.ua/xHnA45ar6DMdOvtJNftoDgxNetZBIGla3fYAlWwyPIg=/5080535771_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25455,7 +25455,7 @@ export const db = [
     image:
       'https://images.prom.ua/Z2rP1s0CJZtJ2Uevcxqwh4gflxDeCmkR_UGjMpk2QUg=/5080560434_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25472,7 +25472,7 @@ export const db = [
     image:
       'https://images.prom.ua/C5_qEkOdk2h_79LzFfkxdvtK2dta4Yr2N2toQmBad6k=/5080561957_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25489,7 +25489,7 @@ export const db = [
     image:
       'https://images.prom.ua/-dI3u-jA4LwUQ-kpuzkb12qJmzTtyvqriU1oMQSS9KI=/5080563534_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25506,7 +25506,7 @@ export const db = [
     image:
       'https://images.prom.ua/lapA4O9qYw157ktLhtcJuysh0XiYJ7FX60gO-e7_cdU=/5080564678_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '33.00',
+    price: 33.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25523,7 +25523,7 @@ export const db = [
     image:
       'https://images.prom.ua/rUStu8MGuPK7-FVGlDOHRdHv0no6pStMUQaEA0EVW5o=/5080568097_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25540,7 +25540,7 @@ export const db = [
     image:
       'https://images.prom.ua/hwHynU0n4LPd8zJvFOSGu9neLS0-YJ6FG7dnmzlkCyc=/5080576975_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25557,7 +25557,7 @@ export const db = [
     image:
       'https://images.prom.ua/hkXhSPVFp5X8qpCYmmvJ7X0qhbYdMxrBAgD9Ob76DEQ=/5081157826_posipka-sertsya-miks.jpg',
     availability: 'out of stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25574,7 +25574,7 @@ export const db = [
     image:
       'https://images.prom.ua/8vlpHL2Us5naV5JFlLmRS4rsBQr5wh2C1kfJhsczwWc=/5081366144_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25591,7 +25591,7 @@ export const db = [
     image:
       'https://images.prom.ua/FZlGozXGGbwR9hjr8PHmh9JK30niNl0LhPVkT49hp6c=/5081370541_povitryanij-ris-kulki.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25608,7 +25608,7 @@ export const db = [
     image:
       'https://images.prom.ua/cyLtf8SWYdZKGTjiQoZQhxzNzNBTiwfO6-wsUwpRjM0=/5081372279_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25625,7 +25625,7 @@ export const db = [
     image:
       'https://images.prom.ua/vuDisHmiPBS5Fsa0B1lVId95DvAuLlfgaVDfNaF3Io4=/5081374688_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25642,7 +25642,7 @@ export const db = [
     image:
       'https://images.prom.ua/HWUy4iLWRpFjVmlk-fa7mb6YSkgS8xc5wutpDp2Iqk8=/5081378339_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25659,7 +25659,7 @@ export const db = [
     image:
       'https://images.prom.ua/lUDTeeUAReb_qHn-khJzK4f9ftPCnRHrsp4Tjt9z7Wc=/5081381702_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25677,7 +25677,7 @@ export const db = [
     image:
       'https://images.prom.ua/JlhIUWb4lEcvVlk6RMJLHBMHfHJcJwue-L9tHqq6E_k=/5081385945_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25694,7 +25694,7 @@ export const db = [
     image:
       'https://images.prom.ua/V2Y11LzOZkdIkehTTmcyuRr6Sy8BQYl9r_QU37BEdRA=/5081390764_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25711,7 +25711,7 @@ export const db = [
     image:
       'https://images.prom.ua/dZwzx8pRK__v_euv1j3FHFUIP_IRe6k3bsXqktmMzRw=/5081398504_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25728,7 +25728,7 @@ export const db = [
     image:
       'https://images.prom.ua/IL4EkPaiVr4QPjW-IYsT3vxWQC2U3NeSs5vX6E2aeQ4=/5081401438_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25745,7 +25745,7 @@ export const db = [
     image:
       'https://images.prom.ua/PP-Xh3vpZVvhiiWB7pD39NAPYUGHwyczUY2RbtUekR8=/5101922002_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25763,7 +25763,7 @@ export const db = [
     image:
       'https://images.prom.ua/_OdSN1B9n59QRBLS2X7LSXf0lln4Rw2ITEfpdDabIxg=/5105931810_tsukrova-posipka-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25781,7 +25781,7 @@ export const db = [
     image:
       'https://images.prom.ua/FbLDjD17mbAoV70Hdg7Yt-B1chm4UxlmYYf0fTMDtHM=/5105932913_tsukrova-posipka-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25798,7 +25798,7 @@ export const db = [
     image:
       'https://images.prom.ua/rQEmFJBR7obzmPHjBkGQD-0o4DYOiQeVMW3UDBPRxCs=/5105937745_tsukrova-posipka-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25815,7 +25815,7 @@ export const db = [
     image:
       'https://images.prom.ua/4BvMGrh79HSwkt6rLsX125sWRNof2sH5nvD4BC85_CQ=/5105979743_posipka-tsukrova-na.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25833,7 +25833,7 @@ export const db = [
     image:
       'https://images.prom.ua/28fblYTTva7f2agOnYwRrRa86_p6WH1lLxNqPt-6lsA=/5105982813_posipka-tsukrova-na.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25851,7 +25851,7 @@ export const db = [
     image:
       'https://images.prom.ua/Onsbbqmi_JMRjTfpX-e-RyV1ZRHdJ61z4FiCGd2tAI8=/5106009481_tsukrovi-perlini-bili.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25870,7 +25870,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/-r3VwrDePSY-3x0c_DjQtRWvJJoUTvcy_U4X8LeJoQw=/5106104167_makaruni-mini-krishechki.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25887,7 +25887,7 @@ export const db = [
     image:
       'https://images.prom.ua/r2BZfJN3uYxkRt7dsmytdipX_Zx6EKJBPmZQn5eVzvw=/5106109024_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25906,7 +25906,7 @@ export const db = [
     image:
       'https://images.prom.ua/zt6SM_cC06uAHzCuR-i_jwk3J7_CVZhDIu_hDK9Z0sQ=/5109489770_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25925,7 +25925,7 @@ export const db = [
     image:
       'https://images.prom.ua/_hp9wOjziFy1BysU1npKiN3K41fbU2-XCV4FF5AiF6k=/5109491027_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25943,7 +25943,7 @@ export const db = [
     image:
       'https://images.prom.ua/z-VSY0EHVXC8N47RzZK79dzrEkiIxWiN4WHkMq0Tbh8=/5109492283_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25962,7 +25962,7 @@ export const db = [
     image:
       'https://images.prom.ua/lboiHYrqaFhLoKAI4WW5_0lb3H6nNmAJJyxRNRxWUxM=/5109493175_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25980,7 +25980,7 @@ export const db = [
     image:
       'https://images.prom.ua/4dSmrWwvDvAmOoc-_uG5stqZi-2tHJATTRt4jcGdFQU=/5109494045_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -25998,7 +25998,7 @@ export const db = [
     image:
       'https://images.prom.ua/OG8gsjq2lJKHQ89BPinqS--IV8bIcJq8bvP64_qWFr4=/5109495218_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26017,7 +26017,7 @@ export const db = [
     image:
       'https://images.prom.ua/I9fyWdXLfRRG7QpdCq_os4xpW0RCOTwNeS36poaAbBw=/5109496372_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26036,7 +26036,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ua31y2z7NiFa1QOWn7EBVfM_SHilEBMTs9C4ZiFfNe8=/5109497720_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26054,7 +26054,7 @@ export const db = [
     image:
       'https://images.prom.ua/UN31HoNKKMv0jMytz-sm0ZycELuVgiyPc-FOozH4c-I=/5109498824_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26073,7 +26073,7 @@ export const db = [
     image:
       'https://images.prom.ua/J7RkGl9VkD6-h8GVMzmLWEQDVRwDoAnduTnATsygaBk=/5109500470_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26092,7 +26092,7 @@ export const db = [
     image:
       'https://images.prom.ua/05ALS64lMifabqsNLAqh9eQYAz_1cb7bq6GivZ3NVxc=/5109501645_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26111,7 +26111,7 @@ export const db = [
     image:
       'https://images.prom.ua/iJah_oo3ukXqGN475c5iGaGYBaNypd4vR0Df_KC06X8=/5109581226_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -26131,7 +26131,7 @@ export const db = [
     image:
       'https://images.prom.ua/lk6AZataqQfVZEB030xMczpUbrFXnbT1qO5C2E_gJKQ=/5109582136_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -26150,7 +26150,7 @@ export const db = [
     image:
       'https://images.prom.ua/cO3ZfVSZGUdBkiKKmVgekHzEFp5oorKH0dAAstZdQik=/5109605151_posipka-tsukrova-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26168,7 +26168,7 @@ export const db = [
     image:
       'https://images.prom.ua/MMhvAWPh42K9oLo6Ez0tjkN5tZIT19G1qAbH4d5K0sE=/5109616662_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26187,7 +26187,7 @@ export const db = [
     image:
       'https://images.prom.ua/Avd5vMB6AW734pdw5bTUaPbmxPSdcn4yFVVNf6xFBVc=/5109628509_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '136.00',
+    price: 136.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26207,7 +26207,7 @@ export const db = [
     image:
       'https://images.prom.ua/EE0UXLDVfnwqnTa7zGn6IulyeatFDV5mYz_XNvu4Hu4=/5109629602_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26225,7 +26225,7 @@ export const db = [
     image:
       'https://images.prom.ua/1B5o9iRC6OWIF1Z0q-wckfKJZYp-HBrmOoRhDASAcWQ=/5109645896_tsukrovi-prikrasi-gubka.jpg',
     availability: 'in stock',
-    price: '154.00',
+    price: 154.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26242,7 +26242,7 @@ export const db = [
     image:
       'https://images.prom.ua/aIX2cvtF_OAUKEoz1hEjQ02qH09uOrCUqzS0tXACWA8=/5109648655_tsukrovi-prikrasi-tom.jpg',
     availability: 'in stock',
-    price: '148.00',
+    price: 148.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26259,7 +26259,7 @@ export const db = [
     image:
       'https://images.prom.ua/zigCfPYcYCN4lWD16BZfLSpN5hvlhFbJ0KL-y3NkZGA=/5109650778_tsukrovi-prikrasi-cherepashki.jpg',
     availability: 'out of stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26276,7 +26276,7 @@ export const db = [
     image:
       'https://images.prom.ua/Zm8Jc2OFM8HRdEi4cptnREDuuM5x7KV99X6pQs_QD3s=/5109653248_tsukrovi-prikrasi-futbolni.jpg',
     availability: 'in stock',
-    price: '82.00',
+    price: 82.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26293,7 +26293,7 @@ export const db = [
     image:
       'https://images.prom.ua/maWa6MJHCxUJS5v_wDSPHmV6qr_OAKtLHeGBXAWpiZs=/5109672957_tsukrovi-prikrasi-vesela.jpg',
     availability: 'in stock',
-    price: '107.00',
+    price: 107.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26310,7 +26310,7 @@ export const db = [
     image:
       'https://images.prom.ua/gVCd81_xqNeLTmtcvaFQ_rhQdFHmftm3vVQuAiC2_kQ=/5109677837_tsukrovi-prikrasi-schenyachij.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26327,7 +26327,7 @@ export const db = [
     image:
       'https://images.prom.ua/iieFbHty2-ddcjPtafEeXUYlclbwnIfpgMxQmU7XTBU=/5109681178_tsukrovi-prikrasi-vidmi.jpg',
     availability: 'in stock',
-    price: '140.00',
+    price: 140.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26346,7 +26346,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/O73oS-aa0Zv0K-MHKnhKqC0Wg1LnbTHqboz1wz8z6LY=/5123653141_tsukrova-posipka-beze.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26365,7 +26365,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/SXlyB4zfK7Y60rNGFKSbitbQ1cjHAl-uABrmDBph7ds=/5123655891_tsukrova-posipka-beze.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26382,7 +26382,7 @@ export const db = [
     image:
       'https://images.prom.ua/0Psl753QsYcCeR5TfbHqMYLnLptXBKkc_AmUr6Oa6X4=/5123667484_posipka-tsukrova-bila.jpg',
     availability: 'out of stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26400,7 +26400,7 @@ export const db = [
     image:
       'https://images.prom.ua/uYTqBcJUN8qtuJa0mbXih8Yt_ixFMlZ8HSwIAE60eD8=/5123679923_povitryanij-ris-kulki.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26418,7 +26418,7 @@ export const db = [
     image:
       'https://images.prom.ua/RK5KA4W4GCEvuJNhdolGaF3BsM4MfH_K4irXrMXZVDo=/5123682787_povitryanij-ris-rozheva.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26437,7 +26437,7 @@ export const db = [
     image:
       'https://images.prom.ua/hHsDpyTIvMPaSID61htrCAayfu3dc5nEQX_VGOPRtBI=/4686733200_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '196.00',
+    price: 196.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -26459,7 +26459,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/sBleMf9rSFa-ofqG1INAHSUEDaCn5Ldt2p2spt_I9PQ=/5165758842_tsukrovi-prikrasi-ale.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -26481,7 +26481,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/bKagmYPah96Ktj-s0Q2aWvinLXBHNr7IvgHGBp16GNE=/5165760763_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -26500,7 +26500,7 @@ export const db = [
     image:
       'https://images.prom.ua/eCQ_mgyYwY7kYayW05nB8-TZpHIaYcY7wv9yaqZt3pM=/5165767021_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '5.00',
+    price: 5.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26522,7 +26522,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/A7yXPoxTBRjXlMRrbSWQcY_64qyHgRf5zBpDqqKFN8w=/5373415247_stijka-dlya-torta.jpg',
     availability: 'out of stock',
-    price: '696.00',
+    price: 696.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26541,7 +26541,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/BnmgzPp9ARCOOFCCfW_5QbiD_k7tijqHVLbx0OiebBQ=/5180176665_posoh-karamelna-trostinka.jpg',
     availability: 'in stock',
-    price: '23.00',
+    price: 23.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26558,7 +26558,7 @@ export const db = [
     image:
       'https://images.prom.ua/dsIr1osVrIhxmLbH308OoSUgqyinVEJaxhCLbmUIbrk=/5180170426_posoh-karamelna-trostinka.jpg',
     availability: 'in stock',
-    price: '12.00',
+    price: 12.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26580,7 +26580,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/w2ty1lxeCkSPu4RjdqjjQvDdx_b6UiiFx-Dqp58g6Gs=/5180199944_novorichni-lodyaniki-na.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26598,7 +26598,7 @@ export const db = [
     image:
       'https://images.prom.ua/J5go_V6DXo6yPiDL4VNXAd5CAqxIp4tScV7OnAcAzTs=/5180214240_kulki-shokoladni-na.jpg',
     availability: 'in stock',
-    price: '263.00',
+    price: 263.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26616,7 +26616,7 @@ export const db = [
     image:
       'https://images.prom.ua/VfTkwz5RUsxPS6WwZB22UF8pufBpJdGCaJea8Iw7vdE=/5180216427_kulki-shokoladni-na.jpg',
     availability: 'out of stock',
-    price: '263.00',
+    price: 263.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26634,7 +26634,7 @@ export const db = [
     image:
       'https://images.prom.ua/ynQhmaMGl9Wzwz-2ivmKYNhz0ISh0S0AioCHOjFmRFY=/5180224160_kulki-shokoladni-na.jpg',
     availability: 'out of stock',
-    price: '263.00',
+    price: 263.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26652,7 +26652,7 @@ export const db = [
     image:
       'https://images.prom.ua/AO34jQRh3gLjxPutAFd0B4ncgMmydF14SYI5P_rQ7O4=/5180236382_prikrasi-shokoladni-na.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26671,7 +26671,7 @@ export const db = [
     image:
       'https://images.prom.ua/uwHoftrHUuqqaOfpmTmVEDhNId7Gn7h7UUtyvGJZT1Q=/5180245607_apelsinovi-tsukati-kubiki.jpg',
     availability: 'in stock',
-    price: '46.00',
+    price: 46.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26691,7 +26691,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ABM5YNx0UOblXiu35UAl3F2zgYPrIt8DvE9aYDrtj_s=/5180256524_forma-silikonova-alfavit.jpg',
     availability: 'in stock',
-    price: '120.00',
+    price: 120.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -26715,7 +26715,7 @@ export const db = [
     image:
       'https://images.prom.ua/2Sk7wGyLPMj1FZc9DuUPallaBcMN6xS8bDhy4qsiK14=/5180271456_karamel-na-palichtsi.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26734,7 +26734,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/v3D8ceKLlKYlHJL2wSAM-9OotrdEohM_GaADtS4y3aQ=/5268589158_pechivo-z-peredbachennyam.jpg',
     availability: 'out of stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Хлібобулочні вироби',
     identifier_exists: 'no',
@@ -26751,7 +26751,7 @@ export const db = [
     image:
       'https://images.prom.ua/U3qWxNZQDTiDAEJxFYdk_djWsPQca4OLDlxoyPwAkhQ=/5268601460_koleso-dlya-narizki.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -26769,7 +26769,7 @@ export const db = [
     image:
       'https://images.prom.ua/HlJA3DVorqcdzUjDo28YVp_60mRRGJj-RIBsqQunivg=/5268615802_plunzher-snizhinka-velikij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -26798,7 +26798,7 @@ export const db = [
     image:
       'https://images.prom.ua/m_eRrSdzzpgungHZw-W5Ib63sLrNIhX-rmBJnLBbsLw=/5268631369_aerograf-konditerskij-mehanichnij.jpg',
     availability: 'in stock',
-    price: '224.00',
+    price: 224.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -26816,7 +26816,7 @@ export const db = [
     image:
       'https://images.prom.ua/rDZ43tw5qfQt40K3pi7rDoJQn0T1uD6XWeIUUQDRckk=/5280453443_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26834,7 +26834,7 @@ export const db = [
     image:
       'https://images.prom.ua/bPVHjUjqjGVs15k31a3x1SLT3BHMGm2p1TaRrf25iy0=/5280458229_posipka-tsukrova-priznik.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26852,7 +26852,7 @@ export const db = [
     image:
       'https://images.prom.ua/ERGKwrmO8Zooc7n6fMf87ssvr4kXAlaUb4KG1vZdJWY=/5280462114_tsukrova-posipka-chervona.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26871,7 +26871,7 @@ export const db = [
     image:
       'https://images.prom.ua/H5rMNu5mnxG1F1LLdCwCJEz5Zyz-uBQktQdkfW-NmVE=/5280464400_tsukrova-posipka-blakitna.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26889,7 +26889,7 @@ export const db = [
     image:
       'https://images.prom.ua/VJDHGdWFhMnTFMuym3ZvHIjYCfLx6n2DvHnGpKPbmrA=/5280470032_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26908,7 +26908,7 @@ export const db = [
     image:
       'https://images.prom.ua/B2tytsMP2EIVUNtZjnqYeQrBKsT-SCSVOvFSxALtBlM=/5280476129_tsukrova-posipka-vermishel.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26927,7 +26927,7 @@ export const db = [
     image:
       'https://images.prom.ua/6MqOBBVWHPVnrG6-EDFXggn3P-ub9ES1WrKB-g0LrF0=/5283598033_tsukrova-posipka-chervoni.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -26946,7 +26946,7 @@ export const db = [
     image:
       'https://images.prom.ua/FvzUkRofFHb4FNJY61ECjDjpJjw54c6Q4susbicVcKs=/4401012277_konditerska-krugla-nasadka.jpg',
     availability: 'out of stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     brand: 'Ateco',
@@ -26965,7 +26965,7 @@ export const db = [
     image:
       'https://images.prom.ua/3nnEaoK3_9pA1_TCKa4MGc7hXjHiv21qlPohPSD2mSA=/5295892247_forma-plastikova-dlya.jpg',
     availability: 'in stock',
-    price: '83.00',
+    price: 83.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -26983,7 +26983,7 @@ export const db = [
     image:
       'https://images.prom.ua/CaX31bpfz3YGIs6cX3zmlYzEv8l2NTW265N8hQMEZe0=/5295922899_forma-plastikova-dlya.jpg',
     availability: 'in stock',
-    price: '83.00',
+    price: 83.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27001,7 +27001,7 @@ export const db = [
     image:
       'https://images.prom.ua/I9OGfvNSR6yliFGEaA-grAb6WYuJoJEYwf0CTd2K9y8=/5295926402_forma-plastikova-dlya.jpg',
     availability: 'in stock',
-    price: '83.00',
+    price: 83.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27019,7 +27019,7 @@ export const db = [
     image:
       'https://images.prom.ua/4OXDXIyyIBE7jTxIiZQZWT99xbkJfTkkH3-yAnhdcL8=/5295960652_pektin-nh-termooborotnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27038,7 +27038,7 @@ export const db = [
     image:
       'https://images.prom.ua/FMmHQMW_8RLbMU_4d2Tg942wMVVgbtTszyy0n1aUKAk=/5295982051_dekogel-nejtralnyj-dlya.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27056,7 +27056,7 @@ export const db = [
     image:
       'https://images.prom.ua/GZ5ZM5fe9e9sY1AkUv8TLB-l10ykUezC3-ekbIvyVgw=/5296054334_zhelatin-shvidkorozchinnij-240.jpg',
     availability: 'in stock',
-    price: '12.00',
+    price: 12.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27074,7 +27074,7 @@ export const db = [
     image:
       'https://images.prom.ua/6hieCJmJ1QTnXvfiY3eHYAZM4ksa3rHQ-YuANklwhMg=/5296285670_silikonovij-kilimok-dlya.jpg',
     availability: 'in stock',
-    price: '140.00',
+    price: 140.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27098,7 +27098,7 @@ export const db = [
     image:
       'https://images.prom.ua/Q9r44PwUYRNWc2Jg3CKSEmTZj4RJS6o4eGGgVrnrJRk=/5296324703_tsukrova-pudra-netalna.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27116,7 +27116,7 @@ export const db = [
     image:
       'https://images.prom.ua/v__RGobkHcACXKk5hxluAK3xp_ORVP5D5nQCSwyV6kg=/5296335835_pudra-tsukrova-dribnogo.jpg',
     availability: 'in stock',
-    price: '70.00',
+    price: 70.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27134,7 +27134,7 @@ export const db = [
     image:
       'https://images.prom.ua/1JfuYJ5lUVkxhY5jNJPmE9Nk0wA0QHf20Zw9HxWCjFA=/5296358410_pektin-yabluchnij-upakovka.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27152,7 +27152,7 @@ export const db = [
     image:
       'https://images.prom.ua/e92VMBb6ajOCS14BcwfxCr1dOIZS4gJtkVuD4jumWc0=/5301376337_nabir-tsukrovih-prikras.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'МІК',
@@ -27172,7 +27172,7 @@ export const db = [
     image:
       'https://images.prom.ua/tmEztGyecuS67xb-cXRa3Go7zieMgXniwj1yEe-ESWY=/5301384561_nabir-tsukrovih-prikras.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27191,7 +27191,7 @@ export const db = [
     image:
       'https://images.prom.ua/AWmemay2mJgXas1eUOooH-EKVV4TFiUDJ9eAXEuuo9c=/5301428647_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27208,7 +27208,7 @@ export const db = [
     image:
       'https://images.prom.ua/mvERqHj2LZN2gwmNrItyRxC7RJoyEXGphwYNTpypqdM=/5301431575_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27225,7 +27225,7 @@ export const db = [
     image:
       'https://images.prom.ua/WzfQcQtusdAIru-52QczZRtfHrfUB3dO1sWg8ZXyQa0=/5301434099_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27243,7 +27243,7 @@ export const db = [
     image:
       'https://images.prom.ua/gvMfFdYMb-P6YkUOni3Eo8UM893Wi27hOwbIqHpmwtE=/5301656236_toper-tortsevij-najkraschij.jpg',
     availability: 'out of stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27267,7 +27267,7 @@ export const db = [
     image:
       'https://images.prom.ua/2mCrADztQnnX3Sqind3tApy90zgRrHjqyo4QF2CKd1s=/5301759511_toper-tortsevij-ti.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27291,7 +27291,7 @@ export const db = [
     image:
       'https://images.prom.ua/dA2R9wfEMB6OzMWscH31F6uYFYot4SrDiRDD7Id-RRk=/5301765007_toper-tortsevij-vidchuvayu.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27315,7 +27315,7 @@ export const db = [
     image:
       'https://images.prom.ua/cM_HoRmAXhuKuUaotTmg3CscyWcohKBUDc6hhs_O688=/5301771523_toper-tortsevij-z.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27339,7 +27339,7 @@ export const db = [
     image:
       'https://images.prom.ua/BM-c-kKd6uiaci_RXov3UAqRbJIa8E_4TdDblkaKJgU=/5301776284_toper-tortsevij-z.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27363,7 +27363,7 @@ export const db = [
     image:
       'https://images.prom.ua/RqY12c8v1_yLKRWUgLXzuo856qytptIvNWecW7-CXtI=/5301785786_toper-tortsevij-lyubij.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27387,7 +27387,7 @@ export const db = [
     image:
       'https://images.prom.ua/yc22cUaDpTCZzRphak1bZ0rUCyUoA_asPK1_LLx1mvM=/5301792708_toper-tortsevij-plastik.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27413,7 +27413,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/XgGqGMLAVrSpT4tLXfmK9ej4XNxhINpaxL_8qo4T5ts=/5301804186_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'out of stock',
-    price: '147.00',
+    price: 147.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27433,7 +27433,7 @@ export const db = [
     image:
       'https://images.prom.ua/ibZbj9r2Z7tfvd2Z0C4AG2VeMVyxPSu1chcG-Q5RGEM=/5301816659_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '65.00',
+    price: 65.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27453,7 +27453,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '240.00',
+    price: 240.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27477,7 +27477,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'out of stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27501,7 +27501,7 @@ export const db = [
     image:
       'https://images.prom.ua/3pCmtSrRklibihtsU8TjPSsBm9xvOO8Nrvef73RW37Y=/5301850312_nabir-dvostoronnih-virubok.jpg',
     availability: 'out of stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -27531,7 +27531,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/EReMiG4MZFTQvbgudYMEUB63IZEcJJDgTHsAjVCBhjA=/5301864104_vishnya-koktejlna-zhovta.jpg',
     availability: 'out of stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27553,7 +27553,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/pYraQn6HEYmgleYo7L2xexJksjX_3AfYM2WfCT65wds=/5301865768_vishnya-koktejlna-chervona.jpg',
     availability: 'in stock',
-    price: '114.00',
+    price: 114.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27571,7 +27571,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ik8hcSG1e9IGQxjERLmaXADjBlGsj7e2oKmT2EkQjKQ=/5301876187_koritsya-tsejlonska-spravzhnya.jpg',
     availability: 'in stock',
-    price: '70.00',
+    price: 70.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27589,7 +27589,7 @@ export const db = [
     image:
       'https://images.prom.ua/HVMxP72bctY15nAmYFKG4Dd17ZK3O8QKvaSMBM_MH4s=/5301919327_karamel-na-palichtsi.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27606,7 +27606,7 @@ export const db = [
     image:
       'https://images.prom.ua/lnP4eaxnZHfg97mgc-rQQ1CpecRVIVvSuJBYsTacn1M=/5303969806_mama-oleniha-shokoladna.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27623,7 +27623,7 @@ export const db = [
     image:
       'https://images.prom.ua/SOpd4Tp_IH2gD2xDNqV67gAjj7YFlGIWuySLZl6GLpc=/5303976255_mamontenya-shokoladna-figurka.jpg',
     availability: 'in stock',
-    price: '193.00',
+    price: 193.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27641,7 +27641,7 @@ export const db = [
     image:
       'https://images.prom.ua/Qj-NQEx2g2x6kODZzfIKrXgASqcB9eWD7FRDuCFzz-M=/5306280852_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -27659,7 +27659,7 @@ export const db = [
     image:
       'https://images.prom.ua/p26RXHuIZo_JX9zDsoCWxya4mpvmg3I_ZzDkHHYLXmE=/5469712295_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27679,7 +27679,7 @@ export const db = [
     image:
       'https://images.prom.ua/R1rw7tHzCiVRlS6JIBLc_6HyYZsYSH8crgcRDHiieFE=/5310122127_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27699,7 +27699,7 @@ export const db = [
     image:
       'https://images.prom.ua/pTHPDc7BX7W5Tp5F58RasHx0mqMTD9pp1JJ2gqF9d2E=/5310097442_konditerska-tsukrova-prikrasa.jpg',
     availability: 'out of stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27719,7 +27719,7 @@ export const db = [
     image:
       'https://images.prom.ua/_UuFPWvxkbViPJO9q51AgipUMDae84TTCs-KCd5XRRU=/5310102433_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27739,7 +27739,7 @@ export const db = [
     image:
       'https://images.prom.ua/ScZ0_1JuyP05Bizaym13M1pQtXiv364uQrEdmixqO8A=/5310105829_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27759,7 +27759,7 @@ export const db = [
     image:
       'https://images.prom.ua/D8hadk3xNFA4hQS948ZeOXTPQIX0qoVBq_FHoSMAhLE=/5310111261_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '126.00',
+    price: 126.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27779,7 +27779,7 @@ export const db = [
     image:
       'https://images.prom.ua/E_VIb3VrJp1K_q6QDNiNBivypbbHRSbw6moKwGg2P88=/5310115025_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27799,7 +27799,7 @@ export const db = [
     image:
       'https://images.prom.ua/Nk1i727-HQgtS46gGk3VecyhKoffBXUCCGS31KUdVj8=/5310134421_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27819,7 +27819,7 @@ export const db = [
     image:
       'https://images.prom.ua/NQ9E9s1zpDtyH6OzrfKqEIkBlaHJPJjEHNiwekwD0c4=/5310139254_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '125.00',
+    price: 125.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27839,7 +27839,7 @@ export const db = [
     image:
       'https://images.prom.ua/JLl-LhjWmgO_W1yLKrIdwokkGf6z9aqOIw3G1CtR4XA=/5310150814_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27859,7 +27859,7 @@ export const db = [
     image:
       'https://images.prom.ua/8KGHxZFNdTZKP2FyWLQtYIAstfzndBxCzreKpaFrlxY=/5310154871_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '118.00',
+    price: 118.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27879,7 +27879,7 @@ export const db = [
     image:
       'https://images.prom.ua/v9cs8qAdo8NY6hhuW_iMBaKnv5yPvpxLfJ9BBgVb07c=/5310162326_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27899,7 +27899,7 @@ export const db = [
     image:
       'https://images.prom.ua/j5Z1McbwNzCKJn8hOgB9bGMwkT6wQ2ZnB2K3Dt0tGmc=/5310166741_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27919,7 +27919,7 @@ export const db = [
     image:
       'https://images.prom.ua/El--zkKavsBbKdvZonDfD0WUfsl6sY8zBFcDHxdBIbY=/5310175625_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27939,7 +27939,7 @@ export const db = [
     image:
       'https://images.prom.ua/c_W_V52EmeH49yN8rGOxv68sH9H4rvKbHRwq40f_DYY=/5310185474_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27959,7 +27959,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZTmYr-y5xzDoZFi1-geKcDwmYX0B3ufz_OKoUot_4uQ=/5310237907_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -27981,7 +27981,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/w_IHSzHEHkkwyr_RtUav3NongJVCQnjPEKB9pdIypyc=/5310339680_agar-agar-1200-pakovannya.jpg',
     availability: 'in stock',
-    price: '18.00',
+    price: 18.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -27999,7 +27999,7 @@ export const db = [
     image:
       'https://images.prom.ua/SsoiQnMK7p_oxGDQkGs-tzT57ZOWSAYXsww3_DMdr0c=/5310351048_psillium-poroshok-z.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -28017,7 +28017,7 @@ export const db = [
     image:
       'https://images.prom.ua/b0OLEenKt4oOBmYBvsJPSluMbgY2g-9W1nAGKy_Bosw=/5312163492_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28035,7 +28035,7 @@ export const db = [
     image:
       'https://images.prom.ua/5gQ7AfL2WJ8Y50hEAOFL4WK3RYX1cEIdMtfeLTOB2BI=/5312179849_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28053,7 +28053,7 @@ export const db = [
     image:
       'https://images.prom.ua/dwpT3uXpNJyLc2zLI286_TX-tLnb0ZSL0lBo7nK5DL0=/5312206343_tsukrova-pudra-bez.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -28071,7 +28071,7 @@ export const db = [
     image:
       'https://images.prom.ua/eqrQ91oShLDIn0izc487IgrhX0Q8Qhdg_y5M4q0_pHI=/5312218949_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28090,7 +28090,7 @@ export const db = [
     image:
       'https://images.prom.ua/fEO4nkIssUaR9V5SthjcLMQMtttgq_xNyN1Q7QG5xkQ=/5312251459_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28108,7 +28108,7 @@ export const db = [
     image:
       'https://images.prom.ua/npU5Pmez-cAXAPQirr3O_0vcEQ7ajpjyJ3aVX_7YSqY=/5312266105_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28126,7 +28126,7 @@ export const db = [
     image:
       'https://images.prom.ua/YjTLglQHR5E1I2AOtllAN7RPLeS4qMFv4t0wuJaVm2w=/5312276834_tsukrovi-prikrasi-na.jpg',
     availability: 'out of stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28143,7 +28143,7 @@ export const db = [
     image:
       'https://images.prom.ua/LXZv8RV4p-onRfuuCQUVAizzwWCv-ZR81krwudscYvs=/5312332951_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '96.00',
+    price: 96.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28161,7 +28161,7 @@ export const db = [
     image:
       'https://images.prom.ua/Wu63Hlo5pl4-k_faiXLk1zsrRZpXj9GBlLEZdbrIoRo=/5312370084_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -28181,7 +28181,7 @@ export const db = [
     image:
       'https://images.prom.ua/vJH8fscQMkZhIEVPHbI6PvF2jh4dxpYP3AAXENd3Bxc=/5312384215_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28199,7 +28199,7 @@ export const db = [
     image:
       'https://images.prom.ua/j2eEISx-S9rEyCg_v2EhsqlwJ-c_b3enDZZVZw6LIhk=/5312396494_tsukrova-posipka-miks.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28217,7 +28217,7 @@ export const db = [
     image:
       'https://images.prom.ua/0WIEr6IBEEeumdQ1zc-osIqhEHsP7ZZRRUoRWhMTAN8=/5312405422_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28236,7 +28236,7 @@ export const db = [
     image:
       'https://images.prom.ua/hKGaDRLQrA93crjiokC59QOv_LagmBQuuCRZF3Tfo_E=/5312430180_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28255,7 +28255,7 @@ export const db = [
     image:
       'https://images.prom.ua/dR3mOm1CWlRq_vW1LHBJ6EJ0Z2SdztRCTEyLZKlZMDI=/5312439428_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28273,7 +28273,7 @@ export const db = [
     image:
       'https://images.prom.ua/pqievteBHobfeVTX-kaS6jO8SCQbaQjY2CFh5OuGKz4=/5312449188_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28292,7 +28292,7 @@ export const db = [
     image:
       'https://images.prom.ua/jTu_iukwdNh-mWJwDXqeS_0T4zGrc2Nrtr4VrVIP-dQ=/5312457002_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28311,7 +28311,7 @@ export const db = [
     image:
       'https://images.prom.ua/j5ASCCsyZlo93cq922544_paRXMJWq2mklzCIwCKKWg=/5312464815_tsukrova-posipka-zirochki.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28330,7 +28330,7 @@ export const db = [
     image:
       'https://images.prom.ua/OOKLYyH4tL5vRRbJ0wg8HM8fDlJN9vVi5C-uFOYTWoE=/5312473101_tsukrova-posipka-serdechka.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28349,7 +28349,7 @@ export const db = [
     image:
       'https://images.prom.ua/GdDYXMViFJ8W_8b8H6Q4_VaTfEhH7K4vz0WgytkCEcM=/5312501534_paperova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '3.00',
+    price: 3.0,
     product_type:
       'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
     identifier_exists: 'no',
@@ -28368,7 +28368,7 @@ export const db = [
     image:
       'https://images.prom.ua/USCxMJwnkYxrjIuR4SKka9ywAQs3mwTdBTsxk-m0PlY=/5312504592_paperova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '3.00',
+    price: 3.0,
     product_type:
       'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
     identifier_exists: 'no',
@@ -28387,7 +28387,7 @@ export const db = [
     image:
       'https://images.prom.ua/GYeHG1xhfw_ce2l3VBWY6blvwSvFMx4tpwORTr-b_d4=/5312512241_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -28404,7 +28404,7 @@ export const db = [
     image:
       'https://images.prom.ua/mRw3pD5YGN_SvygKXOsxpBGpUyEdli6my3TSZAeNU2g=/5312519812_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -28423,7 +28423,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -28440,7 +28440,7 @@ export const db = [
     image:
       'https://images.prom.ua/g60olP2nugoB_hdz5rR8tA7kygsWekwhLmHUJyIENbM=/5312568096_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -28457,7 +28457,7 @@ export const db = [
     image:
       'https://images.prom.ua/NKvghF5WyqGS7QTYaEgAPjWvGsk36Z02UFxvfoA6cSU=/5312576327_tsukrova-posipka-zirochki.jpg',
     availability: 'in stock',
-    price: '10.00',
+    price: 10.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -28475,7 +28475,7 @@ export const db = [
     image:
       'https://images.prom.ua/wKYkirK0Hq8mosxjvGPWbvazaGWDXqdnlaRxv9kpI-0=/5312816775_svichka-feyerverkiv-u.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28493,7 +28493,7 @@ export const db = [
     image:
       'https://images.prom.ua/kx1BMomkOvo-JSSBtI2_zZulBlXViO4JGBo_tN0MZrI=/5312819390_svichka-feyerverkiv-u.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28511,7 +28511,7 @@ export const db = [
     image:
       'https://images.prom.ua/VHT9qCmBiZUAv55XwXr-i246rn54rPZdxz3oyjlpTIw=/5312826645_svichka-tsifra-0-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28529,7 +28529,7 @@ export const db = [
     image:
       'https://images.prom.ua/cYxxvTlgyIXLObJnu0gEPlowFg5FCi3WrXImgRrlgnA=/5312837278_svichka-tsifra-1-na.jpg',
     availability: 'out of stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28547,7 +28547,7 @@ export const db = [
     image:
       'https://images.prom.ua/esdeo4Jo34ZRlCvUutvnBKoyhe1gNgrr8Dk4RFqYJWQ=/5312837997_svichka-tsifra-2-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28565,7 +28565,7 @@ export const db = [
     image:
       'https://images.prom.ua/fyXAmRx9MubQvyOcESwbvbJDUxuIWtcTQj7qPvB0PqU=/5312838723_svichka-tsifra-3-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28583,7 +28583,7 @@ export const db = [
     image:
       'https://images.prom.ua/cl_zwJiWLWOOePNX-GzvytaelBN4Yqji9jWXgWCJTnk=/5312839563_svichka-tsifra-4-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28601,7 +28601,7 @@ export const db = [
     image:
       'https://images.prom.ua/AJLfjyaHJODQGcLoqAFpauO2u5x74LjJBhDBnsTfDsQ=/5312840379_svichka-tsifra-5-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28619,7 +28619,7 @@ export const db = [
     image:
       'https://images.prom.ua/DqUELTEJ1diuPpzq1jVR37w5EDc-heTfA87u_OUaYYY=/5312841101_svichka-tsifra-6-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28637,7 +28637,7 @@ export const db = [
     image:
       'https://images.prom.ua/JiQm-Xdij0uK8QL5BJLefN_j4yzNoOjx1aVu4ueQSEg=/5312841903_svichka-tsifra-7-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28655,7 +28655,7 @@ export const db = [
     image:
       'https://images.prom.ua/INT1qyR4eQMaCSYd3HiMfGexUr70uXOBNTV_HTQnQMY=/5312842564_svichka-tsifra-8-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28673,7 +28673,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vum1sNkX8apx0hn45bipPrMg4NP3EYP5ckFJgNiKmb4=/5312843112_svichka-tsifra-9-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28691,7 +28691,7 @@ export const db = [
     image:
       'https://images.prom.ua/VHT9qCmBiZUAv55XwXr-i246rn54rPZdxz3oyjlpTIw=/5312826645_svichka-tsifra-0-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28709,7 +28709,7 @@ export const db = [
     image:
       'https://images.prom.ua/yuDmAFWh0hkyPh3nMJNF5F_UGdowoKkz1lzRbf8zySc=/5312894052_svichka-tsifra-1-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28727,7 +28727,7 @@ export const db = [
     image:
       'https://images.prom.ua/esdeo4Jo34ZRlCvUutvnBKoyhe1gNgrr8Dk4RFqYJWQ=/5312837997_svichka-tsifra-2-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28745,7 +28745,7 @@ export const db = [
     image:
       'https://images.prom.ua/fyXAmRx9MubQvyOcESwbvbJDUxuIWtcTQj7qPvB0PqU=/5312838723_svichka-tsifra-3-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28763,7 +28763,7 @@ export const db = [
     image:
       'https://images.prom.ua/cl_zwJiWLWOOePNX-GzvytaelBN4Yqji9jWXgWCJTnk=/5312839563_svichka-tsifra-4-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28781,7 +28781,7 @@ export const db = [
     image:
       'https://images.prom.ua/AJLfjyaHJODQGcLoqAFpauO2u5x74LjJBhDBnsTfDsQ=/5312840379_svichka-tsifra-5-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28799,7 +28799,7 @@ export const db = [
     image:
       'https://images.prom.ua/JiQm-Xdij0uK8QL5BJLefN_j4yzNoOjx1aVu4ueQSEg=/5312841903_svichka-tsifra-7-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28817,7 +28817,7 @@ export const db = [
     image:
       'https://images.prom.ua/INT1qyR4eQMaCSYd3HiMfGexUr70uXOBNTV_HTQnQMY=/5312842564_svichka-tsifra-8-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28835,7 +28835,7 @@ export const db = [
     image:
       'https://images.prom.ua/Vum1sNkX8apx0hn45bipPrMg4NP3EYP5ckFJgNiKmb4=/5312843112_svichka-tsifra-9-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28853,7 +28853,7 @@ export const db = [
     image:
       'https://images.prom.ua/DqUELTEJ1diuPpzq1jVR37w5EDc-heTfA87u_OUaYYY=/5312841101_svichka-tsifra-6-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28871,7 +28871,7 @@ export const db = [
     image:
       'https://images.prom.ua/qMuvc6FBq_eeXtJYU7_xpEz7gbdk1mQAeSfqKoKFGMk=/5312896997_svichka-tsifra-1-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28889,7 +28889,7 @@ export const db = [
     image:
       'https://images.prom.ua/zKCwszHcBZ2IXEpT0YoDxTZXpl_-fcCNfVlWVH32x94=/5312899287_svichka-tsifra-2-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28907,7 +28907,7 @@ export const db = [
     image:
       'https://images.prom.ua/iCmAgRs3M5zrE8AFb6oEGSr-DcgkqQyctZt9741Dcgc=/5312902645_svichka-tsifra-3-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28925,7 +28925,7 @@ export const db = [
     image:
       'https://images.prom.ua/8zB1-roBq4ilpeHLcD1d4_m_XvJzG6gDZOC05Jq92uU=/5312904074_svichka-tsifra-4-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28943,7 +28943,7 @@ export const db = [
     image:
       'https://images.prom.ua/dOGOXRj1Yx0LL8PV4ItK1ajZzmuHVae1NQlAdDmq-i4=/5312905727_svichka-tsifra-5-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28961,7 +28961,7 @@ export const db = [
     image:
       'https://images.prom.ua/vLrv8ZxP_6dkb6LtRGAxNcsQOIKYf_Ab1jLUZS_hz_c=/5312907094_svichka-tsifra-6-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28979,7 +28979,7 @@ export const db = [
     image:
       'https://images.prom.ua/ha5gBxt5grBSHELk9lOh0mUqi7LQob2pnWCGwUZQVrI=/5312908459_svichka-tsifra-7-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -28997,7 +28997,7 @@ export const db = [
     image:
       'https://images.prom.ua/YLwJEm9rWXVs07l786yJqyhdCWE4_yC6p1CD9FH-9NQ=/5312909604_svichka-tsifra-8-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29015,7 +29015,7 @@ export const db = [
     image:
       'https://images.prom.ua/Brw-W3ZEJApOpGtdvodpZ3V5YfQToWBWYwV4C_QNU-I=/5312911112_svichka-tsifra-9-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29033,7 +29033,7 @@ export const db = [
     image:
       'https://images.prom.ua/eZL_RmOw7G-7jDSv-sMH7dJM5oAG2yWmHYG5F1P6aS0=/5312912339_svichka-tsifra-0-na.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29051,7 +29051,7 @@ export const db = [
     image:
       'https://images.prom.ua/vTm0rKtVYkR1C-W47Ko0RiZvIdaxVwPBrLYKJWEibMI=/5312933202_svichka-tsifra-1-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29069,7 +29069,7 @@ export const db = [
     image:
       'https://images.prom.ua/nNmOZy_EXclR3pmCGtp-bSWByPms40-XB6JvdXWrZCU=/5312935031_svichka-tsifra-2-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29087,7 +29087,7 @@ export const db = [
     image:
       'https://images.prom.ua/y_HnDqxbpd9mOsHz5A_U1eIFKss192Z9zDnkZaaibD8=/5312940861_svichka-tsifra-3-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29105,7 +29105,7 @@ export const db = [
     image:
       'https://images.prom.ua/WzpOk8S3DD8uzka6nu9d23pfSDwZb2MlMYHokef5YF4=/5312942262_svichka-tsifra-4-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29123,7 +29123,7 @@ export const db = [
     image:
       'https://images.prom.ua/fba5qGG0XnVX6WTIjY7noxQuVCMEOdP9LBR28NQphhA=/5312943523_svichka-tsifra-5-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29141,7 +29141,7 @@ export const db = [
     image:
       'https://images.prom.ua/2cOoQHGlwWx7IDqUUx3ASbHxUE44joeb45bV1--3LGA=/5312944719_svichka-tsifra-6-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29159,7 +29159,7 @@ export const db = [
     image:
       'https://images.prom.ua/npkotzCe37UZrJnKzlT100XQgGHk-Lbaxru0W7Gl97w=/5312945915_svichka-tsifra-7-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29177,7 +29177,7 @@ export const db = [
     image:
       'https://images.prom.ua/hToWi-ZLEW-JPztUFt2PXU0UvCJR_UDk4JFU7Xuz7js=/5312947344_svichka-tsifra-9-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29195,7 +29195,7 @@ export const db = [
     image:
       'https://images.prom.ua/uMHvQ6a319Yck8V8g66QlpquJeQf7W0JnxUpImxiqmk=/5312967124_svichki-bukvi-v-tort.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29213,7 +29213,7 @@ export const db = [
     image:
       'https://images.prom.ua/CjjyjzOFm0MnYjMSQvi-LeALIFB7-6oZvOZ5nzJ-Oao=/5312974833_nabir-svichok-dlya.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29231,7 +29231,7 @@ export const db = [
     image:
       'https://images.prom.ua/vQYok2tYnEnmwMU0Jdr7avxYfwPBAXh0bGzNSqeZyw8=/5312976959_nabir-svichok-dlya.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29249,7 +29249,7 @@ export const db = [
     image:
       'https://images.prom.ua/RxktzXZFozuAcr-8OwJrwSf7j4aNHpg0OG_mZjV8HX4=/5312987427_hvilyasti-svichki-kolorovi.jpg',
     availability: 'out of stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29267,7 +29267,7 @@ export const db = [
     image:
       'https://images.prom.ua/JA45nftysZTz-Fb7skLC2MSjNGwdpNmkQHaauwcSocE=/5312994598_hvilyasti-svichki-chervoni.jpg',
     availability: 'in stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29285,7 +29285,7 @@ export const db = [
     image:
       'https://images.prom.ua/fL37EmkQyolMspDxEXQoQODSVWJiJhBkqx_67bhsUAc=/5312996420_hvilyasti-svichki-bilo-chorni.jpg',
     availability: 'in stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29303,7 +29303,7 @@ export const db = [
     image:
       'https://images.prom.ua/479ocOb32Aabp0ssG0ZtyD812tRTqWLLzE3gIJbQw6I=/5312999090_hvilyasti-svichki-zoloti.jpg',
     availability: 'in stock',
-    price: '26.00',
+    price: 26.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29321,7 +29321,7 @@ export const db = [
     image:
       'https://images.prom.ua/SRehxSUsPGvFvmXnZpk_VjsgxHiMv1YrckHM0WTHMGY=/5313000636_hvilyasti-svichki-sribli.jpg',
     availability: 'in stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29339,7 +29339,7 @@ export const db = [
     image:
       'https://images.prom.ua/zQp-gYMkXJVkDNSgPyU4k5xSBco57wqyYMZyP_QxMho=/5313009185_nabir-svichok-dlya.jpg',
     availability: 'in stock',
-    price: '38.00',
+    price: 38.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29357,7 +29357,7 @@ export const db = [
     image:
       'https://images.prom.ua/5IjwRAJmSJBwjhO_ZUNKn8mYjB7jeIftEcI_8T2DiOA=/5313019834_nabir-svichok-dlya.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -29374,7 +29374,7 @@ export const db = [
     image:
       'https://images.prom.ua/4kl56J4TBMS6N93ylFASJTztGyGMvNRweqNBeOHH4wU=/5314788800_paperovi-mali-tartaletki.jpg',
     availability: 'in stock',
-    price: '18.00',
+    price: 18.0,
     product_type:
       'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
     identifier_exists: 'no',
@@ -29392,7 +29392,7 @@ export const db = [
     image:
       'https://images.prom.ua/0YCHUzGVlqsUQKINqAYEbvfdAsumz8oFfaLo87BBmkI=/5314799514_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '108.00',
+    price: 108.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29416,7 +29416,7 @@ export const db = [
     image:
       'https://images.prom.ua/6UUiSswEy2DDjWbNw9kYf_Txb86nakbd5MBKUGSZ9QU=/5314812347_plunzher-miks-dekor.jpg',
     availability: 'out of stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29445,7 +29445,7 @@ export const db = [
     image:
       'https://images.prom.ua/AYnxVP8sC3ki5da3HIvzPjTaAuu81Serr13Aqt7PXJY=/5314826096_toper-plastikovij-happy.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29463,7 +29463,7 @@ export const db = [
     image:
       'https://images.prom.ua/C62C-ROC0bdRViheYgkDog9Q0HxVsOwrPo7z-1tgGlE=/5314832965_toper-plastikovij-happy.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29482,7 +29482,7 @@ export const db = [
     image:
       'https://images.prom.ua/eZNZrX9PqBsGp5IlsDlSgbp7Gmr-wIgbSBcBMz4d2ws=/5314838854_toper-plastikovij-happy.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29501,7 +29501,7 @@ export const db = [
     image:
       'https://images.prom.ua/YiGOUqeGKK8M4mZLRNjvdCJebw0yKTPPGjPrVbw9X9U=/5314843902_toper-plastikovij-happy.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -29519,7 +29519,7 @@ export const db = [
     image:
       'https://images.prom.ua/E0cNdS0X-Q770wQsie2qK3qlAqNvW-Ac4VHbfnZkwp0=/5320715502_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29536,7 +29536,7 @@ export const db = [
     image:
       'https://images.prom.ua/Alv_mn9vNxWddNjD3bDxpvTDRHplyFFHbkosM5h3KnI=/5320717338_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29553,7 +29553,7 @@ export const db = [
     image:
       'https://images.prom.ua/SjztPKElgjdZvzhy6E5uovr5Pw1-xIHbboDiK0sqgdA=/5320718151_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29570,7 +29570,7 @@ export const db = [
     image:
       'https://images.prom.ua/saenGidXMn6tX9FrHk67JL3F51yhgHk99WpblMeEEq8=/5320720472_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29587,7 +29587,7 @@ export const db = [
     image:
       'https://images.prom.ua/y6laiSnAFdS2TXpWLbYpeoSstQ72MnbeFxqbrZwR2DE=/5320721138_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29604,7 +29604,7 @@ export const db = [
     image:
       'https://images.prom.ua/IRvmrv4ZhGk9TaHVUTVPACTYdhAqVfUM2Quh8_MR64c=/5320722741_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29621,7 +29621,7 @@ export const db = [
     image:
       'https://images.prom.ua/9h11IfWyKK7DMrTl07QMvHdhzsHY-7mXDwfY9TV6Zm8=/5320723319_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29638,7 +29638,7 @@ export const db = [
     image:
       'https://images.prom.ua/XJGxqS9TFdIiPTTMgdVt5JXb0VM-ePav47Vh4e8swP4=/5320724270_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29655,7 +29655,7 @@ export const db = [
     image:
       'https://images.prom.ua/DpdL0JmxuVQVYP6KuxwZwKcGbe4ML8jMUGKbIQlsr2Y=/5320724816_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29672,7 +29672,7 @@ export const db = [
     image:
       'https://images.prom.ua/n1B9-5KqzV7T4QtLNY0LZxciG4Hq2L3cBR-RLVQzu8c=/5320726031_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29689,7 +29689,7 @@ export const db = [
     image:
       'https://images.prom.ua/JCjkVo6N8hqXUnMhsdAqlPENPbfWGDkr0F5KP9ZNlb0=/5320726903_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29706,7 +29706,7 @@ export const db = [
     image:
       'https://images.prom.ua/GmxI85IOL9Do9npB1GP0cDIXuZPBvSKci3BlyWTl8Zs=/5320729081_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29723,7 +29723,7 @@ export const db = [
     image:
       'https://images.prom.ua/tllL7bxgc3NMS2Bug20tdOgAKsbyFG6Ao54-nb2oC-s=/5320729746_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29740,7 +29740,7 @@ export const db = [
     image:
       'https://images.prom.ua/uOgGzMLVVnglbEcmxOD660oGbmupmA5MW9uhfNwIKZY=/5320731119_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29757,7 +29757,7 @@ export const db = [
     image:
       'https://images.prom.ua/sx_VKihpuVcMVOdJlNhuXfvmYd095cAOWCGhH9soHfI=/5320731779_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29774,7 +29774,7 @@ export const db = [
     image:
       'https://images.prom.ua/xcLMna3cXrikZkC4Ibz53dTnBksEPBztEILVx-NerPo=/5320732569_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29791,7 +29791,7 @@ export const db = [
     image:
       'https://images.prom.ua/kULpfQZ6NqYpN6q3QjyIuR2bjiEcpvP7lEu-AXSW_UI=/5320733445_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29808,7 +29808,7 @@ export const db = [
     image:
       'https://images.prom.ua/bEJ61nk27vbEnysbjfijjSCaJ9uQnvfTFKQucRczUX0=/5320734567_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29825,7 +29825,7 @@ export const db = [
     image:
       'https://images.prom.ua/_roVB7Drm03wnzNm8jxVSqnH8lNKn-qOndfI7fUTqYg=/5320735445_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29842,7 +29842,7 @@ export const db = [
     image:
       'https://images.prom.ua/7yZLaku4HjiemsOh2TtsFoTzqDm9YAP9GgaVE15Ih1U=/5320736480_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29859,7 +29859,7 @@ export const db = [
     image:
       'https://images.prom.ua/X2GpFLECC8yD2oDeLkA817oI4P9988D0aGWDRJ33ZQM=/5320737778_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29876,7 +29876,7 @@ export const db = [
     image:
       'https://images.prom.ua/TdrjfDmBhan3vzx5SYk46x1htSwA4N7Lg1_RViL7h10=/5320739051_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29893,7 +29893,7 @@ export const db = [
     image:
       'https://images.prom.ua/0DAjoevC6bZN6zwg-I7Ddi6eE7_uMXKXhfA5AF02dT8=/5320739848_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29910,7 +29910,7 @@ export const db = [
     image:
       'https://images.prom.ua/D2-RQS3X33-_Bjn-x36miZYEHnOcaXroDLKIAs6IJio=/5320740582_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29927,7 +29927,7 @@ export const db = [
     image:
       'https://images.prom.ua/9huXReLobnr4ObZhR8NaZR8eSbEVbFZRW04Sv_3nQZ8=/5320741233_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29944,7 +29944,7 @@ export const db = [
     image:
       'https://images.prom.ua/4oLG-vUsq1UZitt-AsoqsOHB20RIwoM0Xh6fNpLT4Bk=/5320741989_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29961,7 +29961,7 @@ export const db = [
     image:
       'https://images.prom.ua/oK-W5QuvtyhAdCgqlEWDi3UgPeYLXloZvfM2irXaogI=/5320742774_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29978,7 +29978,7 @@ export const db = [
     image:
       'https://images.prom.ua/0bJxz4EBfIsXE5uYc67kOtjAOHjTi524UINexD2_zik=/5320760983_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -29995,7 +29995,7 @@ export const db = [
     image:
       'https://images.prom.ua/dIiVP2G5JqhSVevmouf77sTH3sbfVvB4ennv7OrNjP4=/5320762803_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30012,7 +30012,7 @@ export const db = [
     image:
       'https://images.prom.ua/_sC7cWPZzM1Y_wDkzgcFUSM7-TXmM4dHQhRrjOk76JE=/5320764766_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30029,7 +30029,7 @@ export const db = [
     image:
       'https://images.prom.ua/AcXOEut_AzsrJLK_ZC4VM9BkBFvkZKlPCfDC6b9IwMU=/5320766117_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30046,7 +30046,7 @@ export const db = [
     image:
       'https://images.prom.ua/UEF9SfRP4gaxdktdwQpJVNshpCnwlMlpab9erYsHu7Q=/5320766768_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30063,7 +30063,7 @@ export const db = [
     image:
       'https://images.prom.ua/TyPLytE6HB20UBgKfKGtllwxUb9XYddOopDearwTRTc=/5320782036_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30080,7 +30080,7 @@ export const db = [
     image:
       'https://images.prom.ua/0xliLQHfftwNok9YLA5FnUH6x5L0G9Xsp7z3pvkROnk=/5320787388_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30097,7 +30097,7 @@ export const db = [
     image:
       'https://images.prom.ua/qNABKi0W1ky-7HNTGu7GRWlMxpLdTvB0nPzqOWXG5hY=/5320788687_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30114,7 +30114,7 @@ export const db = [
     image:
       'https://images.prom.ua/pM6Z54fPYgBmaScnnkAekFtEbdXDlBE2w2jggufwSqw=/5320797114_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30131,7 +30131,7 @@ export const db = [
     image:
       'https://images.prom.ua/Dbzh4ux44wcItt1lRxwAAtPLdYiNFcLW4p7oFyEnnU0=/5320797880_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30148,7 +30148,7 @@ export const db = [
     image:
       'https://images.prom.ua/pKeATy_YKrUuQcG12OseKFmDV92KH3MuS8HMm7uvl5s=/5320798944_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30165,7 +30165,7 @@ export const db = [
     image:
       'https://images.prom.ua/xVy_SJGzNv-k667H1rG_Iuc9j8OdjYvba-yE5SYaR30=/5320800812_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30182,7 +30182,7 @@ export const db = [
     image:
       'https://images.prom.ua/b2HLFVwepu_3xrjpD6FO3HMlWZWmgq-TGQT_zQsJh0A=/5320801553_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30199,7 +30199,7 @@ export const db = [
     image:
       'https://images.prom.ua/XG5KxbKx5xdphmxYmkf70Uyu_9YXNQcLNp7kV91PgEg=/5320802544_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30216,7 +30216,7 @@ export const db = [
     image:
       'https://images.prom.ua/kiFRpKZ3VS4xXhjmBkrPwSA-11CE1PHyl0y4cVGUPk0=/5320803580_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30233,7 +30233,7 @@ export const db = [
     image:
       'https://images.prom.ua/p0okC5vqYrb35ahYJ6pJ-bnRCs3bXPVmltF4N9QLrvg=/5320804888_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30250,7 +30250,7 @@ export const db = [
     image:
       'https://images.prom.ua/jXdJ6ZuyOoTZ8cjz1bpB26F1z2UBDJFAVvRLAZAu3oA=/5320805900_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30267,7 +30267,7 @@ export const db = [
     image:
       'https://images.prom.ua/1df5wpicEoYxuvz2AjBlmHbXRFDXkpgzueo0S5fXdD0=/5320806611_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30284,7 +30284,7 @@ export const db = [
     image:
       'https://images.prom.ua/VN2R9cRCo89Hqn6kG6nkTADL09Pr22gzy8yAds5HBxw=/5320807984_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30301,7 +30301,7 @@ export const db = [
     image:
       'https://images.prom.ua/RpqABlkeJlG7iaxTi5qGmSFhymCn_PS2jcxRcGGbP_g=/5320809274_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30318,7 +30318,7 @@ export const db = [
     image:
       'https://images.prom.ua/hnk6JGWNpvq6avi6QAPNgpQnAnIWgYTSNJEhqI4PPdo=/5325126036_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30335,7 +30335,7 @@ export const db = [
     image:
       'https://images.prom.ua/sIV_ALod4KdtvWMP32I5jI3epky7SLVZg5SR1ml0PZM=/5325127394_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30352,7 +30352,7 @@ export const db = [
     image:
       'https://images.prom.ua/dbJcQKT2TOLIta35qnk7zNqjB7_sehRy05SAtg80ArU=/5325128617_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30369,7 +30369,7 @@ export const db = [
     image:
       'https://images.prom.ua/N1HRlQgAFcOPgfVFVAmIsTbT7VqEitu-4I5-qcoZUF4=/5325129749_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30386,7 +30386,7 @@ export const db = [
     image:
       'https://images.prom.ua/fUZ3NN6rFuxCmMCCVxNWjl_srsYfaJgM7_gFDXw18Gk=/5325131814_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30403,7 +30403,7 @@ export const db = [
     image:
       'https://images.prom.ua/gP1RRl1EIKKe2quHJbKUTDpbPxtI6GUSPlcIb9vUqUk=/5325137866_vafelna-kartinka-robokar.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30420,7 +30420,7 @@ export const db = [
     image:
       'https://images.prom.ua/lXfabDb8672tEGe7FDqC1xrTfIgZ73GP7bnKghn11VA=/5325139750_vafelna-kartinka-robokar.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30437,7 +30437,7 @@ export const db = [
     image:
       'https://images.prom.ua/QfBjsy4Qs2LVA3eG98eP0wQoY7cR3WEI5tpnY2KwkGQ=/5325140667_vafelna-kartinka-robokar.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30454,7 +30454,7 @@ export const db = [
     image:
       'https://images.prom.ua/lZ11KcsgMMZPirOHHXQL_lZ2UVnU_t3pE7VhXiRBJyM=/5325141514_vafelna-kartinka-robokar.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30471,7 +30471,7 @@ export const db = [
     image:
       'https://images.prom.ua/-NCisbake0Fn7Skf6dlFlyf1fk-VTxBQt_lbVEPgilw=/5325142648_vafelna-kartinka-robokar.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30488,7 +30488,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ks0JKayV6AAXX8-_Wk5yZ0ip8cwv4WQ0LC3b6tu5iPU=/5325147276_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30505,7 +30505,7 @@ export const db = [
     image:
       'https://images.prom.ua/U_M_nLheiRki3LBHQ-SMMkojz3sdUp56uT2H5NVkjwI=/5325152262_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30522,7 +30522,7 @@ export const db = [
     image:
       'https://images.prom.ua/7i4NTAfRNm2Frdvjv3fYeLmwc2dlcpPpaG4RYBCO378=/5325155213_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30539,7 +30539,7 @@ export const db = [
     image:
       'https://images.prom.ua/Irb1RV8p7ALldUFos1GT-_svPLf0nWiWe8cdAdrgX3o=/5325156524_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30556,7 +30556,7 @@ export const db = [
     image:
       'https://images.prom.ua/CD7q0t5RwVPg6tXyYBXNVspzjEENO-xgt-zP212s02A=/5325157810_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30573,7 +30573,7 @@ export const db = [
     image:
       'https://images.prom.ua/mrY9uaVfPl7HqL15n5QH2e7Gsbx-gYxF-KjMwfWo3hE=/5325158834_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30590,7 +30590,7 @@ export const db = [
     image:
       'https://images.prom.ua/iYNlqiIpngUREa2Ww6t9OtE1rz58ewNph3P6Lh3tGN8=/5325160143_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30607,7 +30607,7 @@ export const db = [
     image:
       'https://images.prom.ua/zuq9jvQuxm4UKf2Cris6gaq5N5Kj_3bP0QU2BQoiHDA=/5325161768_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30624,7 +30624,7 @@ export const db = [
     image:
       'https://images.prom.ua/l2HGN0WyK5uSlRMDAeAs3sXkWCmrSbCiML5gNPFjmpU=/5325163242_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30641,7 +30641,7 @@ export const db = [
     image:
       'https://images.prom.ua/eFAMY6x4Ko4dfrqlgoxPSZpBL9FTMk8_sw_4-BWxGdg=/5325164717_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30658,7 +30658,7 @@ export const db = [
     image:
       'https://images.prom.ua/qCC_xq-ONFJZBsqACrhCk5D2RDvGdAIe-Y289UJr9Dk=/5325165982_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30675,7 +30675,7 @@ export const db = [
     image:
       'https://images.prom.ua/pJZIyspWdzpuHM-ED-aQeF717u5Wj5fIzNc6gdCBM60=/5325167411_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30692,7 +30692,7 @@ export const db = [
     image:
       'https://images.prom.ua/1-DjJ7P1dm0xCoahcHk1IByJaC_fb-h7Cq6IOnSrfT4=/5325168683_vafelna-kartinka-schenyachij.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30710,7 +30710,7 @@ export const db = [
     image:
       'https://images.prom.ua/sRy51piJSfxXJYn9ZVllPjJOqRInsbLId20mGk4YOOk=/5327631579_shokolad-molochnij-36.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -30728,7 +30728,7 @@ export const db = [
     image:
       'https://images.prom.ua/2iqYGvjw8zEPgBX_Zysarpq4eoHe5uJvDNVyyfJyGUo=/5327650013_shokolad-bilij-26.jpg',
     availability: 'in stock',
-    price: '46.00',
+    price: 46.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -30746,7 +30746,7 @@ export const db = [
     image:
       'https://images.prom.ua/A51cNV0u9lw00owLczLU6GpKNw5ndTxGHtk-bflc0TU=/5327818718_kilimok-dlya-vipikannya.jpg',
     availability: 'in stock',
-    price: '174.00',
+    price: 174.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -30763,7 +30763,7 @@ export const db = [
     image:
       'https://images.prom.ua/XEOcOcC75yrhgkkqpkiZQvR2SxFT563POo_BFAFM7JQ=/5327840166_kilimok-dlya-vipikannya.jpg',
     availability: 'in stock',
-    price: '234.00',
+    price: 234.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -30781,7 +30781,7 @@ export const db = [
     image:
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
     availability: 'in stock',
-    price: '51.00',
+    price: 51.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
     identifier_exists: 'no',
@@ -30798,7 +30798,7 @@ export const db = [
     image:
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
     availability: 'in stock',
-    price: '1.00',
+    price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
     identifier_exists: 'no',
     condition: 'new',
@@ -30814,7 +30814,7 @@ export const db = [
     image:
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
     availability: 'in stock',
-    price: '1.00',
+    price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
     identifier_exists: 'no',
     condition: 'new',
@@ -30830,7 +30830,7 @@ export const db = [
     image:
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
     availability: 'out of stock',
-    price: '1.00',
+    price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
     identifier_exists: 'no',
     condition: 'new',
@@ -30847,7 +30847,7 @@ export const db = [
     image:
       'https://images.prom.ua/aeUbmdc_423qO6lXu4onSH5bmY00ndD-rY4UQqb51NI=/5330331971_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '125.00',
+    price: 125.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30866,7 +30866,7 @@ export const db = [
     image:
       'https://images.prom.ua/qgAa5WCOJT4a4qKGi4h9XSWlo2JAU8TOT2thGwFikpY=/5334720846_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30885,7 +30885,7 @@ export const db = [
     image:
       'https://images.prom.ua/rp2kxoh5KHCs0M4EyfCiTtcxB2LXojZ6Wza__Ezqjgo=/5334728764_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -30904,7 +30904,7 @@ export const db = [
     image:
       'https://images.prom.ua/C3NlAvpEwPzBaEpLIbPiyLCU5ZNujKmTYENZ7QV8zts=/5334741624_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '119.00',
+    price: 119.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30924,7 +30924,7 @@ export const db = [
     image:
       'https://images.prom.ua/KUgJnfOtzKQWVmTG3ovYb1JSjZNdfHegLuBt5NF2YYg=/5334752289_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30945,7 +30945,7 @@ export const db = [
     image:
       'https://images.prom.ua/edsifIY_vTymGvxgZ8PSwHhsj9MqiEISD1NmBAvKEYg=/5334756317_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30965,7 +30965,7 @@ export const db = [
     image:
       'https://images.prom.ua/kq3qmxcBiAnnEY-llM6ixFmUwflFG3gXT_YAo9-5wuI=/5334757037_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -30983,7 +30983,7 @@ export const db = [
     image:
       'https://images.prom.ua/Zxf0SEKFt6zYd30EoutfQYscQImvXfN445HaAGxDKZ4=/5334763695_floristichna-tejp-strichka-temno-zelena.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31001,7 +31001,7 @@ export const db = [
     image:
       'https://images.prom.ua/2TQHnZexC1XBHHZSwFkmiHdQ6q6W9QuNqTu1ACSA6ZM=/5334764348_floristichna-tejp-strichka-zelena.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31022,7 +31022,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/O_lEVB2lP7kWK9aHn_RF18Ao3e3LiFPGmfz92BzKaoQ=/5334770775_kmts-pakovannya-banochka.jpg',
     availability: 'in stock',
-    price: '73.00',
+    price: 73.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -31040,7 +31040,7 @@ export const db = [
     image:
       'https://images.prom.ua/M8cYJN-4uRbm6gKsrciHBWmozjwtZZdqyhJLIHoKx5M=/5335272912_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '91.00',
+    price: 91.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -31059,7 +31059,7 @@ export const db = [
     image:
       'https://images.prom.ua/vlL7n7_xE6rPwaBFvd7M3jp6-x2fJ_VCgebkplrg5Mk=/5336891064_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31076,7 +31076,7 @@ export const db = [
     image:
       'https://images.prom.ua/WOQBPg2g4HMXmYnUJwPcvBBn5H4gN4FuoXnzPbYIaHM=/5336894529_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31093,7 +31093,7 @@ export const db = [
     image:
       'https://images.prom.ua/GzuIkhRvbByVMZDyTzN8SDFMtaobRXrtPp-CJ7cSZeI=/5336902763_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31110,7 +31110,7 @@ export const db = [
     image:
       'https://images.prom.ua/M3OlrJ-25kb5bCqLeBlLjp0otg79XUIJQiHriGdffJM=/5336907011_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31127,7 +31127,7 @@ export const db = [
     image:
       'https://images.prom.ua/6VAVi6_sImndvN9zuaCyUKCh7j2g3ZJlMUYp-sqnsf4=/5336911139_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31144,7 +31144,7 @@ export const db = [
     image:
       'https://images.prom.ua/swPzyMoomCsvjDiXtM2bAG9WYXL63QU44FvFbhOEwk8=/5336914813_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31161,7 +31161,7 @@ export const db = [
     image:
       'https://images.prom.ua/IYP9bW1czbwojw4Scmw3Xh4jKhhIAiIAi-ujw_H2cCM=/5336918564_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31178,7 +31178,7 @@ export const db = [
     image:
       'https://images.prom.ua/Fstq6dDfy8fpspM980NjBGdXwyhK4OAEk3EZqZf9gmw=/5336922156_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31195,7 +31195,7 @@ export const db = [
     image:
       'https://images.prom.ua/nc-x4kq-I8Pb-0-p4cNpep4miBFzXAWtlqE8kUHxLRs=/5336926576_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31212,7 +31212,7 @@ export const db = [
     image:
       'https://images.prom.ua/og2jGe-9pkDRR_1xD5zhwbE7_nG2P2XzuK5TRiR4KwM=/5336930821_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31229,7 +31229,7 @@ export const db = [
     image:
       'https://images.prom.ua/QPwmEGafPr5ed5NNXlvhdrxqkRx1mr-7VSUpFlTGoPE=/5336934184_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31246,7 +31246,7 @@ export const db = [
     image:
       'https://images.prom.ua/WlOHmI9rilTj-bFuB-IFkyvfTrHMircw9omn6ODwVSs=/5336937788_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31263,7 +31263,7 @@ export const db = [
     image:
       'https://images.prom.ua/UYeCw0Wv80vmwpgnzQSRq4Npbb32KSqO7WWSnN9HCoQ=/5336942192_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31280,7 +31280,7 @@ export const db = [
     image:
       'https://images.prom.ua/oEVIS7DZPjGKGpflixtijmL4oLL5dkl6IglPVtVo6bI=/5336945876_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31297,7 +31297,7 @@ export const db = [
     image:
       'https://images.prom.ua/atguC-p_UTQn3ewguT1Y_yDM5WkdmhxL3JEhmRJTyQc=/5336949669_vafelna-kartinka-dlya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31315,7 +31315,7 @@ export const db = [
     image:
       'https://images.prom.ua/Nt-SDbLtvOdnlUE765c7u43Hr3_6Mkot6Ud15mRWG98=/5340269270_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '103.00',
+    price: 103.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31341,7 +31341,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/O9dSuIytnXnnZ8dfGJ6XB3YF7ADLJDhAZGUgPFrw4ss=/5340277741_nabir-mastihiniv-shpateliv.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31365,7 +31365,7 @@ export const db = [
     image:
       'https://images.prom.ua/UC3U3aRl9tBELkXgnCcXHgc3F8RMM6jgfUjnGKLxav8=/5340285872_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31389,7 +31389,7 @@ export const db = [
     image:
       'https://images.prom.ua/OKVbkr2ncGp0Q_klTJ0ek8W5FVPm2sBXku9UZjhY4xU=/5340290363_silikonovij-mold-alfavit.jpg',
     availability: 'in stock',
-    price: '96.00',
+    price: 96.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31413,7 +31413,7 @@ export const db = [
     image:
       'https://images.prom.ua/eMg7MMcjMdHn9x_QJ-bUoOOU-fgUck8G1w7vowCgAjc=/5340298445_nabir-konditerskih-tsvyashkiv.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31437,7 +31437,7 @@ export const db = [
     image:
       'https://images.prom.ua/2o_EhXKLdK72s3L5cQ89TOOetlPB61n426V6dCazams=/5340304116_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '65.00',
+    price: 65.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31461,7 +31461,7 @@ export const db = [
     image:
       'https://images.prom.ua/jtSLpwgdZNzQA0SzZgGOS1ra5_jVeFOekuvx04T5gYw=/5340311907_kilimok-silikonovij-dlya.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31479,7 +31479,7 @@ export const db = [
     image:
       'https://images.prom.ua/78hzOqBjugu8FXjYN6uLiKxz5W-YFv26ljyzPEkUw7g=/5340318924_nabir-virubok-sertse.jpg',
     availability: 'out of stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31505,7 +31505,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/0gVMOA9IXJzamRXMRj_32U3_doPbucXx66H_j8ytthE=/5340324940_forma-silikonova-dlya.jpg',
     availability: 'out of stock',
-    price: '65.00',
+    price: 65.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31523,7 +31523,7 @@ export const db = [
     image:
       'https://images.prom.ua/i1bvEhrtvf7p3G2hgOLfsYT0znfx0FyAtGcUwGZAdis=/5340331132_forma-rozsuvna-pryamokutnik.jpg',
     availability: 'in stock',
-    price: '264.00',
+    price: 264.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31541,7 +31541,7 @@ export const db = [
     image:
       'https://images.prom.ua/zxeilJZbJBZ5ivxPDZRJKVQMOKJeonBe1uIYMjzM7aI=/5342211651_konditerskij-shpatel-dlya.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31565,7 +31565,7 @@ export const db = [
     image:
       'https://images.prom.ua/3I9FyXLM8ImYy9Im_zFXy_CAwefdMY0vlyDcIplCpI4=/5342212925_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '228.00',
+    price: 228.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31583,7 +31583,7 @@ export const db = [
     image:
       'https://images.prom.ua/hPh1KOTMAg-401TOy3xOAD_-XlfulVT8wnzDSJVkUmo=/5342239927_nabir-virubok-dlya.jpg',
     availability: 'in stock',
-    price: '62.00',
+    price: 62.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31609,7 +31609,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/RpihHQHQ4EnXcKam3MHEf6aM5SC4ymoZhl9MV3cHdsM=/5342242193_nabir-virubok-dlya.jpg',
     availability: 'in stock',
-    price: '62.00',
+    price: 62.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31637,7 +31637,7 @@ export const db = [
     image:
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31655,7 +31655,7 @@ export const db = [
     image:
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31673,7 +31673,7 @@ export const db = [
     image:
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31691,7 +31691,7 @@ export const db = [
     image:
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
     availability: 'in stock',
-    price: '56.00',
+    price: 56.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31709,7 +31709,7 @@ export const db = [
     image:
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31727,7 +31727,7 @@ export const db = [
     image:
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31745,7 +31745,7 @@ export const db = [
     image:
       'https://images.prom.ua/yK0PPUdWRhiibqifK6SdJJMxnmtsxTONa6Gg8AFsILI=/5346448959_vinochok-kulinarnij-z.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31766,7 +31766,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '144.00',
+    price: 144.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31784,7 +31784,7 @@ export const db = [
     image:
       'https://images.prom.ua/ty5dpeIaiIMoxDBvr_E45ItcSOCvJRKhkoLgzJTqNkg=/5346501741_plunzher-konditerskij-serdechka.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31813,7 +31813,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '207.00',
+    price: 207.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31837,7 +31837,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '210.00',
+    price: 210.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31861,7 +31861,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'out of stock',
-    price: '140.00',
+    price: 140.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31885,7 +31885,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'out of stock',
-    price: '190.00',
+    price: 190.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31909,7 +31909,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31933,7 +31933,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31957,7 +31957,7 @@ export const db = [
     image:
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '132.00',
+    price: 132.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -31981,7 +31981,7 @@ export const db = [
     image:
       'https://images.prom.ua/J6pr9Enr-sU_py9jLRM1xzGA6tXwFpeqR-qCCjgSmoo=/5363564165_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -31999,7 +31999,7 @@ export const db = [
     image:
       'https://images.prom.ua/pUb7btKQELHEiUkZfsBs7UturYQI00vCegnlZHPc4gI=/5363577642_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '53.00',
+    price: 53.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -32019,7 +32019,7 @@ export const db = [
     image:
       'https://images.prom.ua/EYL8TFqVGO0EXJFEpnlLgiixRTmrxnNxCkcqr3g55Wo=/5373092446_silikonova-forma-kub.jpg',
     availability: 'in stock',
-    price: '156.00',
+    price: 156.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32041,7 +32041,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/LtuqtgmDeuME-e0I5j_8loc64HzvspyIki8LYjLWFWE=/5373101109_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32064,7 +32064,7 @@ export const db = [
     image:
       'https://images.prom.ua/2O2aGsQzqJ1_2bcwXxbBHFSumGJsKhWIHZLSNC319Xk=/5373105224_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32081,7 +32081,7 @@ export const db = [
     image:
       'https://images.prom.ua/P0_KlW-Ju_renWoz2WCIio0Zj3lYgm9G3RIxp1d_30w=/5373109612_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32098,7 +32098,7 @@ export const db = [
     image:
       'https://images.prom.ua/5gIvaCbxmzxH42AmpU4HFhllyI4Cw9U6xY86CW45GtQ=/5373110884_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32115,7 +32115,7 @@ export const db = [
     image:
       'https://images.prom.ua/Mxbacec8AUvPrfYKYRqYw9kSVXTmrAMUBi1wH-Fsp5A=/5373112043_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32132,7 +32132,7 @@ export const db = [
     image:
       'https://images.prom.ua/_WyjVhAcWmV5r_tqW3Hj5Rz5EzQ5e3sPWB7hRG8aGbU=/5373113370_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32150,7 +32150,7 @@ export const db = [
     image:
       'https://images.prom.ua/gNkBTPtzF0aQ3OoTOIKQ9Ik6LKFbDPK443wOsqyZ8ss=/5373132543_silikonova-forma-plitki.jpg',
     availability: 'in stock',
-    price: '93.00',
+    price: 93.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32174,7 +32174,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZizcUP95P2VyatJBrDPOLIFkUIvXHGEm4oT9GDoTUtc=/5373153436_silikonova-forma-brusochki.jpg',
     availability: 'in stock',
-    price: '93.00',
+    price: 93.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32198,7 +32198,7 @@ export const db = [
     image:
       'https://images.prom.ua/f4sFfb3a0gU_7f-x6slZio7s_PSeWJDU1PXzNbi_pyI=/5373163010_silikonova-forma-krugla.jpg',
     availability: 'in stock',
-    price: '129.00',
+    price: 129.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32216,7 +32216,7 @@ export const db = [
     image:
       'https://images.prom.ua/Dumd7Y6ha6C7edQBHPyu-DhhvHzUuh5lodMZ-bhdY3w=/5373169410_silikonova-forma-krugla.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32234,7 +32234,7 @@ export const db = [
     image:
       'https://images.prom.ua/nnrbVPEp57kRtMSowRQYh-wAbU9G_0gWtLJKFyFExh8=/5373176769_silikonova-forma-krugla.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32252,7 +32252,7 @@ export const db = [
     image:
       'https://images.prom.ua/oLOQ9x3OedSVqRiV6wRril6-jnPVi_om0yg0SoiXdlo=/5373194754_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32269,7 +32269,7 @@ export const db = [
     image:
       'https://images.prom.ua/ht8trqF-88cIvHhIdEVSga2yPum919KPbg2d8c3kv4g=/5373204799_forma-dlya-lodyanikiv.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32290,7 +32290,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '212.00',
+    price: 212.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32311,7 +32311,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '236.00',
+    price: 236.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32332,7 +32332,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32351,7 +32351,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '358.00',
+    price: 358.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32370,7 +32370,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '256.00',
+    price: 256.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32389,7 +32389,7 @@ export const db = [
     image:
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '307.00',
+    price: 307.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32412,7 +32412,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '200.00',
+    price: 200.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32435,7 +32435,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     availability: 'in stock',
-    price: '244.00',
+    price: 244.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32458,7 +32458,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     availability: 'out of stock',
-    price: '270.00',
+    price: 270.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32475,7 +32475,7 @@ export const db = [
     image:
       'https://images.prom.ua/0FSenyzicTLSJ7xm-aSdrSesZhlzLsFAGJkajOMMxb4=/5373325041_forma-dlya-vipichki.jpg',
     availability: 'in stock',
-    price: '83.00',
+    price: 83.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32499,7 +32499,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hh-THhAb4ts4u4SDuj3OIehFkC2hEa8866HVeJomIAA=/5373337194_nabir-form-dlya.jpg',
     availability: 'in stock',
-    price: '109.00',
+    price: 109.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32517,7 +32517,7 @@ export const db = [
     image:
       'https://images.prom.ua/KRmN7-VckEAzLxwpjhUVZwZ6zYWiLKMKj7K6Qr9KdO0=/5373345590_bezkontaktnij-termometr.jpg',
     availability: 'in stock',
-    price: '693.00',
+    price: 693.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32540,7 +32540,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/XVwrmWrUjboO9wEhwYnUsS-yUkEwrhN18SqmDLfVUkc=/5373390302_shpatel-konditerskij-dlya.jpg',
     availability: 'out of stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32564,7 +32564,7 @@ export const db = [
     image:
       'https://images.prom.ua/w4_bG5FItHYNnyf6oPFt8FytHA8hvLkzqq543X1BoV0=/5373400084_nabir-rozyemnih-form.jpg',
     availability: 'in stock',
-    price: '508.00',
+    price: 508.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32585,7 +32585,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/VqUL5ARcgFS4i_c5TOqFiBO5dzT5fTWKNmCsXOVBOm4=/5373411070_forma-konditerska-rozduvna.jpg',
     availability: 'in stock',
-    price: '214.00',
+    price: 214.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32603,7 +32603,7 @@ export const db = [
     image:
       'https://images.prom.ua/GZlLaLbvRiHRj50kpuhwd7UjRJZjhu0imwqosOjoo7U=/5386117932_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32621,7 +32621,7 @@ export const db = [
     image:
       'https://images.prom.ua/rgkxrpOVyTdH4rxO-kCfEZ4Ejh16s7CqujlAiU3pFQQ=/5386124735_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32640,7 +32640,7 @@ export const db = [
     image:
       'https://images.prom.ua/Gfqr0TvAZeETDpKMdaB_gk2gFIPb2IxOuvFLHYZDR6A=/5386217067_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '137.00',
+    price: 137.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -32659,7 +32659,7 @@ export const db = [
     image:
       'https://images.prom.ua/1qCqrSg3gfORzhIDq6LnRF1uQ4r7g8zfb57Ie7y_W3s=/5386224150_floristichna-tejp-strichka-bila.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32677,7 +32677,7 @@ export const db = [
     image:
       'https://images.prom.ua/WcynPk_bHLq3Tmjw8nRcIiEkJyrUAkHkjgLRvu6fydI=/5386225555_floristichna-tejp-strichka-korichneva.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -32696,7 +32696,7 @@ export const db = [
     image:
       'https://images.prom.ua/vQaPi6_3ISOZZbq2BOhCCltQr9O9wtbQLdzReAH4XQY=/5386232585_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -32716,7 +32716,7 @@ export const db = [
     image:
       'https://images.prom.ua/dW-3fuh_IWLGlG87aPqMfTRRhqQ6CRqxsGS7aUcJqyc=/5386236268_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '124.00',
+    price: 124.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -32737,7 +32737,7 @@ export const db = [
     image:
       'https://images.prom.ua/DFORynKl_w5VCiQLDKYltmdjXqlmcE_kyRJgCJWom0E=/5386243866_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '119.00',
+    price: 119.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32757,7 +32757,7 @@ export const db = [
     image:
       'https://images.prom.ua/P9wYw71mSg6FF58GIBcFaQmOfx1DfYkzYz8DS3xSukE=/5386246158_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '119.00',
+    price: 119.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32777,7 +32777,7 @@ export const db = [
     image:
       'https://images.prom.ua/0col7VbzpdIdU95pUlPE4JI5ffieBN4P_TWDMzJeJ6c=/5386251129_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32796,7 +32796,7 @@ export const db = [
     image:
       'https://images.prom.ua/clmFTqIfPSrTFZk7NGpXB-jibd2EpY_MHVsG5PA-ORA=/5386257094_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '110.00',
+    price: 110.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32815,7 +32815,7 @@ export const db = [
     image:
       'https://images.prom.ua/ksCVDF3hvh5tGqaKVZ-V58Pu-mEFrY-cXTWMvt5wnmA=/5386258602_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32834,7 +32834,7 @@ export const db = [
     image:
       'https://images.prom.ua/UDEoj-lq_3J6J3nS9-IEykzTviNbuZu-1N6ipqIxgyM=/5386264674_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '226.00',
+    price: 226.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32853,7 +32853,7 @@ export const db = [
     image:
       'https://images.prom.ua/q2tBlLbiTaaI-B0Rn3WxnOCRNTp9TgB8Odk31JLVZMA=/5386271469_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32871,7 +32871,7 @@ export const db = [
     image:
       'https://images.prom.ua/habZ2mA-yqSguWI8UE02bM6ZnwuGpb-AIqTISBIkhzI=/5386273759_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32890,7 +32890,7 @@ export const db = [
     image:
       'https://images.prom.ua/7krAj2AtkJKMxWZB9U-YH0alE-ezPOJrcUnxGoToEc4=/5386280217_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '264.00',
+    price: 264.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32909,7 +32909,7 @@ export const db = [
     image:
       'https://images.prom.ua/yMK1xmprbVZt1dGdpwbi627mY4NSLKftMdW6g3QiKrA=/5386293479_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '108.00',
+    price: 108.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32927,7 +32927,7 @@ export const db = [
     image:
       'https://images.prom.ua/4-lkG2wfYpif2WCRgoTVJhiQvKkX7EpufLTXG2SDxK0=/5386299428_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '58.00',
+    price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32945,7 +32945,7 @@ export const db = [
     image:
       'https://images.prom.ua/OpcJ6hHf1tyF2z7ckgoSnwaXRkwJrqoqiIFvisJ9pf4=/5386310723_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '112.00',
+    price: 112.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32964,7 +32964,7 @@ export const db = [
     image:
       'https://images.prom.ua/vujzRDEmSiFCRnN_s09ZZWhsJltKEtlZOugj9-Tzioo=/5389297203_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32982,7 +32982,7 @@ export const db = [
     image:
       'https://images.prom.ua/rqN2mUkohw0BignBzbKLXhEdIuICanmLBs_6NLGm0Cs=/5389304787_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '43.00',
+    price: 43.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -32999,7 +32999,7 @@ export const db = [
     image:
       'https://images.prom.ua/MGC5Z1iVRzcuioOGvRBQrrJHl0KjHXwK1IrpGfUiLKY=/5389316609_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33017,7 +33017,7 @@ export const db = [
     image:
       'https://images.prom.ua/GE8dyY7IrvJeEhPDJ3fwv_O7RtB55R0_dlwPCVoCLcI=/5389373948_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '134.00',
+    price: 134.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -33037,7 +33037,7 @@ export const db = [
     image:
       'https://images.prom.ua/VlQkCy445shqr1kJKai2fn7n9Axc87EUQ2INT1ZpiAQ=/5389385077_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -33057,7 +33057,7 @@ export const db = [
     image:
       'https://images.prom.ua/gNrf45EPWcf3anSyBDL3Nnc25rLGmhWnbtv3sR22jSg=/5389386724_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -33078,7 +33078,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/JJV4Pt99geZGy8jrcbFsXBGVcZD3d-pvs7B0fZ6aL7c=/5389393411_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '86.00',
+    price: 86.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33096,7 +33096,7 @@ export const db = [
     image:
       'https://images.prom.ua/f1gO2DRWkk_rj8OQ-3GVMxhdcUNye91UA2pcnmmBG5o=/5389437724_glazur-bilkova-dlya.jpg',
     availability: 'in stock',
-    price: '17.00',
+    price: 17.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -33116,7 +33116,7 @@ export const db = [
     image:
       'https://images.prom.ua/xswTzNxsoTsEM9mJ0o8U1-84WU9TzIqq5sCRZXRKnCo=/5389439427_glazur-bilkova-dlya.jpg',
     availability: 'in stock',
-    price: '17.00',
+    price: 17.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -33135,7 +33135,7 @@ export const db = [
     image:
       'https://images.prom.ua/VIzVWm3lUIQMUVEydZPMnHl10eArfsoe92cvi24C_MA=/5389440538_glazur-bilkova-dlya.jpg',
     availability: 'in stock',
-    price: '17.00',
+    price: 17.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -33154,7 +33154,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hy94c77raEF-BPz8ddBaJYvlXK0lK31QH8nHn3gbLwg=/5389463158_glazur-bilkova-dlya.jpg',
     availability: 'in stock',
-    price: '17.00',
+    price: 17.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -33173,7 +33173,7 @@ export const db = [
     image:
       'https://images.prom.ua/4O2OuiTexLGqT3FUU5rhzLWLnj5gpZg2zHpCjBzmjPU=/5389468753_glazur-bilkova-dlya.jpg',
     availability: 'in stock',
-    price: '17.00',
+    price: 17.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     brand: 'Украса',
@@ -33193,7 +33193,7 @@ export const db = [
     image:
       'https://images.prom.ua/C0HT2oJOq4YFK2SYolWXqzSx2hd5G5g32CMU_aE_ugM=/5389503518_glazur-dlya-paski.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -33211,7 +33211,7 @@ export const db = [
     image:
       'https://images.prom.ua/EV7TeR4hdjl0VfdsG_1C_4Y9gK0ETkeSRBrY3FWH1Io=/5389507210_glazur-dlya-paski.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -33229,7 +33229,7 @@ export const db = [
     image:
       'https://images.prom.ua/OEgPx1W2MoEfEU7FyYkGOsWSev2MjsPP3nrrQ_IY7Wc=/5389508597_glazur-dlya-paski.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -33247,7 +33247,7 @@ export const db = [
     image:
       'https://images.prom.ua/dxFEOeSP7NwQY2G75SW9trKcgbtuD6LSoAyUUp6Sx54=/5389509852_glazur-dlya-paski.jpg',
     availability: 'in stock',
-    price: '32.00',
+    price: 32.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -33265,7 +33265,7 @@ export const db = [
     image:
       'https://images.prom.ua/_j0PdmLP3h4msJhN8DRLfoa3cTWciNUT3mzpqyxehDU=/5393121626_palichki-dlya-moroziva.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33289,7 +33289,7 @@ export const db = [
     image:
       'https://images.prom.ua/ic2KUqKlAi8OKmxttLI3tMkBgwo4LCqbya95oex9-hI=/5393122280_palichki-dlya-moroziva-shpatelya.jpg',
     availability: 'out of stock',
-    price: '37.00',
+    price: 37.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33314,7 +33314,7 @@ export const db = [
     image:
       'https://images.prom.ua/fTYKCYtryhhjwqj5Ul1Iu15nmVLVtODJV0NZR7NM7Ag=/5393123234_toper-do-rochku.jpg',
     availability: 'in stock',
-    price: '38.00',
+    price: 38.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -33331,7 +33331,7 @@ export const db = [
     image:
       'https://images.prom.ua/f7fp0QliU8IrX5uK8lwEi7v0csNXa7hcnYv_XKNJxv8=/5393124374_tortsovij-topper-najkraschu.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -33348,7 +33348,7 @@ export const db = [
     image:
       'https://images.prom.ua/wrL6itRKiLLWLpQOsv5I82jnW8hhibkx6ksEg1Zq5cY=/5393204856_toper-derevyanij-vidmi.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33374,7 +33374,7 @@ export const db = [
     image:
       'https://images.prom.ua/pBWoEvUa2S9PxO8LXU9Mrn__XJJdH8EV4dMU-N8OdFU=/5397517568_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -33394,7 +33394,7 @@ export const db = [
     image:
       'https://images.prom.ua/_NekQqvAhbiZOh-0puhY2xWF30w4LZqS9BldkzQdUgw=/5397519275_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -33414,7 +33414,7 @@ export const db = [
     image:
       'https://images.prom.ua/-eewpDlFp-kBYL4TTkrxORbjtoSG16dT3otFL4HpA1U=/5403051643_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '143.00',
+    price: 143.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33433,7 +33433,7 @@ export const db = [
     image:
       'https://images.prom.ua/X22dNg9CyulJ5WPM2Hv7ceV4GaIl55TZCB6a0foLSb0=/5407440626_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33452,7 +33452,7 @@ export const db = [
     image:
       'https://images.prom.ua/FXCTW_wmT1Qwu8NdMce44kSWrBCOMEmAsCyqptDps5Q=/5407443868_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33471,7 +33471,7 @@ export const db = [
     image:
       'https://images.prom.ua/YgMPD_NytgweJKPkdOAeKoqUn4_GdHcNvw9VuBle5xs=/5407452811_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33490,7 +33490,7 @@ export const db = [
     image:
       'https://images.prom.ua/_Re8_Yl4s-yt3xIi67ar7AjSBk9JcRfI3SXLDi9Sr9Y=/5407447416_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33508,7 +33508,7 @@ export const db = [
     image:
       'https://images.prom.ua/vlnlhThx__HRVgxgouI5_zIEg-270NVEYw1nhZD2L7k=/5407448291_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33527,7 +33527,7 @@ export const db = [
     image:
       'https://images.prom.ua/8W4LWlkX14Kj1A2OwRs58yr2ORqfCjBwICpK3Tchf9M=/5407455440_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33545,7 +33545,7 @@ export const db = [
     image:
       'https://images.prom.ua/dwmdYg1NdPFRVghHV7uSAUlXJVvYUxPEEv6y3Wt1Ueo=/5407457935_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33564,7 +33564,7 @@ export const db = [
     image:
       'https://images.prom.ua/uA5RZ8_wxy1qGY_qxwzBEChYu5-Hb6Ey2vqBE7kIjuM=/5407461085_yistivna-tkanina-firmi.jpg',
     availability: 'in stock',
-    price: '223.00',
+    price: 223.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33583,7 +33583,7 @@ export const db = [
     image:
       'https://images.prom.ua/LdofAlc1SKns-lY9fsjFIF4EQk8D06bl7xSp6SfXKqM=/5407499573_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33602,7 +33602,7 @@ export const db = [
     image:
       'https://images.prom.ua/LdofAlc1SKns-lY9fsjFIF4EQk8D06bl7xSp6SfXKqM=/5407499573_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33620,7 +33620,7 @@ export const db = [
     image:
       'https://images.prom.ua/IA3w-hF_InSjrpfgjPzGwXcxV0VmksJWHO88695QBao=/5407501945_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33639,7 +33639,7 @@ export const db = [
     image:
       'https://images.prom.ua/yBX5ppIb4ajXFygEoDbJTCU-BL71T_Fp8W1JDWjJ5TQ=/5407502992_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33657,7 +33657,7 @@ export const db = [
     image:
       'https://images.prom.ua/u0Zlcmua7dYVMoaoWzLEZ_LVw0wpYKL-34H_ysAITHg=/5407504267_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33675,7 +33675,7 @@ export const db = [
     image:
       'https://images.prom.ua/cwd9He6kVd-8a-8GLFB1hhYPpJpjTwlWU_tY70Qk0Gk=/5407505269_yistivna-tkanina-shovk.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -33694,7 +33694,7 @@ export const db = [
     image:
       'https://images.prom.ua/Q6HWnqKOdMzdrOr9HooRaP8WZ64kByl9uLJ6WMI98YM=/5407517310_gelevij-barvnik-bilij.jpg',
     availability: 'out of stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33719,7 +33719,7 @@ export const db = [
     image:
       'https://images.prom.ua/QlumRHsvAzi4ppLDmAgbFa5_zMKRRbMS2Lmbr78b3Z4=/5407528669_gelevij-barvnik-zelenij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33744,7 +33744,7 @@ export const db = [
     image:
       'https://images.prom.ua/Iho1gdZc4wtefUKqWGTmX4DwUGmiKLLO4DGAUG1RrR0=/5407529623_gelevij-barvnik-chornij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33769,7 +33769,7 @@ export const db = [
     image:
       'https://images.prom.ua/P5b3WXfeFyT916KWp3NARytH2GQ2PX09UdVA8KZThsc=/5407530951_gelevij-barvnik-fuksiya.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33793,7 +33793,7 @@ export const db = [
     image:
       'https://images.prom.ua/yBitbo_hPkpcUvKaDbhTrWsmbHmSuqHVj2jNISSlcZo=/5407532022_gelevij-barvnik-sinij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33818,7 +33818,7 @@ export const db = [
     image:
       'https://images.prom.ua/wO0lfdZbHCK-akvV5z3XtxGVZP7NaNpXsKWGXzR-9uE=/5407533121_gelevij-barvnik-rozhevij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33843,7 +33843,7 @@ export const db = [
     image:
       'https://images.prom.ua/hr9xg5lGE0lxbqRKTuhMGH2xC5QFjPRTA3kcPLhLzW4=/5407534407_gelevij-barvnik-pomaranchevij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33868,7 +33868,7 @@ export const db = [
     image:
       'https://images.prom.ua/Znrn3qXdTe9uyhYPAm5JZLnm3U2Fdd_gvN9x21lCQ7A=/5407535610_gelevij-barvnik-korichnevij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33893,7 +33893,7 @@ export const db = [
     image:
       'https://images.prom.ua/cdYjf2aSULCSZP227dyzW4AQ56HeaSULwY1dZChjo08=/5407536734_gelevij-barvnik-blakitnij.jpg',
     availability: 'in stock',
-    price: '220.00',
+    price: 220.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33917,7 +33917,7 @@ export const db = [
     image:
       'https://images.prom.ua/bunVWrWHd9EkKnmwPwDoOn4Ygbuk5XAcxVtV91TUQxc=/5407542922_gelevij-barvnik-bilij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33942,7 +33942,7 @@ export const db = [
     image:
       'https://images.prom.ua/LQPcjuejnBfiHfxdHuDHJzi2uwcbMEu7VyOgVuotREM=/5407546336_gelevij-barvnik-rozhevij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33967,7 +33967,7 @@ export const db = [
     image:
       'https://images.prom.ua/roum5a2vrJk61oFIUt7_zJl8uI0LMYSWLwzBaYDdjIQ=/5407547197_gelevij-barvnik-pomaranchivij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -33991,7 +33991,7 @@ export const db = [
     image:
       'https://images.prom.ua/1bCEJH6zNOXooa_buWNiMfcIy8Et7PLuydPFr1-3QlA=/5407548601_gelevij-barvnik-korichnevij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34016,7 +34016,7 @@ export const db = [
     image:
       'https://images.prom.ua/ssuuFpeJHbsrZXGWz7c7cLFFt2ZvruRuCCSCREClAcI=/5407549941_gelevij-barvnik-blakitnij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34040,7 +34040,7 @@ export const db = [
     image:
       'https://images.prom.ua/9fCOABu8ZTUIBvtxkf8JhltzFFk023m3PLi0VOn2FFY=/5407551379_gelevij-barvnik-fioletovij.jpg',
     availability: 'in stock',
-    price: '92.00',
+    price: 92.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34066,7 +34066,7 @@ export const db = [
     image:
       'https://images.prom.ua/opsevaCKn-QdaU0w9HzeqOJ8GWoyITpOTUztjFJKf5w=/5407658072_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -34085,7 +34085,7 @@ export const db = [
     image:
       'https://images.prom.ua/ymcrXqWKALl9xs_PhfN3mLFVmgkuvEbShDF8k7qBXLE=/5407707460_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34103,7 +34103,7 @@ export const db = [
     image:
       'https://images.prom.ua/mrty0XlIbUAapnaBRhqEmFBAkh1qV8k7lXN6Xfl55KA=/5407709860_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34121,7 +34121,7 @@ export const db = [
     image:
       'https://images.prom.ua/vlR-mxMyQ7C-dmLd3dRnVFrVJyVtNpzyiD3Q1-3K6KQ=/5407711335_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34139,7 +34139,7 @@ export const db = [
     image:
       'https://images.prom.ua/5Zstt4-fHrMOXlcRDwuYx4DKfntmLjHT1R0aj_ybuIE=/5407712823_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34157,7 +34157,7 @@ export const db = [
     image:
       'https://images.prom.ua/bj6w-i8cCpLit2PGka5JdoaY-2dXcYDCxUXCKHOjKjA=/5407714049_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34175,7 +34175,7 @@ export const db = [
     image:
       'https://images.prom.ua/cQPd9W-9VCSL7BMrJjPBY4z9h488a5rScFvqVEgMeJA=/5407715580_svichki-tsifri-v.jpg',
     availability: 'out of stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34193,7 +34193,7 @@ export const db = [
     image:
       'https://images.prom.ua/wH6CK8Pd4Q-fN1AXRAzNU2LCyopdf0IfvVJ0Ul3mM04=/5407717070_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34211,7 +34211,7 @@ export const db = [
     image:
       'https://images.prom.ua/14gUX9uJWneJkf72BDK5QoBjxhcGASzo9m27rT0P9-E=/5407718695_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34229,7 +34229,7 @@ export const db = [
     image:
       'https://images.prom.ua/kcPY1EvqnvtgQQB8jcbhFZrwYHz13-xgzfUesxMnH8U=/5407719939_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34247,7 +34247,7 @@ export const db = [
     image:
       'https://images.prom.ua/wd_IJ4HP5CYeX7fR-uAxox5Z2NiHZkXh842FLiJ5HtQ=/5407721577_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34265,7 +34265,7 @@ export const db = [
     image:
       'https://images.prom.ua/mBemCJDSrnp0lpZWUTk9ICRF15QAoP_DAR9HfqFyU40=/5409174841_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34283,7 +34283,7 @@ export const db = [
     image:
       'https://images.prom.ua/otqpuMhwsZvy3iT7TBpr3UpEabxKqTJYxlgt5vAUjvU=/5409177203_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34301,7 +34301,7 @@ export const db = [
     image:
       'https://images.prom.ua/-NorSVWPyo2mInUzObx0jUE-yOFfTUxLQ2sveEw1AHI=/5409178383_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34319,7 +34319,7 @@ export const db = [
     image:
       'https://images.prom.ua/MGm9zKqeLiuklrSz_11C7LkUQ3XJCOQXSYz_VkMStzE=/5409179532_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34337,7 +34337,7 @@ export const db = [
     image:
       'https://images.prom.ua/IhB0Kzv_B8E2M6ea8vMoCG_OXqprUHiwMvPdnFVz-Tc=/5409180964_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34355,7 +34355,7 @@ export const db = [
     image:
       'https://images.prom.ua/DB0jpmToVAMaRB-47JH0x38Y2IrRNDsgfk0rmM_HyOw=/5409182124_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34373,7 +34373,7 @@ export const db = [
     image:
       'https://images.prom.ua/WfU29sdGSfMPvBscNrTvn1qxC3I8i5ijtNBj24Kmbwc=/5409183506_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34391,7 +34391,7 @@ export const db = [
     image:
       'https://images.prom.ua/clTFebiPADPkZgWWWF3duiAhtFLK-G44LUE-jJmV2eQ=/5409184974_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34409,7 +34409,7 @@ export const db = [
     image:
       'https://images.prom.ua/xXGfP-8I8fp-3FRgm6q66o8fPuc-BoZT2k8susAF5VU=/5409186281_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34427,7 +34427,7 @@ export const db = [
     image:
       'https://images.prom.ua/qYOPBysyHqug34pa3kwqj-B2tsz5oltPmNs4hzQfaYc=/5409187714_svichki-tsifri-v.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34445,7 +34445,7 @@ export const db = [
     image:
       'https://images.prom.ua/uGdK5W6ql5Y8j9gb3dgr9ucIgA37P34_atNrYitLdi8=/5409196980_svichka-v-tort.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34463,7 +34463,7 @@ export const db = [
     image:
       'https://images.prom.ua/bO9Y3Y02MMoKlHRWHTOfWU_egz89I_ee5FRH7yri0oM=/5409208564_tortova-svichka-fejerverk.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34481,7 +34481,7 @@ export const db = [
     image:
       'https://images.prom.ua/wDT5Bj40r4D7lbu_xwpY6Z8qGq5aprN-S52XUH2fkCA=/5409216819_pidstavka-dlya-keksiv.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34501,7 +34501,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/QElhYSMpbjnOLrbcyHDMAHWPo6S2VWEEul1yJtU8uuE=/5409224517_teflonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '264.00',
+    price: 264.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34520,7 +34520,7 @@ export const db = [
     image:
       'https://images.prom.ua/0HSwcNmHTz8zebYGB1ji6aKCm0oYPq2NcjzyZTN_4OY=/5409228242_teflonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '96.00',
+    price: 96.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -34538,7 +34538,7 @@ export const db = [
     image:
       'https://images.prom.ua/OvjBLfgtm0V2w8PbSU5YnnHPxrFe63Z_3XhDj4Z-9JU=/5409234798_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34556,7 +34556,7 @@ export const db = [
     image:
       'https://images.prom.ua/VSIVO0q5Uxd77aAVYxMdahl6kMBuzDeysXVbme4UQ4Q=/5409241222_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34574,7 +34574,7 @@ export const db = [
     image:
       'https://images.prom.ua/-iPMdGiFxLq6wxWRcD-H0Pmdh1NeO83sMRRytK3ysbA=/5409243140_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34592,7 +34592,7 @@ export const db = [
     image:
       'https://images.prom.ua/9zr0cuc-DUn-g3YGOj08ZNCms5UA8iLCU161_oS7eQU=/5409244231_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34610,7 +34610,7 @@ export const db = [
     image:
       'https://images.prom.ua/383tL2bErsLJX0okK1TANfd9io51dePCfsRJg5co1i0=/5409245590_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34628,7 +34628,7 @@ export const db = [
     image:
       'https://images.prom.ua/h4Br8N7rxZC8uuKuXzecWk2NojgT15HOhf1uUg-KFfM=/5409246718_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34646,7 +34646,7 @@ export const db = [
     image:
       'https://images.prom.ua/_9WBqVNkN3472k-yzlN3YsYRC1afjac32UZ_MKRYbpo=/5409249039_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34664,7 +34664,7 @@ export const db = [
     image:
       'https://images.prom.ua/9sJlEZGUN-VR3wOCVJIxJOAUQkpBckG5ACOn9zNLu6c=/5409254595_nabir-gonki-6.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34682,7 +34682,7 @@ export const db = [
     image:
       'https://images.prom.ua/BrJV4ZCDMBpFFCytcXpOwTuum7MI1ETGUjECIMiwPxQ=/5409259140_nabir-mejkap-6.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34700,7 +34700,7 @@ export const db = [
     image:
       'https://images.prom.ua/4C-eivZozPCyhkspzJTKsUhkVzMQk0Gm2uNhFzI0UIM=/5409263662_nabir-kosmos-6.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34721,7 +34721,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-potal.jpg',
     availability: 'in stock',
-    price: '328.00',
+    price: 328.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -34739,7 +34739,7 @@ export const db = [
     image:
       'https://images.prom.ua/hI6Vmu8VDk4Td7TdbTAYbKIVFCqRF672OR6ncfTnJs4=/5409274910_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34757,7 +34757,7 @@ export const db = [
     image:
       'https://images.prom.ua/RkJ4OprJzqJdtjfGmCXAU6nb0BNSf-P_F9LX8ltsUOU=/5409278541_svichki-u-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34775,7 +34775,7 @@ export const db = [
     image:
       'https://images.prom.ua/vxzk7vfwIKaiCdCQ07PSfjUymHVMkUvWSr8A-qCLVls=/5409280815_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34793,7 +34793,7 @@ export const db = [
     image:
       'https://images.prom.ua/dxlnAz5ZlOCHYBGdbTi2UB3RWR03xUkj79jBIf1928U=/5409283003_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34812,7 +34812,7 @@ export const db = [
     image:
       'https://images.prom.ua/HwY9TlJmMjwLlLU_Omh83DE9vb1G7ustV0XjYwauAL0=/5409284956_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34830,7 +34830,7 @@ export const db = [
     image:
       'https://images.prom.ua/FMsWsLM2OhdbwaQKNi8GvxUPPu1aT1vFqzNm5H4VW7I=/5409287346_svichki-u-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34848,7 +34848,7 @@ export const db = [
     image:
       'https://images.prom.ua/IjqHLrV_M1vLifLrV0qUlvlb6wCrepziMnCD6kDzO7U=/5409292005_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34866,7 +34866,7 @@ export const db = [
     image:
       'https://images.prom.ua/BiFpdtZfSIYwYfilwavF_jG6yAVbPE9omrxGEHn_2pA=/5409297534_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34884,7 +34884,7 @@ export const db = [
     image:
       'https://images.prom.ua/3Ig1HobmxKjfkEc2L5y9UzLbbH51ziZ41n8sRNLFGOA=/5409299943_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34902,7 +34902,7 @@ export const db = [
     image:
       'https://images.prom.ua/i1RA8acYR3bxaiz3kyFWBCDW6j5x6RyU3hyYNERMwPE=/5409302657_svichki-dlya-printsesi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34920,7 +34920,7 @@ export const db = [
     image:
       'https://images.prom.ua/oXykAbUEQcK0hywUi-HKoQkgo6yovXm3hsoPVAkxSoU=/5409305407_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34938,7 +34938,7 @@ export const db = [
     image:
       'https://images.prom.ua/rs-KM6e4MlFsPkbv78w93XjCVvXAjLbO2d8CyqZuLFA=/5409308294_svichki-v-tort.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34957,7 +34957,7 @@ export const db = [
     image:
       'https://images.prom.ua/TolLW0eE3SCXY5udBHBmY5zhnnbPChOUXFsICN3vGo0=/5409311391_svichki-dlya-torta.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34975,7 +34975,7 @@ export const db = [
     image:
       'https://images.prom.ua/ScCRlT4diYiC_LO_Dnx-9vKHxcOZT6i_0XnG2rxfbFk=/5409316111_svichki-dlya-torta.jpg',
     availability: 'out of stock',
-    price: '62.00',
+    price: 62.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -34993,7 +34993,7 @@ export const db = [
     image:
       'https://images.prom.ua/Wt1tKO3_s076C6kBKo0ohmkgfJpCBg4ANuwlP9qZXR8=/5409320967_svichka-dlya-torta.jpg',
     availability: 'in stock',
-    price: '61.00',
+    price: 61.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -35011,7 +35011,7 @@ export const db = [
     image:
       'https://images.prom.ua/HhlG78NOknyyO5T2rv_3dFyLNQb1kXuiKSZyVwyI52g=/5409323856_svichka-dlya-torta.jpg',
     availability: 'in stock',
-    price: '61.00',
+    price: 61.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -35029,7 +35029,7 @@ export const db = [
     image:
       'https://images.prom.ua/EZXn0YrfnLGfuaLTihYOeZyS64qjzBtUmpKYoq4L59o=/5409327890_svichka-dlya-torta.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -35047,7 +35047,7 @@ export const db = [
     image:
       'https://images.prom.ua/CCQ2s0kF7cFksCAUhOzmEel_EteDu-iCjgVWkEoWlds=/5409330086_svichka-dlya-torta.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -35068,7 +35068,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/O_vs3WdM-ipPXMHwywV_VoVhEneaFJNpvbGKv8sbF-k=/5409357752_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '409.00',
+    price: 409.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Berg',
@@ -35088,7 +35088,7 @@ export const db = [
     image:
       'https://images.prom.ua/_Ph1qAp858qHEPwZgxdIHzApKkxqU553DBeIQJnk__o=/5409363977_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '409.00',
+    price: 409.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Berg',
@@ -35109,7 +35109,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/93oobWpHXoDlMcEOKYTrKb_WEwSJejZhQWOgrIlUwtQ=/5409382181_vershki-konditerski-mi.jpg',
     availability: 'in stock',
-    price: '198.00',
+    price: 198.0,
     product_type: 'продукти харчування, напої > молочні продукти > вершки',
     identifier_exists: 'no',
     condition: 'new',
@@ -35126,7 +35126,7 @@ export const db = [
     image:
       'https://images.prom.ua/d6o9qnHcUGSuOK4QJoSEzeSMDuIixawKRESWbgNuUuQ=/5409390764_vershki-konditerski-mi.jpg',
     availability: 'in stock',
-    price: '198.00',
+    price: 198.0,
     product_type: 'продукти харчування, напої > молочні продукти > вершки',
     identifier_exists: 'no',
     condition: 'new',
@@ -35145,7 +35145,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/Vh5Id2i2LLrxr9C1f2ixtuI5cQ06a2d0GpF89RrmUxs=/5409421648_upakovka-dlya-desertu.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
     identifier_exists: 'no',
@@ -35168,7 +35168,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/xog2Y3o_m0KpgL4AXoVntGndtedKjWXCASDsfS9nAjA=/5409437705_korobka-upakovka-dlya.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
     identifier_exists: 'no',
@@ -35190,7 +35190,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h400.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
@@ -35212,7 +35212,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h350.jpg',
     availability: 'in stock',
-    price: '70.00',
+    price: 70.0,
     product_type:
       'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
@@ -35234,7 +35234,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-70h120.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
@@ -35252,7 +35252,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ze5HIMRUPQbvzyTEuwAkMSXRFK6mg6dtcxKeKiZsHNY=/5412455168_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35271,7 +35271,7 @@ export const db = [
     image:
       'https://images.prom.ua/oZB-Aiq4EDSnGHF5oHGXQghLCAnl478GDogOXCneVMg=/5412463844_tsukrove-prikrashannya-na.jpg',
     availability: 'in stock',
-    price: '104.00',
+    price: 104.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35289,7 +35289,7 @@ export const db = [
     image:
       'https://images.prom.ua/t0yVsl2imGrNrkwUPLN8r-misHPT3RuSbgZYitAmu5E=/5412476064_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -35306,7 +35306,7 @@ export const db = [
     image:
       'https://images.prom.ua/o1oSNcn06JDH-MXfGCpQjBPY2uAWqiVNxSwgSoMLt2g=/5412481149_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -35322,7 +35322,7 @@ export const db = [
     image:
       'https://images.prom.ua/cWiqJRZnbcqSTBGcUFmBr2IutFUoX3KUB753SVXo6vI=/5412487705_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35340,7 +35340,7 @@ export const db = [
     image:
       'https://images.prom.ua/hKzKHhSwH-B6Lk7H2AvsTPm08UHNsAc1AU83Cw_113c=/5412493490_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35360,7 +35360,7 @@ export const db = [
     image:
       'https://images.prom.ua/oJctpNPxRl3P7L_bseADM0UxBneaDvOAtoJ960uohBI=/5412508333_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35380,7 +35380,7 @@ export const db = [
     image:
       'https://images.prom.ua/02rMBhn1Cfyt1Tb2EiR3Yqdz-4TBeLAcVbFBMowZgAg=/5420245897_shokoladna-figurka-na.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35399,7 +35399,7 @@ export const db = [
     image:
       'https://images.prom.ua/S3dCsU6dT3kib1-Xtvf-C9CA_a1vKU5S6zRrz6aFqao=/5420457428_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35419,7 +35419,7 @@ export const db = [
     image:
       'https://images.prom.ua/20JKFZDUIUwoS0yPAU50W2UqDnnWI0NX49hZaehh6cM=/5420467970_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35438,7 +35438,7 @@ export const db = [
     image:
       'https://images.prom.ua/f-wVorWtLGzUQ04I_L6MpqRHU1mWiaL62bZM2IQjAFI=/5420488781_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'МІК',
@@ -35458,7 +35458,7 @@ export const db = [
     image:
       'https://images.prom.ua/fmI6_bTpb6E8XGhWhcJY-FTPNTlcISMsX5CGvDI3cPU=/5420493034_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '76.00',
+    price: 76.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35478,7 +35478,7 @@ export const db = [
     image:
       'https://images.prom.ua/MAC1mPKdldJtgLo1FgeJfmEC1vqptrfvKBChplqukbw=/5420495798_nabir-tsukrovih-prikras.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'МІК',
@@ -35497,7 +35497,7 @@ export const db = [
     image:
       'https://images.prom.ua/NjFCnO4cjPoGecIt8Xg7RVWRPbX8uIei3MrJay_m4VQ=/5420531272_pashalne-kachenya-iz.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35514,7 +35514,7 @@ export const db = [
     image:
       'https://images.prom.ua/XPzwOF1Y9BaW2z4d_p5C_IcNYGlr6dNQ4dfQUYObt4A=/5420533885_pashalne-kachenya-iz.jpg',
     availability: 'in stock',
-    price: '102.00',
+    price: 102.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35532,7 +35532,7 @@ export const db = [
     image:
       'https://images.prom.ua/lUla8cr_TNsmaWtnjCs7Usog3Z-5qqFoVlkXc0wovGA=/5420538168_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -35548,7 +35548,7 @@ export const db = [
     image:
       'https://images.prom.ua/qriX2xKtA7Av6Amil5hg37LTQkDz5g4wb7ev8Uz7fhk=/5420546110_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '228.00',
+    price: 228.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35569,7 +35569,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/yBpS9MsonxA3HZo8vwsluyQbY-CY_MQz_FdKM6DPc_E=/5442138700_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35588,7 +35588,7 @@ export const db = [
     image:
       'https://images.prom.ua/XittOnIAnsDBncU9usk4Pr4cOlbgOagN0vgBiO1wacg=/5442144799_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35607,7 +35607,7 @@ export const db = [
     image:
       'https://images.prom.ua/-kJoA9nmxTMSksoLdse6mLFM9wb_YipPA9dqtWjAZYg=/5442148472_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35626,7 +35626,7 @@ export const db = [
     image:
       'https://images.prom.ua/jl4-6meIel2pfT5usDvFSjrKw7QBeO_o47reg3pEc4o=/5442152926_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35645,7 +35645,7 @@ export const db = [
     image:
       'https://images.prom.ua/ADsmA3sgsyOhrUCo7bRpCvRfvndHSJW3GVwRGc0ipq0=/5442159088_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35663,7 +35663,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ksv5ND5NhlqBNdEV-QDGlWsq7fufwUWpr_cAFMrRdS4=/5442162514_velikodnij-nabir-z.jpg',
     availability: 'in stock',
-    price: '36.00',
+    price: 36.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35680,7 +35680,7 @@ export const db = [
     image:
       'https://images.prom.ua/KjqTlzX41KNsMzyYI6XrTiGhaX3wuCSlRQNVZzUOTP8=/5442169289_vafelna-kartinka-na.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35700,7 +35700,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/0V47smr133fX0UMcejToxFEZ04GE3Imi-qEmwaMrAy8=/5442194745_silikonova-forma-hrestiki.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35724,7 +35724,7 @@ export const db = [
     image:
       'https://images.prom.ua/57RoMdhxLhBnlagNJ05zWxcbdslzI2iFfDcubTvRgsk=/5442203477_silikonova-forma-dlya.jpg',
     availability: 'in stock',
-    price: '165.00',
+    price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35748,7 +35748,7 @@ export const db = [
     image:
       'https://images.prom.ua/k1by9OhTL2NP-hLgkAhMipKi_cLYkkG3iEi_vg_zLyw=/5442214410_boroshno-z-klejkogo.jpg',
     availability: 'out of stock',
-    price: '202.00',
+    price: 202.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -35765,7 +35765,7 @@ export const db = [
     image:
       'https://images.prom.ua/IBvd82P_HA4IcY1C9tad69r25KsKOnf_Bzus2P6d0m0=/5442224588_forma-silikonova-gudziki.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35783,7 +35783,7 @@ export const db = [
     image:
       'https://images.prom.ua/0Zq_gWM7nbDkvROgsy7KznXzKY5OUVoyAvh4_zc1C2k=/5442236287_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35801,7 +35801,7 @@ export const db = [
     image:
       'https://images.prom.ua/zDJdU2TA9Snad5PMkfQ2bcqjeoSZRaD07rntzME4WbE=/5442237622_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35819,7 +35819,7 @@ export const db = [
     image:
       'https://images.prom.ua/fjej3GDrFHiLJYiDKW3V9yj5VEBVAPHYrUxqmApcbaQ=/5442238609_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35837,7 +35837,7 @@ export const db = [
     image:
       'https://images.prom.ua/1BoyWtv60wpkBgD8hxg46equZthFzIQ_G-tEbq4M05o=/5442239600_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35855,7 +35855,7 @@ export const db = [
     image:
       'https://images.prom.ua/zj_nXpQYInoABBcfbaGbrHVs-TDuL_outw_8SsQENfQ=/5442240684_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35873,7 +35873,7 @@ export const db = [
     image:
       'https://images.prom.ua/CXw1iy184Mhuwrp2yxWnda38b67FEmZVQFCUWncTKFc=/5442241738_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '122.00',
+    price: 122.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -35891,7 +35891,7 @@ export const db = [
     image:
       'https://images.prom.ua/nzg9WHefqlHoUl0z5OVCpeDeLJKC16kZSVIStOVqFxc=/5469723855_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35911,7 +35911,7 @@ export const db = [
     image:
       'https://images.prom.ua/a8BnTB5uNGPd_lYpX6m-5g-jzF-aLNEqdsJqHv-X9yo=/5485558618_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35930,7 +35930,7 @@ export const db = [
     image:
       'https://images.prom.ua/IeQQYoe5IFl7qjD8cbb2EMR8FhVqg3FwD6rFHb14ZeU=/5485600885_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -35948,7 +35948,7 @@ export const db = [
     image:
       'https://images.prom.ua/JgZ9dbPpfd3FSyHKb0VW15MMPmYN_d76Tp8Dk1Yfvyc=/5485603195_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35968,7 +35968,7 @@ export const db = [
     image:
       'https://images.prom.ua/T6dWWygE0U6vs8hteFIh-7wQ6FTvr3bcGlVQQqRwAJA=/5485607198_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -35988,7 +35988,7 @@ export const db = [
     image:
       'https://images.prom.ua/yO1E20pzzYWpNKuCH3-2xdygfc4WAp3rIsBresf-Dks=/5485608605_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -36007,7 +36007,7 @@ export const db = [
     image:
       'https://images.prom.ua/jc6orCSuHaUoKfYBu5ni5X8vKlswIs2Md2drXQMuFEI=/5485616357_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36025,7 +36025,7 @@ export const db = [
     image:
       'https://images.prom.ua/bP5PRxRCT-HuUvEISQY0UwZlvydqCPaloT6C3uHfXC4=/5485621468_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '54.00',
+    price: 54.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36044,7 +36044,7 @@ export const db = [
     image:
       'https://images.prom.ua/8Zjg9CPcKwLvAUaqZXNsoKSe22ml-wtLFuMU59xtWnM=/5485652771_aromatizator-kapuchino-harchovij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -36063,7 +36063,7 @@ export const db = [
     image:
       'https://images.prom.ua/MLXC21A1c_ORnjtWGQNg3gR0-wfCnj5AJ2rFN61Gzfk=/5485660726_aromatizator-toplene-moloko.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
@@ -36090,7 +36090,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '96.00',
+    price: 96.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36109,7 +36109,7 @@ export const db = [
     image:
       'https://images.prom.ua/xj1kVS7nfh1hV8TVZstyhaCZaNJX_mKCfw48vzBOFAk=/5487929221_tsukrova-prikrasa-dlya.jpg',
     availability: 'out of stock',
-    price: '87.00',
+    price: 87.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36127,7 +36127,7 @@ export const db = [
     image:
       'https://images.prom.ua/KQ_MVmrHKaVBisDiZ04nJf3_ZpsKVrZjmhe-pplEJIU=/5487983405_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '412.00',
+    price: 412.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36146,7 +36146,7 @@ export const db = [
     image:
       'https://images.prom.ua/o6slwfifltviVvqC4IuQbpcV92esCCfX51dn7InEN1M=/5487986361_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '412.00',
+    price: 412.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36165,7 +36165,7 @@ export const db = [
     image:
       'https://images.prom.ua/6vxOgA-YuJprF5vm2idVl-bPADxJxBBVAADKFXcFHjo=/5487987632_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '412.00',
+    price: 412.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36184,7 +36184,7 @@ export const db = [
     image:
       'https://images.prom.ua/gR97hfz5KBwOwI2b6vmktPa0rGjKAw7IBAU40Te7d6o=/5491536662_mastika-tsukrova-temno-zelena.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36202,7 +36202,7 @@ export const db = [
     image:
       'https://images.prom.ua/8HMXNpOy1g7ZxLy34w4933fwsP5ixOr4gu-nHkC9Iqo=/5491541058_mastika-tsukrova-zelena.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36221,7 +36221,7 @@ export const db = [
     image:
       'https://images.prom.ua/wFPDyEF3w236rrhisa1kMPBwo386hkEIG7zEsbsgXl0=/5491545412_mastika-tsukrova-temno-sinya.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36239,7 +36239,7 @@ export const db = [
     image:
       'https://images.prom.ua/4bwTd-LKS8Q7Oz89Lrys-RhijBhNl5G_8VeNqxSd7DQ=/5491548874_mastika-tsukrova-sinya.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36258,7 +36258,7 @@ export const db = [
     image:
       'https://images.prom.ua/5UV8bjAcem9JvZJOWPD_7EFLSVISnY3cNaqxGtg2-4c=/5491551418_mastika-tsukrova-bila.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36277,7 +36277,7 @@ export const db = [
     image:
       'https://images.prom.ua/t1l4sh709DfE30HMdTm43p5TVOJYHyk19Ig1jwfNshM=/5491554122_mastika-tsukrova-chorna.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36295,7 +36295,7 @@ export const db = [
     image:
       'https://images.prom.ua/bR6iMKAJsxjfuURS80Sn7Zin9kum03BpcxMM7r_Rm3A=/5491556749_mastika-tsukrova-chervona.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36314,7 +36314,7 @@ export const db = [
     image:
       'https://images.prom.ua/Cn_w8BN4bHx3jYdQNBHRbPtCjAxCBH1C6nARDmZkdN8=/5491559252_mastika-tsukrova-zhovta.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36332,7 +36332,7 @@ export const db = [
     image:
       'https://images.prom.ua/iHQLFYlHTDRygx4jbJIjk41zZFtaO2hXP9QH_ULpVPk=/5491561641_mastika-tsukrova-rozheva.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36351,7 +36351,7 @@ export const db = [
     image:
       'https://images.prom.ua/QLME3W15m0cwL_rYZqkLWdOGlAzpvV5vrN04ZzDnv7s=/5491564123_mastika-tsukrova-sira.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36370,7 +36370,7 @@ export const db = [
     image:
       'https://images.prom.ua/h3dqMwu8tWXLn8WGea9CWYx5p2e4pVUlR5SL5C2-7_Y=/5491574703_mastika-tsukrova-blakitna.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
     identifier_exists: 'no',
@@ -36389,7 +36389,7 @@ export const db = [
     image:
       'https://images.prom.ua/2IFtYfP1vtXHApyc9Na8o23kCqlol-y59xxtw51uCKs=/5491586886_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '116.00',
+    price: 116.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -36409,7 +36409,7 @@ export const db = [
     image:
       'https://images.prom.ua/wkuAtdjFe7zqxnY9E5lcH6LCy0MpkZfL9cjCxCUuY98=/5491678979_kandurin-supper-schilne.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -36427,7 +36427,7 @@ export const db = [
     image:
       'https://images.prom.ua/DWrdOqvWWhvcU5vbdMSW54bWYVjrXlpd7G8meVySWEw=/5491683020_kandurin-supper-schilne.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
@@ -36445,7 +36445,7 @@ export const db = [
     image:
       'https://images.prom.ua/YAoaqkhOtSX0cS4RUXPzhz-hF2q-d88YD3kT5kXoovE=/5491719637_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -36463,7 +36463,7 @@ export const db = [
     image:
       'https://images.prom.ua/-nD3k35YSjFzwwqblqjhA9MndWQrlRqTE1DVd7EitVM=/5491732443_shokoladni-sferi-na.jpg',
     availability: 'in stock',
-    price: '206.00',
+    price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
@@ -36479,7 +36479,7 @@ export const db = [
     image:
       'https://images.prom.ua/y6lvaNd2ULBTP49NNoHhptr1gPeRglVOFEDReMZr_9M=/5491779937_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36497,7 +36497,7 @@ export const db = [
     image:
       'https://images.prom.ua/_WsIb3TylzeQn_SBBIZPKfZrCF-ZBpvrQxqkeQyw1BE=/5491781767_posipka-povitryanij-ris.jpg',
     availability: 'in stock',
-    price: '31.00',
+    price: 31.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36514,7 +36514,7 @@ export const db = [
     image:
       'https://images.prom.ua/Unnl4ICIgQX7ZpN_DQ0d6z06YQJNlkn0581B-6VulR8=/5491802386_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '24.00',
+    price: 24.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36532,7 +36532,7 @@ export const db = [
     image:
       'https://images.prom.ua/2VDBw-FhgSVSVgvjKEpdnAY6DTDckwZX11NhQUwlgrI=/5491816480_svichki-z-kolorovim.jpg',
     availability: 'in stock',
-    price: '64.00',
+    price: 64.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -36550,7 +36550,7 @@ export const db = [
     image:
       'https://images.prom.ua/20zUuj0n9w_XJTcZyI19_zitT6TJqRyG-Zu-_ScStks=/5491823237_svichki-bukvi-v-tort.jpg',
     availability: 'in stock',
-    price: '52.00',
+    price: 52.0,
     product_type:
       'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
     identifier_exists: 'no',
@@ -36568,7 +36568,7 @@ export const db = [
     image:
       'https://images.prom.ua/KHBwfqlF5f8mfZvlaRgUiC0OfEFHoDsD27wCwCCZnoY=/5504861564_svichka-parafinova-stolova.jpg',
     availability: 'in stock',
-    price: '11.00',
+    price: 11.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -36585,7 +36585,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-1.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36602,7 +36602,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-0.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36619,7 +36619,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-2.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36636,7 +36636,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-3.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36653,7 +36653,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-4.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36670,7 +36670,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-5.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36687,7 +36687,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-6.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36704,7 +36704,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-7.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36721,7 +36721,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-8.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36738,7 +36738,7 @@ export const db = [
     image:
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-9.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36756,7 +36756,7 @@ export const db = [
     image:
       'https://images.prom.ua/eMe9oMdlLk3l6EEkw7_3tIfyP2B3auSBLP5XSuGjS1E=/5536516045_topper-tortsevij-dzerkalnij.jpg',
     availability: 'in stock',
-    price: '85.00',
+    price: 85.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36774,7 +36774,7 @@ export const db = [
     image:
       'https://images.prom.ua/lyoSTQMXioVd8Ott1eNaNSWW0iJew0TfPlDsSIrzULQ=/5536533834_topper-tortsevij-dzerkalnij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36792,7 +36792,7 @@ export const db = [
     image:
       'https://images.prom.ua/8MOkQ0Mp3dMDCFgGdtuIWfq5j7mhtl9j3DusOhfvLX8=/5536536568_topper-tortsevij-dzerkalnij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36810,7 +36810,7 @@ export const db = [
     image:
       'https://images.prom.ua/efnVtCwS4CMALCI24F9d7eTFotVkWK-qsiN1GdjpJK0=/5536540284_topper-tortsevij-dzerkalnij.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36828,7 +36828,7 @@ export const db = [
     image:
       'https://images.prom.ua/XSUyiWsJS3M9WNXrpzYvEwyaweF2ijH17OsyS94GpVQ=/5536545030_topper-tortsevij-dzerkalnij.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -36846,7 +36846,7 @@ export const db = [
     image:
       'https://images.prom.ua/Tk4iw83hxvulJvYsY85ez20jUf_CE0N3bECUBziDJtY=/5536553422_dzerkalnij-topper-z.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36863,7 +36863,7 @@ export const db = [
     image:
       'https://images.prom.ua/K9jAIEsb-snlxEFkTCiFsrSnQXZQyE0OR2DOdkuFyi4=/5536557459_dzerkalnij-topper-z.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36880,7 +36880,7 @@ export const db = [
     image:
       'https://images.prom.ua/W8f8TjrdHrvq01l3A6YC2zKC-U-BTsyESRxr47_9zYQ=/5536567031_dzerkalnij-toper-zoloto.jpg',
     availability: 'in stock',
-    price: '66.00',
+    price: 66.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36897,7 +36897,7 @@ export const db = [
     image:
       'https://images.prom.ua/54zQ9nmZ8qGN6qQE6eGWS1MqIVPmfGpfM8YFpF_eeQY=/5536569361_dzerkalnij-toper-happy.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36914,7 +36914,7 @@ export const db = [
     image:
       'https://images.prom.ua/t0pudR8Ah3yDmZBrc0u5gjQdYYGFA1jfqtCIOa1wqr4=/5536599292_rozhevij-plastikovij-toper.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36932,7 +36932,7 @@ export const db = [
     image:
       'https://images.prom.ua/uu2zX8rWQhMq93-cyORDGQWBT63AGWf0oiGMBSmHC8s=/5536602144_dzerkalnij-toper-happy.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36949,7 +36949,7 @@ export const db = [
     image:
       'https://images.prom.ua/ASrIicMG5XCDiqqksfGezd7oQPYVBaXrJ5F2DPBjJ1s=/5536603920_dzerkalnij-toper-happy.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -36966,7 +36966,7 @@ export const db = [
     image:
       'https://images.prom.ua/fRU4NrGO2DOsG-Hc03r1pmt8Symy6O1ry-pEsP8oLd0=/5536606432_toper-plastikovij-happy.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -36985,7 +36985,7 @@ export const db = [
     image:
       'https://images.prom.ua/BioTVzRHjF4dfg03rinnk1Gozls7HG3d2pQ1qTw5Zgk=/5536613115_sertse-happy-valentines.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37003,7 +37003,7 @@ export const db = [
     image:
       'https://images.prom.ua/P9O0hi83a-83_Iqi_gr-DLe1SLqv8Djz9v9RJKijGkg=/5538180038_sertse-kohayu-tebe.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37021,7 +37021,7 @@ export const db = [
     image:
       'https://images.prom.ua/XYPZ9Fg_cE_Jq-Nm6JWmjRMZDwjvJDfOwbr5yLRrh-c=/5536616944_krug-z-dnem.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37039,7 +37039,7 @@ export const db = [
     image:
       'https://images.prom.ua/y7sBiwtHLlq66qihbBa3CqoHXKMssNP3MZMZK5y6oFg=/5536618832_krug-i-love.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37058,7 +37058,7 @@ export const db = [
     image:
       'https://images.prom.ua/iHjPLNzFCV01SWS_P8GQIiNZW86XbzFUETbd3ZKz6X8=/5536630750_toper-na-tort.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37083,7 +37083,7 @@ export const db = [
     image:
       'https://images.prom.ua/W3QBe1GTeLKdr99HDI2BdyjQ-bLoIBCNVhnjCq-24C4=/5536636337_toper-50-rokiv.jpg',
     availability: 'in stock',
-    price: '50.00',
+    price: 50.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37108,7 +37108,7 @@ export const db = [
     image:
       'https://images.prom.ua/Hf0z3DUHEbOqGUwSmifiuThSpxnyxxyrouuOL5a1Buk=/5536640846_toper-na-azhurnomu.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37133,7 +37133,7 @@ export const db = [
     image:
       'https://images.prom.ua/Gj6r7rWUSS4h7cTbYl32v5frcUra08yP0slyAsWOQkE=/5536644500_toper-s-dnem.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37158,7 +37158,7 @@ export const db = [
     image:
       'https://images.prom.ua/8WMQks60Pj0igdOL5YmhK3OTzLj8psY40_IFgpguTpU=/5536648095_toper-love-tortsevij.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37183,7 +37183,7 @@ export const db = [
     image:
       'https://images.prom.ua/tByUY8rmjjmtTeMaQiMvK50pAULpK6gCiCR-EdKNpDs=/5536651018_topper-kohayu-dlya.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37207,7 +37207,7 @@ export const db = [
     image:
       'https://images.prom.ua/ltwNe72K0xFKXCqufPRnPtOGqAns8BKBU6wvCzF7OCs=/5536653568_toper-2-sertsya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37231,7 +37231,7 @@ export const db = [
     image:
       'https://images.prom.ua/EU7AlEBhOkKvtw-PuQfT4leEKZ-FX0kYEvJ_nx8dup8=/5543426021_figurka-ejfeleva-vezha.jpg',
     availability: 'in stock',
-    price: '94.00',
+    price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -37254,7 +37254,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/13RO08RohhBKJKJF1zJhazdc1iEhktMJxlej8EzomHk=/5546333980_angelochok-iz-posipkoyu.jpg',
     availability: 'in stock',
-    price: '35.00',
+    price: 35.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -37280,7 +37280,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/quf4k8eiCZVoRVHpT_pJVKIQliLjFBv0l7N8TiBVpx8=/5546338184_hrestik-iz-tsukrovoyi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -37304,7 +37304,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -37324,7 +37324,7 @@ export const db = [
     image:
       'https://images.prom.ua/bjhGIBzCJ8RyHIfXle1d2AmRrRpBIDMbyABFna226gE=/5546625616_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '68.00',
+    price: 68.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -37342,7 +37342,7 @@ export const db = [
     image:
       'https://images.prom.ua/-kvPyfJFOqYdoQceZro999gBTjV-n_wSoyJTqlfuo2U=/5546636184_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '56.00',
+    price: 56.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -37360,7 +37360,7 @@ export const db = [
     image:
       'https://images.prom.ua/c-SlxXtrREVhEKCUk0HYmo2giKp6IfnjZ2FjceDzQSk=/5548218932_toper-prozoriv-happy.jpg',
     availability: 'in stock',
-    price: '95.00',
+    price: 95.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37378,7 +37378,7 @@ export const db = [
     image:
       'https://images.prom.ua/L5_UB0cE_vOiDWkGxKz-fM_MCdO7NMmIlHsn7bv6ICk=/5548223157_toper-zoloto-happy.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37396,7 +37396,7 @@ export const db = [
     image:
       'https://images.prom.ua/AATE4ugAQJnVE7nPg-hlegW22YCyPc2qv_fpkLeAhuA=/5548258351_vafelnij-papir-ultratonkij.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Modecor',
@@ -37415,7 +37415,7 @@ export const db = [
     image:
       'https://images.prom.ua/AATE4ugAQJnVE7nPg-hlegW22YCyPc2qv_fpkLeAhuA=/5548258351_vafelnij-papir-tonkij.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Modecor',
@@ -37434,7 +37434,7 @@ export const db = [
     image:
       'https://images.prom.ua/sOT4nFXe6Q_EpssbCXklhz24wj4A_UHCSF5pimB9Fcw=/5548267528_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '127.00',
+    price: 127.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -37453,7 +37453,7 @@ export const db = [
     image:
       'https://images.prom.ua/HaLglIzXEASt8m5MzrMBcX3K4NeKxqb66gNlaHBu6O4=/5548307358_tistechko-makarons-1.jpg',
     availability: 'in stock',
-    price: '30.00',
+    price: 30.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -37471,7 +37471,7 @@ export const db = [
     image:
       'https://images.prom.ua/FYLqtO_Zw13dlivNnxhHYZDECJ1cONS8lNx3ohGFc2o=/5556539461_rozyemni-formi-dlya.jpg',
     availability: 'in stock',
-    price: '347.00',
+    price: 347.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37489,7 +37489,7 @@ export const db = [
     image:
       'https://images.prom.ua/Yt0TC9_Plza5OWgmP1g9sdjZjFk3gVPpI8yda97EZOk=/5556911100_nabir-konditerskij-dlya.jpg',
     availability: 'in stock',
-    price: '84.00',
+    price: 84.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37506,7 +37506,7 @@ export const db = [
     image:
       'https://images.prom.ua/maPE_elV3kxEqvYDyyNTe4qa2v1dGMSjpvUJM3QFiuM=/5556922387_struna-dlya-korzhiv.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37524,7 +37524,7 @@ export const db = [
     image:
       'https://images.prom.ua/qXdpOGmkN7QTmXYi_OtN-gjGZ10A66Q58eJ30Vrb8y8=/5559760754_pektin-tsitrusovij-grinsted.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -37543,7 +37543,7 @@ export const db = [
     image:
       'https://images.prom.ua/_hFtknM6XkG_KUYhst9WF4PYIqF5ia5AoGFmatLMWGA=/5559782221_zoloto-harchove-potal.jpg',
     availability: 'in stock',
-    price: '250.00',
+    price: 250.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -37562,7 +37562,7 @@ export const db = [
     image:
       'https://images.prom.ua/5Mf1b2Y8t3Ux-B5Qe9ZrDcwZTY__11TdKiVVha_sk4Y=/5559796571_dzerkalnij-toper-happy.jpg',
     availability: 'in stock',
-    price: '215.00',
+    price: 215.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -37580,7 +37580,7 @@ export const db = [
     image:
       'https://images.prom.ua/V6__Iz4bFwCo1s0BKc084i8KQnV-9iuFwqQmowuzEaI=/5559801981_toper-dzerkalnij-zolotij.jpg',
     availability: 'in stock',
-    price: '120.00',
+    price: 120.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37598,7 +37598,7 @@ export const db = [
     image:
       'https://images.prom.ua/9d1mH6CPpWUa8--sDUdEnAfFd7lYsB3wWwt5J7kzdhI=/5559808000_toper-tortsevij-dlya.jpg',
     availability: 'in stock',
-    price: '210.00',
+    price: 210.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37616,7 +37616,7 @@ export const db = [
     image:
       'https://images.prom.ua/mFXivU87dWhBKvCW-EB391u6v64rFF_Klwza5CryAUY=/5559813616_toper-tortsevij-dlya.jpg',
     availability: 'in stock',
-    price: '130.00',
+    price: 130.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37633,7 +37633,7 @@ export const db = [
     image:
       'https://images.prom.ua/n6q7etBL3UcsUUjOuAtKiUqGQMYZ5Q9vcWDrnH-B7rs=/5559822749_dzerkalnij-topper-kohanomu.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37650,7 +37650,7 @@ export const db = [
     image:
       'https://images.prom.ua/F3bne9ofqqXjsN7ShM6jN40J68AzboqJX9nr6NWahIA=/5559829746_dzerkalnij-topper-ti.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37667,7 +37667,7 @@ export const db = [
     image:
       'https://images.prom.ua/USP57ZRvyux7jD6JtxT1Mu_cR5KRC2hI7LqGqfs13ec=/5559836609_dzerkalnij-topper-najkraschij.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37684,7 +37684,7 @@ export const db = [
     image:
       'https://images.prom.ua/8hwUTWhs3-2p8LWz3p714pNCS5qwDJ7ioVx67uqMQos=/5559840370_dzerkalnij-topper-z.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37701,7 +37701,7 @@ export const db = [
     image:
       'https://images.prom.ua/2lVLsIFPAEbYe62IRH99JZGrqiFy3iGvaoj5QQV1BUo=/5559843032_dzerkalnij-topper-z.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37718,7 +37718,7 @@ export const db = [
     image:
       'https://images.prom.ua/N_EdO6RM5QP37g0eS-q29CSaUi8Cvq6MgkMhXMJQ7AE=/5559848492_bichnij-toper-happy.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37736,7 +37736,7 @@ export const db = [
     image:
       'https://images.prom.ua/b5MmMvLPsA_zEswQBZiRLQ7sic5jh5NGLBdB5S1_pfU=/5559854172_napis-dlya-bento.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37754,7 +37754,7 @@ export const db = [
     image:
       'https://images.prom.ua/v7Y87JGdha5b8uAYfx_tY5OgeHrF3noZKQLJrOKpLT4=/5559859182_napis-dlya-bento.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37771,7 +37771,7 @@ export const db = [
     image:
       'https://images.prom.ua/4cnD4lGfyfThR0A6yiia3xtl03-DZtLa12F_v-z5hIA=/5559861442_napis-dlya-bento.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37789,7 +37789,7 @@ export const db = [
     image:
       'https://images.prom.ua/EbiQdt_XzdxlY_yYn_c_jCm4lW7VAJkCOz6UqhHnXEA=/5559863080_napis-dlya-bento.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
     identifier_exists: 'no',
     condition: 'new',
@@ -37806,7 +37806,7 @@ export const db = [
     image:
       'https://images.prom.ua/M6mjmynETlpaZEmuHIm3POkXseL96F1knpJlH1nmvTM=/5559875031_termometr-dlya-duhovki.jpg',
     availability: 'in stock',
-    price: '164.00',
+    price: 164.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37825,7 +37825,7 @@ export const db = [
     image:
       'https://images.prom.ua/NLdXYhpsLTxaEMMMtA0xQjEvLjjKNAAYRAvyrWs29uw=/5559885783_shampuri-bambukovi-.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37842,7 +37842,7 @@ export const db = [
     image:
       'https://images.prom.ua/EvJYka8568Jeykvlu6cbiGNFK61ZTbLxcDUAh23Vt7w=/5563100570_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37860,7 +37860,7 @@ export const db = [
     image:
       'https://images.prom.ua/cIXBbMCWxGN5hUOpcCcD9EqnsDd8SozGsUTBB1rq4q4=/5563105081_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37884,7 +37884,7 @@ export const db = [
     image:
       'https://images.prom.ua/efrs2M9dWUvOTUl5bzJduLXqHjJfwyFEoAQvSZr1e74=/5563108476_konditerska-nasadka-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37908,7 +37908,7 @@ export const db = [
     image:
       'https://images.prom.ua/XBQDj4Qei7IqXbiKj-XecqpmkInE4DnTRLDPdUXGZuA=/5563110428_konditerska-nasadka-1m.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37932,7 +37932,7 @@ export const db = [
     image:
       'https://images.prom.ua/GKNx3xDycJwrAKR5d3qy_6_LwHecSxD9HF4kBoNCzHw=/5563114874_nasadka-konditerska-dlya.jpg',
     availability: 'in stock',
-    price: '90.00',
+    price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37956,7 +37956,7 @@ export const db = [
     image:
       'https://images.prom.ua/pGLBMRpTv8fToZ2DVxHtsECBaRJxatyMT-F8mYl30-E=/5563116468_nasadka-konditerska-dlya.jpg',
     availability: 'in stock',
-    price: '80.00',
+    price: 80.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -37980,7 +37980,7 @@ export const db = [
     image:
       'https://images.prom.ua/mpLa29vTgzO51iOTPg2w50cFR_-BfU38-uoohRMnvZM=/5563117847_nasadka-konditerska-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38004,7 +38004,7 @@ export const db = [
     image:
       'https://images.prom.ua/Uq446RKaCOnlv81_cpIj9ufv3-dyRzbGRn_oLXjEqJU=/5563119696_nasadka-konditerska-dlya.jpg',
     availability: 'in stock',
-    price: '55.00',
+    price: 55.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38029,7 +38029,7 @@ export const db = [
     image:
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
     availability: 'in stock',
-    price: '25.00',
+    price: 25.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38047,7 +38047,7 @@ export const db = [
     image:
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
     availability: 'in stock',
-    price: '40.00',
+    price: 40.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38066,7 +38066,7 @@ export const db = [
     image:
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38084,7 +38084,7 @@ export const db = [
     image:
       'https://images.prom.ua/BjJrlpeHMBVHJUWnhufZVdC2DExGYIXasYvxiODrEy0=/5563134397_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38102,7 +38102,7 @@ export const db = [
     image:
       'https://images.prom.ua/BjJrlpeHMBVHJUWnhufZVdC2DExGYIXasYvxiODrEy0=/5563134397_konditerska-nasadka-listochok.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38120,7 +38120,7 @@ export const db = [
     image:
       'https://images.prom.ua/Y2t_ZHFsadukqSDrPY2cy384mqglgXh6WbNVsG7NrLk=/5563159197_forma-silikonova-dlya.jpg',
     availability: 'in stock',
-    price: '287.00',
+    price: 287.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
@@ -38138,7 +38138,7 @@ export const db = [
     image:
       'https://images.prom.ua/Eydnt9uWQbVFUhUjiQ7pvamuv-3aJiNapwiaSRZr8SY=/5567905951_glitserin-harchovij-konditerskij.jpg',
     availability: 'in stock',
-    price: '46.00',
+    price: 46.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38157,7 +38157,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/n2cGYmpZywH6CwBPwKu30sjoQwZAv7nNap7s428HEIs=/5570249559_konditerska-tsukrova-prikrasa.jpg',
     availability: 'in stock',
-    price: '193.00',
+    price: 193.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38175,7 +38175,7 @@ export const db = [
     image:
       'https://images.prom.ua/wqZMOZ3GH0_OORG-Rbvizrb0xoaIho2CEgAAvCuetMI=/5567933945_tsukrovi-kviti-na.jpg',
     availability: 'in stock',
-    price: '229.00',
+    price: 229.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38194,7 +38194,7 @@ export const db = [
     image:
       'https://images.prom.ua/H0KMbos1yMuL3wIAMTRoFwnj0xkaQh6gScsrH0vvzMc=/5567939443_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '69.00',
+    price: 69.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38213,7 +38213,7 @@ export const db = [
     image:
       'https://images.prom.ua/6sxe6L1G_KpZlurPjNAwpT-RbUcV8Ti-AFp4WYc2tsY=/5567946488_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '72.00',
+    price: 72.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38230,7 +38230,7 @@ export const db = [
     image:
       'https://images.prom.ua/Pn8wovC4ncskmEN3-wzGZ341xi5fePSqSW4G6FHml4k=/5567976876_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38247,7 +38247,7 @@ export const db = [
     image:
       'https://images.prom.ua/zFYspm_j6e_JTOwoIi30q4nFiNZ__3hgS1YE1vSxqC8=/5567991563_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '133.00',
+    price: 133.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38265,7 +38265,7 @@ export const db = [
     image:
       'https://images.prom.ua/oDwkMkJcp0jk_kEmQIOsl8z-m9K3tHjgn7OzqCNs8Y0=/5568002529_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '75.00',
+    price: 75.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38284,7 +38284,7 @@ export const db = [
     image:
       'https://images.prom.ua/Xnga920JVbt_Q5I4oARoiJQahl-m3Ckf7t50QdeckDo=/5568011629_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '44.00',
+    price: 44.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38302,7 +38302,7 @@ export const db = [
     image:
       'https://images.prom.ua/OYMnixVsktnOhdNOarmBCidjYt4yfxhWhvGQ-wmpl3Y=/5568019072_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '42.00',
+    price: 42.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38322,7 +38322,7 @@ export const db = [
     image:
       'https://images.prom.ua/y1pGgQ9AMC_FfY-Ho2irhKOxCeeZleaKnH809Q2MQwc=/5568024601_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38341,7 +38341,7 @@ export const db = [
     image:
       'https://images.prom.ua/dBy0toClb4SWj6vGURmTpZE-WtMHbI5Qugp3MKlOE1w=/5568034461_tsukrova-prikrasa-yistivna.jpg',
     availability: 'in stock',
-    price: '176.00',
+    price: 176.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38359,7 +38359,7 @@ export const db = [
     image:
       'https://images.prom.ua/VqI7g25Md0wBU74bkBu2ttpcU3dsyVv5mpNOg6WjSjw=/5568051363_hrestik-iz-tsukrovoyi.jpg',
     availability: 'in stock',
-    price: '15.00',
+    price: 15.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38379,7 +38379,7 @@ export const db = [
     image:
       'https://images.prom.ua/HpbSq-FGzj5MHkC-3yMDPV1toi7sbfz91AKAZs0dlrQ=/5568065089_prikrasa-na-tort.jpg',
     availability: 'in stock',
-    price: '97.00',
+    price: 97.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38399,7 +38399,7 @@ export const db = [
     image:
       'https://images.prom.ua/pseFIBqm18vRatXt3VvaK45tbEt4cy5Mcr6JVMp8icg=/5568071546_angelochok-shokoladnij.jpg',
     availability: 'in stock',
-    price: '145.00',
+    price: 145.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38419,7 +38419,7 @@ export const db = [
     image:
       'https://images.prom.ua/Ml6lvMSf9I4a-_QJxAMlJ3Mlr2exAkGMG-nOPIcsb4c=/5568174146_tsukrova-posipka-velikodnya.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38437,7 +38437,7 @@ export const db = [
     image:
       'https://images.prom.ua/e8xAfCeFPheQaRrPoW2vAYa9sS0I5x-EXOcUO-CKhck=/5568178578_tsukrova-posipka-miki.jpg',
     availability: 'in stock',
-    price: '20.00',
+    price: 20.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'МІК',
@@ -38457,7 +38457,7 @@ export const db = [
     image:
       'https://images.prom.ua/1q2rTp3-IorvsR_aLzmSWABZZ1DStJfXO3dd6xepxWc=/5568185741_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '136.00',
+    price: 136.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38479,7 +38479,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/e0ULy-Q6AlgsO3ZZPxLqt5vNajKHp_a-MoBQREDUyGk=/5568193549_tsukrova-prikrasa-dlya.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
@@ -38498,7 +38498,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-tsvit-morskij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38516,7 +38516,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-rozhevij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38534,7 +38534,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-koloru-temno.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38552,7 +38552,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-temno-zelenij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38570,7 +38570,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-zelenij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38588,7 +38588,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-koloru-zelene.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38606,7 +38606,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-sinij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38624,7 +38624,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-malinovij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38642,7 +38642,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-blakitnij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38660,7 +38660,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-korichnevij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38678,7 +38678,7 @@ export const db = [
     image:
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-chervonij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38696,7 +38696,7 @@ export const db = [
     image:
       'https://images.prom.ua/DEZbtnMkzXqSEqC0ZQHNarv9j-o2NT1le_bsiztXl3Q=/5568215759_barvnik-kolir-chornij.jpg',
     availability: 'in stock',
-    price: '74.00',
+    price: 74.0,
     product_type:
       'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
     identifier_exists: 'no',
@@ -38718,7 +38718,7 @@ export const db = [
     additional_image_link:
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38738,7 +38738,7 @@ export const db = [
     image:
       'https://images.prom.ua/CNhlDvuQVgTGVyuXZAniPgDjJX41597t6xERRmxgSuE=/5568233513_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38758,7 +38758,7 @@ export const db = [
     image:
       'https://images.prom.ua/4R1NyvbsEbscHL25_h3_bbGPLBHDy4r9ycv44xi0ZO4=/5568234947_nabir-konditerskih-tsukrovih.jpg',
     availability: 'in stock',
-    price: '45.00',
+    price: 45.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38778,7 +38778,7 @@ export const db = [
     image:
       'https://images.prom.ua/DZpMn0w_nGQO0ddtkGBAtS-WY9RhPvPi8jBXMGcYBh4=/5568243178_tsukrova-prikrasa-na.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38798,7 +38798,7 @@ export const db = [
     image:
       'https://images.prom.ua/2XHt8RswXR0VFNUX3UxKUJsA0WSd_BuOD2CkFm4yXT4=/5573797735_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '99.00',
+    price: 99.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38818,7 +38818,7 @@ export const db = [
     image:
       'https://images.prom.ua/fndJf4qLdTWFKsfJkpRwOaKXqgnmgxyNJ8rb6CWCHGQ=/5573800845_konditerski-tsukrovi-prikrasi.jpg',
     availability: 'in stock',
-    price: '135.00',
+    price: 135.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
@@ -38838,7 +38838,7 @@ export const db = [
     image:
       'https://images.prom.ua/YYtOlmqCKmlMbMr4X9fQtDfccAfcwRZwXapWaNQyGPg=/5573804839_tsukrovi-prikrasi-na.jpg',
     availability: 'in stock',
-    price: '60.00',
+    price: 60.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     brand: 'Ateco',
