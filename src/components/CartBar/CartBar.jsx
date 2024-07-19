@@ -31,7 +31,7 @@ export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
       <div className={s.priceBox}>
         <p className={s.totalCost}>
           {languageDeterminer(LANGUAGE.cartBar.totalCost)}
-          {totalCost}
+          {totalCost} ₴
         </p>
 
         <Button

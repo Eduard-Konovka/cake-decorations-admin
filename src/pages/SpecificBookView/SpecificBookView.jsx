@@ -74,10 +74,10 @@ export default function SpecificBookView({
                   <p className={s.stat}>
                     <span className={s.statName}>
                       {languageDeterminer(
-                        LANGUAGE.specificBookView.manufacturer,
+                        LANGUAGE.specificBookView.product_type,
                       )}
                     </span>
-                    {book.author}
+                    {book.product_type}
                   </p>
 
                   <p className={s.stat}>
@@ -106,7 +106,7 @@ export default function SpecificBookView({
                     <span className={s.boldfont}>
                       {languageDeterminer(LANGUAGE.specificBookView.price)}
                     </span>
-                    ₴{book.price}
+                    {book.price} ₴
                   </p>
 
                   <CountForm

@@ -201,9 +201,9 @@ export const LANGUAGE = {
   },
 
   specificBookView: {
-    manufacturer: {
-      eng: 'Manufacturer: ',
-      ukr: 'Виробник: ',
+    product_type: {
+      eng: 'Category: ',
+      ukr: 'Категорія: ',
     },
 
     tags: {
@@ -233,9 +233,9 @@ export const LANGUAGE = {
   },
 
   product: {
-    manufacturer: {
-      eng: 'Manufacturer: ',
-      ukr: 'Виробник: ',
+    product_type: {
+      eng: 'Category: ',
+      ukr: 'Категорія: ',
     },
 
     barcode: {
@@ -261,8 +261,8 @@ export const LANGUAGE = {
 
   cartBar: {
     totalCost: {
-      eng: 'Total cost: ₴',
-      ukr: 'Загальна вартість: ₴',
+      eng: 'Total cost: ',
+      ukr: 'Загальна вартість: ',
     },
 
     buttonTitle: {

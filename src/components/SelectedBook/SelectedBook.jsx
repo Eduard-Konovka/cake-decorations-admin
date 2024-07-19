@@ -44,7 +44,7 @@ export default function SelectedBook({
           <span className={s.priceTitle}>
             {languageDeterminer(LANGUAGE.selectedBook.price)}
           </span>
-          <span className={s.priceValue}>₴{price}</span>
+          <span className={s.priceValue}>{price} ₴</span>
         </p>
 
         <CountForm

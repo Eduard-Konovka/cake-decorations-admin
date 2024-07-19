@@ -25,23 +25,25 @@ export default function Book({ book }) {
             : book.title.slice(0, GLOBAL.titleLength) + '...'}
         </h3>
 
-        <p className={s.shortDescription}>{book.shortDescription}</p>
+        <p className={s.shortDescription}>
+          {book.description.slice(0, GLOBAL.titleLength) + '...'}
+        </p>
       </div>
 
-      <p className={s.author}>
-        {languageDeterminer(LANGUAGE.product.manufacturer)}
-        <span className={s.value}>{book.author}</span>
+      <p className={s.product_type}>
+        {languageDeterminer(LANGUAGE.product.product_type)}
+        <span className={s.value}>{book.product_type}</span>
       </p>
 
       <p className={s.barcode}>
         {languageDeterminer(LANGUAGE.product.barcode)}
-        <span className={s.value}>{book.barcode}</span>
+        <span className={s.value}>{book.barcode ?? book._id}</span>
       </p>
 
       <div className={s.control}>
         <p className={s.price}>
           {languageDeterminer(LANGUAGE.product.price)}
-          <span className={s.value}>₴{book.price}</span>
+          <span className={s.value}>{book.price} ₴</span>
         </p>
 
         <Button title={languageDeterminer(LANGUAGE.product.buttonTitle)}>
@@ -57,7 +59,7 @@ export default function Book({ book }) {
 Book.propTypes = {
   book: PropTypes.shape({
     _id: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
+    product_type: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,

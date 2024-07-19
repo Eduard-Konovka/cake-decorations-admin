@@ -74,7 +74,7 @@ export default function CountForm({
         <span className={styles.totalPriceTitleStyle}>
           {languageDeterminer(LANGUAGE.countForm.totalPrice)}
         </span>
-        <span className={styles.totalPriceValueStyle}>₴{totalPrice}</span>
+        <span className={styles.totalPriceValueStyle}>{totalPrice} ₴</span>
       </p>
     </>
   );

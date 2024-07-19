@@ -30,7 +30,7 @@ export const GLOBAL = {
     second: 30,
   },
 
-  titleLength: 25,
+  titleLength: 75,
 
   sending: 3000,
 };
