@@ -1081,8 +1081,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799727454-kandurin-belyj-hameleon.html?source=merchant_center',
     image:
       'https://images.prom.ua/qlwO8AtwNYnzgqHPIEVOcjfItxD9_lbO_tkO1vd1TEs=/4366612500_kandurin-bilij-hameleon.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/tAWHW5JAutOuS84mtB6YqOhPNeoDWFZ89eZWzUna6mg=/4552561275_kandurin-bilij-hameleon.jpg',
+    ],
     availability: 'out of stock',
     price: 77.0,
     product_type:
@@ -1101,8 +1102,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799794404-kandurin-antichnoe-zoloto.html?source=merchant_center',
     image:
       'https://images.prom.ua/Bf_46Osu6H066SpsDaDFYu-LqVKO0QLrfIjFlHxMj1E=/4366834047_kandurin-antichne-zoloto.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/CmFozXcjB6Hv7TTF-D9BhmOKRH_Tf_QNdQZ7a8dGL0c=/4552604603_kandurin-antichne-zoloto.jpg',
+    ],
     availability: 'out of stock',
     price: 99.0,
     product_type:
@@ -1121,8 +1123,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799797107-kandurin-supper-zoloto.html?source=merchant_center',
     image:
       'https://images.prom.ua/mdr-xBfTAr3K2NpLRULCcQgSnfXEy9iP_dJo3tg-Q6s=/4366862604_kandurin-super-zoloto.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/r96dDlfzn3YJZ7wwHRz58eInVKu4Q-AKIhoFw3qwlng=/4552571757_kandurin-super-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 77.0,
     product_type:
@@ -1141,8 +1144,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799799583-kandurin-zolotoj-diamant.html?source=merchant_center',
     image:
       'https://images.prom.ua/cOZKy46iFa-Ll2E-IuSqlo9Bsdk3Pv66CmmmUxAUyt4=/4366882025_kandurin-zolotoj-diamant.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/FE-nx4p_UH_WjpBw07IijjJCpLnCgM3v9qlTmKwxZqM=/4552600640_kandurin-zolotoj-diamant.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1161,8 +1165,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799801416-kandurin-antichnoe-serebro.html?source=merchant_center',
     image:
       'https://images.prom.ua/u9ASphMhJ0yjW3VXA6QbKUQ-zfHuU07EaHaiX5zE9Dw=/4366890612_kandurin-antichne-sriblo.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/RoEw-LFB6_S9-mXiCcOm9zUKeUZrkoRw0j3tYRlCozo=/4552607497_kandurin-antichne-sriblo.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -1181,8 +1186,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799804563-kandurin-serebryannyj-blesk.html?source=merchant_center',
     image:
       'https://images.prom.ua/43vYQHOeeYkLYXkBuF2MVjCd8xwqYW1PZcLDWNmwoe4=/4366918170_kandurin-sribnij-blisk2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/DuYs4Zo2hVjS_yBLMseB1G6ngHBJ6k0N_kiMD-iVRzc=/4552596055_kandurin-sribnij-blisk2.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -1201,8 +1207,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799809058-kandurin-chernyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/b4No0LIAQO1K1Xt2P5Dir_FYk4By_6TpP7XhQBAeHD4=/4366938578_kandurin-chornij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/GTiOcJO_ppx9jwXVVpHbRk2kiE2olfhVl8ThXUf71dM=/4552580713_kandurin-chornij-2.jpg',
+    ],
     availability: 'in stock',
     price: 86.0,
     product_type:
@@ -1221,8 +1228,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799822106-kandurin-krasnyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/_G5LncknvzT8fiKf_3SwQVQwmO4ZDU2q5WcnimCmGC4=/4367008120_kandurin-chervonij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/oAWBzIX8qTSH_U1FOe_RWQvSXkT6JBW8ztmNIpAvZVY=/4552590727_kandurin-chervonij-2.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -1241,8 +1249,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799823985-kandurin-fuksiya.html?source=merchant_center',
     image:
       'https://images.prom.ua/it4iQ88-2s2VA7BqyNNdWeWsssU1upO2Jm3eWcDUqNQ=/4367013320_kandurin-fuksiya-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/x36CzFVbCmtznkAroavwKbY3tOVRDW4_huqngrNG5iw=/4552613746_kandurin-fuksiya-2.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -1261,8 +1270,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799825614-kandurin-fioletovyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/HuEsdOm4YE738oqnHl3_vjkFjquLzOIZvC6mPNbW9Vw=/4367017728_kandurin-fioletovij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/w8wBnMjywmZ9qP9cypfDSgn-nzrc7stGWQ6UVkbrC-o=/4552550303_kandurin-fioletovij-2.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -1281,8 +1291,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799826730-kandurin-izumrud.html?source=merchant_center',
     image:
       'https://images.prom.ua/4BuiW7i3UnxrvQfZIMf37ArwgY3hoiWy25kY9-Fj8wY=/4367023012_kandurin-smaragd-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/y689zwyTdxgzjCJz6xdSAwjXOfVF1EQIxRgkIJVgSn8=/4552597826_kandurin-smaragd-2.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -1301,8 +1312,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799829169-kandurin-sinij-granit.html?source=merchant_center',
     image:
       'https://images.prom.ua/ePNlGde_XtbuBjWrrV7qPBbSne4l3tKv0-6Q2hS5L2o=/4367116838_kandurin-sinij-granit2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/hsQbXoJPF5Mu46nScMrVOIUAdgonRseONtyctk-5vFs=/4552593056_kandurin-sinij-granit2.jpg',
+    ],
     availability: 'in stock',
     price: 44.0,
     product_type:
@@ -1321,8 +1333,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799843759-kandurin-satin.html?source=merchant_center',
     image:
       'https://images.prom.ua/YMW-eej05kKtYenWnP-qCYZtMhgHxMEBSgR3LyPnGbg=/4367122020_kandurin-satin-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/t1Vjl3AV1dDkTuCcdZ8cm3IEIIjqv-fgR7zN6M3OovU=/4552565775_kandurin-satin-2.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -1341,8 +1354,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799843976-kandurin-metallik.html?source=merchant_center',
     image:
       'https://images.prom.ua/aEyWte72lSlfjh0wGUFbpoaw7xbsRWYG082384t49tA=/4367126821_kandurin-metalik-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/DtBMv9-je7diP3GCgzbC78mnupOvZS7QN9dXF2ZluQI=/4552568674_kandurin-metalik-2.jpg',
+    ],
     availability: 'in stock',
     price: 77.0,
     product_type:
@@ -1361,8 +1375,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799844746-kandurin-korichnevyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/Z0WdkqavS1tfbiVLcoEU9-RPBPBTp3EakxewGakTkjY=/4367131521_kandurin-korichnevij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Tzp5kN3jGV36puWI8DdlTxJAcLzheefsz_kghC0jZFs=/4552573921_kandurin-korichnevij-2.jpg',
+    ],
     availability: 'out of stock',
     price: 40.0,
     product_type:
@@ -1381,8 +1396,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799845023-kandurin-sinij-indigo.html?source=merchant_center',
     image:
       'https://images.prom.ua/zOIgHaGBh-jm4Rmt5axXJahHy7MmIHJYHAvU0eHEmFE=/4367136329_kandurin-indigo-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/_ewNiCkjjThfrc9JQlmVH5U1GMqoz-nLBn6rdi09qKI=/4552583795_kandurin-indigo-2.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -1401,8 +1417,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799845579-kandurin-zolotistaya-myata.html?source=merchant_center',
     image:
       'https://images.prom.ua/oNtqjL0S2QkT03Nsi58Zt7AiJ_59lbGUedJYDZvi-Og=/4367141855_kandurin-zolotista-myata.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/aIg6fZS9EIRxSiqcmmBkyI23df_IyXrHbQ9EHHPdHIA=/4552610710_kandurin-zolotista-myata.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -1421,8 +1438,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799846087-kandurin-zolotisto-zheltyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/H7cNo1eTq8tf0Nmd2xk6FXsaZMCL8LwRovUsyxm3FlM=/4367147078_kandurin-zolotisto-zhovtij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Q6Ia9J-7krw7EX4W3sODH5F8YrWsd7yiR6-d1dErAkA=/4552615682_kandurin-zolotisto-zhovtij-2.jpg',
+    ],
     availability: 'out of stock',
     price: 40.0,
     product_type:
@@ -1441,8 +1459,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799846340-kandurin-zolotistoj-pesok.html?source=merchant_center',
     image:
       'https://images.prom.ua/aElduWaiiST61RoxGX9b0CyUoeIQ1xxPBiMQjwKfbT8=/4367150889_kandurin-zolotistij-pisok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/qV6u-m48X_hWJKFIvDEY1Vk_TZp9PFQZ2jf3ftzi_u0=/4552576102_kandurin-zolotistij-pisok.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -1461,8 +1480,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799846663-kandurin-goluboj.html?source=merchant_center',
     image:
       'https://images.prom.ua/3BP9rPleeFEOfahdpa3NhK1ma_iX3ENd9yikKC-NRKk=/4367157260_kandurin-blakitnij-2.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8iUNU6AKNcpRfAmo9gzUyBwNSECfZ6Ec0ZZ_dDlb5RY=/4552578660_kandurin-blakitnij-2.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -1481,8 +1501,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799846872-kandurin-staroe-zoloto.html?source=merchant_center',
     image:
       'https://images.prom.ua/tfuJGA9SK_I8ktSXOxYD73cY7aKS3jSwmXENr_BBYYM=/4367160648_kandurin-stare-zoloto.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/fQ1HNoBrw7hh_c3mioRMPOrQ9r-vHf1FtO9J8Fu4rek=/4552602505_kandurin-stare-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -1501,8 +1522,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799847333-kandurin-zolotoj-blesk.html?source=merchant_center',
     image:
       'https://images.prom.ua/oGGYB9sOumGeMF5knP-zRskBzwftBx92BJJg5Uc6YDA=/4367165914_kandurin-zolotij-blisk.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/28RBYwktsGDSsGqhsnzz58IsEruEzpR3vdEUXWLsR58=/4552586581_kandurin-zolotij-blisk.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -1521,8 +1543,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1799847597-kandurin-perlamutrovyj-blesk.html?source=merchant_center',
     image:
       'https://images.prom.ua/DXu87T5NJgey52-Bc4UNnIaaDkKyM-FZwetdcdkpqLU=/4367170254_kandurin-perlamutrovij-blisk.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/1qpY5HuWeEh-Dob613CnFL-yoHWZuia332mlRdmjgr8=/4552588072_kandurin-perlamutrovij-blisk.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -1972,8 +1995,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1800162306-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/siKV-rxCjB3-6zWJHaUJEBPgOEXJtWZ602uGwtgK4B8=/4383453333_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/4HMwJ9QZqHuBKAosEx5lgMKjGnNvPDVQTsQqHUAZOJM=/4383453343_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -2613,10 +2637,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1805436028-zoloto-pischevoe-potal.html?source=merchant_center',
     image:
       'https://images.prom.ua/BmjnMaQ0uNH3k0GuaUzTjs_8sbYtNIbXYO1gfa6F5HE=/5320491356_zoloto-harchove-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/b3nCTeChDOVijTsnD-MRnoJqsmOAwN_aB7yycet-z48=/4385976214_zoloto-harchove-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 250.0,
     product_type:
@@ -3974,8 +3998,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809826555-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/MXW6VDV_ExeHw9OfW-xhXnS3rUktr8b5vKZ0-gAzKbs=/4400028029_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/6sIo8PmMHRgfFTGg4Xoct7fL06N4mGqUbn9qVTKot9Q=/4400032504_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -3984,7 +4009,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4006,10 +4031,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809826660-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/YExYtuWqDi08JfcC7zLwRVBm-oZI2JOuYtNVMLCdLEk=/4400039392_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/dW24_etyLe-sbc7ZKQmh7BZaODNZUZdr7BXzEVDCVFQ=/4400039399_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/UYYeO1QtWpqGWT6SvA9CsmYA92zeJbrLaocU1Wz5Hh8=/4400039411_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -4018,7 +4043,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4040,8 +4065,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809827472-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/lrqpChLSxrqQBlpzrVBjx91V059h9AnoWtACjoogU3A=/4400041200_konditerska-nasadka-pelyustkok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/TkBJ4YGI12cWjEKecqoa-QIvYiyPaPpNJ8dT-PuvR9U=/4400041289_konditerska-nasadka-pelyustkok.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -4050,7 +4076,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4072,10 +4098,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809829022-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/YwSUsOMFdQmnIe18b-Qrt1vMmBrwHJq014mki1r275A=/4400050587_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/KR9RTD0oRPRG4JMtKcty18CO-cp9z-F5rGQJdvh9Ajo=/4400050599_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/en7ZjOkg1zcMQN3HbdaCkpPLB7fvk9ILzSkLEgESZIw=/4400050710_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4084,7 +4110,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4106,10 +4132,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809829814-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/k5FTI429Bjjy3ysgt7ept8gk55lM8NinnxcWTwL1AKg=/4400053180_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/iH9PwxJpBSY67rD3bmnSgjemsnZBd1nVg5_YtO6uJpc=/4400053334_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/AwS77HZWWgIBVp6CjI6xWFf8CU61odUCm0qlni9sX-M=/4400053364_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4118,7 +4144,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4140,12 +4166,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809831747-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/DIIOkKmNFr1nISkPSFoT9wNXQdLkqZyeYeioZjyyYkc=/4400061642_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/O8tvfcsMdb_wP_jmyNZXwIHNrCno7mhKuEW9RiIrxGc=/4400061699_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/scKNBjVXSI6CBc7KfQWBC_LufeaBOOJrWA8wqLJ8YVI=/4400061723_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/vG42_2v8oP867rZOCiosmyJw8Qoh1KPZORrgJ_h28iQ=/4400062014_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4154,7 +4179,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4176,12 +4201,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809834790-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/UuecCsgfO6CJlh8KJ_4thM0JZJ3v_wBmXpCac1k29CA=/4400072906_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BUssADQtkj8O1O0if8alyAGq8Sy7ltztsqska-fxUFY=/4400072950_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/KYQD2hPrLj5VtX4GsFfpdAOj6xlUYgysYQfitwaccxw=/4400073020_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/tXRnZWa6FXKRc3avBoCf5nxa-OuKae2KvEa-TSY0TlA=/4400073162_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4190,7 +4214,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4212,8 +4236,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809836064-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/0_YYR-mreX2J5RxG8LSXkMNI0lg3Tah87IXutJ3SVf8=/4400076733_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/e9mKRfnQVETW5rbtdRbiWi29O-7F13GecJovOOlWzJY=/4400076893_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4222,7 +4247,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4244,10 +4269,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809838098-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     image:
       'https://images.prom.ua/Mi8Bu74_hdgMkXqBf1_yuscPOTuaS6r5JkbDkgkYz1w=/4400083688_konditerska-nasadka-krugla.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/2hF9yh7JzatFFt-a4ZjRzsjwRI5BcuZy1MJZPYevMV4=/4400083761_konditerska-nasadka-krugla.jpg',
-    additional_image_link:
       'https://images.prom.ua/tJ6hDDRH5meSyhi3IcrENwGECIX7EkEU3bHFM9TiQJo=/4400083784_konditerska-nasadka-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4256,7 +4281,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4278,8 +4303,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809844850-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     image:
       'https://images.prom.ua/13MdRqVgx7O5e6nlBNicaTHK7HBaTZjAaAOfB5w7Dr4=/4400102279_konditerska-nasadka-krugla.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/9OIee9KwFJ-7gS21aW5IJl4RM7B3Wj4mIAOCagULIYw=/4400102334_konditerska-nasadka-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4288,7 +4314,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4310,8 +4336,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809846890-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     image:
       'https://images.prom.ua/GffRjx5eFftO6Qy1biOhjVGGny2zVd2AxtwmWjXRW38=/4400112349_konditerska-nasadka-krugla.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/EzOWPf_uYNTuxcuY4d2Vr1DL-Rgn1Yl-oMbXwjk0LJ8=/4400112406_konditerska-nasadka-krugla.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4320,7 +4347,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4342,8 +4369,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1809849020-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     image:
       'https://images.prom.ua/kzdCklOxx-GgmfCZfoCQ5yURaSJl_xhsPfjJ7YYFFKE=/4400131649_konditerska-nasadka-krugla.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/99sVoT2XjZIWfOnsoSdZgW4J6KgzELwZWxEFyvjtkb8=/4400131765_konditerska-nasadka-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4352,7 +4380,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4374,10 +4402,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810131846-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     image:
       'https://images.prom.ua/_jeZ9aJ-m9OqHGUCzZ9MSS52CuUWgjqgfTYqhlDZx0M=/4400984146_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/13HIyKRGgzBWGwzZJY2AbGk8z4lPF42W7DLKqtIYkF4=/4400984216_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/Y-3zksMqRcJR-vZw_FCgbn83IxMPBRzLlYu-w-spRXY=/4400984290_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4386,7 +4414,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4408,10 +4436,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810133460-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/c6Rw0NmHLTzZ5BDo1HOPOR80jrylUmXG5UNrqN-XCGw=/4400989800_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/844uJ2eJzgTbuPECgPad0V4Ko-sfPTznqsdfjM89Jmo=/4400990045_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/OZwkU7VD9L3Y6x0Il-4-hUvZ42Be-N67pBs4SGgntJU=/4400990075_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4420,7 +4448,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4442,8 +4470,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810135356-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/AfM5ANF1oK_WtUcy9_W6vNYgQUeXj5Es0m_Gob62h4c=/4400993897_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/e_TS6oqq5xeCbY8Kguv5hz8KOgS9bk4zisDCUmqDlzw=/4400993971_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4452,7 +4481,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4474,10 +4503,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810136997-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     image:
       'https://images.prom.ua/7xQQk7NnOcfksc9TMaeXVyBRjaCEr9zPw5M1rvuynFs=/4400999468_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/wmPtFwTBXEBSRydC__-gHK17h7h3KSqTdyU1cMbSPSk=/4400999486_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/-6IO4F8brpHPbK0wCmaMqucL4RIKwqvSSemgymC2AL8=/4400999577_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -4486,7 +4515,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4508,10 +4537,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810138197-konditerskaya-nasadka-travka.html?source=merchant_center',
     image:
       'https://images.prom.ua/W38kLiPNaUIQZLHRc2GDNzO58xro3akt_ZkwpXxFtAE=/4401007097_konditerska-nasadka-travichka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ZQUARAGOg8HI_PSLgVVsyFA2cKPhBLdp3tdp2G4b9cI=/4401007165_konditerska-nasadka-travichka.jpg',
-    additional_image_link:
       'https://images.prom.ua/CSKaz4jpRYxMJ1BW6xBPGSOYaC0TqX6gxryNavB2XP8=/4401007241_konditerska-nasadka-travichka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -4520,7 +4549,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4550,7 +4579,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4572,8 +4601,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810139467-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/3fOaMdTAmLsa6WQ0n6L6qacZfjSrzcT4BEBDd757n6M=/4401016318_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/b20GJoQXceoYloxxzt8mWLpN92v5B6o7p2aKjfgX3Vk=/4401016419_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4582,7 +4612,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4604,12 +4634,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810140996-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/6s_hnOLoV9EN4YyrLlC_TSmesRkOiFQO1icQAVvkW9I=/4401019122_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Hnvy4Onv9wDfzRvjHnd9GztogD6-szFsE6lPN6xO2MM=/4401019202_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/79YoVIzvUnf_ik9yt-9OjLcVV-tW4rqMpraLLf8yuig=/4401019324_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/Qsg2oq6dCpbYLYdnDazVdqcpmPY660pyfFPDkDPCWnE=/4401019369_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4618,7 +4647,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4640,8 +4669,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810141276-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/JAoC_mEpqDYxHqqmohkLblQ5yirEOXqVc9VonznhoBM=/4401021150_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/xS9sLqO9-If_OkgkJbMPuDIbr46rMohTWekjnLapCmI=/4401021171_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4650,7 +4680,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4672,8 +4702,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810142674-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/ZFmoztmN3laBo26nIJN_SBkeSdLjpgJFcQRSvtbRW1A=/4401023179_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/R5BcvNmE56hvRLGaS9NxnVR74PMxSYZN_McoU1QHQj4=/4401023341_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4682,7 +4713,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4704,10 +4735,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810143790-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/QIQGl5TKze6MtIjeVNCTD3uPZ21aIpMYwqw_UsUWi6Q=/4401025285_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/a0UaKznqYf6pNld7_yv_hJN8IkjIkJQeq2-QBDw32XI=/4401025384_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/r4T7BVLwPAa6bKOwrh92PJPb76LMFJXAbao0snLmvKA=/4401025443_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -4716,7 +4747,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4738,8 +4769,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810144412-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/p8uVUorSakhW9CF2gXBaJfMT0PEDtKjVOLy9k83m9dQ=/4401029687_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/EzqOAWfn9B-lhZht7qa1q1xlN6UKY3Ya7p-9gEt4yNo=/4401029813_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -4748,7 +4780,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4770,10 +4802,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810145038-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/ksdU8dbf6i9Kbb8rWkf3BYG6vfei_0Cfi1k6em5NBlo=/4401034446_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/nzghKu_MdHHIDlnFx6e1BdRif2IfeVkzOErsrGExOXk=/4401034467_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/PFIiKNLFbum8IqSPSDjh-57CHs9x6O30tcy4sQ9tPoY=/4401034621_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -4782,7 +4814,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4804,10 +4836,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810145951-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/wB_5vPZQbA4nEcXEI3Vs3BIJoSfjTgMfKIbHyCIdmyc=/4401036976_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/I1IiGNGPZSqxBdnTP0iYyN4-B_jO00RG3e1-v2DrR-8=/4401036993_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/w8sWsnusx8JG_lr0lnR3mIJbzQeiR6HbcYt4FaqLDrY=/4401037004_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -4816,7 +4848,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4838,10 +4870,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810146171-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/a6vWt1MtFD6uLSNfTU6uLRgcm3aQueGY2lKweJZQ9mU=/4401040020_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/1WIlwTQNLQTuvlCSWn32zsNLmQCLTM1RXhR8iw9jZJY=/4401040035_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/I-JGmWYjJGPU3EKy6p4Ap7YrF5yda20TJAUQwqsOVZ4=/4401040060_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -4850,7 +4882,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4872,12 +4904,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810158953-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/eCwgcMl6-5iN7gCdihdTnYtMHeSFzGrN9s4iBA9EBys=/4401066216_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/YMPmU4F6jXl48mpQzfJdSRq_Nhv-aR3tbg_sk5QTV9Y=/4401066296_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/E4PZjzlOqfmlLJlC4cN_v5lI8E3DCLizVZMpqB-ALYk=/4401066361_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/kfiNjdv2jFBNavV0aEZcQBzoea0VlZ8HOR7lV6-MTUQ=/4401066583_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -4886,7 +4917,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4908,8 +4939,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810161147-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/GG4p6pKil4SFM7K1cSAF2f90R2MccWrkkMRwp3fFPp4=/4401074647_konditerska-nasadka-frantsuzska.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/LPT_RQWlqRNAhcbRrff4PNCnwA4KFTqdmfNWxI0IQZA=/4401074863_konditerska-nasadka-frantsuzska.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4918,7 +4950,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4940,8 +4972,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810165160-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/EDIeubadfD-FENMsJ2ivkCRXacrAM3Ch9Ixrp_gEr6k=/4401078824_konditerska-nasadka-frantsuzska.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/AzS3ZoC8It-8GpkBrfY0nYoE2EdxI40JBFkjhh1xSBM=/4401078999_konditerska-nasadka-frantsuzska.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -4950,7 +4983,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -4972,8 +5005,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810166246-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/HNHd1JnMsipL8gMi8DruOti-A1mECaVoOMwQktsNfM4=/4401083635_konditerska-nasadka-frantsuzska.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/DTDlRz4weTGU680fXyXRPIaV-Gq60AbZzQLASProWQ8=/4401083799_konditerska-nasadka-frantsuzska.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -4982,7 +5016,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5004,12 +5038,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810167502-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/i2WYEpoepYYlfLWswbB-Ev3aRAJV8vx89FEqRuALduM=/4401089960_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/uOCO0wCYwHMG7CTqHNG2QMurdp6UMolU-uRD6bRaCyM=/4401090111_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/sLBn5r6YHNgAgdWdSjklYo65lKg_ar6Bc7TwhKGstoE=/4401090221_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/FKBJ9BFT_6pR3Q0iSomPSqRVPDeNhrBo0z6UzTbuvpM=/4401090308_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -5018,7 +5051,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5040,12 +5073,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810170272-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/8zap-PNIPPzsEoI9aQU01_hXZlbZ2OEf4P9KSR0Ovk8=/4401106064_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/djJD4mTuvKtvzjkNtxvkfEZthtADrkE2WzDPfuRF0ZM=/4401106256_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/e6wx2VZNVurEbJOP2oksUaImiB6sUB26ubdzb3EXIRk=/4401106368_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/0-VyrNMrZ1tP0-puvR2zc49VqqL-5-kJzpJfXctuM04=/4401106552_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -5054,7 +5086,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5076,14 +5108,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810174907-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
     image:
       'https://images.prom.ua/v9SPsw0CyBHoZBzim5oHiv68eiFOQKHLx3y3rH30AII=/4401116080_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/oByP6S8Ck1r7cvFsFhBtWYdy5shg_fCF4iJRqQHaWQU=/4401116291_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
       'https://images.prom.ua/pmaiNrozZH1GzF1TfkPjtFOcJ62ItF-VMCVF_G0df3M=/4401116693_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
       'https://images.prom.ua/d1L1I68_IatW-Dmtma9eykn9dlt4nU7x0Ax3PJ-0kkU=/4401116942_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
       'https://images.prom.ua/5ZGDzWNXeC5OdVukN7hsSxeerM_QeRQmSQWWHMGC7Vo=/4401117041_konditerska-nasadka-dorizhka.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -5092,7 +5122,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5114,10 +5144,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810178034-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/rcYudiXYZiiqdCQfSJEAGO0Dz07r34WEkjTA5KQZgEQ=/4401127094_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/zyn-xdEt1W2Hha6fLkxPcWNrWu4iFLzx9yEBAQEJ9Uo=/4401127221_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/P2585Yt5lG1OOwN4M6khev900UJTJzk6FFO3zk4BdSw=/4401127438_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -5126,7 +5156,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5148,10 +5178,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810179279-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     image:
       'https://images.prom.ua/aLvSYhi7fBBhjHSsbRbic4Ni9PENqW_lGksQuH_Aer4=/4401135905_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/TABt1NrcQ5IBTcRVcpK2Ty9aeX9exMj06ISVnn8KQyY=/4401136021_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/z_OQnp5GkEjzM0x5XvAfLkfgC0crclDn0eZkLhQVfxc=/4401136053_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -5160,7 +5190,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5182,10 +5212,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810180869-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     image:
       'https://images.prom.ua/aycvtxOiSFg1tRdkERvvaKlTCUg5NhouIBlfO84RixM=/4401152055_konditerska-nasadka-pelyustok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/5dIjX8Z5RlN0O0sGczgfw_RCCH9OKkleB4PHUY7hAOE=/4401152154_konditerska-nasadka-pelyustok.jpg',
-    additional_image_link:
       'https://images.prom.ua/ecOrKEbALVzmMk-GYG20skt91Qto_HjY_H6ETogBEEQ=/4401152192_konditerska-nasadka-pelyustok.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -5194,7 +5224,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5216,12 +5246,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810183661-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     image:
       'https://images.prom.ua/YP5iosjsTKElsjGonMOAn9x1uBC0P-YSfmI-V7NE_9o=/4401154885_konditerska-nasadka-pelyustok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/7VfV4J5lmpkBWb-6uTXl1PNAsdCCTzIKv_RUy57qI4M=/4401154940_konditerska-nasadka-pelyustok.jpg',
-    additional_image_link:
       'https://images.prom.ua/NqQHeo87ZqfvHtCfUPfwQLhrY_TNUqfm7vmzYZPml3E=/4401155046_konditerska-nasadka-pelyustok.jpg',
-    additional_image_link:
       'https://images.prom.ua/WwGFtywlcDsiOAJ5jUfUPQkGv-nvGMP9sb6XtPOpmkk=/4401155219_konditerska-nasadka-pelyustok.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -5230,7 +5259,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5252,12 +5281,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810187924-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/s0pnwihjZODzempXtRK8thmlfVuKM0MicWPkx0VxVJ0=/4401172985_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/tDsMMu89iHnrRyHH_VWuz7DVFNrjq-5vBSHoTMcQ8y8=/4401173032_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/LD35Zh6RkD0oIpcMi6UhtzPw-NvOyAiRkZKsWzhCs3c=/4401173113_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/5Ysi4mrW6GBDnAXw0ZcjzPPjXrb-b3oUI1VbuYhsZ8g=/4401173160_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -5266,7 +5294,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5288,10 +5316,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810188990-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/3vpOkXlwVL88Wnpp6_JwuGdzRTEemaHWOcU-2cXui4A=/4401177285_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/-Q9hdFxyIc79CAUKvS2kJ9jKLhQg2HhKAbSAGsraN54=/4401177341_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/x7GNkttUY7uOt-oFxmpLt_eq_YnD1CWuLj1ZQ5HyvxM=/4401177414_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -5300,7 +5328,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5322,12 +5350,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810190317-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/m4qFMqocHjsMkoTni2LHv6V6GTrD1J5w7vXBxXeAoUM=/4401181369_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/HFarlxEwLX7OaWlRZ9BiYpN4whxjzPkYGTVnU71kLUs=/4401181481_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/lM1vuBu3SOVUf8G0-gDlS-Md2610Xjm97oMQAn22tbA=/4401181508_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/uPSJLP_aoYDPDmNpgeOOczP0d9GMkjRkVK-6O28Uiok=/4401181739_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -5336,7 +5363,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5358,12 +5385,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810192361-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/Jd3EJ71QKwNpEKltdEpdkUJNdHkiU8p_2IKNWYnqvis=/4401188220_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/NC5OpKUW-QkpNJZXQkQooH1Yyq_TbEIfSv3e2yHrSRw=/4401188273_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/4jL_YEQNI87WNwjrdhNtO53k7vqA3dmLsa25dBWPmkk=/4401188260_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/5PAj6Xf_TnAUpn_Ru6fCWccKDefBwOvflX2M54zCScE=/4401188473_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -5372,7 +5398,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5394,12 +5420,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810193650-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/Qu7A77oStD36bek-PvDcYOa1NY47A7cXZMVFXAVrEj4=/4401192365_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/4Nv2BbDrWy6pBfS-gCCSV_-8Ft9IBHz6KNfggoaDRqc=/4401192388_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/v7NMgXmnUrd8GBJxSoOIiuHDiiH9lqo32UQkqMJz0AY=/4401192440_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZW0y9VYcd8NmafcF3ds9Ha2CByvzbRbAEEK7rJMIj5c=/4401192513_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -5408,7 +5433,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5430,10 +5455,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810194308-konditerskaya-nasadka-tsvetochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/nUj_xq9icc5-Im2MCsH5rM3F4H396zO3oMZ6T_hDrkw=/4401198370_konditerska-nasadka-kvitka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/dcxIqLcwufjT-TKG2cArgMN6CzK1qmsTI5-6DWGWjew=/4401198395_konditerska-nasadka-kvitka.jpg',
-    additional_image_link:
       'https://images.prom.ua/oNZa_ywlWUCoJsA9URaZ3Vv-dsKimJ1Oamq7Yz9CSCk=/4401198417_konditerska-nasadka-kvitka.jpg',
+    ],
     availability: 'in stock',
     price: 70.0,
     product_type:
@@ -5442,7 +5467,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5464,10 +5489,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810196809-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/8UAW2VndBrvPjoyeJMQyiIL5NnDhUcw0zMURtRxA640=/4401201783_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/aXe_ZqF3ZYv8eM__eAQ31CWgageZVBfAs8_zgalTbz0=/4401201814_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/UbsNi12TzxAD4dml3aeniIJemi8aOztf3OFJLwDIOyU=/4401201879_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -5476,7 +5501,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5498,10 +5523,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810197677-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/WOcHG5NX2LPadrtJEZNFUvF42YDaqZhsd9YzBp8VmwQ=/4401206069_konditerska-nasadka-frantsuzska.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/OoEEzz0vFzwoV8e7VQoStxxywwcTtbufd8K_OhwS_oc=/4401206091_konditerska-nasadka-frantsuzska.jpg',
-    additional_image_link:
       'https://images.prom.ua/ynUAx1Erx_dKJu88gOTEDm3_GrKaRpGdq--lqntFZp4=/4401206109_konditerska-nasadka-frantsuzska.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -5510,7 +5535,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5540,7 +5565,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5562,12 +5587,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810203660-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/eU493YlEBu8BT0A2Ab21h687R1EW1m-ls8YtHdzqa2E=/4401220937_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/fiAtlHkC8LYZCGppNDMU4NO9olGgw7Wyg1JM5MO9PK4=/4401220982_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/L8OuThgQf_WKTK_p9BJlzzDTJ_4WMJPnCGwoSqJHcXE=/4401221016_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/cufr5P2xhgbWIlPbuWLGqgkpQbMY47lLIk45zpmPZ8M=/4401221044_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -5576,7 +5600,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5598,12 +5622,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810209025-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/PDFpET_y1R5a8_CIxaD0BTKbRTEq7ZWWMxPOJZ0iz5M=/4401224529_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8tVIh9ydYqBx7qFWgDRDd5H_QJULxW3DULMmJLX98Bc=/4401224557_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/s8N05tnQB2FjYgsBacfaHIro1MzxiAeeOHcebkSLRyI=/4401224694_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/wUQ-KN8x4FsFMQ968xIEw4Q-91Nu83Q1e3j8X6c32w4=/4401224847_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -5612,7 +5635,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -5641,7 +5664,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5680,7 +5703,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5719,7 +5742,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5758,7 +5781,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5797,7 +5820,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5836,7 +5859,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5868,10 +5891,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810408487-gelevyj-krasitel-telesnyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/iUD8v1_hfIQtRtggJSD_eoJj9Er5b_zlFJ1zbiRZ-0k=/4401901791_gelevij-barvnik-telesnij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/-3KHSQI5SU82TxM4L8wYu-NMA7u1MsDhvUvh-E9dIlQ=/4401902081_gelevij-barvnik-telesnij.jpg',
-    additional_image_link:
       'https://images.prom.ua/qmBajhsKOW37k8Z0xSurLQ6zZrMwMwPrU_CCd1BxNKw=/4401902310_gelevij-barvnik-telesnij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5879,7 +5902,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5918,7 +5941,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5957,7 +5980,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -5997,7 +6020,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6036,7 +6059,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6075,7 +6098,7 @@ export const db = [
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6114,7 +6137,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6153,7 +6176,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6192,7 +6215,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6231,7 +6254,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6270,7 +6293,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6309,7 +6332,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6348,7 +6371,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6387,7 +6410,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6426,7 +6449,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6465,7 +6488,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6504,7 +6527,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6543,7 +6566,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6582,7 +6605,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6621,7 +6644,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6660,7 +6683,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -6753,7 +6776,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Кандурин',
@@ -6783,7 +6806,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Кандурин',
@@ -6806,8 +6829,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810765491-kandurin-raspylitelem-svetloe.html?source=merchant_center',
     image:
       'https://images.prom.ua/aJ5j7UlL1nLQwmJjt8zoRoa6lVsiaGXRN1Chly_0VY8=/4403025436_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Rjx2aiHSQhX4lfdXLoVO_iAQmXmzZMPYHVCE2WXGQd8=/4403025857_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -6815,7 +6839,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Кандурин',
@@ -6838,10 +6862,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1810766820-kandurin-raspylitelem-nasyschennoe.html?source=merchant_center',
     image:
       'https://images.prom.ua/IfhDyLSG4UULLbqIKhtIv6sniogv3WhyPV_5iwfNGi0=/4403033002_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/AhHNrlt--qfJMXVKR-0ZHPVYT46nkq5OXBVEDh3qY9E=/4403033356_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
       'https://images.prom.ua/LtQnlI3OcZvizR46QkyXz659qcnsDbi4wSBu3OLmWV8=/4403033613_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -6849,7 +6873,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Кандурин',
@@ -6879,7 +6903,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -6921,7 +6945,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -6963,7 +6987,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7005,7 +7029,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7047,7 +7071,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7087,7 +7111,7 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7128,7 +7152,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7168,7 +7192,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7210,7 +7234,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7245,7 +7269,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7280,7 +7304,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7315,7 +7339,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7350,7 +7374,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7385,7 +7409,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7420,7 +7444,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7455,7 +7479,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7490,7 +7514,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7517,8 +7541,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813422967-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/oQtxUH_d53QnOEC3eGGpR-o215v20rReSj5qw1NP1yc=/4518268205_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/E8QiLDT1C3qgkdJ6wKlhVbieI_3XOTRQ_PlvKIJvuZI=/4412672750_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -7526,7 +7551,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7561,7 +7586,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7595,7 +7620,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7629,7 +7654,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7663,7 +7688,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7697,7 +7722,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7732,7 +7757,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7766,7 +7791,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7801,7 +7826,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7836,7 +7861,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7871,7 +7896,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -7909,12 +7934,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813530433-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     image:
       'https://images.prom.ua/RTBK2Ma_XWPG4SSSyzlpYbK8-qGi6JQ5s275bHM5Hm0=/4413178645_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/HdeVL7Dc778vGVLOJK7fi51veMAr2_wnIugNiVUzcrA=/4413178823_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/1-51LTrEmmgs-7y6swKXYN0NcP9hNIigIimvz6Uz37Q=/4413178845_konditerska-nasadka-hrizantema.jpg',
-    additional_image_link:
       'https://images.prom.ua/UXz3NVQQ_2c8bonuHibGaYQ5-nZNtTJA2O_Jts9N5rk=/4413178895_konditerska-nasadka-hrizantema.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -7923,7 +7947,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -7945,12 +7969,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813535201-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
     image:
       'https://images.prom.ua/JUv3aXi-62eAtfVM8BH2odlUW7AqdA-IcN6wLG--XLo=/4413196059_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/nLFuDznc7h0JPNhbt2ymIsI-6OCSRG2R4vbM8YcS4D4=/4413196173_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
       'https://images.prom.ua/bzrcN39ZSPhpSp1gPMAfiAfreWI6cFLuFw6XykTidB4=/4413196347_konditerska-nasadka-dorizhka.jpg',
-    additional_image_link:
       'https://images.prom.ua/Ugxie3jEFpQs7ORJ4IjL5TK-LLEsz7qrjef6AFkiKy8=/4413196450_konditerska-nasadka-dorizhka.jpg',
+    ],
     availability: 'in stock',
     price: 180.0,
     product_type:
@@ -7959,7 +7982,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -7981,14 +8004,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813538122-adapter-perehodnik-trojnoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/JSsoh_baD--Kyn9NQFFO7IAhMC79c8ICy0SyPKX6_Dg=/4413203888_adapter-perehidnik-potrijnij-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/5vG406FzcW_CTbGWV-wLTeBCOrLqJFcfDZZckFg4PA4=/4413203897_adapter-perehidnik-potrijnij-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/ckZkcqhg0Wz4oKUgCdQVI0ODdy4u3Lc6R1p8IHFWaeg=/4413204140_adapter-perehidnik-potrijnij-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/CxzdQacgW0AKbV4C9XYwImdy-JkgnkupzGB_6f4znsM=/4413204245_adapter-perehidnik-potrijnij-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/mQvui4AN5edb7EE-WMyEnA73WvGC28ZjQjkJsKvOQ9Y=/4413204318_adapter-perehidnik-potrijnij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 63.0,
     product_type:
@@ -7997,7 +8018,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8019,10 +8040,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813539478-konditerskaya-nasadka-listik.html?source=merchant_center',
     image:
       'https://images.prom.ua/o6FBVWTLQRin-VutIfoYkWdCdIS9fLj3Dccuxq5MbJ0=/4413208891_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/mPmMbRJF7XMCdg11CQwATdT448SIT0r1Felk9_Y0mnc=/4413209022_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/XdsN9b7JcWVTWVG1XzigTkTk6Uxo9-4qreQerlPJA1s=/4413209032_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8031,7 +8052,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8053,10 +8074,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813540439-konditerskaya-nasadka-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/JKBqDCFOpwwrhL72PMNsiRx0Zso20c7wOqiKRL3IPVc=/4413215718_konditerska-nasadka-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/b-A9dkpRkCgw3YGffH3U3c3N4SEK3jPofkjx8sIrz5o=/4413215801_konditerska-nasadka-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/O3iRmzAAUlAk-JRJg7vf3RejYqCA24HK2I4WhtNgtAA=/4413215839_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -8065,7 +8086,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8087,10 +8108,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813541125-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/5BcYOsx-LCXcXnVeOYjxpraeWpiQfhahfHkRYPKbwf0=/4413220154_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/i5gm0Jo1COIhwaThzgWW6PyYUkcraedgVUv7RCilKHY=/4413220283_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/TQHdDn7OceLa5emuenuFk5GMAtHoK4S1rrHyvy_eUYU=/4413220382_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -8099,7 +8120,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8121,12 +8142,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813546425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/3zI5LqW8ZeSysFnb9hPNxyr0g1F_q3UxjR0qpynumPg=/4413231131_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Lj3f--3C6eW-mtOctAK-idOneOYffBIHgUUPgOZl9qw=/4413231244_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/eIMJcvUkjQFw8J8slj2iUWs3vnyw0AR0jidVgLWBvLs=/4413231421_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/-ALkAMCU04BzWPQyYyouwM4qkq0Vq2-ti6tGdv92B54=/4413231496_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8135,7 +8155,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8157,8 +8177,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813556431-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
     image:
       'https://images.prom.ua/OYbfkwIxKp6VWs4F13xSX_dzeVDHWQ7EbykvuSXL-Uo=/4413241924_konditerska-nasadka-kvitka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/wq6uKN3GmukDGn5TP_fov0UUf9yrRoHS1lzmVYflLZQ=/4413242125_konditerska-nasadka-kvitka.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -8167,7 +8188,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8189,8 +8210,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813560182-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/1KX7UFl_jPnPgybmD7-G4ShLE3FygPEapEzoHqAO5ZA=/4413250108_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/EXYvv0vx0oG1D_i9Q8-AaCroBJoZR_zJnsZK-qeeLOU=/4413250248_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -8199,7 +8221,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8221,10 +8243,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813563486-konditerskaya-nasadka-serdtse.html?source=merchant_center',
     image:
       'https://images.prom.ua/zIyInJ5lIoKecHTYhkyeClR4Z20teAKFif2sLv3kIw0=/4413266085_konditerska-nasadka-sertse.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/b_NDJqBv4ysk6MkyHyH417_-WIbGiAfJY2z4eYNzvTo=/4413266385_konditerska-nasadka-sertse.jpg',
-    additional_image_link:
       'https://images.prom.ua/5isVTr5dvfHEbhLFOW1buBu4SpzZ6ZbnkHTXKv9BANA=/4413266608_konditerska-nasadka-sertse.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -8233,7 +8255,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8255,10 +8277,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1813569290-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/L-_lxyoOL05gHTeIS3lcUQ1BHqPlEhulzCqG3gFu8_g=/4413281458_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/4yvyGCt0Dr2yS-7sxgI3LW9UJZHWHUS9DiyRn1gfOlM=/4413281460_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/_RNH3XggJwil-OXv--jUsZcS1h2ytvWLY9uLZngWt-w=/4413281461_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8267,7 +8289,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8328,8 +8350,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814109579-konditerskaya-nasadka-bismark.html?source=merchant_center',
     image:
       'https://images.prom.ua/qSHp5KJQWz81gttTtkFP1A6bx2Sqyb2zCQjQM3XN47g=/4414882252_konditerska-nasadka-bismark.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BXi1nS5Wi7EBWtltfF_0G6dd7jb3QquWCS8od5bn0Jk=/4414882293_konditerska-nasadka-bismark.jpg',
+    ],
     availability: 'out of stock',
     price: 142.0,
     product_type:
@@ -8338,7 +8361,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8360,12 +8383,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814122574-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/ucoBjfCM9HPLpBO5MefLmtlowZDlF10V3enPq8gsbjk=/4414892298_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/WQsmfcN2LVzzI6JkfkacZPzsFNeNv0FucXSYXGVLWbg=/4414892373_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/Fd8gNe6cdr5dQGqunGqW7eJg2yo8N4ZYQdZloU8YIlM=/4414892418_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/xxgIYZJWvl9Y4pOagqvuk7vxP01WYjSL3VyRaS2I-Sw=/4414892516_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -8374,7 +8396,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8396,8 +8418,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814126387-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/EUbIDlcMjgMXo4LZJ3YUVyt96ISiI9A_b5qX4RwRkwU=/4414896989_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/LxTNa7Ytht4gHgiCow4RxTSoX27o5UbWKaLHkwx1vAQ=/4414897014_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -8406,7 +8429,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8428,10 +8451,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814128496-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/nF-8Fo1QbjhWmynmJOD84iQDbdZxhmXAFjP3rzQs094=/4414906105_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/m53_QQcKnwTGAp8n528Z4ZFQcJnkCnM3q6Q-7_GF51M=/4414906224_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/APRk6imEUiUJMsGS-0cR_g_IxKS1bnjkMAVWOqQj9cM=/4414906364_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -8440,7 +8463,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8462,12 +8485,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814130352-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/cX3aGy2NK8ex3Sg_S0ihvWkc_LuURnFzhwXRMpxdi2o=/4414912741_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/iJwSwwfT2VZB1uxg4hQVvfmdPy6yebNBse8iTsFhPMM=/4414912820_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/teO4qITI9XGiZwWiexECDw1OiT22k7LrT4YS31Kim9k=/4414912979_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/RF1LZUaqJffmrbaMV4eyX3eAZQqbyWYtj4qzKJDrf70=/4414913116_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -8476,7 +8498,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8498,10 +8520,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814136320-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/DoY4t0kPt_EVQbaiQYKQj5ZO9cwD7nBkjZJF49mftp4=/4414927560_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/MQDmCSTlUEOM30-JOTwaIq74nX3n9OrXDPyBnnefJ14=/4414927589_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/hm9Jd8RI8yiFISZCrzJmS52AGzfzti6fbNdxBVJeG78=/4414927668_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8510,7 +8532,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8532,10 +8554,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814139510-konditerskaya-nasadka-sant.html?source=merchant_center',
     image:
       'https://images.prom.ua/T5Xc5kSrP1FHPHuLXY_z1IN9BxY8CZ6N1-i9Fr2DhYQ=/4414956364_konditerska-nasadka-sant.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Dxt274dNhibWGgHV86Vu8TWuHVXIPMWL5DomeS9onXQ=/4414956453_konditerska-nasadka-sant.jpg',
-    additional_image_link:
       'https://images.prom.ua/ii5cNix1i-mxX9UOuey5VXSIYWOWfA7kNscmjLEusQg=/4414956587_konditerska-nasadka-sant.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -8544,7 +8566,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8566,10 +8588,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814150075-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/61iCt6vEp7xRZONbVSmMyVIabquJOZZNOMNElVNCvUs=/4415854238_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/KPDykU34F0eFEEaZ61wh-1KnRGj9MX5iecpIYM4RF2I=/4415854329_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/C5xnB4BwB-E7d2pLm9rbwM3COO-Am89uomBySTn2Qp0=/4415854374_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -8578,7 +8600,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8600,8 +8622,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814433434-konditerskaya-nasadka-sultan.html?source=merchant_center',
     image:
       'https://images.prom.ua/VF52AaoMHpwgkAoeDXisYxjzwtOgsIEgINLJTV2n5ZU=/4415843199_konditerska-nasadka-sultan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/H09D2zO34FCHEQnRow2sieLs7hu27x_fxLStjsOm0go=/4415843200_konditerska-nasadka-sultan.jpg',
+    ],
     availability: 'in stock',
     price: 180.0,
     product_type:
@@ -8610,7 +8633,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8632,10 +8655,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814436851-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/RVjp_1G7VxfGg-ccPy2oIbgSNri20tWBYa77KikSngc=/4415865445_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/FDLm30ULXuZJaKnYL1z3RtaiRfMRnNhMaMimB9Pqxh8=/4415865626_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/nFfNfeKHtXF1S8I3hTgahwNZl2OaYLzRdOusNhq_7Vs=/4415865684_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -8644,7 +8667,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8666,8 +8689,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814439008-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/-45cfo-5gOye7sGQ9YZmLksEkxtTw_8RAPOU_tuy0JM=/4415872247_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BUOGuIiURs0i5t3bZEVhF0Jfr683x_oSRASRtNOmD9o=/4415872444_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8676,7 +8700,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8698,8 +8722,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814442292-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/LK-6llHSeH_2cFAk9GL-p_Tv_1vGHzzerJIIgTt-eVs=/4415891401_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/gy7w6duMLdBOH58qTN8QCesg0RxvE3n5kwH1GAYkf7A=/4415891480_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8708,7 +8733,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8730,10 +8755,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814452465-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/S2CdVbvsBWHoE4-d1AOEVRVHhXR9oYks5FfTxH4oxW0=/4415897619_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/jkDrtzfVJPhhJk0uoPWA0xXi_8Sqj4jN6B_jTI8fxJQ=/4415897644_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/PMQURZxH1-RYVt5kblbEa8nbWeIWhM1VDBirdXVvO9I=/4415897736_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8742,7 +8767,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8764,10 +8789,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814454053-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/-UB4YJIYOD67MxN2e2wyYZv5z5XJ9EgkVWy8bJ7FJj8=/4415901730_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/9lIT5LKw_1_DWPcU-XCTz1eSSHcHahOaRoFYqkExL1w=/4415901802_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/Dfk-iIneVRY13uu1t0-s-cd6Gux5xvpZk54TW-mQNh0=/4415901927_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8776,7 +8801,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8798,10 +8823,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814456019-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/Q6ctp56EHClXuJ-XoaiqOpS7UF1yrY6x2nQqHJkdRh8=/4415907523_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/b3W72yxsR5VxGmdGoO8k9mMvA-pEGliNHZd7LWoRIp0=/4415907616_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
       'https://images.prom.ua/U3VFqUlaLI79cInRi6Y4caP9iWSfRpXtqCh_a0ovrFI=/4415907659_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8810,7 +8835,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8832,12 +8857,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814456143-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
     image:
       'https://images.prom.ua/H_SuU3zeB9OJ6UojaCcncuUQz1lTtX2UwRanF--3MD4=/4417268419_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/oWdSxvguJip7LyN1xWmm2hUSdkXMMAvvTEdnT3PavUY=/4417268507_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
       'https://images.prom.ua/fL83y_5yiEXEIOPvw8oLJd73AUbf5MRCJtw1aYesGKc=/4417268528_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
       'https://images.prom.ua/ivFp57tQ92sSkDVuZHJMWGE6KmHDlOV-FBbGRBE_L8M=/4417268675_konditerska-nasadka-gortenziya.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -8846,7 +8870,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8868,10 +8892,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814809845-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
     image:
       'https://images.prom.ua/MOkpWm_FIwpJRuV4d1bihlQm_swkMUwk9JnAjeZ7agY=/4417276403_konditerska-nasadka-kvitka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/G82fsxDSmHnzNgMeqsoX0C-9mKXwgqzGKXx_5G1lmQE=/4417276611_konditerska-nasadka-kvitka.jpg',
-    additional_image_link:
       'https://images.prom.ua/fk1gU_z1a7xd8kO7Iqyk38vFG1PV-mC2h7ADhXGeUtQ=/4417276671_konditerska-nasadka-kvitka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8880,7 +8904,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8902,10 +8926,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814810953-konditerskaya-nasadka-sertsevina.html?source=merchant_center',
     image:
       'https://images.prom.ua/Mq_gdzxxWb9N-svreC7Imy61kDdIwAh4Kcji0pLKvzw=/4417294819_konditerska-nasadka-sertsevina.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/CGkD2H-_UM0MoeclhSOGWb1MhdLxl6v7Ml59YiNzGD8=/4417295064_konditerska-nasadka-sertsevina.jpg',
-    additional_image_link:
       'https://images.prom.ua/6VpvdJORzrcyVvHmv99khRLGiJpyWb1F5yU1-8jS6V8=/4417295210_konditerska-nasadka-sertsevina.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8914,7 +8938,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8936,10 +8960,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814815249-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/mU1ZRVs7W1gmOwa9P9TQd4KsQUSwqBDGIp-pCE_dlxU=/4417760981_konditerska-nasadka-sertsevina.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/C5xpcPsI1aG4w3XGtraF0LkSNrikCADDV-mFdxRdsuY=/4417761162_konditerska-nasadka-sertsevina.jpg',
-    additional_image_link:
       'https://images.prom.ua/8LGBXwRW_J3TzAAiv1m4992mOEtrZOyAYJ0N7sNAXE0=/4417761206_konditerska-nasadka-sertsevina.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -8948,7 +8972,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -8970,10 +8994,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814964766-konditerskaya-nasadka-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/AYCWhpWATz3MQRoWgBTL1tdCyemQCERbegDwldokpZ0=/4417767735_konditerska-nasadka-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/g-5ZNXzIBhQCTkB1864HAxWvyVRxUW23DNrvMt2689U=/4417767807_konditerska-nasadka-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/OsraDWgv2x6D1WjzJz9RuRbtuqvzoeRTIeN1DRYV3MA=/4417767898_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -8982,7 +9006,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9004,10 +9028,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814966018-konditerskaya-nasadka-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/K5TULf2kMHcgNSS_UNVyj7jRbr8GmfRzH0JpXxLDfiU=/4417811215_konditerskaya-nasadka-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/91x3Jqo8oiF-jyEzoSK-g-bUhMZWsNbEwp6AxzCqTuw=/4417811298_konditerskaya-nasadka-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/z63nff3xaAE02LuEROi7swjEeMxDNqi6ZXjjboSh5tI=/4417811369_konditerskaya-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -9016,7 +9040,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9038,10 +9062,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814982320-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/g9QhAiv0G9mAnpWh0koqRF9_Zxf0dn0dN-lUdQCeWwo=/4417820939_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/9_ntVI-hrfcVZhACw0qsgMaaKQWQjjLfuMYVXKq0Mno=/4417821006_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/MjNulCnzokqArwzuT_pK7oWNhfysTSbsVNW7ETvx4WA=/4417821251_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -9050,7 +9074,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9072,10 +9096,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814983986-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/6pasvZawqfTlWQ_LHxESTVNfzPLwLVLrB6XE6yEEb2Y=/4417826756_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/aNQ5LVWoRi8P9Jk-ROUVNiRQV6aklYTxtYANPKNcsN8=/4417826970_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/IGWWhgeYM-XN0HHQTFzN9DIirGCwjmqn7DH67BGlCV0=/4417827144_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -9084,7 +9108,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9106,10 +9130,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814985694-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/ihCzg7OWekoquuoXSn325VtjBIYd5TAD1QZgrzqCADY=/4417829985_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/7xkWP672NTRWXyRI2JTQLNv8avoRvMBgHVujbqWaZ9Q=/4417830127_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/RnNgkFjvJAmMyuMm4fLEr7ecFi_H7n2CK9gVBeC1Ai0=/4417830182_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -9118,7 +9142,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9140,10 +9164,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814986322-konditerskaya-nasadka-sfera.html?source=merchant_center',
     image:
       'https://images.prom.ua/BBSVCGQqxOmxdyln-UPnA08zhbYFJKAAPky8bqVJ-0I=/4417839968_konditerska-nasadka-sfera.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/D1DC8CJcCTontbxcMnND7Qz7cMdlH-pzg09N4OChdpk=/4417840037_konditerska-nasadka-sfera.jpg',
-    additional_image_link:
       'https://images.prom.ua/LWItGyhRx_0a5sUT3oWjILxJPFNBZvwDCxWFxGBWQ6s=/4417840167_konditerska-nasadka-sfera.jpg',
+    ],
     availability: 'in stock',
     price: 180.0,
     product_type:
@@ -9152,7 +9176,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9174,10 +9198,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814990066-konditerskaya-nasadka-sfera.html?source=merchant_center',
     image:
       'https://images.prom.ua/cyd6WcxrnvHwE0FRDw-ETmWq9qfELoYkLIotPxhH-RI=/4417845475_konditerska-nasadka-sfera.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/gx1uYJRB0IkSq_oA9eYZ3mKvJd4FwyMu5mSC8NBgbmg=/4417845653_konditerska-nasadka-sfera.jpg',
-    additional_image_link:
       'https://images.prom.ua/Fhm9UQ5_Av_kR_IX3mAFD1XgGw2V34Cc3MfyWfSgpjk=/4417845700_konditerska-nasadka-sfera.jpg',
+    ],
     availability: 'in stock',
     price: 180.0,
     product_type:
@@ -9186,7 +9210,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9208,12 +9232,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814991775-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
     image:
       'https://images.prom.ua/CRx49Uo4LZQIeuyeNfzNlkhgOIIngcZapMbnHb1SBtU=/4417857128_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/C_DoqW17oJy0avYwy0SPKGJr-yvrXeYF-Xj7zr2GIIQ=/4417857142_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
       'https://images.prom.ua/Y1HM9ct-Dhsi3dunMF5n3d3mwJDrxQmA-WVpOE3tpt4=/4417857298_konditerska-nasadka-gortenziya.jpg',
-    additional_image_link:
       'https://images.prom.ua/Fs1uOJi2OK9eSy8KBn9-9RlHTxkek7zr9EuD-HP8ALM=/4417857455_konditerska-nasadka-gortenziya.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -9222,7 +9245,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9244,8 +9267,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814998455-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/gj4l4rcEZsh7aq_Idvpsyl1KweDjwmYOox5autEKT0U=/4417862867_konditerska-nasadka-bordyurna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/bT6KDRSIMn5O0n3mi5AIUWxCuYKEt3Lh7j7365JJuJM=/4417862971_konditerska-nasadka-bordyurna.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -9254,7 +9278,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9276,10 +9300,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1814999268-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/UvfxE7z5U4gpBl2tdlA6QPREaGUxdsO9d1_3hvdpaM4=/4417868979_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/c3vlyEi9k_NAKjMZLcCHQGRRwAxeFsK7ZXwKTrQOiSI=/4417869095_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
       'https://images.prom.ua/L9Ngdwlghk5HoIuACkE04xLwIlUZmcn2n9tMlF06JVw=/4417869178_tsvyashok-dlya-kvitiv.jpg',
+    ],
     availability: 'out of stock',
     price: 68.0,
     product_type:
@@ -9288,7 +9312,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9310,10 +9334,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1815002653-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/moSpCJN21UyFY5J1LNVgDL7YjuTXaokT5GPW5IETF_Y=/4417872402_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ZEZk22VAY73hSMLNfQzKdlCQhjg1Q3elKyR4ZklblOk=/4417872479_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
       'https://images.prom.ua/HBH-RVivHt_bKrlCSWckdweCZSFfMamvObETJTI2bhc=/4417872496_tsvyashok-dlya-kvitiv.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -9322,7 +9346,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9344,10 +9368,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1815002783-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/bGStyjYpejq9wtYHJEAD7bSl33LavCn7HDTJQsAA8iw=/4417872778_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BoR084LxLfn3qXsKYppoJNjyZtXYgDRYIeYW1aWXDOM=/4417872779_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
       'https://images.prom.ua/dzV1Fqp6T0BtmV3Y3GXLWNb2Hf__LN-9obZnR4hV62g=/4417872781_tsvyashok-dlya-kvitiv.jpg',
+    ],
     availability: 'out of stock',
     price: 68.0,
     product_type:
@@ -9356,7 +9380,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9378,10 +9402,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1815004854-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/nBNsCfxA1BZWrekkOosvavs_TvdXo5ikjSU41IPdHO8=/4417875136_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Gk-vr6XK5p4lOQtDrlznKju8cwtgzWQMlU3LhI1Vzc0=/4417875137_tsvyashok-dlya-kvitiv.jpg',
-    additional_image_link:
       'https://images.prom.ua/5FgloiuCi0A1CQ2S7uvmiEagjxy0KSJcir6SQerRqpM=/4417875138_tsvyashok-dlya-kvitiv.jpg',
+    ],
     availability: 'out of stock',
     price: 50.0,
     product_type:
@@ -9390,7 +9414,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9412,12 +9436,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1815015523-konditerskij-meshok-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/E3C2GCEK-MMHNa5Xe23u-lMCzKiJ69zExJS7fYT67a4=/4417904901_konditerskij-mishok-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/lEVdCnwgYqIbvFEtvXhzwFCOa2wCxeBMgMtK1pF3acY=/4417905061_konditerskij-mishok-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/q43XIh-I6IoD7xQa_oSvrjxF0PE2dGEUB-z56SGPtXs=/4417905240_konditerskij-mishok-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/2lcs-cSfgtKXTrTh03G2WsHxcp4ME9wptsH8gLNU7Qc=/4417905455_konditerskij-mishok-ateco.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -9426,7 +9449,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9456,7 +9479,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -9540,7 +9563,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9573,7 +9596,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9606,7 +9629,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9639,7 +9662,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9672,7 +9695,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9706,7 +9729,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9739,7 +9762,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9772,7 +9795,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9806,7 +9829,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9839,7 +9862,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9873,7 +9896,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9906,7 +9929,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9939,7 +9962,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -9972,7 +9995,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -10240,16 +10263,13 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1817261626-zoloto-pischevoe-potal.html?source=merchant_center',
     image:
       'https://images.prom.ua/Jz3dVdblVYoBsKarJ_yGH5RX6ZsKSCyTjz7XCatkha4=/4425819550_zoloto-harchove-listove.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8c7HGwYSXuhXjDzt7m2WFkV3f7XQ00ctZZj0IGjOpv0=/4544273041_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/_ip6q4v9U3dqbGOwWUIsqD_1mxxHECiZOt4p8vjwBpU=/4425822063_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/OJcsgalaiKmottcnONBod1RsiOo0_CuZ5-eyv_bIB6o=/4425819551_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/gngTc9e_2NJG6sneJ1GkEH0UWkVXTNuOHmfq7-USse4=/4425819556_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-listove.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -10269,14 +10289,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1817266063-serebro-potal-pischevoe.html?source=merchant_center',
     image:
       'https://images.prom.ua/iHG0xWNNAPR7ODehCLPrdKTTlMgICEHuG3BlCimSq5Q=/4550914748_sriblo-potal-harchove.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/7NsayDyfQPFVyFe1kVKdKGeIJqnfofLetJILTY_aPq0=/4425857392_sriblo-potal-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/6g33a7DRP2uUO7a6joC641DuFmQSYt99ZbVcBwMFu78=/4425857393_sriblo-potal-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/ydUEdJGwn1SJHNr-X74KTk3jTPsq66c6XsVN7ADQbxI=/4550914751_sriblo-potal-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZcFQWrOEPwFYDmhmqcdj6vqDqJN6BoTyJEqYH-J6RXI=/4550920037_sriblo-potal-harchove.jpg',
+    ],
     availability: 'out of stock',
     price: 200.0,
     product_type:
@@ -10361,7 +10379,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10383,8 +10401,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828639590-kandurin-antichnoe-serebro.html?source=merchant_center',
     image:
       'https://images.prom.ua/30WGumhygxXJh5Ei4L9CJHsgIKWKUnPlFwTzDZ9Ve1c=/4464438288_kandurin-antichne-sriblo.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/fCl8HOpDyfN9DGhodGuWBeoHHDRNBVHfFkfY11rRYR0=/4558935496_kandurin-antichne-sriblo.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -10393,7 +10412,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -10424,7 +10443,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -10447,8 +10466,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828668929-kandurin-raspylitelem-rozovyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/0E7DvPlRKTHPwYGTCYpaAjGI-FDcTKNlwsFQEJ726mk=/4464502271_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/NZPmCR0yj9_l6x_ymD-tgD_eVZ2x_BytT5Iv2sCSpU0=/4464502340_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -10456,7 +10476,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -10490,7 +10510,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -10524,7 +10544,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -10558,7 +10578,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -10585,10 +10605,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828681616-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/JnK7nbJedtlzX6AmvRWhUZ3sVjRC4lVBD74x9QPaZKo=/4464550277_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/xuV6K4_Cnqt-8cVmiavQjt-YReAQZHnXyqqYbiuyZz8=/4464550433_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/tBuON6Xdx206f8B_xEPWiOA-CjqNWiss8ini1bFtTmc=/4464550559_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -10597,7 +10617,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10619,10 +10639,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828685977-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/-EEJTCdrEaf38CEPzQGizPGb9VKSfbnu_OZtnJ-5DM8=/4464566864_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/mkXsWmKrDm9BuuSO8MO1C2frmJxS1lZSIchDnia5feg=/4464566967_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/_4Jm0KMKGa4L-m0URjZCaytajd-itVz-aEANflpYbHM=/4464567083_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -10631,7 +10651,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10653,10 +10673,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828689258-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/EazaHmop-hZn1Ju8Y59R7DvrQmBuxpDxouS7nBllYFY=/4464575101_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/DicSbwvDEdSfzJpMeQumjlJoY7hdzel-dWbNaUMZmyk=/4464575264_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/JZw2GJzxC0tjdRa-MFOoqrpOFkw6LxrubgP2dx1vLO4=/4464575366_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -10665,7 +10685,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10687,12 +10707,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828690738-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/XMj-RBKXrgkiESkXQRXJV4rMo2eKCB_1JxQZZ5zT_UQ=/4464583125_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/NfhG35gWusffKRmIkpZO9sHdA1BBSlLFIG80Ky2rxkE=/4464583162_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/Dp2TTrPcfikZiYf-qALZY9ufh0SwsN_myi1KRBbx7rg=/4464583263_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/2yxQd2nr0qrzvqWUjzi579east7oZRXLXMsnMqbhM78=/4464583434_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -10701,7 +10720,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10723,10 +10742,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828693996-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/cmU7Losu5NF5ITC9RyzXReymm062WF8g5vzXfmJ1jmc=/4464592735_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/5PF0JWDA8rglwXgpiGY7WnUqD8CDdmRr8wqHVoEdg7k=/4464592790_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/Wds9LJAnLa9dRbVqkEcl9TeUNQCNqkkuOE1Bys5bZxM=/4464592944_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -10735,7 +10754,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10757,8 +10776,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828696401-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/fVLaalfv2Obr9xBc1842_Lu7wsdfk0TMmPs8A9Yy530=/4464599428_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/KaI8bZg-orIEHEzNMn5Yd2yoz0AUtedGMYviAI0xzVY=/4464599660_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -10767,7 +10787,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10789,12 +10809,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828700670-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/YmWj_NE5A2z2HiDL0v7B3MtfEjpCY-80g99JsDVTvVg=/4464612321_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/AgnB8QvywMztYhr0KTppo2YBFzfTDA_FOdRTSCIbigk=/4464612404_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/0qLchQD-yR_qkWklez5BfXDodFQNVXHbRpeMEFe7XJo=/4464612673_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/Ye-bATsupz65TPZxQy-Yc_IfNjUCt83F5U3X_p2xwBY=/4464612896_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -10803,7 +10822,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10825,10 +10844,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828702450-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/oUKTV5dIV4hg1ltqiGOxqBNUaPj-xnMczhDd4Ts5XJ8=/4464619774_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/H6cSaDTE2L-4W7ancqikcyZVkTNrysyTNRFdgNqkOtI=/4464619910_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/NBrY1xkl6iJ-iATkDhT6GGIlctTkTvz2335bR3DdBF8=/4464620065_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -10837,7 +10856,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10859,10 +10878,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828707329-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/1oS6ePykaJ9ymwqVzg0dxqvpHkdaapHkAqkSvvGwCnM=/4464625420_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pOdYdhIbbNSY-FJG1e38oU9HJZG2lcMc8o_CEqrdcDI=/4464625485_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
       'https://images.prom.ua/NJTvL6w01A2MHqZzRpECJ6cM8x0C3m7BZfDgaxEilKs=/4464625556_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -10871,7 +10890,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10893,8 +10912,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828709271-konditerskaya-nasadka-listochek.html?source=merchant_center',
     image:
       'https://images.prom.ua/ubbT5bDZS_2FRLWxZpb4mSsBpiyx8xcdncmM89CbxQs=/4464633646_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/nMtB54s5Kbp-A94runSIQjdOFqXdYaKaIQtskYWGz1w=/4464633865_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -10903,7 +10923,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10925,12 +10945,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828739203-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/e6NLaYajoqyOdj-e6MyTSqBdZVak2heoGYbx5YOJ6VM=/4464720076_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/WHiWWzTdkm07EFFY-R5KlSV5tF1-yIdPhnSj4g_j7iU=/4464720267_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/aRxzQ1TZXNdVj9IV2usLsPkRBYXtzTlU6HKeu8Y9NYs=/4464720306_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/5pegUkI2cqf5ppmhepfWXz-VX8uvoOOosnbxY5tnWM8=/4464720582_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -10939,7 +10958,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10969,7 +10988,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -10991,12 +11010,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828742530-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/LB5yQhfZy0WqkJzhHjKCA1xhkcX-IVGBwNkSqdx7RbA=/4464736549_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8u0vmif7iNDoHt--yF8qdDdKAdqPfBG3u9vVrOQvTGM=/4464736634_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/YfObgXP61LuF6kIiPNolz92ZtvCnLLSEX7fcOBnUxzM=/4464736701_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/QuJdVsNzwWb_9hgHOMlh-3-ZjoSoDIONI-hgobJKAbE=/4464736838_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -11005,7 +11023,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11027,14 +11045,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828744377-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/iMMA5hRuosLbq_GDMxxs2y1BpcRg3LCzTlqCSwUxyBM=/4464744380_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/V0THuQ-iOt4RU9thmP5UpCWSd3W-BOvlw8VE0s1zeDM=/4464744632_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/japedUNWAaUYB4NCkqQf2-6kIeZvgyZAMYCywUMI0wg=/4464744835_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/cIBkD3mJCbQ7vD9OsVe1o8Nk5QPAm1yGyLFLCHmpWu0=/4464745051_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/4BWy40g_7fSKysVAJ_GXXVKz4NmgLm9CP8gcv81e1Fs=/4464745240_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -11043,7 +11059,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11065,10 +11081,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828745546-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/8LE2Nxvu_IQrZzwsHa3YWY3kL96x66bRqiZAcGVrAW0=/4464756899_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/KqEFOyCijX0rzR8kpIRgqHNJZlB-F3CQiQs_aA_C8AY=/4464756970_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/x_wF0hYXeJLMSIdVT_PWbVJnyTUCfN0Yrt7RDHkjzgc=/4464757086_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11077,7 +11093,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11099,10 +11115,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828747730-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/Cxj0sAruvKwExgiDelY1UehTCDjJwjugOCzbfXgkUWc=/4464768469_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pTdFAXhEhRPXwxZxxCBV9RehrVGhFZSEvtlZyDYQMIk=/4464768596_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/3wu6mbfLXOppIZPY7GEWgPye6Wt7h71smPHXlXsfeUs=/4464768766_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -11111,7 +11127,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11133,10 +11149,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828750211-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/JOZqIGzZr1KYgq6HyBoidZsUCtNtDzUkbgn8EvGVf6k=/4464779310_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/IIziprhEO0_UfFHew40g9pWeNzNVDjU86Vmp2IgOd7g=/4464779426_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/7IG_-lV7bwZqGLQEfN_SI0UCLN73WO226-_fxAh8Q0c=/4464779500_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11145,7 +11161,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11167,10 +11183,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828753129-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/8bS0HxDhWrKv1hFygamnuENxvyca6h-Z73q1RiC4Jcg=/4464787898_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/u0fBwUMmWPcVLakxuPftdmZXKHVpgBM1ACZHqgEzc4Q=/4464788068_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/2yZGgnO8ZOpQXCw6PUn19egHo120K4Y-Vukf4rOCmTM=/4464788138_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -11179,7 +11195,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11201,12 +11217,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828758404-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/X5Yv9yWEyRliEbkXKPedbOWj1LxilAIuH5z83ICPFNU=/4464798056_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/JnyF22nPabtdffzJ7mn5LgzUtalHEz-ve---QZvqYJA=/4464798145_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/lqEf6yIYLDNd-yUYiMERjeDrvWgxzmQa5aWF13_iWaU=/4464798296_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/Oygr78Fp5FzyXNAQf1K5Gs1okwQSnm9spAMocH6JJvM=/4464798392_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -11215,7 +11230,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11237,10 +11252,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828761013-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/0h9P-xLrbPkXu5i2eIrY4RGGWvMibOQnuDNrZtyq0hM=/4464805419_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/uGFfzUpfjEa7e_XI1ryb0bwwoZmrWp4zBWJ8DxKbEPM=/4464805525_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/Q0l_Nz3PQD6ovMmBpERJ5hKpktZHQj7B7qpM4byUNQc=/4464805638_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -11249,7 +11264,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11271,10 +11286,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828763623-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/gyYxW-4Y0IiLsdIDslz-iDaeiPQP1NsX2wrO_UallEQ=/4464812313_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/L7nx3QdSaLc_r9o1WE4ar9whRbQY0DvpJ_QOetEHKvc=/4464812411_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/iO59Qby_NtFBjnT8ry5k6xuSFJHLIsxi2pANwoLIP5I=/4464812527_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -11283,7 +11298,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11305,10 +11320,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828767538-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/m0yy8VUon9uWlCWNsrpGcYCoFv_uE16kmaOW_-Qeigs=/4464834490_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8fHrDphO7oh1rFBRt3AcscLBEHgTqNHe_BCMn9z8GNE=/4464834584_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/cXVRGUVaghnZelc1MSqO6gZLamfEllWcHmGmjRA9jlw=/4464834798_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -11317,7 +11332,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11339,8 +11354,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828770523-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/E5EWKV4yGVPZRXP8B5IV9XPmbcvvrCgTqIYB-L1byug=/4464847542_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/9mpQwYyMwEKSgwurHx3hV8iFY9oivDGUbq7lOrNCnlc=/4464847634_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11349,7 +11365,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11371,8 +11387,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828772441-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/X9--CPZpFRdf_h-wSGk64epxmXGfyRIfPr39YjvSqG4=/4464855056_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/qMPuYMk3ivGPEDIPJ7fzEzjYR9--njeQb_X-j--KkkY=/4464855198_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -11381,7 +11398,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11403,10 +11420,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828772884-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/3_KytVQ6FCsGy7yd2DfbRnNxH1du2F-z7jIn9es8B2Q=/4464863296_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/aTt9zfMpoKJxIGQ1-JDXVKGhqL7qNL7xXi780CVO1gA=/4464863305_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/Q7SJMeT9FENun8KCe7CmwGgv6eHnQ1qIogQfxNAxz1o=/4464863354_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -11415,7 +11432,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11437,10 +11454,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828773787-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     image:
       'https://images.prom.ua/7_ZJ2qWA9tOTR5V2luOq8TFjr9VNuRIOgxj7pBXU3HQ=/4464873022_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/QutzRGdIuff50zckG7vjZQ-HgV4n5dphOwVAuqRB8Xw=/4464873050_konditerska-nasadka-pelyustka.jpg',
-    additional_image_link:
       'https://images.prom.ua/W8uUZSDyfOZBRRT4Q1pee5CRC-jH17yml7pk5Ztwk5Q=/4464873179_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 180.0,
     product_type:
@@ -11449,7 +11466,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11471,10 +11488,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828777702-kandurin-antichnoe-zoloto.html?source=merchant_center',
     image:
       'https://images.prom.ua/z2ivy6a-yprUQ_nFTBou_jUbzjXMZhww3d0kDVzzHog=/4464874731_kandurin-antichne-zoloto.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/y7QfTB_p-OernEUiJBHIFFNviGqrEIqJIMsT7osb8VE=/4558933722_kandurin-antichne-zoloto.jpg',
-    additional_image_link:
       'https://images.prom.ua/7vj1YG5PY_uqsND5N1RV4oz-K7d8MYhWbVzZ-SSbpAg=/4464874871_kandurin-antichne-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 186.0,
     product_type:
@@ -11483,7 +11500,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -11506,8 +11523,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1828778597-kandurin-antichnoe-serebro.html?source=merchant_center',
     image:
       'https://images.prom.ua/j1SPlyv6ZWE7KwP5NmKMgoaykli_IeyxiFqfIybed5w=/4464876739_kandurin-antichne-sriblo.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/-rYZPaUK5n1s-VqL5XZ4LD7ZKnyDRNqWfSiSGGvvJho=/4558935989_kandurin-antichne-sriblo.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -11516,7 +11534,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -11539,10 +11557,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829642149-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/RSr26bcqZO2wWw_TDerKmr8ndcHB0nzT1wifJHx4mxU=/4467409052_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/GTiBB8w2VbzhsjwBQWiIT_-bw2eunxhAfZ-ZviUK9Xs=/4467409524_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/tDzULBVlWY34FD0VuLJcad7_Z1_nTS7Tsgb8575ucj4=/4467409758_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -11551,7 +11569,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -11573,8 +11591,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829642154-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/eWdpzv3-lydLQCM_FP8AK0NuCX6iKIK9cIHYVDmaxvg=/4467429843_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ljHhfmIYrMSPZuFVdvyeRfuW3teQ0n68RVBVP5nF0vo=/4467430092_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -11583,7 +11602,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -11605,8 +11624,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829648175-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/GelV1DgMx8UUyUaKHh5mCmlshEBd27OXZ68z8FBea28=/4467457353_konditerska-nasadka-zakrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/seySzGNwi2ZIDJfhZ_jVoC58KX9cYjUo4_RpHoBjcrs=/4467457920_konditerska-nasadka-zakrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -11615,7 +11635,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -11637,8 +11657,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829651280-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/AauCPMqiKw3tK7McQMpEhkGLxYgEMTphRoMEp-Q4u3A=/4467485540_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ncvsZ6HU-yxZPat98XkFxni7ZV_WPWhKr0EbZf5oaUU=/4467485875_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -11647,7 +11668,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -11669,14 +11690,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829653789-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/jUSedk0bCYaMNCUGtealVoU3nvhwUiA9A_CQtgpU8FI=/4467632921_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Y2Nmluo6swltgM611geLSJKpAv_phOuGh1dUj7d3lWI=/4467633129_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/AcBq6e5w4nAwFMds5p2QW-wqD0qsfaPx_D9BKiEYEw8=/4467633381_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/dAJ_zvq4PkmLz-W4oe80sbM3EX_j3UFztWq9sUmO_JE=/4467633833_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/2nvy3lKbhR1SCK7orXau8EoEVL3sqaGRSAt8aKOm-vE=/4467634195_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -11685,7 +11704,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11707,12 +11726,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829706992-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/1MGXTrwFO64KXkC4aqs_d7ciBJrlMvXSumaGXEZs95o=/4467645162_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/j744apa1OQ6lbf9xkKvva6nEuMP3rHIzI0m83RnWaFI=/4467645380_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/J5sqEMXXo97YN9AfHkvZ677hibEtr_RgCeRsJdRRpcg=/4467645597_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/IHYIPD3IFCYf7oKyLyQaHML8MvRvp9cFYVJ25VUvFTo=/4467645875_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -11721,7 +11739,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11743,8 +11761,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829739425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/WsgWqytkOaKrqY9afPxlJQvMhkDa462F2JGWRi67Lio=/4467676543_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Xi4qp7X4HVvdE-7WLh7iI9-bOJdyC0DwfCd-MVQYDow=/4467676746_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11753,7 +11772,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11775,10 +11794,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829744700-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/PO94dQsM6yo_p11DTeI9T6v6FAz-W0oCEL6eu7h1hSM=/4467685402_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/iRg2gjHLCZXJv6Sl96dvtesXv8vqZA3yF7h9PGNM4vE=/4467685464_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/VZwyR14Wtf9JnHb93pmX6g-U5K4jZqiQ_sitoHkAL_E=/4467685645_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11787,7 +11806,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11809,12 +11828,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829754984-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/aC7u73IfW5bE0KsCpnt0hOt-aKQiKghrG0amntMmPE0=/4467702773_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/YihP6vopHhj3MQoSe2xuaJwut6H_nTxVY74meAknGDw=/4467702935_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/YxyCH803NCs8XItOG2sQK9pvlCdwzTQO2VwQw7aiGKI=/4467703104_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/FhU21o76gXmZ4TKB4jDsEhWf5hLxsyT3pe3Cek4NE-w=/4467703496_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11823,7 +11841,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11845,10 +11863,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829761785-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/6DI14wWm5IzZ0WCS5FvML674lgYWx3JD9iNhUqWJ3Tc=/4467711192_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ut2GSjdrI39qDp_qEEZ_qgPQ6SXtOzCnEqMdHgophmo=/4467711287_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/sFBl579awWyxxwEgZLMi6uU0el_eyB61nsdWWlaSVgA=/4467711452_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11857,7 +11875,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11879,8 +11897,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829766908-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/6bvu6k6jtGu3kWW-K7tQqU_cIdFITryxMPbN4Eyqa8M=/4467719272_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/YCqs78RPdphugQINYisO1_7tSs74LmYM2HgbDHFGyjs=/4467719415_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11889,7 +11908,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11911,10 +11930,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829770544-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/JfyJwiezJm87kvRmpTzcy1aco-YpkIjhg1ACzgwZvqs=/4467741341_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/6Uh6ck51pkT_GMbSyTWXg_Z1BQBaG0UBynvwFEbf-iA=/4467741566_konditerska-nasadka-vidkrita.jpg',
-    additional_image_link:
       'https://images.prom.ua/5itahYDtuofZdLlFb5EnYFfbHQKZtqgbgGnvvHBxjaE=/4467741774_konditerska-nasadka-vidkrita.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -11923,7 +11942,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -11952,7 +11971,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -11987,7 +12006,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12021,7 +12040,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12056,7 +12075,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12091,7 +12110,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12126,7 +12145,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12159,7 +12178,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12187,7 +12206,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12215,7 +12234,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12243,7 +12262,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12271,7 +12290,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12299,7 +12318,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12327,7 +12346,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12349,15 +12368,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1829987734-shokoladnye-sfery-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/oq8QWhqopB5sKe5-P19hU7MEWVgpiIlJjBNY4BhvWaA=/4468278340_shokoladni-sferi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12385,7 +12405,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -12407,10 +12427,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830028549-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/rgqOdX-c5ihBnp5OkvPuMw4I6_TkKvxNHnhx-S85iJA=/4468388943_barvnik-rozhevij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-rozhevij-harchovij.jpg',
-    additional_image_link:
       'https://images.prom.ua/gKcGsCShKwmiEp8EnIYPZTOxJHIfEKBZj7Km9NoQRrg=/4553136146_barvnik-rozhevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12429,10 +12449,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830028861-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/5auN8uZB-frrf_4xSAevaRTMBE83tzijJQMOS9Dz8fk=/4468411221_barvnik-chervonij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-chervonij-harchovij.jpg',
-    additional_image_link:
       'https://images.prom.ua/XAGoClpA0KCzlXh_FbwEoQFeAvSQnFbWVkyEF9UWpyM=/4553137102_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 285.0,
     product_type:
@@ -12451,8 +12471,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830029048-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/vCHWDPiAJSGxTvZPudk_cwiUIxR8dBj7LaFYoUdve2A=/4468418499_barvnik-zhovtogaryachij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtogaryachij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12471,8 +12492,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830029113-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/ZOMMh-6C2hd8aDVojsSzaJdBtQFeHxnoZl_ceIumzbA=/4468419981_barvnik-zhovtij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12491,8 +12513,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830029240-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/-C-6-52zqCva2gQWOhWrOi3Uomw2q1NOcVzDjD2pr2c=/4468422233_barvnik-korichnevij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12511,8 +12534,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830029276-krasitel-goluboj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/FpW4BHFjFRIuVk-cjPeUPHIUuHHLgqfsd2yq4S-Zucw=/4468423489_barvnik-blakitnij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 285.0,
     product_type:
@@ -12531,8 +12555,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830029798-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/B7stXRvde2NQ6TtxW1w8aK9kHOvk72yRBbvXd8-RfBE=/4468424413_barvnik-buzkovij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-buzkovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12551,8 +12576,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830030316-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/zqxVw-KR1bD37VN0zz14vZTBHV8h8j-i-GmkDsDNjAc=/4468425301_barvnik-zelenij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zelenij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 285.0,
     product_type:
@@ -12578,7 +12604,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Мішок кондитерський',
@@ -12619,7 +12645,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Мішок кондитерський',
@@ -12660,7 +12686,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Мішок кондитерський',
@@ -12702,7 +12728,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -12749,7 +12775,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Пластик',
@@ -12767,14 +12793,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1830293030-termometr-kulinarnyj-konditerskij.html?source=merchant_center',
     image:
       'https://images.prom.ua/XfHs6pg8TaLNXb4M7ytygwyeyqbvgosWc0PJlx3Gnbc=/4469202426_termometr-kulinarnij-konditerskij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/jDrAcrrKewXMP6d79WYs0KAZsNIVvgcJHlRPPbNDEyI=/4469202520_termometr-kulinarnij-konditerskij.jpg',
-    additional_image_link:
       'https://images.prom.ua/RXfj6daoQWVk-fm2dLdGA62ihe5a46t2kDWcZnwk4Ik=/4469202712_termometr-kulinarnij-konditerskij.jpg',
-    additional_image_link:
       'https://images.prom.ua/0QWmCAf7lcvlhfzqUrLqv1pXO24C0lZMu0guuWS2Aso=/4469202897_termometr-kulinarnij-konditerskij.jpg',
-    additional_image_link:
       'https://images.prom.ua/Mh3emq6-Fr8oJaJjtk-gQEkL2Rp-LotSZXBBvyVSuek=/4469202998_termometr-kulinarnij-konditerskij.jpg',
+    ],
     availability: 'in stock',
     price: 172.0,
     product_type:
@@ -13124,7 +13148,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -13154,7 +13178,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -13203,10 +13227,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1831902747-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/pJSdVSIzkvwJI7ni2ECUhZrDF2Nygj7MgaBgUzZjJVE=/4474615287_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/f594jQCUSid7xoOr5AVMXDdxYHOjkGURTtZNH2m7Ysg=/4480852840_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
       'https://images.prom.ua/JXaCuQ-Hj2z0_l8uaQq8PeA5fU9vloz_QMYP-pm9F48=/4480852880_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 137.0,
     product_type:
@@ -13344,8 +13368,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1836387686-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/e73nvZpTEHM20cdKSRYxJvWvPau8vzdq-JQ05NMJF6c=/4490123308_tsukrova-prikrasa-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/8GOCp9bRb2U0JIk8h5VV6eDKNRvRFS-T0AT1qBdTqnw=/4490138518_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 183.0,
     product_type:
@@ -13365,8 +13390,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1836400981-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/WLHEawyMDKGVjRFvl--Xh7Dn3vpxwExAQNzwcq4jsgI=/4490150345_tsukrova-prikrasa-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/d3LAaY56X82NTHlATfCgtfRNr6MxED_7ag_0RBlTEIA=/4490145850_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 183.0,
     product_type:
@@ -13480,8 +13506,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1836797024-konditerska-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/eWNOcX1Hxw8HiiF-RkMSSGZ6HcnyPUH_IsXO6cKI_Y0=/4491565217_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/6W-x39v08dZsBKZOkP6-mov_YuzctT81nJDWvvLKSoc=/4491555586_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -13490,7 +13517,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13512,14 +13539,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837411977-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/_GQTJ5aV4nvEVupP-yVW-w6SSQHpNm5b8fUqHOvsfKY=/4493664018_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/U4k-VULBN48xTgI6EPzi3yq-IxPtBeJuuD-cdmT4GPc=/4493664114_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/r9gy2QT7gTyosanaRlz-nDDQuTBZUPfycUk3xgv6aw4=/4493664472_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/OwB6WMRsthzBT7n1mnfP0TpnAS-XYObyBSt-mod1oUE=/4493665109_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/sU6zB4_dRL2YSxba2DhHU5c6wHmLK5MoQs_JdmhdmxI=/4493665303_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -13528,7 +13553,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13550,14 +13575,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837429774-konditerskaya-nasadka-ateco.html?source=merchant_center',
     image:
       'https://images.prom.ua/4jdK34Gh4rUWjU_e24tajUeW1DjEZfRcHn7gVd-ppDE=/4493694595_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/EmfP4KUR3-RXHVMBJjLLuve-V86OrBiP8YNPYFd2ZTA=/4493694668_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/PdaNTDKum6uggr4OCR77zVcfEKD1yd9fWVqxy_rBgNo=/4493694754_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/Pk5lEtY4uHk40yr6cTEWxkurgs8n6cEx-MtvdV0_POs=/4493694975_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/S_6_ea2d86r7MmhOJnUyLCH5woGEB_Us-Y1ZYC5d3_U=/4493695125_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -13566,7 +13589,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13588,8 +13611,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837434038-konditerskaya-nasadka-listik.html?source=merchant_center',
     image:
       'https://images.prom.ua/sf7upl_nrg3QQdeeoYfE_1Ekk-7-JX8Dq90hdSfm67s=/4493724360_konditerska-nasadka-listochok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/dcGnqz714-2ySrORJ_BND3V191ugrpuw79oYfc3bGC8=/4493721830_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -13598,7 +13622,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13620,10 +13644,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837436299-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/IRBlak_JpMGVSqhepzYYnrjH7wp8JTl6JYcAJzAEFtc=/4493929065_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Pz-1qLykPzgdPGaexoBpFKjw1E0g1wUPYRyU1zezkOE=/4493929160_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/j2wLDo4fuJ4xZkOyDTax20o8ERinSD-nm1CrNHjOGE8=/4493929164_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -13632,7 +13656,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13654,10 +13678,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837506196-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/Sb9JGDC5pRoSAB_iv-addiWtZs4Z-SSeTVmWdVgYC1s=/4493933534_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/jnX90cfjDdxaWF4H8UMhlU8nf6lKt3Jjc_sYjV3O-q0=/4493933616_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/uQqO9-GilwFFquvDkUwpblXRvGHg7ffYtBBSfFQUcvE=/4493933749_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -13666,7 +13690,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13688,10 +13712,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837566807-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     image:
       'https://images.prom.ua/nP0to8oiSSMeqKaovkHUnHosWTTyRd7xuC7kjXy-HJ8=/4494138344_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/B-nIaKEW4023puki0Ln6b2_crY55PqK9dEyocQuYmlI=/4494138468_konditerska-nasadka-tyulpan.jpg',
-    additional_image_link:
       'https://images.prom.ua/n8ajiFBEKUhIbOU1gpqHe-snKypcrH5RWwBSo8Wrnjc=/4494138588_konditerska-nasadka-tyulpan.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -13700,7 +13724,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13722,8 +13746,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837567601-nabor-konditerskih-nasadok.html?source=merchant_center',
     image:
       'https://images.prom.ua/0QdzeF1wFoe_9GF07wQ84TAmLGiBfTcV6QwhKrKn0ZQ=/4494152872_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/P0-EMTHpaObmzEdh3x2CtphBWCWLn1A0eupy7y3Dxz0=/4494153259_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'out of stock',
     price: 630.0,
     product_type:
@@ -13732,7 +13757,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13754,8 +13779,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837577018-nabor-konditerskih-nasadok.html?source=merchant_center',
     image:
       'https://images.prom.ua/C91y2UtHc9GhENOGBt7k7DvshEi-sXZUy6-2-s2kAg4=/4494166120_nabir-konditerskih-nasadok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/gD__jzG3MeR0-zjg6opJrP8y3EzJvPZBqHeqrSF9f9U=/4494166273_nabir-konditerskih-nasadok.jpg',
+    ],
     availability: 'out of stock',
     price: 180.0,
     product_type:
@@ -13764,7 +13790,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13786,8 +13812,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837580963-nabor-konditerskih-nasadok.html?source=merchant_center',
     image:
       'https://images.prom.ua/mnwU6XvSEBjdJxBZdHtAzZ4fq-R2X29faWoQqGwo2_4=/4494175930_nabir-konditerskih-nasadok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/2FdICjzB7G0vcw3PvkgVuOkNWuSbBbRof4D_HGa2z7Y=/4494176100_nabir-konditerskih-nasadok.jpg',
+    ],
     availability: 'out of stock',
     price: 300.0,
     product_type:
@@ -13796,7 +13823,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13818,8 +13845,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837586759-nabor-konditerskih-nasadok.html?source=merchant_center',
     image:
       'https://images.prom.ua/SZ3YU0GUYhI7WW-pbi-qRg6O7VQkK-elEFcvQKQLjCc=/4494185207_nabir-konditerskih-nasadok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/zxcThxNNm1ah24diPkbnsvwT3sPftlcK82RA7dkLVZc=/4494185460_nabir-konditerskih-nasadok.jpg',
+    ],
     availability: 'out of stock',
     price: 420.0,
     product_type:
@@ -13828,7 +13856,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13850,12 +13878,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837591053-nabor-trojnyh-adapterov.html?source=merchant_center',
     image:
       'https://images.prom.ua/OkaHkDUXdka1e9Ubhb55QDet2ze-8fwiq1tZL8hTYmU=/4494198310_nabir-z-3.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/0XVzXcjSsvjLiAX6Q8e71eI810k5TTFLjoop9nXMUdw=/4494198619_nabir-z-3.jpg',
-    additional_image_link:
       'https://images.prom.ua/FidDyd6SHyKPZoGt6dh-i3LmY5AYqRQ2jq6Rhzdczsc=/4494198786_nabir-z-3.jpg',
-    additional_image_link:
       'https://images.prom.ua/wYFBxT2sgOq69RLZcvJ_BiQVDl2M0GCBGMrjIqALJFk=/4494198984_nabir-z-3.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -13864,7 +13891,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13886,10 +13913,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1837595791-nabor-perehodnikov-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/-1Qp56evCFUvVXOVjFApYV_-b7YZ_0AbLNjV2kts6QM=/4494208090_nabir-iz-3.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ulQKqW_CkhldfCQO8WbQAtwoutcvDKpudhKa-iW8Q5o=/4494208304_nabir-iz-3.jpg',
-    additional_image_link:
       'https://images.prom.ua/nhTrgkhaPN1urc2c0qF3aGveODvUWijPX3BPjmsxriw=/4494208467_nabir-iz-3.jpg',
+    ],
     availability: 'in stock',
     price: 240.0,
     product_type:
@@ -13898,7 +13925,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -13927,7 +13954,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -13972,8 +13999,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1838167966-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/A9FvVfbk3O66NJCAi-z3Xxzew1Z7XBZqIrb2UCBOFfU=/4496332084_tsukrova-prikrasa-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/IIwmw4Ayo9CEpxRmDuvNdPzk67sxHkAHYdWcR4LOOCk=/4496332093_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 135.0,
     product_type:
@@ -13992,8 +14020,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1838171031-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/FtqtOr93Xc_apWFCDe00rkBF1MB8pICvWMsWU7xjuhM=/4496336321_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Edrb55VfVeA_CrxLUMHwcnqKw3jC0Eam6spngVTizxQ=/4496336332_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -14013,10 +14042,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1838171202-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/5lp0vkNyGS3jFa2JeOCTaQXbC9RcSEJfOYgQE1S-_YA=/4496338595_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/0M76JMuaNNQLRzBmGmY_7BpLR4zPKDqGTBjTIF9nqoI=/4496338679_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
       'https://images.prom.ua/_TcaOMwJp3abdPJrsCbvepfRGYYMWFYazm6e-OJmhxY=/4496338711_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -14149,8 +14178,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1845939802-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/3Cksm6-VLhhOi5AvXzpwef2icteXbtMxFWeHEKki2l4=/4518333389_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/2n706-P-k1gELGkRPQfkyud3eWQpNMT-_LtR74i1zK0=/4518333804_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 123.0,
     product_type:
@@ -14158,7 +14188,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14185,8 +14215,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1845945211-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/4A89itw_LZbcx5pbLRH6Wt9h2IHdcelgzk9Yyn5v2kw=/4518356211_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/faRpJOm_rmhA8qyqFxz3ZVY91aNDNlaicn1_wCnhjA0=/4518356634_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 91.0,
     product_type:
@@ -14214,7 +14245,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14251,7 +14282,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14288,7 +14319,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14325,7 +14356,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14362,7 +14393,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14399,7 +14430,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14436,7 +14467,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14473,7 +14504,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14510,7 +14541,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14547,7 +14578,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14585,7 +14616,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14622,7 +14653,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14877,7 +14908,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14911,7 +14942,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14945,7 +14976,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -14972,8 +15003,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1848107799-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/GB3rH3wL-mUvxZQLjpH9mrfhX9tncJSFyrrzVGx41Bw=/4526170550_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/amrcQ8y23V3S4au88T5IsSsWeyaEI-fku5y7omcl0yg=/4526170599_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 78.0,
     product_type:
@@ -14982,7 +15014,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15016,7 +15048,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15052,7 +15084,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15098,7 +15130,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15144,7 +15176,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15190,7 +15222,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15236,7 +15268,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15282,7 +15314,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15328,7 +15360,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15374,7 +15406,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15419,7 +15451,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15464,7 +15496,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15502,8 +15534,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849138413-zhele-vkusom-vishni.html?source=merchant_center',
     image:
       'https://images.prom.ua/rKnzFJFduMwzEVhG7uCTIq4LPYEuW5XH6QlHmHo-L8U=/4529735191_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/IMiZwFWnWonSf2aKAW03xklHEJ6vNiEPf8kgSm2EPf8=/4529751305_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15511,7 +15544,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15535,8 +15568,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849138425-zhele-vkusom-lesnye.html?source=merchant_center',
     image:
       'https://images.prom.ua/rPgt81CEuYdzVisoSbVLmkF6uh9QlFEPFD8GVteos1g=/4529765932_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/kSn7PpEOWGjSexTJ4X_AAUjWzynM5kGaJHETTAB7bCQ=/4529762967_zhele-zi-smakom.jpg',
+    ],
     availability: 'out of stock',
     price: 26.0,
     product_type:
@@ -15544,7 +15578,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15568,8 +15602,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849141730-zhele-vkusom-apelsin.html?source=merchant_center',
     image:
       'https://images.prom.ua/21xzUWjKR3P3-hB5d2rdBt6GYCFpjHwU4pgzE73Qa1E=/4529774621_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/CGbgoMGMyq82bsxSVYTX3IcUGKDFyQ5LHvrS0oIFWys=/4529772643_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15577,7 +15612,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15601,8 +15636,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849143391-zhele-vkusom-limona.html?source=merchant_center',
     image:
       'https://images.prom.ua/nDiGh99O99m6Lf7beL5tziiUJvOS4Upb1Scd1XJ9P_o=/4529780221_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/DYCIdbWj2GkQNtzGlV4Mk_Wqp6Zhyn-64pSsiHvLzyg=/4529776233_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15610,7 +15646,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15634,8 +15670,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849146127-zhele-vkusom-mohito.html?source=merchant_center',
     image:
       'https://images.prom.ua/3lw3lrY0j1xh3U-jdrQ_waiVwbgTClslcOiYnDVUJt4=/4529781584_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/2lNv3DROcTVvORDhVTVMfwEMP2vIsRZInhLE8WNIfZg=/4529780706_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15643,7 +15680,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15667,8 +15704,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849146476-zhele-vkusom-tropicheskie.html?source=merchant_center',
     image:
       'https://images.prom.ua/QWPaCPbt96sCPmoAWKQ7satS6k_H8U8IeCWCjp4ZS3c=/4529783594_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/qXjXpWqW_t4Nezg3g4WleQ9YXV8RS9SWavlUfIcdJNg=/4529782446_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15676,7 +15714,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15700,8 +15738,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849147424-zhele-vkusom-klubniki.html?source=merchant_center',
     image:
       'https://images.prom.ua/jBw77urjdP0MGP0rXGay15T5bk_jidlWpY2ACVaMzqg=/4529786510_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BTuXQaScmVbXTlXPsdty0CANLqMV7hrP8FjGMih97KM=/4529785419_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15709,7 +15748,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15733,8 +15772,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849148200-zhele-vkusom-maliny.html?source=merchant_center',
     image:
       'https://images.prom.ua/paV9-mTyWu6Y0cg--vuuqn_3KeKak-OFf3vXUXGZfrw=/4529791511_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/_rqaCzR7AmdmMbhCLxQDcBv9SNFLiVRxFLg10HDlKnM=/4529787818_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15742,7 +15782,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15766,8 +15806,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849150670-zhele-vkusom-persika.html?source=merchant_center',
     image:
       'https://images.prom.ua/t-mCNCfrWlYfbTMB2baSmuBH_m_Rsd_5AsQr9sgoXGE=/4529795131_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/-W4HSLCUbpJHqDpCqqWpNDhT_Ru5dtJgw8zA6LUI7jI=/4529793833_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15775,7 +15816,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15799,8 +15840,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849151756-zhele-vkusom-kivi.html?source=merchant_center',
     image:
       'https://images.prom.ua/HVa_N62AUc-s4nFu9c0WJwHEGNvLr24YcOfhp9k1RwI=/4529797056_zhele-zi-smakom.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/zWJ2WxJG4ghYPG4dxzUq5DX3zMRO62BkCWAQvv-YbB0=/4529796103_zhele-zi-smakom.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -15808,7 +15850,7 @@ export const db = [
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15839,7 +15881,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15869,7 +15911,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15898,7 +15940,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15924,7 +15966,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15950,7 +15992,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -15976,7 +16018,7 @@ export const db = [
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16003,7 +16045,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16037,7 +16079,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16071,7 +16113,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16106,7 +16148,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16142,7 +16184,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16169,8 +16211,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849511324-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/fZqywcN7VdE5SdSMJldqC_0sZD-PGlrOmRLnCO5zKHQ=/4640781700_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/U131ds3cQnSCcsmq3bOxYjSp4v1f1FQ_qnW9xj2inkk=/4640781795_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 172.0,
     product_type:
@@ -16178,7 +16221,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16205,8 +16248,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849621404-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/AtMClxBpI5XSNllP8x-XZbYdltU-yarxvZjMxWQ7FUU=/4531349658_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/iv5TU6s3QVP4PIyrhH9uR_pd1rNaE8z1viUtTd7pIRg=/4540438983_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 172.0,
     product_type:
@@ -16214,7 +16258,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16241,8 +16285,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1849623712-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/M1V3Cz2XAZWoI-6CQOgEQRkmJzMJmEEyO2ynvjj4rH0=/4531354735_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/fgY6SANz5IcGevTF0fNrqMSqzDq33iGSCAYViis4_oA=/4540434971_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 172.0,
     product_type:
@@ -16250,7 +16295,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16284,7 +16329,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16318,7 +16363,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16364,7 +16409,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16414,7 +16459,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16464,7 +16509,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16514,7 +16559,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -16562,7 +16607,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -16589,8 +16634,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851133446-glitter-fioletovyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/Z6LLt2-beX1W9g1DiOAOMTcEifJ7QKtTZZzUJQRqiGU=/4536629973_gliter-fioletovij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/hRwSDwErYatGEtCVxBElr0VLDD2b39K1jfACm1fAY8I=/4536630408_gliter-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -16598,7 +16644,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16636,8 +16682,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851141300-glitter-zheltyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/EAtFI3T_t0T0SkqNpEosYbb2imouCM1okLqhb09u3sI=/4536722630_gliter-zhovtij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/SyxAMmB5_KtFjptXLUS21TAdlOD_ZRXv1iOTurbkOeE=/4536723745_gliter-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -16645,7 +16692,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16683,15 +16730,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851144211-glitter-serebro-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/QxD8AzQg5bLIBixkHTBLP_FgTegKtv1GUkRsf0jaRB0=/4536726447_gliter-sriblo-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/N4nRTLi0FNWirQvi2H-zpDuVA7JUDOk_tegeYaANELs=/4536727828_gliter-sriblo-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16729,15 +16777,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851144977-glitter-zoloto-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/OqURw1lesWbxgORS_bcCL8iMFD1NDhVMzRLRYpNV3Kg=/4536729869_gliter-zoloto-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/CSSEy-I7KufpuJg8ORGOHuFgMa0R-qERixWiaBaXfmk=/4536730963_gliter-zoloto-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16775,8 +16824,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851145092-glitter-rozovyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/MrwdGbmPnV5NKkc7Kdkj4BdTwix-IZIs5QIV2CPGtw8=/4536733477_gliter-rozhevij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/q7UauUwg476O8PuAvt3fZuVpTXACgm7KpAiL0iiEM8s=/4536734196_gliter-rozhevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -16784,7 +16834,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16822,15 +16872,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851146151-glitter-chornyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/nMVS5X6rr-ctsL6n2e9pWQs4Rx5bOs5hyPQp3RBHr-Q=/4536736273_gliter-chornij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/y2cW8ZzSafuvH6anKko1u4CPDlg5Lq-q3xVN69lhx_U=/4536737060_gliter-chornij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16868,8 +16919,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851380439-glitter-sinij-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/8_oy9RFjbQLfxtJmEkG4DH5nD6-BAdpABpAtwbWKu84=/4537601316_gliter-sinij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/IJwk4N6rRBXJaC34_JglPb_iPEsnK1ec-fnOqRH9aOA=/4537602499_gliter-sinij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -16877,7 +16929,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16915,8 +16967,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851381000-glitter-zelenyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/visDvFogPjUEPPmK3UGybpZ68mcAHxVz_L_mlrOp3J0=/4537605469_gliter-zelenij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/dOLHq-2qZZ9Gh8y0QOtauROYLWKgd-z0WvvrrrV35Qo=/4537606201_gliter-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -16924,7 +16977,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -16962,8 +17015,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1851381097-glitter-krasnyj-pischevoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/s4BTlSQldYXTlXwO7WfXBJeKqDHzGbF-MuhY_LzcZ80=/4537608923_gliter-chervonij-harchovij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ekA4PkEzVzlnODcwU766ComixdP6860tiiGGIurRXj4=/4537609560_gliter-chervonij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -16971,7 +17025,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Італія',
@@ -17015,7 +17069,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17048,7 +17102,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17081,7 +17135,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17114,7 +17168,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17147,7 +17201,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17180,7 +17234,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17213,7 +17267,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17247,7 +17301,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17281,7 +17335,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17315,7 +17369,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17348,7 +17402,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17381,7 +17435,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17414,7 +17468,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17448,7 +17502,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17481,7 +17535,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17514,7 +17568,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17547,7 +17601,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17580,7 +17634,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17613,7 +17667,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17646,7 +17700,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17679,7 +17733,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17712,7 +17766,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17746,7 +17800,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17780,7 +17834,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17813,7 +17867,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17846,7 +17900,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17879,7 +17933,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17912,7 +17966,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17945,7 +17999,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -17978,7 +18032,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18011,7 +18065,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18044,7 +18098,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18077,7 +18131,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18110,7 +18164,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18143,7 +18197,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18177,7 +18231,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18210,7 +18264,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18244,7 +18298,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18277,7 +18331,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18310,7 +18364,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -18343,7 +18397,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18375,7 +18429,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18407,7 +18461,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18439,7 +18493,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18471,7 +18525,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18503,7 +18557,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18535,7 +18589,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18567,7 +18621,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18599,7 +18653,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18631,7 +18685,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18663,7 +18717,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18695,7 +18749,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18727,7 +18781,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18759,7 +18813,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18791,7 +18845,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18823,7 +18877,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18855,7 +18909,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18889,7 +18943,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18942,7 +18996,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -18987,7 +19041,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19032,7 +19086,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19077,7 +19131,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19122,7 +19176,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19167,7 +19221,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19212,7 +19266,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19257,7 +19311,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19295,18 +19349,14 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1854041661-zoloto-susalnoe-pischevoe.html?source=merchant_center',
     image:
       'https://images.prom.ua/tHTdXo7yqEpez0LVYa-0jbLqF02Sv7KI51YtNhYUKKM=/4547068016_zoloto-susalne-harchove.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/jysPw5ukJgJgJzXDGEHausG6kOseFXSvJOiKNlyggUs=/4558876118_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/jnMnFEqQ-qeeFRc2WYUDrUuD1phopC2XZCfwYvhlSLE=/4558876119_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/WS9hk9t9biK7sE4xhg-d9ZeNdIaakH5K6XIKEaSu4ok=/4558865258_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/3R8VP_vmY3xxV1XqBwseh7QOr9uIIXND81QscpNsMIM=/4547066731_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/S2HOaP3Q7MpmmUz6Dbdyagu1mpMDL2iucK1NYO9Vn8A=/4547067001_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/DJDhD_lDzBA5xOf4QrJhNS1b4lrZ7n31NQIhF2EBwCA=/4547067509_zoloto-susalne-harchove.jpg',
+    ],
     availability: 'out of stock',
     price: 462.0,
     product_type:
@@ -19315,7 +19365,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19357,23 +19407,20 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1854041928-zoloto-susalnoe-pischevoe.html?source=merchant_center',
     image:
       'https://images.prom.ua/yWZvJqHt_XQrkyVSBRKUJpe_cMjP8cg3QE4F-su-_uE=/4547129766_zoloto-susalne-harchove.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/hE4PHTVFsy6ZvNSbqCNbf3bD2xDxPN3cwmoefTN-rzQ=/4547130162_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/RMCWP1NDP_Xm9hpWX1AaZayqECZ-jPRRuxCrJ3MW99Y=/4547128670_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/ox43hxtbD-95_EsXKk-Zf0hpOGPV1ds8rmXMs6XFngo=/4547129125_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/9TtHHgbgYJdSDYzLekYIPl4-yPMiLDQK_-sZUgEvRB8=/4547129233_zoloto-susalne-harchove.jpg',
-    additional_image_link:
       'https://images.prom.ua/3Xy93ePneIOG2zf-Pk2nXXcR5FHnqXaaV6QYrF7iuxU=/4547129402_zoloto-susalne-harchove.jpg',
+    ],
     availability: 'out of stock',
     price: 479.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид кондитерських виробів',
         attribute_value: 'Кондитерський декор',
@@ -19410,12 +19457,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1855127032-zoloto-pischevoe-potal.html?source=merchant_center',
     image:
       'https://images.prom.ua/iQxVvJkZ9KCFp8e8h_8kTyGRv3Ol-79nU_ZYtWYaj-M=/4550933183_zoloto-harchove-listove.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/TCkVRAET2hayO2kAhOlUYJjc9wYEYoZLKNaoC50BZ1A=/4550933180_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/daoFNnWIf5td0zGuDGh_9cbsqfl81_XZCXQTzS0j6rM=/4550933182_zoloto-harchove-listove.jpg',
-    additional_image_link:
       'https://images.prom.ua/4dTCkzeQaOIa_Da7pqERpI5_m5laulWtmC4k5kjZrY4=/4550933184_zoloto-harchove-listove.jpg',
+    ],
     availability: 'out of stock',
     price: 300.0,
     product_type:
@@ -19531,7 +19577,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19601,7 +19647,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -19630,7 +19676,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -19669,7 +19715,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -19708,7 +19754,7 @@ export const db = [
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Гелевий барвник',
@@ -19746,7 +19792,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Олівець/Фломастер',
@@ -19772,7 +19818,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19798,8 +19844,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1858181549-shokoladnye-dropsy-kapli.html?source=merchant_center',
     image:
       'https://images.prom.ua/CjBdw89DoWXuknxCcR6sti1l1MKW6g3JSpoJMMESwdI=/4561081219_shokoladnye-dropsy-kapli.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/TB0M3Z37H_FA3oD-Mp9NUOFieo8b6byTwRHk22FXz38=/4561081770_shokoladnye-dropsy-kapli.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -19808,7 +19855,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -19841,7 +19888,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Німеччина',
@@ -19870,7 +19917,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Німеччина',
@@ -19899,7 +19946,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Німеччина',
@@ -19928,7 +19975,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Німеччина',
@@ -20072,7 +20119,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Вид та форма випуску',
         attribute_value: 'Олівець/Фломастер',
@@ -20099,7 +20146,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -20121,12 +20168,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1858978673-shokolad-obtekayuschij-chernyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/fyHLhFoQmT2QRorGQyas8PSJwaOrhd1A6d8GT2Pk81M=/4563637989_shokolad-obtikayuchij-chornij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/LDe_HFoLcVltXZXIxKMYMmsP9jW0fMBZCAt1mKxtjeY=/4563673357_shokolad-obtikayuchij-chornij.jpg',
-    additional_image_link:
       'https://images.prom.ua/HPvIm_QPn20KDV00qCT5y9RfEM4OE8WqGzia4LeCp8A=/4563679857_shokolad-obtikayuchij-chornij.jpg',
-    additional_image_link:
       'https://images.prom.ua/UH4WXb1cf2MO1x4xsXOyii7pgTyFJETIZgdkHRM9U4c=/4563680340_shokolad-obtikayuchij-chornij.jpg',
+    ],
     availability: 'in stock',
     price: 215.0,
     product_type:
@@ -20134,7 +20180,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20156,8 +20202,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1858980726-shokolad-obtekaemyj-krasnyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/9GcvIwv5rZKPG1HegHVb0jnJVEB_yD6mQGSOuQrbhs0=/4563694703_shokolad-obtikayuchij-chervonij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/6Z--95f3Q9l4YxVCLFhZo6orH1GzfqDEG7IYK-ERpRk=/4563695254_shokolad-obtikayuchij-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 215.0,
     product_type:
@@ -20165,7 +20212,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20187,8 +20234,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1859174001-shokolad-obtekayuschij-belyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/YodsintmzUXYprdsmeNb-slNLrOR71HP9adKBsHsptU=/4564514848_shokolad-obtikayuchij-bilij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/wYTmKIQNIZw7wXn4UK6qFYUZhmO0yKpBRyY3Q4jQBqM=/4591153036_shokolad-obtikayuchij-bilij.jpg',
+    ],
     availability: 'in stock',
     price: 215.0,
     product_type:
@@ -20196,7 +20244,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20218,10 +20266,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1859199063-shokolad-obtekayuschij-korichnevyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/SAnq8JMQYcW-Cf0pqtZkkWvwhiOZKUQ0iFFkYU90ta8=/4564519054_shokolad-obtikayuchij-korichnevij.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/9yB83miNqpTQZUsXmOuQUi0ecBGQ8NH8T_JMo7Azp9g=/4591152584_shokolad-obtikayuchij-korichnevij.jpg',
-    additional_image_link:
       'https://images.prom.ua/kqt7a8QEsslipQKx2UOCH1h4TDamCuoJ4EfxZMGM3nU=/4591152603_shokolad-obtikayuchij-korichnevij.jpg',
+    ],
     availability: 'in stock',
     price: 215.0,
     product_type:
@@ -20229,7 +20277,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20259,7 +20307,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20289,7 +20337,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20318,7 +20366,7 @@ export const db = [
     brand: 'Schokinag',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Німеччина',
@@ -20355,7 +20403,7 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Туреччина',
@@ -20401,7 +20449,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20432,7 +20480,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20463,7 +20511,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20482,8 +20530,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1860816476-glazur-temno-belyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/7BJNVG5UYsS0nAZegLiRqHwdQT4_XCb5t_7TpUSARes=/4569693133_glazur-temno-bilij-shokolad.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pfSGDL2L29jqaOxA6rU4AMdX26-HOHW3FPF_HcZLSXQ=/4569696756_glazur-temno-bilij-shokolad.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -20491,7 +20540,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20510,8 +20559,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1860823101-glazur-temnyj-shokolad.html?source=merchant_center',
     image:
       'https://images.prom.ua/fMDuFAKb-VvbyKN_XsJ8fZH2jZ04II8ypscPjhPQ_fk=/4569702243_glazur-temnij-shokolad.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/1KRguLFE5KPKRv2EWXmhj9-Io_2gx-8zF4XUMtBjRig=/4569702469_glazur-temnij-shokolad.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -20519,7 +20569,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20545,7 +20595,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20564,8 +20614,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1860839554-zhele-bestsvetnoe-prozrachnoe.html?source=merchant_center',
     image:
       'https://images.prom.ua/HATzdAPnDcB3m8SW7eNNR96x0kyWaH3SJGDonbCarSw=/4569762373_zhele-bezbarvne-prozore.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/biqI8hpeCdQmK8Uh3eLASbf1J3h2rj1d7IfxAifMFyk=/4569790110_zhele-bezbarvne-prozore.jpg',
+    ],
     availability: 'in stock',
     price: 12.0,
     product_type:
@@ -20573,7 +20624,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20599,7 +20650,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20618,10 +20669,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1860866589-kakao-temnoe-poroshok.html?source=merchant_center',
     image:
       'https://images.prom.ua/pvJMj1ZJH6kwu6PvUL1vSx-VHkYiA0DZZQlfPaYUuGo=/4569834775_kakao-temnij-poroshok.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/yn8GIDX4_b1DGrnksYqNqzlY4mgkbbCMgn69SKSSjwc=/4569835220_kakao-temnij-poroshok.jpg',
-    additional_image_link:
       'https://images.prom.ua/W403CDZr6pmA016tDuSgq55oiEi1aDUo-LeFKpntT84=/4569877212_kakao-temnij-poroshok.jpg',
+    ],
     availability: 'in stock',
     price: 87.0,
     product_type:
@@ -20629,7 +20680,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20660,12 +20711,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1861971517-krahmal-kukuruznyj-bez.html?source=merchant_center',
     image:
       'https://images.prom.ua/G9PoJQ9BeQjpWtF1htyyZkTGHWaAw53hQ3sMDAEaAlM=/4573665745_krohmal-kukurudzyanij-bez.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/FRPkWZMDbZxM6-OuxH3VZaLsLRo_GNd3tE71F49UaTE=/4573665755_krohmal-kukurudzyanij-bez.jpg',
-    additional_image_link:
       'https://images.prom.ua/V_fYi__PoGoH_tn_CBS9gDsdBzHybuaxGt4Q8ty7Ejg=/4573665743_krohmal-kukurudzyanij-bez.jpg',
-    additional_image_link:
       'https://images.prom.ua/Qa-jkugSfLmhgvOqBzvRfCKCE4QTBpNS2copuw-Cg-0=/4573665761_krohmal-kukurudzyanij-bez.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -20673,7 +20723,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20696,8 +20746,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1862487080-krem-dlya-torta.html?source=merchant_center',
     image:
       'https://images.prom.ua/-HTHzw3YtctwYs5Ak3Vc7Nn-z1gsOJKtBtLnbykQoyQ=/4575166119_krohmal-kukurudzyanij-bez.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pazQB1SGDYasMFfuLXgh0qH_-wrN63WdPiuYm5Qzx-M=/4575193506_krohmal-kukurudzyanij-bez.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -20705,7 +20756,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20740,7 +20791,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20768,8 +20819,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1862501845-krem-dlya-torta.html?source=merchant_center',
     image:
       'https://images.prom.ua/K9aSjS1yLdijJ_P6iUe3FZMI0890UgsW9Y81pEPJGGU=/4575198649_krem-dlya-torta.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/tcOGavzt5M7E5-OfF-2JW6ledmKZ-3ySd6_5vXWLBU4=/4575198915_krem-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -20777,7 +20829,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20803,7 +20855,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20839,7 +20891,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20874,7 +20926,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20905,7 +20957,7 @@ export const db = [
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Румунія',
@@ -20937,7 +20989,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -20972,7 +21024,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21007,7 +21059,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21042,7 +21094,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21075,7 +21127,7 @@ export const db = [
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21103,14 +21155,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1862834532-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 114.0,
     product_type:
@@ -21118,7 +21168,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21146,17 +21196,17 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1862885096-saharnye-ukrasheniya-kotiki.html?source=merchant_center',
     image:
       'https://images.prom.ua/biA13fezre3Ohzq7slN3vOL2b2k_XzSW192jU3tqY9I=/4576291482_tsukrovi-prikrasi-kotiki.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/voJNFq0tit2SPxPM0p7FYlHDlRdBeHVg6hhgiD83Moc=/4576291771_tsukrovi-prikrasi-kotiki.jpg',
-    additional_image_link:
       'https://images.prom.ua/FOuXftnZP8Q4zwWZ6gKEqXmY4c2Sk8DykIki8FTwb_A=/4576354401_tsukrovi-prikrasi-kotiki.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21182,15 +21232,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1862904876-saharnoe-ukrashenie-rybak.html?source=merchant_center',
     image:
       'https://images.prom.ua/RR4sN5y7oQ1pGfrCGmOuX63Vro-jiw1vbGP7gW4PUdc=/4576388277_tsukrova-prikrasa-ribalka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BbqY_DU6frMsv-7XTOvkPA0gXVyPNiYILnGTeGcjSaM=/4576388403_tsukrova-prikrasa-ribalka.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
       'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21316,8 +21367,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1868280348-zoloto-pischevoe-potal.html?source=merchant_center',
     image:
       'https://images.prom.ua/Swos8aJIyVgc3y09PrKzFfgtzWnXer4s4IKVul7pHpg=/4595490287_zoloto-harchova-potal.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Jz3dVdblVYoBsKarJ_yGH5RX6ZsKSCyTjz7XCatkha4=/4425819550_zoloto-harchova-potal.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -21343,7 +21395,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21364,8 +21416,6 @@ export const db = [
         attribute_name: 'Смак',
         attribute_value: 'Ваніль',
       },
-    ],
-    product_detail: [
       {
         attribute_name: 'Упаковка',
         attribute_value: 'Коробка',
@@ -21390,7 +21440,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21411,8 +21461,6 @@ export const db = [
         attribute_name: 'Смак',
         attribute_value: 'Ваніль',
       },
-    ],
-    product_detail: [
       {
         attribute_name: 'Упаковка',
         attribute_value: 'Коробка',
@@ -21437,7 +21485,7 @@ export const db = [
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21458,8 +21506,6 @@ export const db = [
         attribute_name: 'Смак',
         attribute_value: 'Ваніль',
       },
-    ],
-    product_detail: [
       {
         attribute_name: 'Упаковка',
         attribute_value: 'Коробка',
@@ -21514,8 +21560,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1872198187-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/5oMP3Pb3SxoR3b-kKX2YhWnVJ9tDU5Ake68pkGYdE64=/4610103333_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/aepLbCrqfWRPh_7_BPnHgSEvxWLP4EMsFRwHpLg2Yt8=/5567983526_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -21542,7 +21589,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21577,7 +21624,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21612,7 +21659,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21647,7 +21694,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21682,7 +21729,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21717,7 +21764,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21752,7 +21799,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21787,7 +21834,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21822,7 +21869,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21857,7 +21904,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21892,7 +21939,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21927,7 +21974,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21962,7 +22009,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -21997,7 +22044,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22032,7 +22079,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22067,7 +22114,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22102,7 +22149,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22129,8 +22176,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1874701186-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/VsSTA68Yq81vYgHSeIxI0pbhVbHUkwNs3y0n-z2ayVU=/4619092417_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/dVEYa0_Kqy2FjpOnhWsL3HGCn5h3D41DwC9m17uDFmQ=/5306244979_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 115.0,
     product_type:
@@ -22139,7 +22187,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22174,7 +22222,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22209,7 +22257,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22244,7 +22292,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22279,7 +22327,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22314,7 +22362,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22349,7 +22397,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22384,7 +22432,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22419,7 +22467,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22510,7 +22558,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -22543,7 +22591,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -22576,7 +22624,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -22609,7 +22657,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -22642,7 +22690,7 @@ export const db = [
       'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Польща',
@@ -22677,7 +22725,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22712,7 +22760,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22787,7 +22835,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22821,7 +22869,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -22986,7 +23034,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23056,7 +23104,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23091,7 +23139,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23118,8 +23166,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1880282882-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/mApICF5yU5T0NhrfMnD5tXDo1mRdO8G3kd2cEftBL4E=/4695102761_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/C3Bc7wRqVPlYzfMZXko1mkjwlEkgzje0eflwIO6nQSs=/4695102765_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 98.0,
     product_type:
@@ -23128,7 +23177,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23163,7 +23212,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23218,7 +23267,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23432,7 +23481,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -23459,8 +23508,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1899794113-kandurin-raspylitelem-krasnyj.html?source=merchant_center',
     image:
       'https://images.prom.ua/QZkYToRwYHIzaOlr7QcK-sFRjUS3p_c1pXUbxe9yLkU=/4709435905_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/FWUaXQLwQ5R3F0ndTU5YLN8XUV14hgG2OeKrAe36lz8=/4709436150_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -23468,7 +23518,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -23502,7 +23552,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -23529,10 +23579,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1899795992-kandurin-raspylitelem-zolotoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/0oHw1ooz_iHOj6Duy-XXas1DcOahaQBO0xRWriy1_Xk=/4709449260_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Y6xjvIQX1Ri673lg9uWtKSBuOF8RhmqjPlaGXZlQzsQ=/4709449431_kandurin-z-rozpilyuvachem.jpg',
-    additional_image_link:
       'https://images.prom.ua/o7xYKxtjrlZASe_Y7xlR_70yteSo66JrIxcaFxHxkls=/4709449738_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -23540,7 +23590,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -23574,7 +23624,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Великобританія',
@@ -23601,10 +23651,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1899798644-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     image:
       'https://images.prom.ua/XBtFTCSc91s3qIskT-doYjm-9qTmc2AV2Lso-TdCKJo=/4709491994_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BNnyxHzYCKWONZB-92caypznutCl019v-_5-CtW5Qi0=/4709492270_konditerska-nasadka-ateco.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZVVv3IDAkAqSgxA1ZCOnV61TJGtlmHX1BZeoCSf4nKI=/4709492439_konditerska-nasadka-ateco.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -23613,7 +23663,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Нержавіюча сталь',
@@ -23643,7 +23693,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23753,7 +23803,7 @@ export const db = [
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Країна виробник',
         attribute_value: 'Україна',
@@ -23890,8 +23940,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1921122748-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/wHREg9PKWDd5EuPc9gVvnm1hgRKrO7XehxJcUmg0BfQ=/4777533999_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ssT6FUEIo-X3J_aft2a4RWdxwuZu02rURbKciQWdKZc=/4777534008_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -24080,8 +24131,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1960154664-glazur-konditerska-blakitna.html?source=merchant_center',
     image:
       'https://images.prom.ua/LjtAtmCXh9eoHB_Hd5xK4gVkI6xpj3X8_ZulEPbe-KI=/4900390218_glazur-konditerska-blakitna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/7uYI2w8jmQe0SYN_zD_Fs-CEio6r1RpqyocJS-p0CQY=/4900390194_glazur-konditerska-blakitna.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -24407,10 +24459,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1964315309-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/EwVAkbDk9caXmitltxKvUtRuMGuqoC82M1S0LnwjRiE=/4914060616_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/uiI9ubPzBSRXoEzajnrLrG8sPXgW38YKkLWMfB-FlF8=/4914060617_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
       'https://images.prom.ua/rTtwtlsjIaekV8b6mxNr9PosqozFCyH5wuqXXnwe0rE=/4914060613_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 165.0,
     product_type:
@@ -24498,8 +24550,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1964734796-tsukrova-prikrasa-gilochka.html?source=merchant_center',
     image:
       'https://images.prom.ua/ajmcyeP4BXViPTqavf4k1Eq81uphFDAMqzHWYF0uDFM=/4915519802_tsukrova-prikrasa-gilochka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/nLfH7u5YHay0zOsFRN1RPsJyqCxf351YqWZnCDsAe0w=/4915519800_tsukrova-prikrasa-gilochka.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -24519,8 +24572,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1970404071-tsukrovi-prikrasi-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/AbZidps2FuUAOl2F8uNTRfomWplxvYVo0H6hPx5PvOU=/4933128157_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/IEoWBnBgL6NUCsUwsNAxgmFqFDW4TMUsaI4NdTo5zHU=/4933128167_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 181.0,
     product_type:
@@ -24557,8 +24611,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p1974618231-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/Q31gjkPWIXS93uX6Usd8B9jB4WFsW_YGHHYSerj9zj8=/5568247858_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/yfab6gHftNRuQ_rrpYxK64osesh9l0qx17_LYD2KdBg=/4945822623_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -25867,8 +25922,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2019166168-makaruny-mini-kryshechki.html?source=merchant_center',
     image:
       'https://images.prom.ua/XfOfxNEq-F2W6YJjxK6oBtHZHpWiZHdK7_3ul9AOzGs=/5106104171_makaruni-mini-krishechki.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/-r3VwrDePSY-3x0c_DjQtRWvJJoUTvcy_U4X8LeJoQw=/5106104167_makaruni-mini-krishechki.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -26343,8 +26399,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2024128930-saharnaya-posypka-beze.html?source=merchant_center',
     image:
       'https://images.prom.ua/Ke_3J_sENpIPpI7o7Te_zv5J0jS1Y5PqXcjGLq_6bk4=/5123653138_tsukrova-posipka-beze.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/O73oS-aa0Zv0K-MHKnhKqC0Wg1LnbTHqboz1wz8z6LY=/5123653141_tsukrova-posipka-beze.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -26362,8 +26419,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2024129433-saharnaya-posypka-beze.html?source=merchant_center',
     image:
       'https://images.prom.ua/mBXKJCAZ2KVCFNGzHESFaUk-z2fb9dxtjs4HgQgdFpg=/5123655918_tsukrova-posipka-beze.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/SXlyB4zfK7Y60rNGFKSbitbQ1cjHAl-uABrmDBph7ds=/5123655891_tsukrova-posipka-beze.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -26456,8 +26514,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2035714204-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/9f9ok1XVdq6zm7yH5vhChVPJlGNrRW_W46NOKqJkBgA=/5165758841_tsukrovi-prikrasi-ale.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/sBleMf9rSFa-ofqG1INAHSUEDaCn5Ldt2p2spt_I9PQ=/5165758842_tsukrovi-prikrasi-ale.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -26478,8 +26537,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2035714233-saharnye-ukrasheniya-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/nYTH0Ja7j2vB-U0FUhf8huPNo2B30P12YuoJcziPpQA=/5165760762_tsukrovi-prikrasi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/bKagmYPah96Ktj-s0Q2aWvinLXBHNr7IvgHGBp16GNE=/5165760763_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -26517,10 +26577,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2035717537-stijka-dlya-torta.html?source=merchant_center',
     image:
       'https://images.prom.ua/bvifgnt74goLACiMlQIWWbnDcEekoJaTGQHHozfk0t4=/5165786725_stijka-dlya-torta.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/lN88-di6Lt-PQhijnvrMxRafLC0Lkl1_19A1hCESfgQ=/5165786726_stijka-dlya-torta.jpg',
-    additional_image_link:
       'https://images.prom.ua/A7yXPoxTBRjXlMRrbSWQcY_64qyHgRf5zBpDqqKFN8w=/5373415247_stijka-dlya-torta.jpg',
+    ],
     availability: 'out of stock',
     price: 696.0,
     product_type:
@@ -26538,8 +26598,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2039589267-posoh-karamelna-trostinka.html?source=merchant_center',
     image:
       'https://images.prom.ua/dsIr1osVrIhxmLbH308OoSUgqyinVEJaxhCLbmUIbrk=/5180170426_posoh-karamelna-trostinka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/BnmgzPp9ARCOOFCCfW_5QbiD_k7tijqHVLbx0OiebBQ=/5180176665_posoh-karamelna-trostinka.jpg',
+    ],
     availability: 'in stock',
     price: 23.0,
     product_type:
@@ -26575,10 +26636,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2039594446-novorichni-lodyaniki-palichtsi.html?source=merchant_center',
     image:
       'https://images.prom.ua/P53l3t6trjPqVTYwSRyQBDb3JPU9md4ERd9u4FneFKk=/5180199953_novorichni-lodyaniki-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/rWwpeF7CmFCSc4ZF9J2ZnbhDCe1hsPuKxHL0Qmr3qBc=/5180199943_novorichni-lodyaniki-na.jpg',
-    additional_image_link:
       'https://images.prom.ua/w2ty1lxeCkSPu4RjdqjjQvDdx_b6UiiFx-Dqp58g6Gs=/5180199944_novorichni-lodyaniki-na.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -26688,15 +26749,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2039607019-forma-silikonova-alfavit.html?source=merchant_center',
     image:
       'https://images.prom.ua/QRN46E4l3LqQzWU4LfIWrTbnnDV6WYMBCWj8TQEC8s8=/5180256525_forma-silikonova-alfavit.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/ABM5YNx0UOblXiu35UAl3F2zgYPrIt8DvE9aYDrtj_s=/5180256524_forma-silikonova-alfavit.jpg',
+    ],
     availability: 'in stock',
     price: 120.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -26731,8 +26793,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2063506357-pechivo-peredbachennyam-shtuka.html?source=merchant_center',
     image:
       'https://images.prom.ua/NW6HZefnfIAlrYkfHdnsMjqlBeZvmiYde9AusQVbyVA=/5268589159_pechivo-z-peredbachennyam.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/v3D8ceKLlKYlHJL2wSAM-9OotrdEohM_GaADtS4y3aQ=/5268589158_pechivo-z-peredbachennyam.jpg',
+    ],
     availability: 'out of stock',
     price: 10.0,
     product_type:
@@ -26775,7 +26838,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Плунжер',
@@ -27079,7 +27142,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Килимок кондитерський',
@@ -27248,7 +27311,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27272,7 +27335,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27296,7 +27359,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27320,7 +27383,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27344,7 +27407,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27368,7 +27431,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -27392,7 +27455,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Пластик',
@@ -27410,8 +27473,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2073126437-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/JSQaX_Jlw8qw-pMlq6oYqgS5Auz3odT4om1GqYGGgsQ=/5301804141_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/XgGqGMLAVrSpT4tLXfmK9ej4XNxhINpaxL_8qo4T5ts=/5301804186_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 147.0,
     product_type:
@@ -27458,7 +27522,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -27482,7 +27546,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -27506,7 +27570,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Вирубка',
@@ -27528,8 +27592,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2073145148-vishnya-koktejlna-zhovta.html?source=merchant_center',
     image:
       'https://images.prom.ua/5bxjiXNPi3h4IJn71ZNCsPBJzu46w-_A2zbXOeleAgg=/5301864086_vishnya-koktejlna-zhovta.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/EReMiG4MZFTQvbgudYMEUB63IZEcJJDgTHsAjVCBhjA=/5301864104_vishnya-koktejlna-zhovta.jpg',
+    ],
     availability: 'out of stock',
     price: 109.0,
     product_type:
@@ -27548,10 +27613,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2073146895-vishnya-koktejlna-chervona.html?source=merchant_center',
     image:
       'https://images.prom.ua/G6lcP0aq0-QG9yZZvk87_13h_dfBtaDeEhAryFZKUCc=/5301865759_vishnya-koktejlna-chervona.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/iUIFzREVO8OgYvPyGgi7T1SWdNngu5I_bnwZoWxHPcI=/5301865765_vishnya-koktejlna-chervona.jpg',
-    additional_image_link:
       'https://images.prom.ua/pYraQn6HEYmgleYo7L2xexJksjX_3AfYM2WfCT65wds=/5301865768_vishnya-koktejlna-chervona.jpg',
+    ],
     availability: 'in stock',
     price: 114.0,
     product_type:
@@ -27978,8 +28043,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2075343113-agar-agar-1200.html?source=merchant_center',
     image:
       'https://images.prom.ua/Nm5LP81Oqfh2L2mglevh1y7uC4xBqvZXGWAQfqnABGI=/5310339679_agar-agar-1200-pakovannya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/w_IHSzHEHkkwyr_RtUav3NongJVCQnjPEKB9pdIypyc=/5310339680_agar-agar-1200-pakovannya.jpg',
+    ],
     availability: 'in stock',
     price: 18.0,
     product_type:
@@ -28420,8 +28486,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2075822220-shokoladnye-sfery-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/IZMJ9Mb7PTBO13Wy0npKpUoZf-vFYDowQRzPHJ16vNk=/5312531649_shokoladni-sferi-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -29397,7 +29464,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -29422,7 +29489,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Плунжер',
@@ -31019,8 +31086,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2081480999-kmts-upakovka-banochka.html?source=merchant_center',
     image:
       'https://images.prom.ua/ULcCnbOc-3zWq6pe1seiguVwNKhEz5IEBiw33a7Yrac=/5334770741_kmts-pakovannya-banochka.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/O_lEVB2lP7kWK9aHn_RF18Ao3e3LiFPGmfz92BzKaoQ=/5334770775_kmts-pakovannya-banochka.jpg',
+    ],
     availability: 'in stock',
     price: 73.0,
     product_type:
@@ -31320,7 +31388,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31338,15 +31406,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2083028820-nabir-mastihiniv-shpateliv.html?source=merchant_center',
     image:
       'https://images.prom.ua/EOxkGf-JIo1a_250w8TBGysWyJskJtBkZ1zyQkH4Mfs=/5340277733_nabir-mastihiniv-shpateliv.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/O9dSuIytnXnnZ8dfGJ6XB3YF7ADLJDhAZGUgPFrw4ss=/5340277741_nabir-mastihiniv-shpateliv.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -31370,7 +31439,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31394,7 +31463,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31418,7 +31487,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Пластик',
@@ -31442,7 +31511,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31484,7 +31553,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Вирубка',
@@ -31502,8 +31571,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2083043137-forma-silikonova-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/3l8hugIiXXTCTgtAWnJ4zkwQe7IwmEDuF6DZMPRzdig=/5340324939_forma-silikonova-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/0gVMOA9IXJzamRXMRj_32U3_doPbucXx66H_j8ytthE=/5340324940_forma-silikonova-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 65.0,
     product_type:
@@ -31546,7 +31616,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Пластик',
@@ -31588,7 +31658,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Вирубка',
@@ -31606,15 +31676,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2083590281-nabir-virubok-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/_z4irMLVH72uuEAJmT05n8ESLJ9cS9w-qj5SN8_WtEk=/5342242192_nabir-virubok-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/RpihHQHQ4EnXcKam3MHEf6aM5SC4ymoZhl9MV3cHdsM=/5342242193_nabir-virubok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 62.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Вирубка',
@@ -31763,8 +31834,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2084612014-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 144.0,
     product_type:
@@ -31790,7 +31862,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Плунжер',
@@ -31818,7 +31890,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31842,7 +31914,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31866,7 +31938,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31890,7 +31962,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31914,7 +31986,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31938,7 +32010,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -31962,7 +32034,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -32036,17 +32108,17 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091404500-silikonova-forma-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/k9yo3FvNsHNwNL1mpiTwuBORXClWc42zcIqB9NjfjSk=/5373101113_silikonova-forma-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/WcjC7gDNZ1jQBvCvcDaw7K69VsC-zXO2LGmCsZqY4OI=/5373101110_silikonova-forma-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/LtuqtgmDeuME-e0I5j_8loc64HzvspyIki8LYjLWFWE=/5373101109_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -32155,7 +32227,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -32179,7 +32251,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -32287,8 +32359,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091471200-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 212.0,
     product_type:
@@ -32308,8 +32381,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091472586-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 236.0,
     product_type:
@@ -32329,8 +32403,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091475241-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -32407,10 +32482,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091514576-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 200.0,
     product_type:
@@ -32430,10 +32505,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091515145-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 244.0,
     product_type:
@@ -32453,10 +32528,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091516367-forma-rozsuvna-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 270.0,
     product_type:
@@ -32480,7 +32555,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -32535,17 +32610,17 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091542296-shpatel-konditerskij-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/EdtxM9k7DRY8fBWE9N28zsL7ICArTteDBytvrMZVtLs=/5373390305_shpatel-konditerskij-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/uMrbymmXHcRHvdD3tJDdD80cIqhYUE93ZXM_sSCZcXE=/5373390276_shpatel-konditerskij-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/XVwrmWrUjboO9wEhwYnUsS-yUkEwrhN18SqmDLfVUkc=/5373390302_shpatel-konditerskij-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Пластик',
@@ -32582,8 +32657,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2091549694-forma-konditerska-rozduvna.html?source=merchant_center',
     image:
       'https://images.prom.ua/itIeEiqbkvNDKr-xHXYBcu3iNyLue27Po97QSlIXthY=/5373411061_forma-konditerska-rozduvna.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/VqUL5ARcgFS4i_c5TOqFiBO5dzT5fTWKNmCsXOVBOm4=/5373411070_forma-konditerska-rozduvna.jpg',
+    ],
     availability: 'in stock',
     price: 214.0,
     product_type:
@@ -33075,8 +33151,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2095797072-saharnoe-ukrashenie-tort.html?source=merchant_center',
     image:
       'https://images.prom.ua/A_UaHYjWg9wtb7Vx72-foi5zixGO_pQGyU8gZPwbMhM=/5389393402_tsukrova-prikrasa-na.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/JJV4Pt99geZGy8jrcbFsXBGVcZD3d-pvs7B0fZ6aL7c=/5389393411_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 86.0,
     product_type:
@@ -33270,7 +33347,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33294,7 +33371,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33354,7 +33431,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33700,7 +33777,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33725,7 +33802,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33750,7 +33827,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33774,7 +33851,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33799,7 +33876,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33824,7 +33901,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33849,7 +33926,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Помаранчевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33874,7 +33951,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33898,7 +33975,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33923,7 +34000,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33948,7 +34025,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33972,7 +34049,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -33997,7 +34074,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -34021,7 +34098,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -34046,7 +34123,7 @@ export const db = [
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Дерево',
@@ -34498,8 +34575,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100906508-teflonova-forma-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/1mkkHbP5jaKC5fqLCNnUz1hcRvYLsm_IwOtTMQ_EbSk=/5409224546_teflonova-forma-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/QElhYSMpbjnOLrbcyHDMAHWPo6S2VWEEul1yJtU8uuE=/5409224517_teflonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 264.0,
     product_type:
@@ -34718,8 +34796,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100921011-zoloto-pischevoe-potal.html?source=merchant_center',
     image:
       'https://images.prom.ua/1HixekHiwchBpdMPqpntt2bYaf4xfNvJTXIxecJohYQ=/5409269339_zoloto-harchove-potal.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-potal.jpg',
+    ],
     availability: 'in stock',
     price: 328.0,
     product_type:
@@ -35065,8 +35144,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100956253-prikrasa-tort-nabir.html?source=merchant_center',
     image:
       'https://images.prom.ua/u17fawvBdMqIZGgKPBsdNoo97_ycKV5Idy8CTlwCf3M=/5409357757_prikrasa-na-tort.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/O_vs3WdM-ipPXMHwywV_VoVhEneaFJNpvbGKv8sbF-k=/5409357752_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 409.0,
     product_type:
@@ -35106,8 +35186,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100962524-vershki-konditerski-dekovip.html?source=merchant_center',
     image:
       'https://images.prom.ua/nTGsn0SyADPBw2cpoOr-lXgQfmEZXTbhasT9U4DhIVM=/5409382171_vershki-konditerski-mi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/93oobWpHXoDlMcEOKYTrKb_WEwSJejZhQWOgrIlUwtQ=/5409382181_vershki-konditerski-mi.jpg',
+    ],
     availability: 'in stock',
     price: 198.0,
     product_type: 'продукти харчування, напої > молочні продукти > вершки',
@@ -35142,8 +35223,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100975204-upakovka-dlya-desertu.html?source=merchant_center',
     image:
       'https://images.prom.ua/4laqFmGIKb0VAZj-0wtebmdjbtTbYY5tuuM15YtJa7o=/5409421649_upakovka-dlya-desertu.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/Vh5Id2i2LLrxr9C1f2ixtuI5cQ06a2d0GpF89RrmUxs=/5409421648_upakovka-dlya-desertu.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -35163,10 +35245,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100980415-korobka-upakovka-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/Owb9rWyrM7m5dM7m61AMMWzq7ZMDIIWWFutFiFK46b0=/5409437657_korobka-upakovka-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/H-EAjMCYKPtwAJqk9TUYkB7Ul-_kFVbvYEllmXiZ-XU=/5409437605_korobka-upakovka-dlya.jpg',
-    additional_image_link:
       'https://images.prom.ua/xog2Y3o_m0KpgL4AXoVntGndtedKjWXCASDsfS9nAjA=/5409437705_korobka-upakovka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -35185,10 +35267,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100985538-pidnos-pryamokutnij-150h400.html?source=merchant_center',
     image:
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-150h400.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-150h400.jpg',
-    additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h400.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -35207,10 +35289,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100989184-pidnos-pryamokutnij-150h350.html?source=merchant_center',
     image:
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-150h350.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-150h350.jpg',
-    additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h350.jpg',
+    ],
     availability: 'in stock',
     price: 70.0,
     product_type:
@@ -35229,10 +35311,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2100989807-pidnos-pryamokutnij-70h120.html?source=merchant_center',
     image:
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-70h120.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-70h120.jpg',
-    additional_image_link:
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-70h120.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -35566,8 +35648,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2109083730-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     image:
       'https://images.prom.ua/e54pMCqTYez2CCESpMqGFT4j87F7Q-MrSO_ZxyplaKo=/5442138706_velikodnij-nabir-z.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/yBpS9MsonxA3HZo8vwsluyQbY-CY_MQz_FdKM6DPc_E=/5442138700_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35697,15 +35780,16 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2109090234-silikonova-forma-hrestiki.html?source=merchant_center',
     image:
       'https://images.prom.ua/gRyNGVN2Fbwnzl8mytjhZNkgpQQrMnL0r-90wsYDm5k=/5442194744_silikonova-forma-hrestiki.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/0V47smr133fX0UMcejToxFEZ04GE3Imi-qEmwaMrAy8=/5442194745_silikonova-forma-hrestiki.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -35729,7 +35813,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Силікон',
@@ -36081,14 +36165,12 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2119410627-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     image:
       'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
-    additional_image_link:
       'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 96.0,
     product_type:
@@ -37063,7 +37145,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37088,7 +37170,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37113,7 +37195,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37138,7 +37220,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37163,7 +37245,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37188,7 +37270,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37212,7 +37294,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Матеріал',
         attribute_value: 'Картон',
@@ -37249,10 +37331,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2134269715-angelochek-posypkoj-saharnoj.html?source=merchant_center',
     image:
       'https://images.prom.ua/7QuRj2LUqF475SRqPFWIbrDBcm48z0_fUrKdSHGsjHg=/5546333946_angelochok-iz-posipkoyu.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/R3L6-hEmhIQhCe-CsBNt-ydf44FoBAVreyTicWwdLUk=/5546333947_angelochok-iz-posipkoyu.jpg',
-    additional_image_link:
       'https://images.prom.ua/13RO08RohhBKJKJF1zJhazdc1iEhktMJxlej8EzomHk=/5546333980_angelochok-iz-posipkoyu.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -37273,12 +37355,11 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2134271453-krestik-saharnoj-mastiki.html?source=merchant_center',
     image:
       'https://images.prom.ua/nRf02eQuPNEXdTBuFEOYE1Vsgg1A99bL49m58RpqESs=/5546338175_hrestik-iz-tsukrovoyi.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/UyyOMFYIQ9RJTGsrWuCJAhaoJP9QhbW3j0QBku_ok7o=/5546338198_hrestik-iz-tsukrovoyi.jpg',
-    additional_image_link:
       'https://images.prom.ua/HI67RVw4WouqCjMsVIOlTND7Ynp0Xnk8DjgiNefRCQ0=/5546338252_hrestik-iz-tsukrovoyi.jpg',
-    additional_image_link:
       'https://images.prom.ua/quf4k8eiCZVoRVHpT_pJVKIQliLjFBv0l7N8TiBVpx8=/5546338184_hrestik-iz-tsukrovoyi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -37299,10 +37380,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2134279026-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/vfy-DVlERktkfNu8elRT27RKGPWCI2SrcreIMUS3gBA=/5546358819_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pcKZddgF_sfszIVbo5zY_uQZyjsi2WmAZAutgLtKTbY=/5546358843_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -37865,7 +37946,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -37889,7 +37970,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -37913,7 +37994,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -37937,7 +38018,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -37961,7 +38042,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -37985,7 +38066,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -38009,7 +38090,7 @@ export const db = [
       'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
-    product_detail: [
+    product_details: [
       {
         attribute_name: 'Тип',
         attribute_value: 'Насадка кондитерська',
@@ -38154,8 +38235,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2140105468-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     image:
       'https://images.prom.ua/V8NURMbGB7_GyaxzW_ePNtOa7n6wnYd-HNyiYYsCCcU=/5567921852_konditerska-tsukrova-prikrasa.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/n2cGYmpZywH6CwBPwKu30sjoQwZAv7nNap7s428HEIs=/5570249559_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 193.0,
     product_type:
@@ -38476,8 +38558,9 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2140169979-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     image:
       'https://images.prom.ua/s39TbHdirE4kgkqJ_cV3yr4JR0LR_j00uhB27mQBQGM=/5568193545_tsukrova-prikrasa-dlya.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/e0ULy-Q6AlgsO3ZZPxLqt5vNajKHp_a-MoBQREDUyGk=/5568193549_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -38713,10 +38796,10 @@ export const db = [
       'https://zatyshno.prom.ua/ua/p2140180795-nabor-konditerskih-saharnyh.html?source=merchant_center',
     image:
       'https://images.prom.ua/vfy-DVlERktkfNu8elRT27RKGPWCI2SrcreIMUS3gBA=/5546358819_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
+    additional_image_link: [
       'https://images.prom.ua/pcKZddgF_sfszIVbo5zY_uQZyjsi2WmAZAutgLtKTbY=/5546358843_nabir-konditerskih-tsukrovih.jpg',
-    additional_image_link:
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:

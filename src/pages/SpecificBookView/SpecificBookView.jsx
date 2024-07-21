@@ -80,6 +80,16 @@ export default function SpecificBookView({
                     {book.product_type}
                   </p>
 
+                  {book?.product_details &&
+                    book.product_details.map(detail => (
+                      <p className={s.stat}>
+                        <span className={s.statName}>
+                          {detail.attribute_name}:
+                        </span>
+                        {detail.attribute_value}
+                      </p>
+                    ))}
+
                   <p className={s.stat}>
                     <span className={s.statName}>
                       {languageDeterminer(LANGUAGE.specificBookView.tags)}
