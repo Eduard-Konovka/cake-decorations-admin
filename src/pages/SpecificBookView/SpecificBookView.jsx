@@ -49,7 +49,7 @@ export default function SpecificBookView({
     <main className={s.page} style={{ minHeight: mainHeight }}>
       {loading && <Spinner size={70} color="red" />}
 
-      {error && (
+      {!loading && error && (
         <div className={s.errorBox}>
           <p className={s.errorLabel}>
             {languageDeterminer(LANGUAGE.viewError)}
@@ -58,14 +58,28 @@ export default function SpecificBookView({
         </div>
       )}
 
-      {book && (
+      {!loading && !error && book && (
         <>
           <div className={s.row}>
-            <img
-              src={book.image !== '' ? book.image : imageNotFound}
-              alt={book.title}
-              className={s.image}
-            />
+            <div className={s.imagesBox}>
+              <img
+                src={book.image !== '' ? book.image : imageNotFound}
+                alt={book.title}
+                className={s.image}
+              />
+
+              {book.additional_images_links && (
+                <div className={s.additionalImagesBox}>
+                  {book.additional_images_links.map(additional_image => (
+                    <img
+                      src={additional_image}
+                      alt={book.title}
+                      className={s.additionalImage}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
 
             <div className={s.thumb}>
               <div className={s.monitor}>
@@ -80,7 +94,7 @@ export default function SpecificBookView({
                     {book.product_type}
                   </p>
 
-                  {book?.product_details &&
+                  {book.product_details &&
                     book.product_details.map(detail => (
                       <p className={s.stat}>
                         <span className={s.statName}>

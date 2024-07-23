@@ -279,7 +279,7 @@ export const LANGUAGE = {
   countForm: {
     label: {
       eng: 'Count, units:',
-      ukr: 'Кількість',
+      ukr: 'Кількість:',
     },
 
     totalPrice: {
