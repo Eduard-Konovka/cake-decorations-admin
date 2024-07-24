@@ -12,7 +12,7 @@ export default function SelectedBook({
   changeSelectCount,
   onDeleteBook,
 }) {
-  const { _id, image, title, price, count } = selectedBook;
+  const { _id, images, title, price, count } = selectedBook;
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -26,7 +26,7 @@ export default function SelectedBook({
           )} "${title}"`}
         >
           <img
-            src={image && image !== '' ? image : defaultImage}
+            src={images?.length > 0 ? images[0] : defaultImage}
             alt={title}
             className={s.cover}
           />

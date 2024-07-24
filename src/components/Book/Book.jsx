@@ -14,7 +14,7 @@ export default function Book({ book }) {
     <article>
       <img
         className={s.image}
-        src={book.image && book.image !== '' ? book.image : defaultImage}
+        src={book?.images?.length > 0 ? book.images[0] : defaultImage}
         alt={book.title}
       />
 
@@ -61,8 +61,7 @@ Book.propTypes = {
     _id: PropTypes.string.isRequired,
     product_type: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
-    image: PropTypes.string.isRequired,
+    images: PropTypes.arrayOf(PropTypes.string).isRequired,
     title: PropTypes.string.isRequired,
-    shortDescription: PropTypes.string.isRequired,
   }).isRequired,
 };

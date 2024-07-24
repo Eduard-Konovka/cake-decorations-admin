@@ -63,16 +63,16 @@ export default function SpecificBookView({
           <div className={s.row}>
             <div className={s.imagesBox}>
               <img
-                src={book.image !== '' ? book.image : imageNotFound}
+                src={book?.images?.length > 0 ? book.images[0] : imageNotFound}
                 alt={book.title}
                 className={s.image}
               />
 
-              {book.additional_images_links && (
+              {book?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {book.additional_images_links.map(additional_image => (
+                  {book.images.map(additionalImage => (
                     <img
-                      src={additional_image}
+                      src={additionalImage}
                       alt={book.title}
                       className={s.additionalImage}
                     />

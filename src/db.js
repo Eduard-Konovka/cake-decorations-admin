@@ -7,8 +7,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798969377-barvnik-harchovij-pomaranchevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798969377-barvnik-harchovij-pomaranchevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MX8wKsD0Nk9Y1PRv8lEwjsQQqie17sRBAi_tbk0WDP4=/4364217838_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -25,8 +26,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798970109-krasitel-zhelto-limonnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798970109-krasitel-zhelto-limonnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hxe5kP2jDjc0WNFL-L06OnOkALxHlyoT6W_6RviJsJg=/4364292660_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -43,8 +45,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798970559-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798970559-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hd1MyzcR5MhKawgzF4OBLEhLZHgfEJqCAgZO8OJJ8f4=/4364299170_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -61,8 +64,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798970823-krasitel-svetlo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798970823-krasitel-svetlo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TGreGRDP6FTbjDNYVNGMzShn6UGgaXYEHuBxmEocD5E=/4364302518_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -79,8 +83,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798971259-krasitel-solnechno-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798971259-krasitel-solnechno-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KuoAXuouwOkSm4LycvFDJntMGkBJXr3wfN7B43WnbKc=/4364305188_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -98,8 +103,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798972130-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798972130-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VhcGciMk1q3YnArGwGXSPHhmLetsjb-yIKSzFTxCTLs=/4364308542_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 105.0,
     product_type:
@@ -116,8 +122,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798972763-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798972763-krasitel-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rnTxVxFGT5YD8gbPVjs4y1T7Imk-Nt5msuLm9H6onQA=/4364312129_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 49.0,
     product_type:
@@ -135,8 +142,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798979412-krasitel-svetlo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798979412-krasitel-svetlo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yX7990QgsyZcv6OvuwdXarUGAeoUQR5Fl57eQWol5eM=/4364320809_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -153,8 +161,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798981721-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798981721-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CAqKEoVzuy_IfJKx0ioH6i-T_wAOHHnA9tHXqxeFO3Q=/4364323351_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 49.0,
     product_type:
@@ -172,8 +181,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798983499-krasitel-temno-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798983499-krasitel-temno-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BczqFimqAyxsKaWAdakmi8EJqua749Y0U-5b0_m5wF0=/4364330689_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'in stock',
     price: 82.0,
     product_type:
@@ -191,8 +201,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798987967-krasitel-limonno-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798987967-krasitel-limonno-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tMJfIp90VS-KZz-fjTG0_0lgCF-1627eo_MQhqIugjo=/4364342093_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 49.0,
     product_type:
@@ -210,8 +221,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798989786-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798989786-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wwGGhb0_zjTkC4mNYQZmUTvlSp2F2hkBpPnlpqXURvE=/4364350155_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 82.0,
     product_type:
@@ -228,8 +240,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798991960-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798991960-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eq3_8q3SNIxczKpSc76edDahE4qv3bQlI0fvFjfG39Y=/4364356763_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 49.0,
     product_type:
@@ -247,8 +260,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798992413-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798992413-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/S1tRlamTPc3eR9gnXp_yqavjs39k0mMAacUwqmSYs8w=/4364361942_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 82.0,
     product_type:
@@ -265,8 +279,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798994226-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798994226-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KIqPpOmJziUn371Pm-R1Bf4dUPk9W6_V3ZPy9ErviyY=/4364379449_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'in stock',
     price: 38.0,
     product_type:
@@ -283,8 +298,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798996156-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798996156-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Nv6tRtyVgN_KvEoUb6ORjwtENczmhRG5efWmdPh_C_A=/4364389191_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 38.0,
     product_type:
@@ -302,8 +318,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798997733-krasitel-zhelto-limonnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798997733-krasitel-zhelto-limonnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iZk3-OCp0FNNUCuLZ0JFpSRvHX9BrytkGYUlIYMrN9s=/4364398826_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -321,8 +338,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1798999063-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1798999063-krasitel-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qChPiS51MuM2ovmIn54pnER3pTIBvtJd3xAiWbB6QE0=/4364412709_barvnik-naturalnij-suhij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -340,8 +358,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799527134-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799527134-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZeyPeP8XBrNvE3fsZ8snCSMbF51hXDo7Zovs6gwTA5U=/4365957764_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -358,8 +377,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799530138-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799530138-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rMWqCRBumkyHu5SPMWyaVjv5f-zYnzM02fkhdyA1Ejs=/4365972665_barvnik-harchovij-naturalnij.jpg',
+    ],
     availability: 'out of stock',
     price: 115.0,
     product_type:
@@ -377,8 +397,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799533118-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799533118-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fi7VRO9kpCqEJumUrCprgKrCcAQvKHZYp_LoHrK6T9M=/4365981563_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -395,8 +416,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799561381-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799561381-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vBKWKdvUskutgjbJm4iyV6wnCvgBc-pmdj7_59Gzlww=/4366086459_barvnik-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -413,8 +435,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799563509-krasitel-fuksiya-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799563509-krasitel-fuksiya-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gj689FygtS6FMYd_-GXt1f-PCfAXI27rEM0aAeCzcTQ=/4366092137_barvnik-fuksiya-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 112.0,
     product_type:
@@ -431,8 +454,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799565270-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799565270-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1980mfnP2mRDOgL0McUT9fKT4SK7DPqoqkAhBIfSMdU=/4366104708_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 67.0,
     product_type:
@@ -449,8 +473,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799625792-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799625792-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P4BZS6XZ-fDWJoV02b_Z11-psUh3VylYH4wgV3mGHJQ=/4366269943_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -467,8 +492,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799633673-krasitel-morskaya-volna.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799633673-krasitel-morskaya-volna.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c_asL_s_wxiegToCcxvaf1lSTykOF8ytGRjrM8uE2T4=/4366291854_barvnik-morska-hvilya.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -485,8 +511,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799634868-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799634868-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tIGO1tIM6FGsz-0rifkVRNNjAYq2nPVxQhhSdRg_J7Q=/4366300126_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -503,8 +530,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799636670-krasitel-bordovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799636670-krasitel-bordovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WDmBAxIZA0nXF4I-bqfMukrefTGZoOn_olgRjLpLSXk=/4366309155_barvnik-bordovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -521,8 +549,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799640628-krasitel-zelenoe-yabloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799640628-krasitel-zelenoe-yabloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rXDW73fICxpQ6TXa7aJja6NAcrIsR1slzIPkEJg86xc=/4366318722_barvnik-zelene-yabluko.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -539,8 +568,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799642632-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799642632-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8xQ0uX6nospb2lD4T42w87ZRU-WeHJIqOka3TUF9n00=/4366324795_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -557,8 +587,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799646935-krasitel-temno-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799646935-krasitel-temno-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vYRn_19GNuXzf0HK0sWwWlbmlIByIACinPwZg5lznWM=/4366343875_barvnik-temno-sinij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -575,8 +606,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799651880-krasitel-malina-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799651880-krasitel-malina-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vo8hnRc2RlCfFPRjhpc29sEMTL3nUG7JzWO74YT1Htc=/4366344346_barvnik-malina-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -593,8 +625,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799657324-krasitel-yarko-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799657324-krasitel-yarko-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mzZsE3QIIFQ28vnjcHqzU1yfAXx41VExln6mSfaenhM=/4366352306_barvnik-yaskravo-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -611,8 +644,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799658865-krasitel-rozovo-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799658865-krasitel-rozovo-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P_SY35g6l-MvPWi8QHxTUUkd6X0Au94YpUzmDnZBgng=/4366355391_barvnik-svitlo-rozhevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -629,8 +663,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799664956-krasitel-yarko-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799664956-krasitel-yarko-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/J9thoVPCxt0YhntjJDn_ew9xOIz_niswwUNyGm3mZ5s=/4366366999_barvnik-yaskravo-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -647,8 +682,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799668544-krasitel-rozovo-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799668544-krasitel-rozovo-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4j-ctiAEDyQjL2tcZpWB4_pUDl4eUQQpVP62cMlrhuY=/4366373339_barvnik-rozhevo-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -665,8 +701,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799672673-krasitel-temno-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799672673-krasitel-temno-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UBEJumpdUPlrQBrZABU_gIvBc8WyUYURuMBEUfsFSq4=/4366377947_barvnik-temno-biryuzovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -683,8 +720,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799674795-krasitel-svetlo-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799674795-krasitel-svetlo-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_yV5ygsVRPGaU1bCWLkZAcBdYuI0mE4yEh0ov80qTac=/4366384665_barvnik-svitlo-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -701,8 +739,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799678073-krasitel-svetlo-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799678073-krasitel-svetlo-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6od4giZ8-Ftxf8IQAhItE6-MXBQTMvB0pI-MBcr8ln4=/4366395528_barvnik-svitlo-biryuzovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -719,8 +758,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799679672-krasitel-svetlo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799679672-krasitel-svetlo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/S-ppL0GJwHzdq-wSEWxdZjEWf1vXjaJg26qBr7kTOFg=/4366401386_barvnik-svitlo-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -737,8 +777,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799680065-krasitel-svetlo-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799680065-krasitel-svetlo-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/npZZ9jqWWZW1GU6uJOWV9R7H2tMxjde4toUKdX_VnJ8=/4366405064_barvnik-svitlo-blakitnij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 31.0,
     product_type:
@@ -755,8 +796,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799680530-krasitel-yarko-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799680530-krasitel-yarko-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NCwi53CA4WPYHYsixjwJ6REPZaRAB7dLg0iNk42LgpQ=/4366410217_barvnik-yaskravo-zelenij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 35.0,
     product_type:
@@ -773,8 +815,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799682441-krasitel-goluboj-gelievyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799682441-krasitel-goluboj-gelievyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tZOQ6zGC-8PMeDkPW15oPiYF_FvhNuD6ylz2DR5b1gg=/4366417513_barvnik-blakitnij-geliyevij.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -791,8 +834,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799687203-krasitel-zelenyj-vinograd.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799687203-krasitel-zelenyj-vinograd.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dwZfonbydoQOL8EWoBpnoUZboCaeSen49BRtqKJA9a4=/4366477330_barvnik-zelenij-vinograd.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -809,8 +853,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799693727-krasitel-shokoladnyj-desert.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799693727-krasitel-shokoladnyj-desert.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uEKbkWLiDV70UoaKphoAAuHtlF-yo9-AJ9Uk7fk5rdE=/4366483345_barvnik-shokoladnij-desert.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -827,8 +872,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799701139-krasitel-pyanaya-vishnya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799701139-krasitel-pyanaya-vishnya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SVeYBJM-Lvu_nX9n48qD6UgJZveswpIr_hq9ldn8kuM=/4366490722_barvnik-pyana-vishnya.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -845,8 +891,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799704469-krasitel-sochnaya-klubnika.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799704469-krasitel-sochnaya-klubnika.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7XBl2YvKsNawyvCFZLN14E6gzLqFoZHg02LAXpY2mLc=/4366500870_barvnik-sokovita-polunitsya.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -863,8 +910,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799705573-krasitel-solnechnyj-limon.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799705573-krasitel-solnechnyj-limon.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D14AQLE0BLQTv5RVaFFMjZyXXf5rONAkXIwOaQVCK_I=/4366511133_barvnik-sonyachnij-limon.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -881,8 +929,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799714033-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799714033-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MeZ9KYqsSHXGjPv71rHDv1BPrA_gL3jEZDzAl5c0JtI=/4366561191_barvnik-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -899,8 +948,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799714871-krasitel-krasnij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799714871-krasitel-krasnij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vrf9qDo5F-WxUpzS9WWJq96dY5rbLyJZFtqL0xtpdeo=/4366567818_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -917,8 +967,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799716182-krasitel-temno-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799716182-krasitel-temno-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gyKSYpG4y-w1fLbDoVbBOL_XoVRvrdq-j_bBkS2s_tQ=/4366573844_barvnik-temno-korichnevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -935,8 +986,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799716886-krasitel-temno-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799716886-krasitel-temno-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VaGR3AmcrD1sfBz93_xdqC4XohKUq9gvmU7PTrBx958=/4366578806_barvnik-temno-sinij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -953,8 +1005,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799717086-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799717086-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kXIi3fEGmaxOhDQ3fLiCbq8ofbWsuQwQBPlloCoMC8I=/4366582233_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -971,8 +1024,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799717287-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799717287-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Yp1AGfP4iZ8E9bMMQctqdQaSuzILTonnATP3Oamg0yk=/4366585257_barvnik-biryuzovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -989,8 +1043,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799717537-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799717537-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7FqXkKmmfCshfeGVMGnOiM-D4QJGNX2g4EbfzuGxU9s=/4366589276_barvnik-zelenij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -1007,8 +1062,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799717718-krasitel-zelenoe-yabloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799717718-krasitel-zelenoe-yabloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NnyWh0kD4NvzgZWz0JJ82MOG3KXBxDsOiQLnIeTLEI8=/4366591765_barvnik-zelene-yabluko.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -1025,8 +1081,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799718337-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799718337-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IZbQy6bomeD_KSFiBTBYfaIJ1PsOZgh7cJ5V3ioFz3U=/4366595001_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -1043,8 +1100,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799719215-krasitel-brilyantovyj-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799719215-krasitel-brilyantovyj-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c0r6Ywo5rhC2RDrnUHVh34bNe2esUmu7RUPef7GgbUc=/4366602410_barvnik-diamantovij-sinij.jpg',
+    ],
     availability: 'out of stock',
     price: 33.0,
     product_type:
@@ -1061,8 +1119,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799719931-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799719931-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IeRBmvL0eKqtHN5ibUNbQT4cu21sVkvaYThH4BEhL2I=/4366607901_barvnik-chornij-sinij.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -1079,9 +1138,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799727454-kandurin-belyj-hameleon.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799727454-kandurin-belyj-hameleon.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qlwO8AtwNYnzgqHPIEVOcjfItxD9_lbO_tkO1vd1TEs=/4366612500_kandurin-bilij-hameleon.jpg',
-    additional_images_links: [
       'https://images.prom.ua/tAWHW5JAutOuS84mtB6YqOhPNeoDWFZ89eZWzUna6mg=/4552561275_kandurin-bilij-hameleon.jpg',
     ],
     availability: 'out of stock',
@@ -1100,9 +1158,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799794404-kandurin-antichnoe-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799794404-kandurin-antichnoe-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Bf_46Osu6H066SpsDaDFYu-LqVKO0QLrfIjFlHxMj1E=/4366834047_kandurin-antichne-zoloto.jpg',
-    additional_images_links: [
       'https://images.prom.ua/CmFozXcjB6Hv7TTF-D9BhmOKRH_Tf_QNdQZ7a8dGL0c=/4552604603_kandurin-antichne-zoloto.jpg',
     ],
     availability: 'out of stock',
@@ -1121,9 +1178,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799797107-kandurin-supper-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799797107-kandurin-supper-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mdr-xBfTAr3K2NpLRULCcQgSnfXEy9iP_dJo3tg-Q6s=/4366862604_kandurin-super-zoloto.jpg',
-    additional_images_links: [
       'https://images.prom.ua/r96dDlfzn3YJZ7wwHRz58eInVKu4Q-AKIhoFw3qwlng=/4552571757_kandurin-super-zoloto.jpg',
     ],
     availability: 'in stock',
@@ -1142,9 +1198,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799799583-kandurin-zolotoj-diamant.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799799583-kandurin-zolotoj-diamant.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cOZKy46iFa-Ll2E-IuSqlo9Bsdk3Pv66CmmmUxAUyt4=/4366882025_kandurin-zolotoj-diamant.jpg',
-    additional_images_links: [
       'https://images.prom.ua/FE-nx4p_UH_WjpBw07IijjJCpLnCgM3v9qlTmKwxZqM=/4552600640_kandurin-zolotoj-diamant.jpg',
     ],
     availability: 'in stock',
@@ -1163,9 +1218,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799801416-kandurin-antichnoe-serebro.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799801416-kandurin-antichnoe-serebro.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/u9ASphMhJ0yjW3VXA6QbKUQ-zfHuU07EaHaiX5zE9Dw=/4366890612_kandurin-antichne-sriblo.jpg',
-    additional_images_links: [
       'https://images.prom.ua/RoEw-LFB6_S9-mXiCcOm9zUKeUZrkoRw0j3tYRlCozo=/4552607497_kandurin-antichne-sriblo.jpg',
     ],
     availability: 'in stock',
@@ -1184,9 +1238,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799804563-kandurin-serebryannyj-blesk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799804563-kandurin-serebryannyj-blesk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/43vYQHOeeYkLYXkBuF2MVjCd8xwqYW1PZcLDWNmwoe4=/4366918170_kandurin-sribnij-blisk2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/DuYs4Zo2hVjS_yBLMseB1G6ngHBJ6k0N_kiMD-iVRzc=/4552596055_kandurin-sribnij-blisk2.jpg',
     ],
     availability: 'in stock',
@@ -1205,9 +1258,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799809058-kandurin-chernyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799809058-kandurin-chernyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/b4No0LIAQO1K1Xt2P5Dir_FYk4By_6TpP7XhQBAeHD4=/4366938578_kandurin-chornij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/GTiOcJO_ppx9jwXVVpHbRk2kiE2olfhVl8ThXUf71dM=/4552580713_kandurin-chornij-2.jpg',
     ],
     availability: 'in stock',
@@ -1226,9 +1278,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799822106-kandurin-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799822106-kandurin-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_G5LncknvzT8fiKf_3SwQVQwmO4ZDU2q5WcnimCmGC4=/4367008120_kandurin-chervonij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/oAWBzIX8qTSH_U1FOe_RWQvSXkT6JBW8ztmNIpAvZVY=/4552590727_kandurin-chervonij-2.jpg',
     ],
     availability: 'out of stock',
@@ -1247,9 +1298,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799823985-kandurin-fuksiya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799823985-kandurin-fuksiya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/it4iQ88-2s2VA7BqyNNdWeWsssU1upO2Jm3eWcDUqNQ=/4367013320_kandurin-fuksiya-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/x36CzFVbCmtznkAroavwKbY3tOVRDW4_huqngrNG5iw=/4552613746_kandurin-fuksiya-2.jpg',
     ],
     availability: 'in stock',
@@ -1268,9 +1318,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799825614-kandurin-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799825614-kandurin-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HuEsdOm4YE738oqnHl3_vjkFjquLzOIZvC6mPNbW9Vw=/4367017728_kandurin-fioletovij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/w8wBnMjywmZ9qP9cypfDSgn-nzrc7stGWQ6UVkbrC-o=/4552550303_kandurin-fioletovij-2.jpg',
     ],
     availability: 'out of stock',
@@ -1289,9 +1338,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799826730-kandurin-izumrud.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799826730-kandurin-izumrud.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4BuiW7i3UnxrvQfZIMf37ArwgY3hoiWy25kY9-Fj8wY=/4367023012_kandurin-smaragd-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/y689zwyTdxgzjCJz6xdSAwjXOfVF1EQIxRgkIJVgSn8=/4552597826_kandurin-smaragd-2.jpg',
     ],
     availability: 'in stock',
@@ -1310,9 +1358,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799829169-kandurin-sinij-granit.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799829169-kandurin-sinij-granit.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ePNlGde_XtbuBjWrrV7qPBbSne4l3tKv0-6Q2hS5L2o=/4367116838_kandurin-sinij-granit2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/hsQbXoJPF5Mu46nScMrVOIUAdgonRseONtyctk-5vFs=/4552593056_kandurin-sinij-granit2.jpg',
     ],
     availability: 'in stock',
@@ -1331,9 +1378,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799843759-kandurin-satin.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799843759-kandurin-satin.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YMW-eej05kKtYenWnP-qCYZtMhgHxMEBSgR3LyPnGbg=/4367122020_kandurin-satin-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/t1Vjl3AV1dDkTuCcdZ8cm3IEIIjqv-fgR7zN6M3OovU=/4552565775_kandurin-satin-2.jpg',
     ],
     availability: 'in stock',
@@ -1352,9 +1398,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799843976-kandurin-metallik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799843976-kandurin-metallik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aEyWte72lSlfjh0wGUFbpoaw7xbsRWYG082384t49tA=/4367126821_kandurin-metalik-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/DtBMv9-je7diP3GCgzbC78mnupOvZS7QN9dXF2ZluQI=/4552568674_kandurin-metalik-2.jpg',
     ],
     availability: 'in stock',
@@ -1373,9 +1418,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799844746-kandurin-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799844746-kandurin-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Z0WdkqavS1tfbiVLcoEU9-RPBPBTp3EakxewGakTkjY=/4367131521_kandurin-korichnevij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Tzp5kN3jGV36puWI8DdlTxJAcLzheefsz_kghC0jZFs=/4552573921_kandurin-korichnevij-2.jpg',
     ],
     availability: 'out of stock',
@@ -1394,9 +1438,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799845023-kandurin-sinij-indigo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799845023-kandurin-sinij-indigo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zOIgHaGBh-jm4Rmt5axXJahHy7MmIHJYHAvU0eHEmFE=/4367136329_kandurin-indigo-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/_ewNiCkjjThfrc9JQlmVH5U1GMqoz-nLBn6rdi09qKI=/4552583795_kandurin-indigo-2.jpg',
     ],
     availability: 'out of stock',
@@ -1415,9 +1458,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799845579-kandurin-zolotistaya-myata.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799845579-kandurin-zolotistaya-myata.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oNtqjL0S2QkT03Nsi58Zt7AiJ_59lbGUedJYDZvi-Og=/4367141855_kandurin-zolotista-myata.jpg',
-    additional_images_links: [
       'https://images.prom.ua/aIg6fZS9EIRxSiqcmmBkyI23df_IyXrHbQ9EHHPdHIA=/4552610710_kandurin-zolotista-myata.jpg',
     ],
     availability: 'in stock',
@@ -1436,9 +1478,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799846087-kandurin-zolotisto-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799846087-kandurin-zolotisto-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/H7cNo1eTq8tf0Nmd2xk6FXsaZMCL8LwRovUsyxm3FlM=/4367147078_kandurin-zolotisto-zhovtij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Q6Ia9J-7krw7EX4W3sODH5F8YrWsd7yiR6-d1dErAkA=/4552615682_kandurin-zolotisto-zhovtij-2.jpg',
     ],
     availability: 'out of stock',
@@ -1457,9 +1498,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799846340-kandurin-zolotistoj-pesok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799846340-kandurin-zolotistoj-pesok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aElduWaiiST61RoxGX9b0CyUoeIQ1xxPBiMQjwKfbT8=/4367150889_kandurin-zolotistij-pisok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/qV6u-m48X_hWJKFIvDEY1Vk_TZp9PFQZ2jf3ftzi_u0=/4552576102_kandurin-zolotistij-pisok.jpg',
     ],
     availability: 'in stock',
@@ -1478,9 +1518,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799846663-kandurin-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799846663-kandurin-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3BP9rPleeFEOfahdpa3NhK1ma_iX3ENd9yikKC-NRKk=/4367157260_kandurin-blakitnij-2.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8iUNU6AKNcpRfAmo9gzUyBwNSECfZ6Ec0ZZ_dDlb5RY=/4552578660_kandurin-blakitnij-2.jpg',
     ],
     availability: 'out of stock',
@@ -1499,9 +1538,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799846872-kandurin-staroe-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799846872-kandurin-staroe-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tfuJGA9SK_I8ktSXOxYD73cY7aKS3jSwmXENr_BBYYM=/4367160648_kandurin-stare-zoloto.jpg',
-    additional_images_links: [
       'https://images.prom.ua/fQ1HNoBrw7hh_c3mioRMPOrQ9r-vHf1FtO9J8Fu4rek=/4552602505_kandurin-stare-zoloto.jpg',
     ],
     availability: 'in stock',
@@ -1520,9 +1558,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799847333-kandurin-zolotoj-blesk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799847333-kandurin-zolotoj-blesk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oGGYB9sOumGeMF5knP-zRskBzwftBx92BJJg5Uc6YDA=/4367165914_kandurin-zolotij-blisk.jpg',
-    additional_images_links: [
       'https://images.prom.ua/28RBYwktsGDSsGqhsnzz58IsEruEzpR3vdEUXWLsR58=/4552586581_kandurin-zolotij-blisk.jpg',
     ],
     availability: 'in stock',
@@ -1541,9 +1578,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799847597-kandurin-perlamutrovyj-blesk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799847597-kandurin-perlamutrovyj-blesk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DXu87T5NJgey52-Bc4UNnIaaDkKyM-FZwetdcdkpqLU=/4367170254_kandurin-perlamutrovij-blisk.jpg',
-    additional_images_links: [
       'https://images.prom.ua/1qpY5HuWeEh-Dob613CnFL-yoHWZuia332mlRdmjgr8=/4552588072_kandurin-perlamutrovij-blisk.jpg',
     ],
     availability: 'in stock',
@@ -1562,8 +1598,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799850741-krasitel-zelenoe-yabloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799850741-krasitel-zelenoe-yabloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yH6GwsFfQ0QSw00TP-nT32MPZCoVb8GgP4gmwUtQxIQ=/4367205474_barvnik-zelene-yabluko.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1580,8 +1617,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799853556-krasitel-korichnevyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799853556-krasitel-korichnevyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1Kvk3QLsJcPJWkWGStkNow1Ghq1B4RFOq8slkghPj2I=/4367225691_barvnik-korichnevij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1598,8 +1636,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799853759-krasitel-lavandovyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799853759-krasitel-lavandovyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QIC0yLe-cfubsCZj_HR322D24CJYuBiAijUo4vrmuDI=/4367236866_barvnik-lavandovij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1616,8 +1655,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799855558-krasitel-biryuzovyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799855558-krasitel-biryuzovyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZCP7qqyh0yIWdjLRtuCQWdJTApZk5LUd6FNmP14_gZU=/4367249868_barvnik-biryuzovij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1634,8 +1674,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799859167-krasitel-rozovyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799859167-krasitel-rozovyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xdgsg0SZsngux2bVKRRZJf4p26EQiH-6Ig7JsxnWiwk=/4367270115_barvnik-rozhevyj-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1652,8 +1693,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799859275-krasitel-goluboj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799859275-krasitel-goluboj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MA1VJsthGVAIFkMWDtJPgdUvJvPT7n9h_AotLEx_w7M=/4367270915_barvnik-blakitnij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1670,8 +1712,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799859457-krasitel-belyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799859457-krasitel-belyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xbPK_sRHgW_56tCuwWJLl_xHERnYk3ngz2S5UfmK7qg=/4367283829_barvnik-bilij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1688,8 +1731,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799860858-krasitel-fioletovyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799860858-krasitel-fioletovyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9fpPG8kSPrmndHts7YZOm9aqZUyqPkazG9PjJePb69U=/4367284629_barvnik-fioletovij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1706,8 +1750,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799861886-krasitel-zelenyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799861886-krasitel-zelenyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LEPqtGr6nki0gPwnNFFCbn31dKBAtlo3Aa8MboRvd8M=/4367285350_barvnik-zelenij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1724,8 +1769,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799862182-krasitel-sinij-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799862182-krasitel-sinij-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZJmMLpBJI8ycGKKTsyCAyPlvMP11WeTWd6rK3EdsN5g=/4367286567_barvnik-sinij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1742,8 +1788,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799862257-krasitel-oranzhevyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799862257-krasitel-oranzhevyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F0AES03aJlK--PGdJMDa6VBfqbBz4FGMM9-3X9uwSUc=/4367296297_barvnik-pomvrvnchevij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1760,8 +1807,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799863239-krasitel-chernyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799863239-krasitel-chernyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gB9vBIGOm4xdRZMofFXTjEeg6nkRIPRo5do7CvfCra8=/4367296902_barvnik-chernij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1778,8 +1826,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799863748-krasitel-krasnyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799863748-krasitel-krasnyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wnfD8gijA4b0ymXD_ezrZ9-0-Ny_BFP5Izrx9vK1oy4=/4367297357_barvnik-chervonij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1796,8 +1845,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799863793-krasitel-zheltyj-universalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799863793-krasitel-zheltyj-universalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JBxDalYULzN8pHPFbpRqDmUybwlc8yO1LhwY3C0emXM=/4367297928_barvnik-zhovtij-universalnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -1815,8 +1865,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799874277-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799874277-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Y7CiRjjGFRfcAhZZDFZS2W0qIr9s4eiG0uxNrMAPY-E=/4367341487_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -1835,8 +1886,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799875655-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799875655-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aPdaEmlj4R2OzlBh0-mMHcXx1fx_6pPs9jWPxxh3Tzs=/4383445459_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -1855,8 +1907,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799875921-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799875921-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D_J4E1I234mHENdisVWn9qeQtCahmnj1haVowHKgApg=/4490066174_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -1874,8 +1927,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1799875982-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1799875982-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rF6hJmuw7kys49XVAsSKZA4ar7Ojzr9AyMpELq6UOxU=/4367355421_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 159.0,
     product_type:
@@ -1893,8 +1947,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800119773-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800119773-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KxUQHCKBjT1GQ6c1XEkefyUWYpu5y019Fogaex_3Oec=/4368367489_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 145.0,
     product_type:
@@ -1913,8 +1968,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800122573-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800122573-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5yHkwj-5M-jr0y5LZyr_-fV2ShWBnAdNYQepRj9rGHo=/4383470303_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 87.0,
     product_type:
@@ -1933,8 +1989,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800139608-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800139608-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qWLLH7kUsRZSMLSlOMlS0YMW7R8u76lcGUi9KZzYTlE=/5420508535_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -1953,8 +2010,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800143770-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800143770-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OW7CluPn4X3uZrTv_BnHOMzGnlwwOudDNNNihPyItKw=/4368415428_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -1973,8 +2031,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800148802-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800148802-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y-mDPSIZhYA--OnV168BndcIvN3xboDIFJqebjMms0o=/4368426776_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -1993,9 +2052,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800162306-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800162306-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/siKV-rxCjB3-6zWJHaUJEBPgOEXJtWZ602uGwtgK4B8=/4383453333_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/4HMwJ9QZqHuBKAosEx5lgMKjGnNvPDVQTsQqHUAZOJM=/4383453343_nabir-konditerskih-tsukrovih.jpg',
     ],
     availability: 'in stock',
@@ -2017,8 +2075,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800163120-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800163120-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j_ElUsi3oYqu4dFFjwtQZszr4Qhgr3ymK7sxCL8_c3A=/4368478536_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 120.0,
     product_type:
@@ -2036,8 +2095,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800164107-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800164107-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/acSerzWIjjq4i6oLpiXfmYQz7E1o6UcDXm4VS1lSNL4=/4368490346_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -2056,8 +2116,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800167697-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800167697-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gMBG_jr9m7xBxt_C8NH7rj_hpAU1-X3vXHA8eSCMP8s=/4368495090_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -2076,8 +2137,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800168359-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800168359-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hFo1JwVrXTIUjBNepEplK5-Z6pqk_LsSB8iv_pCm8UQ=/4368502477_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -2096,8 +2158,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800168623-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800168623-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kcHZ3EIdQkY99OADj_GZ9lQ-emY_LqHJpF92TSt9rVU=/4368506022_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -2116,8 +2179,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800168940-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800168940-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/za1ASjGG1sgp5x4v6n0sV1Rj-y3XBkgmvIhci11WVsg=/4368508592_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 77.0,
     product_type:
@@ -2136,8 +2200,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800318757-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800318757-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Oynn3mIewIv1M6tRmnezKJis7-3cd3w0EbDDH_98Sgg=/4368979237_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -2156,8 +2221,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800325033-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800325033-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UpvB2RjDQdn6_A0XKrC89-97fpc2767AN_4GT6t0Xng=/4368988774_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -2176,8 +2242,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800325628-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800325628-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2kinnHME20gXjwtnCPMkcLGR2BYrYO8EjWZX8Umncug=/4368992508_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -2196,8 +2263,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800327079-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800327079-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_ufc6ZaJ9ghubPITvFDiLJtNVDBPA1LEawHqPEul2ro=/4369006120_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 159.0,
     product_type:
@@ -2215,8 +2283,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800330002-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800330002-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j34w_2w8xetM9f51WQLfNFJ1xgKt34JCvuf1hoeYn4s=/4638933250_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 117.0,
     product_type:
@@ -2235,8 +2304,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800331461-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800331461-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kfcSYEl1M2hOm4vIYRwQX2EIdUZbh-a9kvZhl66PzP0=/4530880623_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -2255,8 +2325,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800332458-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800332458-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1XcdiwKra8VYHDt4DSKgBRyHjG9hKZqcVq_uVEfBeWI=/4369029620_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -2276,8 +2347,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800341032-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800341032-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bV4B16z5BH9grhxp7K7ms6-MHM8fcHXQdKzw-vJFwps=/4369046971_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 133.0,
     product_type:
@@ -2297,8 +2369,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800341622-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800341622-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Tj-uHt2Ji0xrWEIU4rezaFebReyw5zpMIacJmzB46iQ=/4369052869_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -2318,8 +2391,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1800345337-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1800345337-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ceSKqDpqBWt2taSHB3GXGwIJt-4UVqRfDOBxmpE9PWY=/4369063223_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -2338,8 +2412,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801955654-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801955654-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-vbK43p_8x0V0n7anKJ78VvDtTK9yqPHEfTkz46aANQ=/4374307498_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 93.0,
     product_type:
@@ -2358,8 +2433,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801956381-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801956381-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kODlz_qSfA6YF1RP1oHoVKu9mnc4afOrraFOymD3GJc=/4374317070_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 88.0,
     product_type:
@@ -2378,8 +2454,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801958328-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801958328-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jx2oIt74jtZsJksBuEwMRPql5VEKmO5EN3nU3uvJ1SY=/4374333826_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 117.0,
     product_type:
@@ -2397,8 +2474,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801958594-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801958594-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6FaGLNF_GLK6ptRM8nbyl2wAasPo_1vBP--IY_gAk5s=/4374335426_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -2417,8 +2495,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801960657-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801960657-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lrqs862qQxEQoibGgr8iktQffqptL-Al3BnZrnduxVc=/4518171313_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 119.0,
     product_type:
@@ -2436,8 +2515,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801961303-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801961303-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BB9YoUmLPGqb_866qMIfRlF3MOt1pjGlEoc2wSasmmc=/4374342344_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -2455,8 +2535,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801962963-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801962963-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RQtAIJ_il8-XaDA_2mVVEByVKrc0x217lctLVezcvc8=/4374345836_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -2476,8 +2557,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801964061-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801964061-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/r0jFDRpCLjyAB5gZrLQ2IIxC0668RbINO9f37gj4f6A=/4374351545_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -2496,8 +2578,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801964128-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801964128-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ms-soe4I7b_TC9qBoVizP62BxSOGLn6Oq3YxPEeV7B0=/4374352480_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 69.0,
     product_type:
@@ -2516,8 +2599,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801964454-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801964454-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XOFppy8WJwi3QSJi66mfKo0g_Sg163MVflTsrEq5DWo=/4374354708_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 69.0,
     product_type:
@@ -2536,8 +2620,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801964492-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801964492-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c6FHnQL05G1w_yUlQnaZv5xZ7bcqz7Jvgc8fypUEBHY=/4374355315_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -2556,8 +2641,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801965052-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801965052-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cFCox0Txd6Hfnhuxps2aavVKZs9FxsvHsLoI7_QQX40=/4374357614_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 97.0,
     product_type:
@@ -2576,8 +2662,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801965704-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801965704-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3NDG5wn7kmBd3tNeIw9w0xm8BejY7lNkFSLqw96xiXE=/4374359848_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 87.0,
     product_type:
@@ -2596,8 +2683,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801966262-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801966262-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fUTqJHRZcLhulxkzmzruVzhKF3jhwYpEamISDS2eF2w=/4374363670_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 139.0,
     product_type:
@@ -2615,8 +2703,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1801966582-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1801966582-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WmF2s4m7naCHtt8jQI1OkfJhmY4CfPB0yP7Hy6K1X6w=/4374365677_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -2635,9 +2724,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805436028-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805436028-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BmjnMaQ0uNH3k0GuaUzTjs_8sbYtNIbXYO1gfa6F5HE=/5320491356_zoloto-harchove-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/b3nCTeChDOVijTsnD-MRnoJqsmOAwN_aB7yycet-z48=/4385976214_zoloto-harchove-dlya.jpg',
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-dlya.jpg',
     ],
@@ -2658,8 +2746,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805436137-serebro-pischevoe-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805436137-serebro-pischevoe-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QUiUNAfUAGu1-6yqrkgYJdkMz60m6gjAj5CZstQkWxc=/4384898272_sriblo-harchove-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 250.0,
     product_type:
@@ -2676,8 +2765,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805441836-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805441836-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t9INllwQp_0eL-CLfns2QeNCs_71bDt7SuWwiKXa_Ak=/5320479818_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 38.0,
     product_type:
@@ -2694,8 +2784,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805441845-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805441845-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BQzXqKoqGz7825zJBzgvBwA2qbyVh1MtSyzNbnRiEDw=/4384930748_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -2713,8 +2804,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805447054-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805447054-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DV6JDfG1b3bHUrJLiBV3fYK-UZR1IZlYkncpR8eWHSI=/4384935878_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -2731,8 +2823,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805448257-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805448257-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/04XmVa28moMfrHPPWbny1HZGr49jwLyRgP8Ep8UJFdA=/4384940103_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 63.0,
     product_type:
@@ -2750,8 +2843,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805449769-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805449769-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vTUu1IoekRmS8GWOvV092apFc2aYuijZyQ24j4jAWmY=/4384943862_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -2769,8 +2863,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805451789-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805451789-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BH3g4GLXbmhwMU383IUIPZuwdOg4dOgiBkm0Xcxu6rU=/5320477397_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 56.0,
     product_type:
@@ -2788,8 +2883,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805452599-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805452599-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_dOWvkjrOepI9stbk5Sh-qIyJyVaMfjfn4Rm0qYMJgY=/5306258670_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 48.0,
     product_type:
@@ -2807,8 +2903,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805454175-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805454175-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RbdEk9MDqeyfPvJ6TxBCUMnrlA6ztc7xpfq_-qBZApA=/5320462343_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -2826,8 +2923,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805463455-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805463455-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8h_0y41dS0nRywVirxFfiO-f1VwU5NT02rOvz0BLkns=/5306260176_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -2845,8 +2943,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805473882-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805473882-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CyRxTrHtIzWMmAmULzFuTjpBYQsIEyqXkfHZtzFshJA=/5306263204_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -2865,8 +2964,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805475466-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805475466-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xYvydZ7u0B_N-UeMMXBWBfl34xe1JZFYH0YtP0Jr8Sk=/5306254323_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -2885,8 +2985,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805476178-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805476178-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JKrqXdZ_Mlod9RPBKYFUSiBCnGQ6_qSpxmq32oS8iWg=/4385000060_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -2905,8 +3006,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805476646-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805476646-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qsucAp-F0NXO6a4O0_o3bgFASz2KVWhF03vEpWOBrgk=/5306264667_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -2924,8 +3026,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805486582-saharnoe-ukrashenie-sedobnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805486582-saharnoe-ukrashenie-sedobnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tCmm2kRTGSNDQaMmQvESd2IUGUy5zE9yIyp1FLeKWoA=/5306147336_tsukrova-prikrasa-yistivna.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -2942,8 +3045,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805487045-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805487045-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RjVUqvR4DYTUcBHEJrZ14kgD138UD3JR04-Gp6mthxU=/5306120287_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -2961,8 +3065,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805488444-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805488444-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ya3kx_XVa73_71MPn5Ct5gHufNz0P51D02ZR3eB4-2s=/4385061016_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 47.0,
     product_type:
@@ -2980,8 +3085,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805489808-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805489808-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LlA1Kf49twYP0Y6m7rmCEzGUYPo0WDtZZVwo468Vp6Q=/4385072142_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 119.0,
     product_type:
@@ -2999,8 +3105,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805491902-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805491902-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AWka3Bd11LnPKOYd8OavVeL1JeEQH0AtjczKuBMBfd0=/5306124641_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 109.0,
     product_type:
@@ -3017,8 +3124,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805498010-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805498010-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Gmi3_xWtahl4_tuC7emEmzn2DFulNI35pzXoYIX0n9Q=/5306110635_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 89.0,
     product_type:
@@ -3036,8 +3144,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805508071-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805508071-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9ehxkNg99vFtS6a_ubK20XG8H_4oU8uGHWsVm4xNf-w=/4385117809_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -3054,8 +3163,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805510624-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805510624-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vs3ybHQGrshXiOKPrSEwlj2QlATrnr4bhm0tgxp1f4M=/5543496751_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -3073,8 +3183,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805512410-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805512410-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tVtL7B865RoEaxTh1kW4C0qm6u2xsT_vYY1nV3S1y-g=/5306092181_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 118.0,
     product_type:
@@ -3091,8 +3202,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805515636-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805515636-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nOmPmoZNPJkdVD9_8yRrnOL2tQDWiCdG4ZSdNrL-ojo=/4385136056_barvnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3110,8 +3222,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805518896-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805518896-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nv7A3L5jgntqAGlaosIL4_CK28mrZSyd8eDdU4vOlig=/4385141630_barvnik-buzkovyj-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3129,8 +3242,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805520573-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805520573-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/x3NoJzggsyitUX9DHxFOTS4OdSaQuzb2g2CSVLdcOH0=/4385144185_barvnik-vishnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3148,8 +3262,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805521999-krasitel-granatovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805521999-krasitel-granatovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CsTOtjiFE42uCjceUpX_Yx926xNVfna1IThF6fmzA4k=/4385147213_barvnik-granatovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3167,8 +3282,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805522236-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805522236-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HKE_PwvqWj6zxXl6a7epUQfEYxukctZZXor-I_jfy3Y=/4385149909_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3186,8 +3302,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805524795-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805524795-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TMgee_xHcfjX7nyjoQuu4gxUX8T8-VV_nzOkP9rVzk0=/4385152052_barvnik-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3205,8 +3322,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805526008-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805526008-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8zIrSc57ZKwkHVIWD0Ugw65KzIk4MA3Y7CuN7vCpf7I=/4385154454_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 5.0,
     product_type:
@@ -3224,8 +3342,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805527307-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805527307-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6NGVPBYbtcb5HFBdJPpFK4Dzw7bhlmrB-eduDi5mRy0=/4385158602_barvnik-pomaranchevyj-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3243,8 +3362,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805528532-krasitel-svetlo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805528532-krasitel-svetlo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c5gyOBFY7y_9nFZrB9leKIAigihZaYXpDivqkMf7Juo=/4385161902_barvnik-svitlo-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3262,8 +3382,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805528963-krasitel-sinij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805528963-krasitel-sinij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NDRkFlpkBVV9l73Vw68hVRvHPfA0KA9Za1iSKFTUy0w=/4385166237_barvnik-sinij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3281,8 +3402,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805530758-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805530758-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bJR-aXnLeHG8FrUWqlv_WD3oj4JuI5rwI6AQwpwRWJk=/4385170721_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3300,8 +3422,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805531718-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805531718-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fVwzL1tx1WA00KYcZTc2YEXA1qB7tLg5iGOQbx0ixFk=/4385173649_barvnik-chornij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -3319,8 +3442,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805975471-saharnaya-posypka-detstvo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805975471-saharnaya-posypka-detstvo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dRX_SzygUxzUQLirBvwisiFIfj21xoJFdtXO5e6_TBQ=/5080432894_tsukrove-posipannya-ditinstvo.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -3337,8 +3461,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805984769-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805984769-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xUo4wHdQ4rRX_yN_kI-UDOwLVaFjW2sV1_UUo4JLlF4=/5080463018_tsukrovi-serdechka-z.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -3355,8 +3480,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805988956-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805988956-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vm4NMbIz8I7pwsSzIpj14EfirBeVwfzNCSv50fCthek=/5080447801_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3373,8 +3499,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1805996991-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1805996991-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ip23riUkGDCracQo1Jk-vPF24F3K9ZQqwyqVv90qIhA=/5080392992_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -3392,8 +3519,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806121256-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806121256-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ht8dXpGhQxsr2ddfpt2GIvXFMgoN-HKO557CSHvlQpw=/5080423526_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -3410,8 +3538,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806122153-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806122153-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/puEdRR1zyLG-B607Rcs1oMqeDWtkiidUiV5vp5RZrTg=/5080457415_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -3428,8 +3557,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806127015-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806127015-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9Rwf0UGLlhaokPrJou7Q4-8pNBiaCQ2z4gnhFIp-gtg=/5080443185_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3447,8 +3577,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806130947-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806130947-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FtHkV9oPJEg_R8vu-tVMdqvfmtq3dqWxSuCW7OPqGhg=/5080410956_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3465,8 +3596,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806131867-shokoladnaya-posypka-rozovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806131867-shokoladnaya-posypka-rozovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eWFGLabny-CjgShykMdHYRq5cmt3drc0rgxfWnYw_-g=/4418252519_shokoladne-posipannya-rozhevi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3484,8 +3616,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806133516-shokoladnaya-posypka-krasnye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806133516-shokoladnaya-posypka-krasnye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UR6NaLHkc9YilzGc3vtPYn_qhmQDAOvqhum5vT57VdE=/4418253110_shokoladne-posipannya-chervoni.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3503,8 +3636,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806135514-saharnye-zhemchuzhiny-golubye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806135514-saharnye-zhemchuzhiny-golubye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/z_Yit2R07b4ZeGC08f3JGpP_ft2psnFYEODXip396Bg=/5080418527_tsukrovi-perlini-blaktni.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -3522,8 +3656,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1806135645-saharnye-zhemchuzhiny-rozovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1806135645-saharnye-zhemchuzhiny-rozovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CoUzTvHbnSYs-oHJjiXZi5acFbohBlT7_y0z94ZJ0v0=/5105851748_tsukrovi-perlini-rozhevi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -3541,8 +3676,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807471358-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807471358-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F9687xjvLvfSXeOLVBCViYoi7UIDIObqFgggmT09lek=/4391550184_barvnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3560,8 +3696,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807471441-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807471441-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TaqOqHqmJh7A8lj3fBX1ibzF74DRyWecJOt5E5Bx3Dk=/4391652189_barvnik-biryuzovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3579,8 +3716,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807474826-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807474826-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cT2u0qtEcdWV0jCYfhG0kGL4QyGbKo9n5RiHSr44sXY=/4391661981_barvnik-buzkovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 72.0,
     product_type:
@@ -3598,8 +3736,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807476688-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807476688-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eEWC7eU3nfZB6L635pjUDDpwGAwoGOENRLsrbDeMoGY=/4391668264_barvnik-vishnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3617,8 +3756,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807479373-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807479373-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rL0IKkg3Fd3dAZzlW94qAOOFU3AxcUscH21EFRy1s60=/4391677107_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3636,8 +3776,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807479561-krasitel-zelenyj-kivi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807479561-krasitel-zelenyj-kivi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/L8IOlmCQ6QXDUFOjHOIxPFONUaf3sN4-Fl6laMdkrzo=/4391680721_barvnik-zelenij-kivi.jpg',
+    ],
     availability: 'in stock',
     price: 72.0,
     product_type:
@@ -3655,8 +3796,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807480721-krasitel-zelenoe-yabloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807480721-krasitel-zelenoe-yabloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/plg91tQjGVg3xiXCdjDWlX-EdCZ17acEgc0z7n3PdUQ=/4391685651_barvnik-zelene-yabluko.jpg',
+    ],
     availability: 'in stock',
     price: 72.0,
     product_type:
@@ -3674,8 +3816,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807480980-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807480980-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HGzzj0xTsmVSnCp-ym3faWE35WvqhezRrdda7Avuhvw=/4391690343_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3693,8 +3836,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807481579-krasitel-nezhno-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807481579-krasitel-nezhno-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xwK3WD47Eg88QTY4QXGNz8ucf2_erisxKlq1ZpzX-P4=/4391695172_barvnik-nizhno-rozhevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3712,8 +3856,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807483954-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807483954-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/B-cZRolVb4n6kJvqMtjOlKc8737QihbkSi0hd5Sk-dc=/4391707646_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3731,8 +3876,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807487560-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807487560-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mXDOoJ80e9BnkB8h1b4rPZH_E4fVi28qHHM8ieZE7x0=/4391712627_barvnik-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 72.0,
     product_type:
@@ -3750,8 +3896,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807489894-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807489894-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/a5D2lTMW743LRzFW5ggZ8TzG3OleHhRej9YHpNo-eAc=/4391719387_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 84.0,
     product_type:
@@ -3769,8 +3916,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807492347-krasitel-belyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807492347-krasitel-belyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/a5UqHZlEwJ-GD8g6FDE9ZyQxtKGN85PzUjrbRKF6Sfg=/4391726590_barvnik-bilij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3788,8 +3936,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807494002-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807494002-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4znP1LmQ-9vkFyKfNidk-OjbqEO9MNwSG7Y1VsG3j1M=/4391730309_barvnik-chornij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -3807,8 +3956,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807499939-krasitel-sinij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807499939-krasitel-sinij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NbaqJk7nD7VcmgOnjzugB4mByLNNJ-HC5ofrS3PqCqA=/4391801733_farbnik-sinij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -3826,8 +3976,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807510709-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807510709-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dPLp5z2XfMjuPj-eWaXSyAUkW-dhlKhz6RBAKL3Z6g8=/4391796753_farbnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3845,8 +3996,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807516732-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807516732-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UZ3IA2UFzwasQ3xjh0Ts0RhvSTKhB2pQQVvZk7vmFyk=/4391818508_farbnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3864,8 +4016,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807527811-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807527811-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/36PErZshViY9QgCGlPC0SKWQTBM5AXQ0ITo7wE5q5zE=/4391828483_farbnik-vishnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3883,8 +4036,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807530471-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807530471-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mEiQEuY-hYP5VxoOdSUonjHqh-CUViPYQ7HsMRiuMFQ=/4391841294_farbnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3902,8 +4056,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807539823-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807539823-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/I4-ZXa42HVb85MljH2dsfqWBctm69UmKMS5WBaDR01M=/4391881808_farbnik-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3921,8 +4076,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807540808-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807540808-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7ulH5psxwLfO4jWauQAA4GX4kUbHP03Gx3TU33rFBk4=/4391888035_farbnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3940,8 +4096,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807542239-krasitel-malinovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807542239-krasitel-malinovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3Dcf0hsqfO9Eq7wFvMG9EpyJOOZhmv5lXAt8voepkZg=/4391893109_farbnik-malinovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3959,8 +4116,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1807542735-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1807542735-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FB-hQ-O75h-YTu1M7SZvX9FI2BgdzeztLYFGse6QoaA=/4391899462_farbnik-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -3978,8 +4136,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809708813-shokoladnye-dengi-monety.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809708813-shokoladnye-dengi-monety.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EW2Fe7yXpfSX9UTpoBgGoCyeVyA6FHuXWxGepNmeOqM=/4399508447_shokoladni-groshi--.jpg',
+    ],
     availability: 'in stock',
     price: 3.0,
     product_type:
@@ -3996,9 +4155,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809826555-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809826555-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MXW6VDV_ExeHw9OfW-xhXnS3rUktr8b5vKZ0-gAzKbs=/4400028029_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/6sIo8PmMHRgfFTGg4Xoct7fL06N4mGqUbn9qVTKot9Q=/4400032504_konditerska-nasadka-hrizantema.jpg',
     ],
     availability: 'out of stock',
@@ -4029,9 +4187,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809826660-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809826660-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YExYtuWqDi08JfcC7zLwRVBm-oZI2JOuYtNVMLCdLEk=/4400039392_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/dW24_etyLe-sbc7ZKQmh7BZaODNZUZdr7BXzEVDCVFQ=/4400039399_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/UYYeO1QtWpqGWT6SvA9CsmYA92zeJbrLaocU1Wz5Hh8=/4400039411_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -4063,9 +4220,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809827472-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809827472-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lrqpChLSxrqQBlpzrVBjx91V059h9AnoWtACjoogU3A=/4400041200_konditerska-nasadka-pelyustkok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/TkBJ4YGI12cWjEKecqoa-QIvYiyPaPpNJ8dT-PuvR9U=/4400041289_konditerska-nasadka-pelyustkok.jpg',
     ],
     availability: 'out of stock',
@@ -4096,9 +4252,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809829022-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809829022-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YwSUsOMFdQmnIe18b-Qrt1vMmBrwHJq014mki1r275A=/4400050587_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/KR9RTD0oRPRG4JMtKcty18CO-cp9z-F5rGQJdvh9Ajo=/4400050599_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/en7ZjOkg1zcMQN3HbdaCkpPLB7fvk9ILzSkLEgESZIw=/4400050710_konditerska-nasadka-hrizantema.jpg',
     ],
@@ -4130,9 +4285,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809829814-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809829814-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/k5FTI429Bjjy3ysgt7ept8gk55lM8NinnxcWTwL1AKg=/4400053180_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/iH9PwxJpBSY67rD3bmnSgjemsnZBd1nVg5_YtO6uJpc=/4400053334_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/AwS77HZWWgIBVp6CjI6xWFf8CU61odUCm0qlni9sX-M=/4400053364_konditerska-nasadka-listochok.jpg',
     ],
@@ -4164,9 +4318,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809831747-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809831747-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DIIOkKmNFr1nISkPSFoT9wNXQdLkqZyeYeioZjyyYkc=/4400061642_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/O8tvfcsMdb_wP_jmyNZXwIHNrCno7mhKuEW9RiIrxGc=/4400061699_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/scKNBjVXSI6CBc7KfQWBC_LufeaBOOJrWA8wqLJ8YVI=/4400061723_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/vG42_2v8oP867rZOCiosmyJw8Qoh1KPZORrgJ_h28iQ=/4400062014_konditerska-nasadka-hrizantema.jpg',
@@ -4199,9 +4352,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809834790-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809834790-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UuecCsgfO6CJlh8KJ_4thM0JZJ3v_wBmXpCac1k29CA=/4400072906_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BUssADQtkj8O1O0if8alyAGq8Sy7ltztsqska-fxUFY=/4400072950_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/KYQD2hPrLj5VtX4GsFfpdAOj6xlUYgysYQfitwaccxw=/4400073020_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/tXRnZWa6FXKRc3avBoCf5nxa-OuKae2KvEa-TSY0TlA=/4400073162_konditerska-nasadka-hrizantema.jpg',
@@ -4234,9 +4386,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809836064-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809836064-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0_YYR-mreX2J5RxG8LSXkMNI0lg3Tah87IXutJ3SVf8=/4400076733_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/e9mKRfnQVETW5rbtdRbiWi29O-7F13GecJovOOlWzJY=/4400076893_konditerska-nasadka-hrizantema.jpg',
     ],
     availability: 'out of stock',
@@ -4267,9 +4418,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809838098-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809838098-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Mi8Bu74_hdgMkXqBf1_yuscPOTuaS6r5JkbDkgkYz1w=/4400083688_konditerska-nasadka-krugla.jpg',
-    additional_images_links: [
       'https://images.prom.ua/2hF9yh7JzatFFt-a4ZjRzsjwRI5BcuZy1MJZPYevMV4=/4400083761_konditerska-nasadka-krugla.jpg',
       'https://images.prom.ua/tJ6hDDRH5meSyhi3IcrENwGECIX7EkEU3bHFM9TiQJo=/4400083784_konditerska-nasadka-krugla.jpg',
     ],
@@ -4301,9 +4451,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809844850-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809844850-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/13MdRqVgx7O5e6nlBNicaTHK7HBaTZjAaAOfB5w7Dr4=/4400102279_konditerska-nasadka-krugla.jpg',
-    additional_images_links: [
       'https://images.prom.ua/9OIee9KwFJ-7gS21aW5IJl4RM7B3Wj4mIAOCagULIYw=/4400102334_konditerska-nasadka-krugla.jpg',
     ],
     availability: 'in stock',
@@ -4334,9 +4483,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809846890-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809846890-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GffRjx5eFftO6Qy1biOhjVGGny2zVd2AxtwmWjXRW38=/4400112349_konditerska-nasadka-krugla.jpg',
-    additional_images_links: [
       'https://images.prom.ua/EzOWPf_uYNTuxcuY4d2Vr1DL-Rgn1Yl-oMbXwjk0LJ8=/4400112406_konditerska-nasadka-krugla.jpg',
     ],
     availability: 'out of stock',
@@ -4367,9 +4515,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1809849020-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1809849020-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kzdCklOxx-GgmfCZfoCQ5yURaSJl_xhsPfjJ7YYFFKE=/4400131649_konditerska-nasadka-krugla.jpg',
-    additional_images_links: [
       'https://images.prom.ua/99sVoT2XjZIWfOnsoSdZgW4J6KgzELwZWxEFyvjtkb8=/4400131765_konditerska-nasadka-krugla.jpg',
     ],
     availability: 'in stock',
@@ -4400,9 +4547,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810131846-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810131846-konditerskaya-nasadka-lepestok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_jeZ9aJ-m9OqHGUCzZ9MSS52CuUWgjqgfTYqhlDZx0M=/4400984146_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/13HIyKRGgzBWGwzZJY2AbGk8z4lPF42W7DLKqtIYkF4=/4400984216_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/Y-3zksMqRcJR-vZw_FCgbn83IxMPBRzLlYu-w-spRXY=/4400984290_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -4434,9 +4580,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810133460-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810133460-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c6Rw0NmHLTzZ5BDo1HOPOR80jrylUmXG5UNrqN-XCGw=/4400989800_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/844uJ2eJzgTbuPECgPad0V4Ko-sfPTznqsdfjM89Jmo=/4400990045_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/OZwkU7VD9L3Y6x0Il-4-hUvZ42Be-N67pBs4SGgntJU=/4400990075_konditerska-nasadka-listochok.jpg',
     ],
@@ -4468,9 +4613,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810135356-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810135356-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AfM5ANF1oK_WtUcy9_W6vNYgQUeXj5Es0m_Gob62h4c=/4400993897_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/e_TS6oqq5xeCbY8Kguv5hz8KOgS9bk4zisDCUmqDlzw=/4400993971_konditerska-nasadka-listochok.jpg',
     ],
     availability: 'out of stock',
@@ -4501,9 +4645,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810136997-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810136997-konditerskaya-nasadka-lepestok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7xQQk7NnOcfksc9TMaeXVyBRjaCEr9zPw5M1rvuynFs=/4400999468_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/wmPtFwTBXEBSRydC__-gHK17h7h3KSqTdyU1cMbSPSk=/4400999486_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/-6IO4F8brpHPbK0wCmaMqucL4RIKwqvSSemgymC2AL8=/4400999577_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -4535,9 +4678,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810138197-konditerskaya-nasadka-travka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810138197-konditerskaya-nasadka-travka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W38kLiPNaUIQZLHRc2GDNzO58xro3akt_ZkwpXxFtAE=/4401007097_konditerska-nasadka-travichka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ZQUARAGOg8HI_PSLgVVsyFA2cKPhBLdp3tdp2G4b9cI=/4401007165_konditerska-nasadka-travichka.jpg',
       'https://images.prom.ua/CSKaz4jpRYxMJ1BW6xBPGSOYaC0TqX6gxryNavB2XP8=/4401007241_konditerska-nasadka-travichka.jpg',
     ],
@@ -4569,8 +4711,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810139048-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810139048-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FvzUkRofFHb4FNJY61ECjDjpJjw54c6Q4susbicVcKs=/4401012277_konditerska-nasadka-travichka.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -4599,9 +4742,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810139467-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810139467-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3fOaMdTAmLsa6WQ0n6L6qacZfjSrzcT4BEBDd757n6M=/4401016318_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/b20GJoQXceoYloxxzt8mWLpN92v5B6o7p2aKjfgX3Vk=/4401016419_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -4632,9 +4774,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810140996-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810140996-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6s_hnOLoV9EN4YyrLlC_TSmesRkOiFQO1icQAVvkW9I=/4401019122_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Hnvy4Onv9wDfzRvjHnd9GztogD6-szFsE6lPN6xO2MM=/4401019202_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/79YoVIzvUnf_ik9yt-9OjLcVV-tW4rqMpraLLf8yuig=/4401019324_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/Qsg2oq6dCpbYLYdnDazVdqcpmPY660pyfFPDkDPCWnE=/4401019369_konditerska-nasadka-vidkrita.jpg',
@@ -4667,9 +4808,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810141276-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810141276-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JAoC_mEpqDYxHqqmohkLblQ5yirEOXqVc9VonznhoBM=/4401021150_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/xS9sLqO9-If_OkgkJbMPuDIbr46rMohTWekjnLapCmI=/4401021171_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -4700,9 +4840,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810142674-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810142674-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZFmoztmN3laBo26nIJN_SBkeSdLjpgJFcQRSvtbRW1A=/4401023179_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/R5BcvNmE56hvRLGaS9NxnVR74PMxSYZN_McoU1QHQj4=/4401023341_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -4733,9 +4872,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810143790-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810143790-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QIQGl5TKze6MtIjeVNCTD3uPZ21aIpMYwqw_UsUWi6Q=/4401025285_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/a0UaKznqYf6pNld7_yv_hJN8IkjIkJQeq2-QBDw32XI=/4401025384_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/r4T7BVLwPAa6bKOwrh92PJPb76LMFJXAbao0snLmvKA=/4401025443_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -4767,9 +4905,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810144412-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810144412-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/p8uVUorSakhW9CF2gXBaJfMT0PEDtKjVOLy9k83m9dQ=/4401029687_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/EzqOAWfn9B-lhZht7qa1q1xlN6UKY3Ya7p-9gEt4yNo=/4401029813_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -4800,9 +4937,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810145038-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810145038-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ksdU8dbf6i9Kbb8rWkf3BYG6vfei_0Cfi1k6em5NBlo=/4401034446_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/nzghKu_MdHHIDlnFx6e1BdRif2IfeVkzOErsrGExOXk=/4401034467_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/PFIiKNLFbum8IqSPSDjh-57CHs9x6O30tcy4sQ9tPoY=/4401034621_konditerska-nasadka-zakrita.jpg',
     ],
@@ -4834,9 +4970,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810145951-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810145951-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wB_5vPZQbA4nEcXEI3Vs3BIJoSfjTgMfKIbHyCIdmyc=/4401036976_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/I1IiGNGPZSqxBdnTP0iYyN4-B_jO00RG3e1-v2DrR-8=/4401036993_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/w8sWsnusx8JG_lr0lnR3mIJbzQeiR6HbcYt4FaqLDrY=/4401037004_konditerska-nasadka-zakrita.jpg',
     ],
@@ -4868,9 +5003,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810146171-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810146171-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/a6vWt1MtFD6uLSNfTU6uLRgcm3aQueGY2lKweJZQ9mU=/4401040020_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/1WIlwTQNLQTuvlCSWn32zsNLmQCLTM1RXhR8iw9jZJY=/4401040035_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/I-JGmWYjJGPU3EKy6p4Ap7YrF5yda20TJAUQwqsOVZ4=/4401040060_konditerska-nasadka-zakrita.jpg',
     ],
@@ -4902,9 +5036,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810158953-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810158953-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eCwgcMl6-5iN7gCdihdTnYtMHeSFzGrN9s4iBA9EBys=/4401066216_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/YMPmU4F6jXl48mpQzfJdSRq_Nhv-aR3tbg_sk5QTV9Y=/4401066296_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/E4PZjzlOqfmlLJlC4cN_v5lI8E3DCLizVZMpqB-ALYk=/4401066361_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/kfiNjdv2jFBNavV0aEZcQBzoea0VlZ8HOR7lV6-MTUQ=/4401066583_konditerska-nasadka-zakrita.jpg',
@@ -4937,9 +5070,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810161147-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810161147-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GG4p6pKil4SFM7K1cSAF2f90R2MccWrkkMRwp3fFPp4=/4401074647_konditerska-nasadka-frantsuzska.jpg',
-    additional_images_links: [
       'https://images.prom.ua/LPT_RQWlqRNAhcbRrff4PNCnwA4KFTqdmfNWxI0IQZA=/4401074863_konditerska-nasadka-frantsuzska.jpg',
     ],
     availability: 'in stock',
@@ -4970,9 +5102,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810165160-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810165160-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EDIeubadfD-FENMsJ2ivkCRXacrAM3Ch9Ixrp_gEr6k=/4401078824_konditerska-nasadka-frantsuzska.jpg',
-    additional_images_links: [
       'https://images.prom.ua/AzS3ZoC8It-8GpkBrfY0nYoE2EdxI40JBFkjhh1xSBM=/4401078999_konditerska-nasadka-frantsuzska.jpg',
     ],
     availability: 'in stock',
@@ -5003,9 +5134,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810166246-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810166246-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HNHd1JnMsipL8gMi8DruOti-A1mECaVoOMwQktsNfM4=/4401083635_konditerska-nasadka-frantsuzska.jpg',
-    additional_images_links: [
       'https://images.prom.ua/DTDlRz4weTGU680fXyXRPIaV-Gq60AbZzQLASProWQ8=/4401083799_konditerska-nasadka-frantsuzska.jpg',
     ],
     availability: 'out of stock',
@@ -5036,9 +5166,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810167502-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810167502-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/i2WYEpoepYYlfLWswbB-Ev3aRAJV8vx89FEqRuALduM=/4401089960_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/uOCO0wCYwHMG7CTqHNG2QMurdp6UMolU-uRD6bRaCyM=/4401090111_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/sLBn5r6YHNgAgdWdSjklYo65lKg_ar6Bc7TwhKGstoE=/4401090221_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/FKBJ9BFT_6pR3Q0iSomPSqRVPDeNhrBo0z6UzTbuvpM=/4401090308_konditerska-nasadka-zakrita.jpg',
@@ -5071,9 +5200,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810170272-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810170272-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8zap-PNIPPzsEoI9aQU01_hXZlbZ2OEf4P9KSR0Ovk8=/4401106064_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/djJD4mTuvKtvzjkNtxvkfEZthtADrkE2WzDPfuRF0ZM=/4401106256_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/e6wx2VZNVurEbJOP2oksUaImiB6sUB26ubdzb3EXIRk=/4401106368_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/0-VyrNMrZ1tP0-puvR2zc49VqqL-5-kJzpJfXctuM04=/4401106552_konditerska-nasadka-zakrita.jpg',
@@ -5106,9 +5234,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810174907-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810174907-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v9SPsw0CyBHoZBzim5oHiv68eiFOQKHLx3y3rH30AII=/4401116080_konditerska-nasadka-dorizhka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/oByP6S8Ck1r7cvFsFhBtWYdy5shg_fCF4iJRqQHaWQU=/4401116291_konditerska-nasadka-dorizhka.jpg',
       'https://images.prom.ua/pmaiNrozZH1GzF1TfkPjtFOcJ62ItF-VMCVF_G0df3M=/4401116693_konditerska-nasadka-dorizhka.jpg',
       'https://images.prom.ua/d1L1I68_IatW-Dmtma9eykn9dlt4nU7x0Ax3PJ-0kkU=/4401116942_konditerska-nasadka-dorizhka.jpg',
@@ -5142,9 +5269,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810178034-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810178034-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rcYudiXYZiiqdCQfSJEAGO0Dz07r34WEkjTA5KQZgEQ=/4401127094_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/zyn-xdEt1W2Hha6fLkxPcWNrWu4iFLzx9yEBAQEJ9Uo=/4401127221_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/P2585Yt5lG1OOwN4M6khev900UJTJzk6FFO3zk4BdSw=/4401127438_konditerska-nasadka-listochok.jpg',
     ],
@@ -5176,9 +5302,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810179279-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810179279-konditerskaya-nasadka-lepestok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aLvSYhi7fBBhjHSsbRbic4Ni9PENqW_lGksQuH_Aer4=/4401135905_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/TABt1NrcQ5IBTcRVcpK2Ty9aeX9exMj06ISVnn8KQyY=/4401136021_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/z_OQnp5GkEjzM0x5XvAfLkfgC0crclDn0eZkLhQVfxc=/4401136053_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -5210,9 +5335,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810180869-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810180869-konditerskaya-nasadka-lepestok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aycvtxOiSFg1tRdkERvvaKlTCUg5NhouIBlfO84RixM=/4401152055_konditerska-nasadka-pelyustok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/5dIjX8Z5RlN0O0sGczgfw_RCCH9OKkleB4PHUY7hAOE=/4401152154_konditerska-nasadka-pelyustok.jpg',
       'https://images.prom.ua/ecOrKEbALVzmMk-GYG20skt91Qto_HjY_H6ETogBEEQ=/4401152192_konditerska-nasadka-pelyustok.jpg',
     ],
@@ -5244,9 +5368,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810183661-konditerskaya-nasadka-lepestok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810183661-konditerskaya-nasadka-lepestok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YP5iosjsTKElsjGonMOAn9x1uBC0P-YSfmI-V7NE_9o=/4401154885_konditerska-nasadka-pelyustok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/7VfV4J5lmpkBWb-6uTXl1PNAsdCCTzIKv_RUy57qI4M=/4401154940_konditerska-nasadka-pelyustok.jpg',
       'https://images.prom.ua/NqQHeo87ZqfvHtCfUPfwQLhrY_TNUqfm7vmzYZPml3E=/4401155046_konditerska-nasadka-pelyustok.jpg',
       'https://images.prom.ua/WwGFtywlcDsiOAJ5jUfUPQkGv-nvGMP9sb6XtPOpmkk=/4401155219_konditerska-nasadka-pelyustok.jpg',
@@ -5279,9 +5402,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810187924-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810187924-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s0pnwihjZODzempXtRK8thmlfVuKM0MicWPkx0VxVJ0=/4401172985_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/tDsMMu89iHnrRyHH_VWuz7DVFNrjq-5vBSHoTMcQ8y8=/4401173032_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/LD35Zh6RkD0oIpcMi6UhtzPw-NvOyAiRkZKsWzhCs3c=/4401173113_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/5Ysi4mrW6GBDnAXw0ZcjzPPjXrb-b3oUI1VbuYhsZ8g=/4401173160_konditerska-nasadka-zakrita.jpg',
@@ -5314,9 +5436,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810188990-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810188990-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3vpOkXlwVL88Wnpp6_JwuGdzRTEemaHWOcU-2cXui4A=/4401177285_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/-Q9hdFxyIc79CAUKvS2kJ9jKLhQg2HhKAbSAGsraN54=/4401177341_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/x7GNkttUY7uOt-oFxmpLt_eq_YnD1CWuLj1ZQ5HyvxM=/4401177414_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -5348,9 +5469,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810190317-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810190317-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m4qFMqocHjsMkoTni2LHv6V6GTrD1J5w7vXBxXeAoUM=/4401181369_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/HFarlxEwLX7OaWlRZ9BiYpN4whxjzPkYGTVnU71kLUs=/4401181481_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/lM1vuBu3SOVUf8G0-gDlS-Md2610Xjm97oMQAn22tbA=/4401181508_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/uPSJLP_aoYDPDmNpgeOOczP0d9GMkjRkVK-6O28Uiok=/4401181739_konditerska-nasadka-vidkrita.jpg',
@@ -5383,9 +5503,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810192361-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810192361-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Jd3EJ71QKwNpEKltdEpdkUJNdHkiU8p_2IKNWYnqvis=/4401188220_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/NC5OpKUW-QkpNJZXQkQooH1Yyq_TbEIfSv3e2yHrSRw=/4401188273_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/4jL_YEQNI87WNwjrdhNtO53k7vqA3dmLsa25dBWPmkk=/4401188260_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/5PAj6Xf_TnAUpn_Ru6fCWccKDefBwOvflX2M54zCScE=/4401188473_konditerska-nasadka-pelyustka.jpg',
@@ -5418,9 +5537,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810193650-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810193650-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Qu7A77oStD36bek-PvDcYOa1NY47A7cXZMVFXAVrEj4=/4401192365_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/4Nv2BbDrWy6pBfS-gCCSV_-8Ft9IBHz6KNfggoaDRqc=/4401192388_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/v7NMgXmnUrd8GBJxSoOIiuHDiiH9lqo32UQkqMJz0AY=/4401192440_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/ZW0y9VYcd8NmafcF3ds9Ha2CByvzbRbAEEK7rJMIj5c=/4401192513_konditerska-nasadka-pelyustka.jpg',
@@ -5453,9 +5571,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810194308-konditerskaya-nasadka-tsvetochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810194308-konditerskaya-nasadka-tsvetochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nUj_xq9icc5-Im2MCsH5rM3F4H396zO3oMZ6T_hDrkw=/4401198370_konditerska-nasadka-kvitka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/dcxIqLcwufjT-TKG2cArgMN6CzK1qmsTI5-6DWGWjew=/4401198395_konditerska-nasadka-kvitka.jpg',
       'https://images.prom.ua/oNZa_ywlWUCoJsA9URaZ3Vv-dsKimJ1Oamq7Yz9CSCk=/4401198417_konditerska-nasadka-kvitka.jpg',
     ],
@@ -5487,9 +5604,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810196809-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810196809-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8UAW2VndBrvPjoyeJMQyiIL5NnDhUcw0zMURtRxA640=/4401201783_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/aXe_ZqF3ZYv8eM__eAQ31CWgageZVBfAs8_zgalTbz0=/4401201814_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/UbsNi12TzxAD4dml3aeniIJemi8aOztf3OFJLwDIOyU=/4401201879_konditerska-nasadka-zakrita.jpg',
     ],
@@ -5521,9 +5637,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810197677-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810197677-konditerskaya-nasadka-frantsuzskaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WOcHG5NX2LPadrtJEZNFUvF42YDaqZhsd9YzBp8VmwQ=/4401206069_konditerska-nasadka-frantsuzska.jpg',
-    additional_images_links: [
       'https://images.prom.ua/OoEEzz0vFzwoV8e7VQoStxxywwcTtbufd8K_OhwS_oc=/4401206091_konditerska-nasadka-frantsuzska.jpg',
       'https://images.prom.ua/ynUAx1Erx_dKJu88gOTEDm3_GrKaRpGdq--lqntFZp4=/4401206109_konditerska-nasadka-frantsuzska.jpg',
     ],
@@ -5555,8 +5670,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810198648-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810198648-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Sl8BLiLHYf1Q03H_KG-psqSeiWq1IoDsPMEheFzhmhw=/4401210748_konditerska-nasadka-dorizhka.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -5585,9 +5701,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810203660-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810203660-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eU493YlEBu8BT0A2Ab21h687R1EW1m-ls8YtHdzqa2E=/4401220937_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/fiAtlHkC8LYZCGppNDMU4NO9olGgw7Wyg1JM5MO9PK4=/4401220982_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/L8OuThgQf_WKTK_p9BJlzzDTJ_4WMJPnCGwoSqJHcXE=/4401221016_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/cufr5P2xhgbWIlPbuWLGqgkpQbMY47lLIk45zpmPZ8M=/4401221044_konditerska-nasadka-listochok.jpg',
@@ -5620,9 +5735,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810209025-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810209025-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PDFpET_y1R5a8_CIxaD0BTKbRTEq7ZWWMxPOJZ0iz5M=/4401224529_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8tVIh9ydYqBx7qFWgDRDd5H_QJULxW3DULMmJLX98Bc=/4401224557_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/s8N05tnQB2FjYgsBacfaHIro1MzxiAeeOHcebkSLRyI=/4401224694_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/wUQ-KN8x4FsFMQ968xIEw4Q-91Nu83Q1e3j8X6c32w4=/4401224847_konditerska-nasadka-listochok.jpg',
@@ -5655,8 +5769,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810394755-gelevyj-krasitel-zelenij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810394755-gelevyj-krasitel-zelenij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m5VtYgzLO8sXP0uXTBPGs3X7zqAdTfVmp-I9_Zy-qss=/4401816574_gelevij-barvnik-zelenij.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -5694,8 +5809,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810394893-gelevyj-krasitel-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810394893-gelevyj-krasitel-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DqzeHRc6yzANrGHanMk3k8eNlevVnLmJNpyUCPygt6A=/4401840658_gelevij-barvnik-fioletovyj.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5733,8 +5849,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810398949-gelevyj-krasitel-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810398949-gelevyj-krasitel-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yLP7d3fGp5btSBookEyp8WBHb3kLzN3s4E3eQCTEIFc=/4401851524_gelevij-barvnik-biryuzovij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5772,8 +5889,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810401985-gelevyj-krasitel-myatnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810401985-gelevyj-krasitel-myatnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4iZbOM5jaIfQCDmlC2fNuM1Em9c0uRiCv4o63q8-OoY=/4401870662_gelevij-barvnik-myatnij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5811,8 +5929,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810404668-gelevyj-krasitel-bordovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810404668-gelevyj-krasitel-bordovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SJuy_XEjkI7EdO4MpjxKMZ_34fC2fcGu6wsMLPVfXRg=/4401883643_gelevij-barvnik-bordovij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5850,8 +5969,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810406556-gelevyj-krasitel-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810406556-gelevyj-krasitel-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/u30Mzbh6cF6nGoZe7ORUpWbDQLHuFMLqsRmov6lsuRI=/4401893284_gelevij-barvnik-temno-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -5889,9 +6009,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810408487-gelevyj-krasitel-telesnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810408487-gelevyj-krasitel-telesnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iUD8v1_hfIQtRtggJSD_eoJj9Er5b_zlFJ1zbiRZ-0k=/4401901791_gelevij-barvnik-telesnij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/-3KHSQI5SU82TxM4L8wYu-NMA7u1MsDhvUvh-E9dIlQ=/4401902081_gelevij-barvnik-telesnij.jpg',
       'https://images.prom.ua/qmBajhsKOW37k8Z0xSurLQ6zZrMwMwPrU_CCd1BxNKw=/4401902310_gelevij-barvnik-telesnij.jpg',
     ],
@@ -5932,8 +6051,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810410661-gelevyj-krasitel-fuksiya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810410661-gelevyj-krasitel-fuksiya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Wd6j8IFClifqM3OIOgUlb93pBd8sGvQnQS4_2XFmdtY=/4401907705_gelevij-barvnik-fuksiya.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -5971,8 +6091,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810412357-gelevyj-krasitel-persikovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810412357-gelevyj-krasitel-persikovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8fBWkoJQb0DYEGPH4f5NZHhRQD1XkJ-n0k_wyZL1O3w=/4401914045_gelevij-barvnik-persikovij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -6011,8 +6132,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810414326-gelevyj-krasitel-oranzhevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810414326-gelevyj-krasitel-oranzhevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Kt6cnNNzR5sieMGNszUT3yJgnHT8GpjpkMDXFC6bkVg=/4401922550_gelevij-barvnik-pomaranchevij.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -6050,8 +6172,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810415582-gelevyj-krasitel-sirenevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810415582-gelevyj-krasitel-sirenevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/H4tYWPnl20qmraeeOFQ3uc6dG2g08o-QEI-F97CYukc=/4401930401_gelevij-barvnik-buzkovij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -6089,8 +6212,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810419584-gelevyj-krasitel-akvamarinovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810419584-gelevyj-krasitel-akvamarinovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-gU6txUERvEpGLuBMbQRbD76JcWiAgWEVSLIm5FcbLc=/4401939428_gelevij-barvnik-akvamarinovij.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -6128,8 +6252,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810421859-gelevyj-krasitel-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810421859-gelevyj-krasitel-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VMetVRLZdLybX92e6IXX0_3Nextx13dgzBWFqQmh_bQ=/4401962490_gelevij-barvnik-biryuzovij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6167,8 +6292,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810429896-gelevyj-krasitel-bordovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810429896-gelevyj-krasitel-bordovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NUFzQge_bjqV2Fi5qZX6x-HzsHiqjrSx65uPi4QlCn8=/4401973705_gelevij-barvnik-bordovij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6206,8 +6332,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810431529-gelevyj-krasitel-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810431529-gelevyj-krasitel-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/z0Au7JrUgwoKzM1M_M-O-F-UEyacMAxiC2Ki-mCWxm4=/4401978630_gelevij-barvnik-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6245,8 +6372,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810433034-gelevyj-krasitel-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810433034-gelevyj-krasitel-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h2IuNB3wDJBbGFFZ76Y2k1bKF_joBXV_6fsk_H3vFc8=/4401982392_gelevij-barvnik-zhovtij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6284,8 +6412,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810436124-gelevyj-krasitel-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810436124-gelevyj-krasitel-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RbcT3_v9tnlGgFFLJOx6J9nI3Z5nmKctDuBiX7eokCA=/4401992580_gelevij-barvnik-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6323,8 +6452,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810437342-gelevyj-krasitel-klubnichnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810437342-gelevyj-krasitel-klubnichnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v-MYbel19RzarxaH9A2OQJDz8dTXMB2QwAOOjdifSDY=/4402015190_gelevij-barvnik-polunichnij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6362,8 +6492,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810442705-gelevyj-krasitel-purpurnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810442705-gelevyj-krasitel-purpurnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2Dj-DB2ockJqLdI8NHfXnlbQoJbeNUTK4VHI1RzhMYg=/4402022091_gelevij-barvnik-purpurovij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6401,8 +6532,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810444817-gelevyj-krasitel-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810444817-gelevyj-krasitel-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8_J2nKJ7NZWcuxaWAvH3EAw1z5CRRrZ09_PmSPaP6_I=/4402026356_gelevij-barvnik-korichnevij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6440,8 +6572,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810447743-gelevyj-krasitel-oranzhevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810447743-gelevyj-krasitel-oranzhevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FU7P7DLYq1zx8CMNU8UloNLI4NiYQrvq8KAe00i7Tt8=/4402035319_gelevij-barvnik-zhovtogaryachij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6479,8 +6612,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810450104-gelevyj-krasitel-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810450104-gelevyj-krasitel-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uxutddx_Vs06E4EtQEClSXdRX_HfeKuPcCWYqGHQwyE=/4402040559_gelevij-barvnik-rozhevij.jpg',
+    ],
     availability: 'out of stock',
     price: 135.0,
     product_type:
@@ -6518,8 +6652,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810451222-gelevyj-krasitel-svetlo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810451222-gelevyj-krasitel-svetlo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M0yshO8LVb8UtIjD3Gex7u1HMpWXyy54NflbJ6XcA0E=/4402048650_gelevij-barvnik-svitlo-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6557,8 +6692,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810453813-gelevyj-krasitel-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810453813-gelevyj-krasitel-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBeR2cSLDyXmgUYm9VVcmhPT1HKPMaagOpQ5ZSHan0M=/4402053901_gelevij-barvnik-temno-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6596,8 +6732,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810454954-gelevyj-krasitel-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810454954-gelevyj-krasitel-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xOyivAWCr_LYgTzAOyjvMZqE6OR0mpeDAGQHzgb5mqg=/4402068099_gelevij-barvnik-fioletovij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6635,8 +6772,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810457575-gelevyj-krasitel-chernyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810457575-gelevyj-krasitel-chernyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1Eoewf6QW2XDjj-42055H6f2adGj__hLBq-Idk3z480=/4402072469_gelevij-barvnik-chornij.jpg',
+    ],
     availability: 'out of stock',
     price: 135.0,
     product_type:
@@ -6674,8 +6812,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810458243-gelevyj-krasitel-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810458243-gelevyj-krasitel-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m3DWpP5CBkuoSl1e2iywNV_PdHnAbQZjXhp-NhEUwRA=/4402075842_gelevij-barvnik-temno-sinij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -6713,8 +6852,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810736217-krasitel-dlya-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810736217-krasitel-dlya-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KDTxN0tTVCx5I2EEmt0cF5Y7nXGs2cglEffe0tBGmcM=/4402973492_barvnik-dlya-shokoladu.jpg',
+    ],
     availability: 'in stock',
     price: 175.0,
     product_type:
@@ -6731,8 +6871,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810741271-krasitel-dlya-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810741271-krasitel-dlya-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SLki_fBFJDcoLt9aBFfQlwmhTaT7hrGbt1omFDigNCc=/4402980368_barvnik-dlya-shokoladu.jpg',
+    ],
     availability: 'in stock',
     price: 175.0,
     product_type:
@@ -6749,8 +6890,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810745410-krasitel-dlya-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810745410-krasitel-dlya-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XTJW6Ad5DrfS7p-unaZLk2vXly0elvITrahKw6jzyxo=/4402984850_barvnik-dlya-shokoladu.jpg',
+    ],
     availability: 'out of stock',
     price: 175.0,
     product_type:
@@ -6767,8 +6909,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810760691-kandurin-raspylitelem-temnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810760691-kandurin-raspylitelem-temnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QgVS6M4_LbTiCuK_BfBrVEnNKESKEJwBQs3_xEIyrBQ=/4403004462_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -6797,8 +6940,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810760962-kandurin-raspylitelem-rozovoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810760962-kandurin-raspylitelem-rozovoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Cx3e9vWpeM2uHdbmbyvCei_--RPnheOmLXuY-ipOA1o=/4464491893_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -6827,9 +6971,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810765491-kandurin-raspylitelem-svetloe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810765491-kandurin-raspylitelem-svetloe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aJ5j7UlL1nLQwmJjt8zoRoa6lVsiaGXRN1Chly_0VY8=/4403025436_kandurin-z-rozpilyuvachem.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Rjx2aiHSQhX4lfdXLoVO_iAQmXmzZMPYHVCE2WXGQd8=/4403025857_kandurin-z-rozpilyuvachem.jpg',
     ],
     availability: 'in stock',
@@ -6860,9 +7003,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1810766820-kandurin-raspylitelem-nasyschennoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1810766820-kandurin-raspylitelem-nasyschennoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IfhDyLSG4UULLbqIKhtIv6sniogv3WhyPV_5iwfNGi0=/4403033002_kandurin-z-rozpilyuvachem.jpg',
-    additional_images_links: [
       'https://images.prom.ua/AhHNrlt--qfJMXVKR-0ZHPVYT46nkq5OXBVEDh3qY9E=/4403033356_kandurin-z-rozpilyuvachem.jpg',
       'https://images.prom.ua/LtQnlI3OcZvizR46QkyXz659qcnsDbi4wSBu3OLmWV8=/4403033613_kandurin-z-rozpilyuvachem.jpg',
     ],
@@ -6894,8 +7036,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813304978-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813304978-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t3B48Y0jtTG9MEzCVxgAHexxwhK6UIc3yIgmm1RTCFE=/5306256882_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -6935,8 +7078,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813306509-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813306509-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Pjo_pPHAu1Zpw9F23sWq3rfgdeyuNMF4CiOAO4HVxOU=/4412335296_tsukrova-prikrasa-nabir.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -6977,8 +7121,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813320028-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813320028-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hmB5G6NaDClhBcDe4_BMQ44Lg2fb6dCdrdWGW2lINVY=/4412359237_tsukrova-prikrasa-nabir.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -7019,8 +7164,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813321563-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813321563-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2z4tPfl4-jSfUdq6GYq7DoR6n7b3oR9_3yQf5oV7K-U=/4412373231_tsukrova-prikrasa-nabir.jpg',
+    ],
     availability: 'out of stock',
     price: 66.0,
     product_type:
@@ -7061,8 +7207,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813323212-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813323212-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Y06JGnkFxdQRfg5Eyuyk_ROWPk7MxSpmxs0-eZ1nYHA=/4412384827_tsukrova-prikrasa-nabir.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -7103,8 +7250,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813326623-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813326623-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TI_g-VDTCQV1o_ItXpFquSvY0lG2NNwsFe8uhzcRbgo=/4412394857_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 162.0,
     product_type:
@@ -7143,8 +7291,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813326646-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813326646-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rCWBX87s_Pije_mmND1Yb2c-s7FqTRDceIXLIz3Zj6w=/4412432022_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 84.0,
     product_type:
@@ -7183,8 +7332,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813329491-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813329491-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M2m8rBdZCqJbJib7BEPEFLqOBhAW17dMnXA_SVgYBwU=/4412461218_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 182.0,
     product_type:
@@ -7224,8 +7374,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813337270-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813337270-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mxT8zrEfnokvS8nUbatCRHzdFDQwy-ZQap6_Kmly7_w=/4412473975_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -7259,8 +7410,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813341081-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813341081-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6s_1UZvM0BtWM9y2BXE3ADWM-syHRJQbDorofunXx_0=/4412485619_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 98.0,
     product_type:
@@ -7294,8 +7446,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813345778-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813345778-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7q0CWKrEiD9lU3KVrrfQ-wCtyobq0RgBBWvk5OsI6wE=/4412502451_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 114.0,
     product_type:
@@ -7329,8 +7482,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813348054-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813348054-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SsQ6x3TWwTGXyxYooudsZwyI2p5gKnuUtaDgq-9Sx2Y=/4412520682_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -7364,8 +7518,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813358312-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813358312-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/T0hpjZnRXA0Ir2yQowa3Jz64xpodttA0_xksobrtZlk=/4412525130_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -7400,8 +7555,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813360437-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813360437-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NHdfbwgFat2MOpymxlrQfqPUhRS3Zcvigo8x-npWpKU=/4412534332_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -7434,8 +7590,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813362175-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813362175-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5ccJ83uK7ywuMWgvQjieDmPAi6-BQkgtjITFb172A2Y=/4412542846_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -7469,8 +7626,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813364695-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813364695-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cTYPhgnaeHLdU9ThNm6AA1rCYitSMD1MpfM39J9IdOs=/4412549321_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 91.0,
     product_type:
@@ -7504,8 +7662,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813416845-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813416845-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NZE-GEYMNFsDUjXVla5OVucC7q3I5waRMB-pay1FXok=/4412664286_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 86.0,
     product_type:
@@ -7539,9 +7698,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813422967-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813422967-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oQtxUH_d53QnOEC3eGGpR-o215v20rReSj5qw1NP1yc=/4518268205_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/E8QiLDT1C3qgkdJ6wKlhVbieI_3XOTRQ_PlvKIJvuZI=/4412672750_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'in stock',
@@ -7576,8 +7734,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813426323-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813426323-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tjMUi88vod0YC_ylP1oHEBn4bJKUb-SJ7vTL7nUKPzM=/4412678371_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -7611,8 +7770,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813431723-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813431723-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iZKnLGWDYDgLEISqY-yqz_Fx9rz5tXGVw10JYc1MDAA=/4412692996_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -7645,8 +7805,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813436175-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813436175-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/d9Khuk4tkvti6ckLMJ3hElH0M1oS4MJTv-WsjoyGZyM=/4412702399_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -7679,8 +7840,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813436904-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813436904-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4RzJdEZwCiR25kdK6_IFdMtczCnlV1edzcM8cwFvi68=/4412703564_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 128.0,
     product_type:
@@ -7713,8 +7875,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813437862-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813437862-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6EST9V14Ff6S9jMivzKIkwZTfNHqxAMAwmAW3eIBsdE=/4412704904_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -7747,8 +7910,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813438886-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813438886-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7Sk6cFNxsZnufeLqiXo6-7dlqkq6YvELaLwJWZ31h8Y=/4688230698_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 98.0,
     product_type:
@@ -7782,8 +7946,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813448553-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813448553-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hj9WgtSrHrfAkmbC8Uon7a16SlCpC8xKM1skKm1g6hA=/4412729923_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 149.0,
     product_type:
@@ -7816,8 +7981,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813452348-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813452348-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fz2BOVwMWgV12YiAfc7taMHsP1sdTfu8EApPTFgsJ6I=/4412750069_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -7851,8 +8017,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813504435-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813504435-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VFQyTPXVdP_GwqLwqpwGoYiXEaxMBk8KpivyONgR_xQ=/4412928361_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -7886,8 +8053,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813506888-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813506888-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6WKhd0T6mHuIcIDdP9Wr98z_4mPS7qtxowqC9kgeF6A=/4529462302_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -7932,9 +8100,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813530433-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813530433-konditerskaya-nasadka-hrizantema.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RTBK2Ma_XWPG4SSSyzlpYbK8-qGi6JQ5s275bHM5Hm0=/4413178645_konditerska-nasadka-hrizantema.jpg',
-    additional_images_links: [
       'https://images.prom.ua/HdeVL7Dc778vGVLOJK7fi51veMAr2_wnIugNiVUzcrA=/4413178823_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/1-51LTrEmmgs-7y6swKXYN0NcP9hNIigIimvz6Uz37Q=/4413178845_konditerska-nasadka-hrizantema.jpg',
       'https://images.prom.ua/UXz3NVQQ_2c8bonuHibGaYQ5-nZNtTJA2O_Jts9N5rk=/4413178895_konditerska-nasadka-hrizantema.jpg',
@@ -7967,9 +8134,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813535201-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813535201-konditerskaya-nasadka-dorozhka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JUv3aXi-62eAtfVM8BH2odlUW7AqdA-IcN6wLG--XLo=/4413196059_konditerska-nasadka-dorizhka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/nLFuDznc7h0JPNhbt2ymIsI-6OCSRG2R4vbM8YcS4D4=/4413196173_konditerska-nasadka-dorizhka.jpg',
       'https://images.prom.ua/bzrcN39ZSPhpSp1gPMAfiAfreWI6cFLuFw6XykTidB4=/4413196347_konditerska-nasadka-dorizhka.jpg',
       'https://images.prom.ua/Ugxie3jEFpQs7ORJ4IjL5TK-LLEsz7qrjef6AFkiKy8=/4413196450_konditerska-nasadka-dorizhka.jpg',
@@ -8002,9 +8168,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813538122-adapter-perehodnik-trojnoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813538122-adapter-perehodnik-trojnoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JSsoh_baD--Kyn9NQFFO7IAhMC79c8ICy0SyPKX6_Dg=/4413203888_adapter-perehidnik-potrijnij-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/5vG406FzcW_CTbGWV-wLTeBCOrLqJFcfDZZckFg4PA4=/4413203897_adapter-perehidnik-potrijnij-dlya.jpg',
       'https://images.prom.ua/ckZkcqhg0Wz4oKUgCdQVI0ODdy4u3Lc6R1p8IHFWaeg=/4413204140_adapter-perehidnik-potrijnij-dlya.jpg',
       'https://images.prom.ua/CxzdQacgW0AKbV4C9XYwImdy-JkgnkupzGB_6f4znsM=/4413204245_adapter-perehidnik-potrijnij-dlya.jpg',
@@ -8038,9 +8203,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813539478-konditerskaya-nasadka-listik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813539478-konditerskaya-nasadka-listik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/o6FBVWTLQRin-VutIfoYkWdCdIS9fLj3Dccuxq5MbJ0=/4413208891_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/mPmMbRJF7XMCdg11CQwATdT448SIT0r1Felk9_Y0mnc=/4413209022_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/XdsN9b7JcWVTWVG1XzigTkTk6Uxo9-4qreQerlPJA1s=/4413209032_konditerska-nasadka-listochok.jpg',
     ],
@@ -8072,9 +8236,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813540439-konditerskaya-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813540439-konditerskaya-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JKBqDCFOpwwrhL72PMNsiRx0Zso20c7wOqiKRL3IPVc=/4413215718_konditerska-nasadka-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/b-A9dkpRkCgw3YGffH3U3c3N4SEK3jPofkjx8sIrz5o=/4413215801_konditerska-nasadka-dlya.jpg',
       'https://images.prom.ua/O3iRmzAAUlAk-JRJg7vf3RejYqCA24HK2I4WhtNgtAA=/4413215839_konditerska-nasadka-dlya.jpg',
     ],
@@ -8106,9 +8269,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813541125-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813541125-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5BcYOsx-LCXcXnVeOYjxpraeWpiQfhahfHkRYPKbwf0=/4413220154_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/i5gm0Jo1COIhwaThzgWW6PyYUkcraedgVUv7RCilKHY=/4413220283_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/TQHdDn7OceLa5emuenuFk5GMAtHoK4S1rrHyvy_eUYU=/4413220382_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8140,9 +8302,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813546425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813546425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3zI5LqW8ZeSysFnb9hPNxyr0g1F_q3UxjR0qpynumPg=/4413231131_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Lj3f--3C6eW-mtOctAK-idOneOYffBIHgUUPgOZl9qw=/4413231244_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/eIMJcvUkjQFw8J8slj2iUWs3vnyw0AR0jidVgLWBvLs=/4413231421_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/-ALkAMCU04BzWPQyYyouwM4qkq0Vq2-ti6tGdv92B54=/4413231496_konditerska-nasadka-vidkrita.jpg',
@@ -8175,9 +8336,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813556431-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813556431-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OYbfkwIxKp6VWs4F13xSX_dzeVDHWQ7EbykvuSXL-Uo=/4413241924_konditerska-nasadka-kvitka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/wq6uKN3GmukDGn5TP_fov0UUf9yrRoHS1lzmVYflLZQ=/4413242125_konditerska-nasadka-kvitka.jpg',
     ],
     availability: 'in stock',
@@ -8208,9 +8368,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813560182-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813560182-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1KX7UFl_jPnPgybmD7-G4ShLE3FygPEapEzoHqAO5ZA=/4413250108_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/EXYvv0vx0oG1D_i9Q8-AaCroBJoZR_zJnsZK-qeeLOU=/4413250248_konditerska-nasadka-bordyurna.jpg',
     ],
     availability: 'in stock',
@@ -8241,9 +8400,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813563486-konditerskaya-nasadka-serdtse.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813563486-konditerskaya-nasadka-serdtse.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zIyInJ5lIoKecHTYhkyeClR4Z20teAKFif2sLv3kIw0=/4413266085_konditerska-nasadka-sertse.jpg',
-    additional_images_links: [
       'https://images.prom.ua/b_NDJqBv4ysk6MkyHyH417_-WIbGiAfJY2z4eYNzvTo=/4413266385_konditerska-nasadka-sertse.jpg',
       'https://images.prom.ua/5isVTr5dvfHEbhLFOW1buBu4SpzZ6ZbnkHTXKv9BANA=/4413266608_konditerska-nasadka-sertse.jpg',
     ],
@@ -8275,9 +8433,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813569290-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813569290-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/L-_lxyoOL05gHTeIS3lcUQ1BHqPlEhulzCqG3gFu8_g=/4413281458_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/4yvyGCt0Dr2yS-7sxgI3LW9UJZHWHUS9DiyRn1gfOlM=/4413281460_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/_RNH3XggJwil-OXv--jUsZcS1h2ytvWLY9uLZngWt-w=/4413281461_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8309,8 +8466,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813738192-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813738192-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Wfv-5AsrEAX1RuiNxBLWYOTlfQ2bQ5-iAWIOeCTjZz0=/5306268685_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -8329,8 +8487,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1813738627-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1813738627-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ToV5Z0RaNilIu9tUeYJftdlgtRWb_Yd_6oUqtI3SArk=/4413866823_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 50.0,
     product_type:
@@ -8348,9 +8507,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814109579-konditerskaya-nasadka-bismark.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814109579-konditerskaya-nasadka-bismark.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qSHp5KJQWz81gttTtkFP1A6bx2Sqyb2zCQjQM3XN47g=/4414882252_konditerska-nasadka-bismark.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BXi1nS5Wi7EBWtltfF_0G6dd7jb3QquWCS8od5bn0Jk=/4414882293_konditerska-nasadka-bismark.jpg',
     ],
     availability: 'out of stock',
@@ -8381,9 +8539,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814122574-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814122574-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ucoBjfCM9HPLpBO5MefLmtlowZDlF10V3enPq8gsbjk=/4414892298_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/WQsmfcN2LVzzI6JkfkacZPzsFNeNv0FucXSYXGVLWbg=/4414892373_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/Fd8gNe6cdr5dQGqunGqW7eJg2yo8N4ZYQdZloU8YIlM=/4414892418_konditerska-nasadka-zakrita.jpg',
       'https://images.prom.ua/xxgIYZJWvl9Y4pOagqvuk7vxP01WYjSL3VyRaS2I-Sw=/4414892516_konditerska-nasadka-zakrita.jpg',
@@ -8416,9 +8573,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814126387-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814126387-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EUbIDlcMjgMXo4LZJ3YUVyt96ISiI9A_b5qX4RwRkwU=/4414896989_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/LxTNa7Ytht4gHgiCow4RxTSoX27o5UbWKaLHkwx1vAQ=/4414897014_konditerska-nasadka-bordyurna.jpg',
     ],
     availability: 'in stock',
@@ -8449,9 +8605,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814128496-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814128496-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nF-8Fo1QbjhWmynmJOD84iQDbdZxhmXAFjP3rzQs094=/4414906105_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/m53_QQcKnwTGAp8n528Z4ZFQcJnkCnM3q6Q-7_GF51M=/4414906224_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/APRk6imEUiUJMsGS-0cR_g_IxKS1bnjkMAVWOqQj9cM=/4414906364_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8483,9 +8638,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814130352-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814130352-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cX3aGy2NK8ex3Sg_S0ihvWkc_LuURnFzhwXRMpxdi2o=/4414912741_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/iJwSwwfT2VZB1uxg4hQVvfmdPy6yebNBse8iTsFhPMM=/4414912820_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/teO4qITI9XGiZwWiexECDw1OiT22k7LrT4YS31Kim9k=/4414912979_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/RF1LZUaqJffmrbaMV4eyX3eAZQqbyWYtj4qzKJDrf70=/4414913116_konditerska-nasadka-ateco.jpg',
@@ -8518,9 +8672,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814136320-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814136320-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DoY4t0kPt_EVQbaiQYKQj5ZO9cwD7nBkjZJF49mftp4=/4414927560_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/MQDmCSTlUEOM30-JOTwaIq74nX3n9OrXDPyBnnefJ14=/4414927589_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/hm9Jd8RI8yiFISZCrzJmS52AGzfzti6fbNdxBVJeG78=/4414927668_konditerska-nasadka-ateco.jpg',
     ],
@@ -8552,9 +8705,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814139510-konditerskaya-nasadka-sant.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814139510-konditerskaya-nasadka-sant.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/T5Xc5kSrP1FHPHuLXY_z1IN9BxY8CZ6N1-i9Fr2DhYQ=/4414956364_konditerska-nasadka-sant.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Dxt274dNhibWGgHV86Vu8TWuHVXIPMWL5DomeS9onXQ=/4414956453_konditerska-nasadka-sant.jpg',
       'https://images.prom.ua/ii5cNix1i-mxX9UOuey5VXSIYWOWfA7kNscmjLEusQg=/4414956587_konditerska-nasadka-sant.jpg',
     ],
@@ -8586,9 +8738,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814150075-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814150075-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/61iCt6vEp7xRZONbVSmMyVIabquJOZZNOMNElVNCvUs=/4415854238_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/KPDykU34F0eFEEaZ61wh-1KnRGj9MX5iecpIYM4RF2I=/4415854329_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/C5xnB4BwB-E7d2pLm9rbwM3COO-Am89uomBySTn2Qp0=/4415854374_konditerska-nasadka-ateco.jpg',
     ],
@@ -8620,9 +8771,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814433434-konditerskaya-nasadka-sultan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814433434-konditerskaya-nasadka-sultan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VF52AaoMHpwgkAoeDXisYxjzwtOgsIEgINLJTV2n5ZU=/4415843199_konditerska-nasadka-sultan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/H09D2zO34FCHEQnRow2sieLs7hu27x_fxLStjsOm0go=/4415843200_konditerska-nasadka-sultan.jpg',
     ],
     availability: 'in stock',
@@ -8653,9 +8803,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814436851-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814436851-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RVjp_1G7VxfGg-ccPy2oIbgSNri20tWBYa77KikSngc=/4415865445_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/FDLm30ULXuZJaKnYL1z3RtaiRfMRnNhMaMimB9Pqxh8=/4415865626_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/nFfNfeKHtXF1S8I3hTgahwNZl2OaYLzRdOusNhq_7Vs=/4415865684_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8687,9 +8836,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814439008-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814439008-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-45cfo-5gOye7sGQ9YZmLksEkxtTw_8RAPOU_tuy0JM=/4415872247_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BUOGuIiURs0i5t3bZEVhF0Jfr683x_oSRASRtNOmD9o=/4415872444_konditerska-nasadka-bordyurna.jpg',
     ],
     availability: 'in stock',
@@ -8720,9 +8868,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814442292-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814442292-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LK-6llHSeH_2cFAk9GL-p_Tv_1vGHzzerJIIgTt-eVs=/4415891401_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/gy7w6duMLdBOH58qTN8QCesg0RxvE3n5kwH1GAYkf7A=/4415891480_konditerska-nasadka-bordyurna.jpg',
     ],
     availability: 'in stock',
@@ -8753,9 +8900,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814452465-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814452465-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/S2CdVbvsBWHoE4-d1AOEVRVHhXR9oYks5FfTxH4oxW0=/4415897619_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/jkDrtzfVJPhhJk0uoPWA0xXi_8Sqj4jN6B_jTI8fxJQ=/4415897644_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/PMQURZxH1-RYVt5kblbEa8nbWeIWhM1VDBirdXVvO9I=/4415897736_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8787,9 +8933,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814454053-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814454053-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-UB4YJIYOD67MxN2e2wyYZv5z5XJ9EgkVWy8bJ7FJj8=/4415901730_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/9lIT5LKw_1_DWPcU-XCTz1eSSHcHahOaRoFYqkExL1w=/4415901802_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/Dfk-iIneVRY13uu1t0-s-cd6Gux5xvpZk54TW-mQNh0=/4415901927_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8821,9 +8966,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814456019-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814456019-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q6ctp56EHClXuJ-XoaiqOpS7UF1yrY6x2nQqHJkdRh8=/4415907523_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/b3W72yxsR5VxGmdGoO8k9mMvA-pEGliNHZd7LWoRIp0=/4415907616_konditerska-nasadka-bordyurna.jpg',
       'https://images.prom.ua/U3VFqUlaLI79cInRi6Y4caP9iWSfRpXtqCh_a0ovrFI=/4415907659_konditerska-nasadka-bordyurna.jpg',
     ],
@@ -8855,9 +8999,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814456143-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814456143-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/H_SuU3zeB9OJ6UojaCcncuUQz1lTtX2UwRanF--3MD4=/4417268419_konditerska-nasadka-gortenziya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/oWdSxvguJip7LyN1xWmm2hUSdkXMMAvvTEdnT3PavUY=/4417268507_konditerska-nasadka-gortenziya.jpg',
       'https://images.prom.ua/fL83y_5yiEXEIOPvw8oLJd73AUbf5MRCJtw1aYesGKc=/4417268528_konditerska-nasadka-gortenziya.jpg',
       'https://images.prom.ua/ivFp57tQ92sSkDVuZHJMWGE6KmHDlOV-FBbGRBE_L8M=/4417268675_konditerska-nasadka-gortenziya.jpg',
@@ -8890,9 +9033,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814809845-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814809845-konditerskaya-nasadka-tsvetok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MOkpWm_FIwpJRuV4d1bihlQm_swkMUwk9JnAjeZ7agY=/4417276403_konditerska-nasadka-kvitka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/G82fsxDSmHnzNgMeqsoX0C-9mKXwgqzGKXx_5G1lmQE=/4417276611_konditerska-nasadka-kvitka.jpg',
       'https://images.prom.ua/fk1gU_z1a7xd8kO7Iqyk38vFG1PV-mC2h7ADhXGeUtQ=/4417276671_konditerska-nasadka-kvitka.jpg',
     ],
@@ -8924,9 +9066,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814810953-konditerskaya-nasadka-sertsevina.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814810953-konditerskaya-nasadka-sertsevina.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Mq_gdzxxWb9N-svreC7Imy61kDdIwAh4Kcji0pLKvzw=/4417294819_konditerska-nasadka-sertsevina.jpg',
-    additional_images_links: [
       'https://images.prom.ua/CGkD2H-_UM0MoeclhSOGWb1MhdLxl6v7Ml59YiNzGD8=/4417295064_konditerska-nasadka-sertsevina.jpg',
       'https://images.prom.ua/6VpvdJORzrcyVvHmv99khRLGiJpyWb1F5yU1-8jS6V8=/4417295210_konditerska-nasadka-sertsevina.jpg',
     ],
@@ -8958,9 +9099,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814815249-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814815249-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mU1ZRVs7W1gmOwa9P9TQd4KsQUSwqBDGIp-pCE_dlxU=/4417760981_konditerska-nasadka-sertsevina.jpg',
-    additional_images_links: [
       'https://images.prom.ua/C5xpcPsI1aG4w3XGtraF0LkSNrikCADDV-mFdxRdsuY=/4417761162_konditerska-nasadka-sertsevina.jpg',
       'https://images.prom.ua/8LGBXwRW_J3TzAAiv1m4992mOEtrZOyAYJ0N7sNAXE0=/4417761206_konditerska-nasadka-sertsevina.jpg',
     ],
@@ -8992,9 +9132,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814964766-konditerskaya-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814964766-konditerskaya-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AYCWhpWATz3MQRoWgBTL1tdCyemQCERbegDwldokpZ0=/4417767735_konditerska-nasadka-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/g-5ZNXzIBhQCTkB1864HAxWvyVRxUW23DNrvMt2689U=/4417767807_konditerska-nasadka-dlya.jpg',
       'https://images.prom.ua/OsraDWgv2x6D1WjzJz9RuRbtuqvzoeRTIeN1DRYV3MA=/4417767898_konditerska-nasadka-dlya.jpg',
     ],
@@ -9026,9 +9165,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814966018-konditerskaya-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814966018-konditerskaya-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/K5TULf2kMHcgNSS_UNVyj7jRbr8GmfRzH0JpXxLDfiU=/4417811215_konditerskaya-nasadka-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/91x3Jqo8oiF-jyEzoSK-g-bUhMZWsNbEwp6AxzCqTuw=/4417811298_konditerskaya-nasadka-dlya.jpg',
       'https://images.prom.ua/z63nff3xaAE02LuEROi7swjEeMxDNqi6ZXjjboSh5tI=/4417811369_konditerskaya-nasadka-dlya.jpg',
     ],
@@ -9060,9 +9198,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814982320-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814982320-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/g9QhAiv0G9mAnpWh0koqRF9_Zxf0dn0dN-lUdQCeWwo=/4417820939_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/9_ntVI-hrfcVZhACw0qsgMaaKQWQjjLfuMYVXKq0Mno=/4417821006_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/MjNulCnzokqArwzuT_pK7oWNhfysTSbsVNW7ETvx4WA=/4417821251_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -9094,9 +9231,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814983986-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814983986-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6pasvZawqfTlWQ_LHxESTVNfzPLwLVLrB6XE6yEEb2Y=/4417826756_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/aNQ5LVWoRi8P9Jk-ROUVNiRQV6aklYTxtYANPKNcsN8=/4417826970_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/IGWWhgeYM-XN0HHQTFzN9DIirGCwjmqn7DH67BGlCV0=/4417827144_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -9128,9 +9264,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814985694-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814985694-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ihCzg7OWekoquuoXSn325VtjBIYd5TAD1QZgrzqCADY=/4417829985_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/7xkWP672NTRWXyRI2JTQLNv8avoRvMBgHVujbqWaZ9Q=/4417830127_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/RnNgkFjvJAmMyuMm4fLEr7ecFi_H7n2CK9gVBeC1Ai0=/4417830182_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -9162,9 +9297,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814986322-konditerskaya-nasadka-sfera.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814986322-konditerskaya-nasadka-sfera.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BBSVCGQqxOmxdyln-UPnA08zhbYFJKAAPky8bqVJ-0I=/4417839968_konditerska-nasadka-sfera.jpg',
-    additional_images_links: [
       'https://images.prom.ua/D1DC8CJcCTontbxcMnND7Qz7cMdlH-pzg09N4OChdpk=/4417840037_konditerska-nasadka-sfera.jpg',
       'https://images.prom.ua/LWItGyhRx_0a5sUT3oWjILxJPFNBZvwDCxWFxGBWQ6s=/4417840167_konditerska-nasadka-sfera.jpg',
     ],
@@ -9196,9 +9330,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814990066-konditerskaya-nasadka-sfera.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814990066-konditerskaya-nasadka-sfera.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cyd6WcxrnvHwE0FRDw-ETmWq9qfELoYkLIotPxhH-RI=/4417845475_konditerska-nasadka-sfera.jpg',
-    additional_images_links: [
       'https://images.prom.ua/gx1uYJRB0IkSq_oA9eYZ3mKvJd4FwyMu5mSC8NBgbmg=/4417845653_konditerska-nasadka-sfera.jpg',
       'https://images.prom.ua/Fhm9UQ5_Av_kR_IX3mAFD1XgGw2V34Cc3MfyWfSgpjk=/4417845700_konditerska-nasadka-sfera.jpg',
     ],
@@ -9230,9 +9363,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814991775-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814991775-konditerskaya-nasadka-gortenziya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CRx49Uo4LZQIeuyeNfzNlkhgOIIngcZapMbnHb1SBtU=/4417857128_konditerska-nasadka-gortenziya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/C_DoqW17oJy0avYwy0SPKGJr-yvrXeYF-Xj7zr2GIIQ=/4417857142_konditerska-nasadka-gortenziya.jpg',
       'https://images.prom.ua/Y1HM9ct-Dhsi3dunMF5n3d3mwJDrxQmA-WVpOE3tpt4=/4417857298_konditerska-nasadka-gortenziya.jpg',
       'https://images.prom.ua/Fs1uOJi2OK9eSy8KBn9-9RlHTxkek7zr9EuD-HP8ALM=/4417857455_konditerska-nasadka-gortenziya.jpg',
@@ -9265,9 +9397,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814998455-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814998455-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gj4l4rcEZsh7aq_Idvpsyl1KweDjwmYOox5autEKT0U=/4417862867_konditerska-nasadka-bordyurna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/bT6KDRSIMn5O0n3mi5AIUWxCuYKEt3Lh7j7365JJuJM=/4417862971_konditerska-nasadka-bordyurna.jpg',
     ],
     availability: 'in stock',
@@ -9298,9 +9429,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1814999268-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1814999268-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UvfxE7z5U4gpBl2tdlA6QPREaGUxdsO9d1_3hvdpaM4=/4417868979_tsvyashok-dlya-kvitiv.jpg',
-    additional_images_links: [
       'https://images.prom.ua/c3vlyEi9k_NAKjMZLcCHQGRRwAxeFsK7ZXwKTrQOiSI=/4417869095_tsvyashok-dlya-kvitiv.jpg',
       'https://images.prom.ua/L9Ngdwlghk5HoIuACkE04xLwIlUZmcn2n9tMlF06JVw=/4417869178_tsvyashok-dlya-kvitiv.jpg',
     ],
@@ -9332,9 +9462,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815002653-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815002653-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/moSpCJN21UyFY5J1LNVgDL7YjuTXaokT5GPW5IETF_Y=/4417872402_tsvyashok-dlya-kvitiv.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ZEZk22VAY73hSMLNfQzKdlCQhjg1Q3elKyR4ZklblOk=/4417872479_tsvyashok-dlya-kvitiv.jpg',
       'https://images.prom.ua/HBH-RVivHt_bKrlCSWckdweCZSFfMamvObETJTI2bhc=/4417872496_tsvyashok-dlya-kvitiv.jpg',
     ],
@@ -9366,9 +9495,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815002783-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815002783-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bGStyjYpejq9wtYHJEAD7bSl33LavCn7HDTJQsAA8iw=/4417872778_tsvyashok-dlya-kvitiv.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BoR084LxLfn3qXsKYppoJNjyZtXYgDRYIeYW1aWXDOM=/4417872779_tsvyashok-dlya-kvitiv.jpg',
       'https://images.prom.ua/dzV1Fqp6T0BtmV3Y3GXLWNb2Hf__LN-9obZnR4hV62g=/4417872781_tsvyashok-dlya-kvitiv.jpg',
     ],
@@ -9400,9 +9528,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815004854-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815004854-tsvetochnyj-gvozd-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nBNsCfxA1BZWrekkOosvavs_TvdXo5ikjSU41IPdHO8=/4417875136_tsvyashok-dlya-kvitiv.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Gk-vr6XK5p4lOQtDrlznKju8cwtgzWQMlU3LhI1Vzc0=/4417875137_tsvyashok-dlya-kvitiv.jpg',
       'https://images.prom.ua/5FgloiuCi0A1CQ2S7uvmiEagjxy0KSJcir6SQerRqpM=/4417875138_tsvyashok-dlya-kvitiv.jpg',
     ],
@@ -9434,9 +9561,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815015523-konditerskij-meshok-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815015523-konditerskij-meshok-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/E3C2GCEK-MMHNa5Xe23u-lMCzKiJ69zExJS7fYT67a4=/4417904901_konditerskij-mishok-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/lEVdCnwgYqIbvFEtvXhzwFCOa2wCxeBMgMtK1pF3acY=/4417905061_konditerskij-mishok-ateco.jpg',
       'https://images.prom.ua/q43XIh-I6IoD7xQa_oSvrjxF0PE2dGEUB-z56SGPtXs=/4417905240_konditerskij-mishok-ateco.jpg',
       'https://images.prom.ua/2lcs-cSfgtKXTrTh03G2WsHxcp4ME9wptsH8gLNU7Qc=/4417905455_konditerskij-mishok-ateco.jpg',
@@ -9469,8 +9595,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815016712-konditerskie-meshki-odnorazovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815016712-konditerskie-meshki-odnorazovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/73Un8YNOKxhzJCmZYelc2Vrss9BBvxtwlU29cbJgOX0=/4417910038_konditerski-mishki-odnorazovi.jpg',
+    ],
     availability: 'in stock',
     price: 87.0,
     product_type:
@@ -9499,8 +9626,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815024190-krasitel-pischevoj-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815024190-krasitel-pischevoj-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1YW3k7wsOcoAMfQFDqY-wPZk1gIRfDdCiqI-c1vGGnA=/4417921127_barvnik-harchovij-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -9518,8 +9646,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815024195-krasitel-pischevoj-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815024195-krasitel-pischevoj-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QKF3I-VNS6oma4H4llrgAhJpuF0HOSlcDbxAhecFEws=/4417925074_barvnik-harchovij-zhovtij.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -9537,8 +9666,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815056770-krasitel-belyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815056770-krasitel-belyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/symQxrzOhzBsWlGV43BDB1Thq50z1oBwBclSEZzqiYY=/4418077737_barvnik-bilij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9555,8 +9685,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815056775-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815056775-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2d1hiB3UeT6B70CeurKflynj9NnQefvhEAU4rtT3RaQ=/4418077994_barvnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9588,8 +9719,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815057449-krasitel-bordovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815057449-krasitel-bordovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1kfwgU3UnUqZhLur8WRtiU-gLPjYnsUAIvLHhZvJtLI=/4418081370_barvnik-bordovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 57.0,
     product_type:
@@ -9621,8 +9753,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815057515-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815057515-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P6fsfqiEf7-wK9qfQLtwSCfeblhFrumJQr4muMt1EKU=/4418082308_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9654,8 +9787,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815057812-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815057812-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NMfst7-bvqMnpNmtv-THdcvRNig4QvQ9JLVTXu8xoI4=/4418083025_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 57.0,
     product_type:
@@ -9687,8 +9821,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815057993-krasitel-lavanda-sirenevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815057993-krasitel-lavanda-sirenevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UBQhGhU2ZP0tjyAjgr2-P8z_lt8rLsDieZIdaTKh8ME=/4418083656_barvnik-lavanda-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9721,8 +9856,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815060064-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815060064-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SpeIf0ufoD-Tm02u58syBGyOnwEKn1p_mf-eEx16xEo=/4418084167_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 57.0,
     product_type:
@@ -9754,8 +9890,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815060101-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815060101-krasitel-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F5Q_ih6lMXHdsl6mRTzyS80-rUH4pAwoaNThnvDRHTc=/4418084474_barvnik-rozhevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9787,8 +9924,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815060674-krasitel-seryj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815060674-krasitel-seryj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yJDPuMO1HvoganA6exHSVAfNlp2T4UEy9KuPALkrWoE=/4418085097_barvnik-sirij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9821,8 +9959,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815064225-krasitel-svetlo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815064225-krasitel-svetlo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xcVHu41Gb1QJTlOEgta9OpB6mnBu-xTa_HoymEKpu84=/4418087578_barvnik-svitlo-zelenij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 57.0,
     product_type:
@@ -9854,8 +9993,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815068133-krasitel-sinij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815068133-krasitel-sinij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UxAl3B5LmVxnVFTl2G2sZ09AOECnJDh5uXtdF7u-8UI=/4418088837_barvnik-sinij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9888,8 +10028,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815069420-krasitel-temno-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815069420-krasitel-temno-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/V6kW4Yt1KaHftfy-JhnKBwpuZYMUuYHWIA6u4bt6NNc=/4418091918_barvnik-temno-zelenij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9921,8 +10062,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815073039-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815073039-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gfmFhyG4_u8F9DTPVuen_dhDvQTTjUya2XvNQUefBas=/4418092543_barvnik-fioletovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9954,8 +10096,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815074689-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815074689-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xeJkpkL8jduvWYk_8lEixZsq1dkhs9f2xFATlB_MdtQ=/4418093377_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -9987,8 +10130,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815075503-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815075503-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5ozDzDsBU98Qla3cAzmYI4N4H2n5hzY2iQZ8vkKBnjw=/4418093726_barvnik-chornij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 57.0,
     product_type:
@@ -10020,8 +10164,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815075880-krasitel-pischevoj-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815075880-krasitel-pischevoj-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6NA0OVM0m_cVm-eekFcwpEjIMNk0HbrEvNuw-KdnYek=/4418094332_barvnik-harchovij-zhovtij.jpg',
+    ],
     availability: 'in stock',
     price: 38.0,
     product_type:
@@ -10040,8 +10185,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815087037-krasitel-klubnichnyj-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815087037-krasitel-klubnichnyj-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0QVEyJh48KjS21xo2Ql-ITL7ut8y-6496GDxy9mbZk4=/4418100848_barvnik-polunichnij-chervonij.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -10058,8 +10204,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815087094-krasitel-super-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815087094-krasitel-super-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MWhEV1_X0SH6YRoGG2DY5pJ4Zrv_7FlhH4ntgtvKbxk=/4418103142_barvnik-super-chervonij.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -10076,8 +10223,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815119747-saharnye-zhemchuzhiny-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815119747-saharnye-zhemchuzhiny-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YskZ88ycP51vZjZTUSHrcPTOpuyhVCOAnBSyMgOqsso=/5080413725_tsukrovi-perlini-biryuzovij.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -10095,8 +10243,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815119748-saharnye-rozovye-zhemchuzhiny.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815119748-saharnye-rozovye-zhemchuzhiny.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zYrSBG9x2HUr0Z4UiAs2qOdLK7Q8Rr7ECaSLctYK1P4=/4502497834_tsukrovi-rozhevi-perlini.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -10114,8 +10263,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815119850-saharnye-zhemchuzhiny-sirenevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815119850-saharnye-zhemchuzhiny-sirenevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-GYmxEMDLfMq8OyxrBWzThzFZmiCqodqEIT_lAtbHJ4=/5080468171_tsukrovi-purpurni-perlini.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -10133,8 +10283,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815120006-saharnye-zhemchuzhiny-raznotsvetnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815120006-saharnye-zhemchuzhiny-raznotsvetnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Kk-ZTdhF9IsbOXrTy4X2Fw9vk0fL7VsAjTlE3H6iwtk=/4502532194_tsukrovi-perlini-riznokolorovij.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10151,8 +10302,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815121302-saharnaya-posypka-assorti.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815121302-saharnaya-posypka-assorti.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UTI68sg7YYTEOddtvI933mlwWqNw5HsSzFmKLg-lTyI=/5080408052_tsukrove-posipannya-kolorove.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10169,8 +10321,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815122137-saharnaya-posypka-tsvetnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815122137-saharnaya-posypka-tsvetnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zNE_ztoMS6pTc4wHs53AH4jtTtD7VrZyup7_VWwkuP0=/5080460203_tsukrove-posipannya-kolorove.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10187,8 +10340,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815122394-saharnaya-posypka-okean.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815122394-saharnaya-posypka-okean.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jLUW4odCCSZvVc1g-rueWdFU0hbyGPlgMk2koj8G2HY=/5080396833_tsukrove-posipannya-kolorove.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -10205,8 +10359,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815122502-saharnaya-posypka-tsvetnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815122502-saharnaya-posypka-tsvetnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hse_tf3gE3a6C8Vsh8IQn3HeLSK90Acrqo0JZxxKXjg=/4502548495_tsukrove-posipannya-kolorove.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10223,8 +10378,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815279630-saharnye-zhemchuzhiny-salatovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815279630-saharnye-zhemchuzhiny-salatovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7TN2ghBqeqGuh2UbwWaFAX2U3w4hZsR21qAB4QW8Y4k=/5080425624_tsukrovi-perlini-salatovi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10241,8 +10397,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1815279637-saharnye-zhemchuzhiny-belyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1815279637-saharnye-zhemchuzhiny-belyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BlHtip_geIohGnmhoPVr9_frf117LyNL3wlDwqFGyNU=/5080428993_tsukrovi-perlini-bilij.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -10261,9 +10418,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1817261626-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1817261626-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Jz3dVdblVYoBsKarJ_yGH5RX6ZsKSCyTjz7XCatkha4=/4425819550_zoloto-harchove-listove.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8c7HGwYSXuhXjDzt7m2WFkV3f7XQ00ctZZj0IGjOpv0=/4544273041_zoloto-harchove-listove.jpg',
       'https://images.prom.ua/_ip6q4v9U3dqbGOwWUIsqD_1mxxHECiZOt4p8vjwBpU=/4425822063_zoloto-harchove-listove.jpg',
       'https://images.prom.ua/OJcsgalaiKmottcnONBod1RsiOo0_CuZ5-eyv_bIB6o=/4425819551_zoloto-harchove-listove.jpg',
@@ -10287,9 +10443,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1817266063-serebro-potal-pischevoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1817266063-serebro-potal-pischevoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iHG0xWNNAPR7ODehCLPrdKTTlMgICEHuG3BlCimSq5Q=/4550914748_sriblo-potal-harchove.jpg',
-    additional_images_links: [
       'https://images.prom.ua/7NsayDyfQPFVyFe1kVKdKGeIJqnfofLetJILTY_aPq0=/4425857392_sriblo-potal-harchove.jpg',
       'https://images.prom.ua/6g33a7DRP2uUO7a6joC641DuFmQSYt99ZbVcBwMFu78=/4425857393_sriblo-potal-harchove.jpg',
       'https://images.prom.ua/ydUEdJGwn1SJHNr-X74KTk3jTPsq66c6XsVN7ADQbxI=/4550914751_sriblo-potal-harchove.jpg',
@@ -10312,8 +10467,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1819350113-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1819350113-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/b-nF2CFjSaJO_RCZTAW2a7CLP7SwgO1BhMUJ2Be_4hM=/5559786839_zoloto-harchove-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 250.0,
     product_type:
@@ -10332,8 +10488,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1819350192-serebro-pischevoe-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1819350192-serebro-pischevoe-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bNlsqcdtN5Wii-RjReBSJ-ncXRz2kA3dT9IcgQ2Rvwg=/4433366116_sriblo-harchove-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 225.0,
     product_type:
@@ -10351,8 +10508,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1819350217-bronza-pischevaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1819350217-bronza-pischevaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bNlsqcdtN5Wii-RjReBSJ-ncXRz2kA3dT9IcgQ2Rvwg=/4433366116_bronza-harchova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 225.0,
     product_type:
@@ -10369,8 +10527,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1824263516-konditerskij-meshok-odnorazovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1824263516-konditerskij-meshok-odnorazovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JmYFgQAgWHPe8JL-8DieETHnvq9rA_7m_vy-F6WeM4I=/4451199673_konditerskij-mishok-odnorazovij.jpg',
+    ],
     availability: 'in stock',
     price: 2.0,
     product_type:
@@ -10399,9 +10558,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828639590-kandurin-antichnoe-serebro.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828639590-kandurin-antichnoe-serebro.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/30WGumhygxXJh5Ei4L9CJHsgIKWKUnPlFwTzDZ9Ve1c=/4464438288_kandurin-antichne-sriblo.jpg',
-    additional_images_links: [
       'https://images.prom.ua/fCl8HOpDyfN9DGhodGuWBeoHHDRNBVHfFkfY11rRYR0=/4558935496_kandurin-antichne-sriblo.jpg',
     ],
     availability: 'out of stock',
@@ -10433,8 +10591,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828653708-kandurin-zolotoj-pesok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828653708-kandurin-zolotoj-pesok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fmdwFt5Rc9gcEoKEhRp6l9J07bxtxrB9kQw1AoGV1JY=/4464481468_kandurin-antichne-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -10464,9 +10623,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828668929-kandurin-raspylitelem-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828668929-kandurin-raspylitelem-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0E7DvPlRKTHPwYGTCYpaAjGI-FDcTKNlwsFQEJ726mk=/4464502271_kandurin-z-rozpilyuvachem.jpg',
-    additional_images_links: [
       'https://images.prom.ua/NZPmCR0yj9_l6x_ymD-tgD_eVZ2x_BytT5Iv2sCSpU0=/4464502340_kandurin-z-rozpilyuvachem.jpg',
     ],
     availability: 'out of stock',
@@ -10501,8 +10659,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828670170-kandurin-raspylitelem-sirenevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828670170-kandurin-raspylitelem-sirenevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/i90Vwv5ZrY2EehjHI5UywM3ur6FkdLlA7jkjP1ndWag=/4464513983_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -10535,8 +10694,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828673407-kandurin-raspylitelem-belyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828673407-kandurin-raspylitelem-belyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7YhsjJFiEIoy-yn4efWBhBZPR56doz3maH9fOCJPvkw=/4464517920_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -10569,8 +10729,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828676003-kandurin-raspylitelem-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828676003-kandurin-raspylitelem-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4S_AGrho1Md0pgP-FLwbLB8V8ntMgrPY1xEKtBaSUok=/4464525014_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -10603,9 +10764,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828681616-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828681616-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JnK7nbJedtlzX6AmvRWhUZ3sVjRC4lVBD74x9QPaZKo=/4464550277_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/xuV6K4_Cnqt-8cVmiavQjt-YReAQZHnXyqqYbiuyZz8=/4464550433_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/tBuON6Xdx206f8B_xEPWiOA-CjqNWiss8ini1bFtTmc=/4464550559_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -10637,9 +10797,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828685977-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828685977-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-EEJTCdrEaf38CEPzQGizPGb9VKSfbnu_OZtnJ-5DM8=/4464566864_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/mkXsWmKrDm9BuuSO8MO1C2frmJxS1lZSIchDnia5feg=/4464566967_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/_4Jm0KMKGa4L-m0URjZCaytajd-itVz-aEANflpYbHM=/4464567083_konditerska-nasadka-listochok.jpg',
     ],
@@ -10671,9 +10830,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828689258-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828689258-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EazaHmop-hZn1Ju8Y59R7DvrQmBuxpDxouS7nBllYFY=/4464575101_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/DicSbwvDEdSfzJpMeQumjlJoY7hdzel-dWbNaUMZmyk=/4464575264_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/JZw2GJzxC0tjdRa-MFOoqrpOFkw6LxrubgP2dx1vLO4=/4464575366_konditerska-nasadka-listochok.jpg',
     ],
@@ -10705,9 +10863,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828690738-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828690738-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XMj-RBKXrgkiESkXQRXJV4rMo2eKCB_1JxQZZ5zT_UQ=/4464583125_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/NfhG35gWusffKRmIkpZO9sHdA1BBSlLFIG80Ky2rxkE=/4464583162_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/Dp2TTrPcfikZiYf-qALZY9ufh0SwsN_myi1KRBbx7rg=/4464583263_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/2yxQd2nr0qrzvqWUjzi579east7oZRXLXMsnMqbhM78=/4464583434_konditerska-nasadka-listochok.jpg',
@@ -10740,9 +10897,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828693996-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828693996-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cmU7Losu5NF5ITC9RyzXReymm062WF8g5vzXfmJ1jmc=/4464592735_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/5PF0JWDA8rglwXgpiGY7WnUqD8CDdmRr8wqHVoEdg7k=/4464592790_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/Wds9LJAnLa9dRbVqkEcl9TeUNQCNqkkuOE1Bys5bZxM=/4464592944_konditerska-nasadka-listochok.jpg',
     ],
@@ -10774,9 +10930,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828696401-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828696401-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fVLaalfv2Obr9xBc1842_Lu7wsdfk0TMmPs8A9Yy530=/4464599428_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/KaI8bZg-orIEHEzNMn5Yd2yoz0AUtedGMYviAI0xzVY=/4464599660_konditerska-nasadka-listochok.jpg',
     ],
     availability: 'out of stock',
@@ -10807,9 +10962,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828700670-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828700670-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YmWj_NE5A2z2HiDL0v7B3MtfEjpCY-80g99JsDVTvVg=/4464612321_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/AgnB8QvywMztYhr0KTppo2YBFzfTDA_FOdRTSCIbigk=/4464612404_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/0qLchQD-yR_qkWklez5BfXDodFQNVXHbRpeMEFe7XJo=/4464612673_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/Ye-bATsupz65TPZxQy-Yc_IfNjUCt83F5U3X_p2xwBY=/4464612896_konditerska-nasadka-listochok.jpg',
@@ -10842,9 +10996,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828702450-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828702450-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oUKTV5dIV4hg1ltqiGOxqBNUaPj-xnMczhDd4Ts5XJ8=/4464619774_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/H6cSaDTE2L-4W7ancqikcyZVkTNrysyTNRFdgNqkOtI=/4464619910_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/NBrY1xkl6iJ-iATkDhT6GGIlctTkTvz2335bR3DdBF8=/4464620065_konditerska-nasadka-listochok.jpg',
     ],
@@ -10876,9 +11029,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828707329-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828707329-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1oS6ePykaJ9ymwqVzg0dxqvpHkdaapHkAqkSvvGwCnM=/4464625420_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pOdYdhIbbNSY-FJG1e38oU9HJZG2lcMc8o_CEqrdcDI=/4464625485_konditerska-nasadka-listochok.jpg',
       'https://images.prom.ua/NJTvL6w01A2MHqZzRpECJ6cM8x0C3m7BZfDgaxEilKs=/4464625556_konditerska-nasadka-listochok.jpg',
     ],
@@ -10910,9 +11062,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828709271-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828709271-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ubbT5bDZS_2FRLWxZpb4mSsBpiyx8xcdncmM89CbxQs=/4464633646_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/nMtB54s5Kbp-A94runSIQjdOFqXdYaKaIQtskYWGz1w=/4464633865_konditerska-nasadka-listochok.jpg',
     ],
     availability: 'in stock',
@@ -10943,9 +11094,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828739203-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828739203-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e6NLaYajoqyOdj-e6MyTSqBdZVak2heoGYbx5YOJ6VM=/4464720076_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/WHiWWzTdkm07EFFY-R5KlSV5tF1-yIdPhnSj4g_j7iU=/4464720267_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/aRxzQ1TZXNdVj9IV2usLsPkRBYXtzTlU6HKeu8Y9NYs=/4464720306_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/5pegUkI2cqf5ppmhepfWXz-VX8uvoOOosnbxY5tnWM8=/4464720582_konditerska-nasadka-pelyustka.jpg',
@@ -10978,8 +11128,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828740619-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828740619-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/evQve1LpOE4I-fvikxHaekgdHAgDEuoNSMsHpvAy-tg=/4464727999_konditerska-nasadka-pelyustka.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -11008,9 +11159,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828742530-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828742530-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LB5yQhfZy0WqkJzhHjKCA1xhkcX-IVGBwNkSqdx7RbA=/4464736549_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8u0vmif7iNDoHt--yF8qdDdKAdqPfBG3u9vVrOQvTGM=/4464736634_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/YfObgXP61LuF6kIiPNolz92ZtvCnLLSEX7fcOBnUxzM=/4464736701_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/QuJdVsNzwWb_9hgHOMlh-3-ZjoSoDIONI-hgobJKAbE=/4464736838_konditerska-nasadka-pelyustka.jpg',
@@ -11043,9 +11193,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828744377-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828744377-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iMMA5hRuosLbq_GDMxxs2y1BpcRg3LCzTlqCSwUxyBM=/4464744380_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/V0THuQ-iOt4RU9thmP5UpCWSd3W-BOvlw8VE0s1zeDM=/4464744632_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/japedUNWAaUYB4NCkqQf2-6kIeZvgyZAMYCywUMI0wg=/4464744835_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/cIBkD3mJCbQ7vD9OsVe1o8Nk5QPAm1yGyLFLCHmpWu0=/4464745051_konditerska-nasadka-pelyustka.jpg',
@@ -11079,9 +11228,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828745546-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828745546-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8LE2Nxvu_IQrZzwsHa3YWY3kL96x66bRqiZAcGVrAW0=/4464756899_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/KqEFOyCijX0rzR8kpIRgqHNJZlB-F3CQiQs_aA_C8AY=/4464756970_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/x_wF0hYXeJLMSIdVT_PWbVJnyTUCfN0Yrt7RDHkjzgc=/4464757086_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11113,9 +11261,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828747730-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828747730-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Cxj0sAruvKwExgiDelY1UehTCDjJwjugOCzbfXgkUWc=/4464768469_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pTdFAXhEhRPXwxZxxCBV9RehrVGhFZSEvtlZyDYQMIk=/4464768596_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/3wu6mbfLXOppIZPY7GEWgPye6Wt7h71smPHXlXsfeUs=/4464768766_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11147,9 +11294,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828750211-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828750211-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JOZqIGzZr1KYgq6HyBoidZsUCtNtDzUkbgn8EvGVf6k=/4464779310_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/IIziprhEO0_UfFHew40g9pWeNzNVDjU86Vmp2IgOd7g=/4464779426_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/7IG_-lV7bwZqGLQEfN_SI0UCLN73WO226-_fxAh8Q0c=/4464779500_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11181,9 +11327,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828753129-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828753129-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8bS0HxDhWrKv1hFygamnuENxvyca6h-Z73q1RiC4Jcg=/4464787898_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/u0fBwUMmWPcVLakxuPftdmZXKHVpgBM1ACZHqgEzc4Q=/4464788068_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/2yZGgnO8ZOpQXCw6PUn19egHo120K4Y-Vukf4rOCmTM=/4464788138_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11215,9 +11360,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828758404-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828758404-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X5Yv9yWEyRliEbkXKPedbOWj1LxilAIuH5z83ICPFNU=/4464798056_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/JnyF22nPabtdffzJ7mn5LgzUtalHEz-ve---QZvqYJA=/4464798145_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/lqEf6yIYLDNd-yUYiMERjeDrvWgxzmQa5aWF13_iWaU=/4464798296_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/Oygr78Fp5FzyXNAQf1K5Gs1okwQSnm9spAMocH6JJvM=/4464798392_konditerska-nasadka-pelyustka.jpg',
@@ -11250,9 +11394,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828761013-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828761013-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0h9P-xLrbPkXu5i2eIrY4RGGWvMibOQnuDNrZtyq0hM=/4464805419_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/uGFfzUpfjEa7e_XI1ryb0bwwoZmrWp4zBWJ8DxKbEPM=/4464805525_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/Q0l_Nz3PQD6ovMmBpERJ5hKpktZHQj7B7qpM4byUNQc=/4464805638_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11284,9 +11427,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828763623-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828763623-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gyYxW-4Y0IiLsdIDslz-iDaeiPQP1NsX2wrO_UallEQ=/4464812313_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/L7nx3QdSaLc_r9o1WE4ar9whRbQY0DvpJ_QOetEHKvc=/4464812411_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/iO59Qby_NtFBjnT8ry5k6xuSFJHLIsxi2pANwoLIP5I=/4464812527_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11318,9 +11460,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828767538-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828767538-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m0yy8VUon9uWlCWNsrpGcYCoFv_uE16kmaOW_-Qeigs=/4464834490_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8fHrDphO7oh1rFBRt3AcscLBEHgTqNHe_BCMn9z8GNE=/4464834584_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/cXVRGUVaghnZelc1MSqO6gZLamfEllWcHmGmjRA9jlw=/4464834798_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11352,9 +11493,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828770523-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828770523-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/E5EWKV4yGVPZRXP8B5IV9XPmbcvvrCgTqIYB-L1byug=/4464847542_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/9mpQwYyMwEKSgwurHx3hV8iFY9oivDGUbq7lOrNCnlc=/4464847634_konditerska-nasadka-pelyustka.jpg',
     ],
     availability: 'in stock',
@@ -11385,9 +11525,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828772441-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828772441-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X9--CPZpFRdf_h-wSGk64epxmXGfyRIfPr39YjvSqG4=/4464855056_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/qMPuYMk3ivGPEDIPJ7fzEzjYR9--njeQb_X-j--KkkY=/4464855198_konditerska-nasadka-pelyustka.jpg',
     ],
     availability: 'out of stock',
@@ -11418,9 +11557,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828772884-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828772884-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3_KytVQ6FCsGy7yd2DfbRnNxH1du2F-z7jIn9es8B2Q=/4464863296_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/aTt9zfMpoKJxIGQ1-JDXVKGhqL7qNL7xXi780CVO1gA=/4464863305_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/Q7SJMeT9FENun8KCe7CmwGgv6eHnQ1qIogQfxNAxz1o=/4464863354_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11452,9 +11590,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828773787-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828773787-konditerskaya-nasadka-lepestkok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7_ZJ2qWA9tOTR5V2luOq8TFjr9VNuRIOgxj7pBXU3HQ=/4464873022_konditerska-nasadka-pelyustka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/QutzRGdIuff50zckG7vjZQ-HgV4n5dphOwVAuqRB8Xw=/4464873050_konditerska-nasadka-pelyustka.jpg',
       'https://images.prom.ua/W8uUZSDyfOZBRRT4Q1pee5CRC-jH17yml7pk5Ztwk5Q=/4464873179_konditerska-nasadka-pelyustka.jpg',
     ],
@@ -11486,9 +11623,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828777702-kandurin-antichnoe-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828777702-kandurin-antichnoe-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/z2ivy6a-yprUQ_nFTBou_jUbzjXMZhww3d0kDVzzHog=/4464874731_kandurin-antichne-zoloto.jpg',
-    additional_images_links: [
       'https://images.prom.ua/y7QfTB_p-OernEUiJBHIFFNviGqrEIqJIMsT7osb8VE=/4558933722_kandurin-antichne-zoloto.jpg',
       'https://images.prom.ua/7vj1YG5PY_uqsND5N1RV4oz-K7d8MYhWbVzZ-SSbpAg=/4464874871_kandurin-antichne-zoloto.jpg',
     ],
@@ -11521,9 +11657,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1828778597-kandurin-antichnoe-serebro.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1828778597-kandurin-antichnoe-serebro.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j1SPlyv6ZWE7KwP5NmKMgoaykli_IeyxiFqfIybed5w=/4464876739_kandurin-antichne-sriblo.jpg',
-    additional_images_links: [
       'https://images.prom.ua/-rYZPaUK5n1s-VqL5XZ4LD7ZKnyDRNqWfSiSGGvvJho=/4558935989_kandurin-antichne-sriblo.jpg',
     ],
     availability: 'in stock',
@@ -11555,9 +11690,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829642149-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829642149-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RSr26bcqZO2wWw_TDerKmr8ndcHB0nzT1wifJHx4mxU=/4467409052_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/GTiBB8w2VbzhsjwBQWiIT_-bw2eunxhAfZ-ZviUK9Xs=/4467409524_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/tDzULBVlWY34FD0VuLJcad7_Z1_nTS7Tsgb8575ucj4=/4467409758_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -11589,9 +11723,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829642154-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829642154-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eWdpzv3-lydLQCM_FP8AK0NuCX6iKIK9cIHYVDmaxvg=/4467429843_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ljHhfmIYrMSPZuFVdvyeRfuW3teQ0n68RVBVP5nF0vo=/4467430092_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -11622,9 +11755,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829648175-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829648175-konditerskaya-nasadka-zakrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GelV1DgMx8UUyUaKHh5mCmlshEBd27OXZ68z8FBea28=/4467457353_konditerska-nasadka-zakrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/seySzGNwi2ZIDJfhZ_jVoC58KX9cYjUo4_RpHoBjcrs=/4467457920_konditerska-nasadka-zakrita.jpg',
     ],
     availability: 'in stock',
@@ -11655,9 +11787,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829651280-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829651280-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AauCPMqiKw3tK7McQMpEhkGLxYgEMTphRoMEp-Q4u3A=/4467485540_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ncvsZ6HU-yxZPat98XkFxni7ZV_WPWhKr0EbZf5oaUU=/4467485875_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -11688,9 +11819,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829653789-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829653789-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jUSedk0bCYaMNCUGtealVoU3nvhwUiA9A_CQtgpU8FI=/4467632921_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Y2Nmluo6swltgM611geLSJKpAv_phOuGh1dUj7d3lWI=/4467633129_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/AcBq6e5w4nAwFMds5p2QW-wqD0qsfaPx_D9BKiEYEw8=/4467633381_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/dAJ_zvq4PkmLz-W4oe80sbM3EX_j3UFztWq9sUmO_JE=/4467633833_konditerska-nasadka-vidkrita.jpg',
@@ -11724,9 +11854,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829706992-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829706992-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1MGXTrwFO64KXkC4aqs_d7ciBJrlMvXSumaGXEZs95o=/4467645162_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/j744apa1OQ6lbf9xkKvva6nEuMP3rHIzI0m83RnWaFI=/4467645380_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/J5sqEMXXo97YN9AfHkvZ677hibEtr_RgCeRsJdRRpcg=/4467645597_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/IHYIPD3IFCYf7oKyLyQaHML8MvRvp9cFYVJ25VUvFTo=/4467645875_konditerska-nasadka-vidkrita.jpg',
@@ -11759,9 +11888,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829739425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829739425-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WsgWqytkOaKrqY9afPxlJQvMhkDa462F2JGWRi67Lio=/4467676543_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Xi4qp7X4HVvdE-7WLh7iI9-bOJdyC0DwfCd-MVQYDow=/4467676746_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -11792,9 +11920,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829744700-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829744700-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PO94dQsM6yo_p11DTeI9T6v6FAz-W0oCEL6eu7h1hSM=/4467685402_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/iRg2gjHLCZXJv6Sl96dvtesXv8vqZA3yF7h9PGNM4vE=/4467685464_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/VZwyR14Wtf9JnHb93pmX6g-U5K4jZqiQ_sitoHkAL_E=/4467685645_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -11826,9 +11953,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829754984-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829754984-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aC7u73IfW5bE0KsCpnt0hOt-aKQiKghrG0amntMmPE0=/4467702773_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/YihP6vopHhj3MQoSe2xuaJwut6H_nTxVY74meAknGDw=/4467702935_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/YxyCH803NCs8XItOG2sQK9pvlCdwzTQO2VwQw7aiGKI=/4467703104_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/FhU21o76gXmZ4TKB4jDsEhWf5hLxsyT3pe3Cek4NE-w=/4467703496_konditerska-nasadka-vidkrita.jpg',
@@ -11861,9 +11987,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829761785-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829761785-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6DI14wWm5IzZ0WCS5FvML674lgYWx3JD9iNhUqWJ3Tc=/4467711192_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ut2GSjdrI39qDp_qEEZ_qgPQ6SXtOzCnEqMdHgophmo=/4467711287_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/sFBl579awWyxxwEgZLMi6uU0el_eyB61nsdWWlaSVgA=/4467711452_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -11895,9 +12020,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829766908-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829766908-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6bvu6k6jtGu3kWW-K7tQqU_cIdFITryxMPbN4Eyqa8M=/4467719272_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/YCqs78RPdphugQINYisO1_7tSs74LmYM2HgbDHFGyjs=/4467719415_konditerska-nasadka-vidkrita.jpg',
     ],
     availability: 'in stock',
@@ -11928,9 +12052,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829770544-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829770544-konditerskaya-nasadka-otkrytaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JfyJwiezJm87kvRmpTzcy1aco-YpkIjhg1ACzgwZvqs=/4467741341_konditerska-nasadka-vidkrita.jpg',
-    additional_images_links: [
       'https://images.prom.ua/6Uh6ck51pkT_GMbSyTWXg_Z1BQBaG0UBynvwFEbf-iA=/4467741566_konditerska-nasadka-vidkrita.jpg',
       'https://images.prom.ua/5itahYDtuofZdLlFb5EnYFfbHQKZtqgbgGnvvHBxjaE=/4467741774_konditerska-nasadka-vidkrita.jpg',
     ],
@@ -11962,8 +12085,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829821624-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829821624-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aOOW5kWAzoaOscdwJWYyzdJ3cRAF2WPZwcySDvXxDbM=/4467873612_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -11996,8 +12120,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829845714-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829845714-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/B_727AvGB0ewz9FhclTULdqa7mTi2sxlFtjVenaWCWo=/4467910988_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 79.0,
     product_type:
@@ -12031,8 +12156,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829859213-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829859213-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hfPgIEf4j9MAk5aDqgTmc5VnnSt7yerBoD28Y-daEIY=/4467922943_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 114.0,
     product_type:
@@ -12065,8 +12191,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829865211-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829865211-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GtlTnVhmzR9zK10F8-QKAPTCV18s40rAqHq0YhVTVPI=/4467943274_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 89.0,
     product_type:
@@ -12100,8 +12227,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829927877-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829927877-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M_doRz_ZaFmOc7YtSmzJnnufV_SWCwwuNQHTUeZc51I=/4468140167_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 79.0,
     product_type:
@@ -12135,8 +12263,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829929571-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829929571-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X-Dkzi_s9Jh-BAjEYDIlXEJSjNKLHi3A54Sk9CEjn9A=/4468146804_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 77.0,
     product_type:
@@ -12170,8 +12299,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829980934-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829980934-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ueg8RHFxZ6PN5CtgM1OmTMC0os9X1RZKL1jzvhM2BkU=/4468236985_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12198,8 +12328,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829981981-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829981981-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TJSH7VEP-WhV1rnEqlneO7jN3IkT8bWTDDIdKDejG2g=/4468261400_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12226,8 +12357,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829983404-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829983404-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XNAhHwH_V9Mx7XbPH1eQKI0mSDa1qRnwt-7hSSkA8kk=/4468264643_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12254,8 +12386,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829984957-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829984957-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DjCt1blHPHOc5Rt6BUmuAsoMO_rcZuM9zCg-ksjYEA0=/4468266264_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12282,8 +12415,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829985404-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829985404-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f9zd1---dqb66BNPcLdImv9skdAiGKJjNvFssZ7kolE=/4468271525_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12310,8 +12444,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829986638-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829986638-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h3yKSgk5s9bFxvRXEf-fJepGZ7v9VKuNXkF4FWXlJQs=/4468273604_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12338,8 +12473,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829987655-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829987655-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TrDepirNkf7UUyevl6CSVyOBaAfNjsPs_8AuG6IuAA4=/4468275092_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12366,9 +12502,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829987734-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829987734-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oq8QWhqopB5sKe5-P19hU7MEWVgpiIlJjBNY4BhvWaA=/4468278340_shokoladni-sferi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
     ],
     availability: 'in stock',
@@ -12397,8 +12532,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1829987933-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1829987933-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UXCDzXKlql-wpxpcT6DzwpPU85lzxCceb2QJY9HoQFA=/4468279844_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -12425,9 +12561,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830028549-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830028549-krasitel-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rgqOdX-c5ihBnp5OkvPuMw4I6_TkKvxNHnhx-S85iJA=/4468388943_barvnik-rozhevij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-rozhevij-harchovij.jpg',
       'https://images.prom.ua/gKcGsCShKwmiEp8EnIYPZTOxJHIfEKBZj7Km9NoQRrg=/4553136146_barvnik-rozhevij-harchovij.jpg',
     ],
@@ -12447,9 +12582,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830028861-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830028861-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5auN8uZB-frrf_4xSAevaRTMBE83tzijJQMOS9Dz8fk=/4468411221_barvnik-chervonij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-chervonij-harchovij.jpg',
       'https://images.prom.ua/XAGoClpA0KCzlXh_FbwEoQFeAvSQnFbWVkyEF9UWpyM=/4553137102_barvnik-chervonij-harchovij.jpg',
     ],
@@ -12469,9 +12603,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830029048-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830029048-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vCHWDPiAJSGxTvZPudk_cwiUIxR8dBj7LaFYoUdve2A=/4468418499_barvnik-zhovtogaryachij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtogaryachij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -12490,9 +12623,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830029113-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830029113-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZOMMh-6C2hd8aDVojsSzaJdBtQFeHxnoZl_ceIumzbA=/4468419981_barvnik-zhovtij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zhovtij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -12511,9 +12643,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830029240-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830029240-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-C-6-52zqCva2gQWOhWrOi3Uomw2q1NOcVzDjD2pr2c=/4468422233_barvnik-korichnevij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-korichnevij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -12532,9 +12663,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830029276-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830029276-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FpW4BHFjFRIuVk-cjPeUPHIUuHHLgqfsd2yq4S-Zucw=/4468423489_barvnik-blakitnij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-blakitnij-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -12553,9 +12683,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830029798-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830029798-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/B7stXRvde2NQ6TtxW1w8aK9kHOvk72yRBbvXd8-RfBE=/4468424413_barvnik-buzkovij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-buzkovij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -12574,9 +12703,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830030316-krasitel-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830030316-krasitel-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zqxVw-KR1bD37VN0zz14vZTBHV8h8j-i-GmkDsDNjAc=/4468425301_barvnik-zelenij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvnik-zelenij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -12595,8 +12723,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830237383-konditerskij-meshok-silikonovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830237383-konditerskij-meshok-silikonovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cii3v2vz87oDZEg5SF_KVviFR7myIobdvKkBZ0kvEFY=/4469119469_konditerskij-mishok-silikonovij.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -12636,8 +12765,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830241043-konditerskij-meshok-silikonovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830241043-konditerskij-meshok-silikonovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Z8gK7WbOSJ2x5RFs5Dz1d-LBxYjnlohYpRQs6I6PLpc=/4469131101_konditerskij-mishok-silikonovij.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -12677,8 +12807,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830241867-konditerskij-meshok-silikonovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830241867-konditerskij-meshok-silikonovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zjiXFygBzXdDTnfAmrPcej8ZFcKDpFMff-t_cdpLpb4=/4469133766_konditerskij-mishok-silikonovij.jpg',
+    ],
     availability: 'out of stock',
     price: 54.0,
     product_type:
@@ -12718,8 +12849,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830248003-perehodnik-dlya-konditerskih.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830248003-perehodnik-dlya-konditerskih.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gUWwVElMqrHE9Ob1E_OOwYnZkD2YJuLVQ5EIK8jd2AU=/4469147389_perehidnik-dlya-konditerskih.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -12748,8 +12880,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830275211-termometr-kulinarnyj-konditerskij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830275211-termometr-kulinarnyj-konditerskij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OFbLqF8GovGzxz3ZqDlVt5D9FdJACb440M16xYJcw_4=/4469151360_termometr-kulinarnij-konditerskij.jpg',
+    ],
     availability: 'in stock',
     price: 160.0,
     product_type:
@@ -12766,8 +12899,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830275301-termometr-tsifrovij-schupom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830275301-termometr-tsifrovij-schupom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bN8RnaE1NfNA1Co2xubtNco_tzJnDf7xiKtGxWtMdRw=/5559877949_termometr-kulinarnij-konditerskij.jpg',
+    ],
     availability: 'in stock',
     price: 155.0,
     product_type:
@@ -12791,9 +12925,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830293030-termometr-kulinarnyj-konditerskij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830293030-termometr-kulinarnyj-konditerskij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XfHs6pg8TaLNXb4M7ytygwyeyqbvgosWc0PJlx3Gnbc=/4469202426_termometr-kulinarnij-konditerskij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/jDrAcrrKewXMP6d79WYs0KAZsNIVvgcJHlRPPbNDEyI=/4469202520_termometr-kulinarnij-konditerskij.jpg',
       'https://images.prom.ua/RXfj6daoQWVk-fm2dLdGA62ihe5a46t2kDWcZnwk4Ik=/4469202712_termometr-kulinarnij-konditerskij.jpg',
       'https://images.prom.ua/0QWmCAf7lcvlhfzqUrLqv1pXO24C0lZMu0guuWS2Aso=/4469202897_termometr-kulinarnij-konditerskij.jpg',
@@ -12815,8 +12948,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830305128-krasitel-bezhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830305128-krasitel-bezhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/r-M50TV_OEOiGFMHSatgK38wtnLD6vIPG9ghv_s4mLs=/4469221216_barvnik-bezhevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -12834,8 +12968,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830308857-krasitel-belyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830308857-krasitel-belyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WzHlOOJkrqKlVAXOaOd-MBlXIWtcexCTdKRp-vkcQgM=/4469234793_barvnik-bilij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -12853,8 +12988,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830310632-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830310632-krasitel-biryuzovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vHJYq17OOIfoYPcvzzqu8z0yV7gnBOIT2-w9hI_cGc4=/4469237292_barvnik-biryuzovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -12872,8 +13008,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830311732-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830311732-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hPofw7vgt6QtfuIHS7A5Oj5fd5qJ84pjwyJ21xd-YFU=/4469239493_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -12891,8 +13028,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830313834-krasitel-zelenyj-list.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830313834-krasitel-zelenyj-list.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y1VR55L0nIxzoUJYLZlKyZkB9sIAUffaZ-VY4QXvJls=/4469243752_barvnik-zelene-listya.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -12910,8 +13048,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830316157-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830316157-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/g_-qIUaa_f_7WjcfrDlJEWWkjW00DmzH58vxYKwGQQ8=/4469246646_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -12929,8 +13068,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830316576-krasitel-lavandovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830316576-krasitel-lavandovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VUJHH2rkA23mpWjgQGFelFbGy0P1pHJuq2as6YN8Om4=/4469249144_barvnik-lavandovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -12948,8 +13088,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830318141-krasitel-medovo-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830318141-krasitel-medovo-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X2Z_Cz8dWk9pgxFUxksmC0BRHlx7jxUPvrtt-MClvsI=/4469262378_barvnik-medovo-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -12967,8 +13108,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830319125-krasitel-malinovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830319125-krasitel-malinovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y7OZuQMBuyXtovDoVkK218agpIUsNt4eYRvQ9f99MGE=/4469265245_barvnik-malinovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -12986,8 +13128,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830319870-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830319870-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wtJZ2IEEUD7R1KrCL8O-AJBP1yRIrHrKRT0yFqU4gV8=/4469268145_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13005,8 +13148,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830320365-krasitel-persidskij-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830320365-krasitel-persidskij-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_TfodovEaGiq7vcQN8xJuejF_QeLHgRN8ixA6wFhhpk=/4469273820_barvnik-sinij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -13024,8 +13168,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830777744-krasitel-purpurnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830777744-krasitel-purpurnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_8NI-aay7LUH1nOUEyQUHw6RiTslNiWgK9O4rM3ATXA=/4470785881_barvnik-purpurovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13043,8 +13188,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830777909-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830777909-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-jA_BPeI--G7JLA_glL4W1M8wSRT7HD7MGOD5nU9IGM=/4470788473_barvnik-buzkovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13062,8 +13208,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830778024-krasitel-nebesno-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830778024-krasitel-nebesno-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_En7ADNMwKRjPpWdgAWO4Z4S10qsaRV_BsncVtF7uF4=/4470793516_barvnik-nebesno-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -13081,8 +13228,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830779228-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830779228-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LsnWXdw734E25f8NMKDK6DacpEb0Gu2Nkz0DXXa0YAg=/4470796178_barvnik-chornij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13100,8 +13248,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830779338-krasitel-travyanoj-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830779338-krasitel-travyanoj-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MnnRgn3q2iD-Zs9i_7QWcNA2yBRD7HQNlIhH3u5KcNY=/4470798161_barvnik-zelenij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13119,8 +13268,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1830779490-krasitel-fuksiya-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1830779490-krasitel-fuksiya-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4acy7qlCiyxrGNwSgBmGravfYEvzu5ND2uOu3SicXM4=/4470800132_barvnik-fuksiya-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 58.0,
     product_type:
@@ -13138,8 +13288,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1831030116-krasitel-belyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1831030116-krasitel-belyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GMzOakEYpoy7LGnzyKR6NOfmxAaZOGsxOPQMu1F6RNY=/4471839267_barvnik-bilij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 39.0,
     product_type:
@@ -13169,8 +13320,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1831041098-krasitel-lak-konditerskij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1831041098-krasitel-lak-konditerskij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jd6zGKkqovZkWaF6w76Pquw6PGzwLlxQ8zNvE6ytXYo=/4471852210_barvnik-lak-konditerskij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -13207,8 +13359,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1831641988-krasiteli-pischevye-suhie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1831641988-krasiteli-pischevye-suhie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/A1n-2C1kiQU2obSJNMFysk-NvqPZvjlli9oesPMLFno=/4468388944_barvniki-harchovi-suhi.jpg',
+    ],
     availability: 'out of stock',
     price: 2280.0,
     product_type:
@@ -13225,9 +13378,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1831902747-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1831902747-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pJSdVSIzkvwJI7ni2ECUhZrDF2Nygj7MgaBgUzZjJVE=/4474615287_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/f594jQCUSid7xoOr5AVMXDdxYHOjkGURTtZNH2m7Ysg=/4480852840_nabir-konditerskih-tsukrovih.jpg',
       'https://images.prom.ua/JXaCuQ-Hj2z0_l8uaQq8PeA5fU9vloz_QMYP-pm9F48=/4480852880_nabir-konditerskih-tsukrovih.jpg',
     ],
@@ -13249,8 +13401,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1833773440-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1833773440-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ue78NGcryVDOd-xuiGhcRKOCSKwBxftts8pae--ACz8=/4480859325_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -13268,8 +13421,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836355678-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836355678-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zGeITPw5bAHRARQgotiSLOFlPpAr4PF0wbIgg-9rKSk=/4490113121_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -13287,8 +13441,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836364782-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836364782-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KMLgisXdR1oZ82J-k5Dw3EtK9M9Q47dNWgaFrOigaDs=/4490039867_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 97.0,
     product_type:
@@ -13306,8 +13461,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836373040-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836373040-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eOmZxD6k6rm9LaNOvnwq4iGfmM29KeSoRPm9n_YZdcY=/4490055628_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -13326,8 +13482,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836379941-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836379941-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ef8KJDtujlWu-gGbk8m7AVP4R5Bfb-uFBFYlg7Zld3M=/4490073329_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 86.0,
     product_type:
@@ -13346,8 +13503,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836383593-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836383593-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WJfL5pnzOan8jdtPlHpjA_4rm6uIv9BJH9gG-9AYcPk=/4490092065_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 56.0,
     product_type:
@@ -13366,9 +13524,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836387686-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836387686-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e73nvZpTEHM20cdKSRYxJvWvPau8vzdq-JQ05NMJF6c=/4490123308_tsukrova-prikrasa-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/8GOCp9bRb2U0JIk8h5VV6eDKNRvRFS-T0AT1qBdTqnw=/4490138518_tsukrova-prikrasa-dlya.jpg',
     ],
     availability: 'in stock',
@@ -13388,9 +13545,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836400981-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836400981-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WLHEawyMDKGVjRFvl--Xh7Dn3vpxwExAQNzwcq4jsgI=/4490150345_tsukrova-prikrasa-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/d3LAaY56X82NTHlATfCgtfRNr6MxED_7ag_0RBlTEIA=/4490145850_tsukrova-prikrasa-dlya.jpg',
     ],
     availability: 'in stock',
@@ -13409,8 +13565,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836403559-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836403559-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Jj3lpz-zV-pNzVByHvwE6jP6LxcnbluCCRLM5M6cInY=/4490161015_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 142.0,
     product_type:
@@ -13428,8 +13585,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836404444-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836404444-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NhhVf5v3vNfDeAeV7d6F2qGcYz4BVmNLqM8cZgPQXEg=/4490197066_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 93.0,
     product_type:
@@ -13447,8 +13605,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836413364-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836413364-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/q-9D5qrUj3bR-lLsjS2crBaua5lC9O6SEo_i-wtqcnA=/4490202999_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 214.0,
     product_type:
@@ -13466,8 +13625,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836414510-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836414510-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Zgh40wwiOAOdJkbdzXbIEErM6k7-PtmflHED30YfM3E=/4490217121_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -13486,8 +13646,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836440446-krasitel-lajm-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836440446-krasitel-lajm-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MqzynuAZWk9B7aqXbIN3O1PRY6VMiyYYB6ZFXe2W7pk=/4490312554_barvnik-lajm-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -13504,9 +13665,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1836797024-konditerska-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1836797024-konditerska-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eWNOcX1Hxw8HiiF-RkMSSGZ6HcnyPUH_IsXO6cKI_Y0=/4491565217_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/6W-x39v08dZsBKZOkP6-mov_YuzctT81nJDWvvLKSoc=/4491555586_konditerska-nasadka-ateco.jpg',
     ],
     availability: 'out of stock',
@@ -13537,9 +13697,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837411977-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837411977-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_GQTJ5aV4nvEVupP-yVW-w6SSQHpNm5b8fUqHOvsfKY=/4493664018_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/U4k-VULBN48xTgI6EPzi3yq-IxPtBeJuuD-cdmT4GPc=/4493664114_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/r9gy2QT7gTyosanaRlz-nDDQuTBZUPfycUk3xgv6aw4=/4493664472_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/OwB6WMRsthzBT7n1mnfP0TpnAS-XYObyBSt-mod1oUE=/4493665109_konditerska-nasadka-ateco.jpg',
@@ -13573,9 +13732,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837429774-konditerskaya-nasadka-ateco.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837429774-konditerskaya-nasadka-ateco.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4jdK34Gh4rUWjU_e24tajUeW1DjEZfRcHn7gVd-ppDE=/4493694595_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/EmfP4KUR3-RXHVMBJjLLuve-V86OrBiP8YNPYFd2ZTA=/4493694668_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/PdaNTDKum6uggr4OCR77zVcfEKD1yd9fWVqxy_rBgNo=/4493694754_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/Pk5lEtY4uHk40yr6cTEWxkurgs8n6cEx-MtvdV0_POs=/4493694975_konditerska-nasadka-ateco.jpg',
@@ -13609,9 +13767,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837434038-konditerskaya-nasadka-listik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837434038-konditerskaya-nasadka-listik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sf7upl_nrg3QQdeeoYfE_1Ekk-7-JX8Dq90hdSfm67s=/4493724360_konditerska-nasadka-listochok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/dcGnqz714-2ySrORJ_BND3V191ugrpuw79oYfc3bGC8=/4493721830_konditerska-nasadka-listochok.jpg',
     ],
     availability: 'out of stock',
@@ -13642,9 +13799,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837436299-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837436299-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IRBlak_JpMGVSqhepzYYnrjH7wp8JTl6JYcAJzAEFtc=/4493929065_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Pz-1qLykPzgdPGaexoBpFKjw1E0g1wUPYRyU1zezkOE=/4493929160_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/j2wLDo4fuJ4xZkOyDTax20o8ERinSD-nm1CrNHjOGE8=/4493929164_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -13676,9 +13832,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837506196-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837506196-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Sb9JGDC5pRoSAB_iv-addiWtZs4Z-SSeTVmWdVgYC1s=/4493933534_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/jnX90cfjDdxaWF4H8UMhlU8nf6lKt3Jjc_sYjV3O-q0=/4493933616_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/uQqO9-GilwFFquvDkUwpblXRvGHg7ffYtBBSfFQUcvE=/4493933749_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -13710,9 +13865,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837566807-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837566807-konditerskaya-nasadka-tyulpan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nP0to8oiSSMeqKaovkHUnHosWTTyRd7xuC7kjXy-HJ8=/4494138344_konditerska-nasadka-tyulpan.jpg',
-    additional_images_links: [
       'https://images.prom.ua/B-nIaKEW4023puki0Ln6b2_crY55PqK9dEyocQuYmlI=/4494138468_konditerska-nasadka-tyulpan.jpg',
       'https://images.prom.ua/n8ajiFBEKUhIbOU1gpqHe-snKypcrH5RWwBSo8Wrnjc=/4494138588_konditerska-nasadka-tyulpan.jpg',
     ],
@@ -13744,9 +13898,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837567601-nabor-konditerskih-nasadok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837567601-nabor-konditerskih-nasadok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0QdzeF1wFoe_9GF07wQ84TAmLGiBfTcV6QwhKrKn0ZQ=/4494152872_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/P0-EMTHpaObmzEdh3x2CtphBWCWLn1A0eupy7y3Dxz0=/4494153259_konditerska-nasadka-ateco.jpg',
     ],
     availability: 'out of stock',
@@ -13777,9 +13930,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837577018-nabor-konditerskih-nasadok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837577018-nabor-konditerskih-nasadok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C91y2UtHc9GhENOGBt7k7DvshEi-sXZUy6-2-s2kAg4=/4494166120_nabir-konditerskih-nasadok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/gD__jzG3MeR0-zjg6opJrP8y3EzJvPZBqHeqrSF9f9U=/4494166273_nabir-konditerskih-nasadok.jpg',
     ],
     availability: 'out of stock',
@@ -13810,9 +13962,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837580963-nabor-konditerskih-nasadok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837580963-nabor-konditerskih-nasadok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mnwU6XvSEBjdJxBZdHtAzZ4fq-R2X29faWoQqGwo2_4=/4494175930_nabir-konditerskih-nasadok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/2FdICjzB7G0vcw3PvkgVuOkNWuSbBbRof4D_HGa2z7Y=/4494176100_nabir-konditerskih-nasadok.jpg',
     ],
     availability: 'out of stock',
@@ -13843,9 +13994,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837586759-nabor-konditerskih-nasadok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837586759-nabor-konditerskih-nasadok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SZ3YU0GUYhI7WW-pbi-qRg6O7VQkK-elEFcvQKQLjCc=/4494185207_nabir-konditerskih-nasadok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/zxcThxNNm1ah24diPkbnsvwT3sPftlcK82RA7dkLVZc=/4494185460_nabir-konditerskih-nasadok.jpg',
     ],
     availability: 'out of stock',
@@ -13876,9 +14026,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837591053-nabor-trojnyh-adapterov.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837591053-nabor-trojnyh-adapterov.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OkaHkDUXdka1e9Ubhb55QDet2ze-8fwiq1tZL8hTYmU=/4494198310_nabir-z-3.jpg',
-    additional_images_links: [
       'https://images.prom.ua/0XVzXcjSsvjLiAX6Q8e71eI810k5TTFLjoop9nXMUdw=/4494198619_nabir-z-3.jpg',
       'https://images.prom.ua/FidDyd6SHyKPZoGt6dh-i3LmY5AYqRQ2jq6Rhzdczsc=/4494198786_nabir-z-3.jpg',
       'https://images.prom.ua/wYFBxT2sgOq69RLZcvJ_BiQVDl2M0GCBGMrjIqALJFk=/4494198984_nabir-z-3.jpg',
@@ -13911,9 +14060,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837595791-nabor-perehodnikov-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837595791-nabor-perehodnikov-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-1Qp56evCFUvVXOVjFApYV_-b7YZ_0AbLNjV2kts6QM=/4494208090_nabir-iz-3.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ulQKqW_CkhldfCQO8WbQAtwoutcvDKpudhKa-iW8Q5o=/4494208304_nabir-iz-3.jpg',
       'https://images.prom.ua/nhTrgkhaPN1urc2c0qF3aGveODvUWijPX3BPjmsxriw=/4494208467_nabir-iz-3.jpg',
     ],
@@ -13945,8 +14093,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1837602240-kandurin-raspylitelem-temnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1837602240-kandurin-raspylitelem-temnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jnx4rerlFe4nkgFNNPDNzU1FTKU_3tvhfVwPEZfCo2M=/4494223042_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -13979,8 +14128,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838165985-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838165985-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2tVCnKw_00_8gCXPQ9rqiMzcS0w9U-ZMgLuNSKhFmgI=/5306272343_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 147.0,
     product_type:
@@ -13997,9 +14147,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838167966-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838167966-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/A9FvVfbk3O66NJCAi-z3Xxzew1Z7XBZqIrb2UCBOFfU=/4496332084_tsukrova-prikrasa-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/IIwmw4Ayo9CEpxRmDuvNdPzk67sxHkAHYdWcR4LOOCk=/4496332093_tsukrova-prikrasa-dlya.jpg',
     ],
     availability: 'out of stock',
@@ -14018,9 +14167,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838171031-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838171031-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FtqtOr93Xc_apWFCDe00rkBF1MB8pICvWMsWU7xjuhM=/4496336321_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Edrb55VfVeA_CrxLUMHwcnqKw3jC0Eam6spngVTizxQ=/4496336332_nabir-konditerskih-tsukrovih.jpg',
     ],
     availability: 'in stock',
@@ -14040,9 +14188,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838171202-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838171202-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5lp0vkNyGS3jFa2JeOCTaQXbC9RcSEJfOYgQE1S-_YA=/4496338595_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/0M76JMuaNNQLRzBmGmY_7BpLR4zPKDqGTBjTIF9nqoI=/4496338679_nabir-konditerskih-tsukrovih.jpg',
       'https://images.prom.ua/_TcaOMwJp3abdPJrsCbvepfRGYYMWFYazm6e-OJmhxY=/4496338711_nabir-konditerskih-tsukrovih.jpg',
     ],
@@ -14063,8 +14210,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838172018-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838172018-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ccnz4VZEaOnBmQiV_UjJMm65iJy5u0LJpk1nxa8pByo=/4496341456_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -14082,8 +14230,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838172589-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838172589-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sL4ylvwNUhc5ZxWDtE12su8CRLCeGFkMlnS0WAKYbHw=/4496344211_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -14102,8 +14251,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1838172822-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1838172822-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uXk395KbJ91AlmZsZJmI4uNVQfmLara0vz0-3yHL6jQ=/4496346591_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -14121,8 +14271,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1839904780-saharnye-zhemchuzhiny-bronzovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1839904780-saharnye-zhemchuzhiny-bronzovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/guPcilHStmM15OYIgYzgRK28U3aB_JCHGIgfsqMFfrI=/5080454443_tsukrovi-perlini-bronzovi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -14139,8 +14290,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845921560-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845921560-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7ceos2BUvpSg1GtNR7PXq0n81G_urivPcB30kRsAop8=/4518200390_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 123.0,
     product_type:
@@ -14158,8 +14310,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845937924-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845937924-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UXaweYKkcJw-gJWmlByeUXJLItHm0lESzwhqlH4UKyw=/4518312052_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 109.0,
     product_type:
@@ -14176,9 +14329,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845939802-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845939802-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3Cksm6-VLhhOi5AvXzpwef2icteXbtMxFWeHEKki2l4=/4518333389_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/2n706-P-k1gELGkRPQfkyud3eWQpNMT-_LtR74i1zK0=/4518333804_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'in stock',
@@ -14213,9 +14365,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845945211-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845945211-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4A89itw_LZbcx5pbLRH6Wt9h2IHdcelgzk9Yyn5v2kw=/4518356211_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/faRpJOm_rmhA8qyqFxz3ZVY91aNDNlaicn1_wCnhjA0=/4518356634_nabir-konditerskih-tsukrovih.jpg',
     ],
     availability: 'out of stock',
@@ -14236,8 +14387,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845954212-krasitel-pischevoj-zelenoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845954212-krasitel-pischevoj-zelenoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DEQPJS-YDD1pdwgO5urwYwqsIat6Ag5xEyo5Wn8oPf0=/4518399721_barvnik-harchovij-zelene.jpg',
+    ],
     availability: 'in stock',
     price: 51.0,
     product_type:
@@ -14273,8 +14425,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845958353-krasitel-pischevoj-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845958353-krasitel-pischevoj-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CmEnHOo4MZ8zmxoJ05rTH-MUMvQIT_hAcTXhUpYsE54=/4518417083_barvnik-harchovij-sinij.jpg',
+    ],
     availability: 'out of stock',
     price: 47.0,
     product_type:
@@ -14310,8 +14463,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845960007-krasitel-pischevoj-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845960007-krasitel-pischevoj-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Qb6ACZNlT8yq18c4Yd8LLUB1Y_yVR7bQqdq-zBDteU4=/4518430694_barvnik-harchovij-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 47.0,
     product_type:
@@ -14347,8 +14501,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845960635-krasitel-pischevoj-sirenevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845960635-krasitel-pischevoj-sirenevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kIDA8JPsbeYOB6izQfMWLgXmQsdLeqSgm7ZqbV2d7Y4=/4518437333_barvnik-harchovij-buzkovij.jpg',
+    ],
     availability: 'in stock',
     price: 37.0,
     product_type:
@@ -14384,8 +14539,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845962058-krasitel-pischevoj-biryuzovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845962058-krasitel-pischevoj-biryuzovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/G2dADugvxkdHGgQXiK62dk8DhVky79TdMM1JyoTevP0=/4518450443_barvnik-harchovij-biryuzovij.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -14421,8 +14577,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845964005-krasitel-pischevoj-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845964005-krasitel-pischevoj-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HMb_OCB_3tf4lZz-YP21NkjK5fS1Pl9zXFwLCOFeIDo=/4518458125_barvnik-harchovij-korichnevij.jpg',
+    ],
     availability: 'out of stock',
     price: 37.0,
     product_type:
@@ -14458,8 +14615,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845965417-krasitel-pischevoj-vishnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845965417-krasitel-pischevoj-vishnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HnHvG9NYa8dFWNMwPUWG-5ILru59jkCwY_Llq_bXL5s=/4518469736_barvnik-harchovij-vishnevij.jpg',
+    ],
     availability: 'out of stock',
     price: 41.0,
     product_type:
@@ -14495,8 +14653,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845968066-krasitel-pischevoj-oranzhevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845968066-krasitel-pischevoj-oranzhevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WxdGQRUaK0GP0DW0wkxyGQbnL4WIcRCA3-WiW01U-YM=/4518484126_barvnik-harchovij-pomaranchevij.jpg',
+    ],
     availability: 'in stock',
     price: 29.0,
     product_type:
@@ -14532,8 +14691,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845974260-krasitel-pischevoj-fioletovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845974260-krasitel-pischevoj-fioletovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DHZX13y4ZzACsGq5eaf5prw0DwSZ9BvGdc5vaKYnLkY=/4518503088_barvnik-harchovij-fioletovij.jpg',
+    ],
     availability: 'in stock',
     price: 37.0,
     product_type:
@@ -14569,8 +14729,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845975541-krasitel-pischevoj-malinovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845975541-krasitel-pischevoj-malinovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Y2MOKl7p8c6BFd5fdZUGhgTr2fSXq66uJuHqQkJBSg8=/4518512204_barvnik-harchovij-malinovij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -14607,8 +14768,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845976410-krasitel-pischevoj-yarko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845976410-krasitel-pischevoj-yarko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ly23Ul5Tf9IwBIkflirYNJH4JdwglzietgEerKLkRck=/4518522072_barvnik-harchovij-yaskravo-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 49.0,
     product_type:
@@ -14644,8 +14806,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1845977127-krasitel-pischevoj-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1845977127-krasitel-pischevoj-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Lmnko4L5YQrvb5bejzLU0x-Uz41MaFDGWG2MBpuLDoE=/4518530778_barvnik-harchovij-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -14681,8 +14844,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848087063-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848087063-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dOH10YRNBopU3GfKCtzX4GSt82mUviEmnbYixnuNL64=/4526086071_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -14698,8 +14862,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848097169-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848097169-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YwH3C1pp74Q5hRta0nmI657mLkq9QHi7kPZAfR-lvM0=/4526132171_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -14716,8 +14881,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848097583-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848097583-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IWJzLBxRq93MKp1ElG-L0EuD67I3rY8gZfTRtnQANuI=/4526137692_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -14734,8 +14900,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848097922-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848097922-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h2fhjyUiooyVqJGdD17nbEIPhM8aNhPhfBwwyw5dKs4=/4526140121_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -14752,8 +14919,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848098069-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848098069-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yL1X8FxBDD-dZrUueQ3HLSCJy8XFw_UlfRpBj9LNH3E=/4526141644_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -14770,8 +14938,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848098420-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848098420-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tGCBPrXuVbRXwAaWAkRwkzdGprU_ZwHcIFGYTed-Y18=/4526143195_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -14788,8 +14957,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848098501-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848098501-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qTI6a5rG7-X3GH-kPeyXqKVlXSrJhvm9sGBI7UIEEXg=/4526143703_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -14806,8 +14976,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848099621-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848099621-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eU1RfxFfWDxt_DJmeb59qCeAEaIZH9Las4RI0g4ht6o=/4526145297_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -14824,8 +14995,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848099697-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848099697-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cjKfGTqhC778TnmBIyoJwliG78InAQct22vQqJzjujQ=/4526145909_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -14842,8 +15014,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848102347-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848102347-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9aYffVO15wGU_5Nb1BColpu1Hsyc9_aJ-8PHV27uRko=/4526156525_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -14861,8 +15034,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848102642-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848102642-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2Mc3SBZbhIenvy2CZzIGZUivadO-F5mhFsHjRNrczuU=/4526158243_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 167.0,
     product_type:
@@ -14880,8 +15054,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848102767-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848102767-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8Ko7tkfLjPY0lgSoyxvZJSe12CAoauEYS1E-5H08C8Q=/4526159460_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 182.0,
     product_type:
@@ -14899,8 +15074,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848103634-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848103634-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BogfAsMl68fwi_t1hbLwHQ8lWvVRUOsZfMRSPC7wjDg=/4526162683_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 106.0,
     product_type:
@@ -14933,8 +15109,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848103736-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848103736-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R3Zd-L5mF1tDLh5fOWOJs4ILh6PEIDjUy-aJGb7C9WI=/4526164067_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 184.0,
     product_type:
@@ -14967,8 +15144,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848107759-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848107759-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4c_boLp5BPy_ZoDVPtqRw_53TBbCz6kgYVvmdnMmY6Q=/4526168130_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 184.0,
     product_type:
@@ -15001,9 +15179,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1848107799-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1848107799-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GB3rH3wL-mUvxZQLjpH9mrfhX9tncJSFyrrzVGx41Bw=/4526170550_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/amrcQ8y23V3S4au88T5IsSsWeyaEI-fku5y7omcl0yg=/4526170599_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'out of stock',
@@ -15039,8 +15216,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849033277-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849033277-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3J_ezZdSjd4CgM_v3CxgikNlql_L4g8P-DnV9MDr8ZA=/4529434796_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 83.0,
     product_type:
@@ -15074,8 +15252,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849054674-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849054674-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rJt30s3_SwrPkKLhMJUggnRu9Q0mtFHjZvcvBrKZEvM=/4529475358_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15120,8 +15299,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849055246-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849055246-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1es3CC7-fLVOnOjZnSE-qQHfCbGAwK67EPL1kuRBk_k=/4529477224_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -15166,8 +15346,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849055362-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849055362-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QNLcC9Eq__AHQPshJk_nRf9DyzIWkG4TcInxn-EyZ_I=/4529478360_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15212,8 +15393,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849056688-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849056688-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gP8XMB5ipVdFjEkcU64ewXU8jdXikgZDWEYUO2Nx4kE=/4529481936_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15258,8 +15440,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849056857-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849056857-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IAhk0LGIqDWdAFONidf1LZQrl7PFN4y3xaza5IdyyYY=/4529483014_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -15304,8 +15487,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849056936-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849056936-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hchzAsl3G20xMXbcC1JzxWcAGHYfcjypxwDRba-OeKs=/4529483786_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15351,8 +15535,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849057024-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849057024-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h7ZshDjgWZ9yAJdYao1bLwq4BD5zEMHLubeQPfTnd8Y=/4529486074_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15397,8 +15582,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849057853-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849057853-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iX8hircjCNk80Bl9M6yherWwm1pRRGSVtqZ2ZEGYU4c=/4529492236_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -15442,8 +15628,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849057892-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849057892-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1pQSBxaNKI8T9_lndsW3g3_wMwlHzeyjm3VIXDH1uGk=/4529493726_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -15487,8 +15674,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849058127-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849058127-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LaXJnjPTHQgsrrXyPoS6_nXfICDQhhzRsG7nuAYiJIU=/4529495133_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -15532,9 +15720,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849138413-zhele-vkusom-vishni.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849138413-zhele-vkusom-vishni.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rKnzFJFduMwzEVhG7uCTIq4LPYEuW5XH6QlHmHo-L8U=/4529735191_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/IMiZwFWnWonSf2aKAW03xklHEJ6vNiEPf8kgSm2EPf8=/4529751305_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15566,9 +15753,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849138425-zhele-vkusom-lesnye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849138425-zhele-vkusom-lesnye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rPgt81CEuYdzVisoSbVLmkF6uh9QlFEPFD8GVteos1g=/4529765932_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/kSn7PpEOWGjSexTJ4X_AAUjWzynM5kGaJHETTAB7bCQ=/4529762967_zhele-zi-smakom.jpg',
     ],
     availability: 'out of stock',
@@ -15600,9 +15786,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849141730-zhele-vkusom-apelsin.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849141730-zhele-vkusom-apelsin.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/21xzUWjKR3P3-hB5d2rdBt6GYCFpjHwU4pgzE73Qa1E=/4529774621_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/CGbgoMGMyq82bsxSVYTX3IcUGKDFyQ5LHvrS0oIFWys=/4529772643_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15634,9 +15819,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849143391-zhele-vkusom-limona.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849143391-zhele-vkusom-limona.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nDiGh99O99m6Lf7beL5tziiUJvOS4Upb1Scd1XJ9P_o=/4529780221_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/DYCIdbWj2GkQNtzGlV4Mk_Wqp6Zhyn-64pSsiHvLzyg=/4529776233_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15668,9 +15852,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849146127-zhele-vkusom-mohito.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849146127-zhele-vkusom-mohito.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3lw3lrY0j1xh3U-jdrQ_waiVwbgTClslcOiYnDVUJt4=/4529781584_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/2lNv3DROcTVvORDhVTVMfwEMP2vIsRZInhLE8WNIfZg=/4529780706_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15702,9 +15885,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849146476-zhele-vkusom-tropicheskie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849146476-zhele-vkusom-tropicheskie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QWPaCPbt96sCPmoAWKQ7satS6k_H8U8IeCWCjp4ZS3c=/4529783594_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/qXjXpWqW_t4Nezg3g4WleQ9YXV8RS9SWavlUfIcdJNg=/4529782446_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15736,9 +15918,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849147424-zhele-vkusom-klubniki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849147424-zhele-vkusom-klubniki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jBw77urjdP0MGP0rXGay15T5bk_jidlWpY2ACVaMzqg=/4529786510_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BTuXQaScmVbXTlXPsdty0CANLqMV7hrP8FjGMih97KM=/4529785419_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15770,9 +15951,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849148200-zhele-vkusom-maliny.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849148200-zhele-vkusom-maliny.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/paV9-mTyWu6Y0cg--vuuqn_3KeKak-OFf3vXUXGZfrw=/4529791511_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/_rqaCzR7AmdmMbhCLxQDcBv9SNFLiVRxFLg10HDlKnM=/4529787818_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15804,9 +15984,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849150670-zhele-vkusom-persika.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849150670-zhele-vkusom-persika.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t-mCNCfrWlYfbTMB2baSmuBH_m_Rsd_5AsQr9sgoXGE=/4529795131_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/-W4HSLCUbpJHqDpCqqWpNDhT_Ru5dtJgw8zA6LUI7jI=/4529793833_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15838,9 +16017,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849151756-zhele-vkusom-kivi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849151756-zhele-vkusom-kivi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HVa_N62AUc-s4nFu9c0WJwHEGNvLr24YcOfhp9k1RwI=/4529797056_zhele-zi-smakom.jpg',
-    additional_images_links: [
       'https://images.prom.ua/zWJ2WxJG4ghYPG4dxzUq5DX3zMRO62BkCWAQvv-YbB0=/4529796103_zhele-zi-smakom.jpg',
     ],
     availability: 'in stock',
@@ -15872,8 +16050,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849166091-krem-zavarnoj-shokoladnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849166091-krem-zavarnoj-shokoladnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mrG5jaYdFsZltYkGEL_gtaoWJFrwTAM9WSCcMywJGAk=/4529810376_krem-zavarnij-shokoladnij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -15902,8 +16081,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849167161-krem-zavarnoj-shokoladnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849167161-krem-zavarnoj-shokoladnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-eVAenAuuVEmwQmPGorLAZrEADF5jj5nBp-wDqOwUjE=/4529829539_krem-zavarnij-shokoladnij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -15931,8 +16111,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849173970-krem-smetannyj-klubnika.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849173970-krem-smetannyj-klubnika.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/adLu4F40Zi96lMllzfUvOO2SJcCpHWS2aXxBoAouLd0=/4529838321_krem-smetannij-polunitsya.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -15957,8 +16138,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849180468-krem-smetannyj-shokolad.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849180468-krem-smetannyj-shokolad.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f8DpZCWyWnaYNH8ivpkYVVVBEhyxGbgj_MrgN-SPyhE=/4529856145_krem-smetannij-shokolad.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -15983,8 +16165,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849186037-krem-smetannyj-banan.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849186037-krem-smetannyj-banan.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9D-I8Sx2FAVbzmYVpR4xQmNqnAFcbuOj-KzTa7CTLVY=/4529868975_krem-smetannij-banan.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -16009,8 +16192,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849190404-krem-smetannyj-vanilno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849190404-krem-smetannyj-vanilno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9AWDda4zvapusOen4Dz_Cvn3q71FMFPmSVztnkki1AY=/4529873122_krem-smetannij-vanilno-vershkovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -16035,8 +16219,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849203344-glazur-shokoladnaya-yamuna.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849203344-glazur-shokoladnaya-yamuna.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qN9sw0K_uxaXzphZ4c6JLDJC80CYv6DJWep7Xh_8zdk=/4529930386_glazur-shokoladna-75.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -16069,8 +16254,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849205044-glazur-shokoladnaya-100.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849205044-glazur-shokoladnaya-100.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/I10U0p_eTr7auyfMgR-aTepcQLBq4QJ-J7WcHXczQKI=/4529935310_glazur-shokoladna-100.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -16103,8 +16289,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849449513-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849449513-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2e4rCGsCAMH3eZeinv6V2afkBP4HhQ8I5n-ePtQARQI=/4530896831_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 87.0,
     product_type:
@@ -16138,8 +16325,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849458584-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849458584-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SRsdZ6AzyLheM8cwOtFFUzlUHKQH03C_UXkpxWX5F6g=/4531010113_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 61.0,
     product_type:
@@ -16174,8 +16362,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849507847-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849507847-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bQ6k9wiTC5CRO9AsqX2GCu-ogfYOqzzhfpZ4CXk9B9A=/4531021303_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 77.0,
     product_type:
@@ -16209,9 +16398,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849511324-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849511324-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fZqywcN7VdE5SdSMJldqC_0sZD-PGlrOmRLnCO5zKHQ=/4640781700_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/U131ds3cQnSCcsmq3bOxYjSp4v1f1FQ_qnW9xj2inkk=/4640781795_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'in stock',
@@ -16246,9 +16434,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849621404-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849621404-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AtMClxBpI5XSNllP8x-XZbYdltU-yarxvZjMxWQ7FUU=/4531349658_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/iv5TU6s3QVP4PIyrhH9uR_pd1rNaE8z1viUtTd7pIRg=/4540438983_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'in stock',
@@ -16283,9 +16470,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849623712-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849623712-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M1V3Cz2XAZWoI-6CQOgEQRkmJzMJmEEyO2ynvjj4rH0=/4531354735_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/fgY6SANz5IcGevTF0fNrqMSqzDq33iGSCAYViis4_oA=/4540434971_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'in stock',
@@ -16320,8 +16506,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849627612-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849627612-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mEVQ3NQhpMq-VDsbLN2z9bjYSkbFcz66mn9-TWFPebA=/4531359084_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -16354,8 +16541,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1849630615-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1849630615-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jp_sk2h_qXQ8QG5aB1Bezx_hyPcU87coE1OO2oCexKI=/4531365478_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -16400,8 +16588,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851005598-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851005598-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BGAZRRH35aJaOKY21-_Sev2qFsngx9ZpWSca81cqgEc=/4536491437_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -16450,8 +16639,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851014034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851014034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fH62fKKcJl1w0Qn1Id_GZnXvaqT3ao4TKkpJ7bnx8I0=/4536500863_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -16500,8 +16690,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851021147-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851021147-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hs3Sng2GRiNvB-gPoQxAnmrwuWi8bzXNgij2EsrBc60=/4536512345_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -16550,8 +16741,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851023364-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851023364-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hPfgHDV2NeRPsmOeaU-hSrjery8W4xyJ1H3wNCXd3lo=/4536516082_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -16599,8 +16791,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851079109-aromatizator-vanil-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851079109-aromatizator-vanil-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oICwe8de5L92C9lI9Ta--00aDFmnQ9q81hWZ8nsPOww=/4536580560_aromatizator-vanil-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -16632,9 +16825,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851133446-glitter-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851133446-glitter-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Z6LLt2-beX1W9g1DiOAOMTcEifJ7QKtTZZzUJQRqiGU=/4536629973_gliter-fioletovij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/hRwSDwErYatGEtCVxBElr0VLDD2b39K1jfACm1fAY8I=/4536630408_gliter-fioletovij-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -16680,9 +16872,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851141300-glitter-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851141300-glitter-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EAtFI3T_t0T0SkqNpEosYbb2imouCM1okLqhb09u3sI=/4536722630_gliter-zhovtij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/SyxAMmB5_KtFjptXLUS21TAdlOD_ZRXv1iOTurbkOeE=/4536723745_gliter-zhovtij-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -16728,9 +16919,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851144211-glitter-serebro-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851144211-glitter-serebro-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QxD8AzQg5bLIBixkHTBLP_FgTegKtv1GUkRsf0jaRB0=/4536726447_gliter-sriblo-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/N4nRTLi0FNWirQvi2H-zpDuVA7JUDOk_tegeYaANELs=/4536727828_gliter-sriblo-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -16775,9 +16965,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851144977-glitter-zoloto-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851144977-glitter-zoloto-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OqURw1lesWbxgORS_bcCL8iMFD1NDhVMzRLRYpNV3Kg=/4536729869_gliter-zoloto-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/CSSEy-I7KufpuJg8ORGOHuFgMa0R-qERixWiaBaXfmk=/4536730963_gliter-zoloto-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -16822,9 +17011,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851145092-glitter-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851145092-glitter-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MrwdGbmPnV5NKkc7Kdkj4BdTwix-IZIs5QIV2CPGtw8=/4536733477_gliter-rozhevij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/q7UauUwg476O8PuAvt3fZuVpTXACgm7KpAiL0iiEM8s=/4536734196_gliter-rozhevij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -16870,9 +17058,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851146151-glitter-chornyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851146151-glitter-chornyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nMVS5X6rr-ctsL6n2e9pWQs4Rx5bOs5hyPQp3RBHr-Q=/4536736273_gliter-chornij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/y2cW8ZzSafuvH6anKko1u4CPDlg5Lq-q3xVN69lhx_U=/4536737060_gliter-chornij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -16917,9 +17104,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851380439-glitter-sinij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851380439-glitter-sinij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8_oy9RFjbQLfxtJmEkG4DH5nD6-BAdpABpAtwbWKu84=/4537601316_gliter-sinij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/IJwk4N6rRBXJaC34_JglPb_iPEsnK1ec-fnOqRH9aOA=/4537602499_gliter-sinij-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -16965,9 +17151,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851381000-glitter-zelenyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851381000-glitter-zelenyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/visDvFogPjUEPPmK3UGybpZ68mcAHxVz_L_mlrOp3J0=/4537605469_gliter-zelenij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/dOLHq-2qZZ9Gh8y0QOtauROYLWKgd-z0WvvrrrV35Qo=/4537606201_gliter-zelenij-harchovij.jpg',
     ],
     availability: 'in stock',
@@ -17013,9 +17198,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851381097-glitter-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851381097-glitter-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s4BTlSQldYXTlXwO7WfXBJeKqDHzGbF-MuhY_LzcZ80=/4537608923_gliter-chervonij-harchovij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ekA4PkEzVzlnODcwU766ComixdP6860tiiGGIurRXj4=/4537609560_gliter-chervonij-harchovij.jpg',
     ],
     availability: 'out of stock',
@@ -17061,8 +17245,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851384290-aromatizator-karamel-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851384290-aromatizator-karamel-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CF8niFVltpjEyYa7sSjuYX6bB8Di9jCOpdXX-76GHPI=/4537619738_aromatizator-karamel-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17094,8 +17279,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851397086-aromatizator-abrikos-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851397086-aromatizator-abrikos-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Eln8FzT-BMWCa-PrP1ADUJr24ytniGS2_8Y8jXK3A9Y=/4537660710_aromatizator-abrikos-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17127,8 +17313,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851399825-aromatizator-amaretto-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851399825-aromatizator-amaretto-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jQhyQ1WXyDVeFftQX3vSWHBSnChLXPyT73k6a-33Jqw=/4537667072_aromatizator-amaretto-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17160,8 +17347,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851402537-aromatizator-ananas-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851402537-aromatizator-ananas-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Sg9LXygopt1TB5mgalkaZq9GDiyQ-ixoY0rRTIEw9zQ=/4537671929_aromatizator-ananas-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17193,8 +17381,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851405135-aromatizator-apelsin-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851405135-aromatizator-apelsin-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cwtKU4NpglrZp9EnjP8WC3Q0go_CWPjJvUAot1sWg8E=/4537676479_aromatizator-apelsin-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17226,8 +17415,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851409149-aromatizator-banan-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851409149-aromatizator-banan-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ak7gehO0Lgf7UiV-x9wn7YwViK1YvVZB1mMRoBsl5QU=/4537681227_aromatizator-banan-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17259,8 +17449,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851413376-aromatizator-barbaris-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851413376-aromatizator-barbaris-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_6COFZBCodEhUB1BUa5o6YsGdrPs_9bqwjjw_RgvUHo=/4537686066_aromatizator-barbaris-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17293,8 +17484,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851416638-aromatizator-vinograd-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851416638-aromatizator-vinograd-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MCUbGaY18H63DF3Bsph6cTJBqyP2Dv1aM4fX2ccZJ_E=/4537711287_aromatizator-vinograd-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17327,8 +17519,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851424042-aromatizator-vishnya-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851424042-aromatizator-vishnya-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yt2rzuvOc-Sl_AmmwdJhTrE2ajSBsMLd7KnKsex6w4w=/4537717322_aromatizator-vishnya-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17361,8 +17554,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851425254-aromatizator-granat-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851425254-aromatizator-granat-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qwPWaPpyUZ4IGj6Db0wdweCLCVgVQMR0DHNoBmwX71k=/4537721649_aromatizator-granat-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17394,8 +17588,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851425670-aromatizator-grejpfrut-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851425670-aromatizator-grejpfrut-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UDt8iQpAXuByB7NHFxZ0NRxPbg7tSuv4yEH_3Ohamig=/4537726237_aromatizator-grejpfrut-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17427,8 +17622,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851427059-aromatizator-dynya-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851427059-aromatizator-dynya-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PpsIZisQ9lle720qrqj3eXyWeE3X7LaObIiNI2ig1Bo=/4537954962_aromatizator-dinya-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17460,8 +17656,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851430326-aromatizator-dyushes-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851430326-aromatizator-dyushes-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ameAqeX33SoYeB7FL0yEFCaOGP1IDszyIwbY6QZLlBs=/4537749700_aromatizator-dyushes-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17494,8 +17691,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851430996-aromatizator-irlandskij-krem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851430996-aromatizator-irlandskij-krem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EH_ylI5P732XfItIttvMyQTsFUJ7ssdlzVkcj04Hz-I=/4537755248_aromatizator-irlandskij-krem.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17527,8 +17725,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851431223-aromatizator-ekzotik-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851431223-aromatizator-ekzotik-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pGaY3UvS46vMkHbcFpARmpHzOeKAR4FfhQseOjCoR8Q=/4537974642_aromatizator-ekzotik-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17560,8 +17759,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851431308-aromatizator-kokos-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851431308-aromatizator-kokos-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9UJLfxV9e4ZUpqwRVE09_Expv29wAV5Ijv_e8zJpjNo=/4537766451_aromatizator-kokos-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17593,8 +17793,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851431940-aromatizator-kofe-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851431940-aromatizator-kofe-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RdjtA4KtkKkW0JqNcPKapPKO0Ke_HdUW_rXexz6SS-c=/4537768899_aromatizator-kava-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17626,8 +17827,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851432393-aromatizator-konyak-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851432393-aromatizator-konyak-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/srJMwEEpxp2Ow8MAQfgDt5S83W4huAaUkcnx5OSIXpo=/4537773917_aromatizator-konyak-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17659,8 +17861,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851432866-aromatizator-kola-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851432866-aromatizator-kola-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lOhlef6jROYxU7cLI6sq7SQT7QjjYzqArXbbemHHkUc=/4537956442_aromatizator-kola-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17692,8 +17895,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851432912-aromatizator-lavanda-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851432912-aromatizator-lavanda-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rDzYMtQ_SDEmvVid6DXPXV9fB8pdIswOAeKa_7KWYTI=/4537957153_aromatizator-lavanda-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17725,8 +17929,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851435577-aromatizator-limonad-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851435577-aromatizator-limonad-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zUBs4G_goEpF5dVOrOPuhz-r7ZoX6GmD0YMxJyMrAbY=/4537957971_aromatizator-limonad-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17758,8 +17963,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851435713-aromatizator-limon-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851435713-aromatizator-limon-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/742BeVCZAiwPMYuJWs65UdXaFyGWcXQJ6NI3COUjgQs=/4537799500_aromatizator-limon-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -17792,8 +17998,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851435821-aromatizator-lesnye-yagody.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851435821-aromatizator-lesnye-yagody.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZieNs1akx8vkea_mwJ4sEYkkM6FuDggjTVxEjmrOENQ=/4537804250_aromatizator-lisovi-yagodi.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17826,8 +18033,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851436674-aromatizator-lesnoj-oreh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851436674-aromatizator-lesnoj-oreh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MjfZvzu7d1NBB9pBkNYAfuNBY88XQC7R5mPPHHLu5fI=/4537958775_aromatizator-lisovij-gorih.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17859,8 +18067,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851437309-aromatizator-malina-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851437309-aromatizator-malina-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fIHXoymp8nF29kGdYA0VvIBDHrT9sx5iuuVgmVtDrd8=/4537816543_aromatizator-malina-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17892,8 +18101,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851437721-aromatizator-mango-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851437721-aromatizator-mango-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pqxv9bRXiLlAJWtb3lpyDgdnWG5dcFgZS_M0oQH-H9U=/4537959718_aromatizator-mango-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17925,8 +18135,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851437836-aromatizator-maslo-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851437836-aromatizator-maslo-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wylo4l1OKtoL4ba-0mkg7I1ys4ZnLv_Gs7q7GpSmBJs=/4537960661_aromatizator-maslo-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17958,8 +18169,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851437958-aromatizator-mindal-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851437958-aromatizator-mindal-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RlnHPRC0jyU4V3FO2mx55pRuWtDlupTZolkkCrkcImE=/4537829946_aromatizator-migdal-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -17991,8 +18203,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851438449-aromatizator-mohito-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851438449-aromatizator-mohito-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UT4NnRS6yd2oPILfc2UULUgqIFJGwGrNvNJJbN86eXA=/4537961401_aromatizator-mohito-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -18024,8 +18237,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851438580-aromatizator-klubnika-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851438580-aromatizator-klubnika-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R-8P2KXLvHnveM-l1MLflw4L-y2n6vALFzCt7iAff04=/4537853049_aromatizator-polunitsya-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18057,8 +18271,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851440470-aromatizator-rom-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851440470-aromatizator-rom-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vX6Oh9IYbSR2D2yXnXiDWrz6WkasdrpWXX4TIVFsyOM=/4537855388_aromatizator-rom-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18090,8 +18305,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851440713-aromatizator-persik-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851440713-aromatizator-persik-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zOSo74fjls9AnXuwu949ax_Ay0IPCZ3sFtYcQlbHNf8=/4537938887_aromatizator-persik-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -18123,8 +18339,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851440784-aromatizator-tofi-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851440784-aromatizator-tofi-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BGwrq047es9rnZdJdHpN4v7TbhILdEzk-3quznjZ6B8=/4537893218_aromatizator-tofi-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18156,8 +18373,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851450773-aromatizator-tiramisu-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851450773-aromatizator-tiramisu-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GXL6WbhKoPg8mt4kqHrUsz-CQZ1XpCnjbocInp9q1Zc=/4537895298_aromatizator-tiramisu-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18189,8 +18407,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851450895-aromatizator-fistashka-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851450895-aromatizator-fistashka-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fs8da0blL1hwupFYDmAleJpwMsYXR5i3QltOQ5EjajM=/4537898029_aromatizator-fistashka-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -18223,8 +18442,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851451021-aromatizator-chernaya-smorodina.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851451021-aromatizator-chernaya-smorodina.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q5vMYMU1f5s9DByh2jF255aXeIkPo6a2HFLCB-WgTOY=/4537901058_aromatizator-chorna-smorodina.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18256,8 +18476,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851452113-aromatizator-shokolad-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851452113-aromatizator-shokolad-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eQvCk0_nBBjoclRS26JyXuRZGkMxJYyzyy0vBJ-Qjh4=/4537904508_aromatizator-shokolad-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18290,8 +18511,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851452312-aromatizator-shokoladnij-tryufel.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851452312-aromatizator-shokoladnij-tryufel.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hVCL34Sak7w3mq41VM0tBJd_wgiJEwjuSfgsGb8gPAQ=/4537909742_aromatizator-shokoladnij-tryufel.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18323,8 +18545,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851453272-aromatizator-chernosliv-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851453272-aromatizator-chernosliv-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8NoEsAAubpvMiFL20WtK8erYJtKpmjf0txkmXD6NJjw=/4537912508_aromatizator-chernosliv-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18356,8 +18579,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851453788-aromatizator-yabloko-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851453788-aromatizator-yabloko-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QruNWFqVV2ys_oTeSzN8MFqRZuanFllPORsoW_xjfJQ=/4537939891_aromatizator-yabluko-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -18389,8 +18613,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851817913-krasitel-lajm-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851817913-krasitel-lajm-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nn4JHqk0pa86xmEfUXCSyn6L2HD1O5sTbQ-EeVVjJDs=/4539207227_barvnik-lajm-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18421,8 +18646,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851821368-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851821368-krasitel-sirenevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rSkHVjd4f8xl_T9rcjm_LEJxRq55B14TwpGRxOUJDC4=/4539221469_barvnik-buzkovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18453,8 +18679,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851822341-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851822341-krasitel-vishnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ELef5khBQmfX2IzXwwXJWTR7ZSJMveljeJx9SbARKjQ=/4539264328_barvnik-vishnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18485,8 +18712,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851836084-krasitel-smorodina-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851836084-krasitel-smorodina-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/x8FC3QTpIIMFqWvmSUXZtk4_UhFByqewlpOK0Wdajfg=/4539274012_barvnik-smorodina-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18517,8 +18745,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851836738-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851836738-krasitel-fioletovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/o15Yf2SbT6_gd1tfx07GX4cEOKzH0jcTennAFUf1dp0=/4539286861_barvnik-fioletovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18549,8 +18778,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851842569-krasitel-klubnichnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851842569-krasitel-klubnichnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lFdH7FB-AZnfmKAPo2C5qGN_0pd0QzrEtDYxsTlHiLA=/4539304374_barvnik-polunichnij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18581,8 +18811,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851842941-krasitel-belyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851842941-krasitel-belyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/el1m37pv7K9pOn3sUr3OECn3zyjhYYLZCsIo9db63KY=/4539310220_barvnik-bilij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18613,8 +18844,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851844042-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851844042-krasitel-oranzhevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FkqE4sari0HUKpugjDuvajfOBbBxwIc3Y5sJao6kidU=/4539314905_barvnik-pomaranchevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18645,8 +18877,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851844151-krasitel-persikovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851844151-krasitel-persikovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mWf3MqSIHFekloMgGuP6iNVKOAq4iW5uosC-1BIghKM=/4539319765_barvnik-persikovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18677,8 +18910,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851845253-krasitel-zelenoe-yabloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851845253-krasitel-zelenoe-yabloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SXeW6PJNq2qIF-HTahH46PuiQItma7CFrbDcamICuP0=/4539329480_barvnik-zelene-yabluko.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18709,8 +18943,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851845520-krasitel-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851845520-krasitel-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jy_9DZSCzB_jNR6AqueWIWT7c1p1IRCY9cVBsek3HJM=/4539333798_barvnik-chornij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18741,8 +18976,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851845738-krasitel-granat-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851845738-krasitel-granat-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GhwN4aSnHpeSFDLH3n_30bCMq-yfdcSyAxBsmIbQHQQ=/4539336505_barvnik-granat-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18773,8 +19009,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851846162-krasitel-sinij-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851846162-krasitel-sinij-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LEaMxKsHBjRsqmlqZoS8khwDqztyDiCrFzJrHZGxbUc=/4539339396_barvnik-sinij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18805,8 +19042,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851846848-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851846848-krasitel-korichnevyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1yw8gc3LdgYM7dXUnEh6U-fcwFJQjsaosZHe4-JpzWQ=/4539343442_barvnik-korichnevij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18837,8 +19075,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851847001-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851847001-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CDAgereL8Sas8ahxEgJ4BLnUiE_T_YKbUWQwfj22KQQ=/4539347267_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18869,8 +19108,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851847570-krasitel-malinovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851847570-krasitel-malinovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/z_Xv5YkLdMSSUEptga4ira8FlXayW1JExTEoEf9aXZU=/4539353401_barvnik-malinovij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -18901,8 +19141,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851848787-krasitel-zheltyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851848787-krasitel-zheltyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HAbzNttLqWVqTypi99qCEU7pW-vfzhIFazvn2ujto9E=/4539356606_barvnik-zhovtij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -18933,8 +19174,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851849726-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851849726-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2jAY0Vbh-5gpY3InnPYnv0EsD88PfPPPT6Tx3b6QjeQ=/4539373564_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 98.0,
     product_type:
@@ -18968,8 +19210,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1851871636-posypka-saharnaya-malchikam.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1851871636-posypka-saharnaya-malchikam.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jRScF8GXbtmyaA9Qzcyx1W1qAt5Bb1rINWY9SkxPu-s=/5128111193_posipannya-tsukrovi-hlopchikam.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -18987,8 +19230,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852902372-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852902372-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RgN-jC77RpYCOSWBm_fSJpAsheAMiPMo2L_x7S8TV6g=/4543165699_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19032,8 +19276,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852903164-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852903164-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dKJXkdCSs2zPRWAfFUm8ZfcTiogDRVWy3G5BIPXz-aU=/4543166132_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19077,8 +19322,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852903177-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852903177-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SV51TBbn__p5cz3I_xU2pjXZkFMT6VPW1tTndOFvloc=/4543166666_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19122,8 +19368,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852903609-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852903609-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Fb9mPGXiumuB1Mmg6b3zxojdQiaNEwFizlltfurzaxM=/4543169356_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19167,8 +19414,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852904576-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852904576-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NIojLQuBd0xYEogxjneRrzZbnAUI8tXnIXjW6EHHElk=/4543169812_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19212,8 +19460,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852904703-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852904703-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0hI-sOmh4O6qgede9y4Ew0NnpnLapPuf_Y4MGjq20KU=/4543170218_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19257,8 +19506,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852904842-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852904842-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0IeQbzXHW_w-8hb8jjcJ9tB0zlUjVX3e1QcHMcyUMWI=/4543172236_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19302,8 +19552,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1852905899-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1852905899-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/87FI5g9j2Vlk0VqQTsBLaz3x7mBO83hGrqwAVNsWrHU=/4546036725_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -19347,9 +19598,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1854041661-zoloto-susalnoe-pischevoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1854041661-zoloto-susalnoe-pischevoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tHTdXo7yqEpez0LVYa-0jbLqF02Sv7KI51YtNhYUKKM=/4547068016_zoloto-susalne-harchove.jpg',
-    additional_images_links: [
       'https://images.prom.ua/jysPw5ukJgJgJzXDGEHausG6kOseFXSvJOiKNlyggUs=/4558876118_zoloto-susalne-harchove.jpg',
       'https://images.prom.ua/jnMnFEqQ-qeeFRc2WYUDrUuD1phopC2XZCfwYvhlSLE=/4558876119_zoloto-susalne-harchove.jpg',
       'https://images.prom.ua/WS9hk9t9biK7sE4xhg-d9ZeNdIaakH5K6XIKEaSu4ok=/4558865258_zoloto-susalne-harchove.jpg',
@@ -19405,9 +19655,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1854041928-zoloto-susalnoe-pischevoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1854041928-zoloto-susalnoe-pischevoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yWZvJqHt_XQrkyVSBRKUJpe_cMjP8cg3QE4F-su-_uE=/4547129766_zoloto-susalne-harchove.jpg',
-    additional_images_links: [
       'https://images.prom.ua/hE4PHTVFsy6ZvNSbqCNbf3bD2xDxPN3cwmoefTN-rzQ=/4547130162_zoloto-susalne-harchove.jpg',
       'https://images.prom.ua/RMCWP1NDP_Xm9hpWX1AaZayqECZ-jPRRuxCrJ3MW99Y=/4547128670_zoloto-susalne-harchove.jpg',
       'https://images.prom.ua/ox43hxtbD-95_EsXKk-Zf0hpOGPV1ds8rmXMs6XFngo=/4547129125_zoloto-susalne-harchove.jpg',
@@ -19455,9 +19704,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855127032-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855127032-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iQxVvJkZ9KCFp8e8h_8kTyGRv3Ol-79nU_ZYtWYaj-M=/4550933183_zoloto-harchove-listove.jpg',
-    additional_images_links: [
       'https://images.prom.ua/TCkVRAET2hayO2kAhOlUYJjc9wYEYoZLKNaoC50BZ1A=/4550933180_zoloto-harchove-listove.jpg',
       'https://images.prom.ua/daoFNnWIf5td0zGuDGh_9cbsqfl81_XZCXQTzS0j6rM=/4550933182_zoloto-harchove-listove.jpg',
       'https://images.prom.ua/4dTCkzeQaOIa_Da7pqERpI5_m5laulWtmC4k5kjZrY4=/4550933184_zoloto-harchove-listove.jpg',
@@ -19478,8 +19726,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855818264-krasitel-holinovo-zheltyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855818264-krasitel-holinovo-zheltyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/42x_76EU9CK0jT2DS3xGmCOpmbQwgwokl8IhprPIb60=/4553186844_barvnik-holinovo-zhovtij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19496,8 +19745,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855820055-krasitel-rozovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855820055-krasitel-rozovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/T0Fo4EcJ2Ot5TRLqDINgMZznVPM_sNwuc9pbSJ4M6ow=/4553188659_barvnik-rozhevij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 22.0,
     product_type:
@@ -19514,8 +19764,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855823500-krasitel-krasnyj-alyur.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855823500-krasitel-krasnyj-alyur.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lcyss5-V0nmrHhTY4ifPoqtcQnIc8vGYGitqKEGFhLY=/4553197855_barvnik-chervonij-alyur.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19533,8 +19784,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855824646-krasitel-goluboj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855824646-krasitel-goluboj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lppQE6dftkKdgomK1-DKC6ny_fpx9tXoIlJIQKS3OAw=/4553200507_barvnik-blakitnij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19551,8 +19803,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855826527-krasitel-zelenyj-temnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855826527-krasitel-zelenyj-temnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c6KncDclsm7YYLHCBryeBlC7JQxIVQcuMWDdOiyYGGM=/4553203726_barvnik-zelenij-temnij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19569,8 +19822,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855828833-krasitel-fuksiya-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855828833-krasitel-fuksiya-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/N2N2i9884w90XkAI4_XkiPCaXgloa2cb_CVO8s92mVg=/4553206468_barvnik-fuksiya-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19601,8 +19855,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855829695-krasitel-morskaya-volna.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855829695-krasitel-morskaya-volna.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lyAK9hjqVEOp_CTv553MjcqqdFCcIVlxqPD7f9vlZDw=/4553208951_barvnik-morska-hvilya.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19619,8 +19874,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1855831268-krasitel-zelenyj-kivi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1855831268-krasitel-zelenyj-kivi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ARtBpbNqJj_O91B0Ve-pGIqJJYFtSf-lk4iHajhpINM=/4553210578_barvnik-zelenij-kivi.jpg',
+    ],
     availability: 'in stock',
     price: 22.0,
     product_type:
@@ -19637,8 +19893,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858144826-konditerskie-meshki-odnorazovye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858144826-konditerskie-meshki-odnorazovye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pPOfbWdNQUt8xQUuxNjpcLSp47byEzgjV2AyYkLcLB4=/4560919734_konditerski-mishki-odnorazovi.jpg',
+    ],
     availability: 'in stock',
     price: 87.0,
     product_type:
@@ -19667,8 +19924,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858151659-gelevyj-krasitel-sero.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858151659-gelevyj-krasitel-sero.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GmWK6zygpyYhLq897RGqj81I6cEOi94qa_0Wf4RKgYA=/4560973277_gelevij-barvnik-siro.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -19706,8 +19964,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858152717-gelevyj-krasitel-bezhevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858152717-gelevyj-krasitel-bezhevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cYtEo8t2skIHlLMdv5BOVC6ZJvROB05u5P0a6tZ9PL0=/4560977157_gelevij-barvnik-bezhevij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -19745,8 +20004,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858154179-gelevyj-krasitel-svetlo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858154179-gelevyj-krasitel-svetlo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OscPhGm-4SWS8iYJFkP-UICgKyjfXbfIH0-3-7oOlGM=/4560980910_gelevij-barvnik-svitlo-zhovtij.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -19784,8 +20044,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858170387-flomastery-karandashi-pischevye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858170387-flomastery-karandashi-pischevye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KDODT19Shn0zUBGR2jCVhwX--YtvdLJPTZ5QYJqNaTY=/4563605442_flomasteri-olivtsi-harchovi.jpg',
+    ],
     availability: 'in stock',
     price: 100.0,
     product_type:
@@ -19808,8 +20069,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858172586-glazur-konditerskaya-chernaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858172586-glazur-konditerskaya-chernaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bRlhngiDNpIlq0mtjDdA35qBme7e2JikNbkxWKumJLI=/4561046569_glazur-konditerska-chorna.jpg',
+    ],
     availability: 'in stock',
     price: 24.0,
     product_type:
@@ -19842,9 +20104,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858181549-shokoladnye-dropsy-kapli.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858181549-shokoladnye-dropsy-kapli.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CjBdw89DoWXuknxCcR6sti1l1MKW6g3JSpoJMMESwdI=/4561081219_shokoladnye-dropsy-kapli.jpg',
-    additional_images_links: [
       'https://images.prom.ua/TB0M3Z37H_FA3oD-Mp9NUOFieo8b6byTwRHk22FXz38=/4561081770_shokoladnye-dropsy-kapli.jpg',
     ],
     availability: 'in stock',
@@ -19879,8 +20140,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858236899-aromatizator-pischevoj-rom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858236899-aromatizator-pischevoj-rom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/J9tmmVh8ksfE7SnFvmb_u_zl6sg3PdsLfozC6M00jxg=/4561286534_aromatizator-harchovij-rom.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -19908,8 +20170,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858236909-aromatizator-pischevoj-limon.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858236909-aromatizator-pischevoj-limon.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aGKX5M4HqfH5bXtoEg9FMveesg409avg91rMYZV-Lpw=/4561278692_aromatizator-harchovij-limon.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -19937,8 +20200,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858237680-aromatizator-pischevoj-vanil.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858237680-aromatizator-pischevoj-vanil.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gmtrZrCfnicJoQ2LJHPohcexMbfjPyScofwQfYx-qNE=/4561282167_aromatizator-harchovij-vanil.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -19966,8 +20230,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858238291-aromatizator-pischevoj-mindal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858238291-aromatizator-pischevoj-mindal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/g8v2wp93b3Enfdg1GurwFVVDOLog8TU-Lc8kChpcUV8=/4561283652_aromatizator-harchovij-migdal.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -19995,8 +20260,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858627760-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858627760-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t9lm9e_33eAnfylX85oPwaXK-blmH1o2OoclAbFaV5c=/4562625823_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 142.0,
     product_type:
@@ -20014,8 +20280,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858638711-saharnaya-posypka-bebi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858638711-saharnaya-posypka-bebi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tLLIUdtvhx8F7hIx9WdSl9qbOHJW0C43Fvx0kEOM90c=/5080479835_tsukrova-posipka-bebi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -20033,8 +20300,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858643924-saharnaya-posypka-serebryannyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858643924-saharnaya-posypka-serebryannyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BVK23QaYa-llNxtZvBwW49TT7zSSHm1MaVjTOSCJnx0=/4562656858_tsukrova-posipka-sribnij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -20052,8 +20320,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858643929-saharnaya-posypka-zolotaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858643929-saharnaya-posypka-zolotaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/meMZ6q44uErzqzGpQ9ZbX6KPpnTxdAZGlfSlXWtql8A=/4562657126_tsukrova-posipka-zolota.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -20072,8 +20341,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858878613-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858878613-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BJk_R7vKUv6fDeNlJdDDr5OPKHjRMrg0Xb_kujcQqLc=/4562624029_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 142.0,
     product_type:
@@ -20092,8 +20362,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858878617-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858878617-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rp6DlrXGIpl-2dtgnDPSGEHdvIRmhZ4MGWVtyrMf-pY=/4562627053_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 142.0,
     product_type:
@@ -20111,8 +20382,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858951338-flomastery-nabor-tsvetov.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858951338-flomastery-nabor-tsvetov.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/or9nZ2WSswN8MjgHUTXAE83K5McjGvR6uRLs3yO_zto=/4563622815_flomasteri-nabir-chervonijchornij.jpg',
+    ],
     availability: 'in stock',
     price: 125.0,
     product_type:
@@ -20136,8 +20408,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858954630-flomaster-chernyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858954630-flomaster-chernyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZzwPXjTraHK0SJv0xu17zfYfrQBRhVo8P5oKxANvdPU=/4563604085_flomaster-chornij-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -20166,9 +20439,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858978673-shokolad-obtekayuschij-chernyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858978673-shokolad-obtekayuschij-chernyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fyHLhFoQmT2QRorGQyas8PSJwaOrhd1A6d8GT2Pk81M=/4563637989_shokolad-obtikayuchij-chornij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/LDe_HFoLcVltXZXIxKMYMmsP9jW0fMBZCAt1mKxtjeY=/4563673357_shokolad-obtikayuchij-chornij.jpg',
       'https://images.prom.ua/HPvIm_QPn20KDV00qCT5y9RfEM4OE8WqGzia4LeCp8A=/4563679857_shokolad-obtikayuchij-chornij.jpg',
       'https://images.prom.ua/UH4WXb1cf2MO1x4xsXOyii7pgTyFJETIZgdkHRM9U4c=/4563680340_shokolad-obtikayuchij-chornij.jpg',
@@ -20200,9 +20472,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1858980726-shokolad-obtekaemyj-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1858980726-shokolad-obtekaemyj-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9GcvIwv5rZKPG1HegHVb0jnJVEB_yD6mQGSOuQrbhs0=/4563694703_shokolad-obtikayuchij-chervonij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/6Z--95f3Q9l4YxVCLFhZo6orH1GzfqDEG7IYK-ERpRk=/4563695254_shokolad-obtikayuchij-chervonij.jpg',
     ],
     availability: 'in stock',
@@ -20232,9 +20503,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859174001-shokolad-obtekayuschij-belyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859174001-shokolad-obtekayuschij-belyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YodsintmzUXYprdsmeNb-slNLrOR71HP9adKBsHsptU=/4564514848_shokolad-obtikayuchij-bilij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/wYTmKIQNIZw7wXn4UK6qFYUZhmO0yKpBRyY3Q4jQBqM=/4591153036_shokolad-obtikayuchij-bilij.jpg',
     ],
     availability: 'in stock',
@@ -20264,9 +20534,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859199063-shokolad-obtekayuschij-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859199063-shokolad-obtekayuschij-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SAnq8JMQYcW-Cf0pqtZkkWvwhiOZKUQ0iFFkYU90ta8=/4564519054_shokolad-obtikayuchij-korichnevij.jpg',
-    additional_images_links: [
       'https://images.prom.ua/9yB83miNqpTQZUsXmOuQUi0ecBGQ8NH8T_JMo7Azp9g=/4591152584_shokolad-obtikayuchij-korichnevij.jpg',
       'https://images.prom.ua/kqt7a8QEsslipQKx2UOCH1h4TDamCuoJ4EfxZMGM3nU=/4591152603_shokolad-obtikayuchij-korichnevij.jpg',
     ],
@@ -20298,8 +20567,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859201246-shokolad-obtekayuschij-serebro.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859201246-shokolad-obtekayuschij-serebro.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cRuFyDCSn2lowAs4p-571Zb2E16Qjrjdq56hS_JeMQk=/4564522336_shokolad-obtikayuchij-sriblo.jpg',
+    ],
     availability: 'in stock',
     price: 365.0,
     product_type:
@@ -20328,8 +20598,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859204949-shokolad-obtekayuschij-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859204949-shokolad-obtekayuschij-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OudezkbxU58sx6vfNSWTGsAU8BPEpeUSPgxcAi7mLn8=/4564531382_shokolad-obtikayuchij-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 365.0,
     product_type:
@@ -20357,8 +20628,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859222171-kakao-tertoe-kaletah.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859222171-kakao-tertoe-kaletah.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1wJFrMbk6LbSNVs2t2fw9UfKEu-Yica8_caxIUJPvn8=/4564540117_kakao-terte-u.jpg',
+    ],
     availability: 'out of stock',
     price: 50.0,
     product_type:
@@ -20395,8 +20667,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1859234592-kameshki-shokoladnye-dekor.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1859234592-kameshki-shokoladnye-dekor.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C_GqFH5LFtSQ8PFP1_SKQ61HB7juBrEizPFw9AevVEU=/5105925672_kamintsi-shokoladni-svitli.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -20440,8 +20713,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860786508-razryhlitel-dlya-testa.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860786508-razryhlitel-dlya-testa.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zRHCdDrVIjdyJQBlJNQV7le1isz9NwFbEIhPHT-w7iw=/4569595436_rozpushuvach-dlya-testu.jpg',
+    ],
     availability: 'out of stock',
     price: 7.0,
     product_type:
@@ -20471,8 +20745,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860786553-vzbityj-desert-suhie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860786553-vzbityj-desert-suhie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kzIoBF3CLrAwswBWtwoowdmH-IGS37K7LFw1Oosfez8=/4569622556_zbitij-desert-amonij.jpg',
+    ],
     availability: 'in stock',
     price: 39.0,
     product_type:
@@ -20502,8 +20777,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860796814-glazur-shokoladnym-vkusom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860796814-glazur-shokoladnym-vkusom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nT0JPFRxwBOK5GTsDHt75fkLqODk-cvKnE5JG90gedQ=/4569652293_glazur-iz-shokoladnim.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -20528,9 +20804,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860816476-glazur-temno-belyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860816476-glazur-temno-belyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7BJNVG5UYsS0nAZegLiRqHwdQT4_XCb5t_7TpUSARes=/4569693133_glazur-temno-bilij-shokolad.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pfSGDL2L29jqaOxA6rU4AMdX26-HOHW3FPF_HcZLSXQ=/4569696756_glazur-temno-bilij-shokolad.jpg',
     ],
     availability: 'out of stock',
@@ -20557,9 +20832,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860823101-glazur-temnyj-shokolad.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860823101-glazur-temnyj-shokolad.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fMDuFAKb-VvbyKN_XsJ8fZH2jZ04II8ypscPjhPQ_fk=/4569702243_glazur-temnij-shokolad.jpg',
-    additional_images_links: [
       'https://images.prom.ua/1KRguLFE5KPKRv2EWXmhj9-Io_2gx-8zF4XUMtBjRig=/4569702469_glazur-temnij-shokolad.jpg',
     ],
     availability: 'out of stock',
@@ -20586,8 +20860,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860829704-zhelatin-listovoj-oetker.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860829704-zhelatin-listovoj-oetker.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gGWaIAq0sdOYYE5zEqRjHGF2UXM6_92CiWN7p3oC_80=/4569720131_glazur-temnij-shokolad.jpg',
+    ],
     availability: 'in stock',
     price: 51.0,
     product_type:
@@ -20612,9 +20887,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860839554-zhele-bestsvetnoe-prozrachnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860839554-zhele-bestsvetnoe-prozrachnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HATzdAPnDcB3m8SW7eNNR96x0kyWaH3SJGDonbCarSw=/4569762373_zhele-bezbarvne-prozore.jpg',
-    additional_images_links: [
       'https://images.prom.ua/biqI8hpeCdQmK8Uh3eLASbf1J3h2rj1d7IfxAifMFyk=/4569790110_zhele-bezbarvne-prozore.jpg',
     ],
     availability: 'in stock',
@@ -20641,8 +20915,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860856267-zhele-krasnoe-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860856267-zhele-krasnoe-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uj_v7vYqOo8GSDeGfwvs6TUEH3QnnKhg8n2-N56f-_w=/4569813457_zhele-chervone-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 12.0,
     product_type:
@@ -20667,9 +20942,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1860866589-kakao-temnoe-poroshok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1860866589-kakao-temnoe-poroshok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pvJMj1ZJH6kwu6PvUL1vSx-VHkYiA0DZZQlfPaYUuGo=/4569834775_kakao-temnij-poroshok.jpg',
-    additional_images_links: [
       'https://images.prom.ua/yn8GIDX4_b1DGrnksYqNqzlY4mgkbbCMgn69SKSSjwc=/4569835220_kakao-temnij-poroshok.jpg',
       'https://images.prom.ua/W403CDZr6pmA016tDuSgq55oiEi1aDUo-LeFKpntT84=/4569877212_kakao-temnij-poroshok.jpg',
     ],
@@ -20709,9 +20983,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1861971517-krahmal-kukuruznyj-bez.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1861971517-krahmal-kukuruznyj-bez.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/G9PoJQ9BeQjpWtF1htyyZkTGHWaAw53hQ3sMDAEaAlM=/4573665745_krohmal-kukurudzyanij-bez.jpg',
-    additional_images_links: [
       'https://images.prom.ua/FRPkWZMDbZxM6-OuxH3VZaLsLRo_GNd3tE71F49UaTE=/4573665755_krohmal-kukurudzyanij-bez.jpg',
       'https://images.prom.ua/V_fYi__PoGoH_tn_CBS9gDsdBzHybuaxGt4Q8ty7Ejg=/4573665743_krohmal-kukurudzyanij-bez.jpg',
       'https://images.prom.ua/Qa-jkugSfLmhgvOqBzvRfCKCE4QTBpNS2copuw-Cg-0=/4573665761_krohmal-kukurudzyanij-bez.jpg',
@@ -20744,9 +21017,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862487080-krem-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862487080-krem-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-HTHzw3YtctwYs5Ak3Vc7Nn-z1gsOJKtBtLnbykQoyQ=/4575166119_krohmal-kukurudzyanij-bez.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pazQB1SGDYasMFfuLXgh0qH_-wrN63WdPiuYm5Qzx-M=/4575193506_krohmal-kukurudzyanij-bez.jpg',
     ],
     availability: 'in stock',
@@ -20781,8 +21053,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862487482-posypka-saharnaya-zhemchug.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862487482-posypka-saharnaya-zhemchug.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sz30G_FhdIhp4h3N9iDGmTw-CU7FN974Sbrmq-vb2n4=/4575239992_posipka-tsukrova-perli.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -20817,9 +21090,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862501845-krem-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862501845-krem-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/K9aSjS1yLdijJ_P6iUe3FZMI0890UgsW9Y81pEPJGGU=/4575198649_krem-dlya-torta.jpg',
-    additional_images_links: [
       'https://images.prom.ua/tcOGavzt5M7E5-OfF-2JW6ledmKZ-3ySd6_5vXWLBU4=/4575198915_krem-dlya-torta.jpg',
     ],
     availability: 'in stock',
@@ -20845,8 +21117,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862524194-posypka-saharnaya-zhemchug.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862524194-posypka-saharnaya-zhemchug.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sZdvY2iu8gUVtnh_CDkBmYe4uuK0Ye4UsmCYVcBl7Oo=/4575275838_posipka-tsukrova-perli.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -20881,8 +21154,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862524898-posypka-saharnaya-zhemchug.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862524898-posypka-saharnaya-zhemchug.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8L9suSWY6aRRJEKQah2cHSkiZMPE_LvJYhTuACnH-cM=/4575278976_posipka-tsukrova-perli.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -20917,8 +21191,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862526136-razryhlitel-testa-oetker.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862526136-razryhlitel-testa-oetker.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IzQfOGIMx2joG5qGYZve4pE8qrn59X1zsMFLN4_FdlA=/4575288310_rozpushuvach-tista-10.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -20948,8 +21223,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862533328-vanilnyj-sahar-oetker.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862533328-vanilnyj-sahar-oetker.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qV-IOjg7rExGoWkanAytZvdViMtNHzlA6iRMJ-Pl0pI=/4575321961_rozpushuvach-tista-10.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -20980,8 +21256,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862548198-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862548198-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/O_ey3PyR4d3s-hJAHmSjiTyHFls0RtdjHMVqHwQoXco=/4575388545_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -21015,8 +21292,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862550724-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862550724-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Er_RIw6Xw_V-tr4bFWmR9Nouqlq9XgBF4pyhqSzmTmI=/4575399458_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 35.0,
     product_type:
@@ -21049,8 +21327,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862582207-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862582207-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-raLAAdM0Ns0AzBolIIiqhXw3TSAE3Igsk_bKhWVPjc=/4575471810_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -21084,8 +21363,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862615034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862615034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y8MkV2lXx6FyPrOMy1egMbj8oEJ3To5Ub6_iruTdhmc=/4575524600_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 81.0,
     product_type:
@@ -21119,8 +21399,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862794870-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862794870-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/09kzJ4Q7WtpzdyuHehZAbUOWBgF-8vWfc6nmKYeDKXg=/4576090581_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 139.0,
     product_type:
@@ -21153,9 +21434,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862834532-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862834532-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
       'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
       'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
@@ -21194,9 +21474,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862885096-saharnye-ukrasheniya-kotiki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862885096-saharnye-ukrasheniya-kotiki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/biA13fezre3Ohzq7slN3vOL2b2k_XzSW192jU3tqY9I=/4576291482_tsukrovi-prikrasi-kotiki.jpg',
-    additional_images_links: [
       'https://images.prom.ua/voJNFq0tit2SPxPM0p7FYlHDlRdBeHVg6hhgiD83Moc=/4576291771_tsukrovi-prikrasi-kotiki.jpg',
       'https://images.prom.ua/FOuXftnZP8Q4zwWZ6gKEqXmY4c2Sk8DykIki8FTwb_A=/4576354401_tsukrovi-prikrasi-kotiki.jpg',
     ],
@@ -21230,9 +21509,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1862904876-saharnoe-ukrashenie-rybak.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1862904876-saharnoe-ukrashenie-rybak.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RR4sN5y7oQ1pGfrCGmOuX63Vro-jiw1vbGP7gW4PUdc=/4576388277_tsukrova-prikrasa-ribalka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BbqY_DU6frMsv-7XTOvkPA0gXVyPNiYILnGTeGcjSaM=/4576388403_tsukrova-prikrasa-ribalka.jpg',
     ],
     availability: 'in stock',
@@ -21274,8 +21552,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1864035122-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1864035122-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HJ8dOfy4iTJo8GrZVoHSu4wDUez1tthMSSqHe01V-RQ=/4580554404_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -21292,8 +21571,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1864036043-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1864036043-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JZUAn9a7ZPhIBOzlXL67OfbJ02Xa_69jp_BfJV4skko=/4580557649_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -21310,8 +21590,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1864036227-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1864036227-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cRp1Yh5iitLBS-C7KsqCORgxOWpGIHcb0RHRq-I9gns=/4580560522_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -21328,8 +21609,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1864036764-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1864036764-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/n8J8yXvm8B7es8j1A0BwUbik7kNOcKa1tZ2JuXwdwPc=/4580562863_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -21346,8 +21628,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1864037325-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1864037325-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/57iZfFF7dXh0gTpPUkIjGYwZAKtfT04zTsUPaPi-BHs=/4580565288_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -21365,9 +21648,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1868280348-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1868280348-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Swos8aJIyVgc3y09PrKzFfgtzWnXer4s4IKVul7pHpg=/4595490287_zoloto-harchova-potal.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Jz3dVdblVYoBsKarJ_yGH5RX6ZsKSCyTjz7XCatkha4=/4425819550_zoloto-harchova-potal.jpg',
     ],
     availability: 'in stock',
@@ -21386,8 +21668,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1871485880-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1871485880-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MhGadHpFxg_ChwcP05D51K2dwSfEurUwhnEtdWn_DAU=/4607378759_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 65.0,
     product_type:
@@ -21431,8 +21714,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1871493027-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1871493027-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DZdqCWgLLVbue9FpD72802Zv24Mc3fVh3K_kcjBMc5I=/4607405654_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 82.0,
     product_type:
@@ -21476,8 +21760,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1871494721-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1871494721-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qhtyOSskZrtacS0I2wgrhpWnFStsLdrHaCMzgwdaP5w=/4607408868_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 65.0,
     product_type:
@@ -21521,8 +21806,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872191720-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872191720-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XvNkZHHbmPumkeQyCzBt51PKgRh4i5dwErGVP-MWI78=/4610065613_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 149.0,
     product_type:
@@ -21540,8 +21826,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872194066-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872194066-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9gDOCcGrjHEro866YJjufGy7RlvtLSWIsq-w71QAdAo=/4610083386_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 149.0,
     product_type:
@@ -21558,9 +21845,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872198187-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872198187-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5oMP3Pb3SxoR3b-kKX2YhWnVJ9tDU5Ake68pkGYdE64=/4610103333_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/aepLbCrqfWRPh_7_BPnHgSEvxWLP4EMsFRwHpLg2Yt8=/5567983526_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -21579,8 +21865,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872207147-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872207147-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ghYuLlUpCu8Rid969OGWoblA1EMBd6lGf6nXB_YVRXo=/4610140337_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 41.0,
     product_type:
@@ -21614,8 +21901,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872213117-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872213117-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oO4bvsojFzWqzfdqOr2-yKabiR6w2z-RAXX-gIZIVWk=/4610166791_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 114.0,
     product_type:
@@ -21649,8 +21937,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872218360-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872218360-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QyKASorJBG_ROTQbzZ7wdM14Oq5I3e5Tr031wGxF9RM=/4610185169_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 52.0,
     product_type:
@@ -21684,8 +21973,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872221970-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872221970-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wKcyam-dur2rnEmqNUUnxAkWgMc9RQBNKvjIglE-ElE=/4610201989_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 79.0,
     product_type:
@@ -21719,8 +22009,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872237659-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872237659-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ogUlDyqvH6d5slOitIY8kdzrptXdAjyrNzJwBooFCrM=/4610284591_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -21754,8 +22045,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872241824-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872241824-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Du1AQXgTl1RzcMlwo9GfUPk8PDyAsieC7k4u-vIPnGQ=/4610313623_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -21789,8 +22081,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872244055-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872244055-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TK_koavU5ieF9t9fA06xtPA5J6xMpqGU_V6o2Gxc0a0=/4610326856_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 91.0,
     product_type:
@@ -21824,8 +22117,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872244584-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872244584-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NW6RqtLnhtuF39v6tlfLjKD_eposWB0TviTDWJehXLs=/4610332902_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 91.0,
     product_type:
@@ -21859,8 +22153,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1872244641-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1872244641-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ix_eWxcSarrJgQpXnKwC0x856OX_vS8LfLSZOSZ15sc=/4610335283_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 91.0,
     product_type:
@@ -21894,8 +22189,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874640226-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874640226-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WDCcByhkZdcjsGpZmDDcoLlusZTlx40fIbewPavQw5g=/4618930376_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 82.0,
     product_type:
@@ -21929,8 +22225,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874650891-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874650891-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jvpkdvL5CgRWRgD6o8xFg94MnBbl9vdDXBAtNhkHuyM=/4618959215_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -21964,8 +22261,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874656460-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874656460-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/miU26EIcILYg9RycqDtYQVwshtgIHenMjctDYO9GhT4=/4618984119_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -21999,8 +22297,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874659693-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874659693-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/w08z9_xOcQLwbMRD_t1eYQzp02dLP16hCOePHyWX0OA=/4619001919_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -22034,8 +22333,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874662932-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874662932-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZZXbMA5GwSpA6wBHU5hhhDN47PRgGrlUmCB7Vjz4N5I=/4619020914_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -22069,8 +22369,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874670501-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874670501-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eZ1Vd1Jq2JR6gOy7zUiYkda9haWqOcY3L4erWmPfDn4=/4619055490_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -22104,8 +22405,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874681017-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874681017-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TWTZ9cn0va-WkAMouNJy4vUubTAFBD8D_OohKXhhLbE=/4619066318_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -22139,8 +22441,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874694319-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874694319-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kXToej7BDDbh6XPLkNKwoUyVd1k4w8mlHxKUvekGZC0=/4619080247_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 115.0,
     product_type:
@@ -22174,9 +22477,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874701186-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874701186-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VsSTA68Yq81vYgHSeIxI0pbhVbHUkwNs3y0n-z2ayVU=/4619092417_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/dVEYa0_Kqy2FjpOnhWsL3HGCn5h3D41DwC9m17uDFmQ=/5306244979_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -22212,8 +22514,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874702651-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874702651-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/67F51uKnpeK3Tc5_jRzxL9tylxU-THVVAjgb8fCyMuM=/4619096098_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 115.0,
     product_type:
@@ -22247,8 +22550,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874703685-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874703685-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gmyI1bi34Uk_ixxStk8c9m5PFpNIa_XjqGgAAo3TlzY=/4619098737_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 115.0,
     product_type:
@@ -22282,8 +22586,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874717689-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874717689-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qs_9rxpGQ7Bw4_MBdguvLVj3Sk2FpJ8aiiWMNMcXpDo=/4619145462_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 99.0,
     product_type:
@@ -22317,8 +22622,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874722437-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874722437-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MdZhjYn8pYGNvV4bM0u_qT4VriofYpIe64g9w9jwumw=/4619165395_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -22352,8 +22658,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874725614-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874725614-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ILXKBKpAQ-GFOOIuwTG_VscH_IvxXa8uMHpZSvO2l4g=/4619213823_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 99.0,
     product_type:
@@ -22387,8 +22694,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874747039-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874747039-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LobSX4jvWrZWgbsOifRZWiMICnQhtiP9V28mRSnCw00=/4619229952_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -22422,8 +22730,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874750786-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874750786-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MAKuV2WDkK9-njPIvmA2rmEiM-12ezvKrys3dFUNv8o=/4619236696_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -22457,8 +22766,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874751638-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874751638-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RTL-lc-WdvH4IHxqLAzDSeZvReP2kB1-SVAjJQ-HV-Y=/4619238099_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -22492,8 +22802,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874755196-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874755196-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dT9PdGE2jFPk8fowS6M2Q0zC0LDe1AdjgslR1Oc6MJg=/4619248498_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 149.0,
     product_type:
@@ -22511,8 +22822,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874759908-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874759908-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/E4uRqUWFqooGs_DZ4ZGkXXMGgjCDb_crYdqOVPYIQGY=/4619257068_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 69.0,
     product_type:
@@ -22530,8 +22842,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1874893334-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1874893334-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LS7VkoxY8FUgutj7xSwVvKM28yD7-KZpND0BEOOms24=/4619624860_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 82.0,
     product_type:
@@ -22550,8 +22863,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879401129-aromatizator-med-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879401129-aromatizator-med-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LMdHtAq4PNTZLX7iufEI-1KKr8IZBVJlUQXnDikhtG4=/4635447746_aromatizator-med-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -22583,8 +22897,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879402098-aromatizator-viski-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879402098-aromatizator-viski-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LhWc1olnlZvFyunVr-I0Hd1tfUQAJ_RIjNfb2FqZz1o=/4635449398_aromatizator-viski-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -22616,8 +22931,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879402129-aromatizator-koritsa-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879402129-aromatizator-koritsa-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IdR-2pLXVSeaDUieJ2evPS0nM6i0pAiLrOYQM5IvURk=/4635463672_aromatizator-koritsya-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -22649,8 +22965,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879404569-aromatizator-anis-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879404569-aromatizator-anis-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vLui4dqqRAjAwbsGRSvv0nM_sGRb4oTrQi20YTyJjL4=/4635465692_aromatizator-anis-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -22682,8 +22999,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879405088-aromatizator-zemlyanika-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879405088-aromatizator-zemlyanika-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/U1cNqlCE7zWamk5TJWeeNgjOiA-aLA6wJNAPQ1L0I1Y=/4635467623_aromatizator-sunitsya-harchovij.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -22715,8 +23033,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879414415-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879414415-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lEHvvieaQftyUCc_zSJVsT-8fWhKoObcXk5DcI8gjus=/4635499790_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -22750,8 +23069,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879414618-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879414618-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ipNHS1uK2s1vsCnTy8uxo3GfkLaIFkLlpRVRnxhwsbQ=/4636734096_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 125.0,
     product_type:
@@ -22785,8 +23105,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879690820-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879690820-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DwhDzJe-H_ohYX2IQjoCHlODtN3AVpwFiu8I8jfOAu0=/4636463288_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 195.0,
     product_type:
@@ -22805,8 +23126,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879693254-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879693254-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oQ4QKzUgsK5amhHsfY3MMM3AtFoltRSyFDrPQSRiArA=/4636478653_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -22825,8 +23147,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879720805-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879720805-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sF3hwIq9uIzb1jh3VwOqSBmfD_a0xi95dEEzJ65kifM=/4636549267_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -22860,8 +23183,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879746682-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879746682-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ls78xZfyi7chfUPA73ZrrfufvKqc4yUqaOeDEtMRnBs=/4636647351_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 130.0,
     product_type:
@@ -22894,8 +23218,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879753274-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879753274-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pu-lFQBPTE6nXi6F7ZEs5enGLX4pjjzN-OqjhPTg9hY=/4636665011_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -22911,8 +23236,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879753876-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879753876-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8OFTt_36Z4xFpcpDEg9SRkwxObknN7nDyc7azri4YIQ=/4636667296_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -22928,8 +23254,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879757280-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879757280-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F-DKwsqb9kc9DO3lBBuXXG8RaWOs3V2ISMzd1SQ0SHM=/4636690301_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -22948,8 +23275,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879764572-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879764572-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wS9EbU9BtpVXEgaZ0nEVY9fxn5fw8re98WCbyLMOWpc=/4636737283_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 125.0,
     product_type:
@@ -22968,8 +23296,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879815887-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879815887-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bIYCQOwFhij_xEvodExsMOPaW5MkY4YM2WXer2qDgMc=/4637020765_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 122.0,
     product_type:
@@ -22987,8 +23316,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879819254-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879819254-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/znSKsh4gWbUg38G25LcuwcZqQ3k3FZZUofhOsPn7TPk=/4637026192_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 139.0,
     product_type:
@@ -23006,8 +23336,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1879820657-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1879820657-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/k1Nof_1aXV0gs7uR59aR0QsbfO7tnHrENHqYB4rg-EI=/4637032559_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'out of stock',
     price: 122.0,
     product_type:
@@ -23025,8 +23356,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880250997-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880250997-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SWngURTHVT6oCAzag31mMmIehiPNQIIGmnBeQpBZRmw=/4638862745_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -23074,8 +23406,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880255803-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880255803-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BwECKEa9-tKh3BFX_ABLh5N42di2poeQSlcDZzXGcDA=/4638874978_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 118.0,
     product_type:
@@ -23094,8 +23427,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880263639-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880263639-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RsdTR6xH4r7ZsnXUXL_gthUfyeJ8Td5KZdhGvUX4Rik=/4638884321_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -23129,8 +23463,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880276819-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880276819-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QJ6P3fOxgss21VvTafiCxSHhE7A8aDX6zUWVziraeNk=/4638906034_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 108.0,
     product_type:
@@ -23164,9 +23499,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880282882-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880282882-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mApICF5yU5T0NhrfMnD5tXDo1mRdO8G3kd2cEftBL4E=/4695102761_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/C3Bc7wRqVPlYzfMZXko1mkjwlEkgzje0eflwIO6nQSs=/4695102765_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -23202,8 +23536,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880286548-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880286548-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eKaBz2-WLwpQEy7B9u1wYaRd_MGFniO9X_cOeFYROf0=/5546576856_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 185.0,
     product_type:
@@ -23238,8 +23573,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880305669-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880305669-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e-dZQtJ2KzwbTKLnZRdtB_cE3E7_58If6a-EgfEXohc=/4638967435_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -23257,8 +23593,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880309927-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880309927-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vliGdR8u3a93AhEKvLwh-CGs4-043Lt0IpPiHSl0WsE=/4638975952_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -23292,8 +23629,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880310790-krasitel-bledno-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880310790-krasitel-bledno-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bjelyKREZcP1xsEVyfvBXDG-PpoIX9M1PvVoC8xpZvI=/4638988764_barvnik-blido-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23310,8 +23648,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880312635-krasitel-biryuzovo-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880312635-krasitel-biryuzovo-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Naqgl1T25bRKbyUrF-syzTvF-FYixZOKfVIqTcGrBoQ=/4638995964_barvnik-biryuzovo-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23328,8 +23667,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880313447-krasitel-zhelto-salatovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880313447-krasitel-zhelto-salatovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iz4ebFrcp_u_gx2jLa0N_S7yi53b6wspGU8qStkegYI=/4639000104_barvnik-zhovto-salatovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23346,8 +23686,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880314391-krasitel-golubovato-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880314391-krasitel-golubovato-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8aMlVE_FOyUL_Hpgj3RPNOnqhjsx7EI2XDKvuAZlMqI=/4639006474_barvnik-blakitno-zelenijharchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23364,8 +23705,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880316176-krasitel-pudrovyj-rozovo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880316176-krasitel-pudrovyj-rozovo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZHXO7qBQmPfWEF24Lm1KoEmOWNFKvpG-jtHo0c7BS-M=/4639014595_barvnik-pudrovij-rozhevo-bezhevij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23382,8 +23724,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880319643-krasitel-granatovyj-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880319643-krasitel-granatovyj-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RK7q7BXujD_5hGkeygLLi-D4tN3e4vncounwjgw6kRI=/4639020480_barvnik-granatovij-temno.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23400,8 +23743,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880320098-krasitel-kapuchino-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880320098-krasitel-kapuchino-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aAFY8oaxAIj9fi-hBfWVDMtBm-NJSk0DHQ53ZW880p4=/4639026357_barvnik-kapuchino-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -23418,8 +23762,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880321275-krasitel-bledno-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880321275-krasitel-bledno-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RzH8V1xfFjM2ixRnZtXLEsM1QnWxXarU01kv5rxEwJQ=/4639033065_barvnik-blido-rozhevij.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -23436,8 +23781,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880322313-krasitel-yarko-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880322313-krasitel-yarko-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oqg592UUT4T90VwTViG8oVHPM7pNPAH-z9zgjszyDxs=/4639037213_barvnik-yaskravo-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -23454,8 +23800,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1880337502-krasitel-malinovyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1880337502-krasitel-malinovyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GfF1wETOgXNCtmM4hG_mQQRz2byaI1zWCufl2wjqaSI=/4639110016_barvnik-malinovij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -23472,8 +23819,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899793745-kandurin-raspylitelem-antichnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899793745-kandurin-raspylitelem-antichnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TEeDojKx5QS1dnxpt1yns__fZG1oAkor7sotvcONiVQ=/4709427655_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'in stock',
     price: 396.0,
     product_type:
@@ -23506,9 +23854,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899794113-kandurin-raspylitelem-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899794113-kandurin-raspylitelem-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QZkYToRwYHIzaOlr7QcK-sFRjUS3p_c1pXUbxe9yLkU=/4709435905_kandurin-z-rozpilyuvachem.jpg',
-    additional_images_links: [
       'https://images.prom.ua/FWUaXQLwQ5R3F0ndTU5YLN8XUV14hgG2OeKrAe36lz8=/4709436150_kandurin-z-rozpilyuvachem.jpg',
     ],
     availability: 'in stock',
@@ -23543,8 +23890,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899795425-kandurin-raspylitelem-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899795425-kandurin-raspylitelem-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4jQ6E6g_okaLrcEZTZ56RWyT91d8UMnfWjyXUnLPuVw=/4709445169_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -23577,9 +23925,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899795992-kandurin-raspylitelem-zolotoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899795992-kandurin-raspylitelem-zolotoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0oHw1ooz_iHOj6Duy-XXas1DcOahaQBO0xRWriy1_Xk=/4709449260_kandurin-z-rozpilyuvachem.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Y6xjvIQX1Ri673lg9uWtKSBuOF8RhmqjPlaGXZlQzsQ=/4709449431_kandurin-z-rozpilyuvachem.jpg',
       'https://images.prom.ua/o7xYKxtjrlZASe_Y7xlR_70yteSo66JrIxcaFxHxkls=/4709449738_kandurin-z-rozpilyuvachem.jpg',
     ],
@@ -23615,8 +23962,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899796897-kandurin-raspylitelem-svetloe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899796897-kandurin-raspylitelem-svetloe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PNMsZxOfcelE7_ursAjaizm0KVtxkcWMtAPZfIcQIaM=/4709461268_kandurin-z-rozpilyuvachem.jpg',
+    ],
     availability: 'out of stock',
     price: 396.0,
     product_type:
@@ -23649,9 +23997,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1899798644-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1899798644-konditerskaya-nasadka-bordyurnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XBtFTCSc91s3qIskT-doYjm-9qTmc2AV2Lso-TdCKJo=/4709491994_konditerska-nasadka-ateco.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BNnyxHzYCKWONZB-92caypznutCl019v-_5-CtW5Qi0=/4709492270_konditerska-nasadka-ateco.jpg',
       'https://images.prom.ua/ZVVv3IDAkAqSgxA1ZCOnV61TJGtlmHX1BZeoCSf4nKI=/4709492439_konditerska-nasadka-ateco.jpg',
     ],
@@ -23684,8 +24031,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904744169-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904744169-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZfHzr_eBoc3VLHnpcAxosUO3BWT7iO96Rr5sGNo-vbQ=/4725124026_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -23733,8 +24081,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904754533-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904754533-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ham7Q3jzm2ndfr-t_9muz44IsRpYwf4TYFI8X4siZ8I=/4725155803_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 136.0,
     product_type:
@@ -23753,8 +24102,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904755343-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904755343-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZzhqWaPO03Wpf_DXzGqhQplmQEC4pQLgz3B-Zs7Q7w4=/4725161008_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 142.0,
     product_type:
@@ -23773,8 +24123,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904756796-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904756796-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mLH9voR0Iv6rMAxv2DjARe1IW1fVh9tnmntVlJ2JQgA=/4725169010_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 86.0,
     product_type:
@@ -23794,8 +24145,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904759533-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904759533-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DJ9UVDSodRQGiPcEbngp3Tm6ORN5F65GF0CEoTiLEtU=/4725175028_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 134.0,
     product_type:
@@ -23843,8 +24195,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904789010-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904789010-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q19zHurvdgdKiaxO3IFwLLcLenHGzJajQVSjStuA-u4=/4725334815_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 71.0,
     product_type:
@@ -23863,8 +24216,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1904801259-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1904801259-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q19zHurvdgdKiaxO3IFwLLcLenHGzJajQVSjStuA-u4=/4725334815_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 71.0,
     product_type:
@@ -23883,8 +24237,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1907329321-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1907329321-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iymXfK96NZMGRaptq7kRc50e9gBSlLRsPSPfQ-u_ZUs=/4734360877_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -23902,8 +24257,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1907330351-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1907330351-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NByz6OacNulRSKmN9kcloD7zUf701Nzq7Thywj89eiU=/4734362107_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -23920,8 +24276,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1907330632-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1907330632-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WmhNg8rDp3TN_0UwbNVexqgr5-lYvGU0xZJsnmGtM-A=/4734363053_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -23938,9 +24295,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1921122748-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1921122748-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wHREg9PKWDd5EuPc9gVvnm1hgRKrO7XehxJcUmg0BfQ=/4777533999_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ssT6FUEIo-X3J_aft2a4RWdxwuZu02rURbKciQWdKZc=/4777534008_nabir-konditerskih-tsukrovih.jpg',
     ],
     availability: 'in stock',
@@ -23961,8 +24317,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1921122914-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1921122914-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FcUbfMSyqNBdbILK4-4ASu5XTG_4QQmoiIpYWohFzs0=/4777542371_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -23981,8 +24338,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1921125541-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1921125541-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PWHoiUA49V3-MeFw1qwds0mhPX_jGrvHcU_H8JaLcRo=/4777553161_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -24001,8 +24359,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1934033008-krasitel-krasnyj-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1934033008-krasitel-krasnyj-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HHlzNllIZv6KWSodcPSvMxb8yua2kR2pJG1BkIMtYQI=/4819797104_barvnik-chervonij-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -24019,8 +24378,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960098471-shokolad-bilij-naturalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960098471-shokolad-bilij-naturalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fkCV0SHJN9_CKOGRFkGZCQuWIF-3SUb90qmP994Pj4I=/4900187376_shokolad-bilij-naturalnij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -24037,8 +24397,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960135278-kakao-poroshok-alkalizovanij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960135278-kakao-poroshok-alkalizovanij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pm_pS8aXRzpdWrZZNVZtnzebOcMCYj6kzN8mtyJxZQA=/4900301305_kakao-poroshok-alkalizovanij-22-24.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -24055,8 +24416,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960141253-pomarancheva-glazur-konditerska.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960141253-pomarancheva-glazur-konditerska.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/d75eJmWo3tH64JnnojfN-GLEl9JaM1aU1p7BdUIrfOU=/4900321090_pomarancheva-glazur-konditerska.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -24073,8 +24435,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960144017-mir-konditerska-glazur.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960144017-mir-konditerska-glazur.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ipLhuhU4OYgYQJRssO79i-GIIB4ye-BHl-2Mw1I-kZI=/4900330447_tm-mir-konditerska.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -24091,8 +24454,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960149395-mir-shokoladni-dropsi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960149395-mir-shokoladni-dropsi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rAVK-Y0LT7czEVRTtpMU925WNGgLwej1UNTJgGxCUL8=/4900356822_tm-mir-shokoladni.jpg',
+    ],
     availability: 'in stock',
     price: 44.0,
     product_type:
@@ -24109,8 +24473,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960151831-ariba-molochnij-shokolad.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960151831-ariba-molochnij-shokolad.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7_vvyygGsP4qLp_efW5nWvMtJZN5iLfQ7JSOLr_Pg2Y=/4900372970_ariba-molochnij-shokolad.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -24129,9 +24494,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960154664-glazur-konditerska-blakitna.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960154664-glazur-konditerska-blakitna.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LjtAtmCXh9eoHB_Hd5xK4gVkI6xpj3X8_ZulEPbe-KI=/4900390218_glazur-konditerska-blakitna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/7uYI2w8jmQe0SYN_zD_Fs-CEio6r1RpqyocJS-p0CQY=/4900390194_glazur-konditerska-blakitna.jpg',
     ],
     availability: 'in stock',
@@ -24153,8 +24517,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1960156862-konditerska-glazur-tsentramerika.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1960156862-konditerska-glazur-tsentramerika.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9-Q30IhvuQqPmsLRkm_SovzDEy749vXUFjgHqZMI1n4=/4900402388_konditerska-glazur-tsentramerika.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -24171,8 +24536,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1961856639-kupyuri-shokoladni-shtuka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1961856639-kupyuri-shokoladni-shtuka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UB7sTxc1xcGGUcqch_XLEkBcvh-NTGmDxFi-44A59II=/4906502219_kupyuri-shokoladni-1.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -24187,8 +24553,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962119672-nabir-tort-italijskoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962119672-nabir-tort-italijskoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NzbYv-q5RFO4jqMx1TtYUmHfaMnbckqwngvYcj3qUX0=/4907307214_nabir-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 140.0,
     product_type:
@@ -24205,8 +24572,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962227612-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962227612-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YvSdg8u8w7TN0bACApWfy1wZlZecjwMI4MoVEX9oljs=/4907614719_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 124.0,
     product_type:
@@ -24222,8 +24590,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962234728-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962234728-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3KowQTSmKGW73SnifbVrmTAG3p9KGI2ymjVv2L0EgG0=/4907633166_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -24240,8 +24609,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962263869-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962263869-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qcHySUHksaD-5MJ8fYX9wBWIS5uWoTPySOmqStwPUnU=/4907688452_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 185.0,
     product_type:
@@ -24258,8 +24628,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962339629-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962339629-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QCvjtsYVOoy5HWLZEE0tmbkTYzM8fA3T4qXmIhn8in8=/4908017846_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -24276,8 +24647,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962341945-tsukrovi-prikrasi-toperi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962341945-tsukrovi-prikrasi-toperi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IMQR43nwpopZY7fHT57fjSzPsz9Bl6maQ3xOHq14qG8=/4908033294_tsukrovi-prikrasi-toperi.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -24294,8 +24666,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1962344097-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1962344097-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JUuWAgAdG_eHegxXQxgj-hIbAzJqxWNGT_RNpFftJXM=/4908046665_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 78.0,
     product_type:
@@ -24312,8 +24685,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1963051298-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1963051298-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qfd0xCUGOCM9rxonwNiiTV9nv6H5zJ2p76nw9-fhfSw=/4910100093_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 2.0,
     product_type:
@@ -24330,8 +24704,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1963052788-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1963052788-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/g8QUjlFxU8RUyNLMvQS5OtewJZzRKvwsfq2kTUa9QWk=/4910103136_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 2.0,
     product_type:
@@ -24348,8 +24723,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1963053511-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1963053511-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DwQsTsymvHjs1UNFwHHZ_7fnud_egSVUQDJcMboHJKM=/4910104839_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 2.0,
     product_type:
@@ -24366,8 +24742,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1963054035-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1963054035-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/guXP3jixaiZldlQfNEQyH4oRUYIciMMI_LHgnDnNUp8=/4910106344_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 2.0,
     product_type:
@@ -24384,8 +24761,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1963054531-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1963054531-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e4KBD0T2TMIPVSF1_Y-kTEbbz4wuSUp6t5TULPwCJcA=/4910108050_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 2.0,
     product_type:
@@ -24402,8 +24780,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964206714-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964206714-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sHbeAy-xwwqEnr0pVU5WZBwC_Ktyzzc8OBgEDlEaA5I=/4913942333_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 96.0,
     product_type:
@@ -24421,8 +24800,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964287737-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964287737-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zO_RZWqRBB-hRz6SDXGq2dX-z36-0Gs3h99X5YvF074=/4914032015_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -24439,8 +24819,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964306139-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964306139-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9zzZqnEgGaQ_hL7F9t3Y7OP5qy7Y13AkP7d6FyEV70E=/4914048310_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 150.0,
     product_type:
@@ -24457,9 +24838,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964315309-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964315309-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EwVAkbDk9caXmitltxKvUtRuMGuqoC82M1S0LnwjRiE=/4914060616_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/uiI9ubPzBSRXoEzajnrLrG8sPXgW38YKkLWMfB-FlF8=/4914060617_nabir-konditerskih-tsukrovih.jpg',
       'https://images.prom.ua/rTtwtlsjIaekV8b6mxNr9PosqozFCyH5wuqXXnwe0rE=/4914060613_nabir-konditerskih-tsukrovih.jpg',
     ],
@@ -24479,8 +24859,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964439632-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964439632-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/O0SJ5lR_8UmoRxLfZimz_Z9mPLEfoKtNX6eAgNruiRU=/4914438940_tsukrova-prifarba-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -24496,8 +24877,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964439928-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964439928-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h7tlaof9ZA11PtIn8Ouojz8F8_S8T4tRGNfmU-AbZgo=/4914441976_tsukrova-prifarba-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -24513,8 +24895,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964439960-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964439960-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/chtc-8vPm2Im_sa6MJqWgLbfn8Bcvmf-DO7qMp4fE7I=/4914444254_tsukrova-prifarba-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -24530,8 +24913,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964440032-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964440032-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EL4ptkL-rHEEjB3LC9adUrDnqGg1MawViO6BnY_BGXo=/4914446145_tsukrova-prifarba-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -24548,9 +24932,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1964734796-tsukrova-prikrasa-gilochka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1964734796-tsukrova-prikrasa-gilochka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ajmcyeP4BXViPTqavf4k1Eq81uphFDAMqzHWYF0uDFM=/4915519802_tsukrova-prikrasa-gilochka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/nLfH7u5YHay0zOsFRN1RPsJyqCxf351YqWZnCDsAe0w=/4915519800_tsukrova-prikrasa-gilochka.jpg',
     ],
     availability: 'in stock',
@@ -24570,9 +24953,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1970404071-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1970404071-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AbZidps2FuUAOl2F8uNTRfomWplxvYVo0H6hPx5PvOU=/4933128157_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/IEoWBnBgL6NUCsUwsNAxgmFqFDW4TMUsaI4NdTo5zHU=/4933128167_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -24591,8 +24973,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1970438692-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1970438692-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uQI28TsCR7vU-u_JrrJX4Y_FuM99iOlMtpAnj_1yuWs=/4933244464_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 179.0,
     product_type:
@@ -24609,9 +24992,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1974618231-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1974618231-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q31gjkPWIXS93uX6Usd8B9jB4WFsW_YGHHYSerj9zj8=/5568247858_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/yfab6gHftNRuQ_rrpYxK64osesh9l0qx17_LYD2KdBg=/4945822623_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -24632,8 +25014,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1977171589-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1977171589-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vjrVFGJXTyHRLCAvyvuQg0RDWvz8BMeJXQ81OWFxAuY=/4954214714_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -24651,8 +25034,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1986762914-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1986762914-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RBgikb6BQ9z4B6eh4VXXelf5XAVUoAGr_I-l0jCWOJo=/4986524380_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'out of stock',
     price: 124.0,
     product_type:
@@ -24668,8 +25052,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1986781160-tsukrova-prikrasa-yangolyatko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1986781160-tsukrova-prikrasa-yangolyatko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QkL8UBSdGvo7yCp3xximblhjHSl90UaumAGpIzPHls4=/4986565979_tsukrova-prikrasa-yangolyatko.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -24686,8 +25071,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1986794364-tsukrovi-prikrasi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1986794364-tsukrovi-prikrasi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1CMGvChOaHCPsw48cydd8VljfvU0KfqadBZltVaNzCI=/4986592445_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 179.0,
     product_type:
@@ -24703,8 +25089,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1986982386-tortsovij-topper-tayinstvo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1986982386-tortsovij-topper-tayinstvo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VWnaURP4pxvS8-2-LjwlCXRm0-e4CT2Uhr8vZcuJQQ0=/4987114200_tortsovij-topper-tayinstvo.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -24719,8 +25106,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1986983180-tortsovij-topper-one.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1986983180-tortsovij-topper-one.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5tCv2PnXnQIUSSm6xpKxRLcCA3ipRb7c3oCp33OWp6w=/4987119217_tortsovij-topper-one.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -24736,8 +25124,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987003084-vanilnij-ekstrakt-naturalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987003084-vanilnij-ekstrakt-naturalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qWNl3SfzblvyyP3VlceOzwUafecduoEMW63yF3hk-mw=/4987157624_vanilnij-ekstrakt-naturalnij.jpg',
+    ],
     availability: 'in stock',
     price: 340.0,
     product_type:
@@ -24754,8 +25143,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987018376-kokosova-struzhka-medium.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987018376-kokosova-struzhka-medium.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Z99ttPSY6jz-N4qw3yIxmmRoRqNnNcFnobxkM9hzgLw=/4987179494_kokosova-struzhka-medium.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -24772,8 +25162,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987053090-migdaleve-boroshno-calconut.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987053090-migdaleve-boroshno-calconut.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AG6-jPIuWqfnKfkSmmXAYeHWYftUA4hqTh6KCkiLZKQ=/4987282538_migdaleve-boroshno-tm.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -24790,8 +25181,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987061557-migdalevi-plastivtsi-ispaniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987061557-migdalevi-plastivtsi-ispaniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Adx0Gtmtx8DS5Wf5DX6iZVwC06VKLsXro2ulw6enXKQ=/4987295352_migdalevi-plastivtsi-ispaniya.jpg',
+    ],
     availability: 'in stock',
     price: 64.0,
     product_type:
@@ -24808,8 +25200,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987076770-shokolad-chornij-651.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987076770-shokolad-chornij-651.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/251F54dqCLutDNoso-DbAAgyKNko7opHBAYvQZPb_H8=/4987336242_shokolad-chornij-651.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -24827,8 +25220,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987079412-shokolad-molochnyj-316.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987079412-shokolad-molochnyj-316.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hUz8FdFeequ9JQ1mBqSvi1sd7VcM9Ux1C_z1OQRoLYk=/5327674069_shokolad-molochnij-316.jpg',
+    ],
     availability: 'in stock',
     price: 88.0,
     product_type:
@@ -24846,8 +25240,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987081672-shokolad-bilij-barry.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987081672-shokolad-bilij-barry.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Cf4TZiJZGKBm-NxUWG1f6CdJndxpMinDbYp9bzA6UoU=/4987352531_shokolad-bilij-28.jpg',
+    ],
     availability: 'in stock',
     price: 88.0,
     product_type:
@@ -24865,8 +25260,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987108851-patoka-sirop-glyukoznij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987108851-patoka-sirop-glyukoznij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -24883,8 +25279,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987112195-patoka-sirop-glyukoznij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987112195-patoka-sirop-glyukoznij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -24901,8 +25298,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987128406-funduk-droblenij-karamelizovanij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987128406-funduk-droblenij-karamelizovanij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EDZNjOai0Mjsd8eu5OnoJIiUTo3fHg_vaLD28azwEzI=/4987511342_funduk-droblenij-karamelizovanij.jpg',
+    ],
     availability: 'in stock',
     price: 64.0,
     product_type:
@@ -24919,8 +25317,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987130870-arahis-droblenij-karamelizovanij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987130870-arahis-droblenij-karamelizovanij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/u_xX8WR5qB-vUh095us1Tp-G8ePNACjuPVTGKkRhN5k=/4987520330_arahis-droblenij-karamelizovanij.jpg',
+    ],
     availability: 'in stock',
     price: 28.0,
     product_type:
@@ -24937,8 +25336,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987133115-vanilnij-tsukor-500.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987133115-vanilnij-tsukor-500.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fIRTVSDQWmRE2ItuJfb_dbQVbTcX0QTDohSt1EGI0Kc=/4987530990_vanilnij-tsukor-500.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -24955,8 +25355,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987136218-tsukrova-pudra-aromatom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987136218-tsukrova-pudra-aromatom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/df2z5YIaFCW0Chk0FokTPkRp_2qVr8bNbiexKrvFgKg=/4987550540_tsukrova-pudra-z.jpg',
+    ],
     availability: 'in stock',
     price: 64.0,
     product_type:
@@ -24973,8 +25374,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987138650-kerob-naturalnij-yero.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987138650-kerob-naturalnij-yero.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xLc5hhDmIttKNQBnZflcpPnoX9uGDd1Ov4foPKlOBQ8=/4987557866_kerob-naturalnij-yero.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -24991,8 +25393,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987141213-vanilna-tsukrova-pudra.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987141213-vanilna-tsukrova-pudra.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hzYqUhr1WOCGOytZfwPavIX8RxgiCZwG9511isb2KKM=/4987566853_vanilna-tsukrova-pudra.jpg',
+    ],
     availability: 'in stock',
     price: 64.0,
     product_type:
@@ -25009,8 +25412,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987144851-eritritol-eritrit-100.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987144851-eritritol-eritrit-100.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ty62wdpptYmUQwMOYzX02Q2LIBLeBsevIUJYtk_LUWE=/4987578646_eritritol-eritrit-100.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -25027,8 +25431,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987149632-stijka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987149632-stijka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9eV8slF8AjWILVjGS228FwHRWXkuxOw2CjG1W_QqwVE=/4987596842_stijka-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 262.0,
     product_type:
@@ -25045,8 +25450,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987152573-gazovij-palnik-turbo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987152573-gazovij-palnik-turbo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/O3qTxKd-KEr58lm_fooj5Xya9wSQJN3EQTejcxSBsX0=/4987606439_gazovij-palnik-turbo.jpg',
+    ],
     availability: 'out of stock',
     price: 516.0,
     product_type:
@@ -25063,8 +25469,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1987154912-atsetatni-listi-300h200.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1987154912-atsetatni-listi-300h200.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7tHvGMQv88GgpxD0dMWYz-BnlaBYRUaB61azynwaLyg=/4987622493_atsetatni-listi-300h200.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -25081,8 +25488,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p1998956610-gelevyj-krasitel-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p1998956610-gelevyj-krasitel-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fxvHMrnhaIvpj7Xo3sbpFiCTNG-P1yT0CyRYz_Vxg3E=/5032161074_gelevij-barvnik-chervonij.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -25099,8 +25507,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002981663-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002981663-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PcGqh70raJofVIJUzu0C24Pb7kws7yFng_Cm53aksqM=/5045638036_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25117,8 +25526,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002983482-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002983482-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HbbswS2Zdy0QAEcYvKJrNGP6wyUK1bR5xEipvCWuMKk=/5045643031_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -25135,8 +25545,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002984410-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002984410-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nxZaEJ7aJQBuHunYJtBbMrX-fFYeZqLuuypi6Cw_El8=/5045646924_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25153,8 +25564,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002985819-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002985819-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pXhA3S-UvDWl_1WGiHRwFQgQETr6BBzF3ShHa5s-2VU=/5045654200_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25171,8 +25583,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002988402-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002988402-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NXOeYnL3BllrRkPmCJOEKp5_SnlOOK5PICe7oD9qq9U=/5045668694_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25189,8 +25602,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002988880-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002988880-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uZvSB-YdGhKShGG9GaWKhrGTzXgMbpno3amZY2t0HPQ=/5045674615_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25207,8 +25621,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002990339-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002990339-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f8DkPcL1iVaQssBJbxLP3PXAly8H29C5qWSATCw4TCo=/5045681782_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25225,8 +25640,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002991666-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002991666-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/n0JYS7CYOOyb6SbQKjefFJyARwG55XhOxmoF3sOsTjE=/5045685766_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25243,8 +25659,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002992769-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002992769-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hyUDsxPOJCsyRHkYhuMIZNDG5jtNSPTIgMf0jC8fAwQ=/5045693590_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25261,8 +25678,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002994469-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002994469-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CmUsDHRRTuL17FBdaVVzw5Px947ly7Yk-Rp1wg2eas4=/5045700262_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -25279,8 +25697,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2002994870-gelevyj-krasitel-chefmaster.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2002994870-gelevyj-krasitel-chefmaster.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BMmc5Ldddy7rCwcRVFgtt_1KLw-gRmcnxGGr26SH2Bs=/5045703521_gelevij-barvnik-chefmaster.jpg',
+    ],
     availability: 'out of stock',
     price: 132.0,
     product_type:
@@ -25297,8 +25716,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012653041-saharnaya-posypka-detstvo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012653041-saharnaya-posypka-detstvo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m29o8-Mt6JMlOIYWna3QPo8-9AgDALWZKu0U4n8NZqY=/5080434426_tsukrova-posipka-ditinstvo.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25315,8 +25735,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012654285-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012654285-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KEt0HrVFQL0mDW3xVxrgsNLpkfXMboGHGoZyfqv8r-k=/5080438938_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -25333,8 +25754,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012664706-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012664706-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v6O49Y8wMg4_FBRbWd2iDCYL29ewfw8_2sGYYKHTvtI=/5080470367_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25350,8 +25772,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012675505-posypka-saharnaya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012675505-posypka-saharnaya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sOlSRPdcDT7QTyhsv89ZRjAu3dLl1y94mlzbNDVcYhs=/5080496900_posipka-tsukrova-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25367,8 +25790,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012677562-posypka-tort-saharnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012677562-posypka-tort-saharnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jaXsueLZSHRpbE3_ikhqGr_vLK61oyEBY53SzAR_l8g=/5080504746_posipka-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25385,8 +25809,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012682293-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012682293-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CsGrx9wwtsF1-XLzRZHyim1dhr4RsjMMCOGUJl1J5XU=/5080523604_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25403,8 +25828,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012683622-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012683622-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F-phSf9gWUO--sVxmSHBQJnGcEQXeZgOa-x88RHMgEs=/5080526756_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25420,8 +25846,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012684192-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012684192-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LCNYl_clWmX67xHRYIuXhHB4TRVHTX-8U5oum6uCvsU=/5080528397_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25438,8 +25865,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012685578-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012685578-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CvVpinfK8gsHxyzgMaNvnM5faUJKuzBIVVzlLuASSSk=/5080530131_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25455,8 +25883,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012686001-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012686001-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zeQE9fc-kfifz_olqAjc7YfdbNEnM_X2lB9oEvq5W4c=/5080531111_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25472,8 +25901,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012686315-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012686315-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xkfUHV5NY9hJrvh1ZVSHbkivuIut8LKWomkbt2v3GI0=/5080532739_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25490,8 +25920,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012687354-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012687354-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xHnA45ar6DMdOvtJNftoDgxNetZBIGla3fYAlWwyPIg=/5080535771_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -25507,8 +25938,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012693938-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012693938-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Z2rP1s0CJZtJ2Uevcxqwh4gflxDeCmkR_UGjMpk2QUg=/5080560434_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25524,8 +25956,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012694244-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012694244-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C5_qEkOdk2h_79LzFfkxdvtK2dta4Yr2N2toQmBad6k=/5080561957_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -25541,8 +25974,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012695046-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012695046-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-dI3u-jA4LwUQ-kpuzkb12qJmzTtyvqriU1oMQSS9KI=/5080563534_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -25558,8 +25992,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012695735-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012695735-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lapA4O9qYw157ktLhtcJuysh0XiYJ7FX60gO-e7_cdU=/5080564678_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 33.0,
     product_type:
@@ -25575,8 +26010,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012696936-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012696936-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rUStu8MGuPK7-FVGlDOHRdHv0no6pStMUQaEA0EVW5o=/5080568097_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -25592,8 +26028,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012699915-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012699915-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hwHynU0n4LPd8zJvFOSGu9neLS0-YJ6FG7dnmzlkCyc=/5080576975_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -25609,8 +26046,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2012901164-posypka-serdtsa-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2012901164-posypka-serdtsa-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hkXhSPVFp5X8qpCYmmvJ7X0qhbYdMxrBAgD9Ob76DEQ=/5081157826_posipka-sertsya-miks.jpg',
+    ],
     availability: 'out of stock',
     price: 15.0,
     product_type:
@@ -25626,8 +26064,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013005845-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013005845-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8vlpHL2Us5naV5JFlLmRS4rsBQr5wh2C1kfJhsczwWc=/5081366144_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25643,8 +26082,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013007534-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013007534-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FZlGozXGGbwR9hjr8PHmh9JK30niNl0LhPVkT49hp6c=/5081370541_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -25660,8 +26100,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013007591-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013007591-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cyLtf8SWYdZKGTjiQoZQhxzNzNBTiwfO6-wsUwpRjM0=/5081372279_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25677,8 +26118,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013008436-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013008436-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vuDisHmiPBS5Fsa0B1lVId95DvAuLlfgaVDfNaF3Io4=/5081374688_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25694,8 +26136,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013009308-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013009308-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HWUy4iLWRpFjVmlk-fa7mb6YSkgS8xc5wutpDp2Iqk8=/5081378339_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25711,8 +26154,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013009620-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013009620-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lUDTeeUAReb_qHn-khJzK4f9ftPCnRHrsp4Tjt9z7Wc=/5081381702_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25729,8 +26173,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013010390-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013010390-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JlhIUWb4lEcvVlk6RMJLHBMHfHJcJwue-L9tHqq6E_k=/5081385945_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25746,8 +26191,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013011753-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013011753-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/V2Y11LzOZkdIkehTTmcyuRr6Sy8BQYl9r_QU37BEdRA=/5081390764_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25763,8 +26209,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013012754-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013012754-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dZwzx8pRK__v_euv1j3FHFUIP_IRe6k3bsXqktmMzRw=/5081398504_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25780,8 +26227,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2013013143-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2013013143-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IL4EkPaiVr4QPjW-IYsT3vxWQC2U3NeSs5vX6E2aeQ4=/5081401438_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25797,8 +26245,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2018089922-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2018089922-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/PP-Xh3vpZVvhiiWB7pD39NAPYUGHwyczUY2RbtUekR8=/5101922002_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -25815,8 +26264,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019127304-saharnaya-posypka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019127304-saharnaya-posypka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_OdSN1B9n59QRBLS2X7LSXf0lln4Rw2ITEfpdDabIxg=/5105931810_tsukrova-posipka-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25833,8 +26283,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019127664-saharnaya-posypka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019127664-saharnaya-posypka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FbLDjD17mbAoV70Hdg7Yt-B1chm4UxlmYYf0fTMDtHM=/5105932913_tsukrova-posipka-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25850,8 +26301,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019128687-saharnaya-posypka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019128687-saharnaya-posypka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rQEmFJBR7obzmPHjBkGQD-0o4DYOiQeVMW3UDBPRxCs=/5105937745_tsukrova-posipka-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25867,8 +26319,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019135803-posypka-saharnaya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019135803-posypka-saharnaya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4BvMGrh79HSwkt6rLsX125sWRNof2sH5nvD4BC85_CQ=/5105979743_posipka-tsukrova-na.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -25885,8 +26338,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019140688-posypka-saharnaya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019140688-posypka-saharnaya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/28fblYTTva7f2agOnYwRrRa86_p6WH1lLxNqPt-6lsA=/5105982813_posipka-tsukrova-na.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -25903,8 +26357,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019147649-saharnye-zhemchuzhiny-belye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019147649-saharnye-zhemchuzhiny-belye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Onsbbqmi_JMRjTfpX-e-RyV1ZRHdJ61z4FiCGd2tAI8=/5106009481_tsukrovi-perlini-bili.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -25920,9 +26375,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019166168-makaruny-mini-kryshechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019166168-makaruny-mini-kryshechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XfOfxNEq-F2W6YJjxK6oBtHZHpWiZHdK7_3ul9AOzGs=/5106104171_makaruni-mini-krishechki.jpg',
-    additional_images_links: [
       'https://images.prom.ua/-r3VwrDePSY-3x0c_DjQtRWvJJoUTvcy_U4X8LeJoQw=/5106104167_makaruni-mini-krishechki.jpg',
     ],
     availability: 'out of stock',
@@ -25940,8 +26394,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2019168075-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2019168075-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/r2BZfJN3uYxkRt7dsmytdipX_Zx6EKJBPmZQn5eVzvw=/5106109024_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -25959,8 +26414,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020428907-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020428907-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zt6SM_cC06uAHzCuR-i_jwk3J7_CVZhDIu_hDK9Z0sQ=/5109489770_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -25978,8 +26434,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020428971-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020428971-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_hp9wOjziFy1BysU1npKiN3K41fbU2-XCV4FF5AiF6k=/5109491027_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -25996,8 +26453,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020429048-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020429048-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/z-VSY0EHVXC8N47RzZK79dzrEkiIxWiN4WHkMq0Tbh8=/5109492283_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26015,8 +26473,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020429344-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020429344-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lboiHYrqaFhLoKAI4WW5_0lb3H6nNmAJJyxRNRxWUxM=/5109493175_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26033,8 +26492,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020429609-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020429609-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4dSmrWwvDvAmOoc-_uG5stqZi-2tHJATTRt4jcGdFQU=/5109494045_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26051,8 +26511,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430181-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430181-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OG8gsjq2lJKHQ89BPinqS--IV8bIcJq8bvP64_qWFr4=/5109495218_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26070,8 +26531,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430403-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430403-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/I9fyWdXLfRRG7QpdCq_os4xpW0RCOTwNeS36poaAbBw=/5109496372_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26089,8 +26551,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430680-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430680-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ua31y2z7NiFa1QOWn7EBVfM_SHilEBMTs9C4ZiFfNe8=/5109497720_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26107,8 +26570,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430720-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430720-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UN31HoNKKMv0jMytz-sm0ZycELuVgiyPc-FOozH4c-I=/5109498824_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26126,8 +26590,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430751-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430751-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/J7RkGl9VkD6-h8GVMzmLWEQDVRwDoAnduTnATsygaBk=/5109500470_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26145,8 +26610,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020430835-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020430835-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/05ALS64lMifabqsNLAqh9eQYAz_1cb7bq6GivZ3NVxc=/5109501645_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type:
@@ -26164,8 +26630,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020456296-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020456296-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iJah_oo3ukXqGN475c5iGaGYBaNypd4vR0Df_KC06X8=/5109581226_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -26184,8 +26651,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020457008-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020457008-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lk6AZataqQfVZEB030xMczpUbrFXnbT1qO5C2E_gJKQ=/5109582136_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -26203,8 +26671,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020467863-posypka-saharnaya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020467863-posypka-saharnaya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cO3ZfVSZGUdBkiKKmVgekHzEFp5oorKH0dAAstZdQik=/5109605151_posipka-tsukrova-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -26221,8 +26690,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020472233-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020472233-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MMhvAWPh42K9oLo6Ez0tjkN5tZIT19G1qAbH4d5K0sE=/5109616662_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -26240,8 +26710,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020477294-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020477294-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Avd5vMB6AW734pdw5bTUaPbmxPSdcn4yFVVNf6xFBVc=/5109628509_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 136.0,
     product_type:
@@ -26260,8 +26731,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020477731-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020477731-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EE0UXLDVfnwqnTa7zGn6IulyeatFDV5mYz_XNvu4Hu4=/5109629602_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -26278,8 +26750,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020482586-saharnye-ukrasheniya-gubka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020482586-saharnye-ukrasheniya-gubka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1B5o9iRC6OWIF1Z0q-wckfKJZYp-HBrmOoRhDASAcWQ=/5109645896_tsukrovi-prikrasi-gubka.jpg',
+    ],
     availability: 'in stock',
     price: 154.0,
     product_type:
@@ -26295,8 +26768,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020483339-saharnye-ukrasheniya-tom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020483339-saharnye-ukrasheniya-tom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aIX2cvtF_OAUKEoz1hEjQ02qH09uOrCUqzS0tXACWA8=/5109648655_tsukrovi-prikrasi-tom.jpg',
+    ],
     availability: 'in stock',
     price: 148.0,
     product_type:
@@ -26312,8 +26786,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020484730-saharnye-ukrasheniya-cherepashki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020484730-saharnye-ukrasheniya-cherepashki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zigCfPYcYCN4lWD16BZfLSpN5hvlhFbJ0KL-y3NkZGA=/5109650778_tsukrovi-prikrasi-cherepashki.jpg',
+    ],
     availability: 'out of stock',
     price: 99.0,
     product_type:
@@ -26329,8 +26804,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020485111-saharnye-ukrasheniya-futbolnye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020485111-saharnye-ukrasheniya-futbolnye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Zm8Jc2OFM8HRdEi4cptnREDuuM5x7KV99X6pQs_QD3s=/5109653248_tsukrovi-prikrasi-futbolni.jpg',
+    ],
     availability: 'in stock',
     price: 82.0,
     product_type:
@@ -26346,8 +26822,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020489795-saharnye-ukrasheniya-veselaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020489795-saharnye-ukrasheniya-veselaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/maWa6MJHCxUJS5v_wDSPHmV6qr_OAKtLHeGBXAWpiZs=/5109672957_tsukrovi-prikrasi-vesela.jpg',
+    ],
     availability: 'in stock',
     price: 107.0,
     product_type:
@@ -26363,8 +26840,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020490812-saharnye-ukrasheniya-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020490812-saharnye-ukrasheniya-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gVCd81_xqNeLTmtcvaFQ_rhQdFHmftm3vVQuAiC2_kQ=/5109677837_tsukrovi-prikrasi-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -26380,8 +26858,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2020491927-saharnye-ukrasheniya-vedmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2020491927-saharnye-ukrasheniya-vedmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iieFbHty2-ddcjPtafEeXUYlclbwnIfpgMxQmU7XTBU=/5109681178_tsukrovi-prikrasi-vidmi.jpg',
+    ],
     availability: 'in stock',
     price: 140.0,
     product_type:
@@ -26397,9 +26876,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2024128930-saharnaya-posypka-beze.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2024128930-saharnaya-posypka-beze.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ke_3J_sENpIPpI7o7Te_zv5J0jS1Y5PqXcjGLq_6bk4=/5123653138_tsukrova-posipka-beze.jpg',
-    additional_images_links: [
       'https://images.prom.ua/O73oS-aa0Zv0K-MHKnhKqC0Wg1LnbTHqboz1wz8z6LY=/5123653141_tsukrova-posipka-beze.jpg',
     ],
     availability: 'in stock',
@@ -26417,9 +26895,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2024129433-saharnaya-posypka-beze.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2024129433-saharnaya-posypka-beze.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mBXKJCAZ2KVCFNGzHESFaUk-z2fb9dxtjs4HgQgdFpg=/5123655918_tsukrova-posipka-beze.jpg',
-    additional_images_links: [
       'https://images.prom.ua/SXlyB4zfK7Y60rNGFKSbitbQ1cjHAl-uABrmDBph7ds=/5123655891_tsukrova-posipka-beze.jpg',
     ],
     availability: 'in stock',
@@ -26437,8 +26914,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2024131701-posypka-saharnaya-belaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2024131701-posypka-saharnaya-belaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0Psl753QsYcCeR5TfbHqMYLnLptXBKkc_AmUr6Oa6X4=/5123667484_posipka-tsukrova-bila.jpg',
+    ],
     availability: 'out of stock',
     price: 25.0,
     product_type:
@@ -26455,8 +26933,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2024134251-vozdushnyj-ris-shariki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2024134251-vozdushnyj-ris-shariki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uYTqBcJUN8qtuJa0mbXih8Yt_ixFMlZ8HSwIAE60eD8=/5123679923_povitryanij-ris-kulki.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -26473,8 +26952,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2024134450-vozdushnyj-ris-rozovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2024134450-vozdushnyj-ris-rozovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RK5KA4W4GCEvuJNhdolGaF3BsM4MfH_K4irXrMXZVDo=/5123682787_povitryanij-ris-rozheva.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -26492,8 +26972,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2034825736-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2034825736-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hHsDpyTIvMPaSID61htrCAayfu3dc5nEQX_VGOPRtBI=/4686733200_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 196.0,
     product_type:
@@ -26512,9 +26993,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2035714204-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2035714204-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9f9ok1XVdq6zm7yH5vhChVPJlGNrRW_W46NOKqJkBgA=/5165758841_tsukrovi-prikrasi-ale.jpg',
-    additional_images_links: [
       'https://images.prom.ua/sBleMf9rSFa-ofqG1INAHSUEDaCn5Ldt2p2spt_I9PQ=/5165758842_tsukrovi-prikrasi-ale.jpg',
     ],
     availability: 'in stock',
@@ -26535,9 +27015,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2035714233-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2035714233-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nYTH0Ja7j2vB-U0FUhf8huPNo2B30P12YuoJcziPpQA=/5165760762_tsukrovi-prikrasi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/bKagmYPah96Ktj-s0Q2aWvinLXBHNr7IvgHGBp16GNE=/5165760763_tsukrovi-prikrasi-na.jpg',
     ],
     availability: 'in stock',
@@ -26557,8 +27036,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2035715230-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2035715230-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eCQ_mgyYwY7kYayW05nB8-TZpHIaYcY7wv9yaqZt3pM=/5165767021_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 5.0,
     product_type:
@@ -26575,9 +27055,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2035717537-stijka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2035717537-stijka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bvifgnt74goLACiMlQIWWbnDcEekoJaTGQHHozfk0t4=/5165786725_stijka-dlya-torta.jpg',
-    additional_images_links: [
       'https://images.prom.ua/lN88-di6Lt-PQhijnvrMxRafLC0Lkl1_19A1hCESfgQ=/5165786726_stijka-dlya-torta.jpg',
       'https://images.prom.ua/A7yXPoxTBRjXlMRrbSWQcY_64qyHgRf5zBpDqqKFN8w=/5373415247_stijka-dlya-torta.jpg',
     ],
@@ -26596,9 +27075,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039589267-posoh-karamelna-trostinka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039589267-posoh-karamelna-trostinka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dsIr1osVrIhxmLbH308OoSUgqyinVEJaxhCLbmUIbrk=/5180170426_posoh-karamelna-trostinka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/BnmgzPp9ARCOOFCCfW_5QbiD_k7tijqHVLbx0OiebBQ=/5180176665_posoh-karamelna-trostinka.jpg',
     ],
     availability: 'in stock',
@@ -26616,8 +27094,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039589629-posoh-karamelna-trostinka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039589629-posoh-karamelna-trostinka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dsIr1osVrIhxmLbH308OoSUgqyinVEJaxhCLbmUIbrk=/5180170426_posoh-karamelna-trostinka.jpg',
+    ],
     availability: 'in stock',
     price: 12.0,
     product_type:
@@ -26634,9 +27113,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039594446-novorichni-lodyaniki-palichtsi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039594446-novorichni-lodyaniki-palichtsi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P53l3t6trjPqVTYwSRyQBDb3JPU9md4ERd9u4FneFKk=/5180199953_novorichni-lodyaniki-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/rWwpeF7CmFCSc4ZF9J2ZnbhDCe1hsPuKxHL0Qmr3qBc=/5180199943_novorichni-lodyaniki-na.jpg',
       'https://images.prom.ua/w2ty1lxeCkSPu4RjdqjjQvDdx_b6UiiFx-Dqp58g6Gs=/5180199944_novorichni-lodyaniki-na.jpg',
     ],
@@ -26656,8 +27134,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039600412-kulki-shokoladni-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039600412-kulki-shokoladni-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/J5go_V6DXo6yPiDL4VNXAd5CAqxIp4tScV7OnAcAzTs=/5180214240_kulki-shokoladni-na.jpg',
+    ],
     availability: 'in stock',
     price: 263.0,
     product_type:
@@ -26674,8 +27153,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039600608-kulki-shokoladni-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039600608-kulki-shokoladni-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VfTkwz5RUsxPS6WwZB22UF8pufBpJdGCaJea8Iw7vdE=/5180216427_kulki-shokoladni-na.jpg',
+    ],
     availability: 'out of stock',
     price: 263.0,
     product_type:
@@ -26692,8 +27172,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039601651-kulki-shokoladni-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039601651-kulki-shokoladni-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ynQhmaMGl9Wzwz-2ivmKYNhz0ISh0S0AioCHOjFmRFY=/5180224160_kulki-shokoladni-na.jpg',
+    ],
     availability: 'out of stock',
     price: 263.0,
     product_type:
@@ -26710,8 +27191,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039603193-prikrasi-shokoladni-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039603193-prikrasi-shokoladni-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AO34jQRh3gLjxPutAFd0B4ncgMmydF14SYI5P_rQ7O4=/5180236382_prikrasi-shokoladni-na.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -26729,8 +27211,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039604864-apelsinovi-tsukati-kubiki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039604864-apelsinovi-tsukati-kubiki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uwHoftrHUuqqaOfpmTmVEDhNId7Gn7h7UUtyvGJZT1Q=/5180245607_apelsinovi-tsukati-kubiki.jpg',
+    ],
     availability: 'in stock',
     price: 46.0,
     product_type:
@@ -26747,9 +27230,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039607019-forma-silikonova-alfavit.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039607019-forma-silikonova-alfavit.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QRN46E4l3LqQzWU4LfIWrTbnnDV6WYMBCWj8TQEC8s8=/5180256525_forma-silikonova-alfavit.jpg',
-    additional_images_links: [
       'https://images.prom.ua/ABM5YNx0UOblXiu35UAl3F2zgYPrIt8DvE9aYDrtj_s=/5180256524_forma-silikonova-alfavit.jpg',
     ],
     availability: 'in stock',
@@ -26774,8 +27256,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2039610956-karamel-palichtsi-shtuka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2039610956-karamel-palichtsi-shtuka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2Sk7wGyLPMj1FZc9DuUPallaBcMN6xS8bDhy4qsiK14=/5180271456_karamel-na-palichtsi.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -26791,9 +27274,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2063506357-pechivo-peredbachennyam-shtuka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2063506357-pechivo-peredbachennyam-shtuka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NW6HZefnfIAlrYkfHdnsMjqlBeZvmiYde9AusQVbyVA=/5268589159_pechivo-z-peredbachennyam.jpg',
-    additional_images_links: [
       'https://images.prom.ua/v3D8ceKLlKYlHJL2wSAM-9OotrdEohM_GaADtS4y3aQ=/5268589158_pechivo-z-peredbachennyam.jpg',
     ],
     availability: 'out of stock',
@@ -26811,8 +27293,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2063514449-koleso-dlya-narizki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2063514449-koleso-dlya-narizki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/U3qWxNZQDTiDAEJxFYdk_djWsPQca4OLDlxoyPwAkhQ=/5268601460_koleso-dlya-narizki.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -26829,8 +27312,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2063519450-plunzher-snizhinka-velikij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2063519450-plunzher-snizhinka-velikij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HlJA3DVorqcdzUjDo28YVp_60mRRGJj-RIBsqQunivg=/5268615802_plunzher-snizhinka-velikij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -26858,8 +27342,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2063526839-aerograf-konditerskij-mehanichnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2063526839-aerograf-konditerskij-mehanichnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/m_eRrSdzzpgungHZw-W5Ib63sLrNIhX-rmBJnLBbsLw=/5268631369_aerograf-konditerskij-mehanichnij.jpg',
+    ],
     availability: 'in stock',
     price: 224.0,
     product_type:
@@ -26876,8 +27361,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067396945-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067396945-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rDZ43tw5qfQt40K3pi7rDoJQn0T1uD6XWeIUUQDRckk=/5280453443_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -26894,8 +27380,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067400060-posypka-saharnaya-praznik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067400060-posypka-saharnaya-praznik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bPVHjUjqjGVs15k31a3x1SLT3BHMGm2p1TaRrf25iy0=/5280458229_posipka-tsukrova-priznik.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -26912,8 +27399,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067402410-saharnaya-posypka-krasnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067402410-saharnaya-posypka-krasnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ERGKwrmO8Zooc7n6fMf87ssvr4kXAlaUb4KG1vZdJWY=/5280462114_tsukrova-posipka-chervona.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -26931,8 +27419,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067403828-saharnaya-posypka-golubaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067403828-saharnaya-posypka-golubaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/H5rMNu5mnxG1F1LLdCwCJEz5Zyz-uBQktQdkfW-NmVE=/5280464400_tsukrova-posipka-blakitna.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -26949,8 +27438,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067407897-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067407897-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VJDHGdWFhMnTFMuym3ZvHIjYCfLx6n2DvHnGpKPbmrA=/5280470032_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -26968,8 +27458,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2067410685-saharnaya-posypka-vermishel.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2067410685-saharnaya-posypka-vermishel.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/B2tytsMP2EIVUNtZjnqYeQrBKsT-SCSVOvFSxALtBlM=/5280476129_tsukrova-posipka-vermishel.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -26987,8 +27478,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2068338003-saharnaya-posypka-krasnye.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2068338003-saharnaya-posypka-krasnye.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6MqOBBVWHPVnrG6-EDFXggn3P-ub9ES1WrKB-g0LrF0=/5283598033_tsukrova-posipka-chervoni.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -27006,8 +27498,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2069441229-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2069441229-konditerskaya-kruglaya-nasadka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FvzUkRofFHb4FNJY61ECjDjpJjw54c6Q4susbicVcKs=/4401012277_konditerska-krugla-nasadka.jpg',
+    ],
     availability: 'out of stock',
     price: 90.0,
     product_type:
@@ -27025,8 +27518,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071505663-forma-plastikova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071505663-forma-plastikova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3nnEaoK3_9pA1_TCKa4MGc7hXjHiv21qlPohPSD2mSA=/5295892247_forma-plastikova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 83.0,
     product_type:
@@ -27043,8 +27537,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071510519-forma-plastikova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071510519-forma-plastikova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CaX31bpfz3YGIs6cX3zmlYzEv8l2NTW265N8hQMEZe0=/5295922899_forma-plastikova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 83.0,
     product_type:
@@ -27061,8 +27556,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071510820-forma-plastikova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071510820-forma-plastikova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/I9OGfvNSR6yliFGEaA-grAb6WYuJoJEYwf0CTd2K9y8=/5295926402_forma-plastikova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 83.0,
     product_type:
@@ -27079,8 +27575,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071516163-pektin-termooborotnij-frantsiya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071516163-pektin-termooborotnij-frantsiya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4OXDXIyyIBE7jTxIiZQZWT99xbkJfTkkH3-yAnhdcL8=/5295960652_pektin-nh-termooborotnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -27098,8 +27595,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071519851-dekogel-nejtralnyj-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071519851-dekogel-nejtralnyj-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FMmHQMW_8RLbMU_4d2Tg942wMVVgbtTszyy0n1aUKAk=/5295982051_dekogel-nejtralnyj-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -27116,8 +27614,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071532248-zhelatin-bystrorastvorimyj-240.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071532248-zhelatin-bystrorastvorimyj-240.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GZ5ZM5fe9e9sY1AkUv8TLB-l10ykUezC3-ekbIvyVgw=/5296054334_zhelatin-shvidkorozchinnij-240.jpg',
+    ],
     availability: 'in stock',
     price: 12.0,
     product_type:
@@ -27134,8 +27633,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071609156-silikonovij-kilimok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071609156-silikonovij-kilimok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6hieCJmJ1QTnXvfiY3eHYAZM4ksa3rHQ-YuANklwhMg=/5296285670_silikonovij-kilimok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 140.0,
     product_type:
@@ -27158,8 +27658,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071624645-saharnaya-pudra-netayuschaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071624645-saharnaya-pudra-netayuschaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q9r44PwUYRNWc2Jg3CKSEmTZj4RJS6o4eGGgVrnrJRk=/5296324703_tsukrova-pudra-netalna.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -27176,8 +27677,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071629166-pudra-tsukrova-dribnogo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071629166-pudra-tsukrova-dribnogo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v__RGobkHcACXKk5hxluAK3xp_ORVP5D5nQCSwyV6kg=/5296335835_pudra-tsukrova-dribnogo.jpg',
+    ],
     availability: 'in stock',
     price: 70.0,
     product_type:
@@ -27194,8 +27696,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2071638629-pektin-yabluchnij-upakovka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2071638629-pektin-yabluchnij-upakovka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1JfuYJ5lUVkxhY5jNJPmE9Nk0wA0QHf20Zw9HxWCjFA=/5296358410_pektin-yabluchnij-upakovka.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -27212,8 +27715,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073050477-nabor-saharnyh-ukrashenij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073050477-nabor-saharnyh-ukrashenij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e92VMBb6ajOCS14BcwfxCr1dOIZS4gJtkVuD4jumWc0=/5301376337_nabir-tsukrovih-prikras.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -27232,8 +27736,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073052664-nabor-saharnyh-ukrashenij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073052664-nabor-saharnyh-ukrashenij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tmEztGyecuS67xb-cXRa3Go7zieMgXniwj1yEe-ESWY=/5301384561_nabir-tsukrovih-prikras.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -27251,8 +27756,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073064032-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073064032-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AWmemay2mJgXas1eUOooH-EKVV4TFiUDJ9eAXEuuo9c=/5301428647_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -27268,8 +27774,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073065118-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073065118-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mvERqHj2LZN2gwmNrItyRxC7RJoyEXGphwYNTpypqdM=/5301431575_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -27285,8 +27792,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073065460-tsukrova-prikrasa-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073065460-tsukrova-prikrasa-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WzfQcQtusdAIru-52QczZRtfHrfUB3dO1sWg8ZXyQa0=/5301434099_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -27303,8 +27811,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073100902-toper-tortsevij-najkraschij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073100902-toper-tortsevij-najkraschij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gvMfFdYMb-P6YkUOni3Eo8UM893Wi27hOwbIqHpmwtE=/5301656236_toper-tortsevij-najkraschij.jpg',
+    ],
     availability: 'out of stock',
     price: 45.0,
     product_type:
@@ -27327,8 +27836,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073120604-toper-tortsevij-nash.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073120604-toper-tortsevij-nash.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2mCrADztQnnX3Sqind3tApy90zgRrHjqyo4QF2CKd1s=/5301759511_toper-tortsevij-ti.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -27351,8 +27861,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073122343-toper-tortsevij-vidchuvayu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073122343-toper-tortsevij-vidchuvayu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dA2R9wfEMB6OzMWscH31F6uYFYot4SrDiRDD7Id-RRk=/5301765007_toper-tortsevij-vidchuvayu.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -27375,8 +27886,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073123086-toper-tortsevij-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073123086-toper-tortsevij-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cM_HoRmAXhuKuUaotTmg3CscyWcohKBUDc6hhs_O688=/5301771523_toper-tortsevij-z.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -27399,8 +27911,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073123212-toper-tortsevij-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073123212-toper-tortsevij-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BM-c-kKd6uiaci_RXov3UAqRbJIa8E_4TdDblkaKJgU=/5301776284_toper-tortsevij-z.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -27423,8 +27936,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073123828-toper-tortsevij-lyubij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073123828-toper-tortsevij-lyubij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RqY12c8v1_yLKRWUgLXzuo856qytptIvNWecW7-CXtI=/5301785786_toper-tortsevij-lyubij.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -27447,8 +27961,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073125275-toper-tortsevij-plastik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073125275-toper-tortsevij-plastik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yc22cUaDpTCZzRphak1bZ0rUCyUoA_asPK1_LLx1mvM=/5301792708_toper-tortsevij-plastik.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -27471,9 +27986,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073126437-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073126437-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JSQaX_Jlw8qw-pMlq6oYqgS5Auz3odT4om1GqYGGgsQ=/5301804141_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/XgGqGMLAVrSpT4tLXfmK9ej4XNxhINpaxL_8qo4T5ts=/5301804186_konditerski-tsukrovi-prikrasi.jpg',
     ],
     availability: 'out of stock',
@@ -27494,8 +28008,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073128352-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073128352-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ibZbj9r2Z7tfvd2Z0C4AG2VeMVyxPSu1chcG-Q5RGEM=/5301816659_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 65.0,
     product_type:
@@ -27514,8 +28029,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073134472-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073134472-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 240.0,
     product_type:
@@ -27538,8 +28054,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073136362-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073136362-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 165.0,
     product_type:
@@ -27562,8 +28079,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073138957-nabir-dvostoronnih-virubok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073138957-nabir-dvostoronnih-virubok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3pCmtSrRklibihtsU8TjPSsBm9xvOO8Nrvef73RW37Y=/5301850312_nabir-dvostoronnih-virubok.jpg',
+    ],
     availability: 'out of stock',
     price: 60.0,
     product_type:
@@ -27590,9 +28108,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073145148-vishnya-koktejlna-zhovta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073145148-vishnya-koktejlna-zhovta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5bxjiXNPi3h4IJn71ZNCsPBJzu46w-_A2zbXOeleAgg=/5301864086_vishnya-koktejlna-zhovta.jpg',
-    additional_images_links: [
       'https://images.prom.ua/EReMiG4MZFTQvbgudYMEUB63IZEcJJDgTHsAjVCBhjA=/5301864104_vishnya-koktejlna-zhovta.jpg',
     ],
     availability: 'out of stock',
@@ -27611,9 +28128,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073146895-vishnya-koktejlna-chervona.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073146895-vishnya-koktejlna-chervona.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/G6lcP0aq0-QG9yZZvk87_13h_dfBtaDeEhAryFZKUCc=/5301865759_vishnya-koktejlna-chervona.jpg',
-    additional_images_links: [
       'https://images.prom.ua/iUIFzREVO8OgYvPyGgi7T1SWdNngu5I_bnwZoWxHPcI=/5301865765_vishnya-koktejlna-chervona.jpg',
       'https://images.prom.ua/pYraQn6HEYmgleYo7L2xexJksjX_3AfYM2WfCT65wds=/5301865768_vishnya-koktejlna-chervona.jpg',
     ],
@@ -27633,8 +28149,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073148404-koritsya-tsejlonska-spravzhnya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073148404-koritsya-tsejlonska-spravzhnya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ik8hcSG1e9IGQxjERLmaXADjBlGsj7e2oKmT2EkQjKQ=/5301876187_koritsya-tsejlonska-spravzhnya.jpg',
+    ],
     availability: 'in stock',
     price: 70.0,
     product_type:
@@ -27651,8 +28168,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073164025-karamel-palichtsi-topper.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073164025-karamel-palichtsi-topper.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HVMxP72bctY15nAmYFKG4Dd17ZK3O8QKvaSMBM_MH4s=/5301919327_karamel-na-palichtsi.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -27668,8 +28186,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073656904-mama-oleniha-shokoladnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073656904-mama-oleniha-shokoladnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lnP4eaxnZHfg97mgc-rQQ1CpecRVIVvSuJBYsTacn1M=/5303969806_mama-oleniha-shokoladna.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -27685,8 +28204,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2073657785-mamontenok-shokoladnaya-figurka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2073657785-mamontenok-shokoladnaya-figurka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SOpd4Tp_IH2gD2xDNqV67gAjj7YFlGIWuySLZl6GLpc=/5303976255_mamontenya-shokoladna-figurka.jpg',
+    ],
     availability: 'in stock',
     price: 193.0,
     product_type:
@@ -27703,8 +28223,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2074322447-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2074322447-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Qj-NQEx2g2x6kODZzfIKrXgASqcB9eWD7FRDuCFzz-M=/5306280852_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -27721,8 +28242,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075283489-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075283489-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/p26RXHuIZo_JX9zDsoCWxya4mpvmg3I_ZzDkHHYLXmE=/5469712295_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -27741,8 +28263,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075285326-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075285326-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R1rw7tHzCiVRlS6JIBLc_6HyYZsYSH8crgcRDHiieFE=/5310122127_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -27761,8 +28284,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075286169-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075286169-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pTHPDc7BX7W5Tp5F58RasHx0mqMTD9pp1JJ2gqF9d2E=/5310097442_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'out of stock',
     price: 124.0,
     product_type:
@@ -27781,8 +28305,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075288184-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075288184-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_UuFPWvxkbViPJO9q51AgipUMDae84TTCs-KCd5XRRU=/5310102433_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -27801,8 +28326,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075289493-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075289493-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ScZ0_1JuyP05Bizaym13M1pQtXiv364uQrEdmixqO8A=/5310105829_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -27821,8 +28347,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075290167-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075290167-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D8hadk3xNFA4hQS948ZeOXTPQIX0qoVBq_FHoSMAhLE=/5310111261_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 126.0,
     product_type:
@@ -27841,8 +28368,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075291914-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075291914-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/E_VIb3VrJp1K_q6QDNiNBivypbbHRSbw6moKwGg2P88=/5310115025_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -27861,8 +28389,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075295683-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075295683-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Nk1i727-HQgtS46gGk3VecyhKoffBXUCCGS31KUdVj8=/5310134421_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -27881,8 +28410,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075296050-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075296050-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NQ9E9s1zpDtyH6OzrfKqEIkBlaHJPJjEHNiwekwD0c4=/5310139254_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 125.0,
     product_type:
@@ -27901,8 +28431,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075297398-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075297398-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JLl-LhjWmgO_W1yLKrIdwokkGf6z9aqOIw3G1CtR4XA=/5310150814_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -27921,8 +28452,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075297856-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075297856-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8KGHxZFNdTZKP2FyWLQtYIAstfzndBxCzreKpaFrlxY=/5310154871_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 118.0,
     product_type:
@@ -27941,8 +28473,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075299678-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075299678-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v9cs8qAdo8NY6hhuW_iMBaKnv5yPvpxLfJ9BBgVb07c=/5310162326_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -27961,8 +28494,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075301477-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075301477-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j5Z1McbwNzCKJn8hOgB9bGMwkT6wQ2ZnB2K3Dt0tGmc=/5310166741_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -27981,8 +28515,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075303304-ukrashenie-tort-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075303304-ukrashenie-tort-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/El--zkKavsBbKdvZonDfD0WUfsl6sY8zBFcDHxdBIbY=/5310175625_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -28001,8 +28536,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075304729-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075304729-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c_W_V52EmeH49yN8rGOxv68sH9H4rvKbHRwq40f_DYY=/5310185474_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -28021,8 +28557,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075317908-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075317908-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZTmYr-y5xzDoZFi1-geKcDwmYX0B3ufz_OKoUot_4uQ=/5310237907_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -28041,9 +28578,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075343113-agar-agar-1200.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075343113-agar-agar-1200.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Nm5LP81Oqfh2L2mglevh1y7uC4xBqvZXGWAQfqnABGI=/5310339679_agar-agar-1200-pakovannya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/w_IHSzHEHkkwyr_RtUav3NongJVCQnjPEKB9pdIypyc=/5310339680_agar-agar-1200-pakovannya.jpg',
     ],
     availability: 'in stock',
@@ -28062,8 +28598,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075346439-psillium-poroshok-lushpinnya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075346439-psillium-poroshok-lushpinnya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SsoiQnMK7p_oxGDQkGs-tzT57ZOWSAYXsww3_DMdr0c=/5310351048_psillium-poroshok-z.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -28080,8 +28617,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075789765-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075789765-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/b0OLEenKt4oOBmYBvsJPSluMbgY2g-9W1nAGKy_Bosw=/5312163492_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -28098,8 +28636,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075790831-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075790831-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5gQ7AfL2WJ8Y50hEAOFL4WK3RYX1cEIdMtfeLTOB2BI=/5312179849_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -28116,8 +28655,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075793101-tsukrova-pudra-bez.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075793101-tsukrova-pudra-bez.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dwpT3uXpNJyLc2zLI286_TX-tLnb0ZSL0lBo7nK5DL0=/5312206343_tsukrova-pudra-bez.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -28134,8 +28674,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075794253-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075794253-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eqrQ91oShLDIn0izc487IgrhX0Q8Qhdg_y5M4q0_pHI=/5312218949_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -28153,8 +28694,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075796763-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075796763-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fEO4nkIssUaR9V5SthjcLMQMtttgq_xNyN1Q7QG5xkQ=/5312251459_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -28171,8 +28713,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075798512-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075798512-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/npU5Pmez-cAXAPQirr3O_0vcEQ7ajpjyJ3aVX_7YSqY=/5312266105_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 75.0,
     product_type:
@@ -28189,8 +28732,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075800655-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075800655-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YjTLglQHR5E1I2AOtllAN7RPLeS4qMFv4t0wuJaVm2w=/5312276834_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'out of stock',
     price: 80.0,
     product_type:
@@ -28206,8 +28750,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075806285-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075806285-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LXZv8RV4p-onRfuuCQUVAizzwWCv-ZR81krwudscYvs=/5312332951_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 96.0,
     product_type:
@@ -28224,8 +28769,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075808794-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075808794-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Wu63Hlo5pl4-k_faiXLk1zsrRZpXj9GBlLEZdbrIoRo=/5312370084_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -28244,8 +28790,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075809724-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075809724-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vJH8fscQMkZhIEVPHbI6PvF2jh4dxpYP3AAXENd3Bxc=/5312384215_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28262,8 +28809,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075810009-saharnaya-posypka-miks.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075810009-saharnaya-posypka-miks.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j2eEISx-S9rEyCg_v2EhsqlwJ-c_b3enDZZVZw6LIhk=/5312396494_tsukrova-posipka-miks.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28280,8 +28828,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075810131-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075810131-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0WIEr6IBEEeumdQ1zc-osIqhEHsP7ZZRRUoRWhMTAN8=/5312405422_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28299,8 +28848,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075811206-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075811206-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hKGaDRLQrA93crjiokC59QOv_LagmBQuuCRZF3Tfo_E=/5312430180_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28318,8 +28868,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075811386-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075811386-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dR3mOm1CWlRq_vW1LHBJ6EJ0Z2SdztRCTEyLZKlZMDI=/5312439428_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28336,8 +28887,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075811549-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075811549-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pqievteBHobfeVTX-kaS6jO8SCQbaQjY2CFh5OuGKz4=/5312449188_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28355,8 +28907,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075811901-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075811901-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jTu_iukwdNh-mWJwDXqeS_0T4zGrc2Nrtr4VrVIP-dQ=/5312457002_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -28374,8 +28927,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075812323-saharnaya-posypka-zvyozdochki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075812323-saharnaya-posypka-zvyozdochki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/j5ASCCsyZlo93cq922544_paRXMJWq2mklzCIwCKKWg=/5312464815_tsukrova-posipka-zirochki.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -28393,8 +28947,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075814897-saharnaya-posypka-serdechki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075814897-saharnaya-posypka-serdechki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OOKLYyH4tL5vRRbJ0wg8HM8fDlJN9vVi5C-uFOYTWoE=/5312473101_tsukrova-posipka-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -28412,8 +28967,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075819495-bumazhnaya-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075819495-bumazhnaya-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GdDYXMViFJ8W_8b8H6Q4_VaTfEhH7K4vz0WgytkCEcM=/5312501534_paperova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 3.0,
     product_type:
@@ -28431,8 +28987,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075819545-bumazhnaya-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075819545-bumazhnaya-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/USCxMJwnkYxrjIuR4SKka9ywAQs3mwTdBTsxk-m0PlY=/5312504592_paperova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 3.0,
     product_type:
@@ -28450,8 +29007,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075819945-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075819945-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GYeHG1xhfw_ce2l3VBWY6blvwSvFMx4tpwORTr-b_d4=/5312512241_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -28467,8 +29025,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075820046-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075820046-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mRw3pD5YGN_SvygKXOsxpBGpUyEdli6my3TSZAeNU2g=/5312519812_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -28484,9 +29043,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075822220-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075822220-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IZMJ9Mb7PTBO13Wy0npKpUoZf-vFYDowQRzPHJ16vNk=/5312531649_shokoladni-sferi-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/bXwhh1SCGnUcew4TJ9g8Eq5D7j_BR2AYtJV-nPROrUU=/4576356485_shokoladni-sferi-na.jpg',
     ],
     availability: 'in stock',
@@ -28504,8 +29062,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075828183-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075828183-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/g60olP2nugoB_hdz5rR8tA7kygsWekwhLmHUJyIENbM=/5312568096_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -28521,8 +29080,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075829925-saharnaya-posypka-zvyozdochki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075829925-saharnaya-posypka-zvyozdochki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NKvghF5WyqGS7QTYaEgAPjWvGsk36Z02UFxvfoA6cSU=/5312576327_tsukrova-posipka-zirochki.jpg',
+    ],
     availability: 'in stock',
     price: 10.0,
     product_type:
@@ -28539,8 +29099,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075888124-svechka-fejerverk-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075888124-svechka-fejerverk-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wKYkirK0Hq8mosxjvGPWbvazaGWDXqdnlaRxv9kpI-0=/5312816775_svichka-feyerverkiv-u.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -28557,8 +29118,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075889200-svechka-fejerverk-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075889200-svechka-fejerverk-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kx1BMomkOvo-JSSBtI2_zZulBlXViO4JGBo_tN0MZrI=/5312819390_svichka-feyerverkiv-u.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -28575,8 +29137,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075889758-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075889758-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VHT9qCmBiZUAv55XwXr-i246rn54rPZdxz3oyjlpTIw=/5312826645_svichka-tsifra-0-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28593,8 +29156,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075892370-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075892370-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cYxxvTlgyIXLObJnu0gEPlowFg5FCi3WrXImgRrlgnA=/5312837278_svichka-tsifra-1-na.jpg',
+    ],
     availability: 'out of stock',
     price: 20.0,
     product_type:
@@ -28611,8 +29175,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075892921-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075892921-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/esdeo4Jo34ZRlCvUutvnBKoyhe1gNgrr8Dk4RFqYJWQ=/5312837997_svichka-tsifra-2-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28629,8 +29194,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075893223-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075893223-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fyXAmRx9MubQvyOcESwbvbJDUxuIWtcTQj7qPvB0PqU=/5312838723_svichka-tsifra-3-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28647,8 +29213,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075893257-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075893257-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cl_zwJiWLWOOePNX-GzvytaelBN4Yqji9jWXgWCJTnk=/5312839563_svichka-tsifra-4-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28665,8 +29232,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075893986-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075893986-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AJLfjyaHJODQGcLoqAFpauO2u5x74LjJBhDBnsTfDsQ=/5312840379_svichka-tsifra-5-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28683,8 +29251,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075894288-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075894288-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DqUELTEJ1diuPpzq1jVR37w5EDc-heTfA87u_OUaYYY=/5312841101_svichka-tsifra-6-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28701,8 +29270,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075894330-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075894330-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JiQm-Xdij0uK8QL5BJLefN_j4yzNoOjx1aVu4ueQSEg=/5312841903_svichka-tsifra-7-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28719,8 +29289,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075894621-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075894621-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/INT1qyR4eQMaCSYd3HiMfGexUr70uXOBNTV_HTQnQMY=/5312842564_svichka-tsifra-8-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28737,8 +29308,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075895166-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075895166-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vum1sNkX8apx0hn45bipPrMg4NP3EYP5ckFJgNiKmb4=/5312843112_svichka-tsifra-9-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28755,8 +29327,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075902602-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075902602-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VHT9qCmBiZUAv55XwXr-i246rn54rPZdxz3oyjlpTIw=/5312826645_svichka-tsifra-0-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28773,8 +29346,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075902973-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075902973-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yuDmAFWh0hkyPh3nMJNF5F_UGdowoKkz1lzRbf8zySc=/5312894052_svichka-tsifra-1-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28791,8 +29365,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075905773-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075905773-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/esdeo4Jo34ZRlCvUutvnBKoyhe1gNgrr8Dk4RFqYJWQ=/5312837997_svichka-tsifra-2-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28809,8 +29384,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075906082-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075906082-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fyXAmRx9MubQvyOcESwbvbJDUxuIWtcTQj7qPvB0PqU=/5312838723_svichka-tsifra-3-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28827,8 +29403,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075907353-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075907353-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cl_zwJiWLWOOePNX-GzvytaelBN4Yqji9jWXgWCJTnk=/5312839563_svichka-tsifra-4-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28845,8 +29422,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075910640-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075910640-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AJLfjyaHJODQGcLoqAFpauO2u5x74LjJBhDBnsTfDsQ=/5312840379_svichka-tsifra-5-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28863,8 +29441,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075910987-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075910987-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JiQm-Xdij0uK8QL5BJLefN_j4yzNoOjx1aVu4ueQSEg=/5312841903_svichka-tsifra-7-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28881,8 +29460,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075911648-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075911648-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/INT1qyR4eQMaCSYd3HiMfGexUr70uXOBNTV_HTQnQMY=/5312842564_svichka-tsifra-8-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28899,8 +29479,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075912314-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075912314-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Vum1sNkX8apx0hn45bipPrMg4NP3EYP5ckFJgNiKmb4=/5312843112_svichka-tsifra-9-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28917,8 +29498,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075912663-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075912663-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DqUELTEJ1diuPpzq1jVR37w5EDc-heTfA87u_OUaYYY=/5312841101_svichka-tsifra-6-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -28935,8 +29517,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075916252-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075916252-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qMuvc6FBq_eeXtJYU7_xpEz7gbdk1mQAeSfqKoKFGMk=/5312896997_svichka-tsifra-1-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28953,8 +29536,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075917211-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075917211-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zKCwszHcBZ2IXEpT0YoDxTZXpl_-fcCNfVlWVH32x94=/5312899287_svichka-tsifra-2-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28971,8 +29555,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075918373-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075918373-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iCmAgRs3M5zrE8AFb6oEGSr-DcgkqQyctZt9741Dcgc=/5312902645_svichka-tsifra-3-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -28989,8 +29574,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075918662-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075918662-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8zB1-roBq4ilpeHLcD1d4_m_XvJzG6gDZOC05Jq92uU=/5312904074_svichka-tsifra-4-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29007,8 +29593,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075918914-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075918914-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dOGOXRj1Yx0LL8PV4ItK1ajZzmuHVae1NQlAdDmq-i4=/5312905727_svichka-tsifra-5-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29025,8 +29612,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075919133-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075919133-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vLrv8ZxP_6dkb6LtRGAxNcsQOIKYf_Ab1jLUZS_hz_c=/5312907094_svichka-tsifra-6-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29043,8 +29631,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075920027-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075920027-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ha5gBxt5grBSHELk9lOh0mUqi7LQob2pnWCGwUZQVrI=/5312908459_svichka-tsifra-7-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29061,8 +29650,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075920844-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075920844-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YLwJEm9rWXVs07l786yJqyhdCWE4_yC6p1CD9FH-9NQ=/5312909604_svichka-tsifra-8-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29079,8 +29669,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075921636-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075921636-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Brw-W3ZEJApOpGtdvodpZ3V5YfQToWBWYwV4C_QNU-I=/5312911112_svichka-tsifra-9-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29097,8 +29688,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075921862-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075921862-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eZL_RmOw7G-7jDSv-sMH7dJM5oAG2yWmHYG5F1P6aS0=/5312912339_svichka-tsifra-0-na.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -29115,8 +29707,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075931287-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075931287-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vTm0rKtVYkR1C-W47Ko0RiZvIdaxVwPBrLYKJWEibMI=/5312933202_svichka-tsifra-1-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29133,8 +29726,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075932150-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075932150-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nNmOZy_EXclR3pmCGtp-bSWByPms40-XB6JvdXWrZCU=/5312935031_svichka-tsifra-2-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29151,8 +29745,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075933558-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075933558-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y_HnDqxbpd9mOsHz5A_U1eIFKss192Z9zDnkZaaibD8=/5312940861_svichka-tsifra-3-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29169,8 +29764,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075933582-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075933582-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WzpOk8S3DD8uzka6nu9d23pfSDwZb2MlMYHokef5YF4=/5312942262_svichka-tsifra-4-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29187,8 +29783,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075934456-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075934456-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fba5qGG0XnVX6WTIjY7noxQuVCMEOdP9LBR28NQphhA=/5312943523_svichka-tsifra-5-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29205,8 +29802,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075935245-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075935245-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2cOoQHGlwWx7IDqUUx3ASbHxUE44joeb45bV1--3LGA=/5312944719_svichka-tsifra-6-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29223,8 +29821,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075935576-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075935576-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/npkotzCe37UZrJnKzlT100XQgGHk-Lbaxru0W7Gl97w=/5312945915_svichka-tsifra-7-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29241,8 +29840,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075935595-svichka-tsifra-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075935595-svichka-tsifra-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hToWi-ZLEW-JPztUFt2PXU0UvCJR_UDk4JFU7Xuz7js=/5312947344_svichka-tsifra-9-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29259,8 +29859,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075940605-svichki-bukvi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075940605-svichki-bukvi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uMHvQ6a319Yck8V8g66QlpquJeQf7W0JnxUpImxiqmk=/5312967124_svichki-bukvi-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -29277,8 +29878,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075944007-nabir-svichok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075944007-nabir-svichok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CjjyjzOFm0MnYjMSQvi-LeALIFB7-6oZvOZ5nzJ-Oao=/5312974833_nabir-svichok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -29295,8 +29897,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075944283-nabir-svichok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075944283-nabir-svichok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vQYok2tYnEnmwMU0Jdr7avxYfwPBAXh0bGzNSqeZyw8=/5312976959_nabir-svichok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -29313,8 +29916,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075947415-hvilyasti-svichki-kolorovi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075947415-hvilyasti-svichki-kolorovi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RxktzXZFozuAcr-8OwJrwSf7j4aNHpg0OG_mZjV8HX4=/5312987427_hvilyasti-svichki-kolorovi.jpg',
+    ],
     availability: 'out of stock',
     price: 42.0,
     product_type:
@@ -29331,8 +29935,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075948940-hvilyasti-svichki-chervoni.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075948940-hvilyasti-svichki-chervoni.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JA45nftysZTz-Fb7skLC2MSjNGwdpNmkQHaauwcSocE=/5312994598_hvilyasti-svichki-chervoni.jpg',
+    ],
     availability: 'in stock',
     price: 42.0,
     product_type:
@@ -29349,8 +29954,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075949766-hvilyasti-svichki-bilo.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075949766-hvilyasti-svichki-bilo.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fL37EmkQyolMspDxEXQoQODSVWJiJhBkqx_67bhsUAc=/5312996420_hvilyasti-svichki-bilo-chorni.jpg',
+    ],
     availability: 'in stock',
     price: 42.0,
     product_type:
@@ -29367,8 +29973,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075951594-hvilyasti-svichki-zoloti.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075951594-hvilyasti-svichki-zoloti.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/479ocOb32Aabp0ssG0ZtyD812tRTqWLLzE3gIJbQw6I=/5312999090_hvilyasti-svichki-zoloti.jpg',
+    ],
     availability: 'in stock',
     price: 26.0,
     product_type:
@@ -29385,8 +29992,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075951860-hvilyasti-svichki-sribli.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075951860-hvilyasti-svichki-sribli.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SRehxSUsPGvFvmXnZpk_VjsgxHiMv1YrckHM0WTHMGY=/5313000636_hvilyasti-svichki-sribli.jpg',
+    ],
     availability: 'in stock',
     price: 42.0,
     product_type:
@@ -29403,8 +30011,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075954719-nabir-svichok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075954719-nabir-svichok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zQp-gYMkXJVkDNSgPyU4k5xSBco57wqyYMZyP_QxMho=/5313009185_nabir-svichok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 38.0,
     product_type:
@@ -29421,8 +30030,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2075956778-nabir-svichok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2075956778-nabir-svichok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5IjwRAJmSJBwjhO_ZUNKn8mYjB7jeIftEcI_8T2DiOA=/5313019834_nabir-svichok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -29438,8 +30048,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076381464-paperovi-mali-tartaletki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076381464-paperovi-mali-tartaletki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4kl56J4TBMS6N93ylFASJTztGyGMvNRweqNBeOHH4wU=/5314788800_paperovi-mali-tartaletki.jpg',
+    ],
     availability: 'in stock',
     price: 18.0,
     product_type:
@@ -29456,8 +30067,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076385715-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076385715-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0YCHUzGVlqsUQKINqAYEbvfdAsumz8oFfaLo87BBmkI=/5314799514_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 108.0,
     product_type:
@@ -29480,8 +30092,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076388252-plunzher-miks-dekor.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076388252-plunzher-miks-dekor.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6UUiSswEy2DDjWbNw9kYf_Txb86nakbd5MBKUGSZ9QU=/5314812347_plunzher-miks-dekor.jpg',
+    ],
     availability: 'out of stock',
     price: 76.0,
     product_type:
@@ -29509,8 +30122,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076393061-toper-plastikovij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076393061-toper-plastikovij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AYnxVP8sC3ki5da3HIvzPjTaAuu81Serr13Aqt7PXJY=/5314826096_toper-plastikovij-happy.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -29527,8 +30141,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076394969-toper-plastikovij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076394969-toper-plastikovij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C62C-ROC0bdRViheYgkDog9Q0HxVsOwrPo7z-1tgGlE=/5314832965_toper-plastikovij-happy.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -29546,8 +30161,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076396008-toper-plastikovij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076396008-toper-plastikovij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eZNZrX9PqBsGp5IlsDlSgbp7Gmr-wIgbSBcBMz4d2ws=/5314838854_toper-plastikovij-happy.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -29565,8 +30181,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2076397687-toper-plastikovij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2076397687-toper-plastikovij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YiGOUqeGKK8M4mZLRNjvdCJebw0yKTPPGjPrVbw9X9U=/5314843902_toper-plastikovij-happy.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -29583,8 +30200,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077862784-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077862784-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/E0cNdS0X-Q770wQsie2qK3qlAqNvW-Ac4VHbfnZkwp0=/5320715502_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29600,8 +30218,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077863780-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077863780-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Alv_mn9vNxWddNjD3bDxpvTDRHplyFFHbkosM5h3KnI=/5320717338_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -29617,8 +30236,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077864460-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077864460-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/SjztPKElgjdZvzhy6E5uovr5Pw1-xIHbboDiK0sqgdA=/5320718151_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29634,8 +30254,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077865519-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077865519-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/saenGidXMn6tX9FrHk67JL3F51yhgHk99WpblMeEEq8=/5320720472_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29651,8 +30272,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077865577-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077865577-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y6laiSnAFdS2TXpWLbYpeoSstQ72MnbeFxqbrZwR2DE=/5320721138_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29668,8 +30290,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077866264-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077866264-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IRvmrv4ZhGk9TaHVUTVPACTYdhAqVfUM2Quh8_MR64c=/5320722741_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29685,8 +30308,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077866613-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077866613-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9h11IfWyKK7DMrTl07QMvHdhzsHY-7mXDwfY9TV6Zm8=/5320723319_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29702,8 +30326,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077866800-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077866800-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XJGxqS9TFdIiPTTMgdVt5JXb0VM-ePav47Vh4e8swP4=/5320724270_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29719,8 +30344,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077867102-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077867102-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DpdL0JmxuVQVYP6KuxwZwKcGbe4ML8jMUGKbIQlsr2Y=/5320724816_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29736,8 +30362,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077867244-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077867244-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/n1B9-5KqzV7T4QtLNY0LZxciG4Hq2L3cBR-RLVQzu8c=/5320726031_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -29753,8 +30380,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077867557-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077867557-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JCjkVo6N8hqXUnMhsdAqlPENPbfWGDkr0F5KP9ZNlb0=/5320726903_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29770,8 +30398,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077867846-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077867846-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GmxI85IOL9Do9npB1GP0cDIXuZPBvSKci3BlyWTl8Zs=/5320729081_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29787,8 +30416,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077868081-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077868081-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tllL7bxgc3NMS2Bug20tdOgAKsbyFG6Ao54-nb2oC-s=/5320729746_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29804,8 +30434,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077869118-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077869118-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uOgGzMLVVnglbEcmxOD660oGbmupmA5MW9uhfNwIKZY=/5320731119_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29821,8 +30452,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077869423-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077869423-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sx_VKihpuVcMVOdJlNhuXfvmYd095cAOWCGhH9soHfI=/5320731779_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29838,8 +30470,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077870045-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077870045-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xcLMna3cXrikZkC4Ibz53dTnBksEPBztEILVx-NerPo=/5320732569_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -29855,8 +30488,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077870394-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077870394-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kULpfQZ6NqYpN6q3QjyIuR2bjiEcpvP7lEu-AXSW_UI=/5320733445_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29872,8 +30506,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077871000-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077871000-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bEJ61nk27vbEnysbjfijjSCaJ9uQnvfTFKQucRczUX0=/5320734567_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29889,8 +30524,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077871207-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077871207-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_roVB7Drm03wnzNm8jxVSqnH8lNKn-qOndfI7fUTqYg=/5320735445_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -29906,8 +30542,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077871440-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077871440-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7yZLaku4HjiemsOh2TtsFoTzqDm9YAP9GgaVE15Ih1U=/5320736480_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -29923,8 +30560,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077871933-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077871933-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X2GpFLECC8yD2oDeLkA817oI4P9988D0aGWDRJ33ZQM=/5320737778_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29940,8 +30578,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077872239-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077872239-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TdrjfDmBhan3vzx5SYk46x1htSwA4N7Lg1_RViL7h10=/5320739051_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -29957,8 +30596,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077872300-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077872300-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0DAjoevC6bZN6zwg-I7Ddi6eE7_uMXKXhfA5AF02dT8=/5320739848_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29974,8 +30614,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077872586-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077872586-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D2-RQS3X33-_Bjn-x36miZYEHnOcaXroDLKIAs6IJio=/5320740582_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -29991,8 +30632,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077872624-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077872624-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9huXReLobnr4ObZhR8NaZR8eSbEVbFZRW04Sv_3nQZ8=/5320741233_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30008,8 +30650,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077873032-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077873032-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4oLG-vUsq1UZitt-AsoqsOHB20RIwoM0Xh6fNpLT4Bk=/5320741989_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30025,8 +30668,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077873305-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077873305-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oK-W5QuvtyhAdCgqlEWDi3UgPeYLXloZvfM2irXaogI=/5320742774_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30042,8 +30686,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077880035-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077880035-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0bJxz4EBfIsXE5uYc67kOtjAOHjTi524UINexD2_zik=/5320760983_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30059,8 +30704,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077881024-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077881024-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dIiVP2G5JqhSVevmouf77sTH3sbfVvB4ennv7OrNjP4=/5320762803_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30076,8 +30722,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077882154-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077882154-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_sC7cWPZzM1Y_wDkzgcFUSM7-TXmM4dHQhRrjOk76JE=/5320764766_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30093,8 +30740,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077882486-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077882486-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AcXOEut_AzsrJLK_ZC4VM9BkBFvkZKlPCfDC6b9IwMU=/5320766117_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30110,8 +30758,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077882764-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077882764-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UEF9SfRP4gaxdktdwQpJVNshpCnwlMlpab9erYsHu7Q=/5320766768_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30127,8 +30776,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077888219-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077888219-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TyPLytE6HB20UBgKfKGtllwxUb9XYddOopDearwTRTc=/5320782036_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30144,8 +30794,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077889527-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077889527-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0xliLQHfftwNok9YLA5FnUH6x5L0G9Xsp7z3pvkROnk=/5320787388_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -30161,8 +30812,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077889569-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077889569-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qNABKi0W1ky-7HNTGu7GRWlMxpLdTvB0nPzqOWXG5hY=/5320788687_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30178,8 +30830,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077891579-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077891579-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pM6Z54fPYgBmaScnnkAekFtEbdXDlBE2w2jggufwSqw=/5320797114_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30195,8 +30848,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077891953-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077891953-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Dbzh4ux44wcItt1lRxwAAtPLdYiNFcLW4p7oFyEnnU0=/5320797880_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30212,8 +30866,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077891998-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077891998-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pKeATy_YKrUuQcG12OseKFmDV92KH3MuS8HMm7uvl5s=/5320798944_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30229,8 +30884,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077892430-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077892430-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xVy_SJGzNv-k667H1rG_Iuc9j8OdjYvba-yE5SYaR30=/5320800812_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30246,8 +30902,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077892979-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077892979-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/b2HLFVwepu_3xrjpD6FO3HMlWZWmgq-TGQT_zQsJh0A=/5320801553_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30263,8 +30920,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077893687-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077893687-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XG5KxbKx5xdphmxYmkf70Uyu_9YXNQcLNp7kV91PgEg=/5320802544_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -30280,8 +30938,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077894503-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077894503-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kiFRpKZ3VS4xXhjmBkrPwSA-11CE1PHyl0y4cVGUPk0=/5320803580_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -30297,8 +30956,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077895533-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077895533-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/p0okC5vqYrb35ahYJ6pJ-bnRCs3bXPVmltF4N9QLrvg=/5320804888_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30314,8 +30974,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077895838-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077895838-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jXdJ6ZuyOoTZ8cjz1bpB26F1z2UBDJFAVvRLAZAu3oA=/5320805900_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30331,8 +30992,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077896065-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077896065-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1df5wpicEoYxuvz2AjBlmHbXRFDXkpgzueo0S5fXdD0=/5320806611_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30348,8 +31010,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077897160-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077897160-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VN2R9cRCo89Hqn6kG6nkTADL09Pr22gzy8yAds5HBxw=/5320807984_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -30365,8 +31028,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2077897460-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2077897460-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RpqABlkeJlG7iaxTi5qGmSFhymCn_PS2jcxRcGGbP_g=/5320809274_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -30382,8 +31046,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079052101-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079052101-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hnk6JGWNpvq6avi6QAPNgpQnAnIWgYTSNJEhqI4PPdo=/5325126036_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30399,8 +31064,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079052478-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079052478-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sIV_ALod4KdtvWMP32I5jI3epky7SLVZg5SR1ml0PZM=/5325127394_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30416,8 +31082,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079052845-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079052845-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dbJcQKT2TOLIta35qnk7zNqjB7_sehRy05SAtg80ArU=/5325128617_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -30433,8 +31100,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079054095-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079054095-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/N1HRlQgAFcOPgfVFVAmIsTbT7VqEitu-4I5-qcoZUF4=/5325129749_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30450,8 +31118,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079055070-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079055070-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fUZ3NN6rFuxCmMCCVxNWjl_srsYfaJgM7_gFDXw18Gk=/5325131814_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30467,8 +31136,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079056539-vafelnaya-kartinka-robokar.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079056539-vafelnaya-kartinka-robokar.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gP1RRl1EIKKe2quHJbKUTDpbPxtI6GUSPlcIb9vUqUk=/5325137866_vafelna-kartinka-robokar.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30484,8 +31154,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079057682-vafelnaya-kartinka-robokar.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079057682-vafelnaya-kartinka-robokar.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lXfabDb8672tEGe7FDqC1xrTfIgZ73GP7bnKghn11VA=/5325139750_vafelna-kartinka-robokar.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30501,8 +31172,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079058203-vafelnaya-kartinka-robokar.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079058203-vafelnaya-kartinka-robokar.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QfBjsy4Qs2LVA3eG98eP0wQoY7cR3WEI5tpnY2KwkGQ=/5325140667_vafelna-kartinka-robokar.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30518,8 +31190,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079058519-vafelnaya-kartinka-robokar.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079058519-vafelnaya-kartinka-robokar.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lZ11KcsgMMZPirOHHXQL_lZ2UVnU_t3pE7VhXiRBJyM=/5325141514_vafelna-kartinka-robokar.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30535,8 +31208,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079058884-vafelnaya-kartinka-robokar.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079058884-vafelnaya-kartinka-robokar.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-NCisbake0Fn7Skf6dlFlyf1fk-VTxBQt_lbVEPgilw=/5325142648_vafelna-kartinka-robokar.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -30552,8 +31226,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079060878-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079060878-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ks0JKayV6AAXX8-_Wk5yZ0ip8cwv4WQ0LC3b6tu5iPU=/5325147276_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -30569,8 +31244,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079062081-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079062081-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/U_M_nLheiRki3LBHQ-SMMkojz3sdUp56uT2H5NVkjwI=/5325152262_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30586,8 +31262,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079063060-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079063060-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7i4NTAfRNm2Frdvjv3fYeLmwc2dlcpPpaG4RYBCO378=/5325155213_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30603,8 +31280,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079063338-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079063338-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Irb1RV8p7ALldUFos1GT-_svPLf0nWiWe8cdAdrgX3o=/5325156524_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30620,8 +31298,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079064223-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079064223-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CD7q0t5RwVPg6tXyYBXNVspzjEENO-xgt-zP212s02A=/5325157810_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30637,8 +31316,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079064612-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079064612-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mrY9uaVfPl7HqL15n5QH2e7Gsbx-gYxF-KjMwfWo3hE=/5325158834_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30654,8 +31334,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079064728-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079064728-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iYNlqiIpngUREa2Ww6t9OtE1rz58ewNph3P6Lh3tGN8=/5325160143_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30671,8 +31352,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079064810-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079064810-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zuq9jvQuxm4UKf2Cris6gaq5N5Kj_3bP0QU2BQoiHDA=/5325161768_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30688,8 +31370,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079065133-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079065133-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/l2HGN0WyK5uSlRMDAeAs3sXkWCmrSbCiML5gNPFjmpU=/5325163242_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30705,8 +31388,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079065406-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079065406-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eFAMY6x4Ko4dfrqlgoxPSZpBL9FTMk8_sw_4-BWxGdg=/5325164717_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30722,8 +31406,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079065681-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079065681-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qCC_xq-ONFJZBsqACrhCk5D2RDvGdAIe-Y289UJr9Dk=/5325165982_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30739,8 +31424,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079066332-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079066332-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pJZIyspWdzpuHM-ED-aQeF717u5Wj5fIzNc6gdCBM60=/5325167411_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -30756,8 +31442,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079067001-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079067001-vafelnaya-kartinka-schenyachij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1-DjJ7P1dm0xCoahcHk1IByJaC_fb-h7Cq6IOnSrfT4=/5325168683_vafelna-kartinka-schenyachij.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -30774,8 +31461,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079713391-shokolad-molochnyj-mir.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079713391-shokolad-molochnyj-mir.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sRy51piJSfxXJYn9ZVllPjJOqRInsbLId20mGk4YOOk=/5327631579_shokolad-molochnij-36.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -30792,8 +31480,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079720167-shokolad-belyj-mir.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079720167-shokolad-belyj-mir.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2iqYGvjw8zEPgBX_Zysarpq4eoHe5uJvDNVyyfJyGUo=/5327650013_shokolad-bilij-26.jpg',
+    ],
     availability: 'in stock',
     price: 46.0,
     product_type:
@@ -30810,8 +31499,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079759140-kilimok-dlya-vipikannya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079759140-kilimok-dlya-vipikannya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/A51cNV0u9lw00owLczLU6GpKNw5ndTxGHtk-bflc0TU=/5327818718_kilimok-dlya-vipikannya.jpg',
+    ],
     availability: 'in stock',
     price: 174.0,
     product_type:
@@ -30827,8 +31517,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079762842-kilimok-dlya-vipikannya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079762842-kilimok-dlya-vipikannya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XEOcOcC75yrhgkkqpkiZQvR2SxFT563POo_BFAFM7JQ=/5327840166_kilimok-dlya-vipikannya.jpg',
+    ],
     availability: 'in stock',
     price: 234.0,
     product_type:
@@ -30845,8 +31536,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079765290-patoka-sirop-glyukoznij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079765290-patoka-sirop-glyukoznij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s-QvVGWTjhe19BVGzK_3n-NjzPvllmoyJv_W0tOZU-c=/4987441540_patoka-sirop-glyukoznij.jpg',
+    ],
     availability: 'in stock',
     price: 51.0,
     product_type:
@@ -30862,8 +31554,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079773914-paket-prozrachnyj-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079773914-paket-prozrachnyj-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
@@ -30878,8 +31571,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079775412-paket-prozrachnyj-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079775412-paket-prozrachnyj-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
@@ -30894,8 +31588,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2079777546-paket-prozrachnyj-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2079777546-paket-prozrachnyj-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vy45oyS2dRYrdSdF8LJVMCX_TLMn2C2yP4JBEHEHVUM=/5327903012_paket-prozorij-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 1.0,
     product_type: 'тара та упаковка > пакувальні матеріали > пакети',
@@ -30911,8 +31606,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2080341372-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2080341372-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/aeUbmdc_423qO6lXu4onSH5bmY00ndD-rY4UQqb51NI=/5330331971_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 125.0,
     product_type:
@@ -30930,8 +31626,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081463505-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081463505-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qgAa5WCOJT4a4qKGi4h9XSWlo2JAU8TOT2thGwFikpY=/5334720846_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -30949,8 +31646,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081468785-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081468785-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rp2kxoh5KHCs0M4EyfCiTtcxB2LXojZ6Wza__Ezqjgo=/5334728764_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -30968,8 +31666,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081473718-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081473718-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C3NlAvpEwPzBaEpLIbPiyLCU5ZNujKmTYENZ7QV8zts=/5334741624_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 119.0,
     product_type:
@@ -30988,8 +31687,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081477235-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081477235-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KUgJnfOtzKQWVmTG3ovYb1JSjZNdfHegLuBt5NF2YYg=/5334752289_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -31009,8 +31709,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081477762-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081477762-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/edsifIY_vTymGvxgZ8PSwHhsj9MqiEISD1NmBAvKEYg=/5334756317_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -31029,8 +31730,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081477859-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081477859-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kq3qmxcBiAnnEY-llM6ixFmUwflFG3gXT_YAo9-5wuI=/5334757037_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -31047,8 +31749,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081478614-floristicheskaya-tejp-lenta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081478614-floristicheskaya-tejp-lenta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Zxf0SEKFt6zYd30EoutfQYscQImvXfN445HaAGxDKZ4=/5334763695_floristichna-tejp-strichka-temno-zelena.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -31065,8 +31768,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081478676-floristicheskaya-tejp-lenta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081478676-floristicheskaya-tejp-lenta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2TQHnZexC1XBHHZSwFkmiHdQ6q6W9QuNqTu1ACSA6ZM=/5334764348_floristichna-tejp-strichka-zelena.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -31084,9 +31788,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081480999-kmts-upakovka-banochka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081480999-kmts-upakovka-banochka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ULcCnbOc-3zWq6pe1seiguVwNKhEz5IEBiw33a7Yrac=/5334770741_kmts-pakovannya-banochka.jpg',
-    additional_images_links: [
       'https://images.prom.ua/O_lEVB2lP7kWK9aHn_RF18Ao3e3LiFPGmfz92BzKaoQ=/5334770775_kmts-pakovannya-banochka.jpg',
     ],
     availability: 'in stock',
@@ -31105,8 +31808,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2081638625-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2081638625-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M8cYJN-4uRbm6gKsrciHBWmozjwtZZdqyhJLIHoKx5M=/5335272912_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 91.0,
     product_type:
@@ -31124,8 +31828,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082083101-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082083101-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vlL7n7_xE6rPwaBFvd7M3jp6-x2fJ_VCgebkplrg5Mk=/5336891064_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -31141,8 +31846,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082083787-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082083787-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WOQBPg2g4HMXmYnUJwPcvBBn5H4gN4FuoXnzPbYIaHM=/5336894529_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -31158,8 +31864,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082085190-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082085190-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GzuIkhRvbByVMZDyTzN8SDFMtaobRXrtPp-CJ7cSZeI=/5336902763_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -31175,8 +31882,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082087562-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082087562-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M3OlrJ-25kb5bCqLeBlLjp0otg79XUIJQiHriGdffJM=/5336907011_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -31192,8 +31900,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082088714-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082088714-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6VAVi6_sImndvN9zuaCyUKCh7j2g3ZJlMUYp-sqnsf4=/5336911139_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -31209,8 +31918,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082088865-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082088865-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/swPzyMoomCsvjDiXtM2bAG9WYXL63QU44FvFbhOEwk8=/5336914813_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -31226,8 +31936,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082089847-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082089847-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IYP9bW1czbwojw4Scmw3Xh4jKhhIAiIAi-ujw_H2cCM=/5336918564_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -31243,8 +31954,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082092172-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082092172-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Fstq6dDfy8fpspM980NjBGdXwyhK4OAEk3EZqZf9gmw=/5336922156_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -31260,8 +31972,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082093301-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082093301-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nc-x4kq-I8Pb-0-p4cNpep4miBFzXAWtlqE8kUHxLRs=/5336926576_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -31277,8 +31990,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082093942-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082093942-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/og2jGe-9pkDRR_1xD5zhwbE7_nG2P2XzuK5TRiR4KwM=/5336930821_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -31294,8 +32008,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082094639-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082094639-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QPwmEGafPr5ed5NNXlvhdrxqkRx1mr-7VSUpFlTGoPE=/5336934184_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -31311,8 +32026,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082095845-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082095845-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WlOHmI9rilTj-bFuB-IFkyvfTrHMircw9omn6ODwVSs=/5336937788_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -31328,8 +32044,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082096485-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082096485-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UYeCw0Wv80vmwpgnzQSRq4Npbb32KSqO7WWSnN9HCoQ=/5336942192_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -31345,8 +32062,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082097529-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082097529-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oEVIS7DZPjGKGpflixtijmL4oLL5dkl6IglPVtVo6bI=/5336945876_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -31362,8 +32080,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2082098075-vafelnaya-kartinka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2082098075-vafelnaya-kartinka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/atguC-p_UTQn3ewguT1Y_yDM5WkdmhxL3JEhmRJTyQc=/5336949669_vafelna-kartinka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -31380,8 +32099,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083026995-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083026995-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Nt-SDbLtvOdnlUE765c7u43Hr3_6Mkot6Ud15mRWG98=/5340269270_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 103.0,
     product_type:
@@ -31404,9 +32124,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083028820-nabir-mastihiniv-shpateliv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083028820-nabir-mastihiniv-shpateliv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EOxkGf-JIo1a_250w8TBGysWyJskJtBkZ1zyQkH4Mfs=/5340277733_nabir-mastihiniv-shpateliv.jpg',
-    additional_images_links: [
       'https://images.prom.ua/O9dSuIytnXnnZ8dfGJ6XB3YF7ADLJDhAZGUgPFrw4ss=/5340277741_nabir-mastihiniv-shpateliv.jpg',
     ],
     availability: 'in stock',
@@ -31431,8 +32150,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083030436-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083030436-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UC3U3aRl9tBELkXgnCcXHgc3F8RMM6jgfUjnGKLxav8=/5340285872_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -31455,8 +32175,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083031696-silikonovij-mold-alfavit.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083031696-silikonovij-mold-alfavit.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OKVbkr2ncGp0Q_klTJ0ek8W5FVPm2sBXku9UZjhY4xU=/5340290363_silikonovij-mold-alfavit.jpg',
+    ],
     availability: 'in stock',
     price: 96.0,
     product_type:
@@ -31479,8 +32200,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083033897-nabir-konditerskih-tsvyashkiv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083033897-nabir-konditerskih-tsvyashkiv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eMg7MMcjMdHn9x_QJ-bUoOOU-fgUck8G1w7vowCgAjc=/5340298445_nabir-konditerskih-tsvyashkiv.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -31503,8 +32225,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083036957-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083036957-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2o_EhXKLdK72s3L5cQ89TOOetlPB61n426V6dCazams=/5340304116_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 65.0,
     product_type:
@@ -31527,8 +32250,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083038850-kilimok-silikonovij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083038850-kilimok-silikonovij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jtSLpwgdZNzQA0SzZgGOS1ra5_jVeFOekuvx04T5gYw=/5340311907_kilimok-silikonovij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -31545,8 +32269,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083040946-nabir-virubok-sertse.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083040946-nabir-virubok-sertse.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/78hzOqBjugu8FXjYN6uLiKxz5W-YFv26ljyzPEkUw7g=/5340318924_nabir-virubok-sertse.jpg',
+    ],
     availability: 'out of stock',
     price: 110.0,
     product_type:
@@ -31569,9 +32294,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083043137-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083043137-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3l8hugIiXXTCTgtAWnJ4zkwQe7IwmEDuF6DZMPRzdig=/5340324939_forma-silikonova-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/0gVMOA9IXJzamRXMRj_32U3_doPbucXx66H_j8ytthE=/5340324940_forma-silikonova-dlya.jpg',
     ],
     availability: 'out of stock',
@@ -31590,8 +32314,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083046372-forma-rozsuvna-pryamokutnik.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083046372-forma-rozsuvna-pryamokutnik.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/i1bvEhrtvf7p3G2hgOLfsYT0znfx0FyAtGcUwGZAdis=/5340331132_forma-rozsuvna-pryamokutnik.jpg',
+    ],
     availability: 'in stock',
     price: 264.0,
     product_type:
@@ -31608,8 +32333,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083580666-konditerskij-shpatel-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083580666-konditerskij-shpatel-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zxeilJZbJBZ5ivxPDZRJKVQMOKJeonBe1uIYMjzM7aI=/5342211651_konditerskij-shpatel-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -31632,8 +32358,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083581933-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083581933-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3I9FyXLM8ImYy9Im_zFXy_CAwefdMY0vlyDcIplCpI4=/5342212925_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 228.0,
     product_type:
@@ -31650,8 +32377,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083588685-nabir-virubok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083588685-nabir-virubok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hPh1KOTMAg-401TOy3xOAD_-XlfulVT8wnzDSJVkUmo=/5342239927_nabir-virubok-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 62.0,
     product_type:
@@ -31674,9 +32402,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2083590281-nabir-virubok-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2083590281-nabir-virubok-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_z4irMLVH72uuEAJmT05n8ESLJ9cS9w-qj5SN8_WtEk=/5342242192_nabir-virubok-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/RpihHQHQ4EnXcKam3MHEf6aM5SC4ymoZhl9MV3cHdsM=/5342242193_nabir-virubok-dlya.jpg',
     ],
     availability: 'in stock',
@@ -31705,8 +32432,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084195571-shpatel-dlya-testu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084195571-shpatel-dlya-testu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -31723,8 +32451,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084195883-shpatel-dlya-testu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084195883-shpatel-dlya-testu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -31741,8 +32470,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084200551-shpatel-dlya-testu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084200551-shpatel-dlya-testu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NHWzUjPS3pJVfqBSsxxIOvBaCUKRjjFRwUVGka_yAy4=/5344690561_shpatel-dlya-testu.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -31759,8 +32489,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084596096-shpatel-konditerskij-dovzhina.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084596096-shpatel-konditerskij-dovzhina.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
+    ],
     availability: 'in stock',
     price: 56.0,
     product_type:
@@ -31777,8 +32508,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084596939-shpatel-konditerskij-dovzhina.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084596939-shpatel-konditerskij-dovzhina.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -31795,8 +32527,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084598571-shpatel-konditerskij-dovzhina.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084598571-shpatel-konditerskij-dovzhina.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6niXEXELvdX0oGij4fRPbVShdl0rGfIwzwALuLMhlX4=/5346431010_shpatel-konditerskij-dovzhina.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -31813,8 +32546,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084603188-vinochok-kulinarnij-podvijnoyu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084603188-vinochok-kulinarnij-podvijnoyu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yK0PPUdWRhiibqifK6SdJJMxnmtsxTONa6Gg8AFsILI=/5346448959_vinochok-kulinarnij-z.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -31832,9 +32566,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084612014-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084612014-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     ],
     availability: 'in stock',
@@ -31853,8 +32586,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2084616125-plunzher-konditerskij-serdechka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2084616125-plunzher-konditerskij-serdechka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ty5dpeIaiIMoxDBvr_E45ItcSOCvJRKhkoLgzJTqNkg=/5346501741_plunzher-konditerskij-serdechka.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -31882,8 +32616,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089001346-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089001346-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 207.0,
     product_type:
@@ -31906,8 +32641,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089006099-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089006099-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 210.0,
     product_type:
@@ -31930,8 +32666,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089011316-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089011316-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 140.0,
     product_type:
@@ -31954,8 +32691,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089017980-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089017980-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 190.0,
     product_type:
@@ -31978,8 +32716,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089020220-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089020220-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -32002,8 +32741,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089022963-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089022963-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -32026,8 +32766,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089029053-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089029053-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XjrsW4zepH6FLFygayx1ZiOeT3yE3HDPgu6grf9Un6Q=/5301835515_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 132.0,
     product_type:
@@ -32050,8 +32791,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089041559-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089041559-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/J6pr9Enr-sU_py9jLRM1xzGA6tXwFpeqR-qCCjgSmoo=/5363564165_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -32068,8 +32810,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2089048334-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2089048334-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pUb7btKQELHEiUkZfsBs7UturYQI00vCegnlZHPc4gI=/5363577642_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 53.0,
     product_type:
@@ -32088,8 +32831,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091400401-silikonova-forma-kub.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091400401-silikonova-forma-kub.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EYL8TFqVGO0EXJFEpnlLgiixRTmrxnNxCkcqr3g55Wo=/5373092446_silikonova-forma-kub.jpg',
+    ],
     availability: 'in stock',
     price: 156.0,
     product_type:
@@ -32106,9 +32850,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091404500-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091404500-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/k9yo3FvNsHNwNL1mpiTwuBORXClWc42zcIqB9NjfjSk=/5373101113_silikonova-forma-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/WcjC7gDNZ1jQBvCvcDaw7K69VsC-zXO2LGmCsZqY4OI=/5373101110_silikonova-forma-dlya.jpg',
       'https://images.prom.ua/LtuqtgmDeuME-e0I5j_8loc64HzvspyIki8LYjLWFWE=/5373101109_silikonova-forma-dlya.jpg',
     ],
@@ -32133,8 +32876,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091407619-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091407619-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2O2aGsQzqJ1_2bcwXxbBHFSumGJsKhWIHZLSNC319Xk=/5373105224_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -32150,8 +32894,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091409554-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091409554-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P0_KlW-Ju_renWoz2WCIio0Zj3lYgm9G3RIxp1d_30w=/5373109612_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -32167,8 +32912,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091410436-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091410436-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5gIvaCbxmzxH42AmpU4HFhllyI4Cw9U6xY86CW45GtQ=/5373110884_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -32184,8 +32930,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091411046-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091411046-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Mxbacec8AUvPrfYKYRqYw9kSVXTmrAMUBi1wH-Fsp5A=/5373112043_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -32201,8 +32948,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091411399-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091411399-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_WyjVhAcWmV5r_tqW3Hj5Rz5EzQ5e3sPWB7hRG8aGbU=/5373113370_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -32219,8 +32967,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091425023-silikonova-forma-plitki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091425023-silikonova-forma-plitki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gNkBTPtzF0aQ3OoTOIKQ9Ik6LKFbDPK443wOsqyZ8ss=/5373132543_silikonova-forma-plitki.jpg',
+    ],
     availability: 'in stock',
     price: 93.0,
     product_type:
@@ -32243,8 +32992,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091437439-silikonova-forma-brusochki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091437439-silikonova-forma-brusochki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZizcUP95P2VyatJBrDPOLIFkUIvXHGEm4oT9GDoTUtc=/5373153436_silikonova-forma-brusochki.jpg',
+    ],
     availability: 'in stock',
     price: 93.0,
     product_type:
@@ -32267,8 +33017,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091444543-silikonova-forma-krugla.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091444543-silikonova-forma-krugla.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f4sFfb3a0gU_7f-x6slZio7s_PSeWJDU1PXzNbi_pyI=/5373163010_silikonova-forma-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 129.0,
     product_type:
@@ -32285,8 +33036,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091449759-silikonova-forma-krugla.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091449759-silikonova-forma-krugla.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Dumd7Y6ha6C7edQBHPyu-DhhvHzUuh5lodMZ-bhdY3w=/5373169410_silikonova-forma-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -32303,8 +33055,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091455045-silikonova-forma-krugla.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091455045-silikonova-forma-krugla.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nnrbVPEp57kRtMSowRQYh-wAbU9G_0gWtLJKFyFExh8=/5373176769_silikonova-forma-krugla.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -32321,8 +33074,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091462235-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091462235-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oLOQ9x3OedSVqRiV6wRril6-jnPVi_om0yg0SoiXdlo=/5373194754_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 42.0,
     product_type:
@@ -32338,8 +33092,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091466867-forma-dlya-lodyanikiv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091466867-forma-dlya-lodyanikiv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ht8trqF-88cIvHhIdEVSga2yPum919KPbg2d8c3kv4g=/5373204799_forma-dlya-lodyanikiv.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -32357,9 +33112,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091471200-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091471200-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     ],
     availability: 'in stock',
@@ -32379,9 +33133,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091472586-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091472586-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     ],
     availability: 'in stock',
@@ -32401,9 +33154,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091475241-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091475241-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
     ],
     availability: 'in stock',
@@ -32423,8 +33175,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091480397-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091480397-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 358.0,
     product_type:
@@ -32442,8 +33195,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091483537-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091483537-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 256.0,
     product_type:
@@ -32461,8 +33215,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091490927-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091490927-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ZmXNeKVOg4NFF5xdUrat5D2BW-tfmMoveO3D_9L02UM=/5373239551_forma-rozsuvna-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 307.0,
     product_type:
@@ -32480,9 +33235,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091514576-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091514576-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     ],
@@ -32503,9 +33257,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091515145-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091515145-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     ],
@@ -32526,9 +33279,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091516367-forma-rozsuvna-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091516367-forma-rozsuvna-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/R66ORfyJWSlVNKJEqd_smI7p0vy0ClQXmFYjMSierFU=/5346486264_forma-rozsuvna-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Z9Z3zGaX1f-HZRx1Jv7R3Sfh7Pbyh2WZ5VxeArU-Bk8=/5346486303_forma-rozsuvna-dlya.jpg',
       'https://images.prom.ua/ZRMRCTX0uM8giVyGqoBLMjG3X5WDHO2a7Tl8XDT5LA4=/5373303514_forma-rozsuvna-dlya.jpg',
     ],
@@ -32547,8 +33299,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091519456-forma-dlya-vipichki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091519456-forma-dlya-vipichki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0FSenyzicTLSJ7xm-aSdrSesZhlzLsFAGJkajOMMxb4=/5373325041_forma-dlya-vipichki.jpg',
+    ],
     availability: 'in stock',
     price: 83.0,
     product_type:
@@ -32571,8 +33324,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091521626-nabir-form-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091521626-nabir-form-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hh-THhAb4ts4u4SDuj3OIehFkC2hEa8866HVeJomIAA=/5373337194_nabir-form-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 109.0,
     product_type:
@@ -32589,8 +33343,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091524464-bezkontaktnij-termometr.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091524464-bezkontaktnij-termometr.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KRmN7-VckEAzLxwpjhUVZwZ6zYWiLKMKj7K6Qr9KdO0=/5373345590_bezkontaktnij-termometr.jpg',
+    ],
     availability: 'in stock',
     price: 693.0,
     product_type:
@@ -32608,9 +33363,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091542296-shpatel-konditerskij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091542296-shpatel-konditerskij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EdtxM9k7DRY8fBWE9N28zsL7ICArTteDBytvrMZVtLs=/5373390305_shpatel-konditerskij-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/uMrbymmXHcRHvdD3tJDdD80cIqhYUE93ZXM_sSCZcXE=/5373390276_shpatel-konditerskij-dlya.jpg',
       'https://images.prom.ua/XVwrmWrUjboO9wEhwYnUsS-yUkEwrhN18SqmDLfVUkc=/5373390302_shpatel-konditerskij-dlya.jpg',
     ],
@@ -32636,8 +33390,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091545408-nabir-rozyemnih-form.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091545408-nabir-rozyemnih-form.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/w4_bG5FItHYNnyf6oPFt8FytHA8hvLkzqq543X1BoV0=/5373400084_nabir-rozyemnih-form.jpg',
+    ],
     availability: 'in stock',
     price: 508.0,
     product_type:
@@ -32655,9 +33410,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2091549694-forma-konditerska-rozduvna.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2091549694-forma-konditerska-rozduvna.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/itIeEiqbkvNDKr-xHXYBcu3iNyLue27Po97QSlIXthY=/5373411061_forma-konditerska-rozduvna.jpg',
-    additional_images_links: [
       'https://images.prom.ua/VqUL5ARcgFS4i_c5TOqFiBO5dzT5fTWKNmCsXOVBOm4=/5373411070_forma-konditerska-rozduvna.jpg',
     ],
     availability: 'in stock',
@@ -32676,8 +33430,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094869456-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094869456-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GZlLaLbvRiHRj50kpuhwd7UjRJZjhu0imwqosOjoo7U=/5386117932_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -32694,8 +33449,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094871091-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094871091-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rgkxrpOVyTdH4rxO-kCfEZ4Ejh16s7CqujlAiU3pFQQ=/5386124735_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -32713,8 +33469,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094902600-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094902600-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Gfqr0TvAZeETDpKMdaB_gk2gFIPb2IxOuvFLHYZDR6A=/5386217067_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 137.0,
     product_type:
@@ -32732,8 +33489,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094905229-floristicheskaya-tejp-lenta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094905229-floristicheskaya-tejp-lenta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1qCqrSg3gfORzhIDq6LnRF1uQ4r7g8zfb57Ie7y_W3s=/5386224150_floristichna-tejp-strichka-bila.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -32750,8 +33508,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094905293-floristicheskaya-tejp-lenta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094905293-floristicheskaya-tejp-lenta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WcynPk_bHLq3Tmjw8nRcIiEkJyrUAkHkjgLRvu6fydI=/5386225555_floristichna-tejp-strichka-korichneva.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -32769,8 +33528,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094907729-ukrashenie-tort-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094907729-ukrashenie-tort-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vQaPi6_3ISOZZbq2BOhCCltQr9O9wtbQLdzReAH4XQY=/5386232585_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -32789,8 +33549,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094908486-ukrashenie-tort-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094908486-ukrashenie-tort-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dW-3fuh_IWLGlG87aPqMfTRRhqQ6CRqxsGS7aUcJqyc=/5386236268_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 124.0,
     product_type:
@@ -32810,8 +33571,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094910806-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094910806-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DFORynKl_w5VCiQLDKYltmdjXqlmcE_kyRJgCJWom0E=/5386243866_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 119.0,
     product_type:
@@ -32830,8 +33592,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094911961-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094911961-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P9wYw71mSg6FF58GIBcFaQmOfx1DfYkzYz8DS3xSukE=/5386246158_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 119.0,
     product_type:
@@ -32850,8 +33613,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094914442-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094914442-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0col7VbzpdIdU95pUlPE4JI5ffieBN4P_TWDMzJeJ6c=/5386251129_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -32869,8 +33633,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094915876-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094915876-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/clmFTqIfPSrTFZk7NGpXB-jibd2EpY_MHVsG5PA-ORA=/5386257094_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 110.0,
     product_type:
@@ -32888,8 +33653,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094916727-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094916727-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ksCVDF3hvh5tGqaKVZ-V58Pu-mEFrY-cXTWMvt5wnmA=/5386258602_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -32907,8 +33673,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094919197-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094919197-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/UDEoj-lq_3J6J3nS9-IEykzTviNbuZu-1N6ipqIxgyM=/5386264674_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 226.0,
     product_type:
@@ -32926,8 +33693,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094922003-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094922003-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/q2tBlLbiTaaI-B0Rn3WxnOCRNTp9TgB8Odk31JLVZMA=/5386271469_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -32944,8 +33712,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094923234-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094923234-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/habZ2mA-yqSguWI8UE02bM6ZnwuGpb-AIqTISBIkhzI=/5386273759_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -32963,8 +33732,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094925040-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094925040-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7krAj2AtkJKMxWZB9U-YH0alE-ezPOJrcUnxGoToEc4=/5386280217_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 264.0,
     product_type:
@@ -32982,8 +33752,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094929363-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094929363-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yMK1xmprbVZt1dGdpwbi627mY4NSLKftMdW6g3QiKrA=/5386293479_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 108.0,
     product_type:
@@ -33000,8 +33771,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094931836-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094931836-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4-lkG2wfYpif2WCRgoTVJhiQvKkX7EpufLTXG2SDxK0=/5386299428_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 58.0,
     product_type:
@@ -33018,8 +33790,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2094936619-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2094936619-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OpcJ6hHf1tyF2z7ckgoSnwaXRkwJrqoqiIFvisJ9pf4=/5386310723_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 112.0,
     product_type:
@@ -33037,8 +33810,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095780697-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095780697-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vujzRDEmSiFCRnN_s09ZZWhsJltKEtlZOugj9-Tzioo=/5389297203_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -33055,8 +33829,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095781874-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095781874-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rqN2mUkohw0BignBzbKLXhEdIuICanmLBs_6NLGm0Cs=/5389304787_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 43.0,
     product_type:
@@ -33072,8 +33847,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095783008-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095783008-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MGC5Z1iVRzcuioOGvRBQrrJHl0KjHXwK1IrpGfUiLKY=/5389316609_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 84.0,
     product_type:
@@ -33090,8 +33866,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095790764-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095790764-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GE8dyY7IrvJeEhPDJ3fwv_O7RtB55R0_dlwPCVoCLcI=/5389373948_konditerska-tsukrova-prikrasa.jpg',
+    ],
     availability: 'in stock',
     price: 134.0,
     product_type:
@@ -33110,8 +33887,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095794892-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095794892-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VlQkCy445shqr1kJKai2fn7n9Axc87EUQ2INT1ZpiAQ=/5389385077_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -33130,8 +33908,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095794961-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095794961-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gNrf45EPWcf3anSyBDL3Nnc25rLGmhWnbtv3sR22jSg=/5389386724_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -33149,9 +33928,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095797072-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095797072-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/A_UaHYjWg9wtb7Vx72-foi5zixGO_pQGyU8gZPwbMhM=/5389393402_tsukrova-prikrasa-na.jpg',
-    additional_images_links: [
       'https://images.prom.ua/JJV4Pt99geZGy8jrcbFsXBGVcZD3d-pvs7B0fZ6aL7c=/5389393411_tsukrova-prikrasa-na.jpg',
     ],
     availability: 'in stock',
@@ -33170,8 +33948,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095814904-glazur-belkovaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095814904-glazur-belkovaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f1gO2DRWkk_rj8OQ-3GVMxhdcUNye91UA2pcnmmBG5o=/5389437724_glazur-bilkova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 17.0,
     product_type:
@@ -33190,8 +33969,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095815586-glazur-belkovaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095815586-glazur-belkovaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xswTzNxsoTsEM9mJ0o8U1-84WU9TzIqq5sCRZXRKnCo=/5389439427_glazur-bilkova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 17.0,
     product_type:
@@ -33209,8 +33989,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095816164-glazur-belkovaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095816164-glazur-belkovaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VIzVWm3lUIQMUVEydZPMnHl10eArfsoe92cvi24C_MA=/5389440538_glazur-bilkova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 17.0,
     product_type:
@@ -33228,8 +34009,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095825734-glazur-belkovaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095825734-glazur-belkovaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hy94c77raEF-BPz8ddBaJYvlXK0lK31QH8nHn3gbLwg=/5389463158_glazur-bilkova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 17.0,
     product_type:
@@ -33247,8 +34029,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095826552-glazur-belkovaya-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095826552-glazur-belkovaya-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4O2OuiTexLGqT3FUU5rhzLWLnj5gpZg2zHpCjBzmjPU=/5389468753_glazur-bilkova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 17.0,
     product_type:
@@ -33267,8 +34050,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095839453-glazur-dlya-paski.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095839453-glazur-dlya-paski.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/C0HT2oJOq4YFK2SYolWXqzSx2hd5G5g32CMU_aE_ugM=/5389503518_glazur-dlya-paski.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -33285,8 +34069,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095841856-glazur-dlya-paski.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095841856-glazur-dlya-paski.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EV7TeR4hdjl0VfdsG_1C_4Y9gK0ETkeSRBrY3FWH1Io=/5389507210_glazur-dlya-paski.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -33303,8 +34088,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095843179-glazur-dlya-paski.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095843179-glazur-dlya-paski.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OEgPx1W2MoEfEU7FyYkGOsWSev2MjsPP3nrrQ_IY7Wc=/5389508597_glazur-dlya-paski.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -33321,8 +34107,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2095844348-glazur-dlya-paski.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2095844348-glazur-dlya-paski.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dxFEOeSP7NwQY2G75SW9trKcgbtuD6LSoAyUUp6Sx54=/5389509852_glazur-dlya-paski.jpg',
+    ],
     availability: 'in stock',
     price: 32.0,
     product_type:
@@ -33339,8 +34126,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2096681467-palochki-dlya-moroziva.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2096681467-palochki-dlya-moroziva.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_j0PdmLP3h4msJhN8DRLfoa3cTWciNUT3mzpqyxehDU=/5393121626_palichki-dlya-moroziva.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -33363,8 +34151,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2096681632-palochki-dlya-moroziva.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2096681632-palochki-dlya-moroziva.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ic2KUqKlAi8OKmxttLI3tMkBgwo4LCqbya95oex9-hI=/5393122280_palichki-dlya-moroziva-shpatelya.jpg',
+    ],
     availability: 'out of stock',
     price: 37.0,
     product_type:
@@ -33388,8 +34177,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2096683266-toper-rochku-piv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2096683266-toper-rochku-piv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fTYKCYtryhhjwqj5Ul1Iu15nmVLVtODJV0NZR7NM7Ag=/5393123234_toper-do-rochku.jpg',
+    ],
     availability: 'in stock',
     price: 38.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -33405,8 +34195,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2096684631-tortsovij-topper-najkraschu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2096684631-tortsovij-topper-najkraschu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f7fp0QliU8IrX5uK8lwEi7v0csNXa7hcnYv_XKNJxv8=/5393124374_tortsovij-topper-najkraschu.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -33422,8 +34213,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2096702966-toper-derevyanij-vidmi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2096702966-toper-derevyanij-vidmi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wrL6itRKiLLWLpQOsv5I82jnW8hhibkx6ksEg1Zq5cY=/5393204856_toper-derevyanij-vidmi.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -33448,8 +34240,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2097784168-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2097784168-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pBWoEvUa2S9PxO8LXU9Mrn__XJJdH8EV4dMU-N8OdFU=/5397517568_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -33468,8 +34261,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2097784498-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2097784498-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_NekQqvAhbiZOh-0puhY2xWF30w4LZqS9BldkzQdUgw=/5397519275_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -33488,8 +34282,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2099270321-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2099270321-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-eewpDlFp-kBYL4TTkrxORbjtoSG16dT3otFL4HpA1U=/5403051643_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 143.0,
     product_type:
@@ -33507,8 +34302,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100455656-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100455656-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/X22dNg9CyulJ5WPM2Hv7ceV4GaIl55TZCB6a0foLSb0=/5407440626_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33526,8 +34322,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100456866-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100456866-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FXCTW_wmT1Qwu8NdMce44kSWrBCOMEmAsCyqptDps5Q=/5407443868_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33545,8 +34342,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100457392-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100457392-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YgMPD_NytgweJKPkdOAeKoqUn4_GdHcNvw9VuBle5xs=/5407452811_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33564,8 +34362,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100458801-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100458801-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_Re8_Yl4s-yt3xIi67ar7AjSBk9JcRfI3SXLDi9Sr9Y=/5407447416_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33582,8 +34381,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100458980-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100458980-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vlnlhThx__HRVgxgouI5_zIEg-270NVEYw1nhZD2L7k=/5407448291_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33601,8 +34401,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100461259-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100461259-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8W4LWlkX14Kj1A2OwRs58yr2ORqfCjBwICpK3Tchf9M=/5407455440_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33619,8 +34420,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100461791-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100461791-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dwmdYg1NdPFRVghHV7uSAUlXJVvYUxPEEv6y3Wt1Ueo=/5407457935_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33638,8 +34440,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100462529-sedobnaya-tkan-firmy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100462529-sedobnaya-tkan-firmy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uA5RZ8_wxy1qGY_qxwzBEChYu5-Hb6Ey2vqBE7kIjuM=/5407461085_yistivna-tkanina-firmi.jpg',
+    ],
     availability: 'in stock',
     price: 223.0,
     product_type:
@@ -33657,8 +34460,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100469464-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100469464-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LdofAlc1SKns-lY9fsjFIF4EQk8D06bl7xSp6SfXKqM=/5407499573_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33676,8 +34480,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100469688-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100469688-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LdofAlc1SKns-lY9fsjFIF4EQk8D06bl7xSp6SfXKqM=/5407499573_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33694,8 +34499,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100469782-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100469782-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IA3w-hF_InSjrpfgjPzGwXcxV0VmksJWHO88695QBao=/5407501945_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33713,8 +34519,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100469911-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100469911-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yBX5ppIb4ajXFygEoDbJTCU-BL71T_Fp8W1JDWjJ5TQ=/5407502992_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33731,8 +34538,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100470249-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100470249-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/u0Zlcmua7dYVMoaoWzLEZ_LVw0wpYKL-34H_ysAITHg=/5407504267_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33749,8 +34557,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100470326-sedobnaya-tkan-shelk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100470326-sedobnaya-tkan-shelk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cwd9He6kVd-8a-8GLFB1hhYPpJpjTwlWU_tY70Qk0Gk=/5407505269_yistivna-tkanina-shovk.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -33768,8 +34577,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100472686-gelevij-barvnik-bilij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100472686-gelevij-barvnik-bilij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Q6HWnqKOdMzdrOr9HooRaP8WZ64kByl9uLJ6WMI98YM=/5407517310_gelevij-barvnik-bilij.jpg',
+    ],
     availability: 'out of stock',
     price: 220.0,
     product_type:
@@ -33793,8 +34603,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100475034-gelevij-barvnik-zelenij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100475034-gelevij-barvnik-zelenij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QlumRHsvAzi4ppLDmAgbFa5_zMKRRbMS2Lmbr78b3Z4=/5407528669_gelevij-barvnik-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33818,8 +34629,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100475472-gelevij-barvnik-chornij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100475472-gelevij-barvnik-chornij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Iho1gdZc4wtefUKqWGTmX4DwUGmiKLLO4DGAUG1RrR0=/5407529623_gelevij-barvnik-chornij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33843,8 +34655,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100476116-gelevij-barvnik-fuksiya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100476116-gelevij-barvnik-fuksiya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P5b3WXfeFyT916KWp3NARytH2GQ2PX09UdVA8KZThsc=/5407530951_gelevij-barvnik-fuksiya.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33867,8 +34680,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100476373-gelevij-barvnik-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100476373-gelevij-barvnik-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yBitbo_hPkpcUvKaDbhTrWsmbHmSuqHVj2jNISSlcZo=/5407532022_gelevij-barvnik-sinij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33892,8 +34706,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100476925-gelevij-barvnik-rozhevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100476925-gelevij-barvnik-rozhevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wO0lfdZbHCK-akvV5z3XtxGVZP7NaNpXsKWGXzR-9uE=/5407533121_gelevij-barvnik-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33917,8 +34732,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100477625-gelevij-barvnik-pomaranchevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100477625-gelevij-barvnik-pomaranchevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hr9xg5lGE0lxbqRKTuhMGH2xC5QFjPRTA3kcPLhLzW4=/5407534407_gelevij-barvnik-pomaranchevij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33942,8 +34758,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100477867-gelevij-barvnik-korichnevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100477867-gelevij-barvnik-korichnevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Znrn3qXdTe9uyhYPAm5JZLnm3U2Fdd_gvN9x21lCQ7A=/5407535610_gelevij-barvnik-korichnevij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33967,8 +34784,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100478153-gelevij-barvnik-blakitnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100478153-gelevij-barvnik-blakitnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cdYjf2aSULCSZP227dyzW4AQ56HeaSULwY1dZChjo08=/5407536734_gelevij-barvnik-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 220.0,
     product_type:
@@ -33991,8 +34809,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100479485-gelevij-barvnik-bilij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100479485-gelevij-barvnik-bilij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bunVWrWHd9EkKnmwPwDoOn4Ygbuk5XAcxVtV91TUQxc=/5407542922_gelevij-barvnik-bilij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34016,8 +34835,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100480067-gelevij-barvnik-rozhevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100480067-gelevij-barvnik-rozhevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/LQPcjuejnBfiHfxdHuDHJzi2uwcbMEu7VyOgVuotREM=/5407546336_gelevij-barvnik-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34041,8 +34861,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100480147-gelevij-barvnik-pomaranchivij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100480147-gelevij-barvnik-pomaranchivij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/roum5a2vrJk61oFIUt7_zJl8uI0LMYSWLwzBaYDdjIQ=/5407547197_gelevij-barvnik-pomaranchivij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34065,8 +34886,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100480468-gelevij-barvnik-korichnevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100480468-gelevij-barvnik-korichnevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1bCEJH6zNOXooa_buWNiMfcIy8Et7PLuydPFr1-3QlA=/5407548601_gelevij-barvnik-korichnevij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34090,8 +34912,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100481366-gelevij-barvnik-blakitnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100481366-gelevij-barvnik-blakitnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ssuuFpeJHbsrZXGWz7c7cLFFt2ZvruRuCCSCREClAcI=/5407549941_gelevij-barvnik-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34114,8 +34937,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100481791-gelevij-barvnik-fioletovij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100481791-gelevij-barvnik-fioletovij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9fCOABu8ZTUIBvtxkf8JhltzFFk023m3PLi0VOn2FFY=/5407551379_gelevij-barvnik-fioletovij.jpg',
+    ],
     availability: 'in stock',
     price: 92.0,
     product_type:
@@ -34140,8 +34964,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100512034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100512034-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/opsevaCKn-QdaU0w9HzeqOJ8GWoyITpOTUztjFJKf5w=/5407658072_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34159,8 +34984,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100536156-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100536156-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ymcrXqWKALl9xs_PhfN3mLFVmgkuvEbShDF8k7qBXLE=/5407707460_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34177,8 +35003,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100537221-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100537221-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mrty0XlIbUAapnaBRhqEmFBAkh1qV8k7lXN6Xfl55KA=/5407709860_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34195,8 +35022,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100537626-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100537626-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vlR-mxMyQ7C-dmLd3dRnVFrVJyVtNpzyiD3Q1-3K6KQ=/5407711335_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34213,8 +35041,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100538546-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100538546-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5Zstt4-fHrMOXlcRDwuYx4DKfntmLjHT1R0aj_ybuIE=/5407712823_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34231,8 +35060,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100539044-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100539044-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bj6w-i8cCpLit2PGka5JdoaY-2dXcYDCxUXCKHOjKjA=/5407714049_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34249,8 +35079,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100540383-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100540383-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cQPd9W-9VCSL7BMrJjPBY4z9h488a5rScFvqVEgMeJA=/5407715580_svichki-tsifri-v.jpg',
+    ],
     availability: 'out of stock',
     price: 30.0,
     product_type:
@@ -34267,8 +35098,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100541457-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100541457-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wH6CK8Pd4Q-fN1AXRAzNU2LCyopdf0IfvVJ0Ul3mM04=/5407717070_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34285,8 +35117,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100542758-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100542758-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/14gUX9uJWneJkf72BDK5QoBjxhcGASzo9m27rT0P9-E=/5407718695_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34303,8 +35136,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100543264-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100543264-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/kcPY1EvqnvtgQQB8jcbhFZrwYHz13-xgzfUesxMnH8U=/5407719939_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34321,8 +35155,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100544041-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100544041-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wd_IJ4HP5CYeX7fR-uAxox5Z2NiHZkXh842FLiJ5HtQ=/5407721577_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34339,8 +35174,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100892251-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100892251-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mBemCJDSrnp0lpZWUTk9ICRF15QAoP_DAR9HfqFyU40=/5409174841_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34357,8 +35193,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100893141-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100893141-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/otqpuMhwsZvy3iT7TBpr3UpEabxKqTJYxlgt5vAUjvU=/5409177203_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34375,8 +35212,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100893464-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100893464-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-NorSVWPyo2mInUzObx0jUE-yOFfTUxLQ2sveEw1AHI=/5409178383_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34393,8 +35231,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100893650-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100893650-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MGm9zKqeLiuklrSz_11C7LkUQ3XJCOQXSYz_VkMStzE=/5409179532_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34411,8 +35250,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100894228-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100894228-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IhB0Kzv_B8E2M6ea8vMoCG_OXqprUHiwMvPdnFVz-Tc=/5409180964_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34429,8 +35269,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100894518-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100894518-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DB0jpmToVAMaRB-47JH0x38Y2IrRNDsgfk0rmM_HyOw=/5409182124_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34447,8 +35288,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100895411-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100895411-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/WfU29sdGSfMPvBscNrTvn1qxC3I8i5ijtNBj24Kmbwc=/5409183506_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34465,8 +35307,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100895703-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100895703-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/clTFebiPADPkZgWWWF3duiAhtFLK-G44LUE-jJmV2eQ=/5409184974_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34483,8 +35326,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100895953-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100895953-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xXGfP-8I8fp-3FRgm6q66o8fPuc-BoZT2k8susAF5VU=/5409186281_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34501,8 +35345,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100896251-svichki-tsifri-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100896251-svichki-tsifri-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qYOPBysyHqug34pa3kwqj-B2tsz5oltPmNs4hzQfaYc=/5409187714_svichki-tsifri-v.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34519,8 +35364,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100898639-svecha-tort-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100898639-svecha-tort-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uGdK5W6ql5Y8j9gb3dgr9ucIgA37P34_atNrYitLdi8=/5409196980_svichka-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -34537,8 +35383,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100901939-tortova-svichka-fejerverk.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100901939-tortova-svichka-fejerverk.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bO9Y3Y02MMoKlHRWHTOfWU_egz89I_ee5FRH7yri0oM=/5409208564_tortova-svichka-fejerverk.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -34555,8 +35402,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100903774-pidstavka-dlya-keksiv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100903774-pidstavka-dlya-keksiv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wDT5Bj40r4D7lbu_xwpY6Z8qGq5aprN-S52XUH2fkCA=/5409216819_pidstavka-dlya-keksiv.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34573,9 +35421,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100906508-teflonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100906508-teflonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1mkkHbP5jaKC5fqLCNnUz1hcRvYLsm_IwOtTMQ_EbSk=/5409224546_teflonova-forma-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/QElhYSMpbjnOLrbcyHDMAHWPo6S2VWEEul1yJtU8uuE=/5409224517_teflonova-forma-dlya.jpg',
     ],
     availability: 'in stock',
@@ -34595,8 +35442,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100907549-teflonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100907549-teflonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0HSwcNmHTz8zebYGB1ji6aKCm0oYPq2NcjzyZTN_4OY=/5409228242_teflonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 96.0,
     product_type:
@@ -34613,8 +35461,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100910923-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100910923-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OvjBLfgtm0V2w8PbSU5YnnHPxrFe63Z_3XhDj4Z-9JU=/5409234798_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -34631,8 +35480,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100912109-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100912109-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VSIVO0q5Uxd77aAVYxMdahl6kMBuzDeysXVbme4UQ4Q=/5409241222_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34649,8 +35499,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100912449-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100912449-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-iPMdGiFxLq6wxWRcD-H0Pmdh1NeO83sMRRytK3ysbA=/5409243140_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34667,8 +35518,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100912819-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100912819-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9zr0cuc-DUn-g3YGOj08ZNCms5UA8iLCU161_oS7eQU=/5409244231_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34685,8 +35537,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100913369-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100913369-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/383tL2bErsLJX0okK1TANfd9io51dePCfsRJg5co1i0=/5409245590_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34703,8 +35556,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100913741-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100913741-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h4Br8N7rxZC8uuKuXzecWk2NojgT15HOhf1uUg-KFfM=/5409246718_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -34721,8 +35575,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100914467-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100914467-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_9WBqVNkN3472k-yzlN3YsYRC1afjac32UZ_MKRYbpo=/5409249039_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -34739,8 +35594,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100915944-nabir-gonki-svichok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100915944-nabir-gonki-svichok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9sJlEZGUN-VR3wOCVJIxJOAUQkpBckG5ACOn9zNLu6c=/5409254595_nabir-gonki-6.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34757,8 +35613,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100917091-nabir-mejkap-svichok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100917091-nabir-mejkap-svichok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BrJV4ZCDMBpFFCytcXpOwTuum7MI1ETGUjECIMiwPxQ=/5409259140_nabir-mejkap-6.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34775,8 +35632,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100918533-nabir-kosmos-svichok.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100918533-nabir-kosmos-svichok.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4C-eivZozPCyhkspzJTKsUhkVzMQk0Gm2uNhFzI0UIM=/5409263662_nabir-kosmos-6.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34794,9 +35652,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100921011-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100921011-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1HixekHiwchBpdMPqpntt2bYaf4xfNvJTXIxecJohYQ=/5409269339_zoloto-harchove-potal.jpg',
-    additional_images_links: [
       'https://images.prom.ua/M_JA12k281VNnXAW-SbhW0G7j4HQAUwsrsH5Oa9t-0s=/4385976213_zoloto-harchove-potal.jpg',
     ],
     availability: 'in stock',
@@ -34815,8 +35672,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100922988-svichki-tort-vedmediki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100922988-svichki-tort-vedmediki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hI6Vmu8VDk4Td7TdbTAYbKIVFCqRF672OR6ncfTnJs4=/5409274910_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34833,8 +35691,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100923946-svichki-tort-krizhane.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100923946-svichki-tort-krizhane.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/RkJ4OprJzqJdtjfGmCXAU6nb0BNSf-P_F9LX8ltsUOU=/5409278541_svichki-u-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34851,8 +35710,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100924440-svichki-tort-tachki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100924440-svichki-tort-tachki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vxzk7vfwIKaiCdCQ07PSfjUymHVMkUvWSr8A-qCLVls=/5409280815_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34869,8 +35729,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100924997-svichki-tort-svinka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100924997-svichki-tort-svinka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dxlnAz5ZlOCHYBGdbTi2UB3RWR03xUkj79jBIf1928U=/5409283003_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34888,8 +35749,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100925407-svichki-tort-parovoziki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100925407-svichki-tort-parovoziki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HwY9TlJmMjwLlLU_Omh83DE9vb1G7ustV0XjYwauAL0=/5409284956_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34906,8 +35768,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100926434-svichki-tort-dinozavriki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100926434-svichki-tort-dinozavriki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FMsWsLM2OhdbwaQKNi8GvxUPPu1aT1vFqzNm5H4VW7I=/5409287346_svichki-u-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34924,8 +35787,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100928664-svichki-tort-figurkami.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100928664-svichki-tort-figurkami.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IjqHLrV_M1vLifLrV0qUlvlb6wCrepziMnCD6kDzO7U=/5409292005_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34942,8 +35806,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100931021-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100931021-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BiFpdtZfSIYwYfilwavF_jG6yAVbPE9omrxGEHn_2pA=/5409297534_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34960,8 +35825,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100931869-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100931869-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/3Ig1HobmxKjfkEc2L5y9UzLbbH51ziZ41n8sRNLFGOA=/5409299943_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34978,8 +35844,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100932993-svichki-dlya-printsesi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100932993-svichki-dlya-printsesi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/i1RA8acYR3bxaiz3kyFWBCDW6j5x6RyU3hyYNERMwPE=/5409302657_svichki-dlya-printsesi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -34996,8 +35863,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100934318-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100934318-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oXykAbUEQcK0hywUi-HKoQkgo6yovXm3hsoPVAkxSoU=/5409305407_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35014,8 +35882,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100935456-svichki-tort-figurkami.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100935456-svichki-tort-figurkami.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/rs-KM6e4MlFsPkbv78w93XjCVvXAjLbO2d8CyqZuLFA=/5409308294_svichki-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35033,8 +35902,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100936437-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100936437-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/TolLW0eE3SCXY5udBHBmY5zhnnbPChOUXFsICN3vGo0=/5409311391_svichki-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35051,8 +35921,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100938399-svichki-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100938399-svichki-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ScCRlT4diYiC_LO_Dnx-9vKHxcOZT6i_0XnG2rxfbFk=/5409316111_svichki-dlya-torta.jpg',
+    ],
     availability: 'out of stock',
     price: 62.0,
     product_type:
@@ -35069,8 +35940,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100939630-svichka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100939630-svichka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Wt1tKO3_s076C6kBKo0ohmkgfJpCBg4ANuwlP9qZXR8=/5409320967_svichka-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 61.0,
     product_type:
@@ -35087,8 +35959,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100940191-svichka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100940191-svichka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HhlG78NOknyyO5T2rv_3dFyLNQb1kXuiKSZyVwyI52g=/5409323856_svichka-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 61.0,
     product_type:
@@ -35105,8 +35978,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100942771-svichka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100942771-svichka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EZXn0YrfnLGfuaLTihYOeZyS64qjzBtUmpKYoq4L59o=/5409327890_svichka-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -35123,8 +35997,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100943730-svichka-dlya-torta.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100943730-svichka-dlya-torta.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CCQ2s0kF7cFksCAUhOzmEel_EteDu-iCjgVWkEoWlds=/5409330086_svichka-dlya-torta.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -35142,9 +36017,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100956253-prikrasa-tort-nabir.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100956253-prikrasa-tort-nabir.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/u17fawvBdMqIZGgKPBsdNoo97_ycKV5Idy8CTlwCf3M=/5409357757_prikrasa-na-tort.jpg',
-    additional_images_links: [
       'https://images.prom.ua/O_vs3WdM-ipPXMHwywV_VoVhEneaFJNpvbGKv8sbF-k=/5409357752_prikrasa-na-tort.jpg',
     ],
     availability: 'in stock',
@@ -35165,8 +36039,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100956511-prikrasa-tort-nabir.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100956511-prikrasa-tort-nabir.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_Ph1qAp858qHEPwZgxdIHzApKkxqU553DBeIQJnk__o=/5409363977_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 409.0,
     product_type:
@@ -35184,9 +36059,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100962524-vershki-konditerski-dekovip.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100962524-vershki-konditerski-dekovip.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nTGsn0SyADPBw2cpoOr-lXgQfmEZXTbhasT9U4DhIVM=/5409382171_vershki-konditerski-mi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/93oobWpHXoDlMcEOKYTrKb_WEwSJejZhQWOgrIlUwtQ=/5409382181_vershki-konditerski-mi.jpg',
     ],
     availability: 'in stock',
@@ -35204,8 +36078,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100965544-vershki-konditerski-dekovip.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100965544-vershki-konditerski-dekovip.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/d6o9qnHcUGSuOK4QJoSEzeSMDuIixawKRESWbgNuUuQ=/5409390764_vershki-konditerski-mi.jpg',
+    ],
     availability: 'in stock',
     price: 198.0,
     product_type: 'продукти харчування, напої > молочні продукти > вершки',
@@ -35221,9 +36096,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100975204-upakovka-dlya-desertu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100975204-upakovka-dlya-desertu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4laqFmGIKb0VAZj-0wtebmdjbtTbYY5tuuM15YtJa7o=/5409421649_upakovka-dlya-desertu.jpg',
-    additional_images_links: [
       'https://images.prom.ua/Vh5Id2i2LLrxr9C1f2ixtuI5cQ06a2d0GpF89RrmUxs=/5409421648_upakovka-dlya-desertu.jpg',
     ],
     availability: 'in stock',
@@ -35243,9 +36117,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100980415-korobka-upakovka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100980415-korobka-upakovka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Owb9rWyrM7m5dM7m61AMMWzq7ZMDIIWWFutFiFK46b0=/5409437657_korobka-upakovka-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/H-EAjMCYKPtwAJqk9TUYkB7Ul-_kFVbvYEllmXiZ-XU=/5409437605_korobka-upakovka-dlya.jpg',
       'https://images.prom.ua/xog2Y3o_m0KpgL4AXoVntGndtedKjWXCASDsfS9nAjA=/5409437705_korobka-upakovka-dlya.jpg',
     ],
@@ -35265,9 +36138,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100985538-pidnos-pryamokutnij-150h400.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100985538-pidnos-pryamokutnij-150h400.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-150h400.jpg',
-    additional_images_links: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-150h400.jpg',
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h400.jpg',
     ],
@@ -35287,9 +36159,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100989184-pidnos-pryamokutnij-150h350.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100989184-pidnos-pryamokutnij-150h350.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-150h350.jpg',
-    additional_images_links: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-150h350.jpg',
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-150h350.jpg',
     ],
@@ -35309,9 +36180,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2100989807-pidnos-pryamokutnij-70h120.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2100989807-pidnos-pryamokutnij-70h120.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W4a_P_BdcGewqc1YA75DoV46EIrK7dEt_jTm4t7d5h4=/5409453753_pidnos-pryamokutnij-70h120.jpg',
-    additional_images_links: [
       'https://images.prom.ua/vmaeQOzPjOYPLJAk55Q2cV_Ywctu78ORwovE18XJolQ=/5409453748_pidnos-pryamokutnij-70h120.jpg',
       'https://images.prom.ua/aZAgyxRkVkXJXPasDk5we4h3XsHbKVqkInIOesvfBUI=/5409453782_pidnos-pryamokutnij-70h120.jpg',
     ],
@@ -35331,8 +36201,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101670612-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101670612-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ze5HIMRUPQbvzyTEuwAkMSXRFK6mg6dtcxKeKiZsHNY=/5412455168_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -35350,8 +36221,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101672577-saharnoe-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101672577-saharnoe-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oZB-Aiq4EDSnGHF5oHGXQghLCAnl478GDogOXCneVMg=/5412463844_tsukrove-prikrashannya-na.jpg',
+    ],
     availability: 'in stock',
     price: 104.0,
     product_type:
@@ -35368,8 +36240,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101675726-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101675726-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t0yVsl2imGrNrkwUPLN8r-misHPT3RuSbgZYitAmu5E=/5412476064_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -35385,8 +36258,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101677056-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101677056-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/o1oSNcn06JDH-MXfGCpQjBPY2uAWqiVNxSwgSoMLt2g=/5412481149_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -35401,8 +36275,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101678344-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101678344-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cWiqJRZnbcqSTBGcUFmBr2IutFUoX3KUB753SVXo6vI=/5412487705_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -35419,8 +36294,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101679556-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101679556-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/hKzKHhSwH-B6Lk7H2AvsTPm08UHNsAc1AU83Cw_113c=/5412493490_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -35439,8 +36315,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2101682515-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2101682515-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oJctpNPxRl3P7L_bseADM0UxBneaDvOAtoJ960uohBI=/5412508333_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -35459,8 +36336,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103609347-shokoladna-figurka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103609347-shokoladna-figurka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/02rMBhn1Cfyt1Tb2EiR3Yqdz-4TBeLAcVbFBMowZgAg=/5420245897_shokoladna-figurka-na.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35478,8 +36356,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103656729-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103656729-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/S3dCsU6dT3kib1-Xtvf-C9CA_a1vKU5S6zRrz6aFqao=/5420457428_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35498,8 +36377,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103658454-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103658454-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/20JKFZDUIUwoS0yPAU50W2UqDnnWI0NX49hZaehh6cM=/5420467970_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -35517,8 +36397,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103662195-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103662195-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/f-wVorWtLGzUQ04I_L6MpqRHU1mWiaL62bZM2IQjAFI=/5420488781_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -35537,8 +36418,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103664082-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103664082-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fmI6_bTpb6E8XGhWhcJY-FTPNTlcISMsX5CGvDI3cPU=/5420493034_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 76.0,
     product_type:
@@ -35557,8 +36439,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103664506-nabor-saharnyh-ukrashenij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103664506-nabor-saharnyh-ukrashenij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MAC1mPKdldJtgLo1FgeJfmEC1vqptrfvKBChplqukbw=/5420495798_nabir-tsukrovih-prikras.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -35576,8 +36459,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103678199-pashalne-kachenya-shokoladu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103678199-pashalne-kachenya-shokoladu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NjFCnO4cjPoGecIt8Xg7RVWRPbX8uIei3MrJay_m4VQ=/5420531272_pashalne-kachenya-iz.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -35593,8 +36477,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103678902-pashalne-kachenya-shokoladu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103678902-pashalne-kachenya-shokoladu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XPzwOF1Y9BaW2z4d_p5C_IcNYGlr6dNQ4dfQUYObt4A=/5420533885_pashalne-kachenya-iz.jpg',
+    ],
     availability: 'in stock',
     price: 102.0,
     product_type:
@@ -35611,8 +36496,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103680187-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103680187-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lUla8cr_TNsmaWtnjCs7Usog3Z-5qqFoVlkXc0wovGA=/5420538168_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -35627,8 +36513,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2103683133-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2103683133-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qriX2xKtA7Av6Amil5hg37LTQkDz5g4wb7ev8Uz7fhk=/5420546110_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 228.0,
     product_type:
@@ -35646,9 +36533,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109083730-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109083730-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e54pMCqTYez2CCESpMqGFT4j87F7Q-MrSO_ZxyplaKo=/5442138706_velikodnij-nabir-z.jpg',
-    additional_images_links: [
       'https://images.prom.ua/yBpS9MsonxA3HZo8vwsluyQbY-CY_MQz_FdKM6DPc_E=/5442138700_velikodnij-nabir-z.jpg',
     ],
     availability: 'in stock',
@@ -35668,8 +36554,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109084520-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109084520-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XittOnIAnsDBncU9usk4Pr4cOlbgOagN0vgBiO1wacg=/5442144799_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35687,8 +36574,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109084902-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109084902-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-kJoA9nmxTMSksoLdse6mLFM9wb_YipPA9dqtWjAZYg=/5442148472_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35706,8 +36594,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109085429-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109085429-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jl4-6meIel2pfT5usDvFSjrKw7QBeO_o47reg3pEc4o=/5442152926_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35725,8 +36614,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109085689-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109085689-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ADsmA3sgsyOhrUCo7bRpCvRfvndHSJW3GVwRGc0ipq0=/5442159088_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35743,8 +36633,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109086044-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109086044-velikodnij-nabir-shokoladnoyi.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ksv5ND5NhlqBNdEV-QDGlWsq7fufwUWpr_cAFMrRdS4=/5442162514_velikodnij-nabir-z.jpg',
+    ],
     availability: 'in stock',
     price: 36.0,
     product_type:
@@ -35760,8 +36651,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109086876-vafelnaya-kartinka-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109086876-vafelnaya-kartinka-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KjqTlzX41KNsMzyYI6XrTiGhaX3wuCSlRQNVZzUOTP8=/5442169289_vafelna-kartinka-na.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -35778,9 +36670,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109090234-silikonova-forma-hrestiki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109090234-silikonova-forma-hrestiki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gRyNGVN2Fbwnzl8mytjhZNkgpQQrMnL0r-90wsYDm5k=/5442194744_silikonova-forma-hrestiki.jpg',
-    additional_images_links: [
       'https://images.prom.ua/0V47smr133fX0UMcejToxFEZ04GE3Imi-qEmwaMrAy8=/5442194745_silikonova-forma-hrestiki.jpg',
     ],
     availability: 'in stock',
@@ -35805,8 +36696,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109090930-silikonova-forma-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109090930-silikonova-forma-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/57RoMdhxLhBnlagNJ05zWxcbdslzI2iFfDcubTvRgsk=/5442203477_silikonova-forma-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 165.0,
     product_type:
@@ -35829,8 +36721,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109091758-boroshno-klejkogo-risu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109091758-boroshno-klejkogo-risu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/k1by9OhTL2NP-hLgkAhMipKi_cLYkkG3iEi_vg_zLyw=/5442214410_boroshno-z-klejkogo.jpg',
+    ],
     availability: 'out of stock',
     price: 202.0,
     product_type:
@@ -35846,8 +36739,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109092477-forma-silikonova-gudziki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109092477-forma-silikonova-gudziki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IBvd82P_HA4IcY1C9tad69r25KsKOnf_Bzus2P6d0m0=/5442224588_forma-silikonova-gudziki.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -35864,8 +36758,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109093946-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109093946-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/0Zq_gWM7nbDkvROgsy7KznXzKY5OUVoyAvh4_zc1C2k=/5442236287_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35882,8 +36777,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109094013-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109094013-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zDJdU2TA9Snad5PMkfQ2bcqjeoSZRaD07rntzME4WbE=/5442237622_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35900,8 +36796,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109094127-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109094127-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fjej3GDrFHiLJYiDKW3V9yj5VEBVAPHYrUxqmApcbaQ=/5442238609_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35918,8 +36815,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109094158-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109094158-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1BoyWtv60wpkBgD8hxg46equZthFzIQ_G-tEbq4M05o=/5442239600_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35936,8 +36834,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109094173-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109094173-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zj_nXpQYInoABBcfbaGbrHVs-TDuL_outw_8SsQENfQ=/5442240684_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35954,8 +36853,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2109094229-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2109094229-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CXw1iy184Mhuwrp2yxWnda38b67FEmZVQFCUWncTKFc=/5442241738_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 122.0,
     product_type:
@@ -35972,8 +36872,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2115349102-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2115349102-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nzg9WHefqlHoUl0z5OVCpeDeLJKC16kZSVIStOVqFxc=/5469723855_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -35992,8 +36893,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118831769-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118831769-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/a8BnTB5uNGPd_lYpX6m-5g-jzF-aLNEqdsJqHv-X9yo=/5485558618_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 84.0,
     product_type:
@@ -36011,8 +36913,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118847422-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118847422-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/IeQQYoe5IFl7qjD8cbb2EMR8FhVqg3FwD6rFHb14ZeU=/5485600885_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type:
@@ -36029,8 +36932,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118848645-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118848645-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/JgZ9dbPpfd3FSyHKb0VW15MMPmYN_d76Tp8Dk1Yfvyc=/5485603195_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -36049,8 +36953,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118850641-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118850641-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/T6dWWygE0U6vs8hteFIh-7wQ6FTvr3bcGlVQQqRwAJA=/5485607198_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -36069,8 +36974,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118851920-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118851920-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/yO1E20pzzYWpNKuCH3-2xdygfc4WAp3rIsBresf-Dks=/5485608605_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -36088,8 +36994,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118855080-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118855080-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/jc6orCSuHaUoKfYBu5ni5X8vKlswIs2Md2drXQMuFEI=/5485616357_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 84.0,
     product_type:
@@ -36106,8 +37013,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118856297-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118856297-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bP5PRxRCT-HuUvEISQY0UwZlvydqCPaloT6C3uHfXC4=/5485621468_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 54.0,
     product_type:
@@ -36125,8 +37033,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118868075-aromatizator-kapuchino-pischevoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118868075-aromatizator-kapuchino-pischevoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8Zjg9CPcKwLvAUaqZXNsoKSe22ml-wtLFuMU59xtWnM=/5485652771_aromatizator-kapuchino-harchovij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -36144,8 +37053,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2118870719-aromatizator-toplenoe-moloko.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2118870719-aromatizator-toplenoe-moloko.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/MLXC21A1c_ORnjtWGQNg3gR0-wfCnj5AJ2rFN61Gzfk=/5485660726_aromatizator-toplene-moloko.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -36163,9 +37073,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2119410627-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2119410627-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
       'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
       'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
@@ -36188,8 +37097,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2119412856-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2119412856-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/xj1kVS7nfh1hV8TVZstyhaCZaNJX_mKCfw48vzBOFAk=/5487929221_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'out of stock',
     price: 87.0,
     product_type:
@@ -36206,8 +37116,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2119425396-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2119425396-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KQ_MVmrHKaVBisDiZ04nJf3_ZpsKVrZjmhe-pplEJIU=/5487983405_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 412.0,
     product_type:
@@ -36225,8 +37136,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2119425536-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2119425536-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/o6slwfifltviVvqC4IuQbpcV92esCCfX51dn7InEN1M=/5487986361_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 412.0,
     product_type:
@@ -36244,8 +37156,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2119425601-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2119425601-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6vxOgA-YuJprF5vm2idVl-bPADxJxBBVAADKFXcFHjo=/5487987632_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 412.0,
     product_type:
@@ -36263,8 +37176,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120389284-mastika-saharnaya-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120389284-mastika-saharnaya-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/gR97hfz5KBwOwI2b6vmktPa0rGjKAw7IBAU40Te7d6o=/5491536662_mastika-tsukrova-temno-zelena.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36281,8 +37195,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120391571-mastika-saharnaya-zelenaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120391571-mastika-saharnaya-zelenaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8HMXNpOy1g7ZxLy34w4933fwsP5ixOr4gu-nHkC9Iqo=/5491541058_mastika-tsukrova-zelena.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36300,8 +37215,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120392694-mastika-saharnaya-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120392694-mastika-saharnaya-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wFPDyEF3w236rrhisa1kMPBwo386hkEIG7zEsbsgXl0=/5491545412_mastika-tsukrova-temno-sinya.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36318,8 +37234,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120394515-mastika-saharnaya-sinyaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120394515-mastika-saharnaya-sinyaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4bwTd-LKS8Q7Oz89Lrys-RhijBhNl5G_8VeNqxSd7DQ=/5491548874_mastika-tsukrova-sinya.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36337,8 +37254,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120395903-mastika-saharnaya-belaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120395903-mastika-saharnaya-belaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5UV8bjAcem9JvZJOWPD_7EFLSVISnY3cNaqxGtg2-4c=/5491551418_mastika-tsukrova-bila.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36356,8 +37274,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120396985-mastika-saharnaya-chernaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120396985-mastika-saharnaya-chernaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t1l4sh709DfE30HMdTm43p5TVOJYHyk19Ig1jwfNshM=/5491554122_mastika-tsukrova-chorna.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36374,8 +37293,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120397256-mastika-saharnaya-krasnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120397256-mastika-saharnaya-krasnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bR6iMKAJsxjfuURS80Sn7Zin9kum03BpcxMM7r_Rm3A=/5491556749_mastika-tsukrova-chervona.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36393,8 +37313,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120398539-mastika-saharnaya-zheltaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120398539-mastika-saharnaya-zheltaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Cn_w8BN4bHx3jYdQNBHRbPtCjAxCBH1C6nARDmZkdN8=/5491559252_mastika-tsukrova-zhovta.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36411,8 +37332,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120400812-mastika-saharnaya-rozovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120400812-mastika-saharnaya-rozovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iHQLFYlHTDRygx4jbJIjk41zZFtaO2hXP9QH_ULpVPk=/5491561641_mastika-tsukrova-rozheva.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36430,8 +37352,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120402047-mastika-saharnaya-seraya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120402047-mastika-saharnaya-seraya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/QLME3W15m0cwL_rYZqkLWdOGlAzpvV5vrN04ZzDnv7s=/5491564123_mastika-tsukrova-sira.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36449,8 +37372,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120406684-mastika-saharnaya-golubaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120406684-mastika-saharnaya-golubaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/h3dqMwu8tWXLn8WGea9CWYx5p2e4pVUlR5SL5C2-7_Y=/5491574703_mastika-tsukrova-blakitna.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -36468,8 +37392,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120410068-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120410068-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2IFtYfP1vtXHApyc9Na8o23kCqlol-y59xxtw51uCKs=/5491586886_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 116.0,
     product_type:
@@ -36488,8 +37413,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120439408-kandurin-supper-plotnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120439408-kandurin-supper-plotnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wkuAtdjFe7zqxnY9E5lcH6LCy0MpkZfL9cjCxCUuY98=/5491678979_kandurin-supper-schilne.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -36506,8 +37432,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120442155-kandurin-supper-plotnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120442155-kandurin-supper-plotnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DWrdOqvWWhvcU5vbdMSW54bWYVjrXlpd7G8meVySWEw=/5491683020_kandurin-supper-schilne.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -36524,8 +37451,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120454001-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120454001-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YAoaqkhOtSX0cS4RUXPzhz-hF2q-d88YD3kT5kXoovE=/5491719637_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -36542,8 +37470,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120460188-shokoladnye-sfery-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120460188-shokoladnye-sfery-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-nD3k35YSjFzwwqblqjhA9MndWQrlRqTE1DVd7EitVM=/5491732443_shokoladni-sferi-na.jpg',
+    ],
     availability: 'in stock',
     price: 206.0,
     product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
@@ -36558,8 +37487,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120476587-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120476587-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y6lvaNd2ULBTP49NNoHhptr1gPeRglVOFEDReMZr_9M=/5491779937_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -36576,8 +37506,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120476921-posypka-vozdushnyj-ris.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120476921-posypka-vozdushnyj-ris.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_WsIb3TylzeQn_SBBIZPKfZrCF-ZBpvrQxqkeQyw1BE=/5491781767_posipka-povitryanij-ris.jpg',
+    ],
     availability: 'in stock',
     price: 31.0,
     product_type:
@@ -36593,8 +37524,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120482760-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120482760-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Unnl4ICIgQX7ZpN_DQ0d6z06YQJNlkn0581B-6VulR8=/5491802386_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 24.0,
     product_type:
@@ -36611,8 +37543,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120485592-svichki-kolorovim-polumyam.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120485592-svichki-kolorovim-polumyam.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2VDBw-FhgSVSVgvjKEpdnAY6DTDckwZX11NhQUwlgrI=/5491816480_svichki-z-kolorovim.jpg',
+    ],
     availability: 'in stock',
     price: 64.0,
     product_type:
@@ -36629,8 +37562,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2120487798-svichki-bukvi-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2120487798-svichki-bukvi-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/20zUuj0n9w_XJTcZyI19_zitT6TJqRyG-Zu-_ScStks=/5491823237_svichki-bukvi-v-tort.jpg',
+    ],
     availability: 'in stock',
     price: 52.0,
     product_type:
@@ -36647,8 +37581,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2123891768-svichka-parafinova-stolova.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2123891768-svichka-parafinova-stolova.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/KHBwfqlF5f8mfZvlaRgUiC0OfEFHoDsD27wCwCCZnoY=/5504861564_svichka-parafinova-stolova.jpg',
+    ],
     availability: 'in stock',
     price: 11.0,
     product_type:
@@ -36664,8 +37599,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131883373-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131883373-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-1.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36681,8 +37617,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131887763-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131887763-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-0.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36698,8 +37635,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131887838-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131887838-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-2.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36715,8 +37653,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131887853-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131887853-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-3.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36732,8 +37671,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888040-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888040-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-4.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36749,8 +37689,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888259-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888259-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-5.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36766,8 +37707,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888676-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888676-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-6.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36783,8 +37725,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888682-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888682-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-7.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36800,8 +37743,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888697-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888697-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-8.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36817,8 +37761,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131888914-tsifra-toper-akrilovaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131888914-tsifra-toper-akrilovaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oBvL309NB2AdDSMBtYsjQGxAMWVxaJ5I7IlEucluHi0=/5536464521_tsifra-toper-9.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -36835,8 +37780,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131895158-topper-tortsevij-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131895158-topper-tortsevij-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/eMe9oMdlLk3l6EEkw7_3tIfyP2B3auSBLP5XSuGjS1E=/5536516045_topper-tortsevij-dzerkalnij.jpg',
+    ],
     availability: 'in stock',
     price: 85.0,
     product_type:
@@ -36853,8 +37799,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131898367-topper-tortsevij-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131898367-topper-tortsevij-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/lyoSTQMXioVd8Ott1eNaNSWW0iJew0TfPlDsSIrzULQ=/5536533834_topper-tortsevij-dzerkalnij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -36871,8 +37818,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131899891-topper-tortsevij-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131899891-topper-tortsevij-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8MOkQ0Mp3dMDCFgGdtuIWfq5j7mhtl9j3DusOhfvLX8=/5536536568_topper-tortsevij-dzerkalnij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -36889,8 +37837,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131901140-topper-tortsevij-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131901140-topper-tortsevij-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/efnVtCwS4CMALCI24F9d7eTFotVkWK-qsiN1GdjpJK0=/5536540284_topper-tortsevij-dzerkalnij.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -36907,8 +37856,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131901746-topper-tortsevij-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131901746-topper-tortsevij-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XSUyiWsJS3M9WNXrpzYvEwyaweF2ijH17OsyS94GpVQ=/5536545030_topper-tortsevij-dzerkalnij.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -36925,8 +37875,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131904010-dzerkalnij-topper-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131904010-dzerkalnij-topper-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Tk4iw83hxvulJvYsY85ez20jUf_CE0N3bECUBziDJtY=/5536553422_dzerkalnij-topper-z.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -36942,8 +37893,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131904335-dzerkalnij-topper-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131904335-dzerkalnij-topper-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/K9jAIEsb-snlxEFkTCiFsrSnQXZQyE0OR2DOdkuFyi4=/5536557459_dzerkalnij-topper-z.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -36959,8 +37911,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131906125-dzerkalnij-toper-zoloto.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131906125-dzerkalnij-toper-zoloto.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W8f8TjrdHrvq01l3A6YC2zKC-U-BTsyESRxr47_9zYQ=/5536567031_dzerkalnij-toper-zoloto.jpg',
+    ],
     availability: 'in stock',
     price: 66.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -36976,8 +37929,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131906677-dzerkalnij-toper-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131906677-dzerkalnij-toper-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/54zQ9nmZ8qGN6qQE6eGWS1MqIVPmfGpfM8YFpF_eeQY=/5536569361_dzerkalnij-toper-happy.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -36993,8 +37947,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131912850-rozhevij-plastikovij-toper.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131912850-rozhevij-plastikovij-toper.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/t0pudR8Ah3yDmZBrc0u5gjQdYYGFA1jfqtCIOa1wqr4=/5536599292_rozhevij-plastikovij-toper.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37011,8 +37966,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131914017-dzerkalnij-toper-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131914017-dzerkalnij-toper-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/uu2zX8rWQhMq93-cyORDGQWBT63AGWf0oiGMBSmHC8s=/5536602144_dzerkalnij-toper-happy.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37028,8 +37984,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131915376-dzerkalnij-toper-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131915376-dzerkalnij-toper-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ASrIicMG5XCDiqqksfGezd7oQPYVBaXrJ5F2DPBjJ1s=/5536603920_dzerkalnij-toper-happy.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37045,8 +38002,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131916798-toper-plastikovij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131916798-toper-plastikovij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fRU4NrGO2DOsG-Hc03r1pmt8Symy6O1ry-pEsP8oLd0=/5536606432_toper-plastikovij-happy.jpg',
+    ],
     availability: 'in stock',
     price: 35.0,
     product_type:
@@ -37064,8 +38022,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131918252-sertse-happy-valentines.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131918252-sertse-happy-valentines.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BioTVzRHjF4dfg03rinnk1Gozls7HG3d2pQ1qTw5Zgk=/5536613115_sertse-happy-valentines.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37082,8 +38041,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131919109-sertse-kohayu-tebe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131919109-sertse-kohayu-tebe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/P9O0hi83a-83_Iqi_gr-DLe1SLqv8Djz9v9RJKijGkg=/5538180038_sertse-kohayu-tebe.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37100,8 +38060,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131919651-krug-dnem-zakohanih.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131919651-krug-dnem-zakohanih.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XYPZ9Fg_cE_Jq-Nm6JWmjRMZDwjvJDfOwbr5yLRrh-c=/5536616944_krug-z-dnem.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37118,8 +38079,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131920179-krug-love-you.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131920179-krug-love-you.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y7sBiwtHLlq66qihbBa3CqoHXKMssNP3MZMZK5y6oFg=/5536618832_krug-i-love.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37137,8 +38099,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131921655-toper-tort-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131921655-toper-tort-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/iHjPLNzFCV01SWS_P8GQIiNZW86XbzFUETbd3ZKz6X8=/5536630750_toper-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -37162,8 +38125,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131922520-toper-rokiv-razom.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131922520-toper-rokiv-razom.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/W3QBe1GTeLKdr99HDI2BdyjQ-bLoIBCNVhnjCq-24C4=/5536636337_toper-50-rokiv.jpg',
+    ],
     availability: 'in stock',
     price: 50.0,
     product_type:
@@ -37187,8 +38151,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131923151-toper-azhurnomu-zavitku.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131923151-toper-azhurnomu-zavitku.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Hf0z3DUHEbOqGUwSmifiuThSpxnyxxyrouuOL5a1Buk=/5536640846_toper-na-azhurnomu.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -37212,8 +38177,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131923637-toper-dnem-rozhdeniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131923637-toper-dnem-rozhdeniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Gj6r7rWUSS4h7cTbYl32v5frcUra08yP0slyAsWOQkE=/5536644500_toper-s-dnem.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -37237,8 +38203,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131924300-toper-love-tortsevij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131924300-toper-love-tortsevij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8WMQks60Pj0igdOL5YmhK3OTzLj8psY40_IFgpguTpU=/5536648095_toper-love-tortsevij.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -37262,8 +38229,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131924801-topper-kohayu-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131924801-topper-kohayu-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tByUY8rmjjmtTeMaQiMvK50pAULpK6gCiCR-EdKNpDs=/5536651018_topper-kohayu-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -37286,8 +38254,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2131925047-toper-sertsya-dzerkalnij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2131925047-toper-sertsya-dzerkalnij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/ltwNe72K0xFKXCqufPRnPtOGqAns8BKBU6wvCzF7OCs=/5536653568_toper-2-sertsya.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -37310,8 +38279,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2133520420-figurka-ejfeleva-vezha.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2133520420-figurka-ejfeleva-vezha.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EU7AlEBhOkKvtw-PuQfT4leEKZ-FX0kYEvJ_nx8dup8=/5543426021_figurka-ejfeleva-vezha.jpg',
+    ],
     availability: 'in stock',
     price: 94.0,
     product_type:
@@ -37329,9 +38299,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134269715-angelochek-posypkoj-saharnoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134269715-angelochek-posypkoj-saharnoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/7QuRj2LUqF475SRqPFWIbrDBcm48z0_fUrKdSHGsjHg=/5546333946_angelochok-iz-posipkoyu.jpg',
-    additional_images_links: [
       'https://images.prom.ua/R3L6-hEmhIQhCe-CsBNt-ydf44FoBAVreyTicWwdLUk=/5546333947_angelochok-iz-posipkoyu.jpg',
       'https://images.prom.ua/13RO08RohhBKJKJF1zJhazdc1iEhktMJxlej8EzomHk=/5546333980_angelochok-iz-posipkoyu.jpg',
     ],
@@ -37353,9 +38322,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134271453-krestik-saharnoj-mastiki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134271453-krestik-saharnoj-mastiki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/nRf02eQuPNEXdTBuFEOYE1Vsgg1A99bL49m58RpqESs=/5546338175_hrestik-iz-tsukrovoyi.jpg',
-    additional_images_links: [
       'https://images.prom.ua/UyyOMFYIQ9RJTGsrWuCJAhaoJP9QhbW3j0QBku_ok7o=/5546338198_hrestik-iz-tsukrovoyi.jpg',
       'https://images.prom.ua/HI67RVw4WouqCjMsVIOlTND7Ynp0Xnk8DjgiNefRCQ0=/5546338252_hrestik-iz-tsukrovoyi.jpg',
       'https://images.prom.ua/quf4k8eiCZVoRVHpT_pJVKIQliLjFBv0l7N8TiBVpx8=/5546338184_hrestik-iz-tsukrovoyi.jpg',
@@ -37378,9 +38346,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134279026-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134279026-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vfy-DVlERktkfNu8elRT27RKGPWCI2SrcreIMUS3gBA=/5546358819_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pcKZddgF_sfszIVbo5zY_uQZyjsi2WmAZAutgLtKTbY=/5546358843_nabir-konditerskih-tsukrovih.jpg',
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
     ],
@@ -37402,8 +38369,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134366913-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134366913-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/bjhGIBzCJ8RyHIfXle1d2AmRrRpBIDMbyABFna226gE=/5546625616_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 68.0,
     product_type:
@@ -37420,8 +38388,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134369032-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134369032-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/-kvPyfJFOqYdoQceZro999gBTjV-n_wSoyJTqlfuo2U=/5546636184_tsukrova-prikrasa-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 56.0,
     product_type:
@@ -37438,8 +38407,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134694150-toper-prozorij-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134694150-toper-prozorij-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/c-SlxXtrREVhEKCUk0HYmo2giKp6IfnjZ2FjceDzQSk=/5548218932_toper-prozoriv-happy.jpg',
+    ],
     availability: 'in stock',
     price: 95.0,
     product_type:
@@ -37456,8 +38426,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134695137-toper-zoloto-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134695137-toper-zoloto-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/L5_UB0cE_vOiDWkGxKz-fM_MCdO7NMmIlHsn7bv6ICk=/5548223157_toper-zoloto-happy.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -37474,8 +38445,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134703678-vafelnij-papir-ultratonkij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134703678-vafelnij-papir-ultratonkij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AATE4ugAQJnVE7nPg-hlegW22YCyPc2qv_fpkLeAhuA=/5548258351_vafelnij-papir-ultratonkij.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -37493,8 +38465,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134705047-vafelnij-papir-tonkij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134705047-vafelnij-papir-tonkij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/AATE4ugAQJnVE7nPg-hlegW22YCyPc2qv_fpkLeAhuA=/5548258351_vafelnij-papir-tonkij.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -37512,8 +38485,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134706549-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134706549-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/sOT4nFXe6Q_EpssbCXklhz24wj4A_UHCSF5pimB9Fcw=/5548267528_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 127.0,
     product_type:
@@ -37531,8 +38505,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2134722033-tistechko-makarons-shtuka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2134722033-tistechko-makarons-shtuka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HaLglIzXEASt8m5MzrMBcX3K4NeKxqb66gNlaHBu6O4=/5548307358_tistechko-makarons-1.jpg',
+    ],
     availability: 'in stock',
     price: 30.0,
     product_type:
@@ -37549,8 +38524,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2136881530-rozyemni-formi-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2136881530-rozyemni-formi-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/FYLqtO_Zw13dlivNnxhHYZDECJ1cONS8lNx3ohGFc2o=/5556539461_rozyemni-formi-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 347.0,
     product_type:
@@ -37567,8 +38543,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2136974500-nabir-konditerskij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2136974500-nabir-konditerskij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Yt0TC9_Plza5OWgmP1g9sdjZjFk3gVPpI8yda97EZOk=/5556911100_nabir-konditerskij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 84.0,
     product_type:
@@ -37584,8 +38561,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2136978209-struna-dlya-korzhiv.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2136978209-struna-dlya-korzhiv.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/maPE_elV3kxEqvYDyyNTe4qa2v1dGMSjpvUJM3QFiuM=/5556922387_struna-dlya-korzhiv.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -37602,8 +38580,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137770041-pektin-tsitrusovij-grinsted.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137770041-pektin-tsitrusovij-grinsted.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/qXdpOGmkN7QTmXYi_OtN-gjGZ10A66Q58eJ30Vrb8y8=/5559760754_pektin-tsitrusovij-grinsted.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -37621,8 +38600,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137776333-zoloto-pischevoe-potal.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137776333-zoloto-pischevoe-potal.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/_hFtknM6XkG_KUYhst9WF4PYIqF5ia5AoGFmatLMWGA=/5559782221_zoloto-harchove-potal.jpg',
+    ],
     availability: 'in stock',
     price: 250.0,
     product_type:
@@ -37640,8 +38620,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137777226-dzerkalnij-toper-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137777226-dzerkalnij-toper-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/5Mf1b2Y8t3Ux-B5Qe9ZrDcwZTY__11TdKiVVha_sk4Y=/5559796571_dzerkalnij-toper-happy.jpg',
+    ],
     availability: 'in stock',
     price: 215.0,
     product_type:
@@ -37658,8 +38639,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137777703-toper-dzerkalnij-zolotij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137777703-toper-dzerkalnij-zolotij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/V6__Iz4bFwCo1s0BKc084i8KQnV-9iuFwqQmowuzEaI=/5559801981_toper-dzerkalnij-zolotij.jpg',
+    ],
     availability: 'in stock',
     price: 120.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37676,8 +38658,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137778344-toper-tortsevij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137778344-toper-tortsevij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/9d1mH6CPpWUa8--sDUdEnAfFd7lYsB3wWwt5J7kzdhI=/5559808000_toper-tortsevij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 210.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37694,8 +38677,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137779933-toper-tortsevij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137779933-toper-tortsevij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mFXivU87dWhBKvCW-EB391u6v64rFF_Klwza5CryAUY=/5559813616_toper-tortsevij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 130.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37711,8 +38695,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137783216-dzerkalnij-topper-kohanomu.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137783216-dzerkalnij-topper-kohanomu.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/n6q7etBL3UcsUUjOuAtKiUqGQMYZ5Q9vcWDrnH-B7rs=/5559822749_dzerkalnij-topper-kohanomu.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37728,8 +38713,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137783734-dzerkalnij-topper-osobliva.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137783734-dzerkalnij-topper-osobliva.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/F3bne9ofqqXjsN7ShM6jN40J68AzboqJX9nr6NWahIA=/5559829746_dzerkalnij-topper-ti.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37745,8 +38731,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137784235-dzerkalnij-topper-najkraschij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137784235-dzerkalnij-topper-najkraschij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/USP57ZRvyux7jD6JtxT1Mu_cR5KRC2hI7LqGqfs13ec=/5559836609_dzerkalnij-topper-najkraschij.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37762,8 +38749,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137784480-dzerkalnij-topper-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137784480-dzerkalnij-topper-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/8hwUTWhs3-2p8LWz3p714pNCS5qwDJ7ioVx67uqMQos=/5559840370_dzerkalnij-topper-z.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37779,8 +38767,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137784517-dzerkalnij-topper-dnem.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137784517-dzerkalnij-topper-dnem.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2lVLsIFPAEbYe62IRH99JZGrqiFy3iGvaoj5QQV1BUo=/5559843032_dzerkalnij-topper-z.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37796,8 +38785,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137784971-bichnij-toper-happy.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137784971-bichnij-toper-happy.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/N_EdO6RM5QP37g0eS-q29CSaUi8Cvq6MgkMhXMJQ7AE=/5559848492_bichnij-toper-happy.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37814,8 +38804,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137785159-napis-dlya-bento.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137785159-napis-dlya-bento.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/b5MmMvLPsA_zEswQBZiRLQ7sic5jh5NGLBdB5S1_pfU=/5559854172_napis-dlya-bento.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37832,8 +38823,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137785485-napis-dlya-bento.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137785485-napis-dlya-bento.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/v7Y87JGdha5b8uAYfx_tY5OgeHrF3noZKQLJrOKpLT4=/5559859182_napis-dlya-bento.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37849,8 +38841,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137785826-napis-dlya-bento.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137785826-napis-dlya-bento.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4cnD4lGfyfThR0A6yiia3xtl03-DZtLa12F_v-z5hIA=/5559861442_napis-dlya-bento.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37867,8 +38860,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137786085-napis-dlya-bento.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137786085-napis-dlya-bento.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EbiQdt_XzdxlY_yYn_c_jCm4lW7VAJkCOz6UqhHnXEA=/5559863080_napis-dlya-bento.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type: 'тара та упаковка > етикетки та бирки',
@@ -37884,8 +38878,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137789157-termometr-dlya-duhovki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137789157-termometr-dlya-duhovki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/M6mjmynETlpaZEmuHIm3POkXseL96F1knpJlH1nmvTM=/5559875031_termometr-dlya-duhovki.jpg',
+    ],
     availability: 'in stock',
     price: 164.0,
     product_type:
@@ -37903,8 +38898,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2137790388-shampuri-bambukovi-shpazhki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2137790388-shampuri-bambukovi-shpazhki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/NLdXYhpsLTxaEMMMtA0xQjEvLjjKNAAYRAvyrWs29uw=/5559885783_shampuri-bambukovi-.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -37920,8 +38916,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138865300-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138865300-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/EvJYka8568Jeykvlu6cbiGNFK61ZTbLxcDUAh23Vt7w=/5563100570_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -37938,8 +38935,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138865895-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138865895-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/cIXBbMCWxGN5hUOpcCcD9EqnsDd8SozGsUTBB1rq4q4=/5563105081_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -37962,8 +38960,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138866392-konditerska-nasadka-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138866392-konditerska-nasadka-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/efrs2M9dWUvOTUl5bzJduLXqHjJfwyFEoAQvSZr1e74=/5563108476_konditerska-nasadka-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -37986,8 +38985,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138866876-konditerska-nasadka-zirka.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138866876-konditerska-nasadka-zirka.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/XBQDj4Qei7IqXbiKj-XecqpmkInE4DnTRLDPdUXGZuA=/5563110428_konditerska-nasadka-1m.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -38010,8 +39010,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138868247-nasadka-konditerska-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138868247-nasadka-konditerska-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/GKNx3xDycJwrAKR5d3qy_6_LwHecSxD9HF4kBoNCzHw=/5563114874_nasadka-konditerska-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 90.0,
     product_type:
@@ -38034,8 +39035,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138868966-nasadka-konditerska-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138868966-nasadka-konditerska-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pGLBMRpTv8fToZ2DVxHtsECBaRJxatyMT-F8mYl30-E=/5563116468_nasadka-konditerska-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 80.0,
     product_type:
@@ -38058,8 +39060,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138869379-nasadka-konditerska-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138869379-nasadka-konditerska-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/mpLa29vTgzO51iOTPg2w50cFR_-BfU38-uoohRMnvZM=/5563117847_nasadka-konditerska-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -38082,8 +39085,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138870441-nasadka-konditerska-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138870441-nasadka-konditerska-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Uq446RKaCOnlv81_cpIj9ufv3-dyRzbGRn_oLXjEqJU=/5563119696_nasadka-konditerska-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 55.0,
     product_type:
@@ -38107,8 +39111,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138871436-gvozdik-konditerskij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138871436-gvozdik-konditerskij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 25.0,
     product_type:
@@ -38125,8 +39130,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138872320-gvozdik-konditerskij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138872320-gvozdik-konditerskij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 40.0,
     product_type:
@@ -38144,8 +39150,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138873342-gvozdik-konditerskij-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138873342-gvozdik-konditerskij-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VLmukbGraJryc7rC7pmoTcgf73744Rcr9TAbFJiAPG8=/5563121830_gvozdik-konditerskij-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -38162,8 +39169,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138876197-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138876197-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BjJrlpeHMBVHJUWnhufZVdC2DExGYIXasYvxiODrEy0=/5563134397_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -38180,8 +39188,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138876465-konditerskaya-nasadka-listochek.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138876465-konditerskaya-nasadka-listochek.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/BjJrlpeHMBVHJUWnhufZVdC2DExGYIXasYvxiODrEy0=/5563134397_konditerska-nasadka-listochok.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
@@ -38198,8 +39207,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2138881957-forma-silikonova-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2138881957-forma-silikonova-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Y2t_ZHFsadukqSDrPY2cy384mqglgXh6WbNVsG7NrLk=/5563159197_forma-silikonova-dlya.jpg',
+    ],
     availability: 'in stock',
     price: 287.0,
     product_type:
@@ -38216,8 +39226,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140102076-glitserin-pischevoj-konditerskij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140102076-glitserin-pischevoj-konditerskij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Eydnt9uWQbVFUhUjiQ7pvamuv-3aJiNapwiaSRZr8SY=/5567905951_glitserin-harchovij-konditerskij.jpg',
+    ],
     availability: 'in stock',
     price: 46.0,
     product_type:
@@ -38233,9 +39244,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140105468-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140105468-konditerskoe-saharnoe-ukrashenie.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/V8NURMbGB7_GyaxzW_ePNtOa7n6wnYd-HNyiYYsCCcU=/5567921852_konditerska-tsukrova-prikrasa.jpg',
-    additional_images_links: [
       'https://images.prom.ua/n2cGYmpZywH6CwBPwKu30sjoQwZAv7nNap7s428HEIs=/5570249559_konditerska-tsukrova-prikrasa.jpg',
     ],
     availability: 'in stock',
@@ -38254,8 +39264,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140107577-saharnye-tsvety-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140107577-saharnye-tsvety-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/wqZMOZ3GH0_OORG-Rbvizrb0xoaIho2CEgAAvCuetMI=/5567933945_tsukrovi-kviti-na.jpg',
+    ],
     availability: 'in stock',
     price: 229.0,
     product_type:
@@ -38273,8 +39284,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140109075-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140109075-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/H0KMbos1yMuL3wIAMTRoFwnj0xkaQh6gScsrH0vvzMc=/5567939443_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 69.0,
     product_type:
@@ -38292,8 +39304,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140111212-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140111212-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/6sxe6L1G_KpZlurPjNAwpT-RbUcV8Ti-AFp4WYc2tsY=/5567946488_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 72.0,
     product_type:
@@ -38309,8 +39322,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140117767-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140117767-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Pn8wovC4ncskmEN3-wzGZ341xi5fePSqSW4G6FHml4k=/5567976876_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -38326,8 +39340,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140120740-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140120740-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/zFYspm_j6e_JTOwoIi30q4nFiNZ__3hgS1YE1vSxqC8=/5567991563_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 133.0,
     product_type:
@@ -38344,8 +39359,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140124237-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140124237-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/oDwkMkJcp0jk_kEmQIOsl8z-m9K3tHjgn7OzqCNs8Y0=/5568002529_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 75.0,
     product_type:
@@ -38363,8 +39379,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140126847-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140126847-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Xnga920JVbt_Q5I4oARoiJQahl-m3Ckf7t50QdeckDo=/5568011629_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 44.0,
     product_type:
@@ -38381,8 +39398,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140128126-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140128126-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/OYMnixVsktnOhdNOarmBCidjYt4yfxhWhvGQ-wmpl3Y=/5568019072_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 42.0,
     product_type:
@@ -38401,8 +39419,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140129255-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140129255-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/y1pGgQ9AMC_FfY-Ho2irhKOxCeeZleaKnH809Q2MQwc=/5568024601_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -38420,8 +39439,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140131934-saharnoe-ukrashenie-sedobnoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140131934-saharnoe-ukrashenie-sedobnoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/dBy0toClb4SWj6vGURmTpZE-WtMHbI5Qugp3MKlOE1w=/5568034461_tsukrova-prikrasa-yistivna.jpg',
+    ],
     availability: 'in stock',
     price: 176.0,
     product_type:
@@ -38438,8 +39458,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140136453-krestik-saharnoj-mastiki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140136453-krestik-saharnoj-mastiki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/VqI7g25Md0wBU74bkBu2ttpcU3dsyVv5mpNOg6WjSjw=/5568051363_hrestik-iz-tsukrovoyi.jpg',
+    ],
     availability: 'in stock',
     price: 15.0,
     product_type:
@@ -38458,8 +39479,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140139720-ukrashenie-tort-shokolada.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140139720-ukrashenie-tort-shokolada.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/HpbSq-FGzj5MHkC-3yMDPV1toi7sbfz91AKAZs0dlrQ=/5568065089_prikrasa-na-tort.jpg',
+    ],
     availability: 'in stock',
     price: 97.0,
     product_type:
@@ -38478,8 +39500,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140141216-angelochek-shokoladnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140141216-angelochek-shokoladnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/pseFIBqm18vRatXt3VvaK45tbEt4cy5Mcr6JVMp8icg=/5568071546_angelochok-shokoladnij.jpg',
+    ],
     availability: 'in stock',
     price: 145.0,
     product_type:
@@ -38498,8 +39521,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140164114-saharnaya-posypka-pashalnaya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140164114-saharnaya-posypka-pashalnaya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/Ml6lvMSf9I4a-_QJxAMlJ3Mlr2exAkGMG-nOPIcsb4c=/5568174146_tsukrova-posipka-velikodnya.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -38516,8 +39540,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140164987-saharnaya-posypka-miki.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140164987-saharnaya-posypka-miki.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/e8xAfCeFPheQaRrPoW2vAYa9sS0I5x-EXOcUO-CKhck=/5568178578_tsukrova-posipka-miki.jpg',
+    ],
     availability: 'in stock',
     price: 20.0,
     product_type:
@@ -38536,8 +39561,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140166538-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140166538-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/1q2rTp3-IorvsR_aLzmSWABZZ1DStJfXO3dd6xepxWc=/5568185741_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 136.0,
     product_type:
@@ -38556,9 +39582,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140169979-saharnoe-ukrashenie-dlya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140169979-saharnoe-ukrashenie-dlya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/s39TbHdirE4kgkqJ_cV3yr4JR0LR_j00uhB27mQBQGM=/5568193545_tsukrova-prikrasa-dlya.jpg',
-    additional_images_links: [
       'https://images.prom.ua/e0ULy-Q6AlgsO3ZZPxLqt5vNajKHp_a-MoBQREDUyGk=/5568193549_tsukrova-prikrasa-dlya.jpg',
     ],
     availability: 'in stock',
@@ -38578,8 +39603,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140175439-krasitel-tsvet-morskoj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140175439-krasitel-tsvet-morskoj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-tsvit-morskij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38596,8 +39622,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140175713-krasitel-tsvet-rozovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140175713-krasitel-tsvet-rozovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-rozhevij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38614,8 +39641,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140176198-krasitel-tsvet-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140176198-krasitel-tsvet-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-koloru-temno.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38632,8 +39660,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140176534-krasitel-tsvet-temno.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140176534-krasitel-tsvet-temno.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-temno-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38650,8 +39679,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140176810-krasitel-tsvet-zelenyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140176810-krasitel-tsvet-zelenyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-zelenij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38668,8 +39698,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140176846-krasitel-tsvet-zelyonoe.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140176846-krasitel-tsvet-zelyonoe.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-koloru-zelene.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38686,8 +39717,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140177113-krasitel-tsvet-sinij.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140177113-krasitel-tsvet-sinij.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-sinij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38704,8 +39736,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140177644-krasitel-tsvet-malinovyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140177644-krasitel-tsvet-malinovyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-malinovij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38722,8 +39755,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140177717-krasitel-tsvet-goluboj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140177717-krasitel-tsvet-goluboj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-blakitnij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38740,8 +39774,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140178235-krasitel-tsvet-korichnevyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140178235-krasitel-tsvet-korichnevyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-korichnevij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38758,8 +39793,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140178249-krasitel-tsvet-krasnyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140178249-krasitel-tsvet-krasnyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/tO7sbEyVlIlLtvueBgtmCEsq-72P_Gxb9lrITS33C30=/5568204992_barvnik-kolir-chervonij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38776,8 +39812,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140178282-krasitel-tsvet-chernyj.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140178282-krasitel-tsvet-chernyj.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DEZbtnMkzXqSEqC0ZQHNarv9j-o2NT1le_bsiztXl3Q=/5568215759_barvnik-kolir-chornij.jpg',
+    ],
     availability: 'in stock',
     price: 74.0,
     product_type:
@@ -38794,9 +39831,8 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140180795-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140180795-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/vfy-DVlERktkfNu8elRT27RKGPWCI2SrcreIMUS3gBA=/5546358819_nabir-konditerskih-tsukrovih.jpg',
-    additional_images_links: [
       'https://images.prom.ua/pcKZddgF_sfszIVbo5zY_uQZyjsi2WmAZAutgLtKTbY=/5546358843_nabir-konditerskih-tsukrovih.jpg',
       'https://images.prom.ua/o4DFRn6SxB9RjQ3p1257FsMaBB9SZp5rQfq0831cVMY=/5546358801_nabir-konditerskih-tsukrovih.jpg',
     ],
@@ -38818,8 +39854,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140181290-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140181290-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/CNhlDvuQVgTGVyuXZAniPgDjJX41597t6xERRmxgSuE=/5568233513_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -38838,8 +39875,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140181365-nabor-konditerskih-saharnyh.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140181365-nabor-konditerskih-saharnyh.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/4R1NyvbsEbscHL25_h3_bbGPLBHDy4r9ycv44xi0ZO4=/5568234947_nabir-konditerskih-tsukrovih.jpg',
+    ],
     availability: 'in stock',
     price: 45.0,
     product_type:
@@ -38858,8 +39896,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2140184134-saharnoe-ukrashenie-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2140184134-saharnoe-ukrashenie-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/DZpMn0w_nGQO0ddtkGBAtS-WY9RhPvPi8jBXMGcYBh4=/5568243178_tsukrova-prikrasa-na.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -38878,8 +39917,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2141698041-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2141698041-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/2XHt8RswXR0VFNUX3UxKUJsA0WSd_BuOD2CkFm4yXT4=/5573797735_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 99.0,
     product_type:
@@ -38898,8 +39938,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2141698651-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2141698651-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/fndJf4qLdTWFKsfJkpRwOaKXqgnmgxyNJ8rb6CWCHGQ=/5573800845_konditerski-tsukrovi-prikrasi.jpg',
+    ],
     availability: 'in stock',
     price: 135.0,
     product_type:
@@ -38918,8 +39959,9 @@ export const db = [
     link: 'https://zatyshno.prom.ua/ua/p2141700090-saharnye-ukrasheniya-tort.html?source=merchant_center',
     ads_redirect:
       'https://zatyshno.prom.ua/ua/p2141700090-saharnye-ukrasheniya-tort.html?source=merchant_center',
-    image:
+    images: [
       'https://images.prom.ua/YYtOlmqCKmlMbMr4X9fQtDfccAfcwRZwXapWaNQyGPg=/5573804839_tsukrovi-prikrasi-na.jpg',
+    ],
     availability: 'in stock',
     price: 60.0,
     product_type:
