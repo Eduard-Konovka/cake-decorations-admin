@@ -7,7 +7,11 @@ import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import s from './CartBar.module.css';
 
-export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
+export default function CartBar({
+  changeSelectCount,
+  onDeleteProduct,
+  onSubmit,
+}) {
   const { cart } = useGlobalState('global');
 
   const [totalCost, setTotalCost] = useState(0);
@@ -25,7 +29,7 @@ export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
       <CartList
         cart={cart}
         changeSelectCount={changeSelectCount}
-        onDeleteBook={onDeleteBook}
+        onDeleteProduct={onDeleteProduct}
       />
 
       <div className={s.priceBox}>
@@ -48,6 +52,6 @@ export default function CartBar({ changeSelectCount, onDeleteBook, onSubmit }) {
 
 CartBar.propTypes = {
   changeSelectCount: PropTypes.func.isRequired,
-  onDeleteBook: PropTypes.func.isRequired,
+  onDeleteProduct: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
 };

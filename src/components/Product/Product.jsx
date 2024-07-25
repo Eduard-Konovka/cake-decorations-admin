@@ -5,9 +5,9 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
-import s from './Book.module.css';
+import s from './Product.module.css';
 
-export default function Book({ book }) {
+export default function Product({ book }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
@@ -56,7 +56,7 @@ export default function Book({ book }) {
   );
 }
 
-Book.propTypes = {
+Product.propTypes = {
   book: PropTypes.shape({
     _id: PropTypes.string.isRequired,
     product_type: PropTypes.string.isRequired,

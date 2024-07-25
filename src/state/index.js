@@ -3,7 +3,7 @@ export {
   updateLanguage,
   updateMainHeight,
   updateUser,
-  updateBooks,
+  updateProducts,
   updateCart,
 } from './global';
 export { default as GlobalState } from './GlobalState.jsx';

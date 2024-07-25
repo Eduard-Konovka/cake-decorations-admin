@@ -7,7 +7,7 @@ import { languageWrapper } from 'middlewares';
 import { TAMPLATES, LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
-export default function Tags({ title, styles, setBooksByTag }) {
+export default function Tags({ title, styles, setProductsByTag }) {
   const { books } = useGlobalState('global');
   const tags = getTags(title.toLowerCase(), TAMPLATES.tags);
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -18,15 +18,15 @@ export default function Tags({ title, styles, setBooksByTag }) {
       title: book.title.toLowerCase(),
     }));
 
-    const targetBooksToLowerCase = booksTitlesToLowerCase.filter(book =>
+    const targetProductsToLowerCase = booksTitlesToLowerCase.filter(book =>
       book.title.includes(tag),
     );
 
-    const bookIds = targetBooksToLowerCase.map(book => book._id);
+    const bookIds = targetProductsToLowerCase.map(book => book._id);
 
-    const targetBooks = books.filter(book => bookIds.includes(book._id));
+    const targetProducts = books.filter(book => bookIds.includes(book._id));
 
-    setBooksByTag(targetBooks);
+    setProductsByTag(targetProducts);
   }
 
   return tags.map(tag => (
@@ -45,5 +45,5 @@ export default function Tags({ title, styles, setBooksByTag }) {
 Tags.propTypes = {
   title: PropTypes.string.isRequired,
   styles: PropTypes.string,
-  setBooksByTag: PropTypes.func.isRequired,
+  setProductsByTag: PropTypes.func.isRequired,
 };

@@ -22,11 +22,13 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import 'api/baseUrl';
 import 'App.css';
 
-const BooksView = lazy(() =>
-  import('pages/BooksView' /* webpackChunkName: "BooksView" */),
+const ProductsView = lazy(() =>
+  import('pages/ProductsView' /* webpackChunkName: "ProductsView" */),
 );
-const SpecificBookView = lazy(() =>
-  import('pages/SpecificBookView' /* webpackChunkName: "SpecificBookView" */),
+const SpecificProductView = lazy(() =>
+  import(
+    'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
+  ),
 );
 const CartView = lazy(() =>
   import('pages/CartView' /* webpackChunkName: "CartView" */),
@@ -42,7 +44,7 @@ export default function App() {
   const { user, cart } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [booksByTag, setBooksByTag] = useState([]);
+  const [booksByTag, setProductsByTag] = useState([]);
   const [sending, setSending] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -121,7 +123,7 @@ export default function App() {
 
   return (
     <Container>
-      <AppBar setBooksByTag={() => setBooksByTag([])} />
+      <AppBar setProductsByTag={() => setProductsByTag([])} />
 
       <Suspense
         fallback={
@@ -158,7 +160,7 @@ export default function App() {
             path="/books"
             element={
               <PrivateRoute redirectTo="/signin">
-                <BooksView booksByTag={booksByTag} />
+                <ProductsView booksByTag={booksByTag} />
               </PrivateRoute>
             }
           />
@@ -167,8 +169,8 @@ export default function App() {
             path="/books/:id"
             element={
               <PrivateRoute redirectTo="/signin">
-                <SpecificBookView
-                  setBooksByTag={setBooksByTag}
+                <SpecificProductView
+                  setProductsByTag={setProductsByTag}
                   changeSelectCount={changeCount}
                   addToCart={addToCart}
                 />
@@ -183,7 +185,7 @@ export default function App() {
                 <CartView
                   sending={sending}
                   changeSelectCount={changeCount}
-                  onDeleteBook={removeFromCart}
+                  onDeleteProduct={removeFromCart}
                   onSubmit={submitCart}
                 />
               </PrivateRoute>

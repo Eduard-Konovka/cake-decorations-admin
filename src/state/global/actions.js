@@ -23,7 +23,7 @@ const actions = {
     return updatedState;
   },
 
-  updateBooks: (state, payload) => {
+  updateProducts: (state, payload) => {
     const updatedState = { ...state };
     updatedState.global.books = payload;
     return updatedState;
@@ -42,6 +42,6 @@ export const {
   updateLanguage,
   updateMainHeight,
   updateUser,
-  updateBooks,
+  updateProducts,
   updateCart,
 } = actions;

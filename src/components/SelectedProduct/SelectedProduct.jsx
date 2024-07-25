@@ -5,14 +5,14 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
-import s from './SelectedBook.module.css';
+import s from './SelectedProduct.module.css';
 
-export default function SelectedBook({
-  selectedBook,
+export default function SelectedProduct({
+  selectedProduct,
   changeSelectCount,
-  onDeleteBook,
+  onDeleteProduct,
 }) {
-  const { _id, images, title, price, count } = selectedBook;
+  const { _id, images, title, price, count } = selectedProduct;
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -22,7 +22,7 @@ export default function SelectedBook({
         <Link
           to={`/books/:${_id}`}
           title={`${languageDeterminer(
-            LANGUAGE.selectedBook.titleLink,
+            LANGUAGE.selectedProduct.titleLink,
           )} "${title}"`}
         >
           <img
@@ -42,7 +42,7 @@ export default function SelectedBook({
       <div className={s.controls}>
         <p className={s.price}>
           <span className={s.priceTitle}>
-            {languageDeterminer(LANGUAGE.selectedBook.price)}
+            {languageDeterminer(LANGUAGE.selectedProduct.price)}
           </span>
           <span className={s.priceValue}>{price} ₴</span>
         </p>
@@ -64,20 +64,20 @@ export default function SelectedBook({
         />
 
         <Button
-          title={languageDeterminer(LANGUAGE.selectedBook.buttonTitle)}
+          title={languageDeterminer(LANGUAGE.selectedProduct.buttonTitle)}
           type="button"
           styles={s.btn}
-          onClick={onDeleteBook}
+          onClick={onDeleteProduct}
         >
-          {languageDeterminer(LANGUAGE.selectedBook.buttonText)}
+          {languageDeterminer(LANGUAGE.selectedProduct.buttonText)}
         </Button>
       </div>
     </article>
   );
 }
 
-SelectedBook.propTypes = {
-  selectedBook: PropTypes.object.isRequired,
+SelectedProduct.propTypes = {
+  selectedProduct: PropTypes.object.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
-  onDeleteBook: PropTypes.func.isRequired,
+  onDeleteProduct: PropTypes.func.isRequired,
 };

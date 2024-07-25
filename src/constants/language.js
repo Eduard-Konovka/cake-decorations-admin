@@ -200,7 +200,7 @@ export const LANGUAGE = {
     },
   },
 
-  specificBookView: {
+  specificProductView: {
     product_type: {
       eng: 'Category: ',
       ukr: 'Категорія: ',
@@ -354,7 +354,7 @@ export const LANGUAGE = {
     },
   },
 
-  selectedBook: {
+  selectedProduct: {
     titleLink: {
       eng: 'Go to the product',
       ukr: 'Перейти до товару',

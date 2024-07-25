@@ -1,25 +1,25 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
-import { useGlobalState, useChangeGlobalState, updateBooks } from 'state';
+import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchProducts } from 'api';
-import { Spinner, Blank, Button, OptionList, BookList } from 'components';
+import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import imageBlank from 'assets/shop.jpg';
-import s from './BooksView.module.css';
+import s from './ProductsView.module.css';
 
-export default function BooksView({ booksByTag }) {
+export default function ProductsView({ booksByTag }) {
   const { mainHeight, books } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [booksByName, setBooksByName] = useState([]);
-  const [booksByPrice, setBooksByPrice] = useState([]);
-  const [visibleBooks, setVisibleBooks] = useState([]);
+  const [booksByName, setProductsByName] = useState([]);
+  const [booksByPrice, setProductsByPrice] = useState([]);
+  const [visibleProducts, setVisibleProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
 
@@ -32,27 +32,28 @@ export default function BooksView({ booksByTag }) {
       fetchProducts()
         .then(books => {
           books.sort(
-            (firstBook, secondBook) => firstBook.barcode - secondBook.barcode,
+            (firstProduct, secondProduct) =>
+              firstProduct.barcode - secondProduct.barcode,
           );
-          changeGlobalState(updateBooks, books);
-          setBooksByName(books);
-          setBooksByPrice(books);
+          changeGlobalState(updateProducts, books);
+          setProductsByName(books);
+          setProductsByPrice(books);
         })
         .catch(error => setError(error))
         .finally(() => setLoading(false));
     } else if (booksByTag.length !== 0) {
-      setBooksByName(booksByTag);
-      setBooksByPrice(books);
+      setProductsByName(booksByTag);
+      setProductsByPrice(books);
     } else {
-      setBooksByName(books);
-      setBooksByPrice(books);
+      setProductsByName(books);
+      setProductsByPrice(books);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     const difference = booksByName.filter(book => booksByPrice.includes(book));
-    setVisibleBooks(difference);
+    setVisibleProducts(difference);
   }, [booksByName, booksByPrice]);
 
   useEffect(() => {
@@ -70,7 +71,7 @@ export default function BooksView({ booksByTag }) {
   }
 
   function handleNameClick() {
-    const visibleBooksToLowerCase = books.map(book => ({
+    const visibleProductsToLowerCase = books.map(book => ({
       ...book,
       title: book.title.toLowerCase(),
     }));
@@ -80,42 +81,44 @@ export default function BooksView({ booksByTag }) {
       .split(' ')
       .filter(word => word !== '');
 
-    const targetBooksToLowerCase = visibleBooksToLowerCase.filter(book => {
-      let result = !book;
+    const targetProductsToLowerCase = visibleProductsToLowerCase.filter(
+      book => {
+        let result = !book;
 
-      for (let i = 0; i < queryArr.length; i++) {
-        if (book.title.includes(queryArr[i])) {
-          result = book;
+        for (let i = 0; i < queryArr.length; i++) {
+          if (book.title.includes(queryArr[i])) {
+            result = book;
+          }
         }
-      }
 
-      return result;
-    });
+        return result;
+      },
+    );
 
-    const bookIds = targetBooksToLowerCase.map(
+    const bookIds = targetProductsToLowerCase.map(
       bookToLowerCase => bookToLowerCase._id,
     );
 
-    const targetBooks = books.filter(book => bookIds.includes(book._id));
+    const targetProducts = books.filter(book => bookIds.includes(book._id));
 
     if (!searchByName) {
-      setBooksByName(books);
-    } else if (targetBooks.length > 0) {
-      setBooksByName(targetBooks);
+      setProductsByName(books);
+    } else if (targetProducts.length > 0) {
+      setProductsByName(targetProducts);
     } else {
       toast.error(languageDeterminer(LANGUAGE.searchByName.error));
-      setBooksByName([]);
+      setProductsByName([]);
     }
   }
 
   function handlePriceChange(event) {
     switch (event.target.value) {
       case 'allPrices':
-        setBooksByPrice(books);
+        setProductsByPrice(books);
         break;
 
       case `${GLOBAL.pricesBreakPoint.min}>`:
-        setBooksByPrice(
+        setProductsByPrice(
           books.filter(
             book =>
               book.price > GLOBAL.pricesBreakPoint.min &&
@@ -125,7 +128,7 @@ export default function BooksView({ booksByTag }) {
         break;
 
       case `${GLOBAL.pricesBreakPoint.first}>`:
-        setBooksByPrice(
+        setProductsByPrice(
           books.filter(
             book =>
               book.price > GLOBAL.pricesBreakPoint.first &&
@@ -135,13 +138,13 @@ export default function BooksView({ booksByTag }) {
         break;
 
       case `${GLOBAL.pricesBreakPoint.second}>`:
-        setBooksByPrice(
+        setProductsByPrice(
           books.filter(book => book.price > GLOBAL.pricesBreakPoint.second),
         );
         break;
 
       default:
-        setBooksByPrice(
+        setProductsByPrice(
           books.filter(book => book.price === Number(event.target.value)),
         );
         break;
@@ -151,38 +154,40 @@ export default function BooksView({ booksByTag }) {
   function handleSort(event) {
     const value = event.target.value;
 
-    const ascendingCode = [...visibleBooks].sort(
-      (firstBook, secondBook) => firstBook.barcode - secondBook.barcode,
+    const ascendingCode = [...visibleProducts].sort(
+      (firstProduct, secondProduct) =>
+        firstProduct.barcode - secondProduct.barcode,
     );
-    const descendingCode = [...visibleBooks].sort(
-      (firstBook, secondBook) => secondBook.barcode - firstBook.barcode,
+    const descendingCode = [...visibleProducts].sort(
+      (firstProduct, secondProduct) =>
+        secondProduct.barcode - firstProduct.barcode,
     );
-    const ascendingPrice = [...visibleBooks].sort(
-      (firstBook, secondBook) => firstBook.price - secondBook.price,
+    const ascendingPrice = [...visibleProducts].sort(
+      (firstProduct, secondProduct) => firstProduct.price - secondProduct.price,
     );
-    const descendingPrice = [...visibleBooks].sort(
-      (firstBook, secondBook) => secondBook.price - firstBook.price,
+    const descendingPrice = [...visibleProducts].sort(
+      (firstProduct, secondProduct) => secondProduct.price - firstProduct.price,
     );
 
     switch (value) {
       case 'ascendingCode':
-        setVisibleBooks(ascendingCode);
+        setVisibleProducts(ascendingCode);
         break;
 
       case 'descendingCode':
-        setVisibleBooks(descendingCode);
+        setVisibleProducts(descendingCode);
         break;
 
       case 'ascendingPrice':
-        setVisibleBooks(ascendingPrice);
+        setVisibleProducts(ascendingPrice);
         break;
 
       case 'descendingPrice':
-        setVisibleBooks(descendingPrice);
+        setVisibleProducts(descendingPrice);
         break;
 
       default:
-        setVisibleBooks(ascendingCode);
+        setVisibleProducts(ascendingCode);
         break;
     }
   }
@@ -190,8 +195,8 @@ export default function BooksView({ booksByTag }) {
   function reset() {
     setSearchByName('');
     setOptionList(false);
-    setBooksByName(books);
-    setBooksByPrice(books);
+    setProductsByName(books);
+    setProductsByPrice(books);
   }
 
   return (
@@ -283,7 +288,7 @@ export default function BooksView({ booksByTag }) {
           </section>
 
           <section className={s.bookList}>
-            <BookList books={visibleBooks} />
+            <ProductList books={visibleProducts} />
           </section>
         </>
       )}
@@ -291,6 +296,6 @@ export default function BooksView({ booksByTag }) {
   );
 }
 
-BooksView.propTypes = {
+ProductsView.propTypes = {
   booksByTag: PropTypes.array.isRequired,
 };

@@ -3,6 +3,6 @@ export {
   updateLanguage,
   updateMainHeight,
   updateUser,
-  updateBooks,
+  updateProducts,
   updateCart,
 } from './actions';

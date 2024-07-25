@@ -1,7 +1,7 @@
 export { default as AppBar } from './AppBar';
 export { default as Blank } from './Blank';
-export { default as Book } from './Book';
-export { default as BookList } from './BookList';
+export { default as Product } from './Product';
+export { default as ProductList } from './ProductList';
 export { default as Button } from './Button';
 export { default as CartBar } from './CartBar';
 export { default as CartList } from './CartList';
@@ -11,7 +11,7 @@ export { default as Footer } from './Footer';
 export { default as Links } from './Links';
 export { default as OptionList } from './OptionList';
 export { default as Processing } from './Processing';
-export { default as SelectedBook } from './SelectedBook';
+export { default as SelectedProduct } from './SelectedProduct';
 export { default as Spinner } from './Spinner';
 export { default as Tags } from './Tags';
 export { default as PrivateRoute } from './PrivateRoute';

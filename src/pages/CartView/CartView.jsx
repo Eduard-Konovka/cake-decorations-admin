@@ -10,7 +10,7 @@ import s from './CartView.module.css';
 export default function CartView({
   sending,
   changeSelectCount,
-  onDeleteBook,
+  onDeleteProduct,
   onSubmit,
 }) {
   const { mainHeight, cart } = useGlobalState('global');
@@ -25,7 +25,7 @@ export default function CartView({
       {!sending && cart.length > 0 ? (
         <CartBar
           changeSelectCount={changeSelectCount}
-          onDeleteBook={onDeleteBook}
+          onDeleteProduct={onDeleteProduct}
           onSubmit={onSubmit}
         />
       ) : sending ? (
@@ -44,6 +44,6 @@ export default function CartView({
 CartView.propTypes = {
   sending: PropTypes.bool.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
-  onDeleteBook: PropTypes.func.isRequired,
+  onDeleteProduct: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
 };
