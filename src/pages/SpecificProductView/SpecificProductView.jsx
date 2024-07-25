@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { fetchProduct } from 'api';
+import { fetchBook } from 'api';
 import { Spinner, Button, Tags, Links, CountForm } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -38,7 +38,7 @@ export default function SpecificProductView({
     } else {
       setLoading(true);
 
-      fetchProduct(bookId)
+      fetchBook(bookId)
         .then(book => {
           setProduct(book);
         })
