@@ -47,7 +47,7 @@ export default function Product({ product }) {
         </p>
 
         <Button title={languageDeterminer(LANGUAGE.product.buttonTitle)}>
-          <Link to={`/products/:${product._id}`} className={s.btnLink}>
+          <Link to={`/products/${product._id}`} className={s.btnLink}>
             {languageDeterminer(LANGUAGE.product.buttonText)}
           </Link>
         </Button>

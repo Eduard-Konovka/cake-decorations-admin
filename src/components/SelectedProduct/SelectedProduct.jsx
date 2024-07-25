@@ -20,7 +20,7 @@ export default function SelectedProduct({
     <article className={s.card}>
       <div className={s.thumb}>
         <Link
-          to={`/products/:${_id}`}
+          to={`/products/${_id}`}
           title={`${languageDeterminer(
             LANGUAGE.selectedProduct.titleLink,
           )} "${title}"`}

@@ -22,7 +22,7 @@ export default function SpecificProductView({
   const [error, setError] = useState(null);
   const [product, setProduct] = useState({});
 
-  const productId = location.pathname.slice(11, location.pathname.length);
+  const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
 
