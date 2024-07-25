@@ -8,23 +8,25 @@ import { TAMPLATES, LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
 export default function Tags({ title, styles, setProductsByTag }) {
-  const { books } = useGlobalState('global');
+  const { products } = useGlobalState('global');
   const tags = getTags(title.toLowerCase(), TAMPLATES.tags);
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   function handleTagClick(tag) {
-    const booksTitlesToLowerCase = books.map(book => ({
-      ...book,
-      title: book.title.toLowerCase(),
+    const productsTitlesToLowerCase = products.map(product => ({
+      ...product,
+      title: product.title.toLowerCase(),
     }));
 
-    const targetProductsToLowerCase = booksTitlesToLowerCase.filter(book =>
-      book.title.includes(tag),
+    const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
+      product => product.title.includes(tag),
     );
 
-    const bookIds = targetProductsToLowerCase.map(book => book._id);
+    const productIds = targetProductsToLowerCase.map(product => product._id);
 
-    const targetProducts = books.filter(book => bookIds.includes(book._id));
+    const targetProducts = products.filter(product =>
+      productIds.includes(product._id),
+    );
 
     setProductsByTag(targetProducts);
   }
@@ -32,7 +34,7 @@ export default function Tags({ title, styles, setProductsByTag }) {
   return tags.map(tag => (
     <Link
       key={tag}
-      to="/books"
+      to="/products"
       title={`${languageDeterminer(LANGUAGE.tags)} "${tag}"`}
       className={classNames(s.tag, styles)}
       onClick={() => handleTagClick(tag)}

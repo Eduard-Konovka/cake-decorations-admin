@@ -11,14 +11,14 @@ import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
-export default function ProductsView({ booksByTag }) {
-  const { mainHeight, books } = useGlobalState('global');
+export default function ProductsView({ productsByTag }) {
+  const { mainHeight, products } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [booksByName, setProductsByName] = useState([]);
-  const [booksByPrice, setProductsByPrice] = useState([]);
+  const [productsByName, setProductsByName] = useState([]);
+  const [productsByPrice, setProductsByPrice] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
@@ -26,35 +26,37 @@ export default function ProductsView({ booksByTag }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
-    if (books.length === 0) {
+    if (products.length === 0) {
       setLoading(true);
 
       fetchProducts()
-        .then(books => {
-          books.sort(
+        .then(products => {
+          products.sort(
             (firstProduct, secondProduct) =>
               firstProduct.barcode - secondProduct.barcode,
           );
-          changeGlobalState(updateProducts, books);
-          setProductsByName(books);
-          setProductsByPrice(books);
+          changeGlobalState(updateProducts, products);
+          setProductsByName(products);
+          setProductsByPrice(products);
         })
         .catch(error => setError(error))
         .finally(() => setLoading(false));
-    } else if (booksByTag.length !== 0) {
-      setProductsByName(booksByTag);
-      setProductsByPrice(books);
+    } else if (productsByTag.length !== 0) {
+      setProductsByName(productsByTag);
+      setProductsByPrice(products);
     } else {
-      setProductsByName(books);
-      setProductsByPrice(books);
+      setProductsByName(products);
+      setProductsByPrice(products);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    const difference = booksByName.filter(book => booksByPrice.includes(book));
+    const difference = productsByName.filter(product =>
+      productsByPrice.includes(product),
+    );
     setVisibleProducts(difference);
-  }, [booksByName, booksByPrice]);
+  }, [productsByName, productsByPrice]);
 
   useEffect(() => {
     setOptionList(true);
@@ -71,9 +73,9 @@ export default function ProductsView({ booksByTag }) {
   }
 
   function handleNameClick() {
-    const visibleProductsToLowerCase = books.map(book => ({
-      ...book,
-      title: book.title.toLowerCase(),
+    const visibleProductsToLowerCase = products.map(product => ({
+      ...product,
+      title: product.title.toLowerCase(),
     }));
 
     const queryArr = searchByName
@@ -82,12 +84,12 @@ export default function ProductsView({ booksByTag }) {
       .filter(word => word !== '');
 
     const targetProductsToLowerCase = visibleProductsToLowerCase.filter(
-      book => {
-        let result = !book;
+      product => {
+        let result = !product;
 
         for (let i = 0; i < queryArr.length; i++) {
-          if (book.title.includes(queryArr[i])) {
-            result = book;
+          if (product.title.includes(queryArr[i])) {
+            result = product;
           }
         }
 
@@ -95,14 +97,16 @@ export default function ProductsView({ booksByTag }) {
       },
     );
 
-    const bookIds = targetProductsToLowerCase.map(
-      bookToLowerCase => bookToLowerCase._id,
+    const productIds = targetProductsToLowerCase.map(
+      productToLowerCase => productToLowerCase._id,
     );
 
-    const targetProducts = books.filter(book => bookIds.includes(book._id));
+    const targetProducts = products.filter(product =>
+      productIds.includes(product._id),
+    );
 
     if (!searchByName) {
-      setProductsByName(books);
+      setProductsByName(products);
     } else if (targetProducts.length > 0) {
       setProductsByName(targetProducts);
     } else {
@@ -114,38 +118,42 @@ export default function ProductsView({ booksByTag }) {
   function handlePriceChange(event) {
     switch (event.target.value) {
       case 'allPrices':
-        setProductsByPrice(books);
+        setProductsByPrice(products);
         break;
 
       case `${GLOBAL.pricesBreakPoint.min}>`:
         setProductsByPrice(
-          books.filter(
-            book =>
-              book.price > GLOBAL.pricesBreakPoint.min &&
-              book.price <= GLOBAL.pricesBreakPoint.first,
+          products.filter(
+            product =>
+              product.price > GLOBAL.pricesBreakPoint.min &&
+              product.price <= GLOBAL.pricesBreakPoint.first,
           ),
         );
         break;
 
       case `${GLOBAL.pricesBreakPoint.first}>`:
         setProductsByPrice(
-          books.filter(
-            book =>
-              book.price > GLOBAL.pricesBreakPoint.first &&
-              book.price <= GLOBAL.pricesBreakPoint.second,
+          products.filter(
+            product =>
+              product.price > GLOBAL.pricesBreakPoint.first &&
+              product.price <= GLOBAL.pricesBreakPoint.second,
           ),
         );
         break;
 
       case `${GLOBAL.pricesBreakPoint.second}>`:
         setProductsByPrice(
-          books.filter(book => book.price > GLOBAL.pricesBreakPoint.second),
+          products.filter(
+            product => product.price > GLOBAL.pricesBreakPoint.second,
+          ),
         );
         break;
 
       default:
         setProductsByPrice(
-          books.filter(book => book.price === Number(event.target.value)),
+          products.filter(
+            product => product.price === Number(event.target.value),
+          ),
         );
         break;
     }
@@ -195,8 +203,8 @@ export default function ProductsView({ booksByTag }) {
   function reset() {
     setSearchByName('');
     setOptionList(false);
-    setProductsByName(books);
-    setProductsByPrice(books);
+    setProductsByName(products);
+    setProductsByPrice(products);
   }
 
   return (
@@ -212,7 +220,7 @@ export default function ProductsView({ booksByTag }) {
         </div>
       )}
 
-      {!loading && !error && books.length === 0 && (
+      {!loading && !error && products.length === 0 && (
         <Blank
           title={languageDeterminer(LANGUAGE.noProducts)}
           image={imageBlank}
@@ -220,7 +228,7 @@ export default function ProductsView({ booksByTag }) {
         />
       )}
 
-      {books.length > 0 && (
+      {products.length > 0 && (
         <>
           <section className={s.bars}>
             <form className={s.searchBar}>
@@ -248,7 +256,7 @@ export default function ProductsView({ booksByTag }) {
               </div>
 
               <select className={s.inputByPrice} onChange={handlePriceChange}>
-                {optionList && <OptionList books={books} />}
+                {optionList && <OptionList products={products} />}
               </select>
 
               <Button
@@ -287,8 +295,8 @@ export default function ProductsView({ booksByTag }) {
             </form>
           </section>
 
-          <section className={s.bookList}>
-            <ProductList books={visibleProducts} />
+          <section className={s.productList}>
+            <ProductList products={visibleProducts} />
           </section>
         </>
       )}
@@ -297,5 +305,5 @@ export default function ProductsView({ booksByTag }) {
 }
 
 ProductsView.propTypes = {
-  booksByTag: PropTypes.array.isRequired,
+  productsByTag: PropTypes.array.isRequired,
 };

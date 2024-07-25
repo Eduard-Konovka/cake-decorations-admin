@@ -25,7 +25,7 @@ const actions = {
 
   updateProducts: (state, payload) => {
     const updatedState = { ...state };
-    updatedState.global.books = payload;
+    updatedState.global.products = payload;
     return updatedState;
   },
 

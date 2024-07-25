@@ -1,19 +1,20 @@
-# Web application of a book online store
+# Web application of a product online store
 
-A single-page web application of an online bookstore.
+A single-page web application of an online productstore.
 
-The application allows you to search for books by part of the title; filter a
-selection of books by four price ranges or a certain price; sort books in
+The application allows you to search for products by part of the title; filter a
+selection of products by four price ranges or a certain price; sort products in
 descending and ascending order by SKU (Stock Keeping Unit, article number) or by
-price. On the page of a separate book, you can use a thematic tag to go to the
-list of books with a topic corresponding to the tag, so the application also
-implements sorting by thematic tags. On the page of a separate book, there is
-additionally a link to the Google search engine for the keywords of the book
-title. Both on the page of a separate book and in the cart, the amount of the
-order of a particular book is automatically calculated depending on the
-quantity, in addition, the total amount of the order of all books and their
-quantity is calculated in the cart. For convenience, in the cart, the transition
-from the cart to the page of a separate book is additionally implemented.
+price. On the page of a separate product, you can use a thematic tag to go to
+the list of products with a topic corresponding to the tag, so the application
+also implements sorting by thematic tags. On the page of a separate product,
+there is additionally a link to the Google search engine for the keywords of the
+product title. Both on the page of a separate product and in the cart, the
+amount of the order of a particular product is automatically calculated
+depending on the quantity, in addition, the total amount of the order of all
+products and their quantity is calculated in the cart. For convenience, in the
+cart, the transition from the cart to the page of a separate product is
+additionally implemented.
 
 The web application is implemented according to the "Mobile First" strategy with
 an adaptive-responsive layout with the following breakpoints:
@@ -45,14 +46,14 @@ accordingly, the REACT_APP_URL environment variable corresponding to this
 address is used as the base URL to access the API.
 
 Unfortunately, due to the use of the free [Render](render.com) backend host for
-educational purposes, there is a delay in the **_first_** loading of the book
+educational purposes, there is a delay in the **_first_** loading of the product
 list, so please,
 
 **WAIT** **FOR** **THE** **FIRST** **LOAD** **OF** **THE** **BOOK** **LIST!**
 
 For interaction with the backend, REST API with the following endpoints is used:
 
-- The `/api/books` endpoint is used to get the list of books;
+- The `/api/products` endpoint is used to get the list of products;
 - The `/api/orders` endpoint is used to send orders.
 
 The order is sent to the MongoDB database. I track orders using the MongoDB

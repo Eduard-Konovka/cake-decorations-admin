@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { fetchBook } from 'api';
+import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -16,15 +16,15 @@ export default function SpecificProductView({
   addToCart,
 }) {
   const location = useLocation();
-  const { mainHeight, books, cart } = useGlobalState('global');
+  const { mainHeight, products, cart } = useGlobalState('global');
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [book, setProduct] = useState({});
+  const [product, setProduct] = useState({});
 
-  const bookId = location.pathname.slice(8, location.pathname.length);
-  const selectedProduct = cart.filter(book => book._id === bookId)[0];
-  const savedProduct = books.filter(book => book._id === bookId)[0];
+  const productId = location.pathname.slice(11, location.pathname.length);
+  const selectedProduct = cart.filter(product => product._id === productId)[0];
+  const savedProduct = products.filter(product => product._id === productId)[0];
 
   const [count, setCount] = useState(
     selectedProduct ? selectedProduct.count : 0,
@@ -33,19 +33,17 @@ export default function SpecificProductView({
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
-    if (books.length > 0) {
+    if (products.length > 0) {
       setProduct(savedProduct);
     } else {
       setLoading(true);
 
-      fetchBook(bookId)
-        .then(book => {
-          setProduct(book);
-        })
+      fetchProduct(productId)
+        .then(product => setProduct(product))
         .catch(error => setError(error))
         .finally(() => setLoading(false));
     }
-  }, [bookId, books.length, savedProduct]);
+  }, [productId, products.length, savedProduct]);
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
@@ -60,22 +58,27 @@ export default function SpecificProductView({
         </div>
       )}
 
-      {!loading && !error && book && (
+      {!loading && !error && product && (
         <>
           <div className={s.row}>
             <div className={s.imagesBox}>
               <img
-                src={book?.images?.length > 0 ? book.images[0] : imageNotFound}
-                alt={book.title}
+                src={
+                  product?.images?.length > 0
+                    ? product.images[0]
+                    : imageNotFound
+                }
+                alt={product.title}
                 className={s.image}
               />
 
-              {book?.images?.length > 1 && (
+              {product?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {book.images.map(additionalImage => (
+                  {product.images.map(imageLink => (
                     <img
-                      src={additionalImage}
-                      alt={book.title}
+                      key={imageLink}
+                      src={imageLink}
+                      alt={product.title}
                       className={s.additionalImage}
                     />
                   ))}
@@ -86,19 +89,19 @@ export default function SpecificProductView({
             <div className={s.thumb}>
               <div className={s.monitor}>
                 <div className={s.stats}>
-                  <h3 className={s.title}>{book.title}</h3>
+                  <h3 className={s.title}>{product.title}</h3>
                   <p className={s.stat}>
                     <span className={s.statName}>
                       {languageDeterminer(
                         LANGUAGE.specificProductView.product_type,
                       )}
                     </span>
-                    {book.product_type}
+                    {product.product_type}
                   </p>
 
-                  {book.product_details &&
-                    book.product_details.map(detail => (
-                      <p className={s.stat}>
+                  {product.product_details &&
+                    product.product_details.map(detail => (
+                      <p key={detail.attribute_name} className={s.stat}>
                         <span className={s.statName}>
                           {detail.attribute_name}:
                         </span>
@@ -110,9 +113,9 @@ export default function SpecificProductView({
                     <span className={s.statName}>
                       {languageDeterminer(LANGUAGE.specificProductView.tags)}
                     </span>
-                    {book.title && (
+                    {product.title && (
                       <Tags
-                        title={book.title}
+                        title={product.title}
                         styles={s.tag}
                         setProductsByTag={setProductsByTag}
                       />
@@ -123,7 +126,9 @@ export default function SpecificProductView({
                     <span className={s.statName}>
                       {languageDeterminer(LANGUAGE.specificProductView.links)}
                     </span>
-                    {book.title && <Links title={book.title} styles={s.link} />}
+                    {product.title && (
+                      <Links title={product.title} styles={s.link} />
+                    )}
                   </p>
                 </div>
 
@@ -132,14 +137,14 @@ export default function SpecificProductView({
                     <span className={s.boldfont}>
                       {languageDeterminer(LANGUAGE.specificProductView.price)}
                     </span>
-                    {book.price} ₴
+                    {product.price} ₴
                   </p>
 
                   <CountForm
                     value={count}
-                    price={book.price}
-                    min={GLOBAL.bookCount.min}
-                    max={GLOBAL.bookCount.max}
+                    price={product.price}
+                    min={GLOBAL.productCount.min}
+                    max={GLOBAL.productCount.max}
                     styles={{
                       formStyle: s.count,
                       labelStyle: s.boldfont,
@@ -166,7 +171,7 @@ export default function SpecificProductView({
                       disabled={!count}
                       styles={s.btn}
                       onClick={() =>
-                        addToCart({ ...book, count: Number(count) })
+                        addToCart({ ...product, count: Number(count) })
                       }
                     >
                       {languageDeterminer(
@@ -177,11 +182,11 @@ export default function SpecificProductView({
                 </div>
               </div>
 
-              <p className={s.finishDescription}>{book.description}</p>
+              <p className={s.finishDescription}>{product.description}</p>
             </div>
           </div>
 
-          <p className={s.startDescription}>{book.description}</p>
+          <p className={s.startDescription}>{product.description}</p>
         </>
       )}
     </main>

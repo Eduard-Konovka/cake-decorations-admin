@@ -19,7 +19,7 @@ export const GLOBAL = {
     ],
   },
 
-  bookCount: {
+  productCount: {
     min: 1,
     max: 42,
   },

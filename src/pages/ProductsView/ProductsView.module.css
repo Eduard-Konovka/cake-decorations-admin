@@ -423,18 +423,18 @@
 }
 /*#endregion INPUT_BY_SORT */
 
-.bookList {
+.productList {
   width: 100%;
 }
 
 @media screen and (min-width: 800px) {
-  .bookList {
+  .productList {
     margin-right: -20px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .bookList {
+  .productList {
     margin-right: -1.25vw;
   }
 }

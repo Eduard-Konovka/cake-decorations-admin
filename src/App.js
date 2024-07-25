@@ -44,7 +44,7 @@ export default function App() {
   const { user, cart } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [booksByTag, setProductsByTag] = useState([]);
+  const [productsByTag, setProductsByTag] = useState([]);
   const [sending, setSending] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -150,23 +150,23 @@ export default function App() {
           <Route
             path="/signin"
             element={
-              <PublicRoute redirectTo="/books" restricted>
+              <PublicRoute redirectTo="/products" restricted>
                 <SignInView />
               </PublicRoute>
             }
           />
 
           <Route
-            path="/books"
+            path="/products"
             element={
               <PrivateRoute redirectTo="/signin">
-                <ProductsView booksByTag={booksByTag} />
+                <ProductsView productsByTag={productsByTag} />
               </PrivateRoute>
             }
           />
 
           <Route
-            path="/books/:id"
+            path="/products/:id"
             element={
               <PrivateRoute redirectTo="/signin">
                 <SpecificProductView

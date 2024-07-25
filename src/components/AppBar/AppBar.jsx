@@ -26,7 +26,7 @@ export default function AppBar({ setProductsByTag }) {
         <div className={s.headbar}>
           <NavLink
             title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-            to="/books"
+            to="/products"
             className={({ isActive }) =>
               isActive ? s.activeLink : s.inactiveLink
             }
@@ -72,7 +72,7 @@ export default function AppBar({ setProductsByTag }) {
           {user.name ? (
             <NavLink
               title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-              to="/books"
+              to="/products"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }

@@ -3,10 +3,10 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 
-export default function OptionList({ books }) {
+export default function OptionList({ products }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  const arr = books.map(book => book.price).sort((a, b) => a - b);
+  const arr = products.map(product => product.price).sort((a, b) => a - b);
   const uniqArr = [...new Set(arr)];
 
   return (
@@ -37,7 +37,7 @@ export default function OptionList({ books }) {
 }
 
 OptionList.propTypes = {
-  books: PropTypes.arrayOf(
+  products: PropTypes.arrayOf(
     PropTypes.shape({
       _id: PropTypes.string.isRequired,
     }).isRequired,

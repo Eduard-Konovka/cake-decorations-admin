@@ -20,7 +20,7 @@ export default function SelectedProduct({
     <article className={s.card}>
       <div className={s.thumb}>
         <Link
-          to={`/books/:${_id}`}
+          to={`/products/:${_id}`}
           title={`${languageDeterminer(
             LANGUAGE.selectedProduct.titleLink,
           )} "${title}"`}
@@ -50,8 +50,8 @@ export default function SelectedProduct({
         <CountForm
           value={count}
           price={price}
-          min={GLOBAL.bookCount.min}
-          max={GLOBAL.bookCount.max}
+          min={GLOBAL.productCount.min}
+          max={GLOBAL.productCount.max}
           styles={{
             formStyle: s.countForm,
             labelStyle: s.countLabel,
