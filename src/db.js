@@ -12,8 +12,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31,8 +30,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -50,8 +48,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -69,8 +66,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -88,8 +84,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'БЕТ',
     identifier_exists: 'no',
     condition: 'new',
@@ -108,8 +103,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 105.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -127,8 +121,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 49.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -147,8 +140,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -166,8 +158,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 49.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -186,8 +177,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -206,8 +196,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 49.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -226,8 +215,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -245,8 +233,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 49.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -265,8 +252,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -284,8 +270,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 38.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -303,8 +288,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 38.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -323,8 +307,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -343,8 +326,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -363,8 +345,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -382,8 +363,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 115.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -402,8 +382,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -421,8 +400,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -440,8 +418,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -459,8 +436,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 67.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -478,8 +454,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -497,8 +472,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -516,8 +490,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -535,8 +508,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -554,8 +526,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -573,8 +544,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -592,8 +562,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -611,8 +580,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -630,8 +598,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -649,8 +616,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -668,8 +634,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -687,8 +652,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -706,8 +670,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -725,8 +688,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -744,8 +706,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -763,8 +724,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -782,8 +742,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -801,8 +760,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -820,8 +778,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -839,8 +796,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -858,8 +814,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -877,8 +832,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -896,8 +850,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -915,8 +868,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -934,8 +886,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -953,8 +904,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -972,8 +922,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -991,8 +940,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1010,8 +958,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1029,8 +976,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1048,8 +994,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1067,8 +1012,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1086,8 +1030,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1105,8 +1048,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1124,8 +1066,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1144,8 +1085,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1164,8 +1104,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1184,8 +1123,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1204,8 +1142,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1224,8 +1161,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1244,8 +1180,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1264,8 +1199,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 86.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1284,8 +1218,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1304,8 +1237,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1324,8 +1256,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1344,8 +1275,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1364,8 +1294,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 44.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1384,8 +1313,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1404,8 +1332,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1424,8 +1351,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1444,8 +1370,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1464,8 +1389,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1484,8 +1408,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1504,8 +1427,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1524,8 +1446,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1544,8 +1465,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1564,8 +1484,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1584,8 +1503,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1603,8 +1521,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1622,8 +1539,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1641,8 +1557,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1660,8 +1575,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1679,8 +1593,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1698,8 +1611,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1717,8 +1629,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1736,8 +1647,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1755,8 +1665,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1774,8 +1683,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1793,8 +1701,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1812,8 +1719,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1831,8 +1737,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1850,8 +1755,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -1870,8 +1774,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -1891,8 +1794,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -1912,8 +1814,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -1932,8 +1833,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 159.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -1952,8 +1852,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 145.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -1973,8 +1872,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 87.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -1994,8 +1892,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2015,8 +1912,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2036,8 +1932,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2058,8 +1953,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2080,8 +1974,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 120.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2100,8 +1993,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2121,8 +2013,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2142,8 +2033,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2163,8 +2053,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2184,8 +2073,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2205,8 +2093,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2226,8 +2113,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2247,8 +2133,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2268,8 +2153,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 159.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2288,8 +2172,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 117.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2309,8 +2192,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2330,8 +2212,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2352,8 +2233,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 133.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2374,8 +2254,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2396,8 +2275,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2417,8 +2295,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 93.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2438,8 +2315,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 88.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2459,8 +2335,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 117.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2479,8 +2354,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2500,8 +2374,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 119.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2520,8 +2393,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2540,8 +2412,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2562,8 +2433,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2583,8 +2453,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 69.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2604,8 +2473,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 69.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2625,8 +2493,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2646,8 +2513,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 97.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2667,8 +2533,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 87.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2688,8 +2553,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 139.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2708,8 +2572,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -2731,8 +2594,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 250.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2751,8 +2613,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 250.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2770,8 +2631,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 38.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2789,8 +2649,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2809,8 +2668,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2828,8 +2686,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 63.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2848,8 +2705,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2868,8 +2724,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 56.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -2888,8 +2743,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 48.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2908,8 +2762,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2928,8 +2781,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -2948,8 +2800,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -2969,8 +2820,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -2990,8 +2840,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -3011,8 +2860,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
@@ -3031,8 +2879,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3050,8 +2897,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -3070,8 +2916,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 47.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3090,8 +2935,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 119.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3110,8 +2954,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3129,8 +2972,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 89.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -3149,8 +2991,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3168,8 +3009,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -3188,8 +3028,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 118.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3207,8 +3046,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3227,8 +3065,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3247,8 +3084,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3267,8 +3103,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3287,8 +3122,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3307,8 +3141,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3327,8 +3160,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3347,8 +3179,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3367,8 +3198,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3387,8 +3217,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3407,8 +3236,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3427,8 +3255,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3447,8 +3274,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3466,8 +3292,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3485,8 +3310,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3504,8 +3328,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Бузковий',
@@ -3524,8 +3347,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3543,8 +3365,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3562,8 +3383,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -3582,8 +3402,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -3601,8 +3420,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -3621,8 +3439,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -3641,8 +3458,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -3661,8 +3477,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -3681,8 +3496,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3701,8 +3515,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3721,8 +3534,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 72.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3741,8 +3553,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3761,8 +3572,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3781,8 +3591,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 72.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3801,8 +3610,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 72.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3821,8 +3629,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3841,8 +3648,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3861,8 +3667,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3881,8 +3686,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 72.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3901,8 +3705,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 84.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3921,8 +3724,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3941,8 +3743,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3961,8 +3762,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -3981,8 +3781,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4001,8 +3800,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4021,8 +3819,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4041,8 +3838,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4061,8 +3857,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4081,8 +3876,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4101,8 +3895,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4121,8 +3914,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -4141,8 +3933,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 3.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -4161,8 +3952,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4194,8 +3984,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4226,8 +4015,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4259,8 +4047,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4292,8 +4079,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4326,8 +4112,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4360,8 +4145,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4392,8 +4176,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4425,8 +4208,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4457,8 +4239,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4489,8 +4270,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4521,8 +4301,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4554,8 +4333,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4587,8 +4365,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4619,8 +4396,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4652,8 +4428,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4685,8 +4460,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4716,8 +4490,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4748,8 +4521,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4782,8 +4554,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4814,8 +4585,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4846,8 +4616,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4879,8 +4648,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4911,8 +4679,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4944,8 +4711,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -4977,8 +4743,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5010,8 +4775,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5044,8 +4808,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5076,8 +4839,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5108,8 +4870,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5140,8 +4901,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5174,8 +4934,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5208,8 +4967,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5243,8 +5001,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5276,8 +5033,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5309,8 +5065,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5342,8 +5097,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5376,8 +5130,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5410,8 +5163,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5443,8 +5195,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5477,8 +5228,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5511,8 +5261,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5545,8 +5294,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5578,8 +5326,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 70.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5611,8 +5358,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5644,8 +5390,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5675,8 +5420,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5709,8 +5453,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5743,8 +5486,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -5774,8 +5516,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -5814,8 +5555,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -5854,8 +5594,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -5894,8 +5633,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -5934,8 +5672,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -5974,8 +5711,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6016,8 +5752,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6056,8 +5791,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6096,8 +5830,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6137,8 +5870,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6177,8 +5909,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6217,8 +5948,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Chefmaster',
     identifier_exists: 'no',
     condition: 'new',
@@ -6257,8 +5987,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6297,8 +6026,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6337,8 +6065,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6377,8 +6104,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6417,8 +6143,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6457,8 +6182,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6497,8 +6221,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6537,8 +6260,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6577,8 +6299,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6617,8 +6338,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6657,8 +6377,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6697,8 +6416,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6737,8 +6455,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6777,8 +6494,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6817,8 +6533,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -6857,8 +6572,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 175.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -6876,8 +6590,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 175.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -6895,8 +6608,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 175.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -6914,8 +6626,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
@@ -6945,8 +6656,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
@@ -6977,8 +6687,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
@@ -7010,8 +6719,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
@@ -7041,8 +6749,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -7083,8 +6790,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7126,8 +6832,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7169,8 +6874,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7212,8 +6916,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7255,8 +6958,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 162.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -7296,8 +6998,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 84.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7337,8 +7038,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 182.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -7379,8 +7079,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7415,8 +7114,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 98.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7451,8 +7149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 114.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7487,8 +7184,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7523,8 +7219,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7560,8 +7255,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7595,8 +7289,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7631,8 +7324,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7667,8 +7359,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 86.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7704,8 +7395,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7739,8 +7429,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7775,8 +7464,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7810,8 +7498,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7845,8 +7532,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 128.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7880,8 +7566,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7915,8 +7600,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 98.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -7951,8 +7635,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 149.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -7986,8 +7669,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8022,8 +7704,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8058,8 +7739,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -8108,8 +7788,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8142,8 +7821,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8177,8 +7855,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 63.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8210,8 +7887,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8243,8 +7919,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8276,8 +7951,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8310,8 +7984,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8342,8 +8015,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8374,8 +8046,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8407,8 +8078,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8440,8 +8110,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8471,8 +8140,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -8492,8 +8160,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8513,8 +8180,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 142.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8547,8 +8213,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8579,8 +8244,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8612,8 +8276,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8646,8 +8309,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8679,8 +8341,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8712,8 +8373,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8745,8 +8405,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8777,8 +8436,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8810,8 +8468,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8842,8 +8499,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8874,8 +8530,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8907,8 +8562,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8940,8 +8594,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -8973,8 +8626,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9007,8 +8659,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9040,8 +8691,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9073,8 +8723,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9106,8 +8755,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9139,8 +8787,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9172,8 +8819,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9205,8 +8851,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9238,8 +8883,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9271,8 +8915,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9304,8 +8947,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9337,8 +8979,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9371,8 +9012,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9403,8 +9043,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9436,8 +9075,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 68.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9469,8 +9107,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9502,8 +9139,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 68.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9535,8 +9171,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 50.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9569,8 +9204,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9600,8 +9234,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 87.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -9631,8 +9264,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -9651,8 +9283,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -9671,8 +9302,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -9690,8 +9320,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9724,8 +9353,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9758,8 +9386,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9792,8 +9419,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9826,8 +9452,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9861,8 +9486,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9895,8 +9519,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9929,8 +9552,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9964,8 +9586,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -9998,8 +9619,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -10033,8 +9653,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -10067,8 +9686,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -10101,8 +9719,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -10135,8 +9752,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 57.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -10169,8 +9785,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 38.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -10190,8 +9805,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10209,8 +9823,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10228,8 +9841,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -10248,8 +9860,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -10268,8 +9879,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -10288,8 +9898,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10307,8 +9916,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10326,8 +9934,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10345,8 +9952,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10364,8 +9970,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10383,8 +9988,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10402,8 +10006,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -10428,8 +10031,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10452,8 +10054,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 200.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10472,8 +10073,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 250.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -10493,8 +10093,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 225.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10513,8 +10112,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 225.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -10532,8 +10130,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 2.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10564,8 +10161,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'AXXIS ПОЛЬША',
     identifier_exists: 'no',
     condition: 'new',
@@ -10596,8 +10192,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'AXXIS ПОЛЬША',
     identifier_exists: 'no',
     condition: 'new',
@@ -10629,8 +10224,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -10664,8 +10258,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -10699,8 +10292,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -10734,8 +10326,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -10771,8 +10362,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10804,8 +10394,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10837,8 +10426,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10871,8 +10459,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10904,8 +10491,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10936,8 +10522,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -10970,8 +10555,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11003,8 +10587,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11036,8 +10619,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11068,8 +10650,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11102,8 +10683,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11133,8 +10713,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11167,8 +10746,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11202,8 +10780,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11235,8 +10812,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11268,8 +10844,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11301,8 +10876,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11334,8 +10908,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11368,8 +10941,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11401,8 +10973,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11434,8 +11005,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11467,8 +11037,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11499,8 +11068,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11531,8 +11099,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11564,8 +11131,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11597,8 +11163,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11630,8 +11195,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 186.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'AXXIS ПОЛЬША',
     identifier_exists: 'no',
     condition: 'new',
@@ -11663,8 +11227,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'AXXIS ПОЛЬША',
     identifier_exists: 'no',
     condition: 'new',
@@ -11697,8 +11260,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11729,8 +11291,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11761,8 +11322,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11793,8 +11353,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11828,8 +11387,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11862,8 +11420,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11894,8 +11451,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11927,8 +11483,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11961,8 +11516,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -11994,8 +11548,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12026,8 +11579,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12059,8 +11611,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12090,8 +11641,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -12125,8 +11675,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 79.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12161,8 +11710,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 114.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -12196,8 +11744,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 89.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12232,8 +11779,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 79.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12268,8 +11814,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12304,7 +11849,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12333,7 +11878,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12362,7 +11907,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12391,7 +11936,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12420,7 +11965,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12449,7 +11994,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12478,7 +12023,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12508,7 +12053,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12537,7 +12082,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -12568,8 +12113,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12589,8 +12133,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12609,8 +12152,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12629,8 +12171,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12649,8 +12190,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12669,8 +12209,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12689,8 +12228,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12709,8 +12247,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 285.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12728,8 +12265,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -12770,8 +12306,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -12812,8 +12347,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 54.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -12854,8 +12388,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -12885,8 +12418,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 160.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12904,8 +12436,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 155.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -12934,8 +12465,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 172.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -12953,8 +12483,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -12973,8 +12502,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -12993,8 +12521,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13013,8 +12540,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13033,8 +12559,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13053,8 +12578,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13073,8 +12597,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13093,8 +12616,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13113,8 +12635,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13133,8 +12654,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13153,8 +12673,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13173,8 +12692,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13193,8 +12711,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13213,8 +12730,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13233,8 +12749,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13253,8 +12768,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13273,8 +12787,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13293,8 +12806,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 39.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -13325,8 +12837,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
@@ -13364,8 +12875,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 2280.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -13385,8 +12895,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 137.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13406,8 +12915,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -13426,8 +12934,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -13446,8 +12953,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 97.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -13466,8 +12972,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13487,8 +12992,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 86.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13508,8 +13012,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 56.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13530,8 +13033,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 183.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -13551,8 +13053,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 183.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -13570,8 +13071,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 142.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -13590,8 +13090,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 93.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -13610,8 +13109,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 214.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -13630,8 +13128,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13651,8 +13148,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -13671,8 +13167,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13706,8 +13201,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13741,8 +13235,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13773,8 +13266,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13806,8 +13298,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13839,8 +13330,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13872,8 +13362,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13904,8 +13393,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 630.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13936,8 +13424,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 180.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -13968,8 +13455,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 300.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -14000,8 +13486,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 420.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -14034,8 +13519,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -14067,8 +13551,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 240.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -14098,8 +13581,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14133,8 +13615,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 147.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14153,8 +13634,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14173,8 +13653,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14195,8 +13674,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14215,8 +13693,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14235,8 +13712,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14256,8 +13732,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14276,8 +13751,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14295,8 +13769,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 123.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14315,8 +13788,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14335,8 +13807,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 123.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -14371,8 +13842,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -14392,8 +13862,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 51.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14430,8 +13899,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 47.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14468,8 +13936,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 47.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14506,8 +13973,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 37.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14544,8 +14010,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14582,8 +14047,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 37.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14620,8 +14084,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 41.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14658,8 +14121,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 29.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14696,8 +14158,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 37.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14734,8 +14195,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14773,8 +14233,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 49.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14811,8 +14270,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -14849,7 +14307,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14867,8 +14325,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14886,8 +14343,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14905,8 +14361,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14924,8 +14379,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14943,8 +14397,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14962,8 +14415,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -14981,8 +14433,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -15000,8 +14451,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -15019,8 +14469,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -15039,8 +14488,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 167.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -15059,8 +14507,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 182.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -15079,8 +14526,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 106.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -15114,8 +14560,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 184.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -15149,8 +14594,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 184.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -15185,8 +14629,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 78.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -15221,8 +14664,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 83.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15257,8 +14699,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15304,8 +14745,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15351,8 +14791,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15398,8 +14837,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15445,8 +14883,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15492,8 +14929,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15540,8 +14976,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15587,8 +15022,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15633,8 +15067,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15679,8 +15112,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -15726,8 +15158,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15759,8 +15190,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15792,8 +15222,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15825,8 +15254,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15858,8 +15286,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15891,8 +15318,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15924,8 +15350,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15957,8 +15382,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -15990,8 +15414,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -16023,8 +15446,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Iris',
     identifier_exists: 'no',
     condition: 'new',
@@ -16055,8 +15477,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16086,8 +15507,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16116,8 +15536,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16143,8 +15562,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16170,8 +15588,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16197,8 +15614,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16224,8 +15640,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Ямуна',
     identifier_exists: 'no',
     condition: 'new',
@@ -16259,8 +15674,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -16294,8 +15708,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 87.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16330,8 +15743,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 61.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16367,8 +15779,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 77.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16404,8 +15815,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 172.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -16440,8 +15850,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 172.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -16476,8 +15885,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 172.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -16511,8 +15919,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -16546,8 +15953,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -16593,8 +15999,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16644,8 +16049,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16695,8 +16099,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16746,8 +16149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -16796,8 +16198,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -16831,8 +16232,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -16878,8 +16278,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Жовтий',
@@ -16925,8 +16324,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -16971,8 +16369,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17017,8 +16414,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -17064,8 +16460,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17110,8 +16505,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
@@ -17157,8 +16551,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -17204,8 +16597,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -17250,8 +16642,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17284,8 +16675,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17318,8 +16708,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17352,8 +16741,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17386,8 +16774,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17420,8 +16807,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17454,8 +16840,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17489,8 +16874,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17524,8 +16908,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17559,8 +16942,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17593,8 +16975,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17627,8 +17008,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17661,8 +17041,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17696,8 +17075,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17730,8 +17108,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17764,8 +17141,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17798,8 +17174,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17832,8 +17207,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17866,8 +17240,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17900,8 +17273,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17934,8 +17306,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -17968,8 +17339,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18003,8 +17373,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18038,8 +17407,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18072,8 +17440,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18106,8 +17473,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18140,8 +17506,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18174,8 +17539,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18208,8 +17572,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18242,8 +17605,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18276,8 +17638,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18310,8 +17671,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18344,8 +17704,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18378,8 +17737,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18412,8 +17770,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18447,8 +17804,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18481,8 +17837,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18516,8 +17871,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18550,8 +17904,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18584,8 +17937,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18618,8 +17970,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18651,8 +18002,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18684,8 +18034,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18717,8 +18066,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18750,8 +18098,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18783,8 +18130,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18816,8 +18162,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18849,8 +18194,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18882,8 +18226,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18915,8 +18258,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18948,8 +18290,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -18981,8 +18322,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19014,8 +18354,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19047,8 +18386,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19080,8 +18418,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19113,8 +18450,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19146,8 +18482,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19179,8 +18514,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 98.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -19215,8 +18549,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -19235,8 +18568,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19281,8 +18613,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19327,8 +18658,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19373,8 +18703,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19419,8 +18748,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19465,8 +18793,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19511,8 +18838,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19557,8 +18883,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -19609,8 +18934,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 462.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'РАРИТЕТ',
     identifier_exists: 'no',
     condition: 'new',
@@ -19665,8 +18989,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 479.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19712,8 +19035,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 300.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19731,8 +19053,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19750,8 +19071,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19769,8 +19089,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Алюр',
     identifier_exists: 'no',
     condition: 'new',
@@ -19789,8 +19108,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19808,8 +19126,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19827,8 +19144,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -19860,8 +19176,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19879,8 +19194,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 22.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -19898,8 +19212,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 87.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -19929,8 +19242,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -19969,8 +19281,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -20009,8 +19320,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -20049,8 +19359,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 100.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -20074,8 +19383,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 24.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Мір',
     identifier_exists: 'no',
     condition: 'new',
@@ -20110,8 +19418,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Мір',
     identifier_exists: 'no',
     condition: 'new',
@@ -20145,8 +19452,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20175,8 +19481,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20205,8 +19510,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20235,8 +19539,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20265,8 +19568,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 142.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -20285,8 +19587,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -20305,8 +19606,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -20325,8 +19625,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -20346,8 +19645,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 142.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -20367,8 +19665,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 142.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -20387,8 +19684,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 125.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -20413,8 +19709,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     brand: 'Sugarflair Colours',
     identifier_exists: 'no',
     condition: 'new',
@@ -20447,8 +19742,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 215.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -20478,8 +19772,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 215.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -20509,8 +19802,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 215.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -20541,8 +19833,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 215.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -20572,8 +19863,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 365.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -20603,8 +19893,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 365.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -20633,8 +19922,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > напої > Чай, кава, какао > какао',
+    product_type: 'Чай, кава, какао',
     brand: 'Schokinag',
     identifier_exists: 'no',
     condition: 'new',
@@ -20672,8 +19960,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -20718,8 +20005,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 7.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20750,8 +20036,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 39.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20782,8 +20067,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20810,8 +20094,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20838,8 +20121,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20865,8 +20147,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 51.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20893,8 +20174,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 12.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20920,8 +20200,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 12.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20949,8 +20228,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 87.0,
-    product_type:
-      'продукти харчування, напої > напої > Чай, кава, какао > какао',
+    product_type: 'Чай, кава, какао',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -20991,8 +20269,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > крохмаль',
+    product_type: 'Харчові інгредієнти',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21023,8 +20300,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > крохмаль',
+    product_type: 'Харчові інгредієнти',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21058,8 +20334,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21096,8 +20371,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський крем та начинки',
+    product_type: 'Кондитерський крем та начинки',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21122,8 +20396,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21159,8 +20432,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21196,8 +20468,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21228,8 +20499,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Dr. Oetker',
     identifier_exists: 'no',
     condition: 'new',
@@ -21261,8 +20531,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -21297,8 +20566,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -21332,8 +20600,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -21368,8 +20635,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 81.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -21404,8 +20670,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 139.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -21443,8 +20708,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 114.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -21481,8 +20745,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -21515,8 +20778,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -21557,8 +20819,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21576,8 +20837,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21595,8 +20855,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21614,8 +20873,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21633,8 +20891,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21654,8 +20911,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21673,8 +20929,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 65.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -21719,8 +20974,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -21765,8 +21019,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 65.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Slado',
     identifier_exists: 'no',
     condition: 'new',
@@ -21811,8 +21064,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 149.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -21831,8 +21083,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 149.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -21851,8 +21102,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -21870,8 +21120,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 41.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -21906,8 +21155,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 114.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -21942,8 +21190,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -21978,8 +21225,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 79.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22014,8 +21260,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22050,8 +21295,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22086,8 +21330,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22122,8 +21365,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22158,8 +21400,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22194,8 +21435,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22230,8 +21470,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22266,8 +21505,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22302,8 +21540,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22338,8 +21575,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22374,8 +21610,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22410,8 +21645,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22446,8 +21680,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 115.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22483,8 +21716,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 115.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22519,8 +21751,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 115.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22555,8 +21786,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 115.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22591,8 +21821,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22627,8 +21856,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22663,8 +21891,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22699,8 +21926,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22735,8 +21961,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22771,8 +21996,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22807,8 +22031,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 149.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -22827,8 +22050,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 69.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -22847,8 +22069,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -22868,8 +22089,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -22902,8 +22122,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -22936,8 +22155,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -22970,8 +22188,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -23004,8 +22221,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -23038,8 +22254,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23074,8 +22289,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 125.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23110,8 +22324,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 195.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23131,8 +22344,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23152,8 +22364,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23188,8 +22399,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 130.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -23223,7 +22433,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23241,7 +22451,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23259,8 +22469,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23280,8 +22489,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 125.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23301,8 +22509,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 122.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -23321,8 +22528,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 139.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -23341,8 +22547,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 122.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -23361,8 +22566,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23411,8 +22615,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 118.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23432,8 +22635,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23468,8 +22670,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 108.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23505,8 +22706,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 98.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23541,8 +22741,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 185.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23578,8 +22777,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -23598,8 +22796,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -23634,8 +22831,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23653,8 +22849,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23672,8 +22867,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23691,8 +22885,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23710,8 +22903,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23729,8 +22921,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23748,8 +22939,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23767,8 +22957,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23786,8 +22975,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23805,8 +22993,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -23824,8 +23011,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -23860,8 +23046,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -23895,8 +23080,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -23932,8 +23116,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -23967,8 +23150,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 396.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -24004,8 +23186,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24036,8 +23217,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24086,8 +23266,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 136.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24107,8 +23286,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 142.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24128,8 +23306,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 86.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24150,8 +23327,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24200,8 +23376,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 71.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24221,8 +23396,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 71.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24242,8 +23416,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24262,8 +23435,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24281,8 +23453,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24301,8 +23472,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24322,8 +23492,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24343,8 +23512,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -24364,8 +23532,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24383,8 +23550,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24402,8 +23568,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24421,8 +23586,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24440,8 +23604,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24459,8 +23622,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 44.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24478,8 +23640,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Master Martini',
     identifier_exists: 'no',
     condition: 'new',
@@ -24500,8 +23661,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Master Martini',
     identifier_exists: 'no',
     condition: 'new',
@@ -24522,8 +23682,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24541,7 +23700,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24558,8 +23717,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 140.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24577,8 +23735,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24595,8 +23752,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24614,8 +23770,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 185.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24633,8 +23788,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24652,8 +23806,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24671,8 +23824,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 78.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24690,8 +23842,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 2.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24709,8 +23860,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 2.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24728,8 +23878,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 2.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24747,8 +23896,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 2.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24766,8 +23914,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 2.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24785,8 +23932,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 96.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -24805,8 +23951,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -24824,8 +23969,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 150.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24845,8 +23989,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -24864,8 +24007,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24882,8 +24024,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24900,8 +24041,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24918,8 +24058,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24938,8 +24077,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -24959,8 +24097,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 181.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24978,8 +24115,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 179.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -24998,8 +24134,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -25019,8 +24154,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -25039,8 +24173,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25057,8 +24190,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25076,8 +24208,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 179.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25094,7 +24225,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25111,7 +24242,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25129,8 +24260,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 340.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25148,8 +24278,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25167,8 +24296,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25186,8 +24314,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 64.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25205,8 +24332,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Barry Callebaut',
     identifier_exists: 'no',
     condition: 'new',
@@ -25225,8 +24351,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 88.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Barry Callebaut',
     identifier_exists: 'no',
     condition: 'new',
@@ -25245,8 +24370,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 88.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     brand: 'Barry Callebaut',
     identifier_exists: 'no',
     condition: 'new',
@@ -25265,8 +24389,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
+    product_type: 'Сиропи та топінги',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25284,8 +24407,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
+    product_type: 'Сиропи та топінги',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25303,8 +24425,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 64.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25322,8 +24443,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 28.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25341,8 +24461,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25360,8 +24479,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 64.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25379,8 +24497,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25398,8 +24515,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 64.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25417,8 +24533,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25436,8 +24551,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 262.0,
-    product_type:
-      'промислове обладнання та верстати > обладнання для харчової промисловості > обладнання для хлібобулочних та кондитерських виробів > обладнання для хлібобулочних та кондитерських виробів, загальне',
+    product_type: 'Обладнання для хлібобулочних та кондитерських виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25455,8 +24569,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 516.0,
-    product_type:
-      'будівництво > водо-, газо-, теплозабезпечення > опалювальне обладнання > пальники',
+    product_type: 'Пальники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25474,8 +24587,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'тара та упаковка > пакувальні матеріали > пакувальні плівки > універсальні плівки',
+    product_type: 'Пакувальні плівки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25493,8 +24605,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25512,8 +24623,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25531,8 +24641,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25550,8 +24659,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25569,8 +24677,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25588,8 +24695,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25607,8 +24713,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25626,8 +24731,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25645,8 +24749,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25664,8 +24767,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25683,8 +24785,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25702,8 +24803,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25721,8 +24821,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25740,8 +24839,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25759,8 +24857,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25777,8 +24874,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25795,8 +24891,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -25814,8 +24909,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -25833,8 +24927,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25851,8 +24944,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -25870,8 +24962,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25888,8 +24979,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25906,8 +24996,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -25925,8 +25014,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25943,8 +25031,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25961,8 +25048,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25979,8 +25065,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -25997,8 +25082,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 33.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26015,8 +25099,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26033,8 +25116,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26051,8 +25133,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26069,8 +25150,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26087,8 +25167,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26105,8 +25184,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26123,8 +25201,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26141,8 +25218,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26159,8 +25235,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -26178,8 +25253,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26196,8 +25270,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26214,8 +25287,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26232,8 +25304,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26250,8 +25321,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -26269,8 +25339,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -26288,8 +25357,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26306,8 +25374,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26324,8 +25391,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -26343,8 +25409,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26362,8 +25427,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26381,8 +25445,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26399,8 +25462,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -26419,8 +25481,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Бірюзовий',
@@ -26439,8 +25500,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26458,8 +25518,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Бордовий',
@@ -26478,8 +25537,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26497,8 +25555,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26516,8 +25573,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -26536,8 +25592,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Помаранчевий',
@@ -26556,8 +25611,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26575,8 +25629,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -26595,8 +25648,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Бежевий',
@@ -26615,8 +25667,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -26635,8 +25686,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -26656,8 +25706,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -26676,8 +25725,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26695,8 +25743,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26715,8 +25762,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 136.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -26736,8 +25782,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -26755,8 +25800,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 154.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26773,8 +25817,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 148.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26791,8 +25834,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26809,8 +25851,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 82.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26827,8 +25868,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 107.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26845,8 +25885,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26863,8 +25902,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 140.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26882,8 +25920,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26901,8 +25938,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -26919,8 +25955,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -26938,8 +25973,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -26957,8 +25991,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -26977,8 +26010,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 196.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -26999,8 +26031,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -27021,8 +26052,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -27041,8 +26071,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 5.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27062,8 +26091,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 696.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27081,8 +26109,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 23.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27099,8 +26126,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 12.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27120,8 +26146,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27139,8 +26164,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 263.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27158,8 +26182,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 263.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27177,8 +26200,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 263.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27196,8 +26218,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -27216,8 +26237,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 46.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27236,8 +26256,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 120.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27261,8 +26280,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27280,8 +26298,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Хлібобулочні вироби',
+    product_type: 'Хлібобулочні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27298,8 +26315,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27317,8 +26333,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -27347,8 +26362,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 224.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27366,8 +26380,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27385,8 +26398,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27404,8 +26416,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -27424,8 +26435,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -27443,8 +26453,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -27463,8 +26472,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -27483,8 +26491,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -27503,8 +26510,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -27523,8 +26529,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 83.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27542,8 +26547,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 83.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27561,8 +26565,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 83.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27580,8 +26583,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27600,8 +26602,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27619,8 +26620,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 12.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27638,8 +26638,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 140.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27663,8 +26662,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27682,8 +26680,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 70.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27701,8 +26698,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27720,8 +26716,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'МІК',
     identifier_exists: 'no',
     condition: 'new',
@@ -27741,8 +26736,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -27761,8 +26755,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27779,8 +26772,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27797,8 +26789,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -27816,8 +26807,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27841,8 +26831,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27866,8 +26855,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27891,8 +26879,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27916,8 +26903,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27941,8 +26927,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27966,8 +26951,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -27992,8 +26976,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 147.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28013,8 +26996,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 65.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28034,8 +27016,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 240.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -28059,8 +27040,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 165.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -28084,8 +27064,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -28114,8 +27093,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 109.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28135,8 +27113,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 114.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28154,8 +27131,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 70.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28173,8 +27149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28191,8 +27166,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28209,8 +27183,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 193.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28228,8 +27201,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28247,8 +27219,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28268,8 +27239,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28289,8 +27259,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28310,8 +27279,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28331,8 +27299,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28352,8 +27319,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 126.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28373,8 +27339,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28394,8 +27359,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28415,8 +27379,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 125.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28436,8 +27399,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28457,8 +27419,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 118.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28478,8 +27439,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28499,8 +27459,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28520,8 +27479,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28541,8 +27499,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28562,8 +27519,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28584,8 +27540,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 18.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28603,8 +27558,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28622,8 +27576,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28641,8 +27594,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -28660,8 +27612,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28679,8 +27630,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
@@ -28699,8 +27649,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28718,8 +27667,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28737,8 +27685,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 80.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28755,8 +27702,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 96.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28774,8 +27720,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -28795,8 +27740,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28814,8 +27758,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28833,8 +27776,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -28853,8 +27795,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -28873,8 +27814,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28892,8 +27832,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -28912,8 +27851,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -28932,8 +27870,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -28952,8 +27889,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -28972,8 +27908,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 3.0,
-    product_type:
-      'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
+    product_type: 'Паперові кондитерські серветки та форми',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -28992,8 +27927,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 3.0,
-    product_type:
-      'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
+    product_type: 'Паперові кондитерські серветки та форми',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -29012,7 +27946,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29030,7 +27964,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29049,7 +27983,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29067,7 +28001,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29085,8 +28019,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 10.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29104,8 +28037,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29123,8 +28055,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29142,8 +28073,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29161,8 +28091,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29180,8 +28109,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29199,8 +28127,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29218,8 +28145,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29237,8 +28163,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29256,8 +28181,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29275,8 +28199,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29294,8 +28217,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29313,8 +28235,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29332,8 +28253,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29351,8 +28271,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29370,8 +28289,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29389,8 +28307,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29408,8 +28325,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29427,8 +28343,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29446,8 +28361,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29465,8 +28379,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29484,8 +28397,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29503,8 +28415,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29522,8 +28433,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29541,8 +28451,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29560,8 +28469,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29579,8 +28487,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29598,8 +28505,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29617,8 +28523,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29636,8 +28541,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29655,8 +28559,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29674,8 +28577,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29693,8 +28595,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29712,8 +28613,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29731,8 +28631,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29750,8 +28649,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29769,8 +28667,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29788,8 +28685,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29807,8 +28703,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29826,8 +28721,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29845,8 +28739,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29864,8 +28757,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29883,8 +28775,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29902,8 +28793,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29921,8 +28811,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 42.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29940,8 +28829,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 42.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29959,8 +28847,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 42.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29978,8 +28865,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 26.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -29997,8 +28883,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 42.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30016,8 +28901,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 38.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30035,8 +28919,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30053,8 +28936,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 18.0,
-    product_type:
-      'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
+    product_type: 'Паперові кондитерські серветки та форми',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30072,8 +28954,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 108.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -30097,8 +28978,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 76.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -30127,8 +29007,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30146,8 +29025,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -30166,8 +29044,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -30186,8 +29063,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -30205,8 +29081,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30223,8 +29098,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30241,8 +29115,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30259,8 +29132,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30277,8 +29149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30295,8 +29166,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30313,8 +29183,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30331,8 +29200,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30349,8 +29217,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30367,8 +29234,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30385,8 +29251,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30403,8 +29268,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30421,8 +29285,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30439,8 +29302,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30457,8 +29319,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30475,8 +29336,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30493,8 +29353,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30511,8 +29370,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30529,8 +29387,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30547,8 +29404,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30565,8 +29421,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30583,8 +29438,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30601,8 +29455,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30619,8 +29472,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30637,8 +29489,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30655,8 +29506,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30673,8 +29523,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30691,8 +29540,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30709,8 +29557,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30727,8 +29574,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30745,8 +29591,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30763,8 +29608,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30781,8 +29625,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30799,8 +29642,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30817,8 +29659,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30835,8 +29676,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30853,8 +29693,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30871,8 +29710,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30889,8 +29727,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30907,8 +29744,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30925,8 +29761,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30943,8 +29778,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30961,8 +29795,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30979,8 +29812,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -30997,8 +29829,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31015,8 +29846,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31033,8 +29863,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31051,8 +29880,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31069,8 +29897,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31087,8 +29914,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31105,8 +29931,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31123,8 +29948,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31141,8 +29965,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31159,8 +29982,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31177,8 +29999,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31195,8 +30016,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31213,8 +30033,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31231,8 +30050,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31249,8 +30067,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31267,8 +30084,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31285,8 +30101,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31303,8 +30118,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31321,8 +30135,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31339,8 +30152,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31357,8 +30169,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31375,8 +30186,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31393,8 +30203,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31411,8 +30220,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31429,8 +30237,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31447,8 +30254,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31466,8 +30272,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31485,8 +30290,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 46.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31504,8 +30308,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 174.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31522,8 +30325,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 234.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31541,8 +30343,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 51.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > сиропи і топінги',
+    product_type: 'Сиропи та топінги',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31559,7 +30360,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 1.0,
-    product_type: 'тара та упаковка > пакувальні матеріали > пакети',
+    product_type: 'Пакети',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31576,7 +30377,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 1.0,
-    product_type: 'тара та упаковка > пакувальні матеріали > пакети',
+    product_type: 'Пакети',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31593,7 +30394,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 1.0,
-    product_type: 'тара та упаковка > пакувальні матеріали > пакети',
+    product_type: 'Пакети',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31611,8 +30412,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 125.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31631,8 +30431,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31651,8 +30450,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -31671,8 +30469,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 119.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31692,8 +30489,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31714,8 +30510,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31735,8 +30530,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31754,8 +30548,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Темно-зелений',
@@ -31773,8 +30566,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -31794,8 +30586,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 73.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31813,8 +30604,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 91.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -31833,8 +30623,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31851,8 +30640,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31869,8 +30657,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31887,8 +30674,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31905,8 +30691,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31923,8 +30708,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31941,8 +30725,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31959,8 +30742,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31977,8 +30759,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -31995,8 +30776,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32013,8 +30793,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32031,8 +30810,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32049,8 +30827,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32067,8 +30844,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32085,8 +30861,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32104,8 +30879,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 103.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32130,8 +30904,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32155,8 +30928,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32180,8 +30952,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 96.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32205,8 +30976,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32230,8 +31000,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 65.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32255,8 +31024,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32274,8 +31042,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 110.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32300,8 +31067,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 65.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32319,8 +31085,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 264.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32338,8 +31103,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32363,8 +31127,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 228.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32382,8 +31145,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 62.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32408,8 +31170,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 62.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32437,8 +31198,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32456,8 +31216,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32475,8 +31234,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32494,8 +31252,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 56.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32513,8 +31270,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32532,8 +31288,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32551,8 +31306,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32572,8 +31326,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 144.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32591,8 +31344,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -32621,8 +31373,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 207.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32646,8 +31397,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 210.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32671,8 +31421,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 140.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32696,8 +31445,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 190.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32721,8 +31469,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32746,8 +31493,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32771,8 +31517,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 132.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32796,8 +31541,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32815,8 +31559,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 53.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -32836,8 +31579,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 156.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32857,8 +31599,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32881,8 +31622,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32899,8 +31639,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32917,8 +31656,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32935,8 +31673,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32953,8 +31690,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -32972,8 +31708,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 93.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -32997,8 +31732,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 93.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -33022,8 +31756,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 129.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33041,8 +31774,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33060,8 +31792,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33079,8 +31810,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 42.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33097,8 +31827,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33118,8 +31847,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 212.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33139,8 +31867,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 236.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33160,8 +31887,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33180,8 +31906,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 358.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33200,8 +31925,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 256.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33220,8 +31944,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 307.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33242,8 +31965,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 200.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33264,8 +31986,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 244.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33286,8 +32007,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 270.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33304,8 +32024,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 83.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -33329,8 +32048,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 109.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33348,8 +32066,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 693.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33370,8 +32087,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 58.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -33395,8 +32111,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 508.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33416,8 +32131,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 214.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33435,8 +32149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33454,8 +32167,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -33474,8 +32186,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 137.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33494,8 +32205,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33513,8 +32223,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -33533,8 +32242,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33554,8 +32262,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 124.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33576,8 +32283,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 119.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33597,8 +32303,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 119.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33618,8 +32323,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33638,8 +32342,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 110.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33658,8 +32361,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -33678,8 +32380,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 226.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -33698,8 +32399,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33717,8 +32417,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -33737,8 +32436,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 264.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -33757,8 +32455,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 108.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33776,8 +32473,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 58.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33795,8 +32491,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 112.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -33815,8 +32510,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33834,8 +32528,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 43.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33852,8 +32545,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 84.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33871,8 +32563,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 134.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33892,8 +32583,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33913,8 +32603,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -33934,8 +32623,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 86.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -33953,8 +32641,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 17.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -33974,8 +32661,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 17.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -33994,8 +32680,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 17.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -34014,8 +32699,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 17.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -34034,8 +32718,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 17.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     brand: 'Украса',
     identifier_exists: 'no',
     condition: 'new',
@@ -34055,8 +32738,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34074,8 +32756,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34093,8 +32774,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34112,8 +32792,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 32.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34131,8 +32810,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34156,8 +32834,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 37.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34182,7 +32859,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 38.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34200,7 +32877,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34218,8 +32895,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -34245,8 +32921,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -34266,8 +32941,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -34287,8 +32961,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 143.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34307,8 +32980,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34327,8 +32999,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -34347,8 +33018,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -34367,8 +33037,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34386,8 +33055,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -34406,8 +33074,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34425,8 +33092,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -34445,8 +33111,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 223.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -34465,8 +33130,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34485,8 +33149,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34504,8 +33167,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -34524,8 +33186,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34543,8 +33204,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -34562,8 +33222,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -34582,8 +33241,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34608,8 +33266,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -34634,8 +33291,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Чорний',
@@ -34660,8 +33316,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34685,8 +33340,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
@@ -34711,8 +33365,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -34737,8 +33390,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Помаранчевий',
@@ -34763,8 +33415,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -34789,8 +33440,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 220.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34814,8 +33464,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34840,8 +33489,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -34866,8 +33514,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34891,8 +33538,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Коричневий',
@@ -34917,8 +33563,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -34942,8 +33587,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 92.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -34969,8 +33613,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -34989,8 +33632,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35008,8 +33650,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35027,8 +33668,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35046,8 +33686,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35065,8 +33704,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35084,8 +33722,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35103,8 +33740,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35122,8 +33758,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35141,8 +33776,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35160,8 +33794,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35179,8 +33812,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35198,8 +33830,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35217,8 +33848,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35236,8 +33866,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35255,8 +33884,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35274,8 +33902,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35293,8 +33920,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35312,8 +33938,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35331,8 +33956,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35350,8 +33974,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35369,8 +33992,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35388,8 +34010,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35407,8 +34028,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35427,8 +34047,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 264.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35447,8 +34066,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 96.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35466,8 +34084,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35485,8 +34102,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35504,8 +34120,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35523,8 +34138,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35542,8 +34156,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35561,8 +34174,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35580,8 +34192,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35599,8 +34210,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35618,8 +34228,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35637,8 +34246,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35658,8 +34266,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 328.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35677,8 +34284,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35696,8 +34302,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35715,8 +34320,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35734,8 +34338,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -35754,8 +34357,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35773,8 +34375,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35792,8 +34393,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35811,8 +34411,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35830,8 +34429,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35849,8 +34447,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35868,8 +34465,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35887,8 +34483,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35907,8 +34502,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35926,8 +34520,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 62.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35945,8 +34538,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 61.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35964,8 +34556,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 61.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -35983,8 +34574,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36002,8 +34592,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36023,8 +34612,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 409.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Berg',
     identifier_exists: 'no',
     condition: 'new',
@@ -36044,8 +34632,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 409.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Berg',
     identifier_exists: 'no',
     condition: 'new',
@@ -36065,7 +34652,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 198.0,
-    product_type: 'продукти харчування, напої > молочні продукти > вершки',
+    product_type: 'Вершки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36083,7 +34670,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 198.0,
-    product_type: 'продукти харчування, напої > молочні продукти > вершки',
+    product_type: 'Вершки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36102,8 +34689,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
+    product_type: 'Паперові кондитерські серветки та форми',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36124,8 +34710,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'тара та упаковка > паперова продукція та упаковка > паперові кондитерські серветки та форми',
+    product_type: 'Паперові кондитерські серветки та форми',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36145,8 +34730,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
+    product_type: 'Упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36166,8 +34750,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 70.0,
-    product_type:
-      'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
+    product_type: 'Упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36187,8 +34770,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'тара та упаковка > промислова упаковка > упаковка для продуктів харчування > упаковка для продуктів харчування та напівфабрикатів',
+    product_type: 'Упаковка для продуктів харчування та напівфабрикатів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36206,8 +34788,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36226,8 +34807,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 104.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36245,7 +34825,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36263,7 +34843,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36280,8 +34860,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36299,8 +34878,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36320,8 +34898,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -36341,8 +34918,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -36361,8 +34937,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36382,8 +34957,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -36402,8 +34976,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'МІК',
     identifier_exists: 'no',
     condition: 'new',
@@ -36423,8 +34996,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 76.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36444,8 +35016,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'МІК',
     identifier_exists: 'no',
     condition: 'new',
@@ -36464,8 +35035,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36482,8 +35052,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 102.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36501,7 +35070,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36518,8 +35087,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 228.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36539,8 +35107,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36559,8 +35126,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36579,8 +35145,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36599,8 +35164,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36619,8 +35183,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36638,8 +35201,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 36.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36656,8 +35218,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36676,8 +35237,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -36701,8 +35261,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 165.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -36726,8 +35285,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 202.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36744,8 +35302,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36763,8 +35320,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36782,8 +35338,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36801,8 +35356,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36820,8 +35374,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36839,8 +35392,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36858,8 +35410,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 122.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36877,8 +35428,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36898,8 +35448,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 84.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36918,8 +35467,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -36937,8 +35485,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36958,8 +35505,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36979,8 +35525,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -36999,8 +35544,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 84.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37018,8 +35562,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 54.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -37038,8 +35581,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37058,8 +35600,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > ароматизатори, смакові добавки',
+    product_type: 'Ароматизатори, смакові добавки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37082,8 +35623,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 96.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -37102,8 +35642,7 @@ export const db = [
     ],
     availability: 'out of stock',
     price: 87.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37121,8 +35660,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 412.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -37141,8 +35679,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 412.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -37161,8 +35698,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 412.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -37181,8 +35717,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37200,8 +35735,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Зелений',
@@ -37220,8 +35754,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37239,8 +35772,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
@@ -37259,8 +35791,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -37279,8 +35810,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37298,8 +35828,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Червоний',
@@ -37318,8 +35847,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37337,8 +35865,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -37357,8 +35884,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -37377,8 +35903,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерські глазурі та покриття',
+    product_type: 'Кондитерські глазурі та покриття',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Блакитний',
@@ -37397,8 +35922,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 116.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -37418,8 +35942,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37437,8 +35960,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > харчові барвники',
+    product_type: 'Харчові барвники',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37456,7 +35978,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37475,7 +35997,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 206.0,
-    product_type: 'продукти харчування, напої > Солодощі > Шоколадні вироби',
+    product_type: 'Шоколадні вироби',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37492,8 +36014,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Фіолетовий',
@@ -37511,8 +36032,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 31.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37529,8 +36049,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 24.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37548,8 +36067,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 64.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37567,8 +36085,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 52.0,
-    product_type:
-      'подарунки, хобі, книги > Cвяткові прикраси > свічки для торта',
+    product_type: 'Cвічки для торта',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37586,8 +36103,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 11.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37604,8 +36120,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37622,8 +36137,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37640,8 +36154,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37658,8 +36171,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37676,8 +36188,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37694,8 +36205,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37712,8 +36222,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37730,8 +36239,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37748,8 +36256,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37766,8 +36273,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37785,8 +36291,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 85.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37804,8 +36309,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37823,8 +36327,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37842,8 +36345,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37861,8 +36363,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37880,7 +36381,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37898,7 +36399,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37916,7 +36417,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 66.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37934,7 +36435,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37952,7 +36453,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -37971,7 +36472,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -37989,7 +36490,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38007,8 +36508,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -38027,7 +36527,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -38046,7 +36546,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -38065,7 +36565,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -38073,7 +36573,7 @@ export const db = [
 
   {
     _id: '2131920179',
-    title: 'Круг "I love you" (<unk> 5 см)',
+    title: 'Круг "I love you" (5 см)',
     description:
       'Кружки з гравіюванням для декору тортиків, капкейків та інших солодощів. Виготовленні із золотого акрилу, товщиною 2 мм. Мають нереальну дзеркальну поверхню, у відображенні якої можна побачити себе. Ззаду - сірий колір.',
     link: 'https://zatyshno.prom.ua/ua/p2131920179-krug-love-you.html?source=merchant_center',
@@ -38084,7 +36584,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сірий',
@@ -38104,8 +36604,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38130,8 +36629,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 50.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38156,8 +36654,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38182,8 +36679,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38208,8 +36704,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38234,8 +36729,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38259,8 +36753,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38284,8 +36777,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 94.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -38306,8 +36798,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 35.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -38330,8 +36821,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -38353,8 +36843,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -38374,8 +36863,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 68.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38393,8 +36881,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 56.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38412,8 +36899,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 95.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38431,8 +36917,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38450,8 +36935,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -38470,8 +36954,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Modecor',
     identifier_exists: 'no',
     condition: 'new',
@@ -38490,8 +36973,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 127.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -38510,8 +36992,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 30.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38529,8 +37010,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 347.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38548,8 +37028,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 84.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38566,8 +37045,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38585,8 +37063,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38605,8 +37082,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 250.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Синій',
@@ -38625,8 +37101,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 215.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38644,7 +37119,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 120.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38663,7 +37138,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 210.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38682,7 +37157,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 130.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38700,7 +37175,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38718,7 +37193,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38736,7 +37211,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38754,7 +37229,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38772,7 +37247,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38790,7 +37265,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
@@ -38798,7 +37273,7 @@ export const db = [
 
   {
     _id: '2137785159',
-    title: 'Напис для бенто торта "Happy Birthday" (<unk> 7 см) Сріблястий',
+    title: 'Напис для бенто торта "Happy Birthday" (7 см) Сріблястий',
     description:
       'Розмір напису 7х3.4 см Мова Українська Напис для бенто тортиків, різдвяних кексів, капкейків та інших смаколиків. Мають захисну плівку, яка захистить виріб від зовнішніх впливів аж до самого свята.',
     link: 'https://zatyshno.prom.ua/ua/p2137785159-napis-dlya-bento.html?source=merchant_center',
@@ -38809,7 +37284,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
@@ -38817,7 +37292,7 @@ export const db = [
 
   {
     _id: '2137785485',
-    title: 'Напис для бенто торта "Happy Birthday" (<unk> 7 см) золото',
+    title: 'Напис для бенто торта "Happy Birthday" (7 см) золото',
     description:
       'Розмір напису 7х3.4 см Мова Українська Напис для бенто тортиків, різдвяних кексів, капкейків та інших смаколиків. Мають захисну плівку, яка захистить виріб від зовнішніх впливів аж до самого свята.',
     link: 'https://zatyshno.prom.ua/ua/p2137785485-napis-dlya-bento.html?source=merchant_center',
@@ -38828,7 +37303,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38846,7 +37321,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Сріблястий',
@@ -38865,7 +37340,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type: 'тара та упаковка > етикетки та бирки',
+    product_type: 'Етикетки та бірки',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38883,8 +37358,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 164.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Золотистий',
@@ -38903,8 +37377,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38921,8 +37394,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -38940,8 +37412,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38965,8 +37436,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -38990,8 +37460,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -39015,8 +37484,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 90.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -39040,8 +37508,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 80.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -39065,8 +37532,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -39090,8 +37556,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 55.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
     product_details: [
@@ -39116,8 +37581,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 25.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39135,8 +37599,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 40.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39155,8 +37618,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39174,8 +37636,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39193,8 +37654,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39212,8 +37672,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 287.0,
-    product_type:
-      'Дім і сад > посуд > кухонне приладдя > кондитерські інструменти та аксесуари',
+    product_type: 'Кондитерські інструменти та аксесуари',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39231,8 +37690,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 46.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39250,8 +37708,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 193.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -39269,8 +37726,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 229.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Білий',
@@ -39289,8 +37745,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 69.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39309,8 +37764,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 72.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39327,8 +37781,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39345,8 +37798,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 133.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39364,8 +37816,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 75.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39384,8 +37835,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 44.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39403,8 +37853,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 42.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39424,8 +37873,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39444,8 +37892,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 176.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39463,8 +37910,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 15.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39484,8 +37930,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 97.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39505,8 +37950,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 145.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39526,8 +37970,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39545,8 +37988,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 20.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'МІК',
     identifier_exists: 'no',
     condition: 'new',
@@ -39566,8 +38008,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 136.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39588,8 +38029,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     identifier_exists: 'no',
     condition: 'new',
     color: 'Рожевий',
@@ -39608,8 +38048,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39627,8 +38066,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39646,8 +38084,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39665,8 +38102,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39684,8 +38120,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39703,8 +38138,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39722,8 +38156,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39741,8 +38174,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39760,8 +38192,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39779,8 +38210,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39798,8 +38228,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39817,8 +38246,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 74.0,
-    product_type:
-      'продукти харчування, напої > бакалія > харчові інгредієнти > інгредієнти для кондитерських і хлібобулочних виробів',
+    product_type: 'Інгредієнти для кондитерських та хлібобулочних виробів',
     identifier_exists: 'no',
     condition: 'new',
   },
@@ -39838,8 +38266,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39859,8 +38286,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39880,8 +38306,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 45.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39901,8 +38326,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39922,8 +38346,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 99.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39943,8 +38366,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 135.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
@@ -39964,8 +38386,7 @@ export const db = [
     ],
     availability: 'in stock',
     price: 60.0,
-    product_type:
-      'продукти харчування, напої > хлібобулочні, кондитерські вироби > Все для кондитера > Кондитерський декор',
+    product_type: 'Кондитерський декор',
     brand: 'Ateco',
     identifier_exists: 'no',
     condition: 'new',
