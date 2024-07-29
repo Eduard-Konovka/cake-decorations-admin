@@ -40,3 +40,36 @@ const bbb = {
   identifier_exists: 'no',
   condition: 'new',
 };
+
+// --- Intersection Observer ---
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.9,
+};
+
+const observerCallback = (elements, observer) => {
+  elements.forEach(element => {
+    if (element.isIntersecting) {
+      console.log('element ---> ', element); // onLoadMore(); // What we do
+    }
+  });
+};
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+const target = document.getElementById('productList');
+
+const setObserver = () => {
+  observer.observe(target.lastElementChild); // What we track
+};
+
+const removeObserver = data => {
+  observer.unobserve(target.lastElementChild);
+  return data;
+};
+
+useEffect(() => {
+  visibleProducts.length > 0 && removeObserver();
+  visibleProducts.length > 0 && setObserver();
+}, [visibleProducts]);
+// -----------------------------

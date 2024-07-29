@@ -22,25 +22,15 @@ export default function ProductsView({ productsByTag }) {
   const [visibleProducts, setVisibleProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
+  const [ordinalOfDozen, setOrdinalOfDozen] = useState(0);
+  const [target, setTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
     if (products.length === 0) {
       setLoading(true);
-
-      fetchProducts()
-        .then(products => {
-          products.sort(
-            (firstProduct, secondProduct) =>
-              firstProduct.barcode - secondProduct.barcode,
-          );
-          changeGlobalState(updateProducts, products);
-          setProductsByName(products);
-          setProductsByPrice(products);
-        })
-        .catch(error => setError(error))
-        .finally(() => setLoading(false));
+      getProducts();
     } else if (productsByTag.length !== 0) {
       setProductsByName(productsByTag);
       setProductsByPrice(products);
@@ -61,6 +51,56 @@ export default function ProductsView({ productsByTag }) {
   useEffect(() => {
     setOptionList(true);
   }, [optionList]);
+
+  useEffect(() => {
+    const setObserver = () => {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5,
+      };
+
+      const observerCallback = (elements, observer) => {
+        elements.forEach(element => {
+          if (element.isIntersecting) {
+            observer.unobserve(target);
+            setOrdinalOfDozen(ordinalOfDozen => ordinalOfDozen + 1);
+            getProducts();
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(
+        observerCallback,
+        observerOptions,
+      );
+
+      observer.observe(target);
+    };
+
+    target && setObserver();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [target]);
+
+  setTimeout(() => {
+    setTarget(document.getElementById('productList')?.lastElementChild);
+  }, 100);
+
+  function getProducts() {
+    fetchProducts(ordinalOfDozen + 1)
+      .then(nextDozenProducts => {
+        setOrdinalOfDozen(ordinalOfDozen => ordinalOfDozen + 1);
+        nextDozenProducts.sort(
+          (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
+        );
+        changeGlobalState(updateProducts, [...products, ...nextDozenProducts]);
+        setProductsByName([...products, ...nextDozenProducts]);
+        setProductsByPrice([...products, ...nextDozenProducts]);
+      })
+      .catch(error => setError(error))
+      .finally(() => setLoading(false));
+  }
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
@@ -163,12 +203,10 @@ export default function ProductsView({ productsByTag }) {
     const value = event.target.value;
 
     const ascendingCode = [...visibleProducts].sort(
-      (firstProduct, secondProduct) =>
-        firstProduct.barcode - secondProduct.barcode,
+      (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
     );
     const descendingCode = [...visibleProducts].sort(
-      (firstProduct, secondProduct) =>
-        secondProduct.barcode - firstProduct.barcode,
+      (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
     );
     const ascendingPrice = [...visibleProducts].sort(
       (firstProduct, secondProduct) => firstProduct.price - secondProduct.price,

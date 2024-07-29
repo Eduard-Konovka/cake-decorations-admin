@@ -37,7 +37,7 @@ export default function Product({ product }) {
 
       <p className={s.barcode}>
         {languageDeterminer(LANGUAGE.product.barcode)}
-        <span className={s.value}>{product.barcode ?? product._id}</span>
+        <span className={s.value}>{product._id}</span>
       </p>
 
       <div className={s.control}>
