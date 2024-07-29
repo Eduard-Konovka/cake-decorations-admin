@@ -1,7 +1,12 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
-import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
+import {
+  useGlobalState,
+  useChangeGlobalState,
+  updateProducts,
+  updateOrdinalOfDozen,
+} from 'state';
 import { fetchProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage } from 'functions';
@@ -12,7 +17,7 @@ import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
 export default function ProductsView({ productsByTag }) {
-  const { mainHeight, products } = useGlobalState('global');
+  const { mainHeight, products, ordinalOfDozen } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
@@ -22,7 +27,6 @@ export default function ProductsView({ productsByTag }) {
   const [visibleProducts, setVisibleProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
-  const [ordinalOfDozen, setOrdinalOfDozen] = useState(0);
   const [target, setTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -64,7 +68,7 @@ export default function ProductsView({ productsByTag }) {
         elements.forEach(element => {
           if (element.isIntersecting) {
             observer.unobserve(target);
-            setOrdinalOfDozen(ordinalOfDozen => ordinalOfDozen + 1);
+            changeGlobalState(updateOrdinalOfDozen, ordinalOfDozen + 1);
             getProducts();
           }
         });
@@ -85,12 +89,12 @@ export default function ProductsView({ productsByTag }) {
 
   setTimeout(() => {
     setTarget(document.getElementById('productList')?.lastElementChild);
-  }, 100);
+  }, 0);
 
   function getProducts() {
     fetchProducts(ordinalOfDozen + 1)
       .then(nextDozenProducts => {
-        setOrdinalOfDozen(ordinalOfDozen => ordinalOfDozen + 1);
+        changeGlobalState(updateOrdinalOfDozen, ordinalOfDozen + 1);
         nextDozenProducts.sort(
           (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
         );
