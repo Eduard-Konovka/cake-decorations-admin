@@ -1,5 +1,44 @@
 export const db = [
   {
+    _id: '0000000001',
+    title:
+      'Кондитерські цукрові прикраси Корона рожева на торт для дівчинки набір з безе',
+    description:
+      'Цукрові прикраси є безпечними для дітей. Для прикраси тортів, рулетів, тістечок, булочок, кексів та багато іншого. Зазвичай прикрашають декором поверх виробів. Виробник: Україна Діаметр безе: від 2см до 3см Розмір корони: 6см В упаковці 25 елементів: корона та 24 дрібнички. Розмір коробки (упаковки): дл/шир/вис - 11.5см*11.5см*5.5см Ми всі добре запакуємо, щоб усе доїхало цілим))',
+    link: 'https://zatyshno.prom.ua/ua/p1862834532-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
+    ads_redirect:
+      'https://zatyshno.prom.ua/ua/p1862834532-konditerskie-saharnye-ukrasheniya.html?source=merchant_center',
+    images: [
+      'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
+      'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
+      'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
+      'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
+      'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
+    ],
+    availability: 'in stock',
+    price: 114.0,
+    product_type: 'Кондитерський декор',
+    identifier_exists: 'no',
+    condition: 'new',
+    color: 'Рожевий',
+    product_details: [
+      {
+        attribute_name: 'Країна виробник',
+        attribute_value: 'Україна',
+      },
+      {
+        attribute_name: 'Вид кондитерських виробів',
+        attribute_value: 'Безе',
+      },
+      { attribute_name: 'Тип', attribute_value: 'Фасовані' },
+      {
+        attribute_name: 'Вид декору',
+        attribute_value: 'Цукрові фігури',
+      },
+    ],
+  },
+
+  {
     _id: '1798969377',
     title: 'Барвник харчовий натуральний сухий "Помаранчевий" (Кармін 0301) 2г',
     description:

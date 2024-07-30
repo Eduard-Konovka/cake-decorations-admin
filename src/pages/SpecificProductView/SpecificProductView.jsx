@@ -21,6 +21,7 @@ export default function SpecificProductView({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [product, setProduct] = useState({});
+  const [mainImageIdx, setMainImageIdx] = useState(0);
 
   const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
@@ -65,21 +66,22 @@ export default function SpecificProductView({
               <img
                 src={
                   product?.images?.length > 0
-                    ? product.images[0]
+                    ? product.images[mainImageIdx]
                     : imageNotFound
                 }
                 alt={product.title}
-                className={s.image}
+                className={s.mainImage}
               />
 
               {product?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {product.images.map(imageLink => (
+                  {product.images.map((imageLink, idx) => (
                     <img
                       key={imageLink}
                       src={imageLink}
                       alt={product.title}
                       className={s.additionalImage}
+                      onClick={() => setMainImageIdx(idx)}
                     />
                   ))}
                 </div>
