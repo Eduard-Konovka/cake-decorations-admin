@@ -58,8 +58,15 @@ export default function ProductsView({ productsByTag }) {
     const difference = productsByName.filter(product =>
       productsByPrice.includes(product),
     );
+
     setVisibleProducts(difference);
   }, [productsByName, productsByPrice]);
+
+  useEffect(() => {
+    const productsByDozens = visibleProducts.slice(0, ordinalOfDozen * 12);
+
+    setDozensOfProducts(productsByDozens);
+  }, [visibleProducts, ordinalOfDozen]);
 
   useEffect(() => {
     setOptionList(true);
@@ -98,10 +105,6 @@ export default function ProductsView({ productsByTag }) {
   setTimeout(() => {
     setTarget(document.getElementById('productList')?.lastElementChild);
   }, 0);
-
-  useEffect(() => {
-    setDozensOfProducts(visibleProducts.slice(0, ordinalOfDozen * 12));
-  }, [visibleProducts, ordinalOfDozen]);
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
