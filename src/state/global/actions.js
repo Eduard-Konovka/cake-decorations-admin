@@ -29,12 +29,6 @@ const actions = {
     return updatedState;
   },
 
-  updateOrdinalOfDozen: (state, payload) => {
-    const updatedState = { ...state };
-    updatedState.global.ordinalOfDozen = payload;
-    return updatedState;
-  },
-
   updateCart: (state, payload) => {
     localStorage.setItem('cart', JSON.stringify(payload));
 
@@ -49,6 +43,5 @@ export const {
   updateMainHeight,
   updateUser,
   updateProducts,
-  updateOrdinalOfDozen,
   updateCart,
 } = actions;

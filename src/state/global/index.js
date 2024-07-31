@@ -4,6 +4,5 @@ export {
   updateMainHeight,
   updateUser,
   updateProducts,
-  updateOrdinalOfDozen,
   updateCart,
 } from './actions';

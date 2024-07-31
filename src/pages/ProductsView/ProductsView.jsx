@@ -1,12 +1,7 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
-import {
-  useGlobalState,
-  useChangeGlobalState,
-  updateProducts,
-  updateOrdinalOfDozen,
-} from 'state';
+import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage } from 'functions';
@@ -17,7 +12,7 @@ import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
 export default function ProductsView({ productsByTag }) {
-  const { mainHeight, products, ordinalOfDozen } = useGlobalState('global');
+  const { mainHeight, products } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
@@ -25,6 +20,8 @@ export default function ProductsView({ productsByTag }) {
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState([]);
+  const [ordinalOfDozen, setOrdinalOfDozen] = useState(1);
+  const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
   const [target, setTarget] = useState(null);
@@ -34,7 +31,19 @@ export default function ProductsView({ productsByTag }) {
   useEffect(() => {
     if (products.length === 0) {
       setLoading(true);
-      getProducts();
+
+      fetchProducts()
+        .then(products => {
+          products.sort(
+            (firstProduct, secondProduct) =>
+              firstProduct._id - secondProduct._id,
+          );
+          changeGlobalState(updateProducts, products);
+          setProductsByName(products);
+          setProductsByPrice(products);
+        })
+        .catch(error => setError(error))
+        .finally(() => setLoading(false));
     } else if (productsByTag.length !== 0) {
       setProductsByName(productsByTag);
       setProductsByPrice(products);
@@ -68,8 +77,7 @@ export default function ProductsView({ productsByTag }) {
         elements.forEach(element => {
           if (element.isIntersecting) {
             observer.unobserve(target);
-            changeGlobalState(updateOrdinalOfDozen, ordinalOfDozen + 1);
-            getProducts();
+            setOrdinalOfDozen(ordinalOfDozen + 1);
           }
         });
       };
@@ -91,20 +99,9 @@ export default function ProductsView({ productsByTag }) {
     setTarget(document.getElementById('productList')?.lastElementChild);
   }, 0);
 
-  function getProducts() {
-    fetchProducts(ordinalOfDozen + 1)
-      .then(nextDozenProducts => {
-        changeGlobalState(updateOrdinalOfDozen, ordinalOfDozen + 1);
-        nextDozenProducts.sort(
-          (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
-        );
-        changeGlobalState(updateProducts, [...products, ...nextDozenProducts]);
-        setProductsByName([...products, ...nextDozenProducts]);
-        setProductsByPrice([...products, ...nextDozenProducts]);
-      })
-      .catch(error => setError(error))
-      .finally(() => setLoading(false));
-  }
+  useEffect(() => {
+    setDozensOfProducts(visibleProducts.slice(0, ordinalOfDozen * 12));
+  }, [visibleProducts, ordinalOfDozen]);
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
@@ -338,7 +335,7 @@ export default function ProductsView({ productsByTag }) {
           </section>
 
           <section className={s.productList}>
-            <ProductList products={visibleProducts} />
+            <ProductList products={dozensOfProducts} />
           </section>
         </>
       )}
