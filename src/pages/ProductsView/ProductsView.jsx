@@ -96,6 +96,10 @@ export default function ProductsView({ productsByTag }) {
 
     target && ordinalOfDozen === 1 && observer.unobserve(target);
     target && observer.observe(target);
+
+    return () => {
+      target && observer.unobserve(target);
+    };
   }, [target, ordinalOfDozen]);
 
   setTimeout(() => {
