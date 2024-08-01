@@ -60,6 +60,7 @@ export default function ProductsView({ productsByTag }) {
     );
 
     setVisibleProducts(difference);
+    setOrdinalOfDozen(1);
   }, [productsByName, productsByPrice]);
 
   useEffect(() => {
@@ -73,34 +74,29 @@ export default function ProductsView({ productsByTag }) {
   }, [optionList]);
 
   useEffect(() => {
-    const setObserver = () => {
-      const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.5,
-      };
-
-      const observerCallback = (elements, observer) => {
-        elements.forEach(element => {
-          if (element.isIntersecting) {
-            observer.unobserve(target);
-            setOrdinalOfDozen(ordinalOfDozen + 1);
-          }
-        });
-      };
-
-      const observer = new IntersectionObserver(
-        observerCallback,
-        observerOptions,
-      );
-
-      observer.observe(target);
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
     };
 
-    target && setObserver();
+    const observerCallback = (elements, observer) => {
+      elements.forEach(element => {
+        if (element.isIntersecting) {
+          observer.unobserve(target);
+          setOrdinalOfDozen(ordinalOfDozen + 1);
+        }
+      });
+    };
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [target]);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions,
+    );
+
+    target && ordinalOfDozen === 1 && observer.unobserve(target);
+    target && observer.observe(target);
+  }, [target, ordinalOfDozen]);
 
   setTimeout(() => {
     setTarget(document.getElementById('productList')?.lastElementChild);
@@ -222,22 +218,27 @@ export default function ProductsView({ productsByTag }) {
     switch (value) {
       case 'ascendingCode':
         setVisibleProducts(ascendingCode);
+        setOrdinalOfDozen(1);
         break;
 
       case 'descendingCode':
         setVisibleProducts(descendingCode);
+        setOrdinalOfDozen(1);
         break;
 
       case 'ascendingPrice':
         setVisibleProducts(ascendingPrice);
+        setOrdinalOfDozen(1);
         break;
 
       case 'descendingPrice':
         setVisibleProducts(descendingPrice);
+        setOrdinalOfDozen(1);
         break;
 
       default:
         setVisibleProducts(ascendingCode);
+        setOrdinalOfDozen(1);
         break;
     }
   }
@@ -247,6 +248,7 @@ export default function ProductsView({ productsByTag }) {
     setOptionList(false);
     setProductsByName(products);
     setProductsByPrice(products);
+    setOrdinalOfDozen(1);
   }
 
   return (
