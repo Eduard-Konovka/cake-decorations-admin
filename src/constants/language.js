@@ -384,7 +384,7 @@ export const LANGUAGE = {
   footer: {
     label: {
       eng: 'Created by',
-      ukr: 'Розробник:',
+      ukr: 'Творець сайту:',
     },
 
     title: {
