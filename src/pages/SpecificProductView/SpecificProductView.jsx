@@ -235,25 +235,29 @@ export default function SpecificProductView({
             </svg>
           </Button>
 
-          <Button
-            title={'Right'}
-            type="button"
-            typeForm="icon"
-            styles={s.iconRightBtn}
-            onClick={clickRight}
-          >
-            {'>'}
-          </Button>
+          {product?.images?.length > 1 && (
+            <>
+              <Button
+                title={'Right'}
+                type="button"
+                typeForm="icon"
+                styles={s.iconRightBtn}
+                onClick={clickRight}
+              >
+                {'>'}
+              </Button>
 
-          <Button
-            title={'Left'}
-            type="button"
-            typeForm="icon"
-            styles={s.iconLeftBtn}
-            onClick={clickLeft}
-          >
-            {'<'}
-          </Button>
+              <Button
+                title={'Left'}
+                type="button"
+                typeForm="icon"
+                styles={s.iconLeftBtn}
+                onClick={clickLeft}
+              >
+                {'<'}
+              </Button>
+            </>
+          )}
         </Modal>
       )}
     </main>
