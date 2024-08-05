@@ -46,6 +46,14 @@ export default function SpecificProductView({
     }
   }, [productId, products.length, savedProduct]);
 
+  const openModal = () => {
+    console.log(
+      product?.images?.length > 0
+        ? product.images[mainImageIdx]
+        : imageNotFound,
+    );
+  };
+
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       {loading && <Spinner size={70} color="red" />}
@@ -71,6 +79,7 @@ export default function SpecificProductView({
                 }
                 alt={product.title}
                 className={s.mainImage}
+                onClick={openModal}
               />
 
               {product?.images?.length > 1 && (
