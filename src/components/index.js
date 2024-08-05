@@ -16,3 +16,6 @@ export { default as Spinner } from './Spinner';
 export { default as Tags } from './Tags';
 export { default as PrivateRoute } from './PrivateRoute';
 export { default as PublicRoute } from './PublicRoute';
+export { default as Modal } from './Modal';
+export { default as ModalImageFinder } from './ModalImageFinder';
+export { default as ModalWallet } from './ModalWallet';

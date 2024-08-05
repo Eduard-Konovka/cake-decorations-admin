@@ -3,11 +3,12 @@ import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
-import { Spinner, Button, Tags, Links, CountForm } from 'components';
+import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
+import Icons from 'assets/sprite.svg';
 import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
@@ -22,6 +23,7 @@ export default function SpecificProductView({
   const [error, setError] = useState(null);
   const [product, setProduct] = useState({});
   const [mainImageIdx, setMainImageIdx] = useState(0);
+  const [showModal, setShowModal] = useState(false);
 
   const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
@@ -46,11 +48,19 @@ export default function SpecificProductView({
     }
   }, [productId, products.length, savedProduct]);
 
-  const openModal = () => {
-    console.log(
-      product?.images?.length > 0
-        ? product.images[mainImageIdx]
-        : imageNotFound,
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
+
+  const clickRight = () => {
+    setMainImageIdx(
+      mainImageIdx !== product.images.length - 1 ? mainImageIdx + 1 : 0,
+    );
+  };
+
+  const clickLeft = () => {
+    setMainImageIdx(
+      mainImageIdx !== 0 ? mainImageIdx - 1 : product.images.length - 1,
     );
   };
 
@@ -79,7 +89,7 @@ export default function SpecificProductView({
                 }
                 alt={product.title}
                 className={s.mainImage}
-                onClick={openModal}
+                onClick={toggleModal}
               />
 
               {product?.images?.length > 1 && (
@@ -199,6 +209,52 @@ export default function SpecificProductView({
 
           <p className={s.startDescription}>{product.description}</p>
         </>
+      )}
+
+      {showModal && (
+        <Modal onModalClose={toggleModal}>
+          <img
+            src={
+              product?.images?.length > 0
+                ? product.images[mainImageIdx]
+                : imageNotFound
+            }
+            alt={product.title}
+            className={s.modalImage}
+          />
+
+          <Button
+            title={'Отменить'}
+            type="button"
+            typeForm="icon"
+            styles={s.iconCloseBtn}
+            onClick={toggleModal}
+          >
+            <svg className={s.icon} width="24" height="24">
+              <use href={`${Icons}#icon-close-cross`}></use>
+            </svg>
+          </Button>
+
+          <Button
+            title={'Right'}
+            type="button"
+            typeForm="icon"
+            styles={s.iconRightBtn}
+            onClick={clickRight}
+          >
+            {'>'}
+          </Button>
+
+          <Button
+            title={'Left'}
+            type="button"
+            typeForm="icon"
+            styles={s.iconLeftBtn}
+            onClick={clickLeft}
+          >
+            {'<'}
+          </Button>
+        </Modal>
       )}
     </main>
   );
