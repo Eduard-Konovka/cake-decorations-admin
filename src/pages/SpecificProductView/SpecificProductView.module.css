@@ -599,6 +599,12 @@
 /*#endregion DESCRIPTION */
 
 /*#region MODAL */
+.modalImage {
+  composes: image;
+  min-width: 30vw;
+  max-height: 90vh;
+}
+
 .iconBtn {
   position: absolute;
   background-color: #ffffff;
@@ -621,11 +627,5 @@
   composes: iconBtn;
   top: 50%;
   left: -3vw;
-}
-
-.modalImage {
-  composes: image;
-  min-width: 30vw;
-  max-height: 90vh;
 }
 /*#endregion MODAL */
