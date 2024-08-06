@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';

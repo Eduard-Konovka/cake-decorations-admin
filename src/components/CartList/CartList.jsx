@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import SelectedProduct from 'components/SelectedProduct';
 import s from './CartList.module.css';

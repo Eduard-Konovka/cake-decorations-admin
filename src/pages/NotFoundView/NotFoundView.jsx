@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import sound from 'assets/glassBreak.mp3';

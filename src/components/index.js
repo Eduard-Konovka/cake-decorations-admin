@@ -9,13 +9,15 @@ export { default as Container } from './Container';
 export { default as CountForm } from './CountForm';
 export { default as Footer } from './Footer';
 export { default as Links } from './Links';
+export { default as Modal } from './Modal';
 export { default as OptionList } from './OptionList';
 export { default as Processing } from './Processing';
 export { default as SelectedProduct } from './SelectedProduct';
 export { default as Spinner } from './Spinner';
+export { default as Swiper } from './Swiper';
 export { default as Tags } from './Tags';
 export { default as PrivateRoute } from './PrivateRoute';
 export { default as PublicRoute } from './PublicRoute';
-export { default as Modal } from './Modal';
+
 export { default as ModalImageFinder } from './ModalImageFinder';
 export { default as ModalWallet } from './ModalWallet';

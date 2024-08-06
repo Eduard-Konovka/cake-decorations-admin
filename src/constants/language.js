@@ -230,6 +230,21 @@ export const LANGUAGE = {
       eng: 'Add to cart',
       ukr: 'Купити',
     },
+
+    сollapseButtonTitle: {
+      eng: 'Collapse',
+      ukr: 'Згорнути',
+    },
+
+    right: {
+      eng: 'Next image',
+      ukr: 'Наступне зображення',
+    },
+
+    left: {
+      eng: 'Previous image',
+      ukr: 'Попереднє зображення',
+    },
   },
 
   product: {

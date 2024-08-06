@@ -1,3 +1,4 @@
+import React from 'react';
 import { FcSettings } from 'react-icons/fc';
 import { IoMdCog } from 'react-icons/io';
 import { AiFillSetting } from 'react-icons/ai';

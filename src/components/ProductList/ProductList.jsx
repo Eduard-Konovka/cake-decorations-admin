@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import Product from 'components/Product';
 import s from './ProductList.module.css';

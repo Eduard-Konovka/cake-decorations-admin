@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { CartBar, Blank, Processing } from 'components';

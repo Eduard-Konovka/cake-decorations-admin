@@ -1,9 +1,17 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
-import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
+import {
+  Spinner,
+  Button,
+  Tags,
+  Links,
+  CountForm,
+  Modal,
+  Swiper,
+} from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -52,15 +60,15 @@ export default function SpecificProductView({
     setShowModal(!showModal);
   };
 
-  const clickRight = () => {
+  const onRightHandler = () => {
     setMainImageIdx(
-      mainImageIdx !== product.images.length - 1 ? mainImageIdx + 1 : 0,
+      mainImageIdx !== product?.images?.length - 1 ? mainImageIdx + 1 : 0,
     );
   };
 
-  const clickLeft = () => {
+  const onLeftHandler = () => {
     setMainImageIdx(
-      mainImageIdx !== 0 ? mainImageIdx - 1 : product.images.length - 1,
+      mainImageIdx !== 0 ? mainImageIdx - 1 : product?.images?.length - 1,
     );
   };
 
@@ -213,18 +221,22 @@ export default function SpecificProductView({
 
       {showModal && (
         <Modal onModalClose={toggleModal}>
-          <img
-            src={
-              product?.images?.length > 0
-                ? product.images[mainImageIdx]
-                : imageNotFound
-            }
-            alt={product.title}
-            className={s.modalImage}
-          />
+          <Swiper onRight={onRightHandler} onLeft={onLeftHandler}>
+            <img
+              src={
+                product?.images?.length > 0
+                  ? product.images[mainImageIdx]
+                  : imageNotFound
+              }
+              alt={product.title}
+              className={s.modalImage}
+            />
+          </Swiper>
 
           <Button
-            title={'Отменить'}
+            title={languageDeterminer(
+              LANGUAGE.specificProductView.сollapseButtonTitle,
+            )}
             type="button"
             typeForm="icon"
             styles={s.iconCloseBtn}
@@ -238,21 +250,21 @@ export default function SpecificProductView({
           {product?.images?.length > 1 && (
             <>
               <Button
-                title={'Right'}
+                title={languageDeterminer(LANGUAGE.specificProductView.right)}
                 type="button"
                 typeForm="icon"
                 styles={s.iconRightBtn}
-                onClick={clickRight}
+                onClick={onRightHandler}
               >
                 {'>'}
               </Button>
 
               <Button
-                title={'Left'}
+                title={languageDeterminer(LANGUAGE.specificProductView.left)}
                 type="button"
                 typeForm="icon"
                 styles={s.iconLeftBtn}
-                onClick={clickLeft}
+                onClick={onLeftHandler}
               >
                 {'<'}
               </Button>

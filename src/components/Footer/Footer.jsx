@@ -1,3 +1,4 @@
+import React from 'react';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
