@@ -19,7 +19,7 @@
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus-visible {
   fill: #f32196;
   scale: 1.1;
 }

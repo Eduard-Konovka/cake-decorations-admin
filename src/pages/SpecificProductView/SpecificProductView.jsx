@@ -17,6 +17,8 @@ import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import Icons from 'assets/sprite.svg';
+import arrowRight from 'assets/arrowRight.png';
+import arrowLeft from 'assets/arrowLeft.png';
 import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
@@ -256,7 +258,7 @@ export default function SpecificProductView({
                 styles={s.iconRightBtn}
                 onClick={onRightHandler}
               >
-                {'>'}
+                <img src={arrowRight} alt={'Right arrow'} className={s.arrow} />
               </Button>
 
               <Button
@@ -266,7 +268,7 @@ export default function SpecificProductView({
                 styles={s.iconLeftBtn}
                 onClick={onLeftHandler}
               >
-                {'<'}
+                <img src={arrowLeft} alt={'Left arrow'} className={s.arrow} />
               </Button>
             </>
           )}

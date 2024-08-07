@@ -628,4 +628,9 @@
   top: 50%;
   left: -3vw;
 }
+
+.arrow {
+  width: 75%;
+  height: 75%;
+}
 /*#endregion MODAL */
