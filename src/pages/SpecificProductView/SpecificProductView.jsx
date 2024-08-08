@@ -16,9 +16,7 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import Icons from 'assets/sprite.svg';
-import arrowRight from 'assets/arrowRight.png';
-import arrowLeft from 'assets/arrowLeft.png';
+import Icons from 'assets/icons.svg';
 import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
@@ -244,8 +242,8 @@ export default function SpecificProductView({
             styles={s.iconCloseBtn}
             onClick={toggleModal}
           >
-            <svg className={s.icon} width="24" height="24">
-              <use href={`${Icons}#icon-close-cross`}></use>
+            <svg className={s.icon}>
+              <use href={`${Icons}#icon-close`}></use>
             </svg>
           </Button>
 
@@ -258,7 +256,9 @@ export default function SpecificProductView({
                 styles={s.iconRightBtn}
                 onClick={onRightHandler}
               >
-                <img src={arrowRight} alt={'Right arrow'} className={s.arrow} />
+                <svg className={s.arrow}>
+                  <use href={`${Icons}#icon-arrow-right`}></use>
+                </svg>
               </Button>
 
               <Button
@@ -268,7 +268,9 @@ export default function SpecificProductView({
                 styles={s.iconLeftBtn}
                 onClick={onLeftHandler}
               >
-                <img src={arrowLeft} alt={'Left arrow'} className={s.arrow} />
+                <svg className={s.arrow}>
+                  <use href={`${Icons}#icon-arrow-left`}></use>
+                </svg>
               </Button>
             </>
           )}

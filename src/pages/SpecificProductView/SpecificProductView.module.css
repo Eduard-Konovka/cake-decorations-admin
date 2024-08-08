@@ -629,8 +629,12 @@
   left: -3vw;
 }
 
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
 .arrow {
-  width: 75%;
-  height: 75%;
+  composes: icon;
 }
 /*#endregion MODAL */
