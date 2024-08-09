@@ -40,7 +40,7 @@ export default function Tags({ title, styles, setProductsByTag }) {
       className={classNames(s.tag, styles)}
       onClick={() => handleTagClick(tag)}
     >
-      {tag}
+      {`#${tag}`}
     </Link>
   ));
 }

@@ -1,6 +1,6 @@
 export const TAMPLATES = {
   tags: [
-    'development',
+    'барвник',
     'applications',
     'design',
     'web',
