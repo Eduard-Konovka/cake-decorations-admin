@@ -602,7 +602,7 @@
 .modalImage {
   composes: image;
   min-width: 30vw;
-  max-height: 90vh;
+  max-height: 85vh;
 }
 
 .iconBtn {

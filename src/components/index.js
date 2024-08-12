@@ -18,6 +18,3 @@ export { default as Swiper } from './Swiper';
 export { default as Tags } from './Tags';
 export { default as PrivateRoute } from './PrivateRoute';
 export { default as PublicRoute } from './PublicRoute';
-
-export { default as ModalImageFinder } from './ModalImageFinder';
-export { default as ModalWallet } from './ModalWallet';
