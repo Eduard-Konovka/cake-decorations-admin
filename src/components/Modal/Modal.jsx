@@ -5,7 +5,7 @@ import s from './Modal.module.css';
 
 const modalRoot = document.querySelector('#modal-root');
 
-export default function Modal({ children, onModalClose }) {
+export default function Modal({ modalFading, onCloseModal, children }) {
   useEffect(() => {
     window.addEventListener('keydown', onEscapePress);
 
@@ -14,12 +14,17 @@ export default function Modal({ children, onModalClose }) {
     };
   });
 
-  const onBackdropClick = e => e.target === e.currentTarget && onModalClose();
-  const onEscapePress = e => e.code === 'Escape' && onModalClose();
+  const onBackdropClick = e => e.target === e.currentTarget && onCloseModal();
+  const onEscapePress = e => e.code === 'Escape' && onCloseModal();
 
   return createPortal(
-    <div className={s.backdrop} onClick={onBackdropClick}>
-      <div className={s.content}>{children}</div>
+    <div
+      className={modalFading ? s.backdropFading : s.backdropEmergence}
+      onClick={onBackdropClick}
+    >
+      <div className={modalFading ? s.contentFading : s.contentEmergence}>
+        {children}
+      </div>
     </div>,
     modalRoot,
   );

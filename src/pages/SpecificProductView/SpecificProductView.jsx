@@ -32,6 +32,7 @@ export default function SpecificProductView({
   const [product, setProduct] = useState({});
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [showModal, setShowModal] = useState(false);
+  const [modalFading, setModalFading] = useState(false);
 
   const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
@@ -58,6 +59,15 @@ export default function SpecificProductView({
 
   const toggleModal = () => {
     setShowModal(!showModal);
+  };
+
+  const onCloseModal = () => {
+    setModalFading(true);
+
+    setTimeout(() => {
+      setShowModal(false);
+      setModalFading(false);
+    }, 450);
   };
 
   const onRightHandler = () => {
@@ -220,7 +230,7 @@ export default function SpecificProductView({
       )}
 
       {showModal && (
-        <Modal onModalClose={toggleModal}>
+        <Modal modalFading={modalFading} onCloseModal={onCloseModal}>
           <Swiper onRight={onRightHandler} onLeft={onLeftHandler}>
             <img
               src={
@@ -240,7 +250,7 @@ export default function SpecificProductView({
             type="button"
             typeForm="icon"
             styles={s.iconCloseBtn}
-            onClick={toggleModal}
+            onClick={onCloseModal}
           >
             <svg className={s.icon}>
               <use href={`${Icons}#icon-close`}></use>
