@@ -31,7 +31,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
     setTimeout(() => {
       closeModal();
       setModalFading(false);
-    }, 500);
+    }, 450);
   };
 
   const onRightHandler = () => {
