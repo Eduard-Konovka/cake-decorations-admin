@@ -3,20 +3,11 @@ import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
-import {
-  Spinner,
-  Button,
-  Tags,
-  Links,
-  CountForm,
-  Modal,
-  Swiper,
-} from 'components';
+import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import Icons from 'assets/icons.svg';
 import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
@@ -32,7 +23,6 @@ export default function SpecificProductView({
   const [product, setProduct] = useState({});
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [showModal, setShowModal] = useState(false);
-  const [modalFading, setModalFading] = useState(false);
 
   const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
@@ -59,27 +49,6 @@ export default function SpecificProductView({
 
   const toggleModal = () => {
     setShowModal(!showModal);
-  };
-
-  const onCloseModal = () => {
-    setModalFading(true);
-
-    setTimeout(() => {
-      setShowModal(false);
-      setModalFading(false);
-    }, 450);
-  };
-
-  const onRightHandler = () => {
-    setMainImageIdx(
-      mainImageIdx !== product?.images?.length - 1 ? mainImageIdx + 1 : 0,
-    );
-  };
-
-  const onLeftHandler = () => {
-    setMainImageIdx(
-      mainImageIdx !== 0 ? mainImageIdx - 1 : product?.images?.length - 1,
-    );
   };
 
   return (
@@ -230,61 +199,11 @@ export default function SpecificProductView({
       )}
 
       {showModal && (
-        <Modal modalFading={modalFading} onCloseModal={onCloseModal}>
-          <Swiper onRight={onRightHandler} onLeft={onLeftHandler}>
-            <img
-              src={
-                product?.images?.length > 0
-                  ? product.images[mainImageIdx]
-                  : imageNotFound
-              }
-              alt={product.title}
-              className={s.modalImage}
-            />
-          </Swiper>
-
-          <Button
-            title={languageDeterminer(
-              LANGUAGE.specificProductView.сollapseButtonTitle,
-            )}
-            type="button"
-            typeForm="icon"
-            styles={s.iconCloseBtn}
-            onClick={onCloseModal}
-          >
-            <svg className={s.icon}>
-              <use href={`${Icons}#icon-close`}></use>
-            </svg>
-          </Button>
-
-          {product?.images?.length > 1 && (
-            <>
-              <Button
-                title={languageDeterminer(LANGUAGE.specificProductView.right)}
-                type="button"
-                typeForm="icon"
-                styles={s.iconRightBtn}
-                onClick={onRightHandler}
-              >
-                <svg className={s.arrow}>
-                  <use href={`${Icons}#icon-arrow-right`}></use>
-                </svg>
-              </Button>
-
-              <Button
-                title={languageDeterminer(LANGUAGE.specificProductView.left)}
-                type="button"
-                typeForm="icon"
-                styles={s.iconLeftBtn}
-                onClick={onLeftHandler}
-              >
-                <svg className={s.arrow}>
-                  <use href={`${Icons}#icon-arrow-left`}></use>
-                </svg>
-              </Button>
-            </>
-          )}
-        </Modal>
+        <Modal
+          product={product}
+          mainImageIdx={mainImageIdx}
+          closeModal={toggleModal}
+        />
       )}
     </main>
   );
