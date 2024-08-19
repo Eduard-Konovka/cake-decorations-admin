@@ -7,6 +7,8 @@ export function getTags(title, tamplate) {
       .filter(el => el !== ':')
       .filter(el => el !== ',')
       .filter(el => el !== '"')
+      .filter(el => el !== '“')
+      .filter(el => el !== '”')
       .filter(el => el !== '(')
       .filter(el => el !== ')')
       .join(''),
