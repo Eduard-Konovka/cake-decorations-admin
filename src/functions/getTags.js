@@ -6,6 +6,9 @@ export function getTags(title, tamplate) {
       .split('')
       .filter(el => el !== ':')
       .filter(el => el !== ',')
+      .filter(el => el !== '"')
+      .filter(el => el !== '(')
+      .filter(el => el !== ')')
       .join(''),
   );
 
