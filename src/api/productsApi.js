@@ -1,7 +1,6 @@
 import { db } from 'db';
 
-// FIXME ordinalOfDozen
-export default async function productsApi(ordinalOfDozen) {
+export default async function productsApi() {
   const response = await db;
 
   /*
@@ -25,7 +24,8 @@ export default async function productsApi(ordinalOfDozen) {
     pureArr.forEach(word => tagsObj.add(word.toLowerCase()));
   });
   const tags = Array.from(tagsObj);
-  console.log(tags);
+  const ascendingTags = tags.sort().sort((a, b) => a.length - b.length);
+  console.log(ascendingTags);
   */
 
   return response;
