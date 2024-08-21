@@ -285,13 +285,25 @@
 
 .statName {
   composes: semiboldfont;
-  margin-right: 5px;
+  margin-right: 10px;
+}
+
+.tagBox {
+  margin: 2px;
+}
+
+@media screen and (min-width: 1600px) {
+  .tagBox {
+    margin: 0.2vw;
+  }
 }
 
 .tag {
+  display: block;
+  text-indent: 0;
+  font-weight: 400;
   padding: 2px 10px;
   border-radius: 2vw;
-  margin: 0 2px 2px 2px;
   color: #70304f;
   background-color: #ffc1c1;
 
@@ -302,7 +314,6 @@
 
 @media screen and (min-width: 320px) {
   .tag {
-    padding: 2px 10px;
     border-radius: 6px;
   }
 }
@@ -317,7 +328,6 @@
   .tag {
     padding: 0.125vw 0.625vw;
     border-radius: 0.625vw;
-    margin: 0 0.2vw 0.2vw 0.2vw;
   }
 }
 
@@ -327,6 +337,10 @@
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.linkBox {
+  composes: tagBox;
 }
 
 .link {
@@ -516,8 +530,8 @@
 }
 /*#endregion CONTROLS */
 
-/*#region DESCRIPTION */
-.description {
+/*#region PARAGRAPH */
+.paragraph {
   padding: 3vw 2vw;
   border-radius: 2.5vw;
   background-color: #e9ffe9;
@@ -525,17 +539,13 @@
     2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
   margin: 5px 0 0 0;
   font-weight: 500;
-  text-align: justify;
-}
-
-.startDescription {
-  composes: description;
-  text-indent: 5%;
   font-size: 4.375vw;
+  text-align: justify;
+  text-indent: 5%;
 }
 
 @media screen and (min-width: 320px) {
-  .startDescription {
+  .paragraph {
     border-radius: 8px;
     margin-top: 6px;
     font-size: 14px;
@@ -543,7 +553,7 @@
 }
 
 @media screen and (min-width: 420px) {
-  .startDescription {
+  .paragraph {
     padding: 3vw 2.5vw;
     margin-top: 7px;
     font-size: 15px;
@@ -551,7 +561,7 @@
 }
 
 @media screen and (min-width: 800px) {
-  .startDescription {
+  .paragraph {
     padding: 1.5vw 1vw;
     border-radius: 10px;
     margin-top: 8px;
@@ -560,40 +570,54 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .startDescription {
-    display: none;
-  }
-}
-
-.finishDescription {
-  composes: description;
-  display: none;
-
-  border-radius: 10px;
-  text-indent: 8%;
-}
-
-@media screen and (min-width: 1024px) {
-  .finishDescription {
-    display: block;
-
+  .paragraph {
     padding: 1.5vw 1vw;
     margin-top: 10px;
     font-size: 17px;
+    text-indent: 8%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .finishDescription {
+  .paragraph {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .finishDescription {
+  .paragraph {
     font-size: 1.25vw;
     margin-top: 0.625vw;
     border-radius: 0.625vw;
   }
 }
-/*#endregion DESCRIPTION */
+
+.links {
+  composes: paragraph;
+  background-color: #ffffc9;
+}
+
+.linksBox {
+  composes: stat;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .startDescription {
+    composes: paragraph;
+    display: none;
+  }
+}
+
+.finishDescription {
+  composes: paragraph;
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .finishDescription {
+    display: block;
+  }
+}
+/*#endregion PARAGRAPH */

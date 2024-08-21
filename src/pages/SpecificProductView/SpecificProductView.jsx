@@ -116,28 +116,6 @@ export default function SpecificProductView({
                         {detail.attribute_value}
                       </p>
                     ))}
-
-                  <p className={s.stat}>
-                    <span className={s.statName}>
-                      {languageDeterminer(LANGUAGE.specificProductView.tags)}
-                    </span>
-                    {product.title && (
-                      <Tags
-                        title={product.title}
-                        styles={s.tag}
-                        setProductsByTag={setProductsByTag}
-                      />
-                    )}
-                  </p>
-
-                  <p className={s.stat}>
-                    <span className={s.statName}>
-                      {languageDeterminer(LANGUAGE.specificProductView.links)}
-                    </span>
-                    {product.title && (
-                      <Links title={product.title} styles={s.link} />
-                    )}
-                  </p>
                 </div>
 
                 <div className={s.controls}>
@@ -187,6 +165,35 @@ export default function SpecificProductView({
                       )}
                     </Button>
                   </div>
+                </div>
+              </div>
+
+              <div className={s.links}>
+                <div className={s.linksBox}>
+                  <div className={s.statName}>
+                    {languageDeterminer(LANGUAGE.specificProductView.tags)}
+                  </div>
+                  {product.title && (
+                    <Tags
+                      title={product.title}
+                      boxStyles={s.tagBox}
+                      tagStyles={s.tag}
+                      setProductsByTag={setProductsByTag}
+                    />
+                  )}
+                </div>
+
+                <div className={s.linksBox}>
+                  <div className={s.statName}>
+                    {languageDeterminer(LANGUAGE.specificProductView.links)}
+                  </div>
+                  {product.title && (
+                    <Links
+                      title={product.title}
+                      boxStyles={s.linkBox}
+                      linkStyles={s.link}
+                    />
+                  )}
                 </div>
               </div>
 

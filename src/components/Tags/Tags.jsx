@@ -8,7 +8,12 @@ import { languageWrapper } from 'middlewares';
 import { TAMPLATES, LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
-export default function Tags({ title, styles, setProductsByTag }) {
+export default function Tags({
+  title,
+  boxStyles,
+  tagStyles,
+  setProductsByTag,
+}) {
   const { products } = useGlobalState('global');
   const tags = getTags(title.toLowerCase(), TAMPLATES.tags);
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -33,20 +38,22 @@ export default function Tags({ title, styles, setProductsByTag }) {
   }
 
   return tags.map(tag => (
-    <Link
-      key={tag}
-      to="/products"
-      title={`${languageDeterminer(LANGUAGE.tags)} "${tag}"`}
-      className={classNames(s.tag, styles)}
-      onClick={() => handleTagClick(tag)}
-    >
-      {`#${tag}`}
-    </Link>
+    <div key={tag} className={boxStyles}>
+      <Link
+        to="/products"
+        title={`${languageDeterminer(LANGUAGE.tags)} "${tag}"`}
+        className={classNames(s.tag, tagStyles)}
+        onClick={() => handleTagClick(tag)}
+      >
+        {`#${tag}`}
+      </Link>
+    </div>
   ));
 }
 
 Tags.propTypes = {
   title: PropTypes.string.isRequired,
-  styles: PropTypes.string,
+  boxStyles: PropTypes.string,
+  tagStyles: PropTypes.string,
   setProductsByTag: PropTypes.func.isRequired,
 };
