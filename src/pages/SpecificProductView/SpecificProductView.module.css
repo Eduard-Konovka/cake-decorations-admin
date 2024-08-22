@@ -346,6 +346,10 @@
 .link {
   composes: tag;
 }
+
+.googleLink {
+  width: 9%;
+}
 /*#endregion STATS */
 
 /*#region CONTROLS */

@@ -1637,9 +1637,8 @@ export const TAMPLATES = {
   ],
 
   links: [
-    'набір',
-    'Applications',
-    'Design',
+    'кандурін',
+    'безе',
     'Web',
     'WebSocket',
     'Workers',

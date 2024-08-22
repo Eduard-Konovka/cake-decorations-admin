@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
@@ -170,9 +171,9 @@ export default function SpecificProductView({
 
               <div className={s.links}>
                 <div className={s.linksBox}>
-                  <div className={s.statName}>
+                  <span className={s.statName}>
                     {languageDeterminer(LANGUAGE.specificProductView.tags)}
-                  </div>
+                  </span>
                   {product.title && (
                     <Tags
                       title={product.title}
@@ -184,7 +185,7 @@ export default function SpecificProductView({
                 </div>
 
                 <div className={s.linksBox}>
-                  <div className={s.statName}>
+                  <div className={classNames(s.statName, s.googleLink)}>
                     {languageDeterminer(LANGUAGE.specificProductView.links)}
                   </div>
                   {product.title && (
@@ -194,6 +195,7 @@ export default function SpecificProductView({
                       linkStyles={s.link}
                     />
                   )}
+                  <div className={s.statName}>{'?'}</div>
                 </div>
               </div>
 

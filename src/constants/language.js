@@ -212,8 +212,8 @@ export const LANGUAGE = {
     },
 
     links: {
-      eng: 'Links: ',
-      ukr: 'Посилання: ',
+      eng: 'What is ',
+      ukr: 'Що таке ',
     },
 
     price: {

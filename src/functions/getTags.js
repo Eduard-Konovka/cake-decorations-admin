@@ -3,6 +3,7 @@ export function getTags(title, tamplate) {
 
   const pureArr = arr.map(word =>
     word
+      .toLowerCase()
       .split('')
       .filter(el => el !== ':')
       .filter(el => el !== ',')
