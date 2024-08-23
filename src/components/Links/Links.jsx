@@ -1,14 +1,12 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { getTags, getLanguage } from 'functions';
+import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { TAMPLATES, LANGUAGE } from 'constants';
+import { LANGUAGE } from 'constants';
 import s from './Links.module.css';
 
-export default function Links({ title, boxStyles, linkStyles }) {
-  const links = getTags(title, TAMPLATES.links);
-
+export default function Links({ links, boxStyles, linkStyles }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return links.map(link => (
@@ -27,7 +25,7 @@ export default function Links({ title, boxStyles, linkStyles }) {
 }
 
 Links.propTypes = {
-  title: PropTypes.string.isRequired,
+  links: PropTypes.array.isRequired,
   boxStyles: PropTypes.string,
   linkStyles: PropTypes.string,
 };

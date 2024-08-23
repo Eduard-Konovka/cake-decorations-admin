@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
-import { getLanguage } from 'functions';
+import { getLanguage, getTags } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE } from 'constants';
+import { GLOBAL, LANGUAGE, TAMPLATES } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
 
@@ -23,6 +23,8 @@ export default function SpecificProductView({
   const [error, setError] = useState(null);
   const [product, setProduct] = useState({});
   const [mainImageIdx, setMainImageIdx] = useState(0);
+  const [tags, setTags] = useState([]);
+  const [links, setLinks] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
   const productId = location.pathname.slice(10, location.pathname.length);
@@ -47,6 +49,13 @@ export default function SpecificProductView({
         .finally(() => setLoading(false));
     }
   }, [productId, products.length, savedProduct]);
+
+  useEffect(() => {
+    if (product.title) {
+      setLinks(getTags(product.title, TAMPLATES.links));
+      setTags(getTags(product.title, TAMPLATES.tags));
+    }
+  }, [product]);
 
   const toggleModal = () => {
     setShowModal(!showModal);
@@ -169,35 +178,40 @@ export default function SpecificProductView({
                 </div>
               </div>
 
-              <div className={s.links}>
-                <div className={s.linksBox}>
-                  <span className={s.statName}>
-                    {languageDeterminer(LANGUAGE.specificProductView.tags)}
-                  </span>
-                  {product.title && (
-                    <Tags
-                      title={product.title}
-                      boxStyles={s.tagBox}
-                      tagStyles={s.tag}
-                      setProductsByTag={setProductsByTag}
-                    />
-                  )}
-                </div>
+              {(tags.length > 0 || links.length > 0) && (
+                <div className={s.links}>
+                  {tags.length > 0 && (
+                    <div className={s.linksBox}>
+                      <span className={s.statName}>
+                        {languageDeterminer(LANGUAGE.specificProductView.tags)}
+                      </span>
 
-                <div className={s.linksBox}>
-                  <div className={classNames(s.statName, s.googleLink)}>
-                    {languageDeterminer(LANGUAGE.specificProductView.links)}
-                  </div>
-                  {product.title && (
-                    <Links
-                      title={product.title}
-                      boxStyles={s.linkBox}
-                      linkStyles={s.link}
-                    />
+                      <Tags
+                        tags={tags}
+                        boxStyles={s.tagBox}
+                        tagStyles={s.tag}
+                        setProductsByTag={setProductsByTag}
+                      />
+                    </div>
                   )}
-                  <div className={s.statName}>{'?'}</div>
+
+                  {links.length > 0 && (
+                    <div className={s.linksBox}>
+                      <span className={classNames(s.statName, s.googleLink)}>
+                        {languageDeterminer(LANGUAGE.specificProductView.links)}
+                      </span>
+
+                      <Links
+                        links={links}
+                        boxStyles={s.linkBox}
+                        linkStyles={s.link}
+                      />
+
+                      <span className={s.statName}>?</span>
+                    </div>
+                  )}
                 </div>
-              </div>
+              )}
 
               <p className={s.finishDescription}>{product.description}</p>
             </div>

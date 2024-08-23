@@ -3,19 +3,14 @@ import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { getTags, getLanguage } from 'functions';
+import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { TAMPLATES, LANGUAGE } from 'constants';
+import { LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
-export default function Tags({
-  title,
-  boxStyles,
-  tagStyles,
-  setProductsByTag,
-}) {
+export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
   const { products } = useGlobalState('global');
-  const tags = getTags(title.toLowerCase(), TAMPLATES.tags);
+
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   function handleTagClick(tag) {
@@ -52,7 +47,7 @@ export default function Tags({
 }
 
 Tags.propTypes = {
-  title: PropTypes.string.isRequired,
+  tags: PropTypes.array.isRequired,
   boxStyles: PropTypes.string,
   tagStyles: PropTypes.string,
   setProductsByTag: PropTypes.func.isRequired,
