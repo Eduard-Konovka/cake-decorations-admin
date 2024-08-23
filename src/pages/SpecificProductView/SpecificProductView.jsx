@@ -77,7 +77,7 @@ export default function SpecificProductView({
       {!loading && !error && product && (
         <>
           <div className={s.row}>
-            <div className={s.imagesBox}>
+            <section className={s.imagesSection}>
               <img
                 src={
                   product?.images?.length > 0
@@ -102,11 +102,11 @@ export default function SpecificProductView({
                   ))}
                 </div>
               )}
-            </div>
+            </section>
 
             <div className={s.thumb}>
               <div className={s.monitor}>
-                <div className={s.stats}>
+                <section className={s.statsSection}>
                   <h3 className={s.title}>{product.title}</h3>
                   <p className={s.stat}>
                     <span className={s.statName}>
@@ -126,9 +126,9 @@ export default function SpecificProductView({
                         {detail.attribute_value}
                       </p>
                     ))}
-                </div>
+                </section>
 
-                <div className={s.controls}>
+                <section className={s.controlsSection}>
                   <p className={s.count}>
                     <span className={s.boldfont}>
                       {languageDeterminer(LANGUAGE.specificProductView.price)}
@@ -175,11 +175,11 @@ export default function SpecificProductView({
                       )}
                     </Button>
                   </div>
-                </div>
+                </section>
               </div>
 
               {(tags.length > 0 || links.length > 0) && (
-                <div className={s.links}>
+                <section className={s.linksSection}>
                   {tags.length > 0 && (
                     <div className={s.linksBox}>
                       <span className={s.statName}>
@@ -210,14 +210,18 @@ export default function SpecificProductView({
                       <span className={s.statName}>?</span>
                     </div>
                   )}
-                </div>
+                </section>
               )}
 
-              <p className={s.finishDescription}>{product.description}</p>
+              <section className={s.finishDescriptionSection}>
+                {product.description}
+              </section>
             </div>
           </div>
 
-          <p className={s.startDescription}>{product.description}</p>
+          <section className={s.startDescriptionSection}>
+            {product.description}
+          </section>
         </>
       )}
 

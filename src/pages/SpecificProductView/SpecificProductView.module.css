@@ -40,7 +40,7 @@
 }
 
 /*#region IMAGES */
-.imagesBox {
+.imagesSection {
   width: 27.9%;
   height: 100%;
 }
@@ -146,7 +146,7 @@
 }
 
 /*#region STATS */
-.stats {
+.statsSection {
   padding: 5px 3.4vw;
   border-radius: 2.5vw;
   background-color: #e9e9ff;
@@ -157,7 +157,7 @@
 }
 
 @media screen and (min-width: 320px) {
-  .stats {
+  .statsSection {
     padding: 6px 2vw;
     border-radius: 8px;
     margin: 6px 0;
@@ -165,14 +165,14 @@
 }
 
 @media screen and (min-width: 420px) {
-  .stats {
+  .statsSection {
     padding: 7px 2.5vw;
     margin: 7px 0;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .stats {
+  .statsSection {
     width: 57%;
     margin: 0;
     border-radius: 8px;
@@ -180,7 +180,7 @@
 }
 
 @media screen and (min-width: 1324px) {
-  .stats {
+  .statsSection {
     width: 67%;
   }
 }
@@ -353,7 +353,7 @@
 /*#endregion STATS */
 
 /*#region CONTROLS */
-.controls {
+.controlsSection {
   padding: 2vw 2vw 4vw 2vw;
   font-size: 15px;
   text-align: end;
@@ -364,21 +364,21 @@
 }
 
 @media screen and (min-width: 320px) {
-  .controls {
+  .controlsSection {
     font-size: 16px;
     border-radius: 8px;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .controls {
+  .controlsSection {
     padding: 2.5vw;
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .controls {
+  .controlsSection {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -391,19 +391,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .controls {
+  .controlsSection {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1324px) {
-  .controls {
+  .controlsSection {
     width: 30%;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .controls {
+  .controlsSection {
     font-size: 1.125vw;
   }
 }
@@ -596,7 +596,7 @@
   }
 }
 
-.links {
+.linksSection {
   composes: paragraph;
   background-color: #ffffc9;
 }
@@ -608,19 +608,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .startDescription {
+  .startDescriptionSection {
     composes: paragraph;
     display: none;
   }
 }
 
-.finishDescription {
+.finishDescriptionSection {
   composes: paragraph;
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
-  .finishDescription {
+  .finishDescriptionSection {
     display: block;
   }
 }
