@@ -20,7 +20,7 @@ export default function ProductsView({ productsByTag }) {
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState([]);
-  const [ordinalOfDozen, setOrdinalOfDozen] = useState(1);
+  const [ordinalOfDozen, setOrdinalOfDozen] = useState(0);
   const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
@@ -64,7 +64,10 @@ export default function ProductsView({ productsByTag }) {
   }, [productsByName, productsByPrice]);
 
   useEffect(() => {
-    const productsByDozens = visibleProducts.slice(0, ordinalOfDozen * 12);
+    const productsByDozens = visibleProducts.slice(
+      ordinalOfDozen < 2 ? 0 : (ordinalOfDozen - 2) * 12,
+      ordinalOfDozen * 12,
+    );
 
     setDozensOfProducts(productsByDozens);
   }, [visibleProducts, ordinalOfDozen]);
@@ -81,12 +84,10 @@ export default function ProductsView({ productsByTag }) {
     };
 
     const observerCallback = (elements, observer) => {
-      elements.forEach(element => {
-        if (element.isIntersecting) {
-          observer.unobserve(target);
-          setOrdinalOfDozen(ordinalOfDozen + 1);
-        }
-      });
+      if (elements[0].isIntersecting) {
+        observer.unobserve(target);
+        setOrdinalOfDozen(prev => prev + 1);
+      }
     };
 
     const observer = new IntersectionObserver(
@@ -94,13 +95,12 @@ export default function ProductsView({ productsByTag }) {
       observerOptions,
     );
 
-    target && ordinalOfDozen === 1 && observer.unobserve(target);
     target && observer.observe(target);
 
     return () => {
       target && observer.unobserve(target);
     };
-  }, [target, ordinalOfDozen]);
+  }, [target]);
 
   setTimeout(() => {
     setTarget(document.getElementById('productList')?.lastElementChild);

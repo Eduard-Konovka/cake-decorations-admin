@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
 import { Button, Swiper } from 'components';
@@ -17,22 +17,14 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(() => {
-    window.addEventListener('keydown', onEscapePress);
-
-    return () => {
-      window.removeEventListener('keydown', onEscapePress);
-    };
-  });
-
-  const onCloseModal = () => {
+  const onCloseModal = useCallback(() => {
     setModalFading(true);
 
     setTimeout(() => {
       closeModal();
       setModalFading(false);
     }, 450);
-  };
+  }, [closeModal]);
 
   const onRightHandler = () => {
     setModalImageIdx(
@@ -47,7 +39,18 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
   };
 
   const onBackdropClick = e => e.target === e.currentTarget && onCloseModal();
-  const onEscapePress = e => e.code === 'Escape' && onCloseModal();
+  const onEscapePress = useCallback(
+    e => e.code === 'Escape' && onCloseModal(),
+    [onCloseModal],
+  );
+
+  useEffect(() => {
+    window.addEventListener('keydown', onEscapePress);
+
+    return () => {
+      window.removeEventListener('keydown', onEscapePress);
+    };
+  }, [onEscapePress]);
 
   return createPortal(
     <div
@@ -55,7 +58,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
       onClick={onBackdropClick}
     >
       <div className={modalFading ? s.contentFading : s.contentEmergence}>
-        <Swiper onRight={onRightHandler} onLeft={onLeftHandler}>
+        <Swiper onRight={onLeftHandler} onLeft={onRightHandler}>
           <img
             src={
               product?.images?.length > 0
