@@ -33,4 +33,6 @@ export const GLOBAL = {
   titleLength: 75,
 
   sending: 3000,
+
+  dozen: 12,
 };

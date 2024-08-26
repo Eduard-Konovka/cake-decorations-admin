@@ -24,7 +24,8 @@ export default function ProductsView({ productsByTag }) {
   const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
-  const [target, setTarget] = useState(null);
+  const [lastTarget, setLastTarget] = useState(null);
+  const [firstTarget, setFirstTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -65,8 +66,8 @@ export default function ProductsView({ productsByTag }) {
 
   useEffect(() => {
     const productsByDozens = visibleProducts.slice(
-      ordinalOfDozen < 2 ? 0 : (ordinalOfDozen - 2) * 12,
-      ordinalOfDozen * 12,
+      (ordinalOfDozen - 1) * GLOBAL.dozen,
+      (ordinalOfDozen + 1) * GLOBAL.dozen,
     );
 
     setDozensOfProducts(productsByDozens);
@@ -76,34 +77,63 @@ export default function ProductsView({ productsByTag }) {
     setOptionList(true);
   }, [optionList]);
 
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1,
+  };
+
   useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.5,
+    const firstObserverCallback = (entries, firstObserver) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          firstObserver.unobserve(firstTarget);
+          setOrdinalOfDozen(prev => prev - 1);
+        }
+      });
     };
 
-    const observerCallback = (elements, observer) => {
-      if (elements[0].isIntersecting) {
-        observer.unobserve(target);
-        setOrdinalOfDozen(prev => prev + 1);
-      }
-    };
-
-    const observer = new IntersectionObserver(
-      observerCallback,
+    const firstObserver = new IntersectionObserver(
+      firstObserverCallback,
       observerOptions,
     );
 
-    target && observer.observe(target);
+    firstTarget && ordinalOfDozen > 1 && firstObserver.observe(firstTarget);
 
     return () => {
-      target && observer.unobserve(target);
+      firstTarget && firstObserver.unobserve(firstTarget);
     };
-  }, [target]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [firstTarget]);
+
+  useEffect(() => {
+    const lastObserverCallback = (entries, lastObserver) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          lastObserver.unobserve(lastTarget);
+          setOrdinalOfDozen(prev => prev + 1);
+        }
+      });
+    };
+
+    const lastObserver = new IntersectionObserver(
+      lastObserverCallback,
+      observerOptions,
+    );
+
+    lastTarget &&
+      ordinalOfDozen < Math.floor(products.length / GLOBAL.dozen) &&
+      lastObserver.observe(lastTarget);
+
+    return () => {
+      lastTarget && lastObserver.unobserve(lastTarget);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lastTarget]);
 
   setTimeout(() => {
-    setTarget(document.getElementById('productList')?.lastElementChild);
+    setFirstTarget(document.getElementById('productList')?.firstElementChild);
+    setLastTarget(document.getElementById('productList')?.lastElementChild);
   }, 0);
 
   function handleKeyPress(event) {
