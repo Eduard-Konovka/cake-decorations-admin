@@ -8,6 +8,7 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
+import icons from 'assets/icons.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
@@ -285,6 +286,10 @@ export default function ProductsView({ productsByTag }) {
     setOrdinalOfDozen(1);
   }
 
+  function upHandler() {
+    console.log('Up');
+  }
+
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       {loading && <Spinner size={70} color="red" />}
@@ -376,6 +381,18 @@ export default function ProductsView({ productsByTag }) {
           <section className={s.productList}>
             <ProductList products={dozensOfProducts} />
           </section>
+
+          <Button
+            title={languageDeterminer(LANGUAGE.specificProductView.left)}
+            type="button"
+            typeForm="icon"
+            styles={s.iconUpBtn}
+            onClick={upHandler}
+          >
+            <svg className={s.arrow}>
+              <use href={`${icons}#icon-arrow-left`}></use>
+            </svg>
+          </Button>
         </>
       )}
     </main>

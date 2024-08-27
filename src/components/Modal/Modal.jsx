@@ -5,7 +5,7 @@ import { Button, Swiper } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
-import Icons from 'assets/icons.svg';
+import icons from 'assets/icons.svg';
 import imageNotFound from 'assets/notFound.png';
 import s from './Modal.module.css';
 
@@ -80,7 +80,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
           onClick={onCloseModal}
         >
           <svg className={s.icon}>
-            <use href={`${Icons}#icon-close`}></use>
+            <use href={`${icons}#icon-close`}></use>
           </svg>
         </Button>
 
@@ -94,7 +94,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
               onClick={onRightHandler}
             >
               <svg className={s.arrow}>
-                <use href={`${Icons}#icon-arrow-right`}></use>
+                <use href={`${icons}#icon-arrow-right`}></use>
               </svg>
             </Button>
 
@@ -106,7 +106,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
               onClick={onLeftHandler}
             >
               <svg className={s.arrow}>
-                <use href={`${Icons}#icon-arrow-left`}></use>
+                <use href={`${icons}#icon-arrow-left`}></use>
               </svg>
             </Button>
           </>

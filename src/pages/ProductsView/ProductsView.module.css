@@ -1,4 +1,5 @@
 .page {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -437,4 +438,23 @@
   .productList {
     margin-right: -1.25vw;
   }
+}
+
+.iconUpBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: #fca791;
+  border-radius: 50%;
+  transform-origin: center center;
+}
+
+.iconUpBtn:hover,
+.iconUpBtn:focus-visible {
+  fill: #f32196;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
 }
