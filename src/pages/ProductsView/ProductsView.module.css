@@ -442,8 +442,8 @@
 
 .iconUpBtn {
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  right: 3vw;
+  bottom: 3vw;
   background-color: #fca791;
   border-radius: 50%;
   transform-origin: center center;

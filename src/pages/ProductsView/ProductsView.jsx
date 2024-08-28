@@ -17,6 +17,7 @@ export default function ProductsView({ productsByTag }) {
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
+  const [scrolledTop, setScrolledTop] = useState(0);
   const [error, setError] = useState(null);
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
@@ -29,6 +30,13 @@ export default function ProductsView({ productsByTag }) {
   const [firstTarget, setFirstTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(() => {
+    window.onscroll = () =>
+      setScrolledTop(
+        document.body.scrollTop || document.documentElement.scrollTop,
+      );
+  }, []);
 
   useEffect(() => {
     if (products.length === 0) {
@@ -286,8 +294,14 @@ export default function ProductsView({ productsByTag }) {
     setOrdinalOfDozen(1);
   }
 
+  // FIXME сделать плавную прокрутку вверх
   function upHandler() {
-    console.log('Up');
+    setOrdinalOfDozen(1);
+
+    setTimeout(() => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }, 100);
   }
 
   return (
@@ -382,17 +396,19 @@ export default function ProductsView({ productsByTag }) {
             <ProductList products={dozensOfProducts} />
           </section>
 
-          <Button
-            title={languageDeterminer(LANGUAGE.specificProductView.left)}
-            type="button"
-            typeForm="icon"
-            styles={s.iconUpBtn}
-            onClick={upHandler}
-          >
-            <svg className={s.arrow}>
-              <use href={`${icons}#icon-arrow-left`}></use>
-            </svg>
-          </Button>
+          {scrolledTop > 300 && (
+            <Button
+              title={languageDeterminer(LANGUAGE.specificProductView.left)}
+              type="button"
+              typeForm="icon"
+              styles={s.iconUpBtn}
+              onClick={upHandler}
+            >
+              <svg className={s.arrow}>
+                <use href={`${icons}#icon-arrow-up`}></use>
+              </svg>
+            </Button>
+          )}
         </>
       )}
     </main>
