@@ -1,3 +1,3 @@
-export { GLOBAL } from './global';
-export { LANGUAGE } from './language';
-export { TAMPLATES } from './tamplates';
+export { GLOBAL } from './GLOBAL';
+export { LANGUAGE } from './LANGUAGE';
+export { TAMPLATES } from './TAMPLATES';

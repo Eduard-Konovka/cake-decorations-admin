@@ -444,7 +444,8 @@
   position: fixed;
   right: 3vw;
   bottom: 3vw;
-  background-color: #fca791;
+  fill: #ffffff;
+  background-color: #7d2126;
   border-radius: 50%;
   transform-origin: center center;
 }
@@ -452,6 +453,7 @@
 .iconUpBtn:hover,
 .iconUpBtn:focus-visible {
   fill: #f32196;
+  background-color: #fec76f;
 }
 
 .arrow {

@@ -236,6 +236,11 @@ export const LANGUAGE = {
       ukr: 'Згорнути',
     },
 
+    up: {
+      eng: 'To the top of the page',
+      ukr: 'До початку сторінки',
+    },
+
     right: {
       eng: 'Next image',
       ukr: 'Наступне зображення',
