@@ -26,6 +26,7 @@ export default function ProductsView({ productsByTag }) {
   const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
+  const [target, setTarget] = useState(null);
   const [lastTarget, setLastTarget] = useState(null);
   const [firstTarget, setFirstTarget] = useState(null);
 
@@ -141,6 +142,7 @@ export default function ProductsView({ productsByTag }) {
   }, [lastTarget]);
 
   setTimeout(() => {
+    setTarget(document.getElementById('productList'));
     setFirstTarget(document.getElementById('productList')?.firstElementChild);
     setLastTarget(document.getElementById('productList')?.lastElementChild);
   }, 0);
@@ -296,26 +298,28 @@ export default function ProductsView({ productsByTag }) {
 
   // FIXME сделать плавную прокрутку вверх ===================================
   useEffect(() => {
-    const animItems = document.getElementById('productList')?.children;
-
     function animOnScroll() {
-      for (let index = 0; index < animItems.length; index++) {
-        const animItem = animItems[index];
-        const animItemHeight = animItem.offsetHeight;
-        const animItemOffSet = offset(animItem).top;
-        const animStart = 4;
-        let animItemPoint = window.innerHeight - animItemHeight / animStart;
-        if (animItemHeight > window.innerHeight) {
-          animItemPoint = window.innerHeight - window.innerHeight / animStart;
-        }
-        if (
-          window.scrollY > animItemOffSet - animItemPoint &&
-          window.scrollY < animItemOffSet + animItemHeight
-        ) {
-          animItem.classList.add('_active');
-        } else {
-          if (!animItem.classList.contains('_anim-no-hide')) {
-            animItem.classList.remove('_active');
+      if (target) {
+        for (let i = 0; i < target.children.length; i++) {
+          const animItem = target.children[i];
+          const animItemHeight = animItem.offsetHeight;
+          const animItemOffSet = offset(animItem).top;
+          const animStart = 4;
+          let animItemPoint = window.innerHeight - animItemHeight / animStart;
+          if (animItemHeight > window.innerHeight) {
+            animItemPoint = window.innerHeight - window.innerHeight / animStart;
+          }
+          if (
+            window.scrollY > animItemOffSet - animItemPoint &&
+            window.scrollY < animItemOffSet + animItemHeight
+          ) {
+            console.log('active UP');
+            // animItem.classList.add('_active');
+          } else {
+            console.log('disactive UP');
+            // if (!animItem.classList.contains('_anim-no-hide')) {
+            //   animItem.classList.remove('_active');
+            // }
           }
         }
       }
@@ -330,14 +334,10 @@ export default function ProductsView({ productsByTag }) {
 
     window.addEventListener('scroll', animOnScroll);
 
-    setTimeout(() => {
-      animOnScroll();
-    }, 300);
-
     return () => {
       window.removeEventListener('scroll', animOnScroll);
     };
-  }, []);
+  }, [target]);
   // ==========================================================================
 
   function upHandler() {
