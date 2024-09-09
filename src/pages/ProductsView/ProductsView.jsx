@@ -298,29 +298,26 @@ export default function ProductsView({ productsByTag }) {
 
   // FIXME сделать плавную прокрутку вверх ===================================
   useEffect(() => {
-    function animOnScroll() {
+    function animationOnScroll() {
       if (target) {
-        for (let i = 0; i < target.children.length; i++) {
-          const animItem = target.children[i];
-          const animItemHeight = animItem.offsetHeight;
-          const animItemOffSet = offset(animItem).top;
-          const animStart = 4;
-          let animItemPoint = window.innerHeight - animItemHeight / animStart;
-          if (animItemHeight > window.innerHeight) {
-            animItemPoint = window.innerHeight - window.innerHeight / animStart;
-          }
-          if (
-            window.scrollY > animItemOffSet - animItemPoint &&
-            window.scrollY < animItemOffSet + animItemHeight
-          ) {
-            console.log('active UP');
-            // animItem.classList.add('_active');
-          } else {
-            console.log('disactive UP');
-            // if (!animItem.classList.contains('_anim-no-hide')) {
-            //   animItem.classList.remove('_active');
-            // }
-          }
+        const animItemHeight = target.offsetHeight;
+        const animItemOffSet = offset(target).top;
+        const animStart = 4;
+        let animItemPoint = window.innerHeight - animItemHeight / animStart;
+        if (animItemHeight > window.innerHeight) {
+          animItemPoint = window.innerHeight - window.innerHeight / animStart;
+        }
+        if (
+          window.scrollY > animItemOffSet - animItemPoint &&
+          window.scrollY < animItemOffSet + animItemHeight
+        ) {
+          console.log('active UP');
+          // target.classList.add('_active');
+        } else {
+          console.log('disactive UP');
+          // if (!target.classList.contains('_anim-no-hide')) {
+          //   target.classList.remove('_active');
+          // }
         }
       }
     }
@@ -332,10 +329,10 @@ export default function ProductsView({ productsByTag }) {
       return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
     }
 
-    window.addEventListener('scroll', animOnScroll);
+    window.addEventListener('scroll', animationOnScroll);
 
     return () => {
-      window.removeEventListener('scroll', animOnScroll);
+      window.removeEventListener('scroll', animationOnScroll);
     };
   }, [target]);
   // ==========================================================================
