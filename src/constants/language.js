@@ -267,16 +267,6 @@ export const LANGUAGE = {
       eng: 'Price: ',
       ukr: 'Ціна: ',
     },
-
-    buttonTitle: {
-      eng: 'More about the product',
-      ukr: 'Детальніше про товар',
-    },
-
-    buttonText: {
-      eng: 'View',
-      ukr: 'Переглянути',
-    },
   },
 
   cartBar: {

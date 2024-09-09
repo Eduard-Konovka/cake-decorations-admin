@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Button from 'components/Button';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -12,48 +11,46 @@ export default function Product({ product }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
-    <article>
-      <img
-        className={s.image}
-        src={product?.images?.length > 0 ? product.images[0] : defaultImage}
-        alt={product.title}
-      />
+    <Link to={`/products/${product._id}`} className={s.btnLink}>
+      <article>
+        <img
+          className={s.image}
+          src={product?.images?.length > 0 ? product.images[0] : defaultImage}
+          alt={product.title}
+        />
 
-      <div className={s.thumb}>
-        <h3 className={s.title}>
-          {product.title.length < GLOBAL.titleLength
-            ? product.title
-            : product.title.slice(0, GLOBAL.titleLength) + '...'}
-        </h3>
+        <div className={s.thumb}>
+          <h3 className={s.title}>
+            {product.title.length < GLOBAL.productView.titleLength
+              ? product.title
+              : product.title.slice(0, GLOBAL.productView.titleLength) + '...'}
+          </h3>
 
-        <p className={s.shortDescription}>
-          {product.description.slice(0, GLOBAL.titleLength) + '...'}
+          <p className={s.shortDescription}>
+            {product.description.slice(
+              0,
+              GLOBAL.productView.titleLength *
+                GLOBAL.productView.descriptionMultiplier,
+            ) + '...'}
+          </p>
+        </div>
+
+        <p className={s.paragraph_title}>
+          {languageDeterminer(LANGUAGE.product.product_type)}
+          <span className={s.value}>{product.product_type}</span>
         </p>
-      </div>
 
-      <p className={s.product_type}>
-        {languageDeterminer(LANGUAGE.product.product_type)}
-        <span className={s.value}>{product.product_type}</span>
-      </p>
+        <p className={s.paragraph_title}>
+          {languageDeterminer(LANGUAGE.product.barcode)}
+          <span className={s.value}>{product._id}</span>
+        </p>
 
-      <p className={s.barcode}>
-        {languageDeterminer(LANGUAGE.product.barcode)}
-        <span className={s.value}>{product._id}</span>
-      </p>
-
-      <div className={s.control}>
-        <p className={s.price}>
+        <p className={s.paragraph_title}>
           {languageDeterminer(LANGUAGE.product.price)}
           <span className={s.value}>{product.price} ₴</span>
         </p>
-
-        <Button title={languageDeterminer(LANGUAGE.product.buttonTitle)}>
-          <Link to={`/products/${product._id}`} className={s.btnLink}>
-            {languageDeterminer(LANGUAGE.product.buttonText)}
-          </Link>
-        </Button>
-      </div>
-    </article>
+      </article>
+    </Link>
   );
 }
 

@@ -7,48 +7,41 @@
 
 /*#region THUMB */
 .thumb {
-  height: 35.3125vw;
   margin-bottom: 3.125vw;
 }
 
 @media screen and (min-width: 320px) {
   .thumb {
-    height: 113px;
     margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 420px) {
   .thumb {
-    height: 156px;
     margin-bottom: 22px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .thumb {
-    height: 158px;
     margin-bottom: 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .thumb {
-    height: 172px;
     margin-bottom: 22px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .thumb {
-    height: 168px;
     margin-bottom: 14px;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .thumb {
-    height: 12.8vw;
     margin-bottom: 1.2vw;
   }
 }
@@ -56,49 +49,50 @@
 
 /*#region TITLE */
 .title {
+  height: 17.5vw;
   text-align: center;
   font-size: 5vw;
-  margin: 2.5vw 0;
 }
 
 @media screen and (min-width: 320px) {
   .title {
+    height: 56px;
     font-size: 16px;
-    margin: 8px 0;
   }
 }
 
 @media screen and (min-width: 420px) {
   .title {
+    height: 80px;
     font-size: 23px;
-    margin: 17px 0;
   }
 }
 
 @media screen and (min-width: 800px) {
   .title {
+    height: 77px;
     font-size: 22px;
-    margin: 16px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .title {
+    height: 84px;
     font-size: 24px;
-    margin: 18px 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .title {
+    height: 80px;
     font-size: 23px;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .title {
+    height: 6.125vw;
     font-size: 1.75vw;
-    margin: 1vw 0;
   }
 }
 /*#endregion TITLE */
@@ -189,62 +183,7 @@
 }
 /*#endregion SHORT_DESCRIPTION */
 
-/*#region AUTHOR */
-.product_type {
-  composes: paragraph;
-  font-weight: 500;
-  height: 12.8125vw;
-}
-
-@media screen and (min-width: 320px) {
-  .product_type {
-    height: 41px;
-  }
-}
-
-@media screen and (min-width: 420px) {
-  .product_type {
-    height: 52px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .product_type {
-    height: 53px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .product_type {
-    height: 59px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .product_type {
-    height: 57px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .product_type {
-    height: 4vw;
-  }
-}
-/*#endregion AUTHOR */
-
-.barcode {
-  composes: paragraph;
-  font-weight: 500;
-}
-
-.control {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.price {
+.paragraph_title {
   composes: paragraph;
   font-weight: 500;
 }
@@ -252,5 +191,4 @@
 .btnLink {
   text-decoration: none;
   color: inherit;
-  margin: 0 5px;
 }

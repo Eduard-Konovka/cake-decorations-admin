@@ -30,7 +30,10 @@ export const GLOBAL = {
     second: 30,
   },
 
-  titleLength: 75,
+  productView: {
+    titleLength: 60,
+    descriptionMultiplier: 3,
+  },
 
   sending: 3000,
 
