@@ -204,19 +204,19 @@
   margin: 0 1vw 0 0;
 }
 
-.brand {
+.navigationTitles {
   font-size: 1.5em;
   margin: 0;
 }
 
 @media screen and (min-width: 320px) {
-  .brand {
+  .navigationTitles {
     margin: 0 1vw 0 0;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .brand {
+  .navigationTitles {
     margin: -0.4vw 1vw 0 0;
   }
 }

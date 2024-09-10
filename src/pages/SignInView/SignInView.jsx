@@ -57,7 +57,7 @@ export default function SignInView() {
           >
             {name.length >= GLOBAL.signInViewInput.minLength &&
             name.length <= GLOBAL.signInViewInput.maxLength ? (
-              <Link to="/products" className={s.btnLink}>
+              <Link to="/categories" className={s.btnLink}>
                 {languageDeterminer(LANGUAGE.signInView.buttonText)}
               </Link>
             ) : (

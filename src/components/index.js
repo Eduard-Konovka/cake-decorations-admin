@@ -5,6 +5,8 @@ export { default as ProductList } from './ProductList';
 export { default as Button } from './Button';
 export { default as CartBar } from './CartBar';
 export { default as CartList } from './CartList';
+export { default as Category } from './Category';
+export { default as CategoriesList } from './CategoriesList';
 export { default as Container } from './Container';
 export { default as CountForm } from './CountForm';
 export { default as Footer } from './Footer';

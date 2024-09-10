@@ -22,6 +22,9 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import 'api/baseUrl';
 import 'App.css';
 
+const CategoriesView = lazy(() =>
+  import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
+);
 const ProductsView = lazy(() =>
   import('pages/ProductsView' /* webpackChunkName: "ProductsView" */),
 );
@@ -150,9 +153,18 @@ export default function App() {
           <Route
             path="/signin"
             element={
-              <PublicRoute redirectTo="/products" restricted>
+              <PublicRoute redirectTo="/categories" restricted>
                 <SignInView />
               </PublicRoute>
+            }
+          />
+
+          <Route
+            path="/categories"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <CategoriesView />
+              </PrivateRoute>
             }
           />
 

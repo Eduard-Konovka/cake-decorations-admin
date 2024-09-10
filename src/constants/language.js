@@ -19,9 +19,19 @@ export const LANGUAGE = {
     ukr: 'Логотип',
   },
 
-  brand: {
-    eng: 'Cake decorations',
-    ukr: 'Тортові прикраси',
+  titles: {
+    brand: {
+      eng: 'Cake decorations',
+      ukr: 'Тортові прикраси',
+    },
+    categories: {
+      eng: 'Categories',
+      ukr: 'Категорії',
+    },
+    products: {
+      eng: 'Products',
+      ukr: 'Товари',
+    },
   },
 
   productDuplication: {

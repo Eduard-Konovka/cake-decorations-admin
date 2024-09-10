@@ -27,7 +27,7 @@ export default function AppBar({ setProductsByTag }) {
         <div className={s.headbar}>
           <NavLink
             title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-            to="/products"
+            to="/categories"
             className={({ isActive }) =>
               isActive ? s.activeLink : s.inactiveLink
             }
@@ -40,7 +40,9 @@ export default function AppBar({ setProductsByTag }) {
                 src={logo}
                 alt={languageDeterminer(LANGUAGE.logoAlt)}
               />
-              <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
+              <h1 className={s.navigationTitles}>
+                {languageDeterminer(LANGUAGE.titles.brand)}
+              </h1>
             </div>
           </NavLink>
         </div>
@@ -71,19 +73,39 @@ export default function AppBar({ setProductsByTag }) {
       <nav className={s.nav}>
         <div className={s.headbar}>
           {user.name ? (
-            <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-              to="/products"
-              className={({ isActive }) =>
-                isActive ? s.activeLink : s.inactiveLink
-              }
-              onClick={setProductsByTag}
-              end
-            >
-              <div className={s.logoBox}>
-                <h1 className={s.brand}>Головна</h1>
-              </div>
-            </NavLink>
+            <div>
+              <NavLink
+                title={languageDeterminer(LANGUAGE.appBar.homeLink)}
+                to="/categories"
+                className={({ isActive }) =>
+                  isActive ? s.activeLink : s.inactiveLink
+                }
+                onClick={setProductsByTag}
+                end
+              >
+                <div className={s.logoBox}>
+                  <h1 className={s.navigationTitles}>
+                    {languageDeterminer(LANGUAGE.titles.categories)}
+                  </h1>
+                </div>
+              </NavLink>
+
+              <NavLink
+                title={languageDeterminer(LANGUAGE.appBar.homeLink)}
+                to="/products"
+                className={({ isActive }) =>
+                  isActive ? s.activeLink : s.inactiveLink
+                }
+                onClick={setProductsByTag}
+                end
+              >
+                <div className={s.logoBox}>
+                  <h1 className={s.navigationTitles}>
+                    {languageDeterminer(LANGUAGE.titles.products)}
+                  </h1>
+                </div>
+              </NavLink>
+            </div>
           ) : (
             <div className={s.logoBox}>
               <img
@@ -91,7 +113,12 @@ export default function AppBar({ setProductsByTag }) {
                 src={logo}
                 alt={languageDeterminer(LANGUAGE.logoAlt)}
               />
-              <h1 className={s.brand}>{languageDeterminer(LANGUAGE.brand)}</h1>
+              <h1 className={s.navigationTitles}>
+                {languageDeterminer(LANGUAGE.titles.categories)}
+              </h1>
+              <h1 className={s.navigationTitles}>
+                {languageDeterminer(LANGUAGE.titles.products)}
+              </h1>
             </div>
           )}
         </div>

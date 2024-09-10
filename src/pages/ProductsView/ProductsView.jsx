@@ -298,44 +298,40 @@ export default function ProductsView({ productsByTag }) {
 
   // FIXME сделать плавную прокрутку вверх ===================================
   useEffect(() => {
-    function animationOnScroll() {
-      if (target) {
-        const animItemHeight = target.offsetHeight;
-        const animItemOffSet = offset(target).top;
-        const animStart = 4;
-        let animItemPoint = window.innerHeight - animItemHeight / animStart;
-        if (animItemHeight > window.innerHeight) {
-          animItemPoint = window.innerHeight - window.innerHeight / animStart;
-        }
-        if (
-          window.scrollY > animItemOffSet - animItemPoint &&
-          window.scrollY < animItemOffSet + animItemHeight
-        ) {
-          console.log('active UP');
-          // target.classList.add('_active');
-        } else {
-          console.log('disactive UP');
-          // if (!target.classList.contains('_anim-no-hide')) {
-          //   target.classList.remove('_active');
-          // }
-        }
-      }
-    }
-
-    function offset(el) {
-      const rect = el.getBoundingClientRect();
-      const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
-      const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
-    }
-
-    window.addEventListener('scroll', animationOnScroll);
-
-    return () => {
-      window.removeEventListener('scroll', animationOnScroll);
-    };
+    //   function animationOnScroll() {
+    //     if (target) {
+    //       const animItemHeight = target.offsetHeight;
+    //       const animItemOffSet = offset(target).top;
+    //       const animStart = 4;
+    //       let animItemPoint = window.innerHeight - animItemHeight / animStart;
+    //       if (animItemHeight > window.innerHeight) {
+    //         animItemPoint = window.innerHeight - window.innerHeight / animStart;
+    //       }
+    //       if (
+    //         window.scrollY > animItemOffSet - animItemPoint &&
+    //         window.scrollY < animItemOffSet + animItemHeight
+    //       ) {
+    //         console.log('active UP');
+    //         // target.classList.add('_active');
+    //       } else {
+    //         console.log('disactive UP');
+    //         // if (!target.classList.contains('_anim-no-hide')) {
+    //         //   target.classList.remove('_active');
+    //         // }
+    //       }
+    //     }
+    //   }
+    //   function offset(el) {
+    //     const rect = el.getBoundingClientRect();
+    //     const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
+    //     const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    //     return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
+    //   }
+    //   window.addEventListener('scroll', animationOnScroll);
+    //   return () => {
+    //     window.removeEventListener('scroll', animationOnScroll);
+    //   };
   }, [target]);
-  // ==========================================================================
 
   function upHandler() {
     setOrdinalOfDozen(1);
