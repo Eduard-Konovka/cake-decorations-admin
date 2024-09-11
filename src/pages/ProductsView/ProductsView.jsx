@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
-import { getLanguage } from 'functions';
+import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
@@ -26,11 +26,12 @@ export default function ProductsView({ productsByTag }) {
   const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
-  const [target, setTarget] = useState(null);
   const [lastTarget, setLastTarget] = useState(null);
   const [firstTarget, setFirstTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(pageUp, []);
 
   useEffect(() => {
     window.onscroll = () =>
@@ -142,7 +143,6 @@ export default function ProductsView({ productsByTag }) {
   }, [lastTarget]);
 
   setTimeout(() => {
-    setTarget(document.getElementById('productList'));
     setFirstTarget(document.getElementById('productList')?.firstElementChild);
     setLastTarget(document.getElementById('productList')?.lastElementChild);
   }, 0);
@@ -296,50 +296,10 @@ export default function ProductsView({ productsByTag }) {
     setOrdinalOfDozen(1);
   }
 
-  // FIXME сделать плавную прокрутку вверх ===================================
-  useEffect(() => {
-    //   function animationOnScroll() {
-    //     if (target) {
-    //       const animItemHeight = target.offsetHeight;
-    //       const animItemOffSet = offset(target).top;
-    //       const animStart = 4;
-    //       let animItemPoint = window.innerHeight - animItemHeight / animStart;
-    //       if (animItemHeight > window.innerHeight) {
-    //         animItemPoint = window.innerHeight - window.innerHeight / animStart;
-    //       }
-    //       if (
-    //         window.scrollY > animItemOffSet - animItemPoint &&
-    //         window.scrollY < animItemOffSet + animItemHeight
-    //       ) {
-    //         console.log('active UP');
-    //         // target.classList.add('_active');
-    //       } else {
-    //         console.log('disactive UP');
-    //         // if (!target.classList.contains('_anim-no-hide')) {
-    //         //   target.classList.remove('_active');
-    //         // }
-    //       }
-    //     }
-    //   }
-    //   function offset(el) {
-    //     const rect = el.getBoundingClientRect();
-    //     const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
-    //     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    //     return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
-    //   }
-    //   window.addEventListener('scroll', animationOnScroll);
-    //   return () => {
-    //     window.removeEventListener('scroll', animationOnScroll);
-    //   };
-  }, [target]);
-
   function upHandler() {
     setOrdinalOfDozen(1);
 
-    setTimeout(() => {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }, 100);
+    setTimeout(pageUp, 100);
   }
 
   return (

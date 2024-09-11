@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
-import { getLanguage, getTags } from 'functions';
+import { getLanguage, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE, TAMPLATES } from 'constants';
 import imageNotFound from 'assets/notFound.png';
@@ -36,6 +36,8 @@ export default function SpecificProductView({
   );
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(() => pageUp(), []);
 
   useEffect(() => {
     if (products.length > 0) {

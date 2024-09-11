@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState } from 'state';
 import { fetchProducts } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
-import { getLanguage } from 'functions';
+import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import icons from 'assets/icons.svg';
@@ -23,6 +23,8 @@ export default function CategoriesView() {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
+  useEffect(pageUp, []);
+
   useEffect(() => {
     setLoading(true);
 
@@ -38,14 +40,6 @@ export default function CategoriesView() {
         document.body.scrollTop || document.documentElement.scrollTop,
       );
   }, []);
-
-  // FIXME сделать плавную прокрутку вверх
-  function upHandler() {
-    setTimeout(() => {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }, 100);
-  }
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
@@ -80,7 +74,7 @@ export default function CategoriesView() {
               type="button"
               typeForm="icon"
               styles={s.iconUpBtn}
-              onClick={upHandler}
+              onClick={pageUp}
             >
               <svg className={s.arrow}>
                 <use href={`${icons}#icon-arrow-up`}></use>
