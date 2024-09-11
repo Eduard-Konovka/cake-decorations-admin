@@ -149,7 +149,7 @@ export default function ProductsView({ productsByTag }) {
   setTimeout(() => {
     setFirstTarget(document.getElementById('productList')?.firstElementChild);
     setLastTarget(document.getElementById('productList')?.lastElementChild);
-  }, 0);
+  }, 250);
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
@@ -354,7 +354,12 @@ export default function ProductsView({ productsByTag }) {
                 </Button>
               </div>
 
-              <select className={s.inputByPrice} onChange={handlePriceChange}>
+              <select
+                id="inputByPrice"
+                name="inputByPrice"
+                className={s.inputByPrice}
+                onChange={handlePriceChange}
+              >
                 {optionList && <OptionList products={products} />}
               </select>
 
@@ -369,12 +374,13 @@ export default function ProductsView({ productsByTag }) {
             </form>
 
             <form className={s.sortBar}>
-              <label htmlFor="sort" className={s.sortLabel}>
+              <label htmlFor="inputBySort" className={s.sortLabel}>
                 {languageDeterminer(LANGUAGE.sortBy.label)}
               </label>
 
               <select
-                name="sort"
+                id="inputBySort"
+                name="inputBySort"
                 className={s.inputBySort}
                 onChange={handleSort}
               >

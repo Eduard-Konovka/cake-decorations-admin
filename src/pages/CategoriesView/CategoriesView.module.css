@@ -64,13 +64,13 @@
 
 @media screen and (min-width: 800px) {
   .categoriesList {
-    margin-right: -20px;
+    margin: -20px -20px 0 0;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .categoriesList {
-    margin-right: -1.25vw;
+    margin: -1.25vw -1.25vw 0 0;
   }
 }
 
