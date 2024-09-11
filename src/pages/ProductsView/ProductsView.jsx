@@ -109,7 +109,10 @@ export default function ProductsView({ productsByTag }) {
       observerOptions,
     );
 
-    firstTarget && ordinalOfDozen > 1 && firstObserver.observe(firstTarget);
+    firstTarget &&
+      ordinalOfDozen > 1 &&
+      visibleProducts.length > GLOBAL.dozen &&
+      firstObserver.observe(firstTarget);
 
     return () => {
       firstTarget && firstObserver.unobserve(firstTarget);
@@ -134,6 +137,7 @@ export default function ProductsView({ productsByTag }) {
 
     lastTarget &&
       ordinalOfDozen < Math.floor(products.length / GLOBAL.dozen) &&
+      visibleProducts.length > GLOBAL.dozen &&
       lastObserver.observe(lastTarget);
 
     return () => {
