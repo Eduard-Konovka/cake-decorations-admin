@@ -12,7 +12,7 @@ import icons from 'assets/icons.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
-export default function ProductsView({ productsByTag }) {
+export default function ProductsView({ productsByCategoryOrTag }) {
   const { mainHeight, products } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -56,8 +56,8 @@ export default function ProductsView({ productsByTag }) {
         })
         .catch(error => setError(error))
         .finally(() => setLoading(false));
-    } else if (productsByTag.length !== 0) {
-      setProductsByName(productsByTag);
+    } else if (productsByCategoryOrTag.length !== 0) {
+      setProductsByName(productsByCategoryOrTag);
       setProductsByPrice(products);
     } else {
       setProductsByName(products);
@@ -424,5 +424,5 @@ export default function ProductsView({ productsByTag }) {
 }
 
 ProductsView.propTypes = {
-  productsByTag: PropTypes.array.isRequired,
+  productsByCategoryOrTag: PropTypes.array.isRequired,
 };

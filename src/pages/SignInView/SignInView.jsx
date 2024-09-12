@@ -32,13 +32,15 @@ export default function SignInView() {
           </label>
 
           <input
-            type="text"
+            id="username"
             name="username"
+            type="text"
             title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
             pattern={languageDeterminer(GLOBAL.signInViewPattern)}
             placeholder={languageDeterminer(
               LANGUAGE.signInView.inputPlaceholder,
             )}
+            autoComplete={'given-name family-name'}
             minLength={GLOBAL.signInViewInput.minLength}
             maxLength={GLOBAL.signInViewInput.maxLength}
             className={s.input}

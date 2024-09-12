@@ -15,7 +15,7 @@ import logo from 'assets/logo.jpg';
 import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
-export default function AppBar({ setProductsByTag }) {
+export default function AppBar({ setDefaultsProducts }) {
   const { user, language } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -31,7 +31,7 @@ export default function AppBar({ setProductsByTag }) {
             className={({ isActive }) =>
               isActive ? s.activeLink : s.inactiveLink
             }
-            onClick={setProductsByTag}
+            onClick={setDefaultsProducts}
             end
           >
             <div className={s.logoBox}>
@@ -80,7 +80,7 @@ export default function AppBar({ setProductsByTag }) {
                 className={({ isActive }) =>
                   isActive ? s.activeLink : s.inactiveLink
                 }
-                onClick={setProductsByTag}
+                onClick={setDefaultsProducts}
                 end
               >
                 <div className={s.logoBox}>
@@ -96,7 +96,7 @@ export default function AppBar({ setProductsByTag }) {
                 className={({ isActive }) =>
                   isActive ? s.activeLink : s.inactiveLink
                 }
-                onClick={setProductsByTag}
+                onClick={setDefaultsProducts}
                 end
               >
                 <div className={s.logoBox}>
@@ -160,5 +160,5 @@ export default function AppBar({ setProductsByTag }) {
 }
 
 AppBar.propTypes = {
-  setProductsByTag: PropTypes.func.isRequired,
+  setDefaultsProducts: PropTypes.func.isRequired,
 };

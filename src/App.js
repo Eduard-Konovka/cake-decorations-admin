@@ -47,7 +47,7 @@ export default function App() {
   const { user, cart } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [productsByTag, setProductsByTag] = useState([]);
+  const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
   const [sending, setSending] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -126,7 +126,7 @@ export default function App() {
 
   return (
     <Container>
-      <AppBar setProductsByTag={() => setProductsByTag([])} />
+      <AppBar setDefaultsProducts={() => setProductsByCategoryOrTag([])} />
 
       <Suspense
         fallback={
@@ -163,7 +163,9 @@ export default function App() {
             path="/categories"
             element={
               <PrivateRoute redirectTo="/signin">
-                <CategoriesView />
+                <CategoriesView
+                  setProductsByCategory={setProductsByCategoryOrTag}
+                />
               </PrivateRoute>
             }
           />
@@ -172,7 +174,9 @@ export default function App() {
             path="/products"
             element={
               <PrivateRoute redirectTo="/signin">
-                <ProductsView productsByTag={productsByTag} />
+                <ProductsView
+                  productsByCategoryOrTag={productsByCategoryOrTag}
+                />
               </PrivateRoute>
             }
           />
@@ -182,7 +186,7 @@ export default function App() {
             element={
               <PrivateRoute redirectTo="/signin">
                 <SpecificProductView
-                  setProductsByTag={setProductsByTag}
+                  setProductsByTag={setProductsByCategoryOrTag}
                   changeSelectCount={changeCount}
                   addToCart={addToCart}
                 />

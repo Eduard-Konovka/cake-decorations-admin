@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useGlobalState, useChangeGlobalState } from 'state';
+import PropTypes from 'prop-types';
+import { useGlobalState } from 'state';
 import { fetchCategories } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
@@ -9,10 +10,8 @@ import icons from 'assets/icons.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './CategoriesView.module.css';
 
-export default function CategoriesView() {
+export default function CategoriesView({ setProductsByCategory }) {
   const { mainHeight } = useGlobalState('global');
-  // eslint-disable-next-line
-  const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [scrolledTop, setScrolledTop] = useState(0);
@@ -63,7 +62,10 @@ export default function CategoriesView() {
       {categories.length > 0 && (
         <>
           <section className={s.categoriesList}>
-            <CategoriesList categories={categories} />
+            <CategoriesList
+              categories={categories}
+              setProductsByCategory={setProductsByCategory}
+            />
           </section>
 
           {scrolledTop > 300 && (
@@ -84,3 +86,7 @@ export default function CategoriesView() {
     </main>
   );
 }
+
+CategoriesView.propTypes = {
+  setProductsByCategory: PropTypes.func.isRequired,
+};
