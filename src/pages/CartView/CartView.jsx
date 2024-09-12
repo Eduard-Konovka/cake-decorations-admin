@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { CartBar, Blank, Processing } from 'components';
-import { getLanguage } from 'functions';
+import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import imageBlank from 'assets/cartEmpty.png';
@@ -17,6 +17,8 @@ export default function CartView({
   const { mainHeight, cart } = useGlobalState('global');
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(pageUp, []);
 
   return (
     <main

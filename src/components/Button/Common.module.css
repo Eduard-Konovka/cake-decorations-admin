@@ -55,7 +55,7 @@
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus-visible {
   background-color: #c09212;
   color: #270000;
   box-shadow: 0 0.3vw 0.3vw #56ca21;

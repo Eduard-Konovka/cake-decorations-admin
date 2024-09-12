@@ -167,7 +167,7 @@
 }
 
 .inactiveLink:hover,
-.inactiveLink:focus {
+.inactiveLink:focus-visible {
   transform: scale(1.02, 1.1);
 }
 
@@ -238,7 +238,7 @@
 }
 
 .resume:hover,
-.resume:focus {
+.resume:focus-visible {
   transform: scale(1.02, 1.1);
 }
 
@@ -350,7 +350,7 @@
 }
 
 .inactiveCart:hover,
-.inactiveCart:focus {
+.inactiveCart:focus-visible {
   transform: scale(1.1);
 }
 

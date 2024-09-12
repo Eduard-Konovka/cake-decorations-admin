@@ -37,7 +37,7 @@ export default function SpecificProductView({
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(() => pageUp(), []);
+  useEffect(pageUp, []);
 
   useEffect(() => {
     if (products.length > 0) {

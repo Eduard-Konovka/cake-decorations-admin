@@ -69,7 +69,7 @@
 }
 
 .cover:hover,
-.cover:focus {
+.cover:focus-visible {
   box-shadow: 0 0.3vw 0.3vw #56ca21;
   scale: 1.05;
 }

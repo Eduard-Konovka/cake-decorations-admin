@@ -33,7 +33,7 @@
 }
 
 .item:hover,
-.item:focus {
+.item:focus-visible {
   box-shadow: 0.1vw 0.3vw 0.3vw rgba(86, 202, 33, 0.8),
     -0.1vw 0.1vw 0.5vw rgba(86, 202, 33, 0.5);
   transform: scale(1.01);
