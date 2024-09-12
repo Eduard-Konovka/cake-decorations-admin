@@ -41,35 +41,92 @@ const bbb = {
   condition: 'new',
 };
 
-// --- Intersection Observer ---
-const observerOptions = {
-  root: null,
-  rootMargin: '0px',
-  threshold: 0.9,
-};
+const db = [
+  '_id',
+  'title',
+  'description',
+  'link',
+  'ads_redirect',
+  'images',
+  'availability',
+  'price',
+  'product_type',
+  'identifier_exists',
+  'condition',
+  'brand',
+  'color',
+  'product_details',
+];
 
-const observerCallback = (elements, observer) => {
-  elements.forEach(element => {
-    if (element.isIntersecting) {
-      console.log('element ---> ', element); // onLoadMore(); // What we do
-    }
-  });
-};
+const add_to_db = [
+  '_id',
+  'ruTitle',
+  'uaTitle',
+  'ruDescription',
+  'uaDescription',
+  'categoryNumber',
+  'wholesalePrice',
+  'minimumWholesaleOrder',
+];
 
-const observer = new IntersectionObserver(observerCallback, observerOptions);
-const target = document.getElementById('productList');
+const db_ = [
+  'ruTitle',
+  'uaTitle',
+  'Пошукові_запити',
+  'ruDescription',
+  'uaDescription',
+  'Тип_товару',
+  'price',
+  'Валюта',
+  'Одиниця_виміру',
+  'Посилання_зображення',
+  'Наявність',
+  'categoryNumber',
+  'categoryName',
+  'Посилання_підрозділу',
+  '_id',
+  'Ідентифікатор_підрозділу',
+  'Продукт_на_сайті',
+  'Ціна_від',
+  'Особисті_нотатки',
+  'Виробник',
+  'Кількість',
+  'Ярлик',
+  'Назва_Характеристики',
+  'Значення_Характеристики',
+  'Пошукові_запити_укр',
+  'Вага,кг',
+  'Ширина,см',
+  'Висота,см',
+  'Довжина,см',
+  'wholesalePrice',
+  'minimumWholesaleOrder',
+  'Де_знаходиться_товар',
+  'Назва_Характеристики_1',
+  'Значення_Характеристики_1',
+  'Назва_Характеристики_2',
+  'Значення_Характеристики_2',
+  'Країна_виробник',
+  'Одиниця_виміру_Характеристики',
+  'Назва_Характеристики_3',
+  'Значення_Характеристики_3',
+  'Одиниця_виміру_Характеристики_1',
+  'Назва_Характеристики_4',
+  'Значення_Характеристики_4',
+  'Назва_Характеристики_5',
+  'Одиниця_виміру_Характеристики_5',
+  'Значення_Характеристики_5',
+  'Одиниця_виміру_Характеристики_4',
+  'Одиниця_виміру_Характеристики_2',
+  'Назва_Характеристики_6',
+  'Одиниця_виміру_Характеристики_6',
+  'Значення_Характеристики_6',
+  'Одиниця_виміру_Характеристики_3',
+];
 
-const setObserver = () => {
-  observer.observe(target.lastElementChild); // What we track
-};
-
-const removeObserver = data => {
-  observer.unobserve(target.lastElementChild);
-  return data;
-};
-
-useEffect(() => {
-  visibleProducts.length > 0 && removeObserver();
-  visibleProducts.length > 0 && setObserver();
-}, [visibleProducts]);
-// -----------------------------
+const dbKeys = new Set();
+db.forEach(obj => {
+  const objKeys = Object.keys(obj);
+  objKeys.forEach(key => dbKeys.add(key));
+});
+console.log(dbKeys);
