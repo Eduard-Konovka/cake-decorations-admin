@@ -1,4 +1,4 @@
-import { db } from 'db';
+import db from 'db/db.json';
 
 export default async function productsApi() {
   const response = await db;

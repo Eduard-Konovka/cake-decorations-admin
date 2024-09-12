@@ -58,8 +58,7 @@ const db = [
   'product_details',
 ];
 
-const add_to_db = [
-  '_id',
+const added_to_db = [
   'ruTitle',
   'uaTitle',
   'ruDescription',
