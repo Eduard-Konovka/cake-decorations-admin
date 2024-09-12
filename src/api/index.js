@@ -1,3 +1,4 @@
+export { default as fetchCategories } from './categoriesApi';
 export { default as fetchProducts } from './productsApi';
 export { default as fetchProduct } from './productApi';
 export { default as fetchBooks } from './booksApi';

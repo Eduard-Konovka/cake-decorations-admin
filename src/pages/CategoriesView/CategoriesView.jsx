@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// eslint-disable-next-line
-import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState } from 'state';
-import { fetchProducts } from 'api';
+import { fetchCategories } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -28,8 +26,8 @@ export default function CategoriesView() {
   useEffect(() => {
     setLoading(true);
 
-    fetchProducts()
-      .then(products => setCategories(products.slice(0, 12)))
+    fetchCategories()
+      .then(categories => setCategories(categories))
       .catch(error => setError(error))
       .finally(() => setLoading(false));
   }, []);
@@ -86,7 +84,3 @@ export default function CategoriesView() {
     </main>
   );
 }
-
-CategoriesView.propTypes = {
-  // productsByTag: PropTypes.array.isRequired,
-};

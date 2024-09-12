@@ -183,11 +183,6 @@
 }
 /*#endregion SHORT_DESCRIPTION */
 
-.paragraph_title {
-  composes: paragraph;
-  font-weight: 500;
-}
-
 .btnLink {
   text-decoration: none;
   color: inherit;
