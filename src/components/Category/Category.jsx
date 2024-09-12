@@ -11,7 +11,7 @@ export default function Category({ category }) {
       <article>
         <img
           className={s.image}
-          src={category.image ?? defaultImage}
+          src={category?.image?.length > 0 ? category.image : defaultImage}
           alt={category.title}
         />
 
