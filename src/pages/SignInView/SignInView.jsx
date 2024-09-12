@@ -40,7 +40,7 @@ export default function SignInView() {
             placeholder={languageDeterminer(
               LANGUAGE.signInView.inputPlaceholder,
             )}
-            autoComplete={'given-name family-name'}
+            autoComplete="given-name family-name"
             minLength={GLOBAL.signInViewInput.minLength}
             maxLength={GLOBAL.signInViewInput.maxLength}
             className={s.input}
