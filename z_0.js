@@ -64,7 +64,7 @@ const add_to_db = [
   'uaTitle',
   'ruDescription',
   'uaDescription',
-  'categoryNumber',
+  'category',
   'wholesalePrice',
   'minimumWholesaleOrder',
 ];
@@ -81,7 +81,7 @@ const db_ = [
   'Одиниця_виміру',
   'Посилання_зображення',
   'Наявність',
-  'categoryNumber',
+  'category',
   'categoryName',
   'Посилання_підрозділу',
   '_id',
