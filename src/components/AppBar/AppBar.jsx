@@ -47,9 +47,11 @@ export default function AppBar({ setDefaultsProducts }) {
           </NavLink>
         </div>
 
-        <div>{'+380 (50) 131-66-43'}</div>
-        <div>{'+380 (98) 133-20-37'}</div>
-        <div>{'Центральний ринок, магазин № 316, Ізмаїл, Україна'}</div>
+        <div className={s.brandInfo}>{'+380 (50) 131-66-43'}</div>
+        <div className={s.brandInfo}>{'+380 (98) 133-20-37'}</div>
+        <div className={s.brandInfo}>
+          {'Центральний ринок, магазин № 316, Ізмаїл, Україна'}
+        </div>
 
         <Button
           title={languageDeterminer(LANGUAGE.appBar.language)}
