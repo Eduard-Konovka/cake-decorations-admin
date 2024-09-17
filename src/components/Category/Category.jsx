@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { GLOBAL } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './Category.module.css';
 
@@ -20,30 +19,20 @@ export default function Category({ category, setProductsByCategory }) {
   return (
     <Link
       to={`/products`}
-      className={s.btnLink}
+      className={s.link}
       onClick={() => handleCategoryClick(category._id)}
     >
-      <article>
-        <img
-          className={s.image}
-          src={category?.image?.length > 0 ? category.image : defaultImage}
-          alt={category.title}
-        />
+      <article className={s.article}>
+        <div className={s.imageBox}>
+          <img
+            className={s.image}
+            src={category?.image?.length > 0 ? category.image : defaultImage}
+            alt={category.title}
+          />
+        </div>
 
         <div className={s.thumb}>
-          <h3 className={s.title}>
-            {category.title.length < GLOBAL.productView.titleLength
-              ? category.title
-              : category.title.slice(0, GLOBAL.productView.titleLength) + '...'}
-          </h3>
-
-          <p className={s.shortDescription}>
-            {category.titleRu.slice(
-              0,
-              GLOBAL.productView.titleLength *
-                GLOBAL.productView.descriptionMultiplier,
-            ) + '...'}
-          </p>
+          <h3 className={s.title}>{category.title}</h3>
         </div>
       </article>
     </Link>
