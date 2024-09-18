@@ -14,6 +14,10 @@ const modalRoot = document.querySelector('#modal-root');
 export default function Modal({ product, mainImageIdx, closeModal }) {
   const [modalImageIdx, setModalImageIdx] = useState(mainImageIdx);
   const [modalFading, setModalFading] = useState(false);
+  const [startLeftAnimationX, setStartLeftAnimationX] = useState(false);
+  const [startRightAnimationX, setStartRightAnimationX] = useState(false);
+  const [finishLeftAnimationX, setFinishLeftAnimationX] = useState(false);
+  const [finishRightAnimationX, setFinishRightAnimationX] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -26,16 +30,36 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
     }, 450);
   }, [closeModal]);
 
-  const onRightHandler = () => {
-    setModalImageIdx(
-      modalImageIdx !== product?.images?.length - 1 ? modalImageIdx + 1 : 0,
-    );
+  const onLeftHandler = () => {
+    setFinishLeftAnimationX(true);
+
+    setTimeout(() => {
+      setFinishLeftAnimationX(false);
+      setModalImageIdx(
+        modalImageIdx !== 0 ? modalImageIdx - 1 : product?.images?.length - 1,
+      );
+      setStartLeftAnimationX(true);
+    }, 500);
+
+    setTimeout(() => {
+      setStartLeftAnimationX(false);
+    }, 1000);
   };
 
-  const onLeftHandler = () => {
-    setModalImageIdx(
-      modalImageIdx !== 0 ? modalImageIdx - 1 : product?.images?.length - 1,
-    );
+  const onRightHandler = () => {
+    setFinishRightAnimationX(true);
+
+    setTimeout(() => {
+      setFinishRightAnimationX(false);
+      setModalImageIdx(
+        modalImageIdx !== product?.images?.length - 1 ? modalImageIdx + 1 : 0,
+      );
+      setStartRightAnimationX(true);
+    }, 500);
+
+    setTimeout(() => {
+      setStartRightAnimationX(false);
+    }, 1000);
   };
 
   const onBackdropClick = e => e.target === e.currentTarget && onCloseModal();
@@ -66,7 +90,17 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
                 : imageNotFound
             }
             alt={product.title}
-            className={s.modalImage}
+            className={
+              startLeftAnimationX
+                ? s.onStartLeftTranslateAnimationX
+                : startRightAnimationX
+                ? s.onStartRightTranslateAnimationX
+                : finishLeftAnimationX
+                ? s.onFinishLeftTranslateAnimationX
+                : finishRightAnimationX
+                ? s.onFinishRightTranslateAnimationX
+                : s.modalImage
+            }
           />
         </Swiper>
 
