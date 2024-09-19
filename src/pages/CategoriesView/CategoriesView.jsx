@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useGlobalState } from 'state';
-import { fetchCategories } from 'api';
+import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
+import { fetchCategories, fetchProducts } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -11,7 +11,8 @@ import imageBlank from 'assets/shop.jpg';
 import s from './CategoriesView.module.css';
 
 export default function CategoriesView({ setProductsByCategory }) {
-  const { mainHeight } = useGlobalState('global');
+  const { mainHeight, products } = useGlobalState('global');
+  const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [scrolledTop, setScrolledTop] = useState(0);
@@ -23,6 +24,13 @@ export default function CategoriesView({ setProductsByCategory }) {
   useEffect(pageUp, []);
 
   useEffect(() => {
+    window.onscroll = () =>
+      setScrolledTop(
+        document.body.scrollTop || document.documentElement.scrollTop,
+      );
+  }, []);
+
+  useEffect(() => {
     setLoading(true);
 
     fetchCategories()
@@ -32,10 +40,15 @@ export default function CategoriesView({ setProductsByCategory }) {
   }, []);
 
   useEffect(() => {
-    window.onscroll = () =>
-      setScrolledTop(
-        document.body.scrollTop || document.documentElement.scrollTop,
-      );
+    if (products.length === 0) {
+      fetchProducts().then(products => {
+        products.sort(
+          (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
+        );
+        changeGlobalState(updateProducts, products);
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
