@@ -28,9 +28,7 @@ export default function AppBar({ setDefaultsProducts }) {
           <NavLink
             title={languageDeterminer(LANGUAGE.appBar.homeLink)}
             to="/categories"
-            className={({ isActive }) =>
-              isActive ? s.activeLink : s.inactiveLink
-            }
+            className={s.link}
             onClick={setDefaultsProducts}
             end
           >
@@ -40,7 +38,7 @@ export default function AppBar({ setDefaultsProducts }) {
                 src={logo}
                 alt={languageDeterminer(LANGUAGE.logoAlt)}
               />
-              <h1 className={s.navigationTitles}>
+              <h1 className={s.brand}>
                 {languageDeterminer(LANGUAGE.titles.brand)}
               </h1>
             </div>
@@ -85,11 +83,7 @@ export default function AppBar({ setDefaultsProducts }) {
                 onClick={setDefaultsProducts}
                 end
               >
-                <div className={s.logoBox}>
-                  <h1 className={s.navigationTitles}>
-                    {languageDeterminer(LANGUAGE.titles.categories)}
-                  </h1>
-                </div>
+                {languageDeterminer(LANGUAGE.titles.categories)}
               </NavLink>
 
               <NavLink
@@ -101,28 +95,10 @@ export default function AppBar({ setDefaultsProducts }) {
                 onClick={setDefaultsProducts}
                 end
               >
-                <div className={s.logoBox}>
-                  <h1 className={s.navigationTitles}>
-                    {languageDeterminer(LANGUAGE.titles.products)}
-                  </h1>
-                </div>
+                {languageDeterminer(LANGUAGE.titles.products)}
               </NavLink>
             </div>
-          ) : (
-            <div className={s.logoBox}>
-              <img
-                className={s.logo}
-                src={logo}
-                alt={languageDeterminer(LANGUAGE.logoAlt)}
-              />
-              <h1 className={s.navigationTitles}>
-                {languageDeterminer(LANGUAGE.titles.categories)}
-              </h1>
-              <h1 className={s.navigationTitles}>
-                {languageDeterminer(LANGUAGE.titles.products)}
-              </h1>
-            </div>
-          )}
+          ) : null}
         </div>
 
         {user.name ? (
