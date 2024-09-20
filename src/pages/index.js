@@ -1,3 +1,4 @@
+export { default as AboutView } from './AboutView';
 export { default as CategoriesView } from './CategoriesView';
 export { default as ProductsView } from './ProductsView';
 export { default as CartView } from './CartView';

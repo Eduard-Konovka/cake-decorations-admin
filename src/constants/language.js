@@ -24,13 +24,35 @@ export const LANGUAGE = {
       eng: 'Cake decorations',
       ukr: 'Тортові прикраси',
     },
+
     categories: {
       eng: 'Categories',
       ukr: 'Категорії',
     },
+
     products: {
       eng: 'Products',
       ukr: 'Товари',
+    },
+
+    about: {
+      eng: 'About us',
+      ukr: 'Про нас',
+    },
+
+    contacts: {
+      eng: 'Contacts',
+      ukr: 'Контакти',
+    },
+
+    delivery: {
+      eng: 'Delivery and payment',
+      ukr: 'Доставка та оплата',
+    },
+
+    portfolio: {
+      eng: 'Portfolio',
+      ukr: 'Портфоліо',
     },
   },
 
@@ -40,14 +62,34 @@ export const LANGUAGE = {
   },
 
   appBar: {
-    homeLink: {
-      eng: 'Go to the main page',
-      ukr: 'Перейти на головну сторінку',
+    categoriesLink: {
+      eng: 'Go to the product categories page',
+      ukr: 'Перейти на сторінку категорій товарів',
     },
 
-    productListLink: {
+    productsLink: {
       eng: 'Go to product list',
       ukr: 'Перейти до списку товарів',
+    },
+
+    aboutLink: {
+      eng: 'Go to the page about us',
+      ukr: 'Перейти на сторінку про нас',
+    },
+
+    contactsLink: {
+      eng: 'Go to our contacts page',
+      ukr: 'Перейти на сторінку наших контактів',
+    },
+
+    deliveryLink: {
+      eng: 'Go to the shipping and payment information page',
+      ukr: 'Перейти на сторінку інформації про доставку та оплату',
+    },
+
+    portfolioLink: {
+      eng: 'Go to our portfolio',
+      ukr: 'Перейти до нашого портфоліо',
     },
 
     cartLink: {

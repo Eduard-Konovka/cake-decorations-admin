@@ -24,93 +24,38 @@ export default function AppBar({ setDefaultsProducts }) {
   return (
     <header className={s.header}>
       <div className={s.panel}>
-        <div className={s.headbar}>
-          <NavLink
-            title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-            to="/categories"
-            className={s.link}
-            onClick={setDefaultsProducts}
-            end
-          >
-            <div className={s.logoBox}>
-              <img
-                className={s.logo}
-                src={logo}
-                alt={languageDeterminer(LANGUAGE.logoAlt)}
-              />
-              <h1 className={s.brand}>
-                {languageDeterminer(LANGUAGE.titles.brand)}
-              </h1>
-            </div>
-          </NavLink>
-        </div>
-
-        <div className={s.brandInfo}>{'+380 (50) 131-66-43'}</div>
-        <div className={s.brandInfo}>{'+380 (98) 133-20-37'}</div>
-        <div className={s.brandInfo}>
-          {'Центральний ринок, магазин № 316, Ізмаїл, Україна'}
-        </div>
-
-        <Button
-          title={languageDeterminer(LANGUAGE.appBar.language)}
-          typeForm="icon"
-          disabled={language === 'EN'}
-          onClick={() => changeGlobalState(updateLanguage, 'EN')}
+        <NavLink
+          title={languageDeterminer(LANGUAGE.appBar.categoriesLink)}
+          to="/categories"
+          className={s.link}
+          onClick={setDefaultsProducts}
+          end
         >
-          {'EN'}
-        </Button>
+          <div className={s.logoBox}>
+            <img
+              className={s.logo}
+              src={logo}
+              alt={languageDeterminer(LANGUAGE.logoAlt)}
+            />
+            <h1 className={s.brand}>
+              {languageDeterminer(LANGUAGE.titles.brand)}
+            </h1>
+          </div>
+        </NavLink>
 
-        <Button
-          title={languageDeterminer(LANGUAGE.appBar.language)}
-          typeForm="icon"
-          disabled={language === 'UA'}
-          onClick={() => changeGlobalState(updateLanguage, 'UA')}
-        >
-          {'UA'}
-        </Button>
-      </div>
+        <div className={s.infoBox}>
+          <p className={s.brandInfo}>
+            {'Центральний ринок, магазин № 316, Ізмаїл, Україна'}
+          </p>
 
-      <nav className={s.nav}>
-        <div className={s.headbar}>
-          {user.name ? (
-            <div>
-              <NavLink
-                title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-                to="/categories"
-                className={({ isActive }) =>
-                  isActive ? s.activeLink : s.inactiveLink
-                }
-                onClick={setDefaultsProducts}
-                end
-              >
-                {languageDeterminer(LANGUAGE.titles.categories)}
-              </NavLink>
-
-              <NavLink
-                title={languageDeterminer(LANGUAGE.appBar.homeLink)}
-                to="/products"
-                className={({ isActive }) =>
-                  isActive ? s.activeLink : s.inactiveLink
-                }
-                onClick={setDefaultsProducts}
-                end
-              >
-                {languageDeterminer(LANGUAGE.titles.products)}
-              </NavLink>
-            </div>
-          ) : null}
+          <div className={s.phoneBox}>
+            <p className={s.brandInfo}>{'+380 (50) 131-66-43'}</p>
+            <p className={s.brandInfo}>{'+380 (98) 133-20-37'}</p>
+          </div>
         </div>
 
         {user.name ? (
           <div className={s.userbar}>
-            <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.cartLink)}
-              to="/cart"
-              className={({ isActive }) =>
-                isActive ? s.activeCart : s.inactiveCart
-              }
-            />
-
             <Button
               title={languageDeterminer(LANGUAGE.appBar.signOut.title)}
               type="button"
@@ -131,6 +76,108 @@ export default function AppBar({ setDefaultsProducts }) {
           </div>
         ) : (
           <p className={s.user}>{languageDeterminer(LANGUAGE.appBar.hello)}</p>
+        )}
+
+        <div>
+          <Button
+            title={languageDeterminer(LANGUAGE.appBar.language)}
+            typeForm="icon"
+            disabled={language === 'UA'}
+            onClick={() => changeGlobalState(updateLanguage, 'UA')}
+          >
+            {'UA'}
+          </Button>
+
+          <Button
+            title={languageDeterminer(LANGUAGE.appBar.language)}
+            typeForm="icon"
+            disabled={language === 'EN'}
+            onClick={() => changeGlobalState(updateLanguage, 'EN')}
+          >
+            {'EN'}
+          </Button>
+        </div>
+      </div>
+
+      <nav className={s.nav}>
+        {user.name && (
+          <>
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.categoriesLink)}
+              to="/categories"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              onClick={setDefaultsProducts}
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.categories)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.productsLink)}
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              onClick={setDefaultsProducts}
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.products)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.aboutLink)}
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.about)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.contactsLink)}
+              to="/contacts"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.contacts)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.deliveryLink)}
+              to="/delivery"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.delivery)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.portfolioLink)}
+              to="/portfolio"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.portfolio)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.cartLink)}
+              to="/cart"
+              className={({ isActive }) =>
+                isActive ? s.activeCart : s.inactiveCart
+              }
+            />
+          </>
         )}
       </nav>
     </header>
