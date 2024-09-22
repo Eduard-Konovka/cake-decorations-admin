@@ -188,6 +188,12 @@
   font-weight: 500;
 }
 
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btnLink {
   text-decoration: none;
   color: inherit;

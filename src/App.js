@@ -179,6 +179,7 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <ProductsView
                   productsByCategoryOrTag={productsByCategoryOrTag}
+                  addToCart={addToCart}
                 />
               </PrivateRoute>
             }

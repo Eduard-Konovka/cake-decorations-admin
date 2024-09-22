@@ -273,16 +273,6 @@ export const LANGUAGE = {
       ukr: 'Ціна: ',
     },
 
-    buttonTitle: {
-      eng: 'Add the product to the cart',
-      ukr: 'Додайте товар у кошик',
-    },
-
-    buttonText: {
-      eng: 'Add to cart',
-      ukr: 'Купити',
-    },
-
     сollapseButtonTitle: {
       eng: 'Collapse',
       ukr: 'Згорнути',
@@ -318,6 +308,18 @@ export const LANGUAGE = {
     price: {
       eng: 'Price: ',
       ukr: 'Ціна: ',
+    },
+
+    button: {
+      title: {
+        eng: 'Add the product to the cart',
+        ukr: 'Додайте товар у кошик',
+      },
+
+      text: {
+        eng: 'Buy',
+        ukr: 'Купити',
+      },
     },
   },
 

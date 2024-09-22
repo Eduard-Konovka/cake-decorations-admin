@@ -18,7 +18,7 @@
 
 .black {
   composes: altSpinner;
-  color: #270000;
+  color: var(--primery-color);
 }
 
 .white {

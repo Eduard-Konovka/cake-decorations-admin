@@ -12,7 +12,7 @@ import icons from 'assets/icons.svg';
 import imageBlank from 'assets/shop.jpg';
 import s from './ProductsView.module.css';
 
-export default function ProductsView({ productsByCategoryOrTag }) {
+export default function ProductsView({ productsByCategoryOrTag, addToCart }) {
   const { mainHeight, products } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -401,7 +401,7 @@ export default function ProductsView({ productsByCategoryOrTag }) {
           </section>
 
           <section className={s.productList}>
-            <ProductList products={dozensOfProducts} />
+            <ProductList products={dozensOfProducts} addToCart={addToCart} />
           </section>
 
           {scrolledTop > 300 && (
@@ -425,4 +425,5 @@ export default function ProductsView({ productsByCategoryOrTag }) {
 
 ProductsView.propTypes = {
   productsByCategoryOrTag: PropTypes.array.isRequired,
+  addToCart: PropTypes.func.isRequired,
 };

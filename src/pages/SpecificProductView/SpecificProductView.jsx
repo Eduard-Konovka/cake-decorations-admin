@@ -162,9 +162,7 @@ export default function SpecificProductView({
 
                   <div>
                     <Button
-                      title={languageDeterminer(
-                        LANGUAGE.specificProductView.buttonTitle,
-                      )}
+                      title={languageDeterminer(LANGUAGE.product.button.title)}
                       type="button"
                       disabled={!count}
                       styles={s.btn}
@@ -172,9 +170,7 @@ export default function SpecificProductView({
                         addToCart({ ...product, count: Number(count) })
                       }
                     >
-                      {languageDeterminer(
-                        LANGUAGE.specificProductView.buttonText,
-                      )}
+                      {languageDeterminer(LANGUAGE.product.button.text)}
                     </Button>
                   </div>
                 </section>

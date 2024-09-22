@@ -10,12 +10,14 @@
 
 .backdropEmergence {
   composes: backdrop;
-  animation: backdropEmergence 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: backdropEmergence var(--modal-action)
+    var(--time-distribution-function);
 }
 
 .backdropFading {
   composes: backdrop;
-  animation: backdropFading 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: backdropFading var(--modal-action)
+    var(--time-distribution-function);
 }
 
 @keyframes backdropEmergence {
@@ -69,12 +71,13 @@
 
 .contentEmergence {
   composes: content;
-  animation: contentEmergence 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: contentEmergence var(--modal-action)
+    var(--time-distribution-function);
 }
 
 .contentFading {
   composes: content;
-  animation: contentFading 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: contentFading var(--modal-action) var(--time-distribution-function);
 }
 
 @keyframes contentEmergence {
@@ -125,14 +128,14 @@
   transform: rotateZ(0);
   transform-origin: center center;
 
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 550ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: rotateX 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform var(--modal-action) var(--time-distribution-function),
+    fill var(--modal-plus-action) var(--time-distribution-function);
+  animation: rotateX 1500ms var(--time-distribution-function);
 }
 
 .iconBtn:hover,
 .iconBtn:focus-visible {
-  fill: #f32196;
+  fill: var(--secondary-background-color);
 }
 
 .iconCloseBtn {
@@ -191,7 +194,7 @@
 .onStartLeftTranslateAnimationX {
   composes: modalImage;
   animation-name: onStartLeftTranslateAnimateX;
-  animation-duration: 550ms;
+  animation-duration: var(--modal-plus-action);
 }
 
 @keyframes onStartLeftTranslateAnimateX {
@@ -207,7 +210,7 @@
 .onStartRightTranslateAnimationX {
   composes: modalImage;
   animation-name: onStartRightTranslateAnimateX;
-  animation-duration: 550ms;
+  animation-duration: var(--modal-plus-action);
 }
 
 @keyframes onStartRightTranslateAnimateX {
@@ -223,7 +226,7 @@
 .onFinishLeftTranslateAnimationX {
   composes: modalImage;
   animation-name: onFinishLeftTranslateAnimateX;
-  animation-duration: 550ms;
+  animation-duration: var(--modal-plus-action);
 }
 
 @keyframes onFinishLeftTranslateAnimateX {
@@ -239,7 +242,7 @@
 .onFinishRightTranslateAnimationX {
   composes: modalImage;
   animation-name: onFinishRightTranslateAnimateX;
-  animation-duration: 550ms;
+  animation-duration: var(--modal-plus-action);
 }
 
 @keyframes onFinishRightTranslateAnimateX {

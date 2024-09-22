@@ -10,17 +10,18 @@
   border: none;
   border-radius: 1vw;
 
-  background-color: #834812;
+  background-color: var(--secondary-background-color);
   color: #ffffff;
 
   font-weight: 500;
   font-size: 4.8vw;
   line-height: 1.25;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--time-action)
+      var(--time-distribution-function),
+    color var(--time-action) var(--time-distribution-function),
+    box-shadow var(--time-action) var(--time-distribution-function),
+    transform var(--time-action) var(--time-distribution-function);
 }
 
 @media screen and (min-width: 320px) {
@@ -56,8 +57,8 @@
 
 .btn:hover,
 .btn:focus-visible {
-  background-color: #c09212;
-  color: #270000;
+  background-color: var(--primery-background-color);
+  color: var(--primery-color);
   box-shadow: 0 0.3vw 0.3vw #56ca21;
   transform: scale(1.05);
 }
@@ -68,7 +69,7 @@
 
 .btn:disabled {
   background-color: #cea563bb;
-  color: #270000;
+  color: var(--primery-color);
   box-shadow: none;
   cursor: not-allowed;
   transform: scale(1);
