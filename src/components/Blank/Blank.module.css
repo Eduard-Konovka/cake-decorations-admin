@@ -10,7 +10,7 @@
 .title {
   font-size: 7.63vw;
   margin: 0 auto 2.54vw auto;
-  color: #270002;
+  color: var(--primery-color);
 }
 
 @media screen and (min-width: 393px) {

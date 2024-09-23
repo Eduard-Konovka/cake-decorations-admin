@@ -22,9 +22,6 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import 'api/baseUrl';
 import 'App.css';
 
-const AboutView = lazy(() =>
-  import('pages/AboutView' /* webpackChunkName: "AboutView" */),
-);
 const CategoriesView = lazy(() =>
   import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
 );
@@ -35,6 +32,12 @@ const SpecificProductView = lazy(() =>
   import(
     'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
   ),
+);
+const AboutView = lazy(() =>
+  import('pages/AboutView' /* webpackChunkName: "AboutView" */),
+);
+const PortfolioView = lazy(() =>
+  import('pages/PortfolioView' /* webpackChunkName: "PortfolioView" */),
 );
 const CartView = lazy(() =>
   import('pages/CartView' /* webpackChunkName: "CartView" */),
@@ -233,9 +236,7 @@ export default function App() {
             path="/portfolio"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.portfolio)}
-                />
+                <PortfolioView />
               </PrivateRoute>
             }
           />
