@@ -16,6 +16,9 @@ products and their quantity is calculated in the cart. For convenience, in the
 cart, the transition from the cart to the page of a separate product is
 additionally implemented.
 
+The project is located
+[cake-decorations-by-tetiana-chechina.netlify.app](https://cake-decorations-by-tetiana-chechina.netlify.app)
+
 The web application is implemented according to the "Mobile First" strategy with
 an adaptive-responsive layout with the following breakpoints:
 
