@@ -1,20 +1,24 @@
 # Web application of a product online store
 
-A single-page web application of an online productstore.
+**_This is a commercial open source project. And it is in the development stage!
+You can watch the development and improvement of this application in real time
+😉_**
+
+## A single-page web application of an online productstore
 
 The application allows you to search for products by part of the title; filter a
 selection of products by four price ranges or a certain price; sort products in
-descending and ascending order by SKU (Stock Keeping Unit, article number) or by
-price. On the page of a separate product, you can use a thematic tag to go to
-the list of products with a topic corresponding to the tag, so the application
-also implements sorting by thematic tags. On the page of a separate product,
-there is additionally a link to the Google search engine for the keywords of the
-product title. Both on the page of a separate product and in the cart, the
-amount of the order of a particular product is automatically calculated
-depending on the quantity, in addition, the total amount of the order of all
-products and their quantity is calculated in the cart. For convenience, in the
-cart, the transition from the cart to the page of a separate product is
-additionally implemented.
+descending and ascending order by SKU (Stock Keeping Unit, article number,
+identification number) or by price. On the page of a separate product, you can
+use a thematic tag to go to the list of products with a topic corresponding to
+the tag, so the application also implements sorting by thematic tags. On the
+page of a separate product, there is additionally a link to the Google search
+engine for the keywords of the product title. Both on the page of a separate
+product and in the cart, the amount of the order of a particular product is
+automatically calculated depending on the quantity, in addition, the total
+amount of the order of all products and their quantity is calculated in the
+cart. For convenience, in the cart, the transition from the cart to the page of
+a separate product is additionally implemented.
 
 The project is located
 [cake-decorations-by-tetiana-chechina.netlify.app](https://cake-decorations-by-tetiana-chechina.netlify.app)
@@ -38,7 +42,7 @@ The project was created using the "React" framework in combination with the
 "Node.js" back end on the basis of a server on the "Express" framework connected
 to the "MongoDB" database.
 
-The web server project is located
+<!-- The web server project is located
 [github.com/Eduard-Konovka/feb101-course-task-api](https://github.com/Eduard-Konovka/feb101-course-task-api).
 
 ## Application launch instructions
@@ -63,7 +67,7 @@ The order is sent to the MongoDB database. I track orders using the MongoDB
 Compass database application. Usually, in standard online stores, a mail client
 is also configured, which automatically sends orders to the store owner by
 e-mail. I also once had to implement this, but it goes beyond the scope of the
-course project, so I omitted it for now.
+course project, so I omitted it for now. -->
 
 ## Script commands in console:
 
