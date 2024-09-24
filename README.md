@@ -2,7 +2,7 @@
 
 **_This is a commercial open source project. And it is in the development stage!
 You can watch the development and improvement of this application in real time
-😉_**
+_**😉
 
 ## A single-page web application of an online productstore
 
