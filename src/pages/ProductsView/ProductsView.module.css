@@ -199,7 +199,7 @@
 
 .input {
   composes: barElement;
-  background-color: #ffffff;
+  background-color: var(--secondary-color);
   color: #705050;
   font-weight: 400;
 
@@ -443,7 +443,7 @@
   position: fixed;
   right: 3vw;
   bottom: 3vw;
-  fill: #ffffff;
+  fill: var(--secondary-color);
   background-color: var(--secondary-background-color);
   border-radius: 50%;
   transform-origin: center center;

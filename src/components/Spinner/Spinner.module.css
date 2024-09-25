@@ -23,7 +23,7 @@
 
 .white {
   composes: altSpinner;
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 
 .red {

@@ -51,7 +51,7 @@
 .btn:hover,
 .btn:focus-visible {
   background-color: var(--secondary-background-color);
-  color: #ffffff;
+  color: var(--secondary-color);
   box-shadow: var(--secondary-box-shadow);
   transform: scale(1.05);
 }

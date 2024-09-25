@@ -115,7 +115,7 @@
   padding: 0;
   font-weight: 700;
   font-size: 5vw;
-  color: #ffffff;
+  color: var(--secondary-color);
   text-shadow: 2px 2px 4px #000000;
   margin: 0 2vw 0 0;
 }
