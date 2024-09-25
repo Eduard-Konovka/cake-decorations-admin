@@ -21,7 +21,7 @@
 }
 
 .item {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   padding: 5.625vw;
   border-radius: 2.5vw;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.18),

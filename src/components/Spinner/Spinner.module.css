@@ -28,7 +28,7 @@
 
 .red {
   composes: altSpinner;
-  color: #f800ba;
+  color: var(--secondary-background-color);
 }
 
 .blue {
