@@ -181,7 +181,7 @@ export default function AppBar({ setDefaultsProducts }) {
                 isActive ? s.activeCart : s.inactiveCart
               }
             >
-              <div className={s.quantityInCart}>{cart.length}</div>
+              <span className={s.quantityInCart}>{cart.length}</span>
             </NavLink>
           </>
         )}
