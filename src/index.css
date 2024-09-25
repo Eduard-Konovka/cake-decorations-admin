@@ -2,17 +2,20 @@
 
 :root {
   --primery-background-color: #fbe118;
+  --inactive-primery-background-color: #fbe11850;
   --secondary-background-color: #e10685;
+  --inactive-secondary-background-color: #e1068550;
   --third-background-color: #fcf9f0;
 
   --primery-color: #270000;
+  --secondary-color: #ffffff;
   /* FIXME */
-  /* --secondary-color: #ffffff; */
   /* --title-color: #212121; */
   /* --accent-color: #2196f3; */
 
-  --box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
-    -1px 1px 3px rgba(0, 0, 0, 0.15);
+  --primery-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25),
+    2px 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 3px rgba(0, 0, 0, 0.15);
+  --secondary-box-shadow: 0 0.3vw 0.3vw #56ca21;
 
   /* --main-font: 'Roboto', sans-serif; */
   /* --title-font: 'Raleway', sans-serif; */

@@ -10,7 +10,7 @@
     var(--primery-background-color),
     var(--primery-background-color)
   );
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--primery-box-shadow);
   font-weight: 400;
   font-size: 12px;
 }
@@ -61,5 +61,5 @@
 
 .link:hover,
 .link:focus-visible {
-  text-shadow: var(--box-shadow);
+  text-shadow: var(--primery-box-shadow);
 }

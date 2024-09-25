@@ -59,7 +59,7 @@
 .btn:focus-visible {
   background-color: var(--primery-background-color);
   color: var(--primery-color);
-  box-shadow: 0 0.3vw 0.3vw #56ca21;
+  box-shadow: var(--secondary-box-shadow);
   transform: scale(1.05);
 }
 
@@ -68,7 +68,7 @@
 }
 
 .btn:disabled {
-  background-color: #cea563bb;
+  background-color: var(--inactive-secondary-background-color);
   color: var(--primery-color);
   box-shadow: none;
   cursor: not-allowed;

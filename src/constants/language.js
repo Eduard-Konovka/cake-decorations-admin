@@ -317,8 +317,8 @@ export const LANGUAGE = {
       },
 
       text: {
-        eng: 'Buy',
-        ukr: 'Купити',
+        eng: 'Add to cart',
+        ukr: 'В кошик',
       },
     },
   },

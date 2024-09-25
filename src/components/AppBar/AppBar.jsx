@@ -16,7 +16,7 @@ import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
 export default function AppBar({ setDefaultsProducts }) {
-  const { user, language } = useGlobalState('global');
+  const { user, language, cart } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -180,7 +180,9 @@ export default function AppBar({ setDefaultsProducts }) {
               className={({ isActive }) =>
                 isActive ? s.activeCart : s.inactiveCart
               }
-            />
+            >
+              <div className={s.quantityInCart}>{cart.length}</div>
+            </NavLink>
           </>
         )}
       </nav>
