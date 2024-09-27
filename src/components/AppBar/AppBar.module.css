@@ -47,25 +47,41 @@
     var(--primery-background-color),
     var(--primery-background-color)
   );
+  height: 26.65vw;
   padding: 10px 16px;
   border-radius: 8px 8px 0 0;
 }
 
+@media screen and (min-width: 320px) {
+  .panel {
+    height: 88px;
+  }
+}
+
 @media screen and (min-width: 420px) {
   .panel {
+    height: 78px;
     padding: 5px 16px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .panel {
+    height: 98px;
     padding: 10px 16px;
     border-radius: 10px 10px 0 0;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .panel {
+    height: 142px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .panel {
+    height: 8.85vw;
     padding: 0.625vw 1vw;
   }
 }
@@ -81,8 +97,15 @@
     var(--secondary-background-color)
   );
   width: 100%;
+  height: 60vw;
   padding: 10px 16px;
   border-radius: 0 0 8px 8px;
+}
+
+@media screen and (min-width: 320px) {
+  .nav {
+    height: 182px;
+  }
 }
 
 @media screen and (min-width: 420px) {
@@ -90,19 +113,28 @@
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    height: 42px;
     padding: 5px 16px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .nav {
+    height: 46px;
     padding: 8px 16px;
     border-radius: 0 0 10px 10px;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .nav {
+    height: 60px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .nav {
+    height: 4vw;
     padding: 0.625vw 1vw;
   }
 }
@@ -232,6 +264,7 @@
 
 /*#region CART */
 .cart {
+  position: relative;
   width: 8vw;
   height: 8vw;
   margin-right: 1.75vw;
@@ -264,7 +297,6 @@
 
 @media screen and (min-width: 1024px) {
   .cart {
-    position: relative;
     width: 2.5vw;
     height: 2.5vw;
     margin-right: 0.75vw;
