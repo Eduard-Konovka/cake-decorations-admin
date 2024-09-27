@@ -103,10 +103,11 @@ export default function App() {
     );
 
     if (productDuplication.length > 0) {
-      toast.error(languageDeterminer(LANGUAGE.productDuplication));
+      toast.error(languageDeterminer(LANGUAGE.addingToCard.productDuplication));
       return;
     }
 
+    toast.success(languageDeterminer(LANGUAGE.addingToCard.productAdded));
     changeGlobalState(updateCart, [...cart, productToBeAdded]);
   }
 

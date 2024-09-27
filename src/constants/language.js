@@ -56,9 +56,16 @@ export const LANGUAGE = {
     },
   },
 
-  productDuplication: {
-    eng: 'This item is already in the cart!',
-    ukr: 'Цей товар вже в кошику!',
+  addingToCard: {
+    productDuplication: {
+      eng: 'This item is already in the cart!',
+      ukr: 'Цей товар вже в кошику!',
+    },
+
+    productAdded: {
+      eng: 'The product has been successfully added to the cart!',
+      ukr: 'Товар успішно додано в кошик!',
+    },
   },
 
   appBar: {
