@@ -22,7 +22,7 @@ export default function AppBar({ setDefaultsProducts }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
-    <header className={s.header}>
+    <header id="header" className={s.header}>
       <div className={s.panel}>
         <NavLink
           title={languageDeterminer(LANGUAGE.appBar.categoriesLink)}

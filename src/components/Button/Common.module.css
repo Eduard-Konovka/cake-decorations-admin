@@ -12,6 +12,7 @@
 
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
+  box-shadow: var(--primery-box-shadow);
 
   font-weight: 500;
   font-size: 4.8vw;

@@ -8,7 +8,7 @@ export default function Footer() {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
-    <footer className={s.footer}>
+    <footer id="footer" className={s.footer}>
       {languageDeterminer(LANGUAGE.footer.label)}
       <a
         title={languageDeterminer(LANGUAGE.footer.title)}

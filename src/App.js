@@ -59,25 +59,28 @@ export default function App() {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
-    const appWidth = window.innerWidth;
     const appHeight = window.innerHeight;
+
+    const container = document.getElementById('container');
+    const containerStyle = window.getComputedStyle(container);
+    const containerPaddings =
+      Number.parseInt(containerStyle.getPropertyValue('padding')) * 2;
+
+    const header = document.getElementById('header');
+    const headerStyle = window.getComputedStyle(header);
+    const headerHeight =
+      Number.parseInt(headerStyle.getPropertyValue('height')) +
+      Number.parseInt(headerStyle.getPropertyValue('margin-bottom'));
+
+    const footer = document.getElementById('footer');
+    const footerStyle = window.getComputedStyle(footer);
+    const footerHeight =
+      Number.parseInt(footerStyle.getPropertyValue('margin-top')) +
+      Number.parseInt(footerStyle.getPropertyValue('height'));
 
     // Container, header and footer subtracted from viewport height
     const computedHeight =
-      appWidth < 320
-        ? appHeight - (10 + (appWidth * 0.265 + appWidth * 0.6 + 5) + 43)
-        : appWidth < 420
-        ? appHeight - (12 + (88 + 182 + 6) + 47)
-        : appWidth < 800
-        ? appHeight - (14 + (78 + 42 + 7) + 50)
-        : appWidth < 1024
-        ? appHeight - (16 + (98 + 46 + 8) + 52)
-        : appWidth < 1600
-        ? appHeight - (20 + (142 + 60 + 10) + 57)
-        : appHeight -
-          (appWidth / 80 +
-            (appWidth * 0.0885 + appWidth * 0.04 + appWidth / 160) +
-            (appWidth * 0.01875 + appWidth / 55.56));
+      appHeight - (containerPaddings + headerHeight + footerHeight);
 
     changeGlobalState(updateMainHeight, computedHeight);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -267,9 +270,9 @@ export default function App() {
             }
           />
         </Routes>
-
-        <Footer />
       </Suspense>
+
+      <Footer />
 
       <ToastContainer />
     </Container>

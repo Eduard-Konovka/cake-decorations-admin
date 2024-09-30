@@ -14,11 +14,13 @@ export default function Product({ product, addToCart }) {
   return (
     <article>
       <Link to={`/products/${product._id}`} className={s.btnLink}>
-        <img
-          className={s.image}
-          src={product?.images?.length > 0 ? product.images[0] : defaultImage}
-          alt={product.title}
-        />
+        <div className={s.imageBox}>
+          <img
+            className={s.image}
+            src={product?.images?.length > 0 ? product.images[0] : defaultImage}
+            alt={product.title}
+          />
+        </div>
 
         <div className={s.thumb}>
           <h3 className={s.title}>
