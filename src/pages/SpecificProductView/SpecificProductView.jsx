@@ -7,7 +7,7 @@ import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE, TAMPLATES } from 'constants';
+import { GLOBAL, LANGUAGE, DICTIONARIES } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
 
@@ -54,8 +54,8 @@ export default function SpecificProductView({
 
   useEffect(() => {
     if (product.title) {
-      setLinks(getTags(product.title, TAMPLATES.links));
-      setTags(getTags(product.title, TAMPLATES.tags));
+      setLinks(getTags(product.title, DICTIONARIES.links));
+      setTags(getTags(product.title, DICTIONARIES.tags));
     }
   }, [product]);
 

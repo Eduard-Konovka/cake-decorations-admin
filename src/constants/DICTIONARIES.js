@@ -1,4 +1,4 @@
-export const TAMPLATES = {
+export const DICTIONARIES = {
   tags: [
     'мак',
     'мед',
