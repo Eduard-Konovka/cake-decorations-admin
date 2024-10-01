@@ -1,0 +1,58 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  -webkit-box-reflect: below 0
+    linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+.wave {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-weight: 500;
+  animation: wave 2s infinite calc(0.1s * var(--i));
+}
+
+.black {
+  composes: wave;
+  color: var(--primery-color);
+}
+
+.white {
+  composes: wave;
+  color: var(--secondary-color);
+}
+
+.red {
+  composes: wave;
+  color: var(--secondary-background-color);
+}
+
+.blue {
+  composes: wave;
+  color: #2196f3;
+}
+
+.green {
+  composes: wave;
+  color: #3dbe3d;
+}
+
+.gray {
+  composes: wave;
+  color: gray;
+}
+
+@keyframes wave {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}

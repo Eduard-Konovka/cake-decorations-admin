@@ -11,6 +11,7 @@ export { default as Container } from './Container';
 export { default as CountForm } from './CountForm';
 export { default as Footer } from './Footer';
 export { default as Links } from './Links';
+export { default as Loader } from './Loader';
 export { default as Modal } from './Modal';
 export { default as OptionList } from './OptionList';
 export { default as Processing } from './Processing';

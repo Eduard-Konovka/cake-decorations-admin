@@ -6,14 +6,14 @@
 }
 
 .spinner {
-  animation: spinner 3s infinite linear;
   position: relative;
   z-index: 1;
+  animation: spinner 3s infinite linear;
 }
 
 .altSpinner {
-  animation: altSpinner 3s infinite linear;
   margin-left: -10%;
+  animation: altSpinner 3s infinite linear;
 }
 
 .black {
