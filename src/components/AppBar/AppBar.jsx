@@ -94,6 +94,16 @@ export default function AppBar({ setDefaultsProducts }) {
           <Button
             title={languageDeterminer(LANGUAGE.appBar.language)}
             typeForm="icon"
+            disabled={language === 'RU'}
+            styles={s.lngBtn}
+            onClick={() => changeGlobalState(updateLanguage, 'RU')}
+          >
+            {'RU'}
+          </Button>
+
+          <Button
+            title={languageDeterminer(LANGUAGE.appBar.language)}
+            typeForm="icon"
             disabled={language === 'EN'}
             styles={s.lngBtn}
             onClick={() => changeGlobalState(updateLanguage, 'EN')}

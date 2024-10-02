@@ -6,7 +6,7 @@ import defaultImage from 'assets/notFound.png';
 import s from './Category.module.css';
 
 export default function Category({ category, setProductsByCategory }) {
-  const { products } = useGlobalState('global');
+  const { products, language } = useGlobalState('global');
 
   function handleCategoryClick(categoryId) {
     const productsFromCategory = products.filter(product =>
@@ -27,12 +27,14 @@ export default function Category({ category, setProductsByCategory }) {
           <img
             className={s.image}
             src={category?.image?.length > 0 ? category.image : defaultImage}
-            alt={category.title}
+            alt={language === 'RU' ? category.ruTitle : category.uaTitle}
           />
         </div>
 
         <div className={s.thumb}>
-          <h3 className={s.title}>{category.title}</h3>
+          <h3 className={s.title}>
+            {language === 'RU' ? category.ruTitle : category.uaTitle}
+          </h3>
         </div>
       </article>
     </Link>
@@ -42,8 +44,8 @@ export default function Category({ category, setProductsByCategory }) {
 Category.propTypes = {
   category: PropTypes.shape({
     _id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    titleRu: PropTypes.string.isRequired,
+    uaTitle: PropTypes.string.isRequired,
+    ruTitle: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
   }).isRequired,
   setProductsByCategory: PropTypes.func.isRequired,

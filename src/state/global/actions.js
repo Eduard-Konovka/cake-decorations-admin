@@ -23,6 +23,12 @@ const actions = {
     return updatedState;
   },
 
+  updateCategories: (state, payload) => {
+    const updatedState = { ...state };
+    updatedState.global.categories = payload;
+    return updatedState;
+  },
+
   updateProducts: (state, payload) => {
     const updatedState = { ...state };
     updatedState.global.products = payload;
@@ -42,6 +48,7 @@ export const {
   updateLanguage,
   updateMainHeight,
   updateUser,
+  updateCategories,
   updateProducts,
   updateCart,
 } = actions;

@@ -1,12 +1,15 @@
 export default function languageWrapper(lang, obj) {
   switch (lang) {
-    case 'EN':
-      return obj.eng;
-
     case 'UA':
-      return obj.ukr || obj.eng;
+      return obj.ukr;
+
+    case 'RU':
+      return obj.rus || obj.ukr;
+
+    case 'EN':
+      return obj.eng || obj.ukr;
 
     default:
-      return obj.eng;
+      return obj.ukr;
   }
 }

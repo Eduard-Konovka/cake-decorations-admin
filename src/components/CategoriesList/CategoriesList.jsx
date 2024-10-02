@@ -1,17 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useGlobalState } from 'state';
 import Category from 'components/Category';
 import allProducts from 'assets/shop.jpg';
 import s from './CategoriesList.module.css';
 
 const ALL_PRODUCTS = {
   _id: 'allProducts',
-  title: 'Всі категорії',
-  titleRu: 'Все категории',
+  uaTitle: 'Всі категорії',
+  ruTitle: 'Все категории',
   image: allProducts,
 };
 
-export default function CategoriesList({ categories, setProductsByCategory }) {
+export default function CategoriesList({ setProductsByCategory }) {
+  const { categories } = useGlobalState('global');
+
   return (
     <ul className={s.list}>
       {categories.map(item => (
@@ -34,10 +37,5 @@ export default function CategoriesList({ categories, setProductsByCategory }) {
 }
 
 CategoriesList.propTypes = {
-  categories: PropTypes.arrayOf(
-    PropTypes.shape({
-      _id: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
   setProductsByCategory: PropTypes.func.isRequired,
 };

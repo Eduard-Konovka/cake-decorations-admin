@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
+import {
+  useGlobalState,
+  useChangeGlobalState,
+  updateCategories,
+  updateProducts,
+} from 'state';
 import { fetchCategories, fetchProducts } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
@@ -11,13 +16,12 @@ import imageBlank from 'assets/shop.jpg';
 import s from './CategoriesView.module.css';
 
 export default function CategoriesView({ setProductsByCategory }) {
-  const { mainHeight, products } = useGlobalState('global');
+  const { mainHeight, categories, products } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [scrolledTop, setScrolledTop] = useState(0);
   const [error, setError] = useState(null);
-  const [categories, setCategories] = useState([]);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -31,12 +35,15 @@ export default function CategoriesView({ setProductsByCategory }) {
   }, []);
 
   useEffect(() => {
-    setLoading(true);
+    if (categories.length === 0) {
+      setLoading(true);
 
-    fetchCategories()
-      .then(categories => setCategories(categories))
-      .catch(error => setError(error))
-      .finally(() => setLoading(false));
+      fetchCategories()
+        .then(categories => changeGlobalState(updateCategories, categories))
+        .catch(error => setError(error))
+        .finally(() => setLoading(false));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -75,10 +82,7 @@ export default function CategoriesView({ setProductsByCategory }) {
       {categories.length > 0 && (
         <>
           <section className={s.categoriesList}>
-            <CategoriesList
-              categories={categories}
-              setProductsByCategory={setProductsByCategory}
-            />
+            <CategoriesList setProductsByCategory={setProductsByCategory} />
           </section>
 
           {scrolledTop > 300 && (
