@@ -231,6 +231,7 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.delivery)}
+                  wave
                 />
               </PrivateRoute>
             }

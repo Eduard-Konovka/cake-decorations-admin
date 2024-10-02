@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './Loader.module.css';
+import s from './Wave.module.css';
 
-export default function Loader({ text, size = 5, color = 'black' }) {
+export default function Wave({ text, size = 5, color = 'black' }) {
   const textArray = text.split('');
 
   return (
@@ -21,7 +21,7 @@ export default function Loader({ text, size = 5, color = 'black' }) {
   );
 }
 
-Loader.propTypes = {
+Wave.propTypes = {
   text: PropTypes.string.isRequired,
   size: PropTypes.number,
   color: PropTypes.oneOf(['black', 'white', 'red', 'blue', 'green', 'gray']),
