@@ -128,4 +128,4 @@ db.forEach(obj => {
   const objKeys = Object.keys(obj);
   objKeys.forEach(key => dbKeys.add(key));
 });
-console.log(dbKeys);
+console.log('dbKeys --->', dbKeys);
