@@ -28,24 +28,24 @@ export default function Product({ product, addToCart }) {
         <div className={s.thumb}>
           <h3 className={s.title}>
             {language === 'RU'
-              ? product.ruTitle.length < GLOBAL.productView.titleLength
-                ? product.ruTitle
-                : product.ruTitle.slice(0, GLOBAL.productView.titleLength) +
+              ? product?.ruTitle?.length < GLOBAL.productView.titleLength
+                ? product?.ruTitle
+                : product?.ruTitle?.slice(0, GLOBAL.productView.titleLength) +
                   '...'
-              : product.uaTitle.length < GLOBAL.productView.titleLength
-              ? product.uaTitle
-              : product.uaTitle.slice(0, GLOBAL.productView.titleLength) +
+              : product?.uaTitle?.length < GLOBAL.productView.titleLength
+              ? product?.uaTitle
+              : product?.uaTitle?.slice(0, GLOBAL.productView.titleLength) +
                 '...'}
           </h3>
 
           <p className={s.shortDescription}>
             {language === 'RU'
-              ? product.ruDescription.slice(
+              ? product?.ruDescription?.slice(
                   0,
                   GLOBAL.productView.titleLength *
                     GLOBAL.productView.descriptionMultiplier,
                 ) + '...'
-              : product.uaDescription.slice(
+              : product?.uaDescription?.slice(
                   0,
                   GLOBAL.productView.titleLength *
                     GLOBAL.productView.descriptionMultiplier,

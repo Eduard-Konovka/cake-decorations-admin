@@ -9,18 +9,21 @@ import { LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
 export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
-  const { products } = useGlobalState('global');
+  const { language, products } = useGlobalState('global');
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   function handleTagClick(tag) {
     const productsTitlesToLowerCase = products.map(product => ({
       ...product,
-      title: product.title.toLowerCase(),
+      lowerCaseTitle:
+        language === 'RU'
+          ? product?.ruTitle?.toLowerCase() || product.title.toLowerCase()
+          : product?.uaTitle?.toLowerCase() || product.title.toLowerCase(),
     }));
 
     const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
-      product => product.title.includes(tag),
+      product => product.lowerCaseTitle.includes(tag),
     );
 
     const productIds = targetProductsToLowerCase.map(product => product._id);
