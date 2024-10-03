@@ -1,7 +1,7 @@
-export function getTags(title, tamplate) {
-  const arr = title.split(' ');
+export function getTags(title, dictionary) {
+  const titleArr = title.split(' ');
 
-  const pureArr = arr.map(word =>
+  const titlePureArr = titleArr.map(word =>
     word
       .toLowerCase()
       .split('')
@@ -19,10 +19,13 @@ export function getTags(title, tamplate) {
 
   const tags = [];
 
-  for (let i = 0; i < pureArr.length; i++) {
-    for (let j = 0; j < tamplate.length; j++) {
-      if (pureArr[i] === tamplate[j] && !tags.includes(pureArr[i])) {
-        tags.push(tamplate[j]);
+  for (let i = 0; i < titlePureArr.length; i++) {
+    for (let j = 0; j < dictionary.length; j++) {
+      if (
+        titlePureArr[i].startsWith(dictionary[j]) &&
+        !tags.includes(titlePureArr[i])
+      ) {
+        tags.push(dictionary[j]);
       }
     }
   }
