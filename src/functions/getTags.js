@@ -23,7 +23,7 @@ export function getTags(title, dictionary) {
     for (let j = 0; j < dictionary.length; j++) {
       if (
         titlePureArr[i].startsWith(dictionary[j]) &&
-        !tags.includes(titlePureArr[i])
+        !tags.includes(dictionary[j])
       ) {
         tags.push(dictionary[j]);
       }
