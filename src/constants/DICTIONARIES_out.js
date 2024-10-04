@@ -564,7 +564,6 @@ export const DICTIONARIES = {
     {
       веселка: 'веселка',
     },
-    // TODO
     {
       висот: 'висота',
     },
