@@ -23,6 +23,7 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
     }));
 
     const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
+      // FIXME includes ---> startsWith
       product => product.lowerCaseTitle.includes(tag),
     );
 
