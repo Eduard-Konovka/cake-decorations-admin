@@ -24,8 +24,20 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
 
     const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
       // FIXME includes ---> startsWith
-      product => product.lowerCaseTitle.includes(tag),
+      product => product.lowerCaseTitle.includes(tag.slice(0, 3)),
     );
+
+    function testinput(re, str) {
+      var midstring;
+      if (re.test(str)) {
+        midstring = ' содержит ';
+      } else {
+        midstring = ' не содержит ';
+      }
+      console.log(str + midstring + re.source);
+    }
+    testinput(/син/, 'синій');
+    console.log('--->', /син/.test('синій'));
 
     const productIds = targetProductsToLowerCase.map(product => product._id);
 
