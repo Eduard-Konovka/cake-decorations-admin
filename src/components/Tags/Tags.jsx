@@ -23,12 +23,11 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
     }));
 
     const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
-      // FIXME includes ---> startsWith
-      // product => product.lowerCaseTitle.includes(tag.slice(0, 3)),
-      product => new RegExp(tag.slice(0, 3)).test(product.lowerCaseTitle),
+      // FIXME tag.slice(0, 3)
+      product => new RegExp(` ${tag.slice(0, 3)}`).test(product.lowerCaseTitle),
     );
-
-    console.log('--->', /син/.test('синій'));
+    const str = 'Барвник темно-синій харчовий сухий жиророзчинний 2 г';
+    console.log('>->', new RegExp(` ${'жиророзчинний'.slice(0, 3)}`).test(str));
 
     const productIds = targetProductsToLowerCase.map(product => product._id);
 
