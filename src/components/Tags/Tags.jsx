@@ -13,40 +13,45 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  function handleTagClick(tag) {
-    const productsTitlesToLowerCase = products.map(product => ({
-      ...product,
+  function handleTagClick(tagQueries) {
+    const lowerCaseTitlesProducts = products.map(product => ({
+      lowerCaseProductId: product._id,
       lowerCaseTitle:
         language === 'RU'
           ? product?.ruTitle?.toLowerCase() || product.title.toLowerCase()
           : product?.uaTitle?.toLowerCase() || product.title.toLowerCase(),
     }));
 
-    const targetProductsToLowerCase = productsTitlesToLowerCase.filter(
-      // FIXME tag.slice(0, 3)
-      product => new RegExp(` ${tag.slice(0, 3)}`).test(product.lowerCaseTitle),
-    );
-    const str = 'Барвник темно-синій харчовий сухий жиророзчинний 2 г';
-    console.log('>->', new RegExp(` ${'жиророзчинний'.slice(0, 3)}`).test(str));
+    const targetProductsIds = [];
+    tagQueries.forEach(query => {
+      const lowerCaseTargetProducts = lowerCaseTitlesProducts.filter(
+        product =>
+          new RegExp(`^${query}`).test(product.lowerCaseTitle) ||
+          new RegExp(` ${query}`).test(product.lowerCaseTitle) ||
+          new RegExp(`-${query}`).test(product.lowerCaseTitle),
+      );
+      lowerCaseTargetProducts.forEach(targetProduct =>
+        targetProductsIds.push(targetProduct.lowerCaseProductId),
+      );
+    });
 
-    const productIds = targetProductsToLowerCase.map(product => product._id);
-
+    const uniqTargetProductsIds = [...new Set(targetProductsIds)];
     const targetProducts = products.filter(product =>
-      productIds.includes(product._id),
+      uniqTargetProductsIds.includes(product._id),
     );
 
     setProductsByTag(targetProducts);
   }
 
-  return tags.map(tag => (
-    <div key={tag} className={boxStyles}>
+  return tags.map(tagObj => (
+    <div key={tagObj.tag} className={boxStyles}>
       <Link
         to="/products"
-        title={`${languageDeterminer(LANGUAGE.tags)} "${tag}"`}
+        title={`${languageDeterminer(LANGUAGE.tags)} "${tagObj.tag}"`}
         className={classNames(s.tag, tagStyles)}
-        onClick={() => handleTagClick(tag)}
+        onClick={() => handleTagClick(tagObj.queries)}
       >
-        {`#${tag}`}
+        {`#${tagObj.tag}`}
       </Link>
     </div>
   ));

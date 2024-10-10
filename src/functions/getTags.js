@@ -26,9 +26,9 @@ export function getTags(title) {
       for (let l = 0; l < tegsDictionary[j].queries.length; l++) {
         if (
           titlePureArr[i].startsWith(tegsDictionary[j].queries[l]) &&
-          !tags.includes(tegsDictionary[j].tag)
+          !tags.includes(tegsDictionary[j])
         ) {
-          tags.push(tegsDictionary[j].tag);
+          tags.push(tegsDictionary[j]);
         }
       }
     }
