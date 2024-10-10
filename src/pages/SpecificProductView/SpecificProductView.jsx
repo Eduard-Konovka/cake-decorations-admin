@@ -7,10 +7,11 @@ import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE, DICTIONARIES } from 'constants';
+import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import s from './SpecificProductView.module.css';
 import tegsDictionary from 'db/tags.json';
+import linksDictionary from 'db/links.json';
+import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
   setProductsByTag,
@@ -66,7 +67,7 @@ export default function SpecificProductView({
       setLinks(
         getTags(
           language === 'RU' ? product.ruTitle : product.uaTitle,
-          DICTIONARIES.links,
+          linksDictionary,
           'links',
         ),
       );
