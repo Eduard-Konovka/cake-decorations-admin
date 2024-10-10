@@ -5,5 +5,7 @@ export {
   updateUser,
   updateCategories,
   updateProducts,
+  updateTagsDictionary,
+  updateLinksDictionary,
   updateCart,
 } from './actions';

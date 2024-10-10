@@ -5,8 +5,10 @@ import {
   useChangeGlobalState,
   updateCategories,
   updateProducts,
+  updateTagsDictionary,
+  updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProducts } from 'api';
+import { fetchCategories, fetchProducts, fetchTags, fetchLinks } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -16,7 +18,8 @@ import imageBlank from 'assets/shop.jpg';
 import s from './CategoriesView.module.css';
 
 export default function CategoriesView({ setProductsByCategory }) {
-  const { mainHeight, categories, products } = useGlobalState('global');
+  const { mainHeight, categories, products, tagsDictionary, linksDictionary } =
+    useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
@@ -48,12 +51,37 @@ export default function CategoriesView({ setProductsByCategory }) {
 
   useEffect(() => {
     if (products.length === 0) {
-      fetchProducts().then(products => {
-        products.sort(
-          (firstProduct, secondProduct) => firstProduct._id - secondProduct._id,
-        );
-        changeGlobalState(updateProducts, products);
-      });
+      fetchProducts()
+        .then(products => {
+          products.sort(
+            (firstProduct, secondProduct) =>
+              firstProduct._id - secondProduct._id,
+          );
+          changeGlobalState(updateProducts, products);
+        })
+        // TODO handle the error
+        .catch(error => console.log(error));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (!tagsDictionary) {
+      fetchTags()
+        .then(tagsDictionary =>
+          changeGlobalState(updateTagsDictionary, tagsDictionary),
+        )
+        // TODO handle the error
+        .catch(error => console.log(error));
+    }
+
+    if (!linksDictionary) {
+      fetchLinks()
+        .then(linksDictionary =>
+          changeGlobalState(updateLinksDictionary, linksDictionary),
+        )
+        // TODO handle the error
+        .catch(error => console.log(error));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

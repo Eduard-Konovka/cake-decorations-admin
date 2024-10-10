@@ -2,15 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { useGlobalState } from 'state';
-import { fetchProduct } from 'api';
+import {
+  useGlobalState,
+  useChangeGlobalState,
+  updateTagsDictionary,
+  updateLinksDictionary,
+} from 'state';
+import { fetchProduct, fetchTags, fetchLinks } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import tegsDictionary from 'db/tags.json';
-import linksDictionary from 'db/links.json';
 import s from './SpecificProductView.module.css';
 
 export default function SpecificProductView({
@@ -19,8 +22,16 @@ export default function SpecificProductView({
   addToCart,
 }) {
   const location = useLocation();
-  const { mainHeight, language, categories, products, cart } =
-    useGlobalState('global');
+  const {
+    mainHeight,
+    language,
+    categories,
+    products,
+    tagsDictionary,
+    linksDictionary,
+    cart,
+  } = useGlobalState('global');
+  const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -56,11 +67,32 @@ export default function SpecificProductView({
   }, [productId, products.length, savedProduct]);
 
   useEffect(() => {
+    if (!tagsDictionary) {
+      fetchTags()
+        .then(tagsDictionary =>
+          changeGlobalState(updateTagsDictionary, tagsDictionary),
+        )
+        // TODO handle the error
+        .catch(error => console.log(error));
+    }
+
+    if (!linksDictionary) {
+      fetchLinks()
+        .then(linksDictionary =>
+          changeGlobalState(updateLinksDictionary, linksDictionary),
+        )
+        // TODO handle the error
+        .catch(error => console.log(error));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     if (product.uaTitle || product.ruTitle) {
       setTags(
         getTags(
           language === 'RU' ? product.ruTitle : product.uaTitle,
-          tegsDictionary,
+          tagsDictionary,
           'tags',
         ),
       );
@@ -72,7 +104,7 @@ export default function SpecificProductView({
         ),
       );
     }
-  }, [language, product]);
+  }, [language, product, tagsDictionary, linksDictionary]);
 
   const toggleModal = () => {
     setShowModal(!showModal);

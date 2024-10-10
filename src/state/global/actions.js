@@ -35,6 +35,18 @@ const actions = {
     return updatedState;
   },
 
+  updateTagsDictionary: (state, payload) => {
+    const updatedState = { ...state };
+    updatedState.global.tagsDictionary = payload;
+    return updatedState;
+  },
+
+  updateLinksDictionary: (state, payload) => {
+    const updatedState = { ...state };
+    updatedState.global.linksDictionary = payload;
+    return updatedState;
+  },
+
   updateCart: (state, payload) => {
     localStorage.setItem('cart', JSON.stringify(payload));
 
@@ -50,5 +62,7 @@ export const {
   updateUser,
   updateCategories,
   updateProducts,
+  updateTagsDictionary,
+  updateLinksDictionary,
   updateCart,
 } = actions;

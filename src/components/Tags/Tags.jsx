@@ -30,6 +30,7 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
           new RegExp(` ${query}`).test(product.lowerCaseTitle) ||
           new RegExp(`-${query}`).test(product.lowerCaseTitle),
       );
+
       lowerCaseTargetProducts.forEach(targetProduct =>
         targetProductsIds.push(targetProduct.lowerCaseProductId),
       );
