@@ -25,7 +25,15 @@ export function getTags(title) {
     for (let j = 0; j < tegsDictionary.length; j++) {
       for (let l = 0; l < tegsDictionary[j].queries.length; l++) {
         if (
-          titlePureArr[i].startsWith(tegsDictionary[j].queries[l]) &&
+          (new RegExp(`^${tegsDictionary[j].queries[l]}`).test(
+            titlePureArr[i],
+          ) ||
+            new RegExp(` ${tegsDictionary[j].queries[l]}`).test(
+              titlePureArr[i],
+            ) ||
+            new RegExp(`-${tegsDictionary[j].queries[l]}`).test(
+              titlePureArr[i],
+            )) &&
           !tags.includes(tegsDictionary[j])
         ) {
           tags.push(tegsDictionary[j]);
