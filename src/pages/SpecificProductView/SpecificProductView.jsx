@@ -5,11 +5,12 @@ import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
-import { getLanguage, getCategory, getTags, getLinks, pageUp } from 'functions';
+import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE, DICTIONARIES } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
+import tegsDictionary from 'db/tags.json';
 
 export default function SpecificProductView({
   setProductsByTag,
@@ -55,13 +56,20 @@ export default function SpecificProductView({
 
   useEffect(() => {
     if (product.uaTitle || product.ruTitle) {
-      setLinks(
-        getLinks(
+      setTags(
+        getTags(
           language === 'RU' ? product.ruTitle : product.uaTitle,
-          DICTIONARIES.links,
+          tegsDictionary,
+          'tags',
         ),
       );
-      setTags(getTags(language === 'RU' ? product.ruTitle : product.uaTitle));
+      setLinks(
+        getTags(
+          language === 'RU' ? product.ruTitle : product.uaTitle,
+          DICTIONARIES.links,
+          'links',
+        ),
+      );
     }
   }, [language, product]);
 
