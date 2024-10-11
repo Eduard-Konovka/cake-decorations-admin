@@ -25,9 +25,6 @@ export function getTags(title, dictionary, flag) {
         for (let l = 0; l < dictionary[j].queries.length; l++) {
           if (
             (new RegExp(`^${dictionary[j].queries[l]}`).test(titlePureArr[i]) ||
-              new RegExp(` ${dictionary[j].queries[l]}`).test(
-                titlePureArr[i],
-              ) ||
               new RegExp(`-${dictionary[j].queries[l]}`).test(
                 titlePureArr[i],
               )) &&

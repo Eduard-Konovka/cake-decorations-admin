@@ -22,13 +22,35 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
           : product?.uaTitle?.toLowerCase() || product.title.toLowerCase(),
     }));
 
+    const pureTitlesProducts = lowerCaseTitlesProducts.map(obj => {
+      const titleArr = obj.lowerCaseTitle.split(' ');
+
+      const titlePureArr = titleArr.map(word =>
+        word
+          .toLowerCase()
+          .split('')
+          .filter(el => el !== ':')
+          .filter(el => el !== ',')
+          .filter(el => el !== '"')
+          .filter(el => el !== '“')
+          .filter(el => el !== '”')
+          .filter(el => el !== '«')
+          .filter(el => el !== '»')
+          .filter(el => el !== '(')
+          .filter(el => el !== ')')
+          .join(''),
+      );
+
+      return { ...obj, pureTitle: titlePureArr.join(' ') };
+    });
+
     const targetProductsIds = [];
     tagQueries.forEach(query => {
-      const lowerCaseTargetProducts = lowerCaseTitlesProducts.filter(
+      const lowerCaseTargetProducts = pureTitlesProducts.filter(
         product =>
-          new RegExp(`^${query}`).test(product.lowerCaseTitle) ||
-          new RegExp(` ${query}`).test(product.lowerCaseTitle) ||
-          new RegExp(`-${query}`).test(product.lowerCaseTitle),
+          new RegExp(`^${query}`).test(product.pureTitle) ||
+          new RegExp(` ${query}`).test(product.pureTitle) ||
+          new RegExp(`-${query}`).test(product.pureTitle),
       );
 
       lowerCaseTargetProducts.forEach(targetProduct =>
