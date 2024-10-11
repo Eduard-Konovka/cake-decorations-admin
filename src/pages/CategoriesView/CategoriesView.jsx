@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import {
   useGlobalState,
@@ -60,7 +61,7 @@ export default function CategoriesView({ setProductsByCategory }) {
           changeGlobalState(updateProducts, products);
         })
         // TODO handle the error
-        .catch(error => console.log(error));
+        .catch(error => toast.error(error));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -72,7 +73,7 @@ export default function CategoriesView({ setProductsByCategory }) {
           changeGlobalState(updateTagsDictionary, tagsDictionary),
         )
         // TODO handle the error
-        .catch(error => console.log(error));
+        .catch(error => toast.error(error));
     }
 
     if (!linksDictionary) {
@@ -81,7 +82,7 @@ export default function CategoriesView({ setProductsByCategory }) {
           changeGlobalState(updateLinksDictionary, linksDictionary),
         )
         // TODO handle the error
-        .catch(error => console.log(error));
+        .catch(error => toast.error(error));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

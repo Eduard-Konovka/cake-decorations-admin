@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import {
@@ -73,7 +74,7 @@ export default function SpecificProductView({
           changeGlobalState(updateTagsDictionary, tagsDictionary),
         )
         // TODO handle the error
-        .catch(error => console.log(error));
+        .catch(error => toast.error(error));
     }
 
     if (!linksDictionary) {
@@ -82,7 +83,7 @@ export default function SpecificProductView({
           changeGlobalState(updateLinksDictionary, linksDictionary),
         )
         // TODO handle the error
-        .catch(error => console.log(error));
+        .catch(error => toast.error(error));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
