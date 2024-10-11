@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { getLanguage } from 'functions';
+import { getLanguage, getPureArr } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import s from './Tags.module.css';
@@ -24,22 +24,7 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
 
     const pureTitlesProducts = lowerCaseTitlesProducts.map(obj => {
       const titleArr = obj.lowerCaseTitle.split(' ');
-
-      const titlePureArr = titleArr.map(word =>
-        word
-          .toLowerCase()
-          .split('')
-          .filter(el => el !== ':')
-          .filter(el => el !== ',')
-          .filter(el => el !== '"')
-          .filter(el => el !== '“')
-          .filter(el => el !== '”')
-          .filter(el => el !== '«')
-          .filter(el => el !== '»')
-          .filter(el => el !== '(')
-          .filter(el => el !== ')')
-          .join(''),
-      );
+      const titlePureArr = getPureArr(titleArr);
 
       return { ...obj, pureTitle: titlePureArr.join(' ') };
     });

@@ -1,21 +1,8 @@
+import { getPureArr } from './getPureArr';
+
 export function getTags(title, dictionary, flag) {
   const titleArr = title.split(' ');
-
-  const titlePureArr = titleArr.map(word =>
-    word
-      .toLowerCase()
-      .split('')
-      .filter(el => el !== ':')
-      .filter(el => el !== ',')
-      .filter(el => el !== '"')
-      .filter(el => el !== '“')
-      .filter(el => el !== '”')
-      .filter(el => el !== '«')
-      .filter(el => el !== '»')
-      .filter(el => el !== '(')
-      .filter(el => el !== ')')
-      .join(''),
-  );
+  const titlePureArr = getPureArr(titleArr);
 
   const tags = [];
 
