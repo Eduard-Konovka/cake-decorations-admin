@@ -17,6 +17,26 @@ export const LANGUAGE = {
     rus: 'Ой! Что-то пошло не так...',
   },
 
+  toastErrors: {
+    gettingProducts: {
+      eng: 'Failed to load the products',
+      ukr: 'Не вдалося завантажити товари',
+      rus: 'Не удалось загрузить товары',
+    },
+
+    gettingTags: {
+      eng: 'Failed to load the tags',
+      ukr: 'Не вдалося завантажити теги',
+      rus: 'Не удалось загрузить теги',
+    },
+
+    gettingLinks: {
+      eng: 'Failed to load the links',
+      ukr: 'Не вдалося завантажити посилання',
+      rus: 'Не удалось загрузить ccылки',
+    },
+  },
+
   logoAlt: {
     eng: 'Logotype',
     ukr: 'Логотип',

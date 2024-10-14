@@ -60,8 +60,13 @@ export default function CategoriesView({ setProductsByCategory }) {
           );
           changeGlobalState(updateProducts, products);
         })
-        // TODO handle the error
-        .catch(error => toast.error(error));
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingProducts,
+            )}:\n${error}`,
+          ),
+        );
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -72,8 +77,13 @@ export default function CategoriesView({ setProductsByCategory }) {
         .then(tagsDictionary =>
           changeGlobalState(updateTagsDictionary, tagsDictionary),
         )
-        // TODO handle the error
-        .catch(error => toast.error(error));
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingTags,
+            )}:\n${error}`,
+          ),
+        );
     }
 
     if (!linksDictionary) {
@@ -81,8 +91,13 @@ export default function CategoriesView({ setProductsByCategory }) {
         .then(linksDictionary =>
           changeGlobalState(updateLinksDictionary, linksDictionary),
         )
-        // TODO handle the error
-        .catch(error => toast.error(error));
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingLinks,
+            )}:\n${error}`,
+          ),
+        );
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

@@ -73,8 +73,13 @@ export default function SpecificProductView({
         .then(tagsDictionary =>
           changeGlobalState(updateTagsDictionary, tagsDictionary),
         )
-        // TODO handle the error
-        .catch(error => toast.error(error));
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingTags,
+            )}:\n${error}`,
+          ),
+        );
     }
 
     if (!linksDictionary) {
@@ -82,8 +87,13 @@ export default function SpecificProductView({
         .then(linksDictionary =>
           changeGlobalState(updateLinksDictionary, linksDictionary),
         )
-        // TODO handle the error
-        .catch(error => toast.error(error));
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingLinks,
+            )}:\n${error}`,
+          ),
+        );
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
