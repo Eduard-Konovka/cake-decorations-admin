@@ -117,6 +117,14 @@ export default function SpecificProductView({
     }
   }, [language, product, tagsDictionary, linksDictionary]);
 
+  useEffect(() => {
+    const description = document.querySelector('#description');
+    description.innerHTML =
+      language === 'RU'
+        ? product.ruDescription
+        : product.uaDescription || product.description;
+  }, [language, product]);
+
   const toggleModal = () => {
     setShowModal(!showModal);
   };
@@ -273,17 +281,14 @@ export default function SpecificProductView({
                 </section>
               )}
 
-              <section className={s.finishDescriptionSection}>
-                {language === 'RU'
-                  ? product.ruDescription
-                  : product.uaDescription}
-              </section>
+              <section
+                id="description"
+                className={s.finishDescriptionSection}
+              />
             </div>
           </div>
 
-          <section className={s.startDescriptionSection}>
-            {language === 'RU' ? product.ruDescription : product.uaDescription}
-          </section>
+          <section id="description" className={s.startDescriptionSection} />
         </>
       )}
 
