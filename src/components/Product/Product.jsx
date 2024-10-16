@@ -14,6 +14,34 @@ export default function Product({ product, addToCart }) {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
+  function getPureText(string) {
+    const pureString = string
+      .replace(new RegExp('<[^>]*>', 'g'), '')
+      .replace('&nbsp;', ' ')
+      .replace('&ndash;', '–')
+      .replace('&quot;', '"')
+      .replace('&deg;', '–')
+      .replace('&mdash;', '–')
+      .replace('&amp;', '–')
+      .replace('&plusmn;', '–')
+      .replace('&rdquo;', '–')
+      .replace('&laquo;', '–')
+      .replace('&raquo;', '–')
+      .replace('&rsquo;', '–')
+      .replace('&ordm;', '–')
+      .replace('&lt;', '–')
+      .replace('&#39;', '–');
+
+    const shortText =
+      pureString.slice(
+        0,
+        GLOBAL.productView.titleLength *
+          GLOBAL.productView.descriptionMultiplier,
+      ) + '...';
+
+    return shortText;
+  }
+
   return (
     <article>
       <Link to={`/products/${product._id}`} className={s.btnLink}>
@@ -39,17 +67,11 @@ export default function Product({ product, addToCart }) {
           </h3>
 
           <p className={s.shortDescription}>
-            {language === 'RU'
-              ? product?.ruDescription?.slice(
-                  0,
-                  GLOBAL.productView.titleLength *
-                    GLOBAL.productView.descriptionMultiplier,
-                ) + '...'
-              : product?.uaDescription?.slice(
-                  0,
-                  GLOBAL.productView.titleLength *
-                    GLOBAL.productView.descriptionMultiplier,
-                ) + '...'}
+            {getPureText(
+              language === 'RU'
+                ? product?.ruDescription
+                : product?.uaDescription || product?.description,
+            )}
           </p>
         </div>
       </Link>
