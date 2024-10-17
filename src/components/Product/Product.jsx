@@ -19,25 +19,31 @@ export default function Product({ product, addToCart }) {
       .replace(new RegExp('<[^>]*>', 'g'), '')
       .replace('&nbsp;', ' ')
       .replace('&ndash;', '–')
+      .replace('&mdash;', '—')
+      .replace('&plusmn;', '±')
+      .replace('&lt;', '<')
+      .replace('&gt;', '>')
+      .replace('&#39;', "'")
       .replace('&quot;', '"')
-      .replace('&deg;', '–')
-      .replace('&mdash;', '–')
-      .replace('&amp;', '–')
-      .replace('&plusmn;', '–')
-      .replace('&rdquo;', '–')
-      .replace('&laquo;', '–')
-      .replace('&raquo;', '–')
-      .replace('&rsquo;', '–')
-      .replace('&ordm;', '–')
-      .replace('&lt;', '–')
-      .replace('&#39;', '–');
+      .replace('&ldquo;', '“')
+      .replace('&rdquo;', '”')
+      .replace('&laquo;', '«')
+      .replace('&raquo;', '»')
+      .replace('&lsquo;', '‘')
+      .replace('&rsquo;', '’')
+      .replace('&deg;', '°')
+      .replace('&ordm;', 'º')
+      .replace('&amp;', '&');
 
     const shortText =
-      pureString.slice(
-        0,
-        GLOBAL.productView.titleLength *
-          GLOBAL.productView.descriptionMultiplier,
-      ) + '...';
+      pureString.length <
+      GLOBAL.productView.titleLength * GLOBAL.productView.descriptionMultiplier
+        ? pureString
+        : pureString.slice(
+            0,
+            GLOBAL.productView.titleLength *
+              GLOBAL.productView.descriptionMultiplier,
+          ) + '...';
 
     return shortText;
   }
