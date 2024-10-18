@@ -20,6 +20,9 @@ export default function SelectedProduct({
   return (
     <article className={s.card}>
       <div className={s.thumb}>
+        {
+          // FIXME
+        }
         <Link
           to={`/products/${_id}`}
           title={`${languageDeterminer(
