@@ -19,29 +19,25 @@ export default function SelectedProduct({
 
   return (
     <article className={s.card}>
-      <div className={s.thumb}>
-        {
-          // FIXME
-        }
-        <Link
-          to={`/products/${_id}`}
-          title={`${languageDeterminer(
-            LANGUAGE.selectedProduct.titleLink,
-          )} "${title}"`}
-        >
-          <img
-            src={images?.length > 0 ? images[0] : defaultImage}
-            alt={title}
-            className={s.cover}
-          />
-        </Link>
+      <Link
+        to={`/products/${_id}`}
+        title={`${languageDeterminer(
+          LANGUAGE.selectedProduct.titleLink,
+        )} "${title}"`}
+        className={s.thumb}
+      >
+        <img
+          src={images?.length > 0 ? images[0] : defaultImage}
+          alt={title}
+          className={s.image}
+        />
 
         <h3 className={s.title}>
           {title.length < GLOBAL.titleLength
             ? title
             : title.slice(0, GLOBAL.titleLength) + '...'}
         </h3>
-      </div>
+      </Link>
 
       <div className={s.controls}>
         <p className={s.price}>

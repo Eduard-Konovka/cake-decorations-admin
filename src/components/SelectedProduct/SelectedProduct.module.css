@@ -20,12 +20,17 @@
 
 @media screen and (min-width: 800px) {
   .card {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding-left: 0;
-    border-radius: 10px;
   }
 }
 
@@ -36,11 +41,52 @@
 }
 
 /*#region THUMB */
+.thumb {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1vw;
+  border-radius: 2.5vw;
+
+  transition: box-shadow var(--time-action) var(--time-distribution-function),
+    scale var(--time-action) var(--time-distribution-function);
+}
+
+.thumb:hover,
+.thumb:focus-visible {
+  color: var(--secondary-background-color);
+  outline: 1px solid var(--outline-color);
+  box-shadow: var(--secondary-box-shadow);
+  scale: 1.01;
+}
+
+@media screen and (min-width: 320px) {
+  .thumb {
+    padding: 4px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .thumb {
+    padding: 6px;
+  }
+}
+
 @media screen and (min-width: 800px) {
+  .thumb {
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .thumb {
     display: flex;
     align-items: center;
     width: 35%;
+    padding: 8px;
+    margin-right: 1vw;
   }
 }
 
@@ -53,62 +99,55 @@
 @media screen and (min-width: 1600px) {
   .thumb {
     width: 45%;
+    padding: 0.5vw;
+    border-radius: 0.625vw;
   }
 }
-/*#region COVER */
-.cover {
+
+/*#region image */
+.image {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-
   width: 20.625vw;
-
-  transition: box-shadow var(--time-action) var(--time-distribution-function),
-    scale var(--time-action) var(--time-distribution-function);
-}
-
-.cover:hover,
-.cover:focus-visible {
-  box-shadow: var(--secondary-box-shadow);
-  scale: 1.05;
 }
 
 @media screen and (min-width: 320px) {
-  .cover {
+  .image {
     width: 66px;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .cover {
+  .image {
     width: 61px;
   }
 }
 
-@media screen and (min-width: 800px) {
-  .cover {
+@media screen and (min-width: 1200px) {
+  .image {
     position: static;
     top: auto;
     left: auto;
     transform: none;
 
     width: 75px;
-    margin-right: 1.25vw;
+    margin-right: 1vw;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .cover {
+  .image {
     width: 4.6875vw;
   }
 }
-/*#endregion COVER */
+/*#endregion image */
 
 /*#region TITLE */
 .title {
   width: 48vw;
-  height: 11vw;
+  height: 15vw;
   margin: 0;
   font-size: 4.6875vw;
   line-height: 95%;
@@ -117,7 +156,7 @@
 @media screen and (min-width: 320px) {
   .title {
     width: 155px;
-    height: 35px;
+    height: 47px;
     font-size: 15px;
   }
 }
@@ -126,7 +165,6 @@
   .title {
     width: auto;
     height: auto;
-    margin: 0 0 1vw 0;
     font-size: 17px;
     line-height: inherit;
   }
@@ -134,7 +172,6 @@
 
 @media screen and (min-width: 800px) {
   .title {
-    margin: 0 1vw 0 0;
     font-size: 20px;
   }
 }
@@ -187,23 +224,22 @@
 
 @media screen and (min-width: 800px) {
   .controls {
-    justify-content: space-between;
-
-    width: 65%;
     padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .controls {
-    padding: 16px 12px;
+    border-radius: 10px;
+    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .controls {
+    justify-content: space-between;
+
+    padding: 16px 12px;
     width: 60%;
     font-size: 20px;
   }

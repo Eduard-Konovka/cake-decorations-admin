@@ -365,6 +365,13 @@
   }
 }
 
+.languageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .lngBtn {
   font-size: 1.5vw;
 }

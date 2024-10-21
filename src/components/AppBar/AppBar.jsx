@@ -81,35 +81,37 @@ export default function AppBar({ setDefaultsProducts }) {
             </p>
           )}
 
-          <Button
-            title={languageDeterminer(LANGUAGE.appBar.language)}
-            typeForm="icon"
-            disabled={language === 'UA'}
-            styles={s.lngBtn}
-            onClick={() => changeGlobalState(updateLanguage, 'UA')}
-          >
-            {'UA'}
-          </Button>
+          <div className={s.languageBox}>
+            <Button
+              title={languageDeterminer(LANGUAGE.appBar.language)}
+              typeForm="icon"
+              disabled={language === 'UA'}
+              styles={s.lngBtn}
+              onClick={() => changeGlobalState(updateLanguage, 'UA')}
+            >
+              {'UA'}
+            </Button>
 
-          <Button
-            title={languageDeterminer(LANGUAGE.appBar.language)}
-            typeForm="icon"
-            disabled={language === 'RU'}
-            styles={s.lngBtn}
-            onClick={() => changeGlobalState(updateLanguage, 'RU')}
-          >
-            {'RU'}
-          </Button>
+            <Button
+              title={languageDeterminer(LANGUAGE.appBar.language)}
+              typeForm="icon"
+              disabled={language === 'RU'}
+              styles={s.lngBtn}
+              onClick={() => changeGlobalState(updateLanguage, 'RU')}
+            >
+              {'RU'}
+            </Button>
 
-          <Button
-            title={languageDeterminer(LANGUAGE.appBar.language)}
-            typeForm="icon"
-            disabled={language === 'EN'}
-            styles={s.lngBtn}
-            onClick={() => changeGlobalState(updateLanguage, 'EN')}
-          >
-            {'EN'}
-          </Button>
+            <Button
+              title={languageDeterminer(LANGUAGE.appBar.language)}
+              typeForm="icon"
+              disabled={language === 'EN'}
+              styles={s.lngBtn}
+              onClick={() => changeGlobalState(updateLanguage, 'EN')}
+            >
+              {'EN'}
+            </Button>
+          </div>
         </div>
       </div>
 
