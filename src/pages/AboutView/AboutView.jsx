@@ -4,7 +4,7 @@ import { useGlobalState } from 'state';
 import { pageUp } from 'functions';
 import s from './AboutView.module.css';
 
-export default function AboutView({ text, wave }) {
+export default function AboutView({ text, wave3D, waveReflection }) {
   const { mainHeight } = useGlobalState('global');
 
   const textArray = ['"', ...text.split(''), '"'];
@@ -14,12 +14,12 @@ export default function AboutView({ text, wave }) {
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       <div className={s.title}>Тут буде сторінка</div>
-      <div className={s.box}>
-        {wave
+      <div className={wave3D ? s.box : s.reflectionBox}>
+        {wave3D || waveReflection
           ? textArray.map((word, i) => (
               <span
                 key={word + i}
-                className={s.wave}
+                className={wave3D ? s.wave3D : s.waveReflection}
                 // eslint-disable-next-line no-useless-computed-key
                 style={{ ['--i']: i + 1, minWidth: `1vw` }}
               >
