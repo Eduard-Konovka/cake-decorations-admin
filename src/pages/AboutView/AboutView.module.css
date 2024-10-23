@@ -70,7 +70,6 @@
 .wave3D {
   composes: wave;
 
-  animation: wave3D 2s infinite ease-in-out calc(0.1s * var(--i));
   color: var(--secondary-color);
   text-shadow: var(--secondary-color) 0.006em 0.006em 0.007em,
     #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px, #9c9c9c 1px 3px 1px,
@@ -115,8 +114,9 @@
 .waveReflection {
   composes: wave;
 
-  animation: waveReflection 2s infinite calc(0.1s * var(--i));
   color: var(--primery-color);
+
+  animation: waveReflection 2s infinite calc(0.1s * var(--i));
 }
 
 @keyframes waveReflection {
