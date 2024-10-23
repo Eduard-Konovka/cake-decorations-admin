@@ -34,5 +34,6 @@ export default function AboutView({ text, wave3D, waveReflection }) {
 
 AboutView.propTypes = {
   text: PropTypes.string.isRequired,
-  wave: PropTypes.bool,
+  wave3D: PropTypes.bool,
+  waveReflection: PropTypes.bool,
 };
