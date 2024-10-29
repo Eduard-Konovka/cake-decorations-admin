@@ -9,6 +9,7 @@ export { default as Category } from './Category';
 export { default as CategoriesList } from './CategoriesList';
 export { default as Container } from './Container';
 export { default as CountForm } from './CountForm';
+export { default as CursorInteraction } from './CursorInteraction';
 export { default as Footer } from './Footer';
 export { default as Links } from './Links';
 export { default as Modal } from './Modal';

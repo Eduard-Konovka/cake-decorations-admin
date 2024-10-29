@@ -1,0 +1,28 @@
+.canvas {
+  position: relative;
+}
+
+.magicBox {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+.activMagicBox {
+  composes: magicBox;
+  animation: spinner 3s infinite linear;
+}
+
+.star {
+  position: absolute;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
