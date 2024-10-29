@@ -5,7 +5,7 @@ import s from './CursorInteraction.module.css';
 
 const CANVAS_ID = 'canvas';
 
-export default function CursorInteraction({ children }) {
+export default function CursorInteraction({ magicBoxSize = 100, children }) {
   const [canvas, setCanvas] = useState(null);
   const [staticCoords, setStaticCoords] = useState(true);
   const [xCoordinate, setXCoordinate] = useState(null);
@@ -44,7 +44,12 @@ export default function CursorInteraction({ children }) {
 
       <div
         className={staticCoords ? s.activMagicBox : s.magicBox}
-        style={{ top: yCoordinate - 50, left: xCoordinate - 50 }}
+        style={{
+          width: magicBoxSize,
+          height: magicBoxSize,
+          top: yCoordinate - magicBoxSize / 2,
+          left: xCoordinate - magicBoxSize / 2,
+        }}
       >
         <img
           src={star}
@@ -79,5 +84,6 @@ export default function CursorInteraction({ children }) {
 }
 
 CursorInteraction.propTypes = {
+  magicBoxSize: PropTypes.number,
   children: PropTypes.node,
 };

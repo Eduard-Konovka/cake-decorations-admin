@@ -11,6 +11,7 @@ import {
 } from 'state';
 import {
   Container,
+  CursorInteraction,
   AppBar,
   Footer,
   PublicRoute,
@@ -136,147 +137,149 @@ export default function App() {
 
   return (
     <Container>
-      <AppBar setDefaultsProducts={() => setProductsByCategoryOrTag([])} />
+      <CursorInteraction>
+        <AppBar setDefaultsProducts={() => setProductsByCategoryOrTag([])} />
 
-      <Suspense
-        fallback={
-          <Puff
-            height="200"
-            width="200"
-            radius={1}
-            color="#FF00BF"
-            ariaLabel="puff-loading"
-            wrapperStyle={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-            }}
-            wrapperClass=""
-            visible={true}
-          />
-        }
-      >
-        <Routes>
-          <Route path="/" element={<Navigate to="/signin" />} />
+        <Suspense
+          fallback={
+            <Puff
+              height="200"
+              width="200"
+              radius={1}
+              color="#FF00BF"
+              ariaLabel="puff-loading"
+              wrapperStyle={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+              }}
+              wrapperClass=""
+              visible={true}
+            />
+          }
+        >
+          <Routes>
+            <Route path="/" element={<Navigate to="/signin" />} />
 
-          <Route
-            path="/signin"
-            element={
-              <PublicRoute redirectTo="/categories" restricted>
-                <SignInView />
-              </PublicRoute>
-            }
-          />
+            <Route
+              path="/signin"
+              element={
+                <PublicRoute redirectTo="/categories" restricted>
+                  <SignInView />
+                </PublicRoute>
+              }
+            />
 
-          <Route
-            path="/categories"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <CategoriesView
-                  setProductsByCategory={setProductsByCategoryOrTag}
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/categories"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <CategoriesView
+                    setProductsByCategory={setProductsByCategoryOrTag}
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/products"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <ProductsView
-                  productsByCategoryOrTag={productsByCategoryOrTag}
-                  addToCart={addToCart}
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/products"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <ProductsView
+                    productsByCategoryOrTag={productsByCategoryOrTag}
+                    addToCart={addToCart}
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/products/:id"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <SpecificProductView
-                  setProductsByTag={setProductsByCategoryOrTag}
-                  changeSelectCount={changeCount}
-                  addToCart={addToCart}
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/products/:id"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <SpecificProductView
+                    setProductsByTag={setProductsByCategoryOrTag}
+                    changeSelectCount={changeCount}
+                    addToCart={addToCart}
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/about"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <AboutView text={languageDeterminer(LANGUAGE.titles.about)} />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/about"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <AboutView text={languageDeterminer(LANGUAGE.titles.about)} />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/contacts"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.contacts)}
-                  wave3D
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/contacts"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <AboutView
+                    text={languageDeterminer(LANGUAGE.titles.contacts)}
+                    wave3D
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/delivery"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.delivery)}
-                  waveReflection
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/delivery"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <AboutView
+                    text={languageDeterminer(LANGUAGE.titles.delivery)}
+                    waveReflection
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/portfolio"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <PortfolioView />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/portfolio"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <PortfolioView />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="/cart"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <CartView
-                  sending={sending}
-                  changeSelectCount={changeCount}
-                  onDeleteProduct={removeFromCart}
-                  onSubmit={submitCart}
-                />
-              </PrivateRoute>
-            }
-          />
+            <Route
+              path="/cart"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <CartView
+                    sending={sending}
+                    changeSelectCount={changeCount}
+                    onDeleteProduct={removeFromCart}
+                    onSubmit={submitCart}
+                  />
+                </PrivateRoute>
+              }
+            />
 
-          <Route
-            path="*"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <NotFoundView
-                  message={languageDeterminer(LANGUAGE.notFoundView)}
-                />
-              </PrivateRoute>
-            }
-          />
-        </Routes>
-      </Suspense>
+            <Route
+              path="*"
+              element={
+                <PrivateRoute redirectTo="/signin">
+                  <NotFoundView
+                    message={languageDeterminer(LANGUAGE.notFoundView)}
+                  />
+                </PrivateRoute>
+              }
+            />
+          </Routes>
+        </Suspense>
 
-      <Footer />
+        <Footer />
 
-      <ToastContainer />
+        <ToastContainer />
+      </CursorInteraction>
     </Container>
   );
 }
