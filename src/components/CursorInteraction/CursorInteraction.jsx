@@ -20,13 +20,9 @@ export default function CursorInteraction({ children }) {
       setStaticCoords(false);
 
       setTimeout(() => {
-        setXCoordinate(e.clientX);
-        setYCoordinate(e.clientY);
+        setXCoordinate(e.pageX);
+        setYCoordinate(e.pageY);
       }, 300);
-
-      setTimeout(() => {
-        setStaticCoords(true);
-      }, 310);
     }
 
     canvas?.addEventListener('mousemove', handleMouseMove, { passive: true });
