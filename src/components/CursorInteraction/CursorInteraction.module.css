@@ -2,18 +2,13 @@
   position: relative;
 }
 
-.magicBox {
-  position: absolute;
-  z-index: 2;
-}
-
-.activMagicBox {
-  composes: magicBox;
-  animation: spinner 3s infinite linear;
-}
-
 .star {
   position: absolute;
+}
+
+.activStar {
+  composes: star;
+  animation: spinner 3s infinite linear;
 }
 
 @keyframes spinner {
