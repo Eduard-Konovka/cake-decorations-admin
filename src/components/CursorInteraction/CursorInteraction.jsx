@@ -4,6 +4,8 @@ import star from 'assets/star.png';
 import s from './CursorInteraction.module.css';
 
 const CANVAS_ID = 'canvas';
+let yCount = 0;
+// TODO xCount
 
 export default function CursorInteraction({ children }) {
   const [canvas, setCanvas] = useState(null);
@@ -12,6 +14,7 @@ export default function CursorInteraction({ children }) {
   const [pageY, setPageY] = useState(null);
   const [xCoordinate, setXCoordinate] = useState(null);
   const [yCoordinate, setYCoordinate] = useState(null);
+  const [yOffset, setYOffset] = useState(0);
 
   useEffect(() => {
     setCanvas(document.getElementById(CANVAS_ID));
@@ -42,6 +45,22 @@ export default function CursorInteraction({ children }) {
       });
     };
   }, [canvas, pageX, pageY, xCoordinate, yCoordinate]);
+
+  useEffect(() => {
+    const timeoutID = setTimeout(() => {
+      if (yCount >= Math.PI / 2) {
+        yCount = 0;
+      } else {
+        yCount += 0.01;
+      }
+
+      setYOffset(Math.sin(yCount));
+    }, 10);
+
+    return () => {
+      clearTimeout(timeoutID);
+    };
+  }, [yOffset]);
 
   return (
     <div id={CANVAS_ID} className={s.canvas}>
@@ -79,6 +98,5 @@ export default function CursorInteraction({ children }) {
 }
 
 CursorInteraction.propTypes = {
-  magicBoxSize: PropTypes.number,
   children: PropTypes.node,
 };
