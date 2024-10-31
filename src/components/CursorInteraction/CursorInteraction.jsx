@@ -8,6 +8,8 @@ const CANVAS_ID = 'canvas';
 export default function CursorInteraction({ children }) {
   const [canvas, setCanvas] = useState(null);
   const [staticCoords, setStaticCoords] = useState(true);
+  const [pageX, setPageX] = useState(null);
+  const [pageY, setPageY] = useState(null);
   const [xCoordinate, setXCoordinate] = useState(null);
   const [yCoordinate, setYCoordinate] = useState(null);
 
@@ -19,10 +21,17 @@ export default function CursorInteraction({ children }) {
     function handleMouseMove(e) {
       setStaticCoords(false);
 
+      setPageX(e.pageX);
+      setPageY(e.pageY);
+
       setTimeout(() => {
         setXCoordinate(e.pageX);
         setYCoordinate(e.pageY);
       }, 300);
+    }
+
+    if (pageX === xCoordinate && pageY === yCoordinate) {
+      setStaticCoords(true);
     }
 
     canvas?.addEventListener('mousemove', handleMouseMove, { passive: true });
@@ -32,7 +41,7 @@ export default function CursorInteraction({ children }) {
         passive: true,
       });
     };
-  }, [canvas, xCoordinate, yCoordinate]);
+  }, [canvas, pageX, pageY, xCoordinate, yCoordinate]);
 
   return (
     <div id={CANVAS_ID} className={s.canvas}>
