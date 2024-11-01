@@ -7,7 +7,12 @@ const CANVAS_ID = 'canvas';
 const CENTERING = -15;
 const DIAMETER = 90;
 
-export default function CursorInteraction({ starQuantity = 15, children }) {
+export default function CursorInteraction({
+  starQuantity = 15,
+  rotationSpeed = 3,
+  plume = 300,
+  children,
+}) {
   const [canvas, setCanvas] = useState(null);
   const [staticCoords, setStaticCoords] = useState(true);
   const [starOffsets, setStarOffsets] = useState([]);
@@ -31,7 +36,7 @@ export default function CursorInteraction({ starQuantity = 15, children }) {
       setTimeout(() => {
         setXCoordinate(e.pageX);
         setYCoordinate(e.pageY);
-      }, 300);
+      }, plume);
     }
 
     if (pageX === xCoordinate || pageY === yCoordinate) {
@@ -45,7 +50,7 @@ export default function CursorInteraction({ starQuantity = 15, children }) {
         passive: true,
       });
     };
-  }, [canvas, pageX, pageY, xCoordinate, yCoordinate]);
+  }, [plume, canvas, pageX, pageY, xCoordinate, yCoordinate]);
 
   useEffect(() => {
     const timeoutID = setTimeout(() => {
@@ -54,12 +59,12 @@ export default function CursorInteraction({ starQuantity = 15, children }) {
       } else {
         setTorque(prevValue => prevValue + 0.01);
       }
-    }, 3);
+    }, rotationSpeed);
 
     return () => {
       clearTimeout(timeoutID);
     };
-  }, [torque]);
+  }, [rotationSpeed, torque]);
 
   useEffect(() => {
     function getStarOffset() {
@@ -113,5 +118,8 @@ export default function CursorInteraction({ starQuantity = 15, children }) {
 }
 
 CursorInteraction.propTypes = {
+  starQuantity: PropTypes.number,
+  rotationSpeed: PropTypes.number,
+  plume: PropTypes.number,
   children: PropTypes.node.isRequired,
 };
