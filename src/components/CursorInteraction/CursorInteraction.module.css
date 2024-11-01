@@ -5,17 +5,3 @@
 .star {
   position: absolute;
 }
-
-.activStar {
-  composes: star;
-  animation: spinner 3s infinite linear;
-}
-
-@keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
