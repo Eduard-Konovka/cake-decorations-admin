@@ -151,22 +151,6 @@ export default function CursorInteraction({
     <div id={CONTAINER_ID} className={s.container}>
       {children}
 
-      {/* {trail.map(points =>
-        points.map(point => (
-          <svg
-            key={point.id}
-            className={s.star}
-            style={{
-              left: point.left - 10,
-              top: point.top - 10,
-              fill: point.fill,
-            }}
-          >
-            <use href={`${icons}#icon-star`}></use>
-          </svg>
-        )),
-      )} */}
-
       {starOffsets.length > 0 &&
         starOffsets.map((offset, idx) => (
           <div
