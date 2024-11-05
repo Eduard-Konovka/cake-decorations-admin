@@ -39,8 +39,6 @@ export default function CursorInteraction({
   const [starColors, setStarColors] = useState([]);
   const [starOffsets, setStarOffsets] = useState([]);
   const [ringThicknessOffsets, setRingThicknessOffsets] = useState([]);
-  const [pageX, setPageX] = useState(null);
-  const [pageY, setPageY] = useState(null);
   const [xCoordinate, setXCoordinate] = useState(null);
   const [yCoordinate, setYCoordinate] = useState(null);
   const [torque, setTorque] = useState(0);
@@ -84,9 +82,6 @@ export default function CursorInteraction({
 
   useEffect(() => {
     function handleMouseMove(e) {
-      setPageX(e.pageX);
-      setPageY(e.pageY);
-
       setTimeout(() => {
         setXCoordinate(e.pageX);
         setYCoordinate(e.pageY);
@@ -102,7 +97,7 @@ export default function CursorInteraction({
         passive: true,
       });
     };
-  }, [plume, container, pageX, pageY, xCoordinate, yCoordinate]);
+  }, [container, plume]);
 
   useEffect(() => {
     const timeoutID = setInterval(() => {
