@@ -1,24 +1,13 @@
 .container {
   position: relative;
-
-  overflow: hidden;
 }
 
 .star {
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-}
-
-.trail {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #3498db;
-  border-radius: 50%;
-  box-shadow: 0 0 15px rgba(52, 152, 219, 0.6);
-  animation: fadeOut 0.5s forwards;
+  /* animation: fadeOut 0.05s forwards; */
 }
 
 @keyframes fadeOut {

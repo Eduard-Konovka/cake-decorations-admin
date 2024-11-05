@@ -1,5 +1,6 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import icons from 'assets/icons.svg';
 import s from './CursorInteraction.module.css';
 
 const CONTAINER_ID = 'cursorInteractionContainer';
@@ -25,19 +26,16 @@ const colorsData = [
   '#808080',
   '#ffffff',
 ];
-let stopTimeout;
-let trailIntervalID;
 
 export default function CursorInteraction({
   diameter = 40,
   starQuantity = 20,
   starColorsData = colorsData,
-  rotationSpeed = 3,
+  rotationSpeed = 1,
   plume = 300,
   children,
 }) {
   const [container, setContainer] = useState(null);
-  const [isMovingOfMouse, setIsMovingOfMouse] = useState(false);
   const [starColors, setStarColors] = useState([]);
   const [starOffsets, setStarOffsets] = useState([]);
   const [ringThicknessOffsets, setRingThicknessOffsets] = useState([]);
@@ -47,8 +45,6 @@ export default function CursorInteraction({
   const [yCoordinate, setYCoordinate] = useState(null);
   const [torque, setTorque] = useState(0);
   const [trail, setTrail] = useState([]);
-  // console.log('trail', trail);
-  // const [trails, setTrails] = useState([]);
 
   useEffect(() => setContainer(document.getElementById(CONTAINER_ID)), []);
 
@@ -88,8 +84,6 @@ export default function CursorInteraction({
 
   useEffect(() => {
     function handleMouseMove(e) {
-      setIsMovingOfMouse(true);
-
       setPageX(e.pageX);
       setPageY(e.pageY);
 
@@ -97,12 +91,6 @@ export default function CursorInteraction({
         setXCoordinate(e.pageX);
         setYCoordinate(e.pageY);
       }, plume);
-
-      clearTimeout(stopTimeout);
-
-      stopTimeout = setTimeout(() => {
-        setIsMovingOfMouse(false);
-      }, plume + 100);
     }
 
     container?.addEventListener('mousemove', handleMouseMove, {
@@ -117,57 +105,42 @@ export default function CursorInteraction({
   }, [plume, container, pageX, pageY, xCoordinate, yCoordinate]);
 
   useEffect(() => {
-    const timeoutID = setTimeout(() => {
+    const timeoutID = setInterval(() => {
       setTorque(prevValue => prevValue + 0.01);
     }, rotationSpeed);
 
     return () => {
-      clearTimeout(timeoutID);
+      setInterval(timeoutID);
     };
-  }, [rotationSpeed, torque]);
+  }, [rotationSpeed]);
 
   useEffect(() => {
     const intervalID = setInterval(() => {
-      // We remove old traces, leaving a maximum of 10 elements
-      setTrail(prevTrail => prevTrail.slice(-10));
-      // setTrails(prevTrails => prevTrails.slice(-10));
+      // We remove old traces, leaving a maximum of 20 elements
+      setTrail(prevTrail => prevTrail.slice(-20));
     }, 10);
 
     return () => clearInterval(intervalID);
   }, []);
 
   useEffect(() => {
-    clearInterval(trailIntervalID);
+    const newPointsArr = starOffsets.map((offset, idx) => ({
+      x:
+        xCoordinate +
+        X_CENTERING +
+        (diameter + ringThicknessOffsets[idx]) * Math.cos(torque + offset),
+      y:
+        yCoordinate +
+        Y_CENTERING +
+        (diameter + ringThicknessOffsets[idx]) * Math.sin(torque + offset),
+      bgc: `${starColors[idx]}`,
+      shadow: `0 0 5px ${starColors[idx]}9a`,
+      id: idx + '-' + Date.now(),
+    }));
 
-    trailIntervalID = setInterval(() => {
-      const newPointsArr = starOffsets.map((offset, idx) => ({
-        x:
-          xCoordinate +
-          X_CENTERING +
-          (diameter + ringThicknessOffsets[idx]) *
-            Math.cos(isMovingOfMouse ? offset : torque + offset),
-        y:
-          yCoordinate +
-          Y_CENTERING +
-          (diameter + ringThicknessOffsets[idx]) *
-            Math.sin(isMovingOfMouse ? offset : torque + offset),
-        bgc: starColors[idx],
-        id: idx + '-' + Date.now(),
-      }));
-
-      // const newTrail = {
-      //   x: pageX,
-      //   y: pageY,
-      //   id: Date.now(),
-      // };
-
-      setTrail(prevTrail => [...prevTrail, [...newPointsArr]]);
-      // setTrails(prevTrails => [...prevTrails, newTrail]);
-    }, 10);
-
-    return () => clearInterval(trailIntervalID);
+    setTrail(prevTrail => [...prevTrail, [...newPointsArr]]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pageX, pageY]);
+  }, [torque]);
 
   function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -182,38 +155,6 @@ export default function CursorInteraction({
       {trail.map((arr, idx) => (
         <Stars key={'TimeSlice-' + Date.now() + '-' + idx} arr={arr} />
       ))}
-
-      {/* {starOffsets.length > 0 &&
-        starOffsets.map((offset, idx) => (
-          <div
-            key={offset + idx}
-            className={s.star}
-            style={{
-              left:
-                xCoordinate +
-                X_CENTERING +
-                (diameter + ringThicknessOffsets[idx]) *
-                  Math.cos(isMovingOfMouse ? offset : torque + offset),
-              top:
-                yCoordinate +
-                Y_CENTERING +
-                (diameter + ringThicknessOffsets[idx]) *
-                  Math.sin(isMovingOfMouse ? offset : torque + offset),
-              backgroundColor: starColors[idx],
-            }}
-          />
-        ))} */}
-
-      {/* {trails.map(trail => (
-        <div
-          key={trail.id}
-          className={s.trail}
-          style={{
-            left: trail.x - 10 + 'px',
-            top: trail.y - 10 + 'px',
-          }}
-        />
-      ))} */}
     </div>
   );
 }
@@ -231,15 +172,18 @@ function Stars({ arr }) {
   return (
     <>
       {arr.map(pointsObj => (
-        <div
+        <svg
           key={pointsObj.id}
           className={s.star}
           style={{
-            left: pointsObj.x - 10 + 'px',
-            top: pointsObj.y - 10 + 'px',
-            backgroundColor: pointsObj.bgc,
+            left: pointsObj.x,
+            top: pointsObj.y,
+            fill: pointsObj.bgc,
+            boxShadow: pointsObj.shadow,
           }}
-        />
+        >
+          <use href={`${icons}#icon-star`}></use>
+        </svg>
       ))}
     </>
   );
