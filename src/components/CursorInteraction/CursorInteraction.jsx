@@ -26,6 +26,7 @@ const colorsData = [
   '#808080',
   '#ffffff',
 ];
+let count = 0;
 
 export default function CursorInteraction({
   diameter = 40,
@@ -110,15 +111,6 @@ export default function CursorInteraction({
   }, [rotationSpeed]);
 
   useEffect(() => {
-    const intervalID = setInterval(() => {
-      // We remove old traces, leaving a maximum of 20 elements
-      setTrail(prevTrail => prevTrail.slice(-20));
-    }, 10);
-
-    return () => clearInterval(intervalID);
-  }, []);
-
-  useEffect(() => {
     const newPointsArr = starOffsets.map((offset, idx) => ({
       x:
         xCoordinate +
@@ -135,7 +127,24 @@ export default function CursorInteraction({
 
     setTrail(prevTrail => [...prevTrail, [...newPointsArr]]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [torque]);
+  }, [count]);
+
+  useEffect(() => {
+    const intervalID = setInterval(() => {
+      // We remove old traces, leaving a maximum of 20 elements
+      setTrail(prevTrail => prevTrail.slice(-20));
+    }, 10);
+
+    return () => clearInterval(intervalID);
+  }, []);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      count += 1;
+    }, 10);
+
+    return () => clearInterval(intervalId);
+  }, []);
 
   function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
