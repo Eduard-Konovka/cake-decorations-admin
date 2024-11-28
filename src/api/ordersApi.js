@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { toast } from 'react-toastify';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -8,7 +7,8 @@ export default async function ordersApi(data) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   try {
-    const response = await axios.post('/api/orders', data);
+    // const response = await axios.post('/api/orders', data);
+    const response = { status: '200' };
 
     return toast.success(
       `${languageDeterminer(LANGUAGE.order.status)}${

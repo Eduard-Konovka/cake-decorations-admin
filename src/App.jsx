@@ -19,7 +19,6 @@ import {
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
-import 'api/baseUrl';
 import 'App.css';
 
 const CategoriesView = lazy(() =>

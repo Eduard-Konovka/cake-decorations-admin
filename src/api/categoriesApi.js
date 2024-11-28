@@ -1,7 +1,18 @@
-import categories from 'db/categories.json';
+import { db } from 'db';
+import { collection, getDocs } from 'firebase/firestore';
 
 export default async function categoriesApi() {
-  const response = await categories;
+  const categoriesRef = collection(db, 'categories');
+  const categoriesSnapshot = await getDocs(categoriesRef);
 
-  return response;
+  const categoriesArr = [];
+
+  categoriesSnapshot.forEach(category =>
+    categoriesArr.push({
+      _id: category.id,
+      ...category.data(),
+    }),
+  );
+
+  return categoriesArr;
 }
