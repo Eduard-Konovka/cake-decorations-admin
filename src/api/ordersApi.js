@@ -8,7 +8,7 @@ export default async function ordersApi(data) {
 
   try {
     // const response = await axios.post('/api/orders', data);
-    const response = { status: '200' };
+    const response = { status: '200', data };
 
     return toast.success(
       `${languageDeterminer(LANGUAGE.order.status)}${

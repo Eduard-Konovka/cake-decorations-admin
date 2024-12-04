@@ -1,9 +1,7 @@
-import { db } from 'db';
-import { doc, getDoc } from 'firebase/firestore';
+import dictionaries from 'db/dictionaries.json';
 
 export default async function linksApi() {
-  const docRef = doc(db, 'links', 'links');
-  const docSnapshot = await getDoc(docRef);
+  const response = await dictionaries.links;
 
-  return docSnapshot.data().links;
+  return response;
 }
