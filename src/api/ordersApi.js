@@ -1,18 +1,19 @@
 import { toast } from 'react-toastify';
+import { collection, addDoc } from 'firebase/firestore';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
+import { db } from 'db';
 
 export default async function ordersApi(data) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   try {
-    // const response = await axios.post('/api/orders', data);
-    const response = { status: '200', data };
+    const docRef = await addDoc(collection(db, 'orders'), data);
 
     return toast.success(
       `${languageDeterminer(LANGUAGE.order.status)}${
-        response.status
+        docRef.id
       }${languageDeterminer(LANGUAGE.order.success)}`,
     );
   } catch (error) {

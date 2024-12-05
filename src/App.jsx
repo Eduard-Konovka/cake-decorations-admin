@@ -124,7 +124,7 @@ export default function App() {
     setTimeout(() => {
       sendСart({
         user,
-        cart,
+        cart: cart.map(obj => ({ _id: obj._id, quantity: obj.count })),
         totalCost,
       }).finally(() => {
         changeGlobalState(updateCart, []);
