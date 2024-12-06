@@ -1,5 +1,5 @@
 import { toast } from 'react-toastify';
-import { collection, addDoc } from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
@@ -9,12 +9,13 @@ export default async function ordersApi(data) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   try {
-    const docRef = await addDoc(collection(db, 'orders'), data);
+    await setDoc(doc(db, 'orders', Date.now().toString()), data);
 
+    // FIXME order.status
     return toast.success(
-      `${languageDeterminer(LANGUAGE.order.status)}${
-        docRef.id
-      }${languageDeterminer(LANGUAGE.order.success)}`,
+      `${languageDeterminer(LANGUAGE.order.status)}${200}${languageDeterminer(
+        LANGUAGE.order.success,
+      )}`,
     );
   } catch (error) {
     return toast.error(
