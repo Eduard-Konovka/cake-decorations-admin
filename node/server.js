@@ -10,7 +10,7 @@ const {
   Filter,
 } = require('firebase-admin/firestore');
 
-const serviceAccount = require('./serviceAccount');
+const serviceAccount = require('./firebaseConfigForNode');
 
 initializeApp({
   credential: cert(serviceAccount),

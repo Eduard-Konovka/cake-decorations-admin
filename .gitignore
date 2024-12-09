@@ -8,7 +8,8 @@ build/
 dist/
 
 # Firebase service account key for Node
-serviceAccount.*
+firebaseConfigForNode.js
+firebaseConfigForNode.json
 
 # Logs
 logs
