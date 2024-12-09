@@ -21,4 +21,4 @@ async function updateDB(collection, outputFileName) {
 
 updateDB('categories', 'categories');
 updateDB('products', 'products');
-// getDB('dictionaries', 'dictionaries');
+// TODO getDB('dictionaries', 'dictionaries');
