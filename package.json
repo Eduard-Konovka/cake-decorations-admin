@@ -1,6 +1,6 @@
 {
-  "name": "cake-decorations",
-  "description": "Online store of decorations for cakes",
+  "name": "cake-decorations-admin",
+  "description": "Control console of the online store of cake decorations",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eduard-Konovka/cake-decorations.git"
+    "url": "git+https://github.com/Eduard-Konovka/cake-decorations-admin.git"
   },
   "author": "Eduard Konovka <ed098ua@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eduard-Konovka/cake-decorations/issues"
+    "url": "https://github.com/Eduard-Konovka/cake-decorations-admin/issues"
   },
   "eslintConfig": {
     "extends": [

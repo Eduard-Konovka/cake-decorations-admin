@@ -1,2 +1,2 @@
-export { GLOBAL } from './GLOBAL';
-export { LANGUAGE } from './LANGUAGE';
+export { GLOBAL } from './global';
+export { LANGUAGE } from './language';
