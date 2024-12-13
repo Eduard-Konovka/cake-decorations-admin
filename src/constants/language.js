@@ -62,28 +62,52 @@ export const LANGUAGE = {
       rus: 'Товары',
     },
 
-    about: {
-      eng: 'About us',
-      ukr: 'Про нас',
-      rus: 'Про нас',
+    deleted: {
+      eng: 'Deleted',
+      ukr: 'Видалені',
+      rus: 'Удаленные',
     },
 
-    contacts: {
-      eng: 'Contacts',
-      ukr: 'Контакти',
-      rus: 'Контакты',
+    orders: {
+      eng: 'Orders',
+      ukr: 'Замовлення',
+      rus: 'Заказы',
     },
 
-    delivery: {
-      eng: 'Delivery and payment',
-      ukr: 'Доставка та оплата',
-      rus: 'Доставка и оплата',
+    messages: {
+      eng: 'Messages',
+      ukr: 'Повідомлення',
+      rus: 'Сообщения',
     },
 
-    portfolio: {
-      eng: 'Portfolio',
-      ukr: 'Портфоліо',
-      rus: 'Портфолио',
+    notifications: {
+      eng: 'Notifications',
+      ukr: 'Сповіщення',
+      rus: 'Уведомления',
+    },
+
+    promotions: {
+      eng: 'Promotions',
+      ukr: 'Акції',
+      rus: 'Акции',
+    },
+
+    clients: {
+      eng: 'Clients',
+      ukr: 'Клієнти',
+      rus: 'Клиенты',
+    },
+
+    reviews: {
+      eng: 'Reviews',
+      ukr: 'Відгуки',
+      rus: 'Отзывы',
+    },
+
+    statistics: {
+      eng: 'Statistics',
+      ukr: 'Статистика',
+      rus: 'Статистика',
     },
   },
 
@@ -102,6 +126,12 @@ export const LANGUAGE = {
   },
 
   appBar: {
+    title: {
+      eng: "Seller's office",
+      ukr: 'Кабінет продавця',
+      rus: 'Кабинет продавца',
+    },
+
     categoriesLink: {
       eng: 'Go to the product categories page',
       ukr: 'Перейти на сторінку категорій товарів',
@@ -114,28 +144,52 @@ export const LANGUAGE = {
       rus: 'Перейти к списку товаров',
     },
 
-    aboutLink: {
-      eng: 'Go to the page about us',
-      ukr: 'Перейти на сторінку про нас',
-      rus: 'Перейти на страницу о нас',
+    deletedLink: {
+      eng: 'Go to the list of deleted products',
+      ukr: 'Перейти до списку видалених товарів',
+      rus: 'Перейти к списку удаленных товаров',
     },
 
-    contactsLink: {
-      eng: 'Go to our contacts page',
-      ukr: 'Перейти на сторінку наших контактів',
-      rus: 'Перейти на страницу наших контактов',
+    ordersLink: {
+      eng: 'Go to the orders page',
+      ukr: 'Перейти на сторінку замовлень',
+      rus: 'Перейти на страницу заказов',
     },
 
-    deliveryLink: {
-      eng: 'Go to the shipping and payment information page',
-      ukr: 'Перейти на сторінку інформації про доставку та оплату',
-      rus: 'Перейти на страницу информации о доставке и оплате',
+    messagesLink: {
+      eng: 'Go to the messages page',
+      ukr: 'Перейти на сторінку повідомлень',
+      rus: 'Перейти на страницу сообщений',
     },
 
-    portfolioLink: {
-      eng: 'Go to our portfolio',
-      ukr: 'Перейти до нашого портфоліо',
-      rus: 'Перейти к нашему портфолио',
+    notificationsLink: {
+      eng: 'Go to the notifications page',
+      ukr: 'Перейти на сторінку сповіщень',
+      rus: 'Перейти на страницу уведомлений',
+    },
+
+    promotionsLink: {
+      eng: 'Go to the promotions page',
+      ukr: 'Перейти на сторінку акцій',
+      rus: 'Перейти на страницу акций',
+    },
+
+    statisticsLink: {
+      eng: 'Go to the statistics page',
+      ukr: 'Перейти на сторінку статистики',
+      rus: 'Перейти на страницу статистики',
+    },
+
+    clientsLink: {
+      eng: 'Go to client list',
+      ukr: 'Перейти до списку клієнтів',
+      rus: 'Перейти к списку клиентов',
+    },
+
+    reviewsLink: {
+      eng: 'Go to the reviews page',
+      ukr: 'Перейти на сторінку відгуків',
+      rus: 'Перейти на страницу отзывов',
     },
 
     cartLink: {

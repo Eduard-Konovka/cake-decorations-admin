@@ -146,7 +146,7 @@
   text-decoration: none;
   padding: 0;
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 3vw;
   color: var(--secondary-color);
   text-shadow: 2px 2px 4px #000000;
   margin: 0 2vw 0 0;
@@ -154,25 +154,25 @@
 
 @media screen and (min-width: 320px) {
   .link {
-    font-size: 3.6vw;
+    font-size: 2vw;
   }
 }
 
 @media screen and (min-width: 420px) {
   .link {
-    font-size: 2.3vw;
+    font-size: 1.3vw;
   }
 }
 
 @media screen and (min-width: 800px) {
   .link {
-    font-size: 2vw;
+    font-size: 1.45vw;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .link {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 }
 
@@ -330,18 +330,14 @@
 }
 
 .infoBox {
-  margin: 0;
-}
-
-.phoneBox {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  margin: -1.1vw 0 0 0;
 }
 
 .brandInfo {
   font-weight: 500;
-  color: #350000;
+  font-size: 4vw;
+  color: #f00000;
+  text-shadow: 2px 2px 4px #000000;
   margin: 0;
 }
 /*#endregion LOGO_BRAND */

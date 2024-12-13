@@ -35,9 +35,6 @@ const SpecificProductView = lazy(() =>
 const AboutView = lazy(() =>
   import('pages/AboutView' /* webpackChunkName: "AboutView" */),
 );
-const PortfolioView = lazy(() =>
-  import('pages/PortfolioView' /* webpackChunkName: "PortfolioView" */),
-);
 const CartView = lazy(() =>
   import('pages/CartView' /* webpackChunkName: "CartView" */),
 );
@@ -205,20 +202,20 @@ export default function App() {
           />
 
           <Route
-            path="/about"
+            path="/deleted"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AboutView text={languageDeterminer(LANGUAGE.titles.about)} />
+                <AboutView text={languageDeterminer(LANGUAGE.titles.deleted)} />
               </PrivateRoute>
             }
           />
 
           <Route
-            path="/contacts"
+            path="/orders"
             element={
               <PrivateRoute redirectTo="/signin">
                 <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.contacts)}
+                  text={languageDeterminer(LANGUAGE.titles.orders)}
                   wave3D
                 />
               </PrivateRoute>
@@ -226,11 +223,11 @@ export default function App() {
           />
 
           <Route
-            path="/delivery"
+            path="/messages"
             element={
               <PrivateRoute redirectTo="/signin">
                 <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.delivery)}
+                  text={languageDeterminer(LANGUAGE.titles.messages)}
                   waveReflection
                 />
               </PrivateRoute>
@@ -238,10 +235,52 @@ export default function App() {
           />
 
           <Route
-            path="/portfolio"
+            path="/notifications"
             element={
               <PrivateRoute redirectTo="/signin">
-                <PortfolioView />
+                <AboutView
+                  text={languageDeterminer(LANGUAGE.titles.notifications)}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/promotions"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <AboutView
+                  text={languageDeterminer(LANGUAGE.titles.promotions)}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/clients"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <AboutView text={languageDeterminer(LANGUAGE.titles.clients)} />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/reviews"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <AboutView text={languageDeterminer(LANGUAGE.titles.reviews)} />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/statistics"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <AboutView
+                  text={languageDeterminer(LANGUAGE.titles.statistics)}
+                />
               </PrivateRoute>
             }
           />

@@ -45,13 +45,8 @@ export default function AppBar({ setDefaultsProducts }) {
 
         <div className={s.infoBox}>
           <p className={s.brandInfo}>
-            {'Центральний ринок, магазин № 316, Ізмаїл, Україна'}
+            {languageDeterminer(LANGUAGE.appBar.title)}
           </p>
-
-          <div className={s.phoneBox}>
-            <p className={s.brandInfo}>{'+380 (50) 131-66-43'}</p>
-            <p className={s.brandInfo}>{'+380 (98) 133-20-37'}</p>
-          </div>
         </div>
 
         <div className={s.controlBox}>
@@ -143,47 +138,91 @@ export default function AppBar({ setDefaultsProducts }) {
             </NavLink>
 
             <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.aboutLink)}
-              to="/about"
+              title={languageDeterminer(LANGUAGE.appBar.deletedLink)}
+              to="/deleted"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }
               end
             >
-              {languageDeterminer(LANGUAGE.titles.about)}
+              {languageDeterminer(LANGUAGE.titles.deleted)}
             </NavLink>
 
             <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.contactsLink)}
-              to="/contacts"
+              title={languageDeterminer(LANGUAGE.appBar.ordersLink)}
+              to="/orders"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }
               end
             >
-              {languageDeterminer(LANGUAGE.titles.contacts)}
+              {languageDeterminer(LANGUAGE.titles.orders)}
             </NavLink>
 
             <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.deliveryLink)}
-              to="/delivery"
+              title={languageDeterminer(LANGUAGE.appBar.messagesLink)}
+              to="/messages"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }
               end
             >
-              {languageDeterminer(LANGUAGE.titles.delivery)}
+              {languageDeterminer(LANGUAGE.titles.messages)}
             </NavLink>
 
             <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.portfolioLink)}
-              to="/portfolio"
+              title={languageDeterminer(LANGUAGE.appBar.notificationsLink)}
+              to="/notifications"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }
               end
             >
-              {languageDeterminer(LANGUAGE.titles.portfolio)}
+              {languageDeterminer(LANGUAGE.titles.notifications)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.promotionsLink)}
+              to="/promotions"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.promotions)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.statisticsLink)}
+              to="/statistics"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.statistics)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.clientsLink)}
+              to="/clients"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.clients)}
+            </NavLink>
+
+            <NavLink
+              title={languageDeterminer(LANGUAGE.appBar.reviewsLink)}
+              to="/reviews"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.inactiveLink
+              }
+              end
+            >
+              {languageDeterminer(LANGUAGE.titles.reviews)}
             </NavLink>
 
             <NavLink
