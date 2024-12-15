@@ -360,6 +360,11 @@
   }
 }
 
+.btnLink {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sortBar {
   composes: bar;
   margin-top: 6.25vw;

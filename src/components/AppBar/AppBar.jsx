@@ -139,7 +139,7 @@ export default function AppBar({ setDefaultsProducts }) {
 
             <NavLink
               title={languageDeterminer(LANGUAGE.appBar.deletedLink)}
-              to="/deleted"
+              to="/products/deleted"
               className={({ isActive }) =>
                 isActive ? s.activeLink : s.inactiveLink
               }

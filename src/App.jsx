@@ -32,6 +32,9 @@ const SpecificProductView = lazy(() =>
     'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
   ),
 );
+const AddNewProductView = lazy(() =>
+  import('pages/AddNewProductView' /* webpackChunkName: "AddNewProductView" */),
+);
 const AboutView = lazy(() =>
   import('pages/AboutView' /* webpackChunkName: "AboutView" */),
 );
@@ -202,7 +205,20 @@ export default function App() {
           />
 
           <Route
-            path="/deleted"
+            path="/products/new"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <AddNewProductView
+                  setProductsByTag={setProductsByCategoryOrTag}
+                  changeSelectCount={changeCount}
+                  addToCart={addToCart}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/products/deleted"
             element={
               <PrivateRoute redirectTo="/signin">
                 <AboutView text={languageDeterminer(LANGUAGE.titles.deleted)} />

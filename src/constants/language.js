@@ -335,6 +335,20 @@ export const LANGUAGE = {
     },
   },
 
+  addProductButton: {
+    title: {
+      eng: 'Add a new product item',
+      ukr: 'Додати нову позицію товару',
+      rus: 'Добавить новую позицию товара',
+    },
+
+    text: {
+      eng: 'Add product',
+      ukr: 'Додати товар',
+      rus: 'Добавить товар',
+    },
+  },
+
   cart: {
     title: {
       eng: 'Your cart is empty',

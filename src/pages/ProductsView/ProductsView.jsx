@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
@@ -397,6 +398,18 @@ export default function ProductsView({ productsByCategoryOrTag, addToCart }) {
                   {languageDeterminer(LANGUAGE.sortBy.descendingCode)}
                 </option>
               </select>
+            </form>
+
+            <form className={s.sortBar}>
+              <Button
+                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                type="button"
+                styles={s.btn}
+              >
+                <Link to="/products/new" className={s.btnLink}>
+                  {languageDeterminer(LANGUAGE.addProductButton.text)}
+                </Link>
+              </Button>
             </form>
           </section>
 
