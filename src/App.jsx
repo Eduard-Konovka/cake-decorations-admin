@@ -209,9 +209,7 @@ export default function App() {
             element={
               <PrivateRoute redirectTo="/signin">
                 <AddNewProductView
-                  setProductsByTag={setProductsByCategoryOrTag}
-                  changeSelectCount={changeCount}
-                  addToCart={addToCart}
+                  changeSelectCount={() => alert('Hendle fn')}
                 />
               </PrivateRoute>
             }
