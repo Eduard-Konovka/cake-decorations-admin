@@ -9,7 +9,7 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './AddNewProductView.module.css';
 
-export default function AddNewProductView({ changeSelectCount }) {
+export default function AddNewProductView({ propFn }) {
   const { mainHeight } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -18,6 +18,8 @@ export default function AddNewProductView({ changeSelectCount }) {
   const [description, setDescription] = useState('');
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(pageUp, []);
 
   const handleTitleChange = event => {
     const value = event.target.value.trim();
@@ -34,7 +36,10 @@ export default function AddNewProductView({ changeSelectCount }) {
     setDescription(value);
   };
 
-  useEffect(pageUp, []);
+  const handleSubmit = () => {
+    toast.success('Товар успішно додано в каталог товарів');
+    propFn(`Категория: ${category}\nТовар: ${name}\nОпис: ${description}`);
+  };
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
@@ -148,11 +153,7 @@ export default function AddNewProductView({ changeSelectCount }) {
                   title={languageDeterminer(LANGUAGE.product.button.title)}
                   type="button"
                   styles={s.btn}
-                  onClick={() =>
-                    toast.success(
-                      `Категория: ${category}\nТовар: ${name}\nОпис: ${description}`,
-                    )
-                  }
+                  onClick={handleSubmit}
                 >
                   {'Додати'}
                 </Button>
@@ -208,5 +209,5 @@ export default function AddNewProductView({ changeSelectCount }) {
 }
 
 AddNewProductView.propTypes = {
-  changeSelectCount: PropTypes.func.isRequired,
+  propFn: PropTypes.func.isRequired,
 };

@@ -208,9 +208,7 @@ export default function App() {
             path="/products/new"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AddNewProductView
-                  changeSelectCount={() => alert('Hendle fn')}
-                />
+                <AddNewProductView propFn={message => toast.success(message)} />
               </PrivateRoute>
             }
           />
