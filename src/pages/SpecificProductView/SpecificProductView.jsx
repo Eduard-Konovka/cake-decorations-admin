@@ -6,10 +6,11 @@ import PropTypes from 'prop-types';
 import {
   useGlobalState,
   useChangeGlobalState,
+  updateCategories,
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
-import { fetchProduct, fetchTags, fetchLinks } from 'api';
+import { fetchCategories, fetchProduct, fetchTags, fetchLinks } from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -53,6 +54,20 @@ export default function SpecificProductView({
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(pageUp, []);
+
+  useEffect(() => {
+    if (categories.length === 0) {
+      fetchCategories()
+        .then(categories => changeGlobalState(updateCategories, categories))
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingCategories,
+            )}:\n${error}`,
+          ),
+        );
+    }
+  }, [categories, changeGlobalState]);
 
   useEffect(() => {
     if (products.length > 0) {

@@ -6,13 +6,13 @@ import signinStyle from './SignIn.module.css';
 import commonStyle from './Common.module.css';
 
 export default function Button({
-  title,
-  type,
-  typeForm,
-  disabled,
-  styles,
-  onClick,
-  children,
+  title = null,
+  type = 'button',
+  typeForm = 'common',
+  disabled = false,
+  styles = null,
+  onClick = () => null,
+  children = null,
   ...allyProps
 }) {
   return (
@@ -35,16 +35,6 @@ export default function Button({
     </button>
   );
 }
-
-Button.defaultProps = {
-  title: null,
-  type: 'button',
-  typeForm: 'common',
-  disabled: false,
-  styles: null,
-  children: null,
-  onClick: () => null,
-};
 
 Button.propTypes = {
   title: PropTypes.string,

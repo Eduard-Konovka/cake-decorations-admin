@@ -18,6 +18,12 @@ export const LANGUAGE = {
   },
 
   toastErrors: {
+    gettingCategories: {
+      eng: 'Unable to load product categories',
+      ukr: 'Не вдалося завантажити товари',
+      rus: 'Не удалось загрузить категории продуктов',
+    },
+
     gettingProducts: {
       eng: 'Failed to load the products',
       ukr: 'Не вдалося завантажити товари',
