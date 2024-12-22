@@ -56,7 +56,7 @@ export default function CategoriesView({ setProductsByCategory }) {
         .then(products => {
           products.sort(
             (firstProduct, secondProduct) =>
-              firstProduct._id - secondProduct._id,
+              secondProduct._id - firstProduct._id,
           );
           changeGlobalState(updateProducts, products);
         })

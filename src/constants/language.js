@@ -316,16 +316,16 @@ export const LANGUAGE = {
       rus: 'Сортировать',
     },
 
-    ascendingCode: {
-      eng: 'by ascending barcode',
-      ukr: 'за зростанням штрих-коду',
-      rus: 'по увиличению штрих-кода',
+    ascendingDate: {
+      eng: 'from older to newer',
+      ukr: 'від давнішіх до новішіх',
+      rus: 'от давних к более новым',
     },
 
-    descendingCode: {
-      eng: 'by descending barcode',
-      ukr: 'за зниженням штрих-коду',
-      rus: 'по уменьшению штрих-кода',
+    descendingDate: {
+      eng: 'from newer to older',
+      ukr: 'від новішіх до давнішіх',
+      rus: 'от новых до давних',
     },
 
     ascendingPrice: {
@@ -458,10 +458,10 @@ export const LANGUAGE = {
       rus: 'Категория: ',
     },
 
-    barcode: {
-      eng: 'Barcode: ',
-      ukr: 'Штрих-код: ',
-      rus: 'Штрих-код: ',
+    creationDate: {
+      eng: 'Product added: ',
+      ukr: 'Товар доданий: ',
+      rus: 'Товар добавлен: ',
     },
 
     price: {

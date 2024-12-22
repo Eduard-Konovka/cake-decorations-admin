@@ -79,15 +79,23 @@ export default function AddNewProductView({ propFn }) {
   };
 
   const handleSubmit = async () => {
-    await setDoc(doc(db, 'products', Date.now().toString()), {
+    const newProduct = {
+      _id: Date.now().toString(),
+      title: name,
       uaTitle: name,
       category,
       description,
       images: dbItem.images,
       price: dbItem.price,
-    });
+    };
+    try {
+      await setDoc(doc(db, 'products', newProduct._id), newProduct);
+    } catch (error) {
+      toast.error(`Помилка створення нового товару: ${error}`);
+    }
 
-    propFn(`Товар ${name} успішно додано в каталог товарів`);
+    toast.success(`Товар ${name} успішно додано в каталог товарів`);
+    propFn(':-)');
   };
 
   return (

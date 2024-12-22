@@ -90,8 +90,12 @@ export default function Product({ product, addToCart }) {
       </p>
 
       <p className={s.paragraph_title}>
-        {languageDeterminer(LANGUAGE.product.barcode)}
-        <span className={s.value}>{product._id}</span>
+        {languageDeterminer(LANGUAGE.product.creationDate)}
+        <span className={s.value}>
+          {Number(product._id) > 1734903482020 // TODO 1735682400000
+            ? new Date(Number(product._id)).toLocaleString()
+            : '2024'}
+        </span>
       </p>
 
       <div className={s.control}>
