@@ -1,7 +1,17 @@
-import dictionaries from 'db/dictionaries.json';
+import { db } from 'db';
+import { collection, getDocs } from 'firebase/firestore';
 
 export default async function tagsApi() {
-  const response = await dictionaries.tags;
+  const tagsRef = collection(db, 'tags');
+  const tagsSnapshot = await getDocs(tagsRef);
 
-  return response;
+  const tagsArr = [];
+
+  tagsSnapshot.forEach(tag =>
+    tagsArr.push({
+      ...tag.data(),
+    }),
+  );
+
+  return tagsArr;
 }

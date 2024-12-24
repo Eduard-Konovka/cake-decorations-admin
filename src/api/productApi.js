@@ -1,8 +1,9 @@
-import products from 'db/products.json';
+import { db } from 'db';
+import { doc, getDoc } from 'firebase/firestore';
 
 export default async function productApi(id) {
-  const response = await products;
-  const productArr = response.filter(obj => obj._id === id);
+  const docRef = doc(db, 'products', id);
+  const docSnapshot = await getDoc(docRef);
 
-  return productArr[0];
+  return docSnapshot.data();
 }

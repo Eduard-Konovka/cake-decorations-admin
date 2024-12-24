@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import {
   GlobalStateProvider,
   ChangeGlobalStateProvider,
@@ -22,3 +23,7 @@ export default function GlobalState({ children }) {
     </GlobalStateProvider>
   );
 }
+
+GlobalState.propTypes = {
+  children: PropTypes.element.isRequired,
+};

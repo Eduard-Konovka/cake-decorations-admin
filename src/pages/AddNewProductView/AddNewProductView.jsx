@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { doc, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
-import PropTypes from 'prop-types';
+import { addProductApi } from 'api';
 import { useGlobalState, useChangeGlobalState } from 'state';
 import { Button, CountForm } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
-import { db } from 'db';
 import imageNotFound from 'assets/notFound.png';
 import s from './AddNewProductView.module.css';
 
@@ -51,8 +49,9 @@ const dbItem = {
   // color: 'Рожевий',
 };
 
-export default function AddNewProductView({ propFn }) {
+export default function AddNewProductView() {
   const { mainHeight } = useGlobalState('global');
+  // eslint-disable-next-line
   const changeGlobalState = useChangeGlobalState();
 
   const [name, setName] = useState('');
@@ -76,26 +75,6 @@ export default function AddNewProductView({ propFn }) {
   const handleDescriptionChange = event => {
     const value = event.target.value.trim();
     setDescription(value);
-  };
-
-  const handleSubmit = async () => {
-    const newProduct = {
-      _id: Date.now().toString(),
-      title: name,
-      uaTitle: name,
-      category,
-      description,
-      images: dbItem.images,
-      price: dbItem.price,
-    };
-    try {
-      await setDoc(doc(db, 'products', newProduct._id), newProduct);
-    } catch (error) {
-      toast.error(`Помилка створення нового товару: ${error}`);
-    }
-
-    toast.success(`Товар ${name} успішно додано в каталог товарів`);
-    propFn(':-)');
   };
 
   return (
@@ -212,7 +191,17 @@ export default function AddNewProductView({ propFn }) {
                   title={languageDeterminer(LANGUAGE.product.button.title)}
                   type="button"
                   styles={s.btn}
-                  onClick={handleSubmit}
+                  onClick={() =>
+                    addProductApi({
+                      _id: Date.now().toString(),
+                      title: name,
+                      uaTitle: name,
+                      category,
+                      description,
+                      images: dbItem.images,
+                      price: dbItem.price,
+                    })
+                  }
                 >
                   {'Додати'}
                 </Button>
@@ -268,7 +257,3 @@ export default function AddNewProductView({ propFn }) {
     </main>
   );
 }
-
-AddNewProductView.propTypes = {
-  propFn: PropTypes.func.isRequired,
-};

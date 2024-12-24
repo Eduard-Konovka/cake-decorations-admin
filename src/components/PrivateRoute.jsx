@@ -13,6 +13,6 @@ export default function PrivateRoute({ children, redirectTo = '/' }) {
 }
 
 PrivateRoute.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.element.isRequired,
   redirectTo: PropTypes.string,
 };

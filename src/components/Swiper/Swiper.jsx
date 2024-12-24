@@ -79,7 +79,7 @@ export default function Swiper({
 }
 
 Swiper.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.element.isRequired,
   onRight: PropTypes.func,
   onLeft: PropTypes.func,
   onUp: PropTypes.func,

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
@@ -32,5 +33,9 @@ class ErrorBoundary extends React.Component {
     }
   }
 }
+
+ErrorBoundary.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
 export default ErrorBoundary;

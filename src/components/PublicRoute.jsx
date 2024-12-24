@@ -18,7 +18,7 @@ export default function PublicRoute({
 }
 
 PublicRoute.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.element.isRequired,
   restricted: PropTypes.bool,
   redirectTo: PropTypes.string,
 };

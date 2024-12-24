@@ -114,7 +114,11 @@ export default function SpecificProductView({
   }, []);
 
   useEffect(() => {
-    if (product.uaTitle || product.ruTitle) {
+    if (
+      (product.uaTitle || product.ruTitle) &&
+      tagsDictionary &&
+      linksDictionary
+    ) {
       setTags(
         getTags(
           language === 'RU' ? product.ruTitle : product.uaTitle,

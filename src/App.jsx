@@ -208,7 +208,7 @@ export default function App() {
             path="/products/new"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AddNewProductView propFn={message => toast.success(message)} />
+                <AddNewProductView />
               </PrivateRoute>
             }
           />
