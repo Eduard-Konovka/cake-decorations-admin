@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useState, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import { Puff } from 'react-loader-spinner';
 import { sendСart } from 'api';
 import {
@@ -99,20 +99,6 @@ export default function App() {
     );
   }
 
-  function addToCart(productToBeAdded) {
-    const productDuplication = cart.filter(
-      obj => obj._id === productToBeAdded._id,
-    );
-
-    if (productDuplication.length > 0) {
-      toast.error(languageDeterminer(LANGUAGE.addingToCard.productDuplication));
-      return;
-    }
-
-    toast.success(languageDeterminer(LANGUAGE.addingToCard.productAdded));
-    changeGlobalState(updateCart, [...cart, productToBeAdded]);
-  }
-
   function removeFromCart(_id) {
     const newCart = cart.filter(obj => obj._id !== _id);
     changeGlobalState(updateCart, newCart);
@@ -185,7 +171,6 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <ProductsView
                   productsByCategoryOrTag={productsByCategoryOrTag}
-                  addToCart={addToCart}
                 />
               </PrivateRoute>
             }
@@ -198,7 +183,6 @@ export default function App() {
                 <SpecificProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                   changeSelectCount={changeCount}
-                  addToCart={addToCart}
                 />
               </PrivateRoute>
             }

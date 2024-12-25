@@ -472,15 +472,15 @@ export const LANGUAGE = {
 
     button: {
       title: {
-        eng: 'Add the product to the cart',
-        ukr: 'Додайте товар у кошик',
-        rus: 'Добавьте товар в корзину',
+        eng: 'Remove product from product catalog',
+        ukr: 'Видалити товар з каталогу товарів',
+        rus: 'Удалить товар из каталога товаров',
       },
 
       text: {
-        eng: 'Add to cart',
-        ukr: 'В кошик',
-        rus: 'В корзину',
+        eng: 'Delete',
+        ukr: 'Видалити',
+        rus: 'Удалить',
       },
     },
   },

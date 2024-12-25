@@ -1,9 +1,9 @@
-import { toast } from 'react-toastify';
 import { doc, setDoc } from 'firebase/firestore';
+import { toast } from 'react-toastify';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { LANGUAGE } from 'constants';
 import { db } from 'db';
+import { LANGUAGE } from 'constants';
 
 export default async function ordersApi(data) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);

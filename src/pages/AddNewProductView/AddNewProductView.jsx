@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { addProductApi } from 'api';
-import { useGlobalState, useChangeGlobalState } from 'state';
+import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
+import { fetchProducts, addProductApi } from 'api';
 import { Button, CountForm } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -75,6 +76,35 @@ export default function AddNewProductView() {
   const handleDescriptionChange = event => {
     const value = event.target.value.trim();
     setDescription(value);
+  };
+
+  const addProduct = async () => {
+    const newProduct = {
+      _id: Date.now().toString(),
+      title: name,
+      uaTitle: name,
+      category,
+      description,
+      images: dbItem.images,
+      price: dbItem.price,
+    };
+
+    await addProductApi(newProduct);
+
+    fetchProducts()
+      .then(products => {
+        products.sort(
+          (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+        );
+        changeGlobalState(updateProducts, products);
+      })
+      .catch(error =>
+        toast.error(
+          `${languageDeterminer(
+            LANGUAGE.toastErrors.gettingProducts,
+          )}:\n${error}`,
+        ),
+      );
   };
 
   return (
@@ -191,18 +221,9 @@ export default function AddNewProductView() {
                   title={languageDeterminer(LANGUAGE.product.button.title)}
                   type="button"
                   styles={s.btn}
-                  onClick={() =>
-                    addProductApi({
-                      _id: Date.now().toString(),
-                      title: name,
-                      uaTitle: name,
-                      category,
-                      description,
-                      images: dbItem.images,
-                      price: dbItem.price,
-                    })
-                  }
+                  onClick={addProduct}
                 >
+                  {/* <Link to={`/products/${newProduct._id}`}> */}
                   {'Додати'}
                 </Button>
               </div>

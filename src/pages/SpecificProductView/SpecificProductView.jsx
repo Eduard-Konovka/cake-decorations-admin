@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -7,10 +7,18 @@ import {
   useGlobalState,
   useChangeGlobalState,
   updateCategories,
+  updateProducts,
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProduct, fetchTags, fetchLinks } from 'api';
+import {
+  fetchCategories,
+  fetchProducts,
+  fetchProduct,
+  fetchTags,
+  fetchLinks,
+  deleteProductApi,
+} from 'api';
 import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
 import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -21,7 +29,6 @@ import s from './SpecificProductView.module.css';
 export default function SpecificProductView({
   setProductsByTag,
   changeSelectCount,
-  addToCart,
 }) {
   const location = useLocation();
   const {
@@ -148,6 +155,25 @@ export default function SpecificProductView({
     setShowModal(!showModal);
   };
 
+  const deleteProduct = async () => {
+    await deleteProductApi(product);
+
+    fetchProducts()
+      .then(products => {
+        products.sort(
+          (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+        );
+        changeGlobalState(updateProducts, products);
+      })
+      .catch(error =>
+        toast.error(
+          `${languageDeterminer(
+            LANGUAGE.toastErrors.gettingProducts,
+          )}:\n${error}`,
+        ),
+      );
+  };
+
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       {loading && <Spinner size={70} color="red" />}
@@ -253,13 +279,12 @@ export default function SpecificProductView({
                     <Button
                       title={languageDeterminer(LANGUAGE.product.button.title)}
                       type="button"
-                      disabled={!count}
                       styles={s.btn}
-                      onClick={() =>
-                        addToCart({ ...product, count: Number(count) })
-                      }
+                      onClick={deleteProduct}
                     >
-                      {languageDeterminer(LANGUAGE.product.button.text)}
+                      <Link to="/products" className={s.btnLink}>
+                        {languageDeterminer(LANGUAGE.product.button.text)}
+                      </Link>
                     </Button>
                   </div>
                 </section>
@@ -325,5 +350,4 @@ export default function SpecificProductView({
 SpecificProductView.propTypes = {
   setProductsByTag: PropTypes.func.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
-  addToCart: PropTypes.func.isRequired,
 };

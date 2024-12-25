@@ -1,5 +1,5 @@
-import { db } from 'db';
 import { collection, getDocs } from 'firebase/firestore';
+import { db } from 'db';
 
 export default async function productsApi() {
   const productsRef = collection(db, 'products');

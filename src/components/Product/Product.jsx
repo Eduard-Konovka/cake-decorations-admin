@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
+import { deleteProductApi } from 'api';
 import Button from 'components/Button';
 import { getLanguage, getCategory } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -9,7 +10,7 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './Product.module.css';
 
-export default function Product({ product, addToCart }) {
+export default function Product({ product }) {
   const { language, categories } = useGlobalState('global');
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -107,7 +108,7 @@ export default function Product({ product, addToCart }) {
         <Button
           title={languageDeterminer(LANGUAGE.product.button.title)}
           type="button"
-          onClick={() => addToCart({ ...product, count: 1 })}
+          onClick={() => deleteProductApi(product)}
         >
           {languageDeterminer(LANGUAGE.product.button.text)}
         </Button>
@@ -129,5 +130,4 @@ Product.propTypes = {
     price: PropTypes.number.isRequired,
     images: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
-  addToCart: PropTypes.func.isRequired,
 };
