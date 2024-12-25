@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { deleteProductApi } from 'api';
-import Button from 'components/Button';
 import { getLanguage, getCategory } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -104,14 +102,6 @@ export default function Product({ product }) {
           {languageDeterminer(LANGUAGE.product.price)}
           <span className={s.value}>{product.price} ₴</span>
         </p>
-
-        <Button
-          title={languageDeterminer(LANGUAGE.product.button.title)}
-          type="button"
-          onClick={() => deleteProductApi(product)}
-        >
-          {languageDeterminer(LANGUAGE.product.button.text)}
-        </Button>
       </div>
     </article>
   );

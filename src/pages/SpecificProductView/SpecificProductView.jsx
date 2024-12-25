@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -31,6 +31,7 @@ export default function SpecificProductView({
   changeSelectCount,
 }) {
   const location = useLocation();
+  const navigate = useNavigate();
   const {
     mainHeight,
     language,
@@ -164,6 +165,7 @@ export default function SpecificProductView({
           (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
         );
         changeGlobalState(updateProducts, products);
+        navigate('/products');
       })
       .catch(error =>
         toast.error(
@@ -282,9 +284,7 @@ export default function SpecificProductView({
                       styles={s.btn}
                       onClick={deleteProduct}
                     >
-                      <Link to="/products" className={s.btnLink}>
-                        {languageDeterminer(LANGUAGE.product.button.text)}
-                      </Link>
+                      {languageDeterminer(LANGUAGE.product.button.text)}
                     </Button>
                   </div>
                 </section>

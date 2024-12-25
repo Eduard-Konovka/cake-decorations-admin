@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchProducts, addProductApi } from 'api';
@@ -51,8 +51,8 @@ const dbItem = {
 };
 
 export default function AddNewProductView() {
+  const navigate = useNavigate();
   const { mainHeight } = useGlobalState('global');
-  // eslint-disable-next-line
   const changeGlobalState = useChangeGlobalState();
 
   const [name, setName] = useState('');
@@ -97,6 +97,7 @@ export default function AddNewProductView() {
           (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
         );
         changeGlobalState(updateProducts, products);
+        navigate(`/products/${newProduct._id}`);
       })
       .catch(error =>
         toast.error(
@@ -223,7 +224,6 @@ export default function AddNewProductView() {
                   styles={s.btn}
                   onClick={addProduct}
                 >
-                  {/* <Link to={`/products/${newProduct._id}`}> */}
                   {'Додати'}
                 </Button>
               </div>
