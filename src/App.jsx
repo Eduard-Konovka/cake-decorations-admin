@@ -35,6 +35,9 @@ const SpecificProductView = lazy(() =>
 const AddNewProductView = lazy(() =>
   import('pages/AddNewProductView' /* webpackChunkName: "AddNewProductView" */),
 );
+const EditProductView = lazy(() =>
+  import('pages/EditProductView' /* webpackChunkName: "EditProductView" */),
+);
 const AboutView = lazy(() =>
   import('pages/AboutView' /* webpackChunkName: "AboutView" */),
 );
@@ -193,6 +196,18 @@ export default function App() {
             element={
               <PrivateRoute redirectTo="/signin">
                 <AddNewProductView />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/products/edit/:id"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <EditProductView
+                  setProductsByTag={setProductsByCategoryOrTag}
+                  changeSelectCount={changeCount}
+                />
               </PrivateRoute>
             }
           />

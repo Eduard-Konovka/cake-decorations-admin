@@ -161,7 +161,7 @@ export default function AddNewProductView() {
 
                 <div className={s.stat}>
                   <label htmlFor="category" className={s.statName}>
-                    {languageDeterminer(LANGUAGE.specificProductView.category)}
+                    {languageDeterminer(LANGUAGE.productViews.category)}
                   </label>
 
                   <input
@@ -197,7 +197,7 @@ export default function AddNewProductView() {
             <section className={s.controlsSection}>
               <p className={s.count}>
                 <span className={s.boldfont}>
-                  {languageDeterminer(LANGUAGE.specificProductView.price)}
+                  {languageDeterminer(LANGUAGE.productViews.price)}
                 </span>
                 {10} ₴
               </p>
@@ -219,12 +219,14 @@ export default function AddNewProductView() {
 
               <div>
                 <Button
-                  title={languageDeterminer(LANGUAGE.product.button.title)}
+                  title={languageDeterminer(
+                    LANGUAGE.productViews.addButton.title,
+                  )}
                   type="button"
                   styles={s.btn}
                   onClick={addProduct}
                 >
-                  {'Додати'}
+                  {languageDeterminer(LANGUAGE.productViews.addButton.text)}
                 </Button>
               </div>
             </section>

@@ -401,7 +401,63 @@ export const LANGUAGE = {
     },
   },
 
-  specificProductView: {
+  productViews: {
+    addButton: {
+      title: {
+        eng: 'Add product to product catalog',
+        ukr: 'Додати товар до каталогу товарів',
+        rus: 'Добавить товар в каталог товаров',
+      },
+
+      text: {
+        eng: 'Add',
+        ukr: 'Додати',
+        rus: 'Добавить',
+      },
+    },
+
+    editButton: {
+      title: {
+        eng: 'Change product parameters',
+        ukr: 'Змінити параметри товару',
+        rus: 'Изменить параметры товара',
+      },
+
+      text: {
+        eng: 'Edit',
+        ukr: 'Редагувати',
+        rus: 'Редактировать',
+      },
+    },
+
+    cancelButton: {
+      title: {
+        eng: 'Cancel editing product parameters',
+        ukr: 'Скасувати редагування параметрів товару',
+        rus: 'Отменить редактирование параметров товара',
+      },
+
+      text: {
+        eng: 'Cancel',
+        ukr: 'Скасувати',
+        rus: 'Отменить',
+      },
+    },
+
+    deleteButton: {
+      title: {
+        eng: 'Remove product from product catalog',
+        ukr: 'Видалити товар з каталогу товарів',
+        rus: 'Удалить товар из каталога товаров',
+      },
+
+      text: {
+        eng: 'Delete',
+        ukr: 'Видалити',
+        rus: 'Удалить',
+      },
+    },
+
     category: {
       eng: 'Category: ',
       ukr: 'Категорія: ',
@@ -468,20 +524,6 @@ export const LANGUAGE = {
       eng: 'Price: ',
       ukr: 'Ціна: ',
       rus: 'Цена: ',
-    },
-
-    button: {
-      title: {
-        eng: 'Remove product from product catalog',
-        ukr: 'Видалити товар з каталогу товарів',
-        rus: 'Удалить товар из каталога товаров',
-      },
-
-      text: {
-        eng: 'Delete',
-        ukr: 'Видалити',
-        rus: 'Удалить',
-      },
     },
   },
 

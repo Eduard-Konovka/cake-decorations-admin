@@ -420,7 +420,7 @@ export default function ProductsView({ productsByCategoryOrTag, addToCart }) {
 
           {scrolledTop > 300 && (
             <Button
-              title={languageDeterminer(LANGUAGE.specificProductView.up)}
+              title={languageDeterminer(LANGUAGE.productViews.up)}
               type="button"
               typeForm="icon"
               styles={s.iconUpBtn}

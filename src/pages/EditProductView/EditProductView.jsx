@@ -24,9 +24,9 @@ import { getLanguage, getCategory, getTags, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import s from './SpecificProductView.module.css';
+import s from './EditProductView.module.css';
 
-export default function SpecificProductView({
+export default function EditProductView({
   setProductsByTag,
   changeSelectCount,
 }) {
@@ -51,7 +51,7 @@ export default function SpecificProductView({
   const [links, setLinks] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
-  const productId = location.pathname.slice(10, location.pathname.length);
+  const productId = location.pathname.slice(15, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
 
@@ -156,8 +156,8 @@ export default function SpecificProductView({
     setShowModal(!showModal);
   };
 
-  const editProduct = async () => {
-    navigate(`/products/edit/${productId}`);
+  const cancelEditProduct = async () => {
+    navigate(`/products/${productId}`);
   };
 
   const deleteProduct = async () => {
@@ -282,14 +282,14 @@ export default function SpecificProductView({
                   <div className={s.buttonBox}>
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.editButton.title,
+                        LANGUAGE.productViews.cancelButton.title,
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={editProduct}
+                      onClick={cancelEditProduct}
                     >
                       {languageDeterminer(
-                        LANGUAGE.productViews.editButton.text,
+                        LANGUAGE.productViews.cancelButton.text,
                       )}
                     </Button>
 
@@ -366,7 +366,7 @@ export default function SpecificProductView({
   );
 }
 
-SpecificProductView.propTypes = {
+EditProductView.propTypes = {
   setProductsByTag: PropTypes.func.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
 };

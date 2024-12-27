@@ -105,9 +105,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
         </Swiper>
 
         <Button
-          title={languageDeterminer(
-            LANGUAGE.specificProductView.сollapseButtonTitle,
-          )}
+          title={languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)}
           type="button"
           typeForm="icon"
           styles={s.iconCloseBtn}
@@ -121,7 +119,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
         {product?.images?.length > 1 && (
           <>
             <Button
-              title={languageDeterminer(LANGUAGE.specificProductView.right)}
+              title={languageDeterminer(LANGUAGE.productViews.right)}
               type="button"
               typeForm="icon"
               styles={s.iconRightBtn}
@@ -133,7 +131,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
             </Button>
 
             <Button
-              title={languageDeterminer(LANGUAGE.specificProductView.left)}
+              title={languageDeterminer(LANGUAGE.productViews.left)}
               type="button"
               typeForm="icon"
               styles={s.iconLeftBtn}
