@@ -36,13 +36,13 @@ export default function SignInView() {
             name="username"
             type="text"
             title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-            pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+            pattern={languageDeterminer(GLOBAL.signInView.pattern)}
             placeholder={languageDeterminer(
               LANGUAGE.signInView.inputPlaceholder,
             )}
             autoComplete="given-name family-name"
-            minLength={GLOBAL.signInViewInput.minLength}
-            maxLength={GLOBAL.signInViewInput.maxLength}
+            minLength={GLOBAL.signInView.input.minLength}
+            maxLength={GLOBAL.signInView.input.maxLength}
             className={s.input}
             onChange={handleChange}
           />
@@ -52,13 +52,13 @@ export default function SignInView() {
             type="button"
             typeForm="signin"
             disabled={
-              name.length < GLOBAL.signInViewInput.minLength ||
-              name.length > GLOBAL.signInViewInput.maxLength
+              name.length < GLOBAL.signInView.input.minLength ||
+              name.length > GLOBAL.signInView.input.maxLength
             }
             onClick={() => changeGlobalState(updateUser, { name })}
           >
-            {name.length >= GLOBAL.signInViewInput.minLength &&
-            name.length <= GLOBAL.signInViewInput.maxLength ? (
+            {name.length >= GLOBAL.signInView.input.minLength &&
+            name.length <= GLOBAL.signInView.input.maxLength ? (
               <Link to="/categories" className={s.btnLink}>
                 {languageDeterminer(LANGUAGE.signInView.buttonText)}
               </Link>

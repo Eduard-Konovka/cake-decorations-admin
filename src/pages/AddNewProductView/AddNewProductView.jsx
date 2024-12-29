@@ -13,7 +13,7 @@ import s from './AddNewProductView.module.css';
 const dbItem = {
   _id: '1862834532',
   uaTitle:
-    'Кондитерські цукрові прикраси Корона рожева на торт для дівчинки набір з безе',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit eos dolore, reiciendis facere reprehenderit doloremque voluptatem ut nisi nihil tempora aliquam earum commodi id dicvsfdvsfv!',
   category: '116763867',
   description:
     'Цукрові прикраси є безпечними для дітей. Для прикраси тортів, рулетів, тістечок, булочок, кексів та багато іншого. Зазвичай прикрашають декором поверх виробів. Виробник: Україна Діаметр безе: від 2см до 3см Розмір корони: 6см В упаковці 25 елементів: корона та 24 дрібнички. Розмір коробки (упаковки): дл/шир/вис - 11.5см*11.5см*5.5см Ми всі добре запакуємо, щоб усе доїхало цілим))',
@@ -139,23 +139,25 @@ export default function AddNewProductView() {
             <section className={s.statsSection}>
               <form className={s.form}>
                 <label htmlFor="title" className={s.title}>
-                  {`${'Назва товару'}: `}
+                  {languageDeterminer(LANGUAGE.addNewProductView.title)}
                 </label>
 
-                <input
+                <textarea
                   id="title"
                   name="title"
-                  type="text"
-                  title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-                  pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+                  rows="4"
+                  title={languageDeterminer(
+                    LANGUAGE.addNewProductView.titleInput,
+                  )}
                   placeholder={languageDeterminer(
                     LANGUAGE.signInView.inputPlaceholder,
                   )}
                   autoComplete="given-name family-name"
-                  minLength={GLOBAL.signInViewInput.minLength}
-                  maxLength={GLOBAL.signInViewInput.maxLength}
-                  defaultValue="Test product"
-                  className={s.productInput}
+                  minLength={GLOBAL.addNewProductView.input.minLength}
+                  maxLength={GLOBAL.addNewProductView.input.maxLength}
+                  defaultValue={dbItem.uaTitle}
+                  autoCorrect="on"
+                  className={s.titleInput}
                   onChange={handleTitleChange}
                 />
 
@@ -168,16 +170,20 @@ export default function AddNewProductView() {
                     id="category"
                     name="category"
                     type="text"
-                    title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-                    pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+                    title={languageDeterminer(
+                      LANGUAGE.addNewProductView.titleInput,
+                    )}
+                    pattern={languageDeterminer(
+                      GLOBAL.addNewProductView.pattern,
+                    )}
                     placeholder={languageDeterminer(
                       LANGUAGE.signInView.inputPlaceholder,
                     )}
                     autoComplete="given-name family-name"
-                    // minLength={GLOBAL.signInViewInput.minLength}
-                    // maxLength={GLOBAL.signInViewInput.maxLength}
+                    minLength={GLOBAL.addNewProductView.input.minLength}
+                    // maxLength={GLOBAL.addNewProductView.input.maxLength}
                     defaultValue="116763867"
-                    className={s.productInput}
+                    className={s.input}
                     onChange={handleCategoryChange}
                   />
                 </div>
@@ -237,20 +243,20 @@ export default function AddNewProductView() {
               {'Опис товару: '}
             </label>
 
-            <input
+            <textarea
               id="finishDescription"
               name="finishDescription"
-              type="text"
-              title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-              pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+              rows="10"
+              title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
               placeholder={languageDeterminer(
                 LANGUAGE.signInView.inputPlaceholder,
               )}
               autoComplete="given-name family-name"
-              // minLength={GLOBAL.signInViewInput.minLength}
-              // maxLength={GLOBAL.signInViewInput.maxLength}
+              minLength={GLOBAL.addNewProductView.input.minLength}
+              // maxLength={GLOBAL.addNewProductView.input.maxLength}
               defaultValue={dbItem.description}
-              className={s.productInput}
+              autoCorrect="on"
+              className={s.textarea}
               onChange={handleDescriptionChange}
             />
           </section>
@@ -267,13 +273,13 @@ export default function AddNewProductView() {
           name="startDescription"
           type="text"
           title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-          pattern={languageDeterminer(GLOBAL.signInViewPattern)}
+          pattern={languageDeterminer(GLOBAL.addNewProductView.pattern)}
           placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
           autoComplete="given-name family-name"
-          // minLength={GLOBAL.signInViewInput.minLength}
-          // maxLength={GLOBAL.signInViewInput.maxLength}
+          // minLength={GLOBAL.addNewProductView.input.minLength}
+          // maxLength={GLOBAL.addNewProductView.input.maxLength}
           defaultValue={dbItem.description}
-          className={s.productInput}
+          className={s.input}
           onChange={handleDescriptionChange}
         />
       </section>

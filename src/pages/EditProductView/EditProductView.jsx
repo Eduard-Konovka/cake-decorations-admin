@@ -7,20 +7,26 @@ import {
   useGlobalState,
   useChangeGlobalState,
   updateCategories,
-  updateProducts,
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
+import { fetchCategories, fetchProduct, fetchTags, fetchLinks } from 'api';
 import {
-  fetchCategories,
-  fetchProducts,
-  fetchProduct,
-  fetchTags,
-  fetchLinks,
-  deleteProductApi,
-} from 'api';
-import { Spinner, Button, Tags, Links, CountForm, Modal } from 'components';
-import { getLanguage, getCategory, getTags, pageUp } from 'functions';
+  Spinner,
+  Button,
+  Tags,
+  Links,
+  CountForm,
+  Modal,
+  Alert,
+} from 'components';
+import {
+  getLanguage,
+  getCategory,
+  getTags,
+  pageUp,
+  deleteProduct,
+} from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
@@ -50,6 +56,7 @@ export default function EditProductView({
   const [tags, setTags] = useState([]);
   const [links, setLinks] = useState([]);
   const [showModal, setShowModal] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
 
   const productId = location.pathname.slice(15, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
@@ -160,24 +167,8 @@ export default function EditProductView({
     navigate(`/products/${productId}`);
   };
 
-  const deleteProduct = async () => {
-    await deleteProductApi(product);
-
-    fetchProducts()
-      .then(products => {
-        products.sort(
-          (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
-        );
-        changeGlobalState(updateProducts, products);
-        navigate('/products');
-      })
-      .catch(error =>
-        toast.error(
-          `${languageDeterminer(
-            LANGUAGE.toastErrors.gettingProducts,
-          )}:\n${error}`,
-        ),
-      );
+  const toggleAlert = () => {
+    setShowAlert(!showAlert);
   };
 
   return (
@@ -299,7 +290,7 @@ export default function EditProductView({
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={deleteProduct}
+                      onClick={toggleAlert}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.deleteButton.text,
@@ -360,6 +351,13 @@ export default function EditProductView({
           product={product}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}
+        />
+      )}
+
+      {showAlert && (
+        <Alert
+          callBack={() => deleteProduct(product, changeGlobalState, navigate)}
+          closeAlert={toggleAlert}
         />
       )}
     </main>

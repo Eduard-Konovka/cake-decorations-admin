@@ -401,6 +401,20 @@ export const LANGUAGE = {
     },
   },
 
+  addNewProductView: {
+    title: {
+      eng: 'Product name: ',
+      ukr: 'Назва товару: ',
+      rus: 'Название товара: ',
+    },
+
+    titleInput: {
+      eng: 'The length of the product name must be at least 2 and no more than 160 characters',
+      ukr: 'Довжина назви продукту повинна бути не менше 2 і не більше 160 символів',
+      rus: 'Длина названия продукта должна быть не менее 2 и не более 160 символов.',
+    },
+  },
+
   productViews: {
     addButton: {
       title: {
@@ -435,6 +449,20 @@ export const LANGUAGE = {
         eng: 'Cancel editing product parameters',
         ukr: 'Скасувати редагування параметрів товару',
         rus: 'Отменить редактирование параметров товара',
+      },
+
+      text: {
+        eng: 'Cancel',
+        ukr: 'Скасувати',
+        rus: 'Отменить',
+      },
+    },
+
+    cancelDeleteButton: {
+      title: {
+        eng: 'Cancel removal of a product from the product catalog',
+        ukr: 'Скасувати видалення товару з каталогу товарів',
+        rus: 'Отменить удаление товара из каталога товаров',
       },
 
       text: {

@@ -1,12 +1,23 @@
 const ENTER_KEY_CODE = 13;
 
 export const GLOBAL = {
-  signInViewInput: {
-    minLength: 4,
-    maxLength: 16,
+  signInView: {
+    input: {
+      minLength: 4,
+      maxLength: 16,
+    },
+
+    pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
   },
 
-  signInViewPattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
+  addNewProductView: {
+    input: {
+      minLength: 2,
+      maxLength: 200,
+    },
+
+    pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
+  },
 
   keyСodes: {
     enter: ENTER_KEY_CODE,

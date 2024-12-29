@@ -1,3 +1,4 @@
+export { default as Alert } from './Alert';
 export { default as AppBar } from './AppBar';
 export { default as Blank } from './Blank';
 export { default as Product } from './Product';
