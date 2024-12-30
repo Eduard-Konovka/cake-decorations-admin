@@ -58,6 +58,7 @@ export default function AddNewProductView() {
   const [name, setName] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
+  const [details, setDetails] = useState([]);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -76,6 +77,24 @@ export default function AddNewProductView() {
   const handleDescriptionChange = event => {
     const value = event.target.value.trim();
     setDescription(value);
+  };
+
+  const addDetail = () => {
+    const productDetails = {
+      attribute_name: 'Властивість',
+      attribute_value: 'фффффффффф',
+      timeStamp: Date.now().toString(),
+    };
+
+    setDetails(prevDeteils => [...prevDeteils, productDetails]);
+  };
+
+  const deleteDetail = detail => {
+    setDetails(prevDetails =>
+      prevDetails.filter(
+        productDetail => productDetail.timeStamp !== detail.timeStamp,
+      ),
+    );
   };
 
   const addProduct = async () => {
@@ -188,15 +207,90 @@ export default function AddNewProductView() {
                   />
                 </div>
 
-                {/* {product.product_details &&
-                  product.product_details.map(detail => (
-                    <p key={detail.attribute_name} className={s.stat}>
-                      <span className={s.statName}>
-                        {detail.attribute_name}:
-                      </span>
-                      {detail.attribute_value}
-                    </p>
-                  ))} */}
+                {details.length > 0 &&
+                  details.map((detail, idx) => (
+                    <div key={detail.timeStamp} className={s.detailsStat}>
+                      <div className={s.detailName}>
+                        <label
+                          htmlFor={`detail${detail.timeStamp}`}
+                          className={s.statName}
+                        >
+                          {'Властивість: '}
+                        </label>
+
+                        <input
+                          id={`detail${detail.timeStamp}`}
+                          name={`detail${detail.timeStamp}`}
+                          type="text"
+                          title={languageDeterminer(
+                            LANGUAGE.addNewProductView.titleInput,
+                          )}
+                          pattern={languageDeterminer(
+                            GLOBAL.addNewProductView.pattern,
+                          )}
+                          placeholder={languageDeterminer(
+                            LANGUAGE.signInView.inputPlaceholder,
+                          )}
+                          autoComplete="given-name family-name"
+                          defaultValue={idx + detail.timeStamp}
+                          minLength={GLOBAL.addNewProductView.input.minLength}
+                          // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                          className={s.input}
+                          onChange={() => console.log(`Change detail${idx}`)}
+                        />
+                      </div>
+
+                      <div className={s.detailValue}>
+                        <label
+                          htmlFor={`value${detail.timeStamp}`}
+                          className={s.statName}
+                        >
+                          {'Значення: '}
+                        </label>
+
+                        <input
+                          id={`value${detail.timeStamp}`}
+                          name={`value${detail.timeStamp}`}
+                          type="text"
+                          title={languageDeterminer(
+                            LANGUAGE.addNewProductView.titleInput,
+                          )}
+                          pattern={languageDeterminer(
+                            GLOBAL.addNewProductView.pattern,
+                          )}
+                          placeholder={languageDeterminer(
+                            LANGUAGE.signInView.inputPlaceholder,
+                          )}
+                          autoComplete="given-name family-name"
+                          defaultValue={idx + detail.timeStamp}
+                          minLength={GLOBAL.addNewProductView.input.minLength}
+                          // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                          className={s.input}
+                          onChange={() => console.log(`Change value${idx}`)}
+                        />
+                      </div>
+
+                      <Button
+                        title={languageDeterminer(
+                          LANGUAGE.productViews.addButton.title,
+                        )}
+                        type="button"
+                        onClick={() => deleteDetail(detail)}
+                      >
+                        {`Delete ${idx}`}
+                      </Button>
+                    </div>
+                  ))}
+
+                <Button
+                  title={languageDeterminer(
+                    LANGUAGE.productViews.addButton.title,
+                  )}
+                  type="button"
+                  onClick={addDetail}
+                >
+                  {languageDeterminer(LANGUAGE.productViews.addButton.text)}
+                </Button>
               </form>
             </section>
 
@@ -226,13 +320,13 @@ export default function AddNewProductView() {
               <div>
                 <Button
                   title={languageDeterminer(
-                    LANGUAGE.productViews.addButton.title,
+                    LANGUAGE.productViews.saveButton.title,
                   )}
                   type="button"
                   styles={s.btn}
                   onClick={addProduct}
                 >
-                  {languageDeterminer(LANGUAGE.productViews.addButton.text)}
+                  {languageDeterminer(LANGUAGE.productViews.saveButton.text)}
                 </Button>
               </div>
             </section>

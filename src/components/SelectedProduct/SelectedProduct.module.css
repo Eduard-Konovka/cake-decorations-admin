@@ -434,7 +434,7 @@
   width: 14vw;
   height: 5vw;
   padding: 0 0.9vw 0 1vw;
-  border: 1px solid #bfca21;
+  border: 1px solid var(--input-border-color);
   border-radius: 1.5vw;
   margin: 0.5vw 0 0 0;
   font-family: inherit;

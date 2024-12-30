@@ -204,7 +204,7 @@
   font-weight: 400;
 
   padding-left: 0.3vw;
-  border: 1px solid #bfca21;
+  border: 1px solid var(--input-border-color);
 }
 
 /*#region INPUT_BY_NAME */

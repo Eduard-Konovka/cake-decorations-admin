@@ -419,7 +419,7 @@
 .input {
   width: 28vw;
   height: 8.75vw;
-  border: 1px solid #bfca21;
+  border: 1px solid var(--input-border-color);
   border-radius: 1vw;
   padding-left: 10px;
   padding-right: 5px;

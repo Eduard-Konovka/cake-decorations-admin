@@ -418,15 +418,29 @@ export const LANGUAGE = {
   productViews: {
     addButton: {
       title: {
-        eng: 'Add product to product catalog',
-        ukr: 'Додати товар до каталогу товарів',
-        rus: 'Добавить товар в каталог товаров',
+        eng: 'Add one more property of the product',
+        ukr: 'Додати ще одну властивість товару',
+        rus: 'Добавить еще одно свойство товара',
       },
 
       text: {
-        eng: 'Add',
-        ukr: 'Додати',
-        rus: 'Добавить',
+        eng: 'Add details',
+        ukr: 'Додати подробиці',
+        rus: 'Добавить сведения',
+      },
+    },
+
+    saveButton: {
+      title: {
+        eng: 'Save new product to product catalog',
+        ukr: 'Зберегти новий товар до каталогу товарів',
+        rus: 'Сохранить новый товар в каталоге товаров',
+      },
+
+      text: {
+        eng: 'Save',
+        ukr: 'Зберегти',
+        rus: 'Сохранить',
       },
     },
 
