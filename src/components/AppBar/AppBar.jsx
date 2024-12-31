@@ -157,6 +157,9 @@ export default function AppBar({ setDefaultsProducts }) {
               end
             >
               {languageDeterminer(LANGUAGE.titles.orders)}
+              {cart.length > 0 && (
+                <span className={s.quantityIcon}>{cart.length}</span>
+              )}
             </NavLink>
 
             <NavLink
@@ -223,16 +226,6 @@ export default function AppBar({ setDefaultsProducts }) {
               end
             >
               {languageDeterminer(LANGUAGE.titles.reviews)}
-            </NavLink>
-
-            <NavLink
-              title={languageDeterminer(LANGUAGE.appBar.cartLink)}
-              to="/cart"
-              className={({ isActive }) =>
-                isActive ? s.activeCart : s.inactiveCart
-              }
-            >
-              <span className={s.quantityInCart}>{cart.length}</span>
             </NavLink>
           </>
         )}

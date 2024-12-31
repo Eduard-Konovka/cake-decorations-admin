@@ -38,11 +38,11 @@ const AddNewProductView = lazy(() =>
 const EditProductView = lazy(() =>
   import('pages/EditProductView' /* webpackChunkName: "EditProductView" */),
 );
+const OrdersView = lazy(() =>
+  import('pages/OrdersView' /* webpackChunkName: "OrdersView" */),
+);
 const AboutView = lazy(() =>
   import('pages/AboutView' /* webpackChunkName: "AboutView" */),
-);
-const CartView = lazy(() =>
-  import('pages/CartView' /* webpackChunkName: "CartView" */),
 );
 const SignInView = lazy(() =>
   import('pages/SignInView' /* webpackChunkName: "SignInView" */),
@@ -225,9 +225,11 @@ export default function App() {
             path="/orders"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.orders)}
-                  wave3D
+                <OrdersView
+                  sending={sending}
+                  changeSelectCount={changeCount}
+                  onDeleteProduct={removeFromCart}
+                  onSubmit={submitCart}
                 />
               </PrivateRoute>
             }
@@ -239,7 +241,7 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.messages)}
-                  waveReflection
+                  wave3D
                 />
               </PrivateRoute>
             }
@@ -251,6 +253,7 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.notifications)}
+                  waveReflection
                 />
               </PrivateRoute>
             }
@@ -291,20 +294,6 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.statistics)}
-                />
-              </PrivateRoute>
-            }
-          />
-
-          <Route
-            path="/cart"
-            element={
-              <PrivateRoute redirectTo="/signin">
-                <CartView
-                  sending={sending}
-                  changeSelectCount={changeCount}
-                  onDeleteProduct={removeFromCart}
-                  onSubmit={submitCart}
                 />
               </PrivateRoute>
             }

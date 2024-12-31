@@ -6,9 +6,9 @@ import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import imageBlank from 'assets/cartEmpty.png';
-import s from './CartView.module.css';
+import s from './OrdersView.module.css';
 
-export default function CartView({
+export default function OrdersView({
   sending,
   changeSelectCount,
   onDeleteProduct,
@@ -44,7 +44,7 @@ export default function CartView({
   );
 }
 
-CartView.propTypes = {
+OrdersView.propTypes = {
   sending: PropTypes.bool.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
   onDeleteProduct: PropTypes.func.isRequired,
