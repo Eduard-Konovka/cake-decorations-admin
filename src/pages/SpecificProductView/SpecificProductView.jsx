@@ -229,7 +229,7 @@ export default function SpecificProductView({
                     {getCategory(language, categories, product)}
                   </p>
 
-                  {product.product_details &&
+                  {product?.product_details?.length > 0 &&
                     product.product_details.map(detail => (
                       <p key={detail.attribute_name} className={s.stat}>
                         <span className={s.statName}>
