@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import Product from 'components/Product';
 import s from './ProductList.module.css';
 
-export default function ProductList({ products, addToCart }) {
+export default function ProductList({ products }) {
   return (
     <ul id="productList" className={s.list}>
       {products.map(item => (
         <li key={item._id} className={s.item}>
-          <Product product={item} addToCart={addToCart} />
+          <Product product={item} />
         </li>
       ))}
     </ul>
@@ -21,5 +21,4 @@ ProductList.propTypes = {
       _id: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  addToCart: PropTypes.func.isRequired,
 };
