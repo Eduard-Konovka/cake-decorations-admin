@@ -382,7 +382,7 @@ export default function ProductsView({ productsByCategoryOrTag }) {
               <select
                 id="inputBySort"
                 name="inputBySort"
-                className={s.inputBySort}
+                className={s.select}
                 defaultValue={'descendingDate'}
                 onChange={handleSort}
               >

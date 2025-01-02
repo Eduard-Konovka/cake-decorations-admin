@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
-import { fetchProducts, addProductApi } from 'api';
+import {
+  useGlobalState,
+  useChangeGlobalState,
+  updateCategories,
+  updateProducts,
+} from 'state';
+import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Button, CountForm } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -52,7 +57,7 @@ const dbItem = {
 
 export default function AddNewProductView() {
   const navigate = useNavigate();
-  const { mainHeight } = useGlobalState('global');
+  const { mainHeight, language, categories } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [name, setName] = useState('');
@@ -63,6 +68,28 @@ export default function AddNewProductView() {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(pageUp, []);
+
+  useEffect(() => {
+    if (categories.length === 0) {
+      fetchCategories()
+        .then(categories => changeGlobalState(updateCategories, categories))
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingCategories,
+            )}:\n${error}`,
+          ),
+        );
+    }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [categories]);
+
+  useEffect(() => {
+    if (!category && categories.length > 0) {
+      setCategory(categories[0]._id);
+    }
+  }, [category, categories]);
 
   const handleTitleChange = event => {
     const value = event.target.value.trim();
@@ -174,7 +201,6 @@ export default function AddNewProductView() {
                   autoComplete="given-name family-name"
                   minLength={GLOBAL.addNewProductView.input.minLength}
                   maxLength={GLOBAL.addNewProductView.input.maxLength}
-                  defaultValue={dbItem.uaTitle}
                   autoCorrect="on"
                   className={s.titleInput}
                   onChange={handleTitleChange}
@@ -185,26 +211,24 @@ export default function AddNewProductView() {
                     {languageDeterminer(LANGUAGE.productViews.category)}
                   </label>
 
-                  <input
+                  <select
                     id="category"
                     name="category"
-                    type="text"
                     title={languageDeterminer(
                       LANGUAGE.addNewProductView.titleInput,
                     )}
-                    pattern={languageDeterminer(
-                      GLOBAL.addNewProductView.pattern,
-                    )}
-                    placeholder={languageDeterminer(
-                      LANGUAGE.signInView.inputPlaceholder,
-                    )}
-                    autoComplete="given-name family-name"
-                    minLength={GLOBAL.addNewProductView.input.minLength}
-                    // maxLength={GLOBAL.addNewProductView.input.maxLength}
-                    defaultValue="116763867"
-                    className={s.input}
+                    defaultValue={category || null}
+                    className={s.select}
                     onChange={handleCategoryChange}
-                  />
+                  >
+                    {categories.map(category => (
+                      <option key={category._id} value={category._id}>
+                        {language === 'RU'
+                          ? category.ruTitle
+                          : category.uaTitle}
+                      </option>
+                    ))}
+                  </select>
                 </div>
 
                 {details.length > 0 &&
@@ -348,7 +372,6 @@ export default function AddNewProductView() {
               autoComplete="given-name family-name"
               minLength={GLOBAL.addNewProductView.input.minLength}
               // maxLength={GLOBAL.addNewProductView.input.maxLength}
-              defaultValue={dbItem.description}
               autoCorrect="on"
               className={s.textarea}
               onChange={handleDescriptionChange}
@@ -370,9 +393,8 @@ export default function AddNewProductView() {
           pattern={languageDeterminer(GLOBAL.addNewProductView.pattern)}
           placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
           autoComplete="given-name family-name"
-          // minLength={GLOBAL.addNewProductView.input.minLength}
+          minLength={GLOBAL.addNewProductView.input.minLength}
           // maxLength={GLOBAL.addNewProductView.input.maxLength}
-          defaultValue={dbItem.description}
           className={s.input}
           onChange={handleDescriptionChange}
         />

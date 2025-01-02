@@ -74,7 +74,7 @@ export default function Product({ product }) {
           <p className={s.shortDescription}>
             {getPureText(
               language === 'RU'
-                ? product?.ruDescription
+                ? product?.ruDescription || product?.description
                 : product?.uaDescription || product?.description,
             )}
           </p>
@@ -91,7 +91,7 @@ export default function Product({ product }) {
       <p className={s.paragraph_title}>
         {languageDeterminer(LANGUAGE.product.creationDate)}
         <span className={s.value}>
-          {Number(product._id) > 1734903482020 // TODO 1735682400000
+          {Number(product._id) > 1735682400000
             ? new Date(Number(product._id)).toLocaleString()
             : '2024'}
         </span>

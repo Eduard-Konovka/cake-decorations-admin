@@ -20,8 +20,8 @@ export const LANGUAGE = {
   toastErrors: {
     gettingCategories: {
       eng: 'Unable to load product categories',
-      ukr: 'Не вдалося завантажити товари',
-      rus: 'Не удалось загрузить категории продуктов',
+      ukr: 'Не вдалося завантажити категорії товарів',
+      rus: 'Не удалось загрузить категории товаров',
     },
 
     gettingProducts: {
@@ -343,15 +343,15 @@ export const LANGUAGE = {
 
   addProductButton: {
     title: {
-      eng: 'Add a new product item',
-      ukr: 'Додати нову позицію товару',
-      rus: 'Добавить новую позицию товара',
+      eng: 'Add a new item to the product catalog',
+      ukr: 'Додати нову позицію в каталог товарів',
+      rus: 'Добавить новую позицию в каталог товаров',
     },
 
     text: {
-      eng: 'Add product',
-      ukr: 'Додати товар',
-      rus: 'Добавить товар',
+      eng: 'Add new product',
+      ukr: 'Додати новий товар',
+      rus: 'Добавить новый товар',
     },
   },
 

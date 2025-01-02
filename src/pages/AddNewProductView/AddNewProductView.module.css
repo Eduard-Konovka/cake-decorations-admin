@@ -299,6 +299,11 @@
   resize: none;
 }
 
+.select {
+  composes: input;
+  width: 100%;
+}
+
 .titleInput {
   composes: textarea;
   font-size: 6vw;

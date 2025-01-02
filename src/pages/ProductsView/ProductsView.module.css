@@ -392,37 +392,37 @@
 }
 
 /*#region INPUT_BY_SORT */
-.inputBySort {
+.select {
   composes: input;
   width: 57vw;
 }
 
 @media screen and (min-width: 320px) {
-  .inputBySort {
+  .select {
     width: 56vw;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .inputBySort {
+  .select {
     width: 45vw;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .inputBySort {
+  .select {
     width: 28vw;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .inputBySort {
+  .select {
     width: 22vw;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .inputBySort {
+  .select {
     width: 16vw;
   }
 }
