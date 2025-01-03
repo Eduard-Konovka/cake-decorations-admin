@@ -8,7 +8,7 @@ import {
   updateProducts,
 } from 'state';
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
-import { Button, CountForm } from 'components';
+import { Button } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -64,6 +64,8 @@ export default function AddNewProductView() {
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
   const [details, setDetails] = useState([]);
+  const [price, setPrice] = useState(0);
+  const [quantity, setQuantity] = useState(0);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -124,7 +126,74 @@ export default function AddNewProductView() {
     );
   };
 
+  function handlePriceKeyPress(event) {
+    if (
+      GLOBAL.keyСodes.prohibitedForPrice.includes(event.charCode) ||
+      (event.charCode === GLOBAL.keyСodes.zero && !event.target.value)
+    ) {
+      event.preventDefault();
+    }
+  }
+
+  function handleKeyPress(event) {
+    if (
+      GLOBAL.keyСodes.prohibited.includes(event.charCode) ||
+      (event.charCode === GLOBAL.keyСodes.zero && !event.target.value)
+    ) {
+      event.preventDefault();
+    }
+  }
+
+  function handlePriceChange(event) {
+    const inputValue = Number(event.target.value);
+
+    if (inputValue >= 0.01) {
+      setPrice(inputValue);
+    } else {
+      toast.error(
+        `${languageDeterminer(
+          LANGUAGE.countForm.error.prefix,
+        )} ${0.01} ${languageDeterminer(
+          LANGUAGE.countForm.error.suffix,
+        )} ${languageDeterminer(LANGUAGE.countForm.error.postfix)}`,
+      );
+    }
+  }
+
+  function handleQuantityChange(event) {
+    const inputValue = Number(event.target.value);
+
+    if (inputValue >= 1 && Number.isInteger(inputValue)) {
+      setQuantity(inputValue);
+    } else {
+      toast.error(
+        `${languageDeterminer(
+          LANGUAGE.countForm.error.prefix,
+        )} ${1} ${languageDeterminer(
+          LANGUAGE.countForm.error.suffix,
+        )} ${languageDeterminer(LANGUAGE.countForm.error.postfix)}`,
+      );
+    }
+  }
+
   const addProduct = async () => {
+    if (!name) {
+      toast.error('Не заповнене поле назви товару!');
+      return;
+    } else if (!category) {
+      toast.error('Не вибране поле кагорії товару!');
+      return;
+    } else if (!description) {
+      toast.error('Не заповнене поле опису про товар!');
+      return;
+    } else if (!price) {
+      toast.error('Не вказана ціна товару!');
+      return;
+    } else if (!quantity) {
+      toast.error('Не вказана кількість товару!');
+      return;
+    }
+
     const newProduct = {
       _id: Date.now().toString(),
       title: name,
@@ -132,7 +201,8 @@ export default function AddNewProductView() {
       category,
       description,
       images: dbItem.images,
-      price: dbItem.price,
+      price,
+      quantity,
     };
 
     await addProductApi(newProduct);
@@ -157,9 +227,10 @@ export default function AddNewProductView() {
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       <div className={s.row}>
-        <section className={s.imagesSection}>
+        <div className={s.imagesSection}>
           <img
             src={imageNotFound}
+            title={'aaaaaaaaaaaa'}
             alt={'template'}
             className={s.mainImage}
             onClick={() => toast.warn('Click image')}
@@ -178,168 +249,175 @@ export default function AddNewProductView() {
               ))}
             </div>
           )} */}
-        </section>
+        </div>
 
         <div className={s.thumb}>
           <div className={s.monitor}>
-            <section className={s.statsSection}>
-              <form className={s.form}>
-                <label htmlFor="title" className={s.title}>
-                  {languageDeterminer(LANGUAGE.addNewProductView.title)}
+            <form className={s.statsSection}>
+              <label htmlFor="title" className={s.title}>
+                {languageDeterminer(LANGUAGE.addNewProductView.title)}
+              </label>
+
+              <textarea
+                id="title"
+                name="title"
+                rows="4"
+                title={languageDeterminer(
+                  LANGUAGE.addNewProductView.titleInput,
+                )}
+                placeholder={languageDeterminer(
+                  LANGUAGE.signInView.inputPlaceholder,
+                )}
+                autoComplete="given-name family-name"
+                minLength={GLOBAL.addNewProductView.input.minLength}
+                maxLength={GLOBAL.addNewProductView.input.maxLength}
+                autoCorrect="on"
+                className={s.titleInput}
+                onChange={handleTitleChange}
+              />
+
+              <div className={s.stat}>
+                <label htmlFor="category" className={s.statName}>
+                  {languageDeterminer(LANGUAGE.productViews.category)}
                 </label>
 
-                <textarea
-                  id="title"
-                  name="title"
-                  rows="4"
+                <select
+                  id="category"
+                  name="category"
                   title={languageDeterminer(
                     LANGUAGE.addNewProductView.titleInput,
                   )}
-                  placeholder={languageDeterminer(
-                    LANGUAGE.signInView.inputPlaceholder,
-                  )}
-                  autoComplete="given-name family-name"
-                  minLength={GLOBAL.addNewProductView.input.minLength}
-                  maxLength={GLOBAL.addNewProductView.input.maxLength}
-                  autoCorrect="on"
-                  className={s.titleInput}
-                  onChange={handleTitleChange}
-                />
-
-                <div className={s.stat}>
-                  <label htmlFor="category" className={s.statName}>
-                    {languageDeterminer(LANGUAGE.productViews.category)}
-                  </label>
-
-                  <select
-                    id="category"
-                    name="category"
-                    title={languageDeterminer(
-                      LANGUAGE.addNewProductView.titleInput,
-                    )}
-                    defaultValue={category || null}
-                    className={s.select}
-                    onChange={handleCategoryChange}
-                  >
-                    {categories.map(category => (
-                      <option key={category._id} value={category._id}>
-                        {language === 'RU'
-                          ? category.ruTitle
-                          : category.uaTitle}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                {details.length > 0 &&
-                  details.map((detail, idx) => (
-                    <div key={detail.timeStamp} className={s.detailsStat}>
-                      <div className={s.detailName}>
-                        <label
-                          htmlFor={`detail${detail.timeStamp}`}
-                          className={s.statName}
-                        >
-                          {'Властивість: '}
-                        </label>
-
-                        <input
-                          id={`detail${detail.timeStamp}`}
-                          name={`detail${detail.timeStamp}`}
-                          type="text"
-                          title={languageDeterminer(
-                            LANGUAGE.addNewProductView.titleInput,
-                          )}
-                          pattern={languageDeterminer(
-                            GLOBAL.addNewProductView.pattern,
-                          )}
-                          placeholder={languageDeterminer(
-                            LANGUAGE.signInView.inputPlaceholder,
-                          )}
-                          autoComplete="given-name family-name"
-                          defaultValue={idx + detail.timeStamp}
-                          minLength={GLOBAL.addNewProductView.input.minLength}
-                          // maxLength={GLOBAL.addNewProductView.input.maxLength}
-                          className={s.input}
-                          onChange={() => console.log(`Change detail${idx}`)}
-                        />
-                      </div>
-
-                      <div className={s.detailValue}>
-                        <label
-                          htmlFor={`value${detail.timeStamp}`}
-                          className={s.statName}
-                        >
-                          {'Значення: '}
-                        </label>
-
-                        <input
-                          id={`value${detail.timeStamp}`}
-                          name={`value${detail.timeStamp}`}
-                          type="text"
-                          title={languageDeterminer(
-                            LANGUAGE.addNewProductView.titleInput,
-                          )}
-                          pattern={languageDeterminer(
-                            GLOBAL.addNewProductView.pattern,
-                          )}
-                          placeholder={languageDeterminer(
-                            LANGUAGE.signInView.inputPlaceholder,
-                          )}
-                          autoComplete="given-name family-name"
-                          defaultValue={idx + detail.timeStamp}
-                          minLength={GLOBAL.addNewProductView.input.minLength}
-                          // maxLength={GLOBAL.addNewProductView.input.maxLength}
-                          className={s.input}
-                          onChange={() => console.log(`Change value${idx}`)}
-                        />
-                      </div>
-
-                      <Button
-                        title={languageDeterminer(
-                          LANGUAGE.productViews.addButton.title,
-                        )}
-                        type="button"
-                        onClick={() => deleteDetail(detail)}
-                      >
-                        {`Delete ${idx}`}
-                      </Button>
-                    </div>
-                  ))}
-
-                <Button
-                  title={languageDeterminer(
-                    LANGUAGE.productViews.addButton.title,
-                  )}
-                  type="button"
-                  onClick={addDetail}
+                  defaultValue={category || null}
+                  className={s.select}
+                  onChange={handleCategoryChange}
                 >
-                  {languageDeterminer(LANGUAGE.productViews.addButton.text)}
-                </Button>
-              </form>
-            </section>
+                  {categories.map(category => (
+                    <option key={category._id} value={category._id}>
+                      {language === 'RU' ? category.ruTitle : category.uaTitle}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
-            <section className={s.controlsSection}>
-              <p className={s.count}>
-                <span className={s.boldfont}>
-                  {languageDeterminer(LANGUAGE.productViews.price)}
-                </span>
-                {10} ₴
-              </p>
+              {details.length > 0 &&
+                details.map((detail, idx) => (
+                  <div key={detail.timeStamp} className={s.detailsStat}>
+                    <div className={s.detailName}>
+                      <label
+                        htmlFor={`detail${detail.timeStamp}`}
+                        className={s.statName}
+                      >
+                        {'Властивість: '}
+                      </label>
 
-              <CountForm
-                value={3}
-                price={10}
-                min={GLOBAL.productCount.min}
-                max={GLOBAL.productCount.max}
-                styles={{
-                  formStyle: s.count,
-                  labelStyle: s.boldfont,
-                  inputStyle: s.countInput,
-                  spanStyle: s.boldfont,
-                  totalPriceStyle: s.count,
-                }}
-                setCount={() => toast.warn('Click CountForm')}
-              />
+                      <input
+                        id={`detail${detail.timeStamp}`}
+                        name={`detail${detail.timeStamp}`}
+                        type="text"
+                        title={languageDeterminer(
+                          LANGUAGE.addNewProductView.titleInput,
+                        )}
+                        pattern={languageDeterminer(
+                          GLOBAL.addNewProductView.pattern,
+                        )}
+                        placeholder={languageDeterminer(
+                          LANGUAGE.signInView.inputPlaceholder,
+                        )}
+                        autoComplete="given-name family-name"
+                        minLength={GLOBAL.addNewProductView.input.minLength}
+                        // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                        className={s.input}
+                        onChange={() => console.log(`Change detail${idx}`)}
+                      />
+                    </div>
+
+                    <div className={s.detailValue}>
+                      <label
+                        htmlFor={`value${detail.timeStamp}`}
+                        className={s.statName}
+                      >
+                        {'Значення: '}
+                      </label>
+
+                      <input
+                        id={`value${detail.timeStamp}`}
+                        name={`value${detail.timeStamp}`}
+                        type="text"
+                        title={languageDeterminer(
+                          LANGUAGE.addNewProductView.titleInput,
+                        )}
+                        pattern={languageDeterminer(
+                          GLOBAL.addNewProductView.pattern,
+                        )}
+                        placeholder={languageDeterminer(
+                          LANGUAGE.signInView.inputPlaceholder,
+                        )}
+                        autoComplete="given-name family-name"
+                        minLength={GLOBAL.addNewProductView.input.minLength}
+                        // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                        className={s.input}
+                        onChange={() => console.log(`Change value${idx}`)}
+                      />
+                    </div>
+
+                    <Button
+                      title={languageDeterminer(
+                        LANGUAGE.productViews.addButton.title,
+                      )}
+                      type="button"
+                      onClick={() => deleteDetail(detail)}
+                    >
+                      {`Delete ${idx}`}
+                    </Button>
+                  </div>
+                ))}
+
+              <Button
+                title={languageDeterminer(
+                  LANGUAGE.productViews.addButton.title,
+                )}
+                type="button"
+                onClick={addDetail}
+              >
+                {languageDeterminer(LANGUAGE.productViews.addButton.text)}
+              </Button>
+            </form>
+
+            <form className={s.controlsSection}>
+              <div className={s.controlsRow}>
+                <label htmlFor="price" className={s.boldfont}>
+                  {languageDeterminer(LANGUAGE.addProductViews.price)}
+                </label>
+
+                <input
+                  name="price"
+                  id="price"
+                  type="number"
+                  min={0.01}
+                  step={0.01}
+                  placeholder={0.01}
+                  className={s.countInput}
+                  onKeyPress={handlePriceKeyPress}
+                  onChange={handlePriceChange}
+                />
+              </div>
+
+              <div className={s.controlsRow}>
+                <label htmlFor="quantity" className={s.boldfont}>
+                  {languageDeterminer(LANGUAGE.countForm.label)}
+                </label>
+
+                <input
+                  name="quantity"
+                  id="quantity"
+                  type="number"
+                  min={1}
+                  placeholder={0}
+                  className={s.countInput}
+                  onKeyPress={handleKeyPress}
+                  onChange={handleQuantityChange}
+                />
+              </div>
 
               <div>
                 <Button
@@ -353,10 +431,10 @@ export default function AddNewProductView() {
                   {languageDeterminer(LANGUAGE.productViews.saveButton.text)}
                 </Button>
               </div>
-            </section>
+            </form>
           </div>
 
-          <section className={s.finishDescriptionSection}>
+          <form className={s.finishDescriptionSection}>
             <label htmlFor="finishDescription" className={s.statName}>
               {'Опис товару: '}
             </label>
@@ -376,11 +454,11 @@ export default function AddNewProductView() {
               className={s.textarea}
               onChange={handleDescriptionChange}
             />
-          </section>
+          </form>
         </div>
       </div>
 
-      <section className={s.startDescriptionSection}>
+      <form className={s.startDescriptionSection}>
         <label htmlFor="startDescription" className={s.statName}>
           {'Опис товару: '}
         </label>
@@ -398,7 +476,7 @@ export default function AddNewProductView() {
           className={s.input}
           onChange={handleDescriptionChange}
         />
-      </section>
+      </form>
     </main>
   );
 }

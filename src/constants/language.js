@@ -549,6 +549,14 @@ export const LANGUAGE = {
     },
   },
 
+  addProductViews: {
+    price: {
+      eng: 'Price, ₴: ',
+      ukr: 'Ціна, ₴: ',
+      rus: 'Цена, ₴: ',
+    },
+  },
+
   product: {
     category: {
       eng: 'Category: ',

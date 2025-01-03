@@ -28,6 +28,10 @@ export const GLOBAL = {
       46, // .
       101, // e (scientific notaion, 1e2 === 100)
     ],
+    prohibitedForPrice: [
+      ENTER_KEY_CODE, // Enter
+      101, // e (scientific notaion, 1e2 === 100)
+    ],
   },
 
   productCount: {
