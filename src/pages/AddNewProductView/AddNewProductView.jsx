@@ -332,9 +332,9 @@ export default function AddNewProductView() {
               </div>
 
               {details.length > 0 &&
-                details.map((detail, idx) => (
+                details.map(detail => (
                   <div key={detail.timeStamp} className={s.detailsStat}>
-                    <div className={s.detailName}>
+                    <div className={s.detail}>
                       <label
                         htmlFor={`attributeName${detail.timeStamp}`}
                         className={s.statName}
@@ -366,7 +366,7 @@ export default function AddNewProductView() {
                       />
                     </div>
 
-                    <div className={s.detailValue}>
+                    <div className={s.detail}>
                       <label
                         htmlFor={`attributeValue${detail.timeStamp}`}
                         className={s.statName}
@@ -404,7 +404,7 @@ export default function AddNewProductView() {
                       type="button"
                       onClick={() => deleteDetail(detail)}
                     >
-                      {`Delete ${idx}`}
+                      {'Видалити властивість'}
                     </Button>
                   </div>
                 ))}
@@ -500,17 +500,17 @@ export default function AddNewProductView() {
           {'Опис товару: '}
         </label>
 
-        <input
+        <textarea
           id="startDescription"
           name="startDescription"
-          type="text"
-          title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-          pattern={languageDeterminer(GLOBAL.addNewProductView.pattern)}
+          rows="10"
+          title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
           placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
           autoComplete="given-name family-name"
           minLength={GLOBAL.addNewProductView.input.minLength}
           // maxLength={GLOBAL.addNewProductView.input.maxLength}
-          className={s.input}
+          autoCorrect="on"
+          className={s.textarea}
           onChange={descriptionChangeHandler}
         />
       </form>

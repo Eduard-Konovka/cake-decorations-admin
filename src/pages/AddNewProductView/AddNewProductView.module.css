@@ -258,7 +258,6 @@
 @media screen and (min-width: 320px) {
   .input {
     font-size: 16px;
-    width: 200px;
     height: 32px;
     border-radius: 8px;
   }
@@ -273,7 +272,6 @@
 @media screen and (min-width: 1600px) {
   .input {
     font-size: 1vw;
-    width: 12.5vw;
     height: 2vw;
     border-radius: 0.625vw;
   }
@@ -281,14 +279,12 @@
 
 .textarea {
   composes: input;
-  width: 100%;
   height: auto;
   resize: none;
 }
 
 .select {
   composes: input;
-  width: 100%;
 }
 
 .titleInput {
@@ -362,6 +358,12 @@
   border: 1px solid var(--input-border-color);
   margin: 0.7vw 0;
   padding-left: 10px;
+  padding-right: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: stretch;
 }
 
 .semiboldfont {
