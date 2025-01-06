@@ -93,25 +93,25 @@ export default function AddNewProductView() {
     }
   }, [category, categories]);
 
-  const handleTitleChange = event => {
+  const titleChangHandler = event => {
     const value = event.target.value.trim();
     setName(value);
   };
 
-  const handleCategoryChange = event => {
+  const categoryChangeHandler = event => {
     const value = event.target.value.trim();
     setCategory(value);
   };
 
-  const handleDescriptionChange = event => {
+  const descriptionChangeHandler = event => {
     const value = event.target.value.trim();
     setDescription(value);
   };
 
   const addDetail = () => {
     const productDetails = {
-      attribute_name: 'Властивість',
-      attribute_value: 'фффффффффф',
+      attribute_name: '',
+      attribute_value: '',
       timeStamp: Date.now().toString(),
     };
 
@@ -126,7 +126,39 @@ export default function AddNewProductView() {
     );
   };
 
-  function handlePriceKeyPress(event) {
+  function attributeNameChangeHandler(event, timeStamp) {
+    const value = event.target.value.trim();
+
+    setDetails(prevDeteils => {
+      const editableDetails = prevDeteils.map(detail => {
+        if (detail.timeStamp === timeStamp) {
+          detail.attribute_name = value;
+        }
+
+        return detail;
+      });
+
+      return editableDetails;
+    });
+  }
+
+  function attributeValueChangeHandler(event, timeStamp) {
+    const value = event.target.value.trim();
+
+    setDetails(prevDeteils => {
+      const editableDetails = prevDeteils.map(detail => {
+        if (detail.timeStamp === timeStamp) {
+          detail.attribute_value = value;
+        }
+
+        return detail;
+      });
+
+      return editableDetails;
+    });
+  }
+
+  function priceKeyPressChangeHandler(event) {
     if (
       GLOBAL.keyСodes.prohibitedForPrice.includes(event.charCode) ||
       (event.charCode === GLOBAL.keyСodes.zero && !event.target.value)
@@ -135,7 +167,7 @@ export default function AddNewProductView() {
     }
   }
 
-  function handleKeyPress(event) {
+  function keyPressHandler(event) {
     if (
       GLOBAL.keyСodes.prohibited.includes(event.charCode) ||
       (event.charCode === GLOBAL.keyСodes.zero && !event.target.value)
@@ -144,7 +176,7 @@ export default function AddNewProductView() {
     }
   }
 
-  function handlePriceChange(event) {
+  function priceChangeHandler(event) {
     const inputValue = Number(event.target.value);
 
     if (inputValue >= 0.01) {
@@ -160,7 +192,7 @@ export default function AddNewProductView() {
     }
   }
 
-  function handleQuantityChange(event) {
+  function quantityChangeHandler(event) {
     const inputValue = Number(event.target.value);
 
     if (inputValue >= 1 && Number.isInteger(inputValue)) {
@@ -176,7 +208,7 @@ export default function AddNewProductView() {
     }
   }
 
-  const addProduct = async () => {
+  const addProductHandler = async () => {
     if (!name) {
       toast.error('Не заповнене поле назви товару!');
       return;
@@ -273,7 +305,7 @@ export default function AddNewProductView() {
                 maxLength={GLOBAL.addNewProductView.input.maxLength}
                 autoCorrect="on"
                 className={s.titleInput}
-                onChange={handleTitleChange}
+                onChange={titleChangHandler}
               />
 
               <div className={s.stat}>
@@ -289,7 +321,7 @@ export default function AddNewProductView() {
                   )}
                   defaultValue={category || null}
                   className={s.select}
-                  onChange={handleCategoryChange}
+                  onChange={categoryChangeHandler}
                 >
                   {categories.map(category => (
                     <option key={category._id} value={category._id}>
@@ -304,15 +336,15 @@ export default function AddNewProductView() {
                   <div key={detail.timeStamp} className={s.detailsStat}>
                     <div className={s.detailName}>
                       <label
-                        htmlFor={`detail${detail.timeStamp}`}
+                        htmlFor={`attributeName${detail.timeStamp}`}
                         className={s.statName}
                       >
                         {'Властивість: '}
                       </label>
 
                       <input
-                        id={`detail${detail.timeStamp}`}
-                        name={`detail${detail.timeStamp}`}
+                        id={`attributeName${detail.timeStamp}`}
+                        name={`attributeName${detail.timeStamp}`}
                         type="text"
                         title={languageDeterminer(
                           LANGUAGE.addNewProductView.titleInput,
@@ -326,22 +358,25 @@ export default function AddNewProductView() {
                         autoComplete="given-name family-name"
                         minLength={GLOBAL.addNewProductView.input.minLength}
                         // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                        value={detail.attribute_name}
                         className={s.input}
-                        onChange={() => console.log(`Change detail${idx}`)}
+                        onChange={event =>
+                          attributeNameChangeHandler(event, detail.timeStamp)
+                        }
                       />
                     </div>
 
                     <div className={s.detailValue}>
                       <label
-                        htmlFor={`value${detail.timeStamp}`}
+                        htmlFor={`attributeValue${detail.timeStamp}`}
                         className={s.statName}
                       >
                         {'Значення: '}
                       </label>
 
                       <input
-                        id={`value${detail.timeStamp}`}
-                        name={`value${detail.timeStamp}`}
+                        id={`attributeValue${detail.timeStamp}`}
+                        name={`attributeValue${detail.timeStamp}`}
                         type="text"
                         title={languageDeterminer(
                           LANGUAGE.addNewProductView.titleInput,
@@ -356,7 +391,9 @@ export default function AddNewProductView() {
                         minLength={GLOBAL.addNewProductView.input.minLength}
                         // maxLength={GLOBAL.addNewProductView.input.maxLength}
                         className={s.input}
-                        onChange={() => console.log(`Change value${idx}`)}
+                        onChange={event =>
+                          attributeValueChangeHandler(event, detail.timeStamp)
+                        }
                       />
                     </div>
 
@@ -397,8 +434,8 @@ export default function AddNewProductView() {
                   step={0.01}
                   placeholder={0.01}
                   className={s.countInput}
-                  onKeyPress={handlePriceKeyPress}
-                  onChange={handlePriceChange}
+                  onKeyPress={priceKeyPressChangeHandler}
+                  onChange={priceChangeHandler}
                 />
               </div>
 
@@ -414,8 +451,8 @@ export default function AddNewProductView() {
                   min={1}
                   placeholder={0}
                   className={s.countInput}
-                  onKeyPress={handleKeyPress}
-                  onChange={handleQuantityChange}
+                  onKeyPress={keyPressHandler}
+                  onChange={quantityChangeHandler}
                 />
               </div>
 
@@ -426,7 +463,7 @@ export default function AddNewProductView() {
                   )}
                   type="button"
                   styles={s.btn}
-                  onClick={addProduct}
+                  onClick={addProductHandler}
                 >
                   {languageDeterminer(LANGUAGE.productViews.saveButton.text)}
                 </Button>
@@ -452,7 +489,7 @@ export default function AddNewProductView() {
               // maxLength={GLOBAL.addNewProductView.input.maxLength}
               autoCorrect="on"
               className={s.textarea}
-              onChange={handleDescriptionChange}
+              onChange={descriptionChangeHandler}
             />
           </form>
         </div>
@@ -474,7 +511,7 @@ export default function AddNewProductView() {
           minLength={GLOBAL.addNewProductView.input.minLength}
           // maxLength={GLOBAL.addNewProductView.input.maxLength}
           className={s.input}
-          onChange={handleDescriptionChange}
+          onChange={descriptionChangeHandler}
         />
       </form>
     </main>
