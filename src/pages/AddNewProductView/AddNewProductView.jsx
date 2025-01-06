@@ -471,49 +471,45 @@ export default function AddNewProductView() {
             </form>
           </div>
 
-          <form className={s.finishDescriptionSection}>
-            <label htmlFor="finishDescription" className={s.statName}>
-              {'Опис товару: '}
-            </label>
-
-            <textarea
-              id="finishDescription"
-              name="finishDescription"
-              rows="10"
-              title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
-              placeholder={languageDeterminer(
-                LANGUAGE.signInView.inputPlaceholder,
-              )}
-              autoComplete="given-name family-name"
-              minLength={GLOBAL.addNewProductView.input.minLength}
-              // maxLength={GLOBAL.addNewProductView.input.maxLength}
-              autoCorrect="on"
-              className={s.textarea}
-              onChange={descriptionChangeHandler}
-            />
-          </form>
+          <Description
+            id="finishDescription"
+            languageDeterminer={languageDeterminer}
+            style={s.finishDescriptionSection}
+            callback={descriptionChangeHandler}
+          />
         </div>
       </div>
 
-      <form className={s.startDescriptionSection}>
-        <label htmlFor="startDescription" className={s.statName}>
-          {'Опис товару: '}
-        </label>
-
-        <textarea
-          id="startDescription"
-          name="startDescription"
-          rows="10"
-          title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
-          placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
-          autoComplete="given-name family-name"
-          minLength={GLOBAL.addNewProductView.input.minLength}
-          // maxLength={GLOBAL.addNewProductView.input.maxLength}
-          autoCorrect="on"
-          className={s.textarea}
-          onChange={descriptionChangeHandler}
-        />
-      </form>
+      <Description
+        id="startDescription"
+        languageDeterminer={languageDeterminer}
+        style={s.startDescriptionSection}
+        callback={descriptionChangeHandler}
+      />
     </main>
+  );
+}
+
+export function Description({ id, languageDeterminer, style, callback }) {
+  return (
+    <form className={style}>
+      <label htmlFor={id} className={s.statName}>
+        {'Опис товару: '}
+      </label>
+
+      <textarea
+        id={id}
+        name={id}
+        rows="10"
+        title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
+        placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
+        autoComplete="given-name family-name"
+        minLength={GLOBAL.addNewProductView.input.minLength}
+        // maxLength={GLOBAL.addNewProductView.input.maxLength}
+        autoCorrect="on"
+        className={s.textarea}
+        onChange={callback}
+      />
+    </form>
   );
 }
