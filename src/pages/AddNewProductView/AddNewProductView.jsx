@@ -94,17 +94,17 @@ export default function AddNewProductView() {
   }, [category, categories]);
 
   const titleChangHandler = event => {
-    const value = event.target.value.trim();
+    const value = event.target.value;
     setName(value);
   };
 
   const categoryChangeHandler = event => {
-    const value = event.target.value.trim();
+    const value = event.target.value;
     setCategory(value);
   };
 
   const descriptionChangeHandler = event => {
-    const value = event.target.value.trim();
+    const value = event.target.value;
     setDescription(value);
   };
 
@@ -127,7 +127,7 @@ export default function AddNewProductView() {
   };
 
   function attributeNameChangeHandler(event, timeStamp) {
-    const value = event.target.value.trim();
+    const value = event.target.value;
 
     setDetails(prevDeteils => {
       const editableDetails = prevDeteils.map(detail => {
@@ -143,7 +143,7 @@ export default function AddNewProductView() {
   }
 
   function attributeValueChangeHandler(event, timeStamp) {
-    const value = event.target.value.trim();
+    const value = event.target.value;
 
     setDetails(prevDeteils => {
       const editableDetails = prevDeteils.map(detail => {
@@ -226,6 +226,20 @@ export default function AddNewProductView() {
       return;
     }
 
+    let detailsCondition = true;
+    for (let i = 0; i < details.length; i++) {
+      if (details[i].attribute_name.length < 1) {
+        toast.error('Не заповнене поле властивості подробиць товару!');
+        detailsCondition = false;
+        break;
+      } else if (details[i].attribute_value.length < 1) {
+        toast.error('Не заповнене поле значення подробиць товару!');
+        detailsCondition = false;
+        break;
+      }
+    }
+    if (!detailsCondition) return;
+
     const newProduct = {
       _id: Date.now().toString(),
       title: name,
@@ -235,6 +249,7 @@ export default function AddNewProductView() {
       images: dbItem.images,
       price,
       quantity,
+      product_details: details,
     };
 
     await addProductApi(newProduct);
