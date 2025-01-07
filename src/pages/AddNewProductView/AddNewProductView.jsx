@@ -8,20 +8,15 @@ import {
   updateProducts,
 } from 'state';
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
-import { Button } from 'components';
+import { Button, Modal } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
+import icons from 'assets/icons.svg';
 import s from './AddNewProductView.module.css';
 
 const dbItem = {
-  _id: '1862834532',
-  uaTitle:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit eos dolore, reiciendis facere reprehenderit doloremque voluptatem ut nisi nihil tempora aliquam earum commodi id dicvsfdvsfv!',
-  category: '116763867',
-  description:
-    'Цукрові прикраси є безпечними для дітей. Для прикраси тортів, рулетів, тістечок, булочок, кексів та багато іншого. Зазвичай прикрашають декором поверх виробів. Виробник: Україна Діаметр безе: від 2см до 3см Розмір корони: 6см В упаковці 25 елементів: корона та 24 дрібнички. Розмір коробки (упаковки): дл/шир/вис - 11.5см*11.5см*5.5см Ми всі добре запакуємо, щоб усе доїхало цілим))',
   images: [
     'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
     'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
@@ -29,30 +24,6 @@ const dbItem = {
     'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
     'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
   ],
-  price: 1000,
-  product_details: [
-    {
-      attribute_name: 'Країна виробник',
-      attribute_value: 'Україна',
-    },
-    {
-      attribute_name: 'Вид кондитерських виробів',
-      attribute_value: 'Безе',
-    },
-    {
-      attribute_name: 'Тип',
-      attribute_value: 'Фасовані',
-    },
-    {
-      attribute_name: 'Вид декору',
-      attribute_value: 'Цукрові фігури',
-    },
-  ],
-  // availability: 'in stock',
-  // product_type: 'Кондитерський декор',
-  // identifier_exists: 'no',
-  // condition: 'new',
-  // color: 'Рожевий',
 };
 
 export default function AddNewProductView() {
@@ -60,12 +31,15 @@ export default function AddNewProductView() {
   const { mainHeight, language, categories } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [name, setName] = useState('');
+  const [images, setImages] = useState([...dbItem.images]);
+  const [title, setTitle] = useState('');
   const [category, setCategory] = useState('');
-  const [description, setDescription] = useState('');
   const [details, setDetails] = useState([]);
+  const [description, setDescription] = useState('');
   const [price, setPrice] = useState(0);
   const [quantity, setQuantity] = useState(0);
+  const [mainImageIdx, setMainImageIdx] = useState(0);
+  const [showModal, setShowModal] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -93,22 +67,30 @@ export default function AddNewProductView() {
     }
   }, [category, categories]);
 
-  const titleChangHandler = event => {
-    const value = event.target.value;
-    setName(value);
+  function deleteImage(idx) {
+    setImages(prevImages => prevImages.filter((_, index) => index !== idx));
+  }
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
   };
 
-  const categoryChangeHandler = event => {
+  function titleChangHandler(event) {
+    const value = event.target.value;
+    setTitle(value);
+  }
+
+  function categoryChangeHandler(event) {
     const value = event.target.value;
     setCategory(value);
-  };
+  }
 
-  const descriptionChangeHandler = event => {
+  function descriptionChangeHandler(event) {
     const value = event.target.value;
     setDescription(value);
-  };
+  }
 
-  const addDetail = () => {
+  function addDetail() {
     const productDetails = {
       attribute_name: '',
       attribute_value: '',
@@ -116,15 +98,15 @@ export default function AddNewProductView() {
     };
 
     setDetails(prevDeteils => [...prevDeteils, productDetails]);
-  };
+  }
 
-  const deleteDetail = detail => {
+  function deleteDetail(detail) {
     setDetails(prevDetails =>
       prevDetails.filter(
         productDetail => productDetail.timeStamp !== detail.timeStamp,
       ),
     );
-  };
+  }
 
   function attributeNameChangeHandler(event, timeStamp) {
     const value = event.target.value;
@@ -208,8 +190,8 @@ export default function AddNewProductView() {
     }
   }
 
-  const addProductHandler = async () => {
-    if (!name) {
+  async function addProduct() {
+    if (!title) {
       toast.error('Не заповнене поле назви товару!');
       return;
     } else if (!category) {
@@ -242,11 +224,11 @@ export default function AddNewProductView() {
 
     const newProduct = {
       _id: Date.now().toString(),
-      title: name,
-      uaTitle: name,
+      title,
+      uaTitle: title,
       category,
       description,
-      images: dbItem.images,
+      images,
       price,
       quantity,
       product_details: details,
@@ -269,33 +251,49 @@ export default function AddNewProductView() {
           )}:\n${error}`,
         ),
       );
-  };
+  }
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       <div className={s.row}>
         <div className={s.imagesSection}>
           <img
-            src={imageNotFound}
-            title={'aaaaaaaaaaaa'}
-            alt={'template'}
+            src={images.length > 0 ? images[mainImageIdx] : imageNotFound}
+            title={'Фото товару'}
+            alt={title}
             className={s.mainImage}
-            onClick={() => toast.warn('Click image')}
+            onClick={toggleModal}
           />
 
-          {/* {product?.images?.length > 1 && (
+          {images.length > 1 && (
             <div className={s.additionalImagesBox}>
-              {product.images.map((imageLink, idx) => (
-                <img
-                  key={imageLink}
-                  src={imageLink}
-                  alt={language === 'RU' ? product.ruTitle : product.uaTitle}
-                  className={s.additionalImage}
-                  onClick={() => setMainImageIdx(idx)}
-                />
+              {images.map((imageLink, idx) => (
+                <div key={idx + imageLink} className={s.additionalImageBar}>
+                  <img
+                    src={imageLink}
+                    alt={title}
+                    className={s.additionalImage}
+                    onClick={() => setMainImageIdx(idx)}
+                  />
+
+                  <Button
+                    // title={languageDeterminer(
+                    //   LANGUAGE.productViews.сollapseButtonTitle,
+                    // )}
+                    title={'Видалити зображення товару'}
+                    type="button"
+                    typeForm="icon"
+                    styles={s.iconCloseBtn}
+                    onClick={() => deleteImage(idx)}
+                  >
+                    <svg className={s.icon}>
+                      <use href={`${icons}#icon-close`}></use>
+                    </svg>
+                  </Button>
+                </div>
               ))}
             </div>
-          )} */}
+          )}
         </div>
 
         <div className={s.thumb}>
@@ -478,7 +476,7 @@ export default function AddNewProductView() {
                   )}
                   type="button"
                   styles={s.btn}
-                  onClick={addProductHandler}
+                  onClick={addProduct}
                 >
                   {languageDeterminer(LANGUAGE.productViews.saveButton.text)}
                 </Button>
@@ -501,6 +499,17 @@ export default function AddNewProductView() {
         style={s.startDescriptionSection}
         callback={descriptionChangeHandler}
       />
+
+      {showModal && (
+        <Modal
+          product={{
+            title,
+            images,
+          }}
+          mainImageIdx={mainImageIdx}
+          closeModal={toggleModal}
+        />
+      )}
     </main>
   );
 }

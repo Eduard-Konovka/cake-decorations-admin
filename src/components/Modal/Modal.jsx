@@ -150,7 +150,10 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
 }
 
 Modal.propTypes = {
-  product: PropTypes.object.isRequired,
+  product: PropTypes.shape({
+    images: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }).isRequired,
   mainImageIdx: PropTypes.number.isRequired,
   closeModal: PropTypes.func.isRequired,
 };

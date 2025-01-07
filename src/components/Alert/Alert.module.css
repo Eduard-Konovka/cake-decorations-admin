@@ -162,8 +162,8 @@
   transform: rotateZ(0);
   transform-origin: center center;
 
-  transition: transform var(--modal-action) var(--time-distribution-function),
-    fill var(--modal-plus-action) var(--time-distribution-function);
+  transition: fill var(--modal-plus-action) var(--time-distribution-function),
+    transform var(--modal-action) var(--time-distribution-function);
   animation: rotateX 1500ms var(--time-distribution-function);
 }
 

@@ -70,7 +70,6 @@
 .mainImage {
   composes: image;
   width: 100%;
-  cursor: zoom-in;
 }
 
 .mainImage:hover,
@@ -108,7 +107,8 @@
   }
 }
 
-.additionalImage {
+.additionalImageBar {
+  position: relative;
   width: 30%;
   height: 30%;
   border-radius: 2.5vw;
@@ -116,12 +116,31 @@
   box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
     2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
   margin: 0.4vw;
+
+  transition: box-shadow var(--time-action) var(--time-distribution-function),
+    transform var(--time-action) var(--time-distribution-function);
 }
 
-.additionalImage:hover,
-.additionalImage:focus-visible {
+@media screen and (min-width: 320px) {
+  .additionalImageBar {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .additionalImageBar {
+    border-radius: 0.5vw;
+  }
+}
+
+.additionalImageBar:hover,
+.additionalImageBar:focus-visible {
   box-shadow: 0.2vw 0.3vw 0.3vw #ca7b21;
   transform: scale(1.05);
+}
+
+.additionalImage {
+  border-radius: 2.5vw;
 }
 
 @media screen and (min-width: 320px) {
@@ -133,6 +152,41 @@
 @media screen and (min-width: 1024px) {
   .additionalImage {
     border-radius: 0.5vw;
+  }
+}
+
+.iconCloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  fill: inherit;
+  background-color: transparent;
+  border-radius: 50%;
+  transform: rotateZ(0);
+  transform-origin: center center;
+
+  transition: fill var(--modal-plus-action) var(--time-distribution-function),
+    transform var(--modal-action) var(--time-distribution-function);
+  animation: rotateX 1500ms var(--time-distribution-function);
+}
+
+.iconCloseBtn:hover,
+.iconCloseBtn:focus-visible {
+  fill: var(--error-color);
+  transform: rotateZ(1turn);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(2turn);
   }
 }
 /*#endregion IMAGES */
