@@ -277,10 +277,7 @@ export default function AddNewProductView() {
                   />
 
                   <Button
-                    // title={languageDeterminer(
-                    //   LANGUAGE.productViews.сollapseButtonTitle,
-                    // )}
-                    title={'Видалити зображення товару'}
+                    title={'Видалити зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                     type="button"
                     typeForm="icon"
                     styles={s.iconCloseBtn}
