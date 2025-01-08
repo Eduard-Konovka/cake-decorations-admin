@@ -12,6 +12,8 @@
   --secondary-color: #ffffff;
   --input-border-color: #bfca21;
   --outline-color: #c2ffae;
+  --add-color: #388315;
+  --active-add-color: #00ff00;
   --error-color: #ff0000;
 
   --primery-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25),

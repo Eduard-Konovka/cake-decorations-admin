@@ -139,6 +139,14 @@
   transform: scale(1.05);
 }
 
+.addImageBar {
+  composes: additionalImageBar;
+
+  transition: box-shadow calc(var(--time-action) * 2.5)
+      var(--time-distribution-function),
+    transform calc(var(--time-action) * 2.5) var(--time-distribution-function);
+}
+
 .additionalImage {
   border-radius: 2.5vw;
 }
@@ -176,9 +184,34 @@
   transform: rotateZ(1turn);
 }
 
-.icon {
+.iconClose {
   width: 20px;
   height: 20px;
+}
+
+.iconAddBtn {
+  width: 100%;
+  height: 100%;
+  fill: var(--add-color);
+  background-color: transparent;
+  border-radius: 50%;
+  transform: rotateZ(0.125turn);
+  transform-origin: center center;
+
+  transition: fill calc(var(--modal-plus-action) * 2.5)
+      var(--time-distribution-function),
+    transform calc(var(--modal-action) * 3) var(--time-distribution-function);
+  animation: rotateX 1500ms var(--time-distribution-function);
+}
+
+.iconAddBtn:hover,
+.iconAddBtn:focus-visible {
+  fill: var(--active-add-color);
+  transform: rotateZ(-1.125turn);
+}
+
+.iconAdd {
+  width: 75%;
 }
 
 @keyframes rotateX {

@@ -259,7 +259,7 @@ export default function AddNewProductView() {
         <div className={s.imagesSection}>
           <img
             src={images.length > 0 ? images[mainImageIdx] : imageNotFound}
-            title={'Фото товару'}
+            title={'Збільшити'}
             alt={title}
             className={s.mainImage}
             onClick={toggleModal}
@@ -283,12 +283,26 @@ export default function AddNewProductView() {
                     styles={s.iconCloseBtn}
                     onClick={() => deleteImage(idx)}
                   >
-                    <svg className={s.icon}>
+                    <svg className={s.iconClose}>
                       <use href={`${icons}#icon-close`}></use>
                     </svg>
                   </Button>
                 </div>
               ))}
+
+              <div className={s.addImageBar}>
+                <Button
+                  title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                  type="button"
+                  typeForm="icon"
+                  styles={s.iconAddBtn}
+                  onClick={() => toast.warn('Додати фото')}
+                >
+                  <svg className={s.iconAdd}>
+                    <use href={`${icons}#icon-close`}></use>
+                  </svg>
+                </Button>
+              </div>
             </div>
           )}
         </div>
