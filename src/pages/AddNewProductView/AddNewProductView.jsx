@@ -265,9 +265,9 @@ export default function AddNewProductView() {
             onClick={toggleModal}
           />
 
-          {images.length > 1 && (
-            <div className={s.additionalImagesBox}>
-              {images.map((imageLink, idx) => (
+          <div className={s.additionalImagesBox}>
+            {images.length > 0 &&
+              images.map((imageLink, idx) => (
                 <div key={idx + imageLink} className={s.additionalImageBar}>
                   <img
                     src={imageLink}
@@ -290,21 +290,20 @@ export default function AddNewProductView() {
                 </div>
               ))}
 
-              <div className={s.addImageBar}>
-                <Button
-                  title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
-                  type="button"
-                  typeForm="icon"
-                  styles={s.iconAddBtn}
-                  onClick={() => toast.warn('Додати фото')}
-                >
-                  <svg className={s.iconAdd}>
-                    <use href={`${icons}#icon-close`}></use>
-                  </svg>
-                </Button>
-              </div>
+            <div className={s.addImageBar}>
+              <Button
+                title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                type="button"
+                typeForm="icon"
+                styles={s.iconAddBtn}
+                onClick={() => toast.warn('Додати фото')}
+              >
+                <svg className={s.iconAdd}>
+                  <use href={`${icons}#icon-close`}></use>
+                </svg>
+              </Button>
             </div>
-          )}
+          </div>
         </div>
 
         <div className={s.thumb}>
