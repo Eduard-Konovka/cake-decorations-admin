@@ -195,11 +195,13 @@
   fill: var(--add-color);
   background-color: transparent;
   border-radius: 50%;
-  transform: rotateZ(0.125turn);
+  scale: 1;
+  transform: rotateZ(0);
   transform-origin: center center;
 
   transition: fill calc(var(--modal-plus-action) * 2.5)
       var(--time-distribution-function),
+    scale calc(var(--modal-plus-action) * 2.5) var(--time-distribution-function),
     transform calc(var(--modal-action) * 3) var(--time-distribution-function);
   animation: rotateX 1500ms var(--time-distribution-function);
 }
@@ -207,7 +209,8 @@
 .iconAddBtn:hover,
 .iconAddBtn:focus-visible {
   fill: var(--active-add-color);
-  transform: rotateZ(-1.125turn);
+  scale: 1.01;
+  transform: rotateZ(-1turn);
 }
 
 .iconAdd {

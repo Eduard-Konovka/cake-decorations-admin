@@ -299,7 +299,7 @@ export default function AddNewProductView() {
                 onClick={() => toast.warn('Додати фото')}
               >
                 <svg className={s.iconAdd}>
-                  <use href={`${icons}#icon-close`}></use>
+                  <use href={`${icons}#icon-attachment`}></use>
                 </svg>
               </Button>
             </div>
