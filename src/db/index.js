@@ -1,1 +1,1 @@
-export { db, analytics } from './firebaseConfigForReact';
+export { db, storage, analytics } from './firebaseConfigForReact';

@@ -9,7 +9,7 @@ import {
 } from 'state';
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Button, Modal } from 'components';
-import { getLanguage, pageUp } from 'functions';
+import { getLanguage, pageUp, uploadPhotoToProfile } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
@@ -190,6 +190,24 @@ export default function AddNewProductView() {
     }
   }
 
+  async function addPhoto(event) {
+    const files = event.target.files;
+
+    for (let i = 0; i < files.length; i++) {
+      try {
+        await uploadPhotoToProfile(
+          language,
+          files[i],
+          'defaultUser', // await auth.currentUser.uid,
+        );
+      } catch (error) {
+        toast.error(`Error of addPhoto(): ${error.message}`);
+        console.log(`Error of addPhoto(): ${error.message}`); // FIXME delete this line
+        break;
+      }
+    }
+  }
+
   async function addProduct() {
     if (!title) {
       toast.error('Не заповнене поле назви товару!');
@@ -303,6 +321,8 @@ export default function AddNewProductView() {
                 </svg>
               </Button>
             </div>
+
+            <input type="file" accept="image/*" multiple onChange={addPhoto} />
           </div>
         </div>
 
