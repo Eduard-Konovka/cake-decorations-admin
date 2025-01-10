@@ -6,4 +6,3 @@ export { pageUp } from './pageUp';
 export { storeLanguage } from './storeLanguage';
 export { deleteProduct } from './deleteProduct';
 export { uploadPhotoToProfile } from './uploadPhotoToProfile';
-export { uriToBlob } from './uriToBlob';

@@ -1,6 +1,5 @@
 import { toast } from 'react-toastify';
 import { languageWrapper } from 'middlewares';
-import { uriToBlob } from './uriToBlob';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { doc, updateDoc, arrayUnion } from 'firebase/firestore';
 import { storage, db } from 'db';
@@ -15,17 +14,16 @@ export async function uploadPhotoToProfile(language, photo, userId) {
     await updateDoc(userRef, { photos: arrayUnion(photoObj) }, { merge: true });
   } catch (error) {
     toast.error(`${languageDeterminer(PHOTO.alert.addingError)}: ${error}`);
-    console.log(`${languageDeterminer(PHOTO.alert.addingError)}: ${error}`); // FIXME No document to update: projects/cake-decorations-by-chechina/databases/(default)/documents/users/defaultUser
+    console.log(`${languageDeterminer(PHOTO.alert.addingError)}: ${error}`); // FIXME delete this block
   }
 }
 
 async function uploadPhotoToServer(language, photo, userId) {
-  const blobFile = await uriToBlob(photo);
+  const languageDeterminer = obj => languageWrapper(language, obj);
   const uniquePhotoId = Date.now().toString();
   const storageRef = ref(storage, `photos/${userId}/${uniquePhotoId}.jpg`);
-  const languageDeterminer = obj => languageWrapper(language, obj);
 
-  await uploadBytes(storageRef, blobFile)
+  await uploadBytes(storageRef, photo)
     .then(() => {
       toast.success(
         `${languageDeterminer(
