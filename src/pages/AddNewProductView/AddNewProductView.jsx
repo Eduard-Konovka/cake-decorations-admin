@@ -309,20 +309,25 @@ export default function AddNewProductView() {
               ))}
 
             <div className={s.addImageBar}>
-              <Button
+              <label
+                htmlFor="fileElem"
                 title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
-                type="button"
-                typeForm="icon"
-                styles={s.iconAddBtn}
-                onClick={() => toast.warn('Додати фото')}
+                className={s.addBtn}
               >
                 <svg className={s.iconAdd}>
                   <use href={`${icons}#icon-attachment`}></use>
                 </svg>
-              </Button>
-            </div>
+              </label>
 
-            <input type="file" accept="image/*" multiple onChange={addPhoto} />
+              <input
+                type="file"
+                id="fileElem"
+                accept="image/*"
+                multiple
+                style={{ display: 'none' }}
+                onChange={addPhoto}
+              />
+            </div>
           </div>
         </div>
 
