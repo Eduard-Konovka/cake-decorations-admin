@@ -230,6 +230,7 @@ export default function AddNewProductView() {
     const productTimeStamp = Date.now().toString();
 
     const imagesLinks = [];
+    const imagesIds = [];
     for (let i = 0; i < images.length; i++) {
       try {
         const imageLink = await uploadImageToStorage(
@@ -239,6 +240,7 @@ export default function AddNewProductView() {
         );
 
         imagesLinks.push(imageLink.url);
+        imagesIds.push(imageLink.id);
       } catch (error) {
         toast.error(`Error of addPhoto(): ${error.message}`);
         break;
@@ -252,6 +254,7 @@ export default function AddNewProductView() {
       category,
       description,
       images: imagesLinks,
+      imagesIds,
       price,
       quantity,
       product_details: details,

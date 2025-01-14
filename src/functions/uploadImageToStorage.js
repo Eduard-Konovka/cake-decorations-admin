@@ -9,7 +9,7 @@ export async function uploadImageToStorage(language, photo, productTimeStamp) {
   const uniqueImageId = Date.now().toString();
   const storageRef = ref(
     storage,
-    `productsImages/${productTimeStamp}/${uniqueImageId}.jpg`,
+    `productsImages/${productTimeStamp}/${uniqueImageId}`,
   );
 
   await uploadBytes(storageRef, photo)
@@ -28,7 +28,7 @@ export async function uploadImageToStorage(language, photo, productTimeStamp) {
 
   return {
     url: await getDownloadURL(
-      ref(storage, `productsImages/${productTimeStamp}/${uniqueImageId}.jpg`),
+      ref(storage, `productsImages/${productTimeStamp}/${uniqueImageId}`),
     ),
     id: uniqueImageId,
   };

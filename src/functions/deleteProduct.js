@@ -1,6 +1,6 @@
 import { toast } from 'react-toastify';
 import { updateProducts } from 'state';
-import { fetchProducts, deleteProductApi } from 'api';
+import { deleteImagesApi, deleteProductApi, fetchProducts } from 'api';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
@@ -8,6 +8,7 @@ import { LANGUAGE } from 'constants';
 export async function deleteProduct(product, changeGlobalState, navigate) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
+  await deleteImagesApi(product);
   await deleteProductApi(product);
 
   fetchProducts()
