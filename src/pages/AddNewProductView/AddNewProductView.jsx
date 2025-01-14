@@ -9,29 +9,19 @@ import {
 } from 'state';
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Button, Modal } from 'components';
-import { getLanguage, pageUp, uploadPhotoToProfile } from 'functions';
+import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
 import s from './AddNewProductView.module.css';
 
-const dbItem = {
-  images: [
-    'https://images.prom.ua/D3Fg9hnzGbJpWvmCGxxfnEuEqzMvZ-ukFKsz7LYLn94=/4576161641_konditerski-tsukrovi-prikrasi.jpg',
-    'https://images.prom.ua/HT5G0x7sHh78WQ06x9gnATWH6g0p0y_9peRw9i67lfA=/4576161756_konditerski-tsukrovi-prikrasi.jpg',
-    'https://images.prom.ua/5EiMv-FsHBTx93pAtxoIny20e_XP522kfzFM6r5ZP9w=/4576237268_konditerski-tsukrovi-prikrasi.jpg',
-    'https://images.prom.ua/zbmsDJo3lW35c3AMc9U58IY8y7bYoRxfp23a1qgUDMg=/4576237490_konditerski-tsukrovi-prikrasi.jpg',
-    'https://images.prom.ua/pl71i9zYVU46wWSKdDS4ovsSUHX0gqLvPctrEI7fRD8=/4576237798_konditerski-tsukrovi-prikrasi.jpg',
-  ],
-};
-
 export default function AddNewProductView() {
   const navigate = useNavigate();
   const { mainHeight, language, categories } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [images, setImages] = useState([...dbItem.images]);
+  const [images, setImages] = useState([]);
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState('');
   const [details, setDetails] = useState([]);
@@ -193,19 +183,16 @@ export default function AddNewProductView() {
   async function addPhoto(event) {
     const files = event.target.files;
 
+    const newImages = [];
+
     for (let i = 0; i < files.length; i++) {
-      try {
-        await uploadPhotoToProfile(
-          language,
-          files[i],
-          'defaultUser', // await auth.currentUser.uid,
-        );
-      } catch (error) {
-        toast.error(`Error of addPhoto(): ${error.message}`);
-        console.log(`Error of addPhoto(): ${error.message}`); // FIXME delete this line
-        break;
-      }
+      const img = {};
+      img.file = files[i];
+      img.src = window.URL.createObjectURL(files[i]);
+      images.push(img);
     }
+
+    setImages(prevImages => [...prevImages, ...newImages]);
   }
 
   async function addProduct() {
@@ -240,13 +227,31 @@ export default function AddNewProductView() {
     }
     if (!detailsCondition) return;
 
+    const productTimeStamp = Date.now().toString();
+
+    const imagesLinks = [];
+    for (let i = 0; i < images.length; i++) {
+      try {
+        const imageLink = await uploadImageToStorage(
+          language,
+          images[i].file,
+          productTimeStamp,
+        );
+
+        imagesLinks.push(imageLink.url);
+      } catch (error) {
+        toast.error(`Error of addPhoto(): ${error.message}`);
+        break;
+      }
+    }
+
     const newProduct = {
-      _id: Date.now().toString(),
+      _id: productTimeStamp,
       title,
       uaTitle: title,
       category,
       description,
-      images,
+      images: imagesLinks,
       price,
       quantity,
       product_details: details,
@@ -276,7 +281,7 @@ export default function AddNewProductView() {
       <div className={s.row}>
         <div className={s.imagesSection}>
           <img
-            src={images.length > 0 ? images[mainImageIdx] : imageNotFound}
+            src={images.length > 0 ? images[mainImageIdx].src : imageNotFound}
             title={'Збільшити'}
             alt={title}
             className={s.mainImage}
@@ -285,10 +290,10 @@ export default function AddNewProductView() {
 
           <div className={s.additionalImagesBox}>
             {images.length > 0 &&
-              images.map((imageLink, idx) => (
-                <div key={idx + imageLink} className={s.additionalImageBar}>
+              images.map((image, idx) => (
+                <div key={idx + image.src} className={s.additionalImageBar}>
                   <img
-                    src={imageLink}
+                    src={image.src}
                     alt={title}
                     className={s.additionalImage}
                     onClick={() => setMainImageIdx(idx)}
@@ -539,7 +544,7 @@ export default function AddNewProductView() {
         <Modal
           product={{
             title,
-            images,
+            images: images.map(image => image.src),
           }}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}

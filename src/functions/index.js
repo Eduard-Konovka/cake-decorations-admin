@@ -5,4 +5,4 @@ export { getTags } from './getTags';
 export { pageUp } from './pageUp';
 export { storeLanguage } from './storeLanguage';
 export { deleteProduct } from './deleteProduct';
-export { uploadPhotoToProfile } from './uploadPhotoToProfile';
+export { uploadImageToStorage } from './uploadImageToStorage';
