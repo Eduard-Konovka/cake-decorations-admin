@@ -29,6 +29,7 @@ export default function AddNewProductView() {
   const [price, setPrice] = useState(0);
   const [quantity, setQuantity] = useState(0);
   const [mainImageIdx, setMainImageIdx] = useState(0);
+  const [draggable, setDraggable] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -56,6 +57,51 @@ export default function AddNewProductView() {
       setCategory(categories[0]._id);
     }
   }, [category, categories]);
+
+  function preventDefault(e) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+
+  function dragenter(e) {
+    preventDefault(e);
+    setDraggable(true);
+  }
+
+  function dragleave(e) {
+    // FIXME
+    preventDefault(e);
+    setDraggable(false);
+  }
+
+  function drop(e) {
+    preventDefault(e);
+    setDraggable(false);
+
+    var dt = e.dataTransfer;
+    var files = dt.files;
+
+    handleFiles(files);
+  }
+
+  async function handleFiles(files) {
+    const newImages = [];
+
+    for (let i = 0; i < files.length; i++) {
+      const img = {};
+      img.file = files[i];
+      img.src = window.URL.createObjectURL(files[i]);
+      images.push(img);
+    }
+
+    setImages(prevImages => [...prevImages, ...newImages]);
+  }
+
+  async function addImages(event) {
+    const files = event.target.files;
+
+    handleFiles(files);
+  }
 
   function deleteImage(idx) {
     setImages(prevImages => prevImages.filter((_, index) => index !== idx));
@@ -180,21 +226,6 @@ export default function AddNewProductView() {
     }
   }
 
-  async function addPhoto(event) {
-    const files = event.target.files;
-
-    const newImages = [];
-
-    for (let i = 0; i < files.length; i++) {
-      const img = {};
-      img.file = files[i];
-      img.src = window.URL.createObjectURL(files[i]);
-      images.push(img);
-    }
-
-    setImages(prevImages => [...prevImages, ...newImages]);
-  }
-
   async function addProduct() {
     if (!title) {
       toast.error('Не заповнене поле назви товару!');
@@ -242,7 +273,7 @@ export default function AddNewProductView() {
         imagesLinks.push(imageLink.url);
         imagesIds.push(imageLink.id);
       } catch (error) {
-        toast.error(`Error of addPhoto(): ${error.message}`);
+        toast.error(`Error of addImages(): ${error.message}`);
         break;
       }
     }
@@ -316,7 +347,13 @@ export default function AddNewProductView() {
                 </div>
               ))}
 
-            <div className={s.addImageBar}>
+            <div
+              className={draggable ? s.addImageBar_draggable : s.addImageBar}
+              onDragEnter={dragenter}
+              onDragLeave={dragleave}
+              onDragOver={preventDefault}
+              onDrop={drop}
+            >
               <label
                 htmlFor="fileElem"
                 title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
@@ -333,7 +370,7 @@ export default function AddNewProductView() {
                 accept="image/*"
                 multiple
                 style={{ display: 'none' }}
-                onChange={addPhoto}
+                onChange={addImages}
               />
             </div>
           </div>
