@@ -354,24 +354,28 @@ export default function AddNewProductView() {
               onDragOver={preventDefault}
               onDrop={drop}
             >
-              <label
-                htmlFor="fileElem"
-                title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
-                className={s.addBtn}
-              >
-                <svg className={s.iconAdd}>
-                  <use href={`${icons}#icon-attachment`}></use>
-                </svg>
-              </label>
+              {!draggable && (
+                <>
+                  <label
+                    htmlFor="fileElem"
+                    title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                    className={s.addBtn}
+                  >
+                    <svg className={s.iconAdd}>
+                      <use href={`${icons}#icon-attachment`}></use>
+                    </svg>
+                  </label>
 
-              <input
-                type="file"
-                id="fileElem"
-                accept="image/*"
-                multiple
-                style={{ display: 'none' }}
-                onChange={addImages}
-              />
+                  <input
+                    type="file"
+                    id="fileElem"
+                    accept="image/*"
+                    multiple
+                    style={{ display: 'none' }}
+                    onChange={addImages}
+                  />
+                </>
+              )}
             </div>
           </div>
         </div>
