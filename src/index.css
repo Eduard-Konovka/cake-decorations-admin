@@ -1,20 +1,18 @@
 @import 'modern-normalize/modern-normalize.css';
 
 :root {
+  --primery-color: #270000;
+  --secondary-color: #ffffff;
+  --input-border-color: #bfca21;
+  --outline-color: #c2ffae;
+  --error-color: #ff0000;
+
   --primery-background-color: #fbe118;
   --inactive-primery-background-color: #fbe11850;
   --secondary-background-color: #e10685;
   --inactive-secondary-background-color: #e1068550;
   --third-background-color: #fcf9f0;
   --error-screen: #0000ff;
-
-  --primery-color: #270000;
-  --secondary-color: #ffffff;
-  --input-border-color: #bfca21;
-  --outline-color: #c2ffae;
-  --add-color: #388315;
-  --active-add-color: #00ff00;
-  --error-color: #ff0000;
 
   --primery-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25),
     2px 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 3px rgba(0, 0, 0, 0.15);
