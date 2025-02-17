@@ -22,6 +22,7 @@ export default function AddNewProductView() {
   const changeGlobalState = useChangeGlobalState();
 
   const [images, setImages] = useState([]);
+  const [draggedImage, setDraggedImage] = useState(null);
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState('');
   const [details, setDetails] = useState([]);
@@ -74,7 +75,11 @@ export default function AddNewProductView() {
     setDraggable(false);
   }
 
-  function drop(e) {
+  const dragStart = index => {
+    setDraggedImage(index);
+  };
+
+  function dropOfAdding(e) {
     preventDefault(e);
     setDraggable(false);
 
@@ -83,6 +88,14 @@ export default function AddNewProductView() {
 
     handleFiles(files);
   }
+
+  const dropOfMovement = index => {
+    const newImages = [...images];
+    const draggedItem = newImages.splice(draggedImage, 1)[0];
+    newImages.splice(index, 0, draggedItem);
+
+    setImages(newImages);
+  };
 
   async function handleFiles(files) {
     const newImages = [];
@@ -330,6 +343,9 @@ export default function AddNewProductView() {
                     src={image.src}
                     alt={title}
                     className={s.additionalImage}
+                    onDragStart={() => dragStart(idx)}
+                    onDragOver={preventDefault}
+                    onDrop={() => dropOfMovement(idx)}
                     onClick={() => setMainImageIdx(idx)}
                   />
 
@@ -352,7 +368,7 @@ export default function AddNewProductView() {
               onDragEnter={dragenter}
               onDragLeave={dragleave}
               onDragOver={preventDefault}
-              onDrop={drop}
+              onDrop={dropOfAdding}
             >
               {!draggable && (
                 <>
