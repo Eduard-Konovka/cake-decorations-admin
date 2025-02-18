@@ -1,30 +1,70 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import {
   useGlobalState,
   useChangeGlobalState,
   updateCategories,
   updateProducts,
+  updateTagsDictionary,
+  updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProducts, addProductApi } from 'api';
-import { Button, Modal } from 'components';
-import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
+import {
+  fetchCategories,
+  fetchProducts,
+  fetchTags,
+  fetchLinks,
+  addProductApi,
+} from 'api';
+import {
+  Spinner,
+  Button,
+  Tags,
+  Links,
+  CountForm,
+  Modal,
+  Alert,
+} from 'components';
+import {
+  getLanguage,
+  getCategory,
+  getTags,
+  pageUp,
+  uploadImageToStorage,
+  deleteProduct,
+} from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
 import s from './EditProductView.module.css';
 
-export default function EditProductView() {
+export default function EditProductView({
+  setProductsByTag,
+  changeSelectCount,
+}) {
+  const location = useLocation();
   const navigate = useNavigate();
-  const { mainHeight, language, categories } = useGlobalState('global');
+  const {
+    mainHeight,
+    language,
+    categories,
+    products,
+    tagsDictionary,
+    linksDictionary,
+    cart,
+  } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [category, setCategory] = useState('');
+  const [product, setProduct] = useState({});
   const [images, setImages] = useState([]);
   const [draggedImage, setDraggedImage] = useState(null);
   const [title, setTitle] = useState('');
-  const [category, setCategory] = useState('');
   const [details, setDetails] = useState([]);
   const [description, setDescription] = useState('');
   const [price, setPrice] = useState(0);
@@ -32,6 +72,15 @@ export default function EditProductView() {
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [draggable, setDraggable] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
+
+  const productId = location.pathname.slice(15, location.pathname.length);
+  const selectedProduct = cart.filter(product => product._id === productId)[0];
+  const savedProduct = products.filter(product => product._id === productId)[0];
+
+  const [count, setCount] = useState(
+    selectedProduct ? selectedProduct.count : 0,
+  );
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -122,6 +171,14 @@ export default function EditProductView() {
 
   const toggleModal = () => {
     setShowModal(!showModal);
+  };
+
+  const cancelEditProduct = async () => {
+    navigate(`/products/${productId}`);
+  };
+
+  const toggleAlert = () => {
+    setShowAlert(!showAlert);
   };
 
   function titleChangHandler(event) {
@@ -325,280 +382,309 @@ export default function EditProductView() {
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
-      <div className={s.row}>
-        <div className={s.imagesSection}>
-          <img
-            src={images.length > 0 ? images[mainImageIdx].src : imageNotFound}
-            title={'Збільшити'}
-            alt={title}
-            className={s.mainImage}
-            onClick={toggleModal}
-          />
+      {loading && <Spinner size={70} color="red" />}
 
-          <div className={s.additionalImagesBox}>
-            {images.length > 0 &&
-              images.map((image, idx) => (
-                <div key={idx + image.src} className={s.additionalImageBar}>
-                  <img
-                    src={image.src}
-                    alt={title}
-                    className={s.additionalImage}
-                    onDragStart={() => dragStart(idx)}
-                    onDragOver={preventDefault}
-                    onDrop={() => dropOfMovement(idx)}
-                    onClick={() => setMainImageIdx(idx)}
-                  />
-
-                  <Button
-                    title={'Видалити зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
-                    type="button"
-                    typeForm="icon"
-                    styles={s.iconCloseBtn}
-                    onClick={() => deleteImage(idx)}
-                  >
-                    <svg className={s.iconClose}>
-                      <use href={`${icons}#icon-close`}></use>
-                    </svg>
-                  </Button>
-                </div>
-              ))}
-
-            <div
-              className={draggable ? s.addImageBar_draggable : s.addImageBar}
-              onDragEnter={dragenter}
-              onDragLeave={dragleave}
-              onDragOver={preventDefault}
-              onDrop={dropOfAdding}
-            >
-              {!draggable && (
-                <>
-                  <label
-                    htmlFor="fileElem"
-                    title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
-                    className={s.addBtn}
-                  >
-                    <svg className={s.iconAdd}>
-                      <use href={`${icons}#icon-attachment`}></use>
-                    </svg>
-                  </label>
-
-                  <input
-                    type="file"
-                    id="fileElem"
-                    accept="image/*"
-                    multiple
-                    style={{ display: 'none' }}
-                    onChange={addImages}
-                  />
-                </>
-              )}
-            </div>
-          </div>
+      {!loading && error && (
+        <div className={s.errorBox}>
+          <p className={s.errorLabel}>
+            {languageDeterminer(LANGUAGE.viewError)}
+          </p>
+          <p className={s.errorText}>{error.message}</p>
         </div>
+      )}
 
-        <div className={s.thumb}>
-          <div className={s.monitor}>
-            <form className={s.statsSection}>
-              <label htmlFor="title" className={s.title}>
-                {languageDeterminer(LANGUAGE.addNewProductView.title)}
-              </label>
-
-              <textarea
-                id="title"
-                name="title"
-                rows="4"
-                title={languageDeterminer(
-                  LANGUAGE.addNewProductView.titleInput,
-                )}
-                placeholder={languageDeterminer(
-                  LANGUAGE.signInView.inputPlaceholder,
-                )}
-                autoComplete="given-name family-name"
-                minLength={GLOBAL.addNewProductView.input.minLength}
-                maxLength={GLOBAL.addNewProductView.input.maxLength}
-                autoCorrect="on"
-                className={s.titleInput}
-                onChange={titleChangHandler}
+      {!loading && !error && product && (
+        <>
+          <div className={s.row}>
+            <div className={s.imagesSection}>
+              <img
+                src={
+                  images.length > 0 ? images[mainImageIdx].src : imageNotFound
+                }
+                title={'Збільшити'}
+                alt={title}
+                className={s.mainImage}
+                onClick={toggleModal}
               />
 
-              <div className={s.stat}>
-                <label htmlFor="category" className={s.statName}>
-                  {languageDeterminer(LANGUAGE.productViews.category)}
-                </label>
+              <div className={s.additionalImagesBox}>
+                {images.length > 0 &&
+                  images.map((image, idx) => (
+                    <div key={idx + image.src} className={s.additionalImageBar}>
+                      <img
+                        src={image.src}
+                        alt={title}
+                        className={s.additionalImage}
+                        onDragStart={() => dragStart(idx)}
+                        onDragOver={preventDefault}
+                        onDrop={() => dropOfMovement(idx)}
+                        onClick={() => setMainImageIdx(idx)}
+                      />
 
-                <select
-                  id="category"
-                  name="category"
-                  title={languageDeterminer(
-                    LANGUAGE.addNewProductView.titleInput,
-                  )}
-                  defaultValue={category || null}
-                  className={s.select}
-                  onChange={categoryChangeHandler}
-                >
-                  {categories.map(category => (
-                    <option key={category._id} value={category._id}>
-                      {language === 'RU' ? category.ruTitle : category.uaTitle}
-                    </option>
+                      <Button
+                        title={'Видалити зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        type="button"
+                        typeForm="icon"
+                        styles={s.iconCloseBtn}
+                        onClick={() => deleteImage(idx)}
+                      >
+                        <svg className={s.iconClose}>
+                          <use href={`${icons}#icon-close`}></use>
+                        </svg>
+                      </Button>
+                    </div>
                   ))}
-                </select>
+
+                <div
+                  className={
+                    draggable ? s.addImageBar_draggable : s.addImageBar
+                  }
+                  onDragEnter={dragenter}
+                  onDragLeave={dragleave}
+                  onDragOver={preventDefault}
+                  onDrop={dropOfAdding}
+                >
+                  {!draggable && (
+                    <>
+                      <label
+                        htmlFor="fileElem"
+                        title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        className={s.addBtn}
+                      >
+                        <svg className={s.iconAdd}>
+                          <use href={`${icons}#icon-attachment`}></use>
+                        </svg>
+                      </label>
+
+                      <input
+                        type="file"
+                        id="fileElem"
+                        accept="image/*"
+                        multiple
+                        style={{ display: 'none' }}
+                        onChange={addImages}
+                      />
+                    </>
+                  )}
+                </div>
               </div>
+            </div>
 
-              {details.length > 0 &&
-                details.map(detail => (
-                  <div key={detail.timeStamp} className={s.detailsStat}>
-                    <div className={s.detail}>
-                      <label
-                        htmlFor={`attributeName${detail.timeStamp}`}
-                        className={s.statName}
-                      >
-                        {'Властивість: '}
-                      </label>
+            <div className={s.thumb}>
+              <div className={s.monitor}>
+                <form className={s.statsSection}>
+                  <label htmlFor="title" className={s.title}>
+                    {languageDeterminer(LANGUAGE.addNewProductView.title)}
+                  </label>
 
-                      <input
-                        id={`attributeName${detail.timeStamp}`}
-                        name={`attributeName${detail.timeStamp}`}
-                        type="text"
-                        title={languageDeterminer(
-                          LANGUAGE.addNewProductView.titleInput,
-                        )}
-                        pattern={languageDeterminer(
-                          GLOBAL.addNewProductView.pattern,
-                        )}
-                        placeholder={languageDeterminer(
-                          LANGUAGE.signInView.inputPlaceholder,
-                        )}
-                        autoComplete="given-name family-name"
-                        minLength={GLOBAL.addNewProductView.input.minLength}
-                        // maxLength={GLOBAL.addNewProductView.input.maxLength}
-                        value={detail.attribute_name}
-                        className={s.input}
-                        onChange={event =>
-                          attributeNameChangeHandler(event, detail.timeStamp)
-                        }
-                      />
-                    </div>
+                  <textarea
+                    id="title"
+                    name="title"
+                    rows="4"
+                    title={languageDeterminer(
+                      LANGUAGE.addNewProductView.titleInput,
+                    )}
+                    placeholder={languageDeterminer(
+                      LANGUAGE.signInView.inputPlaceholder,
+                    )}
+                    autoComplete="given-name family-name"
+                    minLength={GLOBAL.addNewProductView.input.minLength}
+                    maxLength={GLOBAL.addNewProductView.input.maxLength}
+                    autoCorrect="on"
+                    className={s.titleInput}
+                    onChange={titleChangHandler}
+                  />
 
-                    <div className={s.detail}>
-                      <label
-                        htmlFor={`attributeValue${detail.timeStamp}`}
-                        className={s.statName}
-                      >
-                        {'Значення: '}
-                      </label>
+                  <div className={s.stat}>
+                    <label htmlFor="category" className={s.statName}>
+                      {languageDeterminer(LANGUAGE.productViews.category)}
+                    </label>
 
-                      <input
-                        id={`attributeValue${detail.timeStamp}`}
-                        name={`attributeValue${detail.timeStamp}`}
-                        type="text"
-                        title={languageDeterminer(
-                          LANGUAGE.addNewProductView.titleInput,
-                        )}
-                        pattern={languageDeterminer(
-                          GLOBAL.addNewProductView.pattern,
-                        )}
-                        placeholder={languageDeterminer(
-                          LANGUAGE.signInView.inputPlaceholder,
-                        )}
-                        autoComplete="given-name family-name"
-                        minLength={GLOBAL.addNewProductView.input.minLength}
-                        // maxLength={GLOBAL.addNewProductView.input.maxLength}
-                        className={s.input}
-                        onChange={event =>
-                          attributeValueChangeHandler(event, detail.timeStamp)
-                        }
-                      />
-                    </div>
+                    <select
+                      id="category"
+                      name="category"
+                      title={languageDeterminer(
+                        LANGUAGE.addNewProductView.titleInput,
+                      )}
+                      defaultValue={category || null}
+                      className={s.select}
+                      onChange={categoryChangeHandler}
+                    >
+                      {categories.map(category => (
+                        <option key={category._id} value={category._id}>
+                          {language === 'RU'
+                            ? category.ruTitle
+                            : category.uaTitle}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
 
+                  {details.length > 0 &&
+                    details.map(detail => (
+                      <div key={detail.timeStamp} className={s.detailsStat}>
+                        <div className={s.detail}>
+                          <label
+                            htmlFor={`attributeName${detail.timeStamp}`}
+                            className={s.statName}
+                          >
+                            {'Властивість: '}
+                          </label>
+
+                          <input
+                            id={`attributeName${detail.timeStamp}`}
+                            name={`attributeName${detail.timeStamp}`}
+                            type="text"
+                            title={languageDeterminer(
+                              LANGUAGE.addNewProductView.titleInput,
+                            )}
+                            pattern={languageDeterminer(
+                              GLOBAL.addNewProductView.pattern,
+                            )}
+                            placeholder={languageDeterminer(
+                              LANGUAGE.signInView.inputPlaceholder,
+                            )}
+                            autoComplete="given-name family-name"
+                            minLength={GLOBAL.addNewProductView.input.minLength}
+                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            value={detail.attribute_name}
+                            className={s.input}
+                            onChange={event =>
+                              attributeNameChangeHandler(
+                                event,
+                                detail.timeStamp,
+                              )
+                            }
+                          />
+                        </div>
+
+                        <div className={s.detail}>
+                          <label
+                            htmlFor={`attributeValue${detail.timeStamp}`}
+                            className={s.statName}
+                          >
+                            {'Значення: '}
+                          </label>
+
+                          <input
+                            id={`attributeValue${detail.timeStamp}`}
+                            name={`attributeValue${detail.timeStamp}`}
+                            type="text"
+                            title={languageDeterminer(
+                              LANGUAGE.addNewProductView.titleInput,
+                            )}
+                            pattern={languageDeterminer(
+                              GLOBAL.addNewProductView.pattern,
+                            )}
+                            placeholder={languageDeterminer(
+                              LANGUAGE.signInView.inputPlaceholder,
+                            )}
+                            autoComplete="given-name family-name"
+                            minLength={GLOBAL.addNewProductView.input.minLength}
+                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            className={s.input}
+                            onChange={event =>
+                              attributeValueChangeHandler(
+                                event,
+                                detail.timeStamp,
+                              )
+                            }
+                          />
+                        </div>
+
+                        <Button
+                          title={languageDeterminer(
+                            LANGUAGE.productViews.addButton.title,
+                          )}
+                          type="button"
+                          onClick={() => deleteDetail(detail)}
+                        >
+                          {'Видалити властивість'}
+                        </Button>
+                      </div>
+                    ))}
+
+                  <Button
+                    title={languageDeterminer(
+                      LANGUAGE.productViews.addButton.title,
+                    )}
+                    type="button"
+                    onClick={addDetail}
+                  >
+                    {languageDeterminer(LANGUAGE.productViews.addButton.text)}
+                  </Button>
+                </form>
+
+                <form className={s.controlsSection}>
+                  <div className={s.controlsRow}>
+                    <label htmlFor="price" className={s.boldfont}>
+                      {languageDeterminer(LANGUAGE.addProductViews.price)}
+                    </label>
+
+                    <input
+                      name="price"
+                      id="price"
+                      type="number"
+                      min={0.01}
+                      step={0.01}
+                      placeholder={0.01}
+                      className={s.countInput}
+                      onKeyPress={priceKeyPressChangeHandler}
+                      onChange={priceChangeHandler}
+                    />
+                  </div>
+
+                  <div className={s.controlsRow}>
+                    <label htmlFor="quantity" className={s.boldfont}>
+                      {languageDeterminer(LANGUAGE.countForm.label)}
+                    </label>
+
+                    <input
+                      name="quantity"
+                      id="quantity"
+                      type="number"
+                      min={1}
+                      placeholder={0}
+                      className={s.countInput}
+                      onKeyPress={keyPressHandler}
+                      onChange={quantityChangeHandler}
+                    />
+                  </div>
+
+                  <div>
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.addButton.title,
+                        LANGUAGE.productViews.saveButton.title,
                       )}
                       type="button"
-                      onClick={() => deleteDetail(detail)}
+                      styles={s.btn}
+                      onClick={addProduct}
                     >
-                      {'Видалити властивість'}
+                      {languageDeterminer(
+                        LANGUAGE.productViews.saveButton.text,
+                      )}
                     </Button>
                   </div>
-                ))}
-
-              <Button
-                title={languageDeterminer(
-                  LANGUAGE.productViews.addButton.title,
-                )}
-                type="button"
-                onClick={addDetail}
-              >
-                {languageDeterminer(LANGUAGE.productViews.addButton.text)}
-              </Button>
-            </form>
-
-            <form className={s.controlsSection}>
-              <div className={s.controlsRow}>
-                <label htmlFor="price" className={s.boldfont}>
-                  {languageDeterminer(LANGUAGE.addProductViews.price)}
-                </label>
-
-                <input
-                  name="price"
-                  id="price"
-                  type="number"
-                  min={0.01}
-                  step={0.01}
-                  placeholder={0.01}
-                  className={s.countInput}
-                  onKeyPress={priceKeyPressChangeHandler}
-                  onChange={priceChangeHandler}
-                />
+                </form>
               </div>
 
-              <div className={s.controlsRow}>
-                <label htmlFor="quantity" className={s.boldfont}>
-                  {languageDeterminer(LANGUAGE.countForm.label)}
-                </label>
-
-                <input
-                  name="quantity"
-                  id="quantity"
-                  type="number"
-                  min={1}
-                  placeholder={0}
-                  className={s.countInput}
-                  onKeyPress={keyPressHandler}
-                  onChange={quantityChangeHandler}
-                />
-              </div>
-
-              <div>
-                <Button
-                  title={languageDeterminer(
-                    LANGUAGE.productViews.saveButton.title,
-                  )}
-                  type="button"
-                  styles={s.btn}
-                  onClick={addProduct}
-                >
-                  {languageDeterminer(LANGUAGE.productViews.saveButton.text)}
-                </Button>
-              </div>
-            </form>
+              <Description
+                id="finishDescription"
+                languageDeterminer={languageDeterminer}
+                style={s.finishDescriptionSection}
+                callback={descriptionChangeHandler}
+              />
+            </div>
           </div>
 
           <Description
-            id="finishDescription"
+            id="startDescription"
             languageDeterminer={languageDeterminer}
-            style={s.finishDescriptionSection}
+            style={s.startDescriptionSection}
             callback={descriptionChangeHandler}
           />
-        </div>
-      </div>
-
-      <Description
-        id="startDescription"
-        languageDeterminer={languageDeterminer}
-        style={s.startDescriptionSection}
-        callback={descriptionChangeHandler}
-      />
+        </>
+      )}
 
       {showModal && (
         <Modal
@@ -608,6 +694,13 @@ export default function EditProductView() {
           }}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}
+        />
+      )}
+
+      {showAlert && (
+        <Alert
+          callBack={() => deleteProduct(product, changeGlobalState, navigate)}
+          closeAlert={toggleAlert}
         />
       )}
     </main>
@@ -637,3 +730,8 @@ export function Description({ id, languageDeterminer, style, callback }) {
     </form>
   );
 }
+
+EditProductView.propTypes = {
+  setProductsByTag: PropTypes.func.isRequired,
+  changeSelectCount: PropTypes.func.isRequired,
+};
