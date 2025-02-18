@@ -50,6 +50,12 @@ const SignInView = lazy(() =>
 const NotFoundView = lazy(() =>
   import('pages/NotFoundView' /* webpackChunkName: "NotFoundView" */),
 );
+// FIMXE: Remove this import after creating the DeletedProductView component
+const EditProductViewProto = lazy(() =>
+  import(
+    'pages/EditProductViewProto' /* webpackChunkName: "EditProductViewProto" */
+  ),
+);
 
 export default function App() {
   const { user, cart } = useGlobalState('global');
@@ -216,7 +222,10 @@ export default function App() {
             path="/products/deleted"
             element={
               <PrivateRoute redirectTo="/signin">
-                <AboutView text={languageDeterminer(LANGUAGE.titles.deleted)} />
+                <EditProductViewProto
+                  setProductsByTag={setProductsByCategoryOrTag}
+                  changeSelectCount={changeCount}
+                />
               </PrivateRoute>
             }
           />

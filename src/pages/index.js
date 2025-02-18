@@ -7,3 +7,4 @@ export { default as NotFoundView } from './NotFoundView';
 export { default as EditProductView } from './EditProductView';
 export { default as SignInView } from './SignInView';
 export { default as SpecificProductView } from './SpecificProductView';
+export { default as EditProductViewProto } from './EditProductViewProto';
