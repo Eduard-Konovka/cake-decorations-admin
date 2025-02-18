@@ -14,6 +14,7 @@ import {
 import {
   fetchCategories,
   fetchProducts,
+  fetchProduct,
   fetchTags,
   fetchLinks,
   addProductApi,
@@ -54,7 +55,6 @@ export default function EditProductView({
     products,
     tagsDictionary,
     linksDictionary,
-    cart,
   } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -70,17 +70,14 @@ export default function EditProductView({
   const [price, setPrice] = useState(0);
   const [quantity, setQuantity] = useState(0);
   const [mainImageIdx, setMainImageIdx] = useState(0);
+  const [tags, setTags] = useState([]);
+  const [links, setLinks] = useState([]);
   const [draggable, setDraggable] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
   const productId = location.pathname.slice(15, location.pathname.length);
-  const selectedProduct = cart.filter(product => product._id === productId)[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
-
-  const [count, setCount] = useState(
-    selectedProduct ? selectedProduct.count : 0,
-  );
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -107,6 +104,82 @@ export default function EditProductView({
       setCategory(categories[0]._id);
     }
   }, [category, categories]);
+
+  useEffect(() => {
+    if (products.length > 0) {
+      setProduct(savedProduct);
+    } else {
+      setLoading(true);
+
+      fetchProduct(productId)
+        .then(product => setProduct(product))
+        .catch(error => setError(error))
+        .finally(() => setLoading(false));
+    }
+  }, [productId, products.length, savedProduct]);
+
+  useEffect(() => {
+    const startImages = product?.images?.map(imageLink => ({
+      // FIXME fileId
+      fileId: '',
+      src: imageLink,
+    }));
+    product?.images && setImages(startImages);
+  }, [product]);
+
+  useEffect(() => {
+    if (!tagsDictionary) {
+      fetchTags()
+        .then(tagsDictionary =>
+          changeGlobalState(updateTagsDictionary, tagsDictionary),
+        )
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingTags,
+            )}:\n${error}`,
+          ),
+        );
+    }
+
+    if (!linksDictionary) {
+      fetchLinks()
+        .then(linksDictionary =>
+          changeGlobalState(updateLinksDictionary, linksDictionary),
+        )
+        .catch(error =>
+          toast.error(
+            `${languageDeterminer(
+              LANGUAGE.toastErrors.gettingLinks,
+            )}:\n${error}`,
+          ),
+        );
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (
+      (product.uaTitle || product.ruTitle) &&
+      tagsDictionary &&
+      linksDictionary
+    ) {
+      setTags(
+        getTags(
+          language === 'RU' ? product.ruTitle : product.uaTitle,
+          tagsDictionary,
+          'tags',
+        ),
+      );
+      setLinks(
+        getTags(
+          language === 'RU' ? product.ruTitle : product.uaTitle,
+          linksDictionary,
+          'links',
+        ),
+      );
+    }
+  }, [language, product, tagsDictionary, linksDictionary]);
 
   function preventDefault(e) {
     e.stopPropagation();
@@ -667,6 +740,41 @@ export default function EditProductView({
                   </div>
                 </form>
               </div>
+
+              {(tags.length > 0 || links.length > 0) && (
+                <section className={s.linksSection}>
+                  {tags.length > 0 && (
+                    <div className={s.linksBox}>
+                      <span className={s.statName}>
+                        {languageDeterminer(LANGUAGE.productViews.tags)}
+                      </span>
+
+                      <Tags
+                        tags={tags}
+                        boxStyles={s.tagBox}
+                        tagStyles={s.tag}
+                        setProductsByTag={setProductsByTag}
+                      />
+                    </div>
+                  )}
+
+                  {links.length > 0 && (
+                    <div className={s.linksBox}>
+                      <span className={classNames(s.statName, s.googleLink)}>
+                        {languageDeterminer(LANGUAGE.productViews.links)}
+                      </span>
+
+                      <Links
+                        links={links}
+                        boxStyles={s.linkBox}
+                        linkStyles={s.link}
+                      />
+
+                      <span className={s.statName}>?</span>
+                    </div>
+                  )}
+                </section>
+              )}
 
               <Description
                 id="finishDescription"

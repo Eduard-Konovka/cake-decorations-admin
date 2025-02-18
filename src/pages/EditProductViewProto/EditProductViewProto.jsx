@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -36,7 +36,6 @@ export default function EditProductViewProto({
   setProductsByTag,
   changeSelectCount,
 }) {
-  const location = useLocation();
   const navigate = useNavigate();
   const {
     mainHeight,
@@ -58,7 +57,6 @@ export default function EditProductViewProto({
   const [showModal, setShowModal] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
-  // const productId = location.pathname.slice(15, location.pathname.length);
   const productId = '1736964021052';
   const selectedProduct = cart.filter(product => product._id === productId)[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
