@@ -560,6 +560,11 @@ export default function EditProductView({
                     placeholder={languageDeterminer(
                       LANGUAGE.signInView.inputPlaceholder,
                     )}
+                    defaultValue={
+                      title ||
+                      (language === 'RU' ? product.ruTitle : product.uaTitle) ||
+                      LANGUAGE.signInView.inputPlaceholder
+                    }
                     autoComplete="given-name family-name"
                     minLength={GLOBAL.addNewProductView.input.minLength}
                     maxLength={GLOBAL.addNewProductView.input.maxLength}
