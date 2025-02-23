@@ -293,10 +293,7 @@ export default function AddNewProductView() {
 
     const newProduct = {
       _id: productTimeStamp,
-      title,
-      uaTitle: title,
       category,
-      description,
       images: imagesLinks,
       imagesIds,
       price,
@@ -304,7 +301,21 @@ export default function AddNewProductView() {
       product_details: details,
     };
 
-    await addProductApi(newProduct);
+    if (language === 'UA') {
+      newProduct.uaTitle = title;
+      newProduct.uaDescription = description;
+    } else if (language === 'RU') {
+      newProduct.ruTitle = title;
+      newProduct.ruDescription = description;
+    } else if (language === 'EN') {
+      newProduct.enTitle = title;
+      newProduct.enDescription = description;
+    } else {
+      newProduct.title = title;
+      newProduct.description = description;
+    }
+
+    await addProductApi(newProduct, title);
 
     fetchProducts()
       .then(products => {

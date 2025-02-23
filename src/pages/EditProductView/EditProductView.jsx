@@ -17,20 +17,11 @@ import {
   fetchProduct,
   fetchTags,
   fetchLinks,
-  addProductApi,
+  saveChangesProductApi,
 } from 'api';
-import {
-  Spinner,
-  Button,
-  Tags,
-  Links,
-  CountForm,
-  Modal,
-  Alert,
-} from 'components';
+import { Spinner, Button, Tags, Links, Modal, Alert } from 'components';
 import {
   getLanguage,
-  getCategory,
   getTags,
   pageUp,
   uploadImageToStorage,
@@ -42,10 +33,7 @@ import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
 import s from './EditProductView.module.css';
 
-export default function EditProductView({
-  setProductsByTag,
-  changeSelectCount,
-}) {
+export default function EditProductView({ setProductsByTag }) {
   const location = useLocation();
   const navigate = useNavigate();
   const {
@@ -120,12 +108,38 @@ export default function EditProductView({
 
   useEffect(() => {
     const startImages = product?.images?.map(imageLink => ({
-      // FIXME fileId
-      fileId: '',
+      fileId: imageLink.slice(128, 141),
       src: imageLink,
     }));
     product?.images && setImages(startImages);
   }, [product]);
+
+  useEffect(() => {
+    if (product) {
+      setCategory(product?.category ?? '');
+      setTitle(
+        language === 'UA'
+          ? product?.uaTitle
+          : language === 'RU'
+          ? product?.ruTitle
+          : language === 'EN'
+          ? product?.enTitle
+          : product?.title || '',
+      );
+      setDetails(product?.product_details ?? []);
+      setDescription(
+        language === 'UA'
+          ? product?.uaDescription
+          : language === 'RU'
+          ? product?.ruDescription
+          : language === 'EN'
+          ? product?.enDescription
+          : product?.description || '',
+      );
+      setPrice(product?.price ?? 0.01);
+      setQuantity(product?.quantity ?? 0);
+    }
+  }, [language, product]);
 
   useEffect(() => {
     if (!tagsDictionary) {
@@ -369,7 +383,7 @@ export default function EditProductView({
     }
   }
 
-  async function addProduct() {
+  async function saveChangesProduct() {
     if (!title) {
       toast.error('Не заповнене поле назви товару!');
       return;
@@ -401,32 +415,37 @@ export default function EditProductView({
     }
     if (!detailsCondition) return;
 
-    const productTimeStamp = Date.now().toString();
-
     const imagesLinks = [];
     const imagesIds = [];
     for (let i = 0; i < images.length; i++) {
-      try {
-        const imageLink = await uploadImageToStorage(
-          language,
-          images[i].file,
-          productTimeStamp,
-        );
+      if (images[i].file) {
+        try {
+          const imageLink = await uploadImageToStorage(
+            language,
+            images[i].file,
+            product._id,
+          );
 
-        imagesLinks.push(imageLink.url);
-        imagesIds.push(imageLink.id);
-      } catch (error) {
-        toast.error(`Error of addImages(): ${error.message}`);
-        break;
+          imagesLinks.push(imageLink.url);
+          imagesIds.push(imageLink.id);
+        } catch (error) {
+          toast.error(`Error of addImages(): ${error.message}`);
+          break;
+        }
+      } else {
+        imagesLinks.push(images[i].src);
+        imagesIds.push(images[i].fileId);
       }
     }
 
+    // TODO: видалити зображення які були видалені
+    const deletedImages = product.images.filter(
+      image => !imagesIds.includes(image.slice(128, 141)),
+    );
+
     const newProduct = {
-      _id: productTimeStamp,
-      title,
-      uaTitle: title,
+      _id: product._id,
       category,
-      description,
       images: imagesLinks,
       imagesIds,
       price,
@@ -434,7 +453,21 @@ export default function EditProductView({
       product_details: details,
     };
 
-    await addProductApi(newProduct);
+    if (language === 'UA') {
+      newProduct.uaTitle = title;
+      newProduct.uaDescription = description;
+    } else if (language === 'RU') {
+      newProduct.ruTitle = title;
+      newProduct.ruDescription = description;
+    } else if (language === 'EN') {
+      newProduct.enTitle = title;
+      newProduct.enDescription = description;
+    } else {
+      newProduct.title = title;
+      newProduct.description = description;
+    }
+
+    await saveChangesProductApi(newProduct, title);
 
     fetchProducts()
       .then(products => {
@@ -560,11 +593,7 @@ export default function EditProductView({
                     placeholder={languageDeterminer(
                       LANGUAGE.signInView.inputPlaceholder,
                     )}
-                    defaultValue={
-                      title ||
-                      (language === 'RU' ? product.ruTitle : product.uaTitle) ||
-                      LANGUAGE.signInView.inputPlaceholder
-                    }
+                    value={title}
                     autoComplete="given-name family-name"
                     minLength={GLOBAL.addNewProductView.input.minLength}
                     maxLength={GLOBAL.addNewProductView.input.maxLength}
@@ -584,7 +613,7 @@ export default function EditProductView({
                       title={languageDeterminer(
                         LANGUAGE.addNewProductView.titleInput,
                       )}
-                      defaultValue={category || null}
+                      defaultValue={product?.category ?? null}
                       className={s.select}
                       onChange={categoryChangeHandler}
                     >
@@ -660,6 +689,7 @@ export default function EditProductView({
                             autoComplete="given-name family-name"
                             minLength={GLOBAL.addNewProductView.input.minLength}
                             // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            value={detail.attribute_value}
                             className={s.input}
                             onChange={event =>
                               attributeValueChangeHandler(
@@ -706,6 +736,7 @@ export default function EditProductView({
                       min={0.01}
                       step={0.01}
                       placeholder={0.01}
+                      defaultValue={product?.price ?? null}
                       className={s.countInput}
                       onKeyPress={priceKeyPressChangeHandler}
                       onChange={priceChangeHandler}
@@ -723,23 +754,37 @@ export default function EditProductView({
                       type="number"
                       min={1}
                       placeholder={0}
+                      defaultValue={product?.quantity ?? null}
                       className={s.countInput}
                       onKeyPress={keyPressHandler}
                       onChange={quantityChangeHandler}
                     />
                   </div>
 
-                  <div>
+                  <div className={s.buttonBox}>
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.saveButton.title,
+                        LANGUAGE.productViews.cancelButton.title,
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={addProduct}
+                      onClick={cancelEditProduct}
                     >
                       {languageDeterminer(
-                        LANGUAGE.productViews.saveButton.text,
+                        LANGUAGE.productViews.cancelButton.text,
+                      )}
+                    </Button>
+
+                    <Button
+                      title={languageDeterminer(
+                        LANGUAGE.productViews.saveChangesButton.title,
+                      )}
+                      type="button"
+                      styles={s.btn}
+                      onClick={saveChangesProduct}
+                    >
+                      {languageDeterminer(
+                        LANGUAGE.productViews.saveChangesButton.text,
                       )}
                     </Button>
                   </div>
@@ -785,6 +830,11 @@ export default function EditProductView({
                 id="finishDescription"
                 languageDeterminer={languageDeterminer}
                 style={s.finishDescriptionSection}
+                description={
+                  language === 'RU'
+                    ? product.ruDescription
+                    : product.uaDescription || product.description
+                }
                 callback={descriptionChangeHandler}
               />
             </div>
@@ -794,6 +844,11 @@ export default function EditProductView({
             id="startDescription"
             languageDeterminer={languageDeterminer}
             style={s.startDescriptionSection}
+            description={
+              language === 'RU'
+                ? product.ruDescription
+                : product.uaDescription || product.description
+            }
             callback={descriptionChangeHandler}
           />
         </>
@@ -820,7 +875,13 @@ export default function EditProductView({
   );
 }
 
-export function Description({ id, languageDeterminer, style, callback }) {
+export function Description({
+  id,
+  languageDeterminer,
+  style,
+  description,
+  callback,
+}) {
   return (
     <form className={style}>
       <label htmlFor={id} className={s.statName}>
@@ -833,6 +894,7 @@ export function Description({ id, languageDeterminer, style, callback }) {
         rows="10"
         title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
         placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
+        defaultValue={description}
         autoComplete="given-name family-name"
         minLength={GLOBAL.addNewProductView.input.minLength}
         // maxLength={GLOBAL.addNewProductView.input.maxLength}
@@ -846,5 +908,4 @@ export function Description({ id, languageDeterminer, style, callback }) {
 
 EditProductView.propTypes = {
   setProductsByTag: PropTypes.func.isRequired,
-  changeSelectCount: PropTypes.func.isRequired,
 };

@@ -682,6 +682,11 @@
   }
 }
 
+.buttonBox {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn {
   width: 28vw;
   height: 8.75vw;
@@ -793,6 +798,17 @@
     margin-top: 0.625vw;
     border-radius: 0.625vw;
   }
+}
+
+.linksSection {
+  composes: paragraph;
+  background-color: #ffffc9;
+}
+
+.linksBox {
+  composes: stat;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {

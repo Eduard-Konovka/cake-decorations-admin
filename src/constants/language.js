@@ -444,6 +444,20 @@ export const LANGUAGE = {
       },
     },
 
+    saveChangesButton: {
+      title: {
+        eng: 'Save changes to product parameters',
+        ukr: 'Зберегти зміни параметрів товару',
+        rus: 'Сохранить изменения параметров товара',
+      },
+
+      text: {
+        eng: 'Save',
+        ukr: 'Зберегти',
+        rus: 'Сохранить',
+      },
+    },
+
     editButton: {
       title: {
         eng: 'Change product parameters',
