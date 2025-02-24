@@ -17,6 +17,7 @@ import {
   fetchProduct,
   fetchTags,
   fetchLinks,
+  deleteImageApi,
   saveChangesProductApi,
 } from 'api';
 import { Spinner, Button, Tags, Links, Modal, Alert } from 'components';
@@ -438,10 +439,11 @@ export default function EditProductView({ setProductsByTag }) {
       }
     }
 
-    // TODO: видалити зображення які були видалені
-    const deletedImages = product.images.filter(
-      image => !imagesIds.includes(image.slice(128, 141)),
-    );
+    const deletedImagesIds = product.images
+      .filter(image => !imagesIds.includes(image.slice(128, 141)))
+      .map(imageLink => imageLink.slice(128, 141));
+
+    await deleteImageApi(deletedImagesIds, product._id, title);
 
     const newProduct = {
       _id: product._id,
