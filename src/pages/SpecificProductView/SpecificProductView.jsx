@@ -25,7 +25,7 @@ import {
   getCategory,
   getTags,
   pageUp,
-  deleteProduct,
+  removeProduct,
 } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -356,7 +356,7 @@ export default function SpecificProductView({
 
       {showAlert && (
         <Alert
-          callBack={() => deleteProduct(product, changeGlobalState, navigate)}
+          callBack={() => removeProduct(product, changeGlobalState, navigate)}
           closeAlert={toggleAlert}
         />
       )}

@@ -5,6 +5,7 @@ export {
   updateUser,
   updateCategories,
   updateProducts,
+  updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
   updateCart,

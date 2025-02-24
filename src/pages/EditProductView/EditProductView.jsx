@@ -26,7 +26,7 @@ import {
   getTags,
   pageUp,
   uploadImageToStorage,
-  deleteProduct,
+  deleteRemovedProduct,
 } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -869,7 +869,9 @@ export default function EditProductView({ setProductsByTag }) {
 
       {showAlert && (
         <Alert
-          callBack={() => deleteProduct(product, changeGlobalState, navigate)}
+          callBack={() =>
+            deleteRemovedProduct(product, changeGlobalState, navigate)
+          }
           closeAlert={toggleAlert}
         />
       )}

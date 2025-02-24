@@ -35,6 +35,12 @@ const actions = {
     return updatedState;
   },
 
+  updateRemovedProducts: (state, payload) => {
+    const updatedState = { ...state };
+    updatedState.global.removedProducts = payload;
+    return updatedState;
+  },
+
   updateTagsDictionary: (state, payload) => {
     const updatedState = { ...state };
     updatedState.global.tagsDictionary = payload;
@@ -62,6 +68,7 @@ export const {
   updateUser,
   updateCategories,
   updateProducts,
+  updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
   updateCart,

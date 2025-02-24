@@ -27,6 +27,11 @@ const CategoriesView = lazy(() =>
 const ProductsView = lazy(() =>
   import('pages/ProductsView' /* webpackChunkName: "ProductsView" */),
 );
+const RemovedProductsView = lazy(() =>
+  import(
+    'pages/RemovedProductsView' /* webpackChunkName: "RemovedProductsView" */
+  ),
+);
 const SpecificProductView = lazy(() =>
   import(
     'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
@@ -49,12 +54,6 @@ const SignInView = lazy(() =>
 );
 const NotFoundView = lazy(() =>
   import('pages/NotFoundView' /* webpackChunkName: "NotFoundView" */),
-);
-// FIMXE: Remove this import after creating the DeletedProductView component
-const EditProductViewProto = lazy(() =>
-  import(
-    'pages/EditProductViewProto' /* webpackChunkName: "EditProductViewProto" */
-  ),
 );
 
 export default function App() {
@@ -212,7 +211,6 @@ export default function App() {
               <PrivateRoute redirectTo="/signin">
                 <EditProductView
                   setProductsByTag={setProductsByCategoryOrTag}
-                  changeSelectCount={changeCount}
                 />
               </PrivateRoute>
             }
@@ -222,9 +220,8 @@ export default function App() {
             path="/products/deleted"
             element={
               <PrivateRoute redirectTo="/signin">
-                <EditProductViewProto
-                  setProductsByTag={setProductsByCategoryOrTag}
-                  changeSelectCount={changeCount}
+                <RemovedProductsView
+                  productsByCategoryOrTag={productsByCategoryOrTag}
                 />
               </PrivateRoute>
             }

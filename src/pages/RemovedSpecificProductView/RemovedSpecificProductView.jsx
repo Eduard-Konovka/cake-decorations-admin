@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -25,17 +25,18 @@ import {
   getCategory,
   getTags,
   pageUp,
-  deleteProduct,
+  deleteRemovedProduct,
 } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import s from './EditProductViewProto.module.css';
+import s from './SpecificProductView.module.css';
 
-export default function EditProductViewProto({
+export default function SpecificProductView({
   setProductsByTag,
   changeSelectCount,
 }) {
+  const location = useLocation();
   const navigate = useNavigate();
   const {
     mainHeight,
@@ -57,7 +58,7 @@ export default function EditProductViewProto({
   const [showModal, setShowModal] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
-  const productId = '1736964021052';
+  const productId = location.pathname.slice(10, location.pathname.length);
   const selectedProduct = cart.filter(product => product._id === productId)[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
 
@@ -162,8 +163,8 @@ export default function EditProductViewProto({
     setShowModal(!showModal);
   };
 
-  const cancelEditProduct = async () => {
-    navigate(`/products/${productId}`);
+  const editProduct = async () => {
+    navigate(`/products/edit/${productId}`);
   };
 
   const toggleAlert = () => {
@@ -272,14 +273,14 @@ export default function EditProductViewProto({
                   <div className={s.buttonBox}>
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.cancelButton.title,
+                        LANGUAGE.productViews.editButton.title,
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={cancelEditProduct}
+                      onClick={editProduct}
                     >
                       {languageDeterminer(
-                        LANGUAGE.productViews.cancelButton.text,
+                        LANGUAGE.productViews.editButton.text,
                       )}
                     </Button>
 
@@ -355,7 +356,9 @@ export default function EditProductViewProto({
 
       {showAlert && (
         <Alert
-          callBack={() => deleteProduct(product, changeGlobalState, navigate)}
+          callBack={() =>
+            deleteRemovedProduct(product, changeGlobalState, navigate)
+          }
           closeAlert={toggleAlert}
         />
       )}
@@ -363,7 +366,7 @@ export default function EditProductViewProto({
   );
 }
 
-EditProductViewProto.propTypes = {
+SpecificProductView.propTypes = {
   setProductsByTag: PropTypes.func.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
 };

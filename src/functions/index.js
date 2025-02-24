@@ -4,5 +4,6 @@ export { getPureArr } from './getPureArr';
 export { getTags } from './getTags';
 export { pageUp } from './pageUp';
 export { storeLanguage } from './storeLanguage';
-export { deleteProduct } from './deleteProduct';
+export { removeProduct } from './removeProduct';
+export { deleteRemovedProduct } from './deleteRemovedProduct';
 export { uploadImageToStorage } from './uploadImageToStorage';
