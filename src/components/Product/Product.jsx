@@ -60,15 +60,13 @@ export default function Product({ product, productsType }) {
 
         <div className={s.thumb}>
           <h3 className={s.title}>
-            {language === 'RU'
-              ? product?.ruTitle?.length < GLOBAL.productView.titleLength
-                ? product?.ruTitle
-                : product?.ruTitle?.slice(0, GLOBAL.productView.titleLength) +
-                  '...'
-              : product?.uaTitle?.length < GLOBAL.productView.titleLength
-              ? product?.uaTitle
-              : product?.uaTitle?.slice(0, GLOBAL.productView.titleLength) +
-                '...'}
+            {titleWrapper(language, product).length <
+            GLOBAL.productView.titleLength
+              ? titleWrapper(language, product)
+              : titleWrapper(language, product).slice(
+                  0,
+                  GLOBAL.productView.titleLength,
+                ) + '...'}
           </h3>
 
           <p className={s.shortDescription}>
