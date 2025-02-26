@@ -8,7 +8,7 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './Product.module.css';
 
-export default function Product({ product }) {
+export default function Product({ product, productsType }) {
   const { language, categories } = useGlobalState('global');
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -49,7 +49,7 @@ export default function Product({ product }) {
 
   return (
     <article>
-      <Link to={`/products/${product._id}`} className={s.btnLink}>
+      <Link to={`/${productsType}/${product._id}`} className={s.btnLink}>
         <div className={s.imageBox}>
           <img
             className={s.image}
@@ -106,10 +106,10 @@ export default function Product({ product }) {
 Product.propTypes = {
   product: PropTypes.shape({
     _id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     uaTitle: PropTypes.string,
     ruTitle: PropTypes.string,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     uaDescription: PropTypes.string,
     ruDescription: PropTypes.string,
     category: PropTypes.string.isRequired,

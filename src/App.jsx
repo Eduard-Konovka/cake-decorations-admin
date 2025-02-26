@@ -37,6 +37,11 @@ const SpecificProductView = lazy(() =>
     'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
   ),
 );
+const RemovedSpecificProductView = lazy(() =>
+  import(
+    'pages/RemovedSpecificProductView' /* webpackChunkName: "RemovedSpecificProductView" */
+  ),
+);
 const AddNewProductView = lazy(() =>
   import('pages/AddNewProductView' /* webpackChunkName: "AddNewProductView" */),
 );
@@ -218,11 +223,23 @@ export default function App() {
           />
 
           <Route
-            path="/products/deleted"
+            path="/removedProducts"
             element={
               <PrivateRoute redirectTo="/signin">
                 <RemovedProductsView
                   productsByCategoryOrTag={productsByCategoryOrTag}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/removedProducts/:id"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <RemovedSpecificProductView
+                  setProductsByTag={setProductsByCategoryOrTag}
+                  changeSelectCount={changeCount}
                 />
               </PrivateRoute>
             }

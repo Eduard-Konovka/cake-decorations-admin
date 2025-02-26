@@ -406,7 +406,10 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
           </section>
 
           <section className={s.productList}>
-            <ProductList products={dozensOfProducts} />
+            <ProductList
+              products={dozensOfProducts}
+              productsType={'removedProducts'}
+            />
           </section>
 
           {scrolledTop > 300 && (

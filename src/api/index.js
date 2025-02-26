@@ -2,6 +2,7 @@ export { default as fetchCategories } from './categoriesApi';
 export { default as fetchProducts } from './productsApi';
 export { default as fetchProduct } from './productApi';
 export { default as fetchRemovedProducts } from './removedProductsApi';
+export { default as fetchRemovedProduct } from './removedProductApi';
 export { default as addProductApi } from './addProductApi';
 export { default as addRemovedProductApi } from './addRemovedProductApi';
 export { default as saveChangesProductApi } from './saveChangesProductApi';

@@ -130,7 +130,10 @@ export default function SpecificProductView({
 
   useEffect(() => {
     if (
-      (product.uaTitle || product.ruTitle) &&
+      (product.uaTitle || // FIXME
+        product.ruTitle ||
+        product.enTitle ||
+        product.title) &&
       tagsDictionary &&
       linksDictionary
     ) {

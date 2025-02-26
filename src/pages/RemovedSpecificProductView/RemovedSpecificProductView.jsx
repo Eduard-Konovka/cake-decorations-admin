@@ -10,7 +10,12 @@ import {
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProduct, fetchTags, fetchLinks } from 'api';
+import {
+  fetchCategories,
+  fetchRemovedProduct,
+  fetchTags,
+  fetchLinks,
+} from 'api';
 import {
   Spinner,
   Button,
@@ -30,9 +35,9 @@ import {
 import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
-import s from './SpecificProductView.module.css';
+import s from './RemovedSpecificProductView.module.css';
 
-export default function SpecificProductView({
+export default function RemovedSpecificProductView({
   setProductsByTag,
   changeSelectCount,
 }) {
@@ -42,7 +47,7 @@ export default function SpecificProductView({
     mainHeight,
     language,
     categories,
-    products,
+    removedProducts,
     tagsDictionary,
     linksDictionary,
     cart,
@@ -51,16 +56,20 @@ export default function SpecificProductView({
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [product, setProduct] = useState({});
+  const [removedProduct, setRemovedProduct] = useState({});
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [tags, setTags] = useState([]);
   const [links, setLinks] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
-  const productId = location.pathname.slice(10, location.pathname.length);
-  const selectedProduct = cart.filter(product => product._id === productId)[0];
-  const savedProduct = products.filter(product => product._id === productId)[0];
+  const productId = location.pathname.slice(17, location.pathname.length);
+  const selectedProduct = cart.filter(
+    removedProduct => removedProduct._id === productId,
+  )[0];
+  const savedProduct = removedProducts.filter(
+    removedProduct => removedProduct._id === productId,
+  )[0];
 
   const [count, setCount] = useState(
     selectedProduct ? selectedProduct.count : 0,
@@ -85,17 +94,17 @@ export default function SpecificProductView({
   }, [categories, changeGlobalState]);
 
   useEffect(() => {
-    if (products.length > 0) {
-      setProduct(savedProduct);
+    if (removedProducts.length > 0) {
+      setRemovedProduct(savedProduct);
     } else {
       setLoading(true);
 
-      fetchProduct(productId)
-        .then(product => setProduct(product))
+      fetchRemovedProduct(productId)
+        .then(removedProduct => setRemovedProduct(removedProduct))
         .catch(error => setError(error))
         .finally(() => setLoading(false));
     }
-  }, [productId, products.length, savedProduct]);
+  }, [productId, removedProducts.length, savedProduct]);
 
   useEffect(() => {
     if (!tagsDictionary) {
@@ -130,28 +139,37 @@ export default function SpecificProductView({
 
   useEffect(() => {
     if (
-      (product.uaTitle || product.ruTitle) &&
+      (removedProduct.uaTitle || // FIXME
+        removedProduct.ruTitle ||
+        removedProduct.enTitle ||
+        removedProduct.title) &&
       tagsDictionary &&
       linksDictionary
     ) {
-      setTags(getTags(titleWrapper(language, product), tagsDictionary, 'tags'));
+      setTags(
+        getTags(titleWrapper(language, removedProduct), tagsDictionary, 'tags'),
+      );
       setLinks(
-        getTags(titleWrapper(language, product), linksDictionary, 'links'),
+        getTags(
+          titleWrapper(language, removedProduct),
+          linksDictionary,
+          'links',
+        ),
       );
     }
-  }, [language, product, tagsDictionary, linksDictionary]);
+  }, [language, removedProduct, tagsDictionary, linksDictionary]);
 
   useEffect(() => {
     const description = document.querySelector('#description');
-    description.innerHTML = descriptionWrapper(language, product);
-  }, [language, product]);
+    description.innerHTML = descriptionWrapper(language, removedProduct);
+  }, [language, removedProduct]);
 
   const toggleModal = () => {
     setShowModal(!showModal);
   };
 
   const editProduct = async () => {
-    navigate(`/products/edit/${productId}`);
+    navigate(`/removedProducts/edit/${productId}`);
   };
 
   const toggleAlert = () => {
@@ -171,28 +189,28 @@ export default function SpecificProductView({
         </div>
       )}
 
-      {!loading && !error && product && (
+      {!loading && !error && removedProduct && (
         <>
           <div className={s.row}>
             <section className={s.imagesSection}>
               <img
                 src={
-                  product?.images?.length > 0
-                    ? product.images[mainImageIdx]
+                  removedProduct?.images?.length > 0
+                    ? removedProduct.images[mainImageIdx]
                     : imageNotFound
                 }
-                alt={titleWrapper(language, product)}
+                alt={titleWrapper(language, removedProduct)}
                 className={s.mainImage}
                 onClick={toggleModal}
               />
 
-              {product?.images?.length > 1 && (
+              {removedProduct?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {product.images.map((imageLink, idx) => (
+                  {removedProduct.images.map((imageLink, idx) => (
                     <img
                       key={imageLink}
                       src={imageLink}
-                      alt={titleWrapper(language, product)}
+                      alt={titleWrapper(language, removedProduct)}
                       className={s.additionalImage}
                       onClick={() => setMainImageIdx(idx)}
                     />
@@ -204,16 +222,18 @@ export default function SpecificProductView({
             <div className={s.thumb}>
               <div className={s.monitor}>
                 <section className={s.statsSection}>
-                  <h3 className={s.title}>{titleWrapper(language, product)}</h3>
+                  <h3 className={s.title}>
+                    {titleWrapper(language, removedProduct)}
+                  </h3>
                   <p className={s.stat}>
                     <span className={s.statName}>
                       {languageDeterminer(LANGUAGE.productViews.category)}
                     </span>
-                    {getCategory(language, categories, product)}
+                    {getCategory(language, categories, removedProduct)}
                   </p>
 
-                  {product?.product_details?.length > 0 &&
-                    product.product_details.map(detail => (
+                  {removedProduct?.product_details?.length > 0 &&
+                    removedProduct.product_details.map(detail => (
                       <p key={detail.attribute_name} className={s.stat}>
                         <span className={s.statName}>
                           {detail.attribute_name}:
@@ -228,12 +248,12 @@ export default function SpecificProductView({
                     <span className={s.boldfont}>
                       {languageDeterminer(LANGUAGE.productViews.price)}
                     </span>
-                    {product.price} ₴
+                    {removedProduct.price} ₴
                   </p>
 
                   <CountForm
                     value={count}
-                    price={product.price}
+                    price={removedProduct.price}
                     min={GLOBAL.productCount.min}
                     max={GLOBAL.productCount.max}
                     styles={{
@@ -331,7 +351,7 @@ export default function SpecificProductView({
 
       {showModal && (
         <Modal
-          product={product}
+          product={removedProduct}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}
         />
@@ -341,8 +361,9 @@ export default function SpecificProductView({
         <Alert
           callBack={() =>
             deleteRemovedProduct(
-              product,
-              titleWrapper(language, product),
+              removedProduct,
+              titleWrapper(language, removedProduct),
+              changeGlobalState,
               navigate,
             )
           }
@@ -353,7 +374,7 @@ export default function SpecificProductView({
   );
 }
 
-SpecificProductView.propTypes = {
+RemovedSpecificProductView.propTypes = {
   setProductsByTag: PropTypes.func.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
 };

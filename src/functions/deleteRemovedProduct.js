@@ -28,7 +28,7 @@ export async function deleteRemovedProduct(
           secondRemovedProduct._id - firstRemovedProduct._id,
       );
       changeGlobalState(updateRemovedProducts, removedProducts);
-      navigate('/removedProducts/deleted');
+      navigate('/removedProducts');
     })
     .catch(error =>
       toast.error(

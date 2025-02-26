@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 export default async function deleteRemovedProductApi(removedProduct, title) {
   try {
-    await deleteDoc(doc(db, 'products', removedProduct._id));
+    await deleteDoc(doc(db, 'removedProducts', removedProduct._id));
 
     // FIXME
     toast.success(`Товар "${title}" успішно видалено`);

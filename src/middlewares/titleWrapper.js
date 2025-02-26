@@ -1,15 +1,15 @@
 export default function titleWrapper(language, obj) {
   switch (language) {
     case 'UA':
-      return obj.uaTitle;
+      return obj?.uaTitle ?? obj?.title;
 
     case 'RU':
-      return obj.ruTitle;
+      return obj?.ruTitle ?? obj?.title;
 
     case 'EN':
-      return obj.enTitle;
+      return obj?.enTitle ?? obj?.title;
 
     default:
-      return obj.title || '';
+      return obj?.title || '';
   }
 }
