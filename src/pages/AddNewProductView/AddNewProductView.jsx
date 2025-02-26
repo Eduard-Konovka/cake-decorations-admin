@@ -10,7 +10,7 @@ import {
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Button, Modal } from 'components';
 import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
-import { languageWrapper } from 'middlewares';
+import { languageWrapper, localizationWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -291,7 +291,7 @@ export default function AddNewProductView() {
       }
     }
 
-    const newProduct = {
+    let newProduct = {
       _id: productTimeStamp,
       category,
       images: imagesLinks,
@@ -301,19 +301,7 @@ export default function AddNewProductView() {
       product_details: details,
     };
 
-    if (language === 'UA') {
-      newProduct.uaTitle = title;
-      newProduct.uaDescription = description;
-    } else if (language === 'RU') {
-      newProduct.ruTitle = title;
-      newProduct.ruDescription = description;
-    } else if (language === 'EN') {
-      newProduct.enTitle = title;
-      newProduct.enDescription = description;
-    } else {
-      newProduct.title = title;
-      newProduct.description = description;
-    }
+    newProduct = localizationWrapper(language, newProduct, title, description);
 
     await addProductApi(newProduct, title);
 

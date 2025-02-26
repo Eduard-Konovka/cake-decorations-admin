@@ -28,7 +28,12 @@ import {
   uploadImageToStorage,
   deleteRemovedProduct,
 } from 'functions';
-import { languageWrapper } from 'middlewares';
+import {
+  languageWrapper,
+  localizationWrapper,
+  titleWrapper,
+  descriptionWrapper,
+} from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -118,25 +123,9 @@ export default function EditProductView({ setProductsByTag }) {
   useEffect(() => {
     if (product) {
       setCategory(product?.category ?? '');
-      setTitle(
-        language === 'UA'
-          ? product?.uaTitle
-          : language === 'RU'
-          ? product?.ruTitle
-          : language === 'EN'
-          ? product?.enTitle
-          : product?.title || '',
-      );
+      setTitle(titleWrapper(language, product));
       setDetails(product?.product_details ?? []);
-      setDescription(
-        language === 'UA'
-          ? product?.uaDescription
-          : language === 'RU'
-          ? product?.ruDescription
-          : language === 'EN'
-          ? product?.enDescription
-          : product?.description || '',
-      );
+      setDescription(descriptionWrapper(language, product));
       setPrice(product?.price ?? 0.01);
       setQuantity(product?.quantity ?? 0);
     }
@@ -445,7 +434,7 @@ export default function EditProductView({ setProductsByTag }) {
 
     await deleteImageApi(deletedImagesIds, product._id, title);
 
-    const newProduct = {
+    let newProduct = {
       _id: product._id,
       category,
       images: imagesLinks,
@@ -455,19 +444,7 @@ export default function EditProductView({ setProductsByTag }) {
       product_details: details,
     };
 
-    if (language === 'UA') {
-      newProduct.uaTitle = title;
-      newProduct.uaDescription = description;
-    } else if (language === 'RU') {
-      newProduct.ruTitle = title;
-      newProduct.ruDescription = description;
-    } else if (language === 'EN') {
-      newProduct.enTitle = title;
-      newProduct.enDescription = description;
-    } else {
-      newProduct.title = title;
-      newProduct.description = description;
-    }
+    newProduct = localizationWrapper(language, newProduct, title, description);
 
     await saveChangesProductApi(newProduct, title);
 
@@ -870,7 +847,7 @@ export default function EditProductView({ setProductsByTag }) {
       {showAlert && (
         <Alert
           callBack={() =>
-            deleteRemovedProduct(product, changeGlobalState, navigate)
+            deleteRemovedProduct(product, title, changeGlobalState, navigate)
           }
           closeAlert={toggleAlert}
         />

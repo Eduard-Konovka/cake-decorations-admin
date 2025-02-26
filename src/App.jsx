@@ -63,6 +63,7 @@ export default function App() {
   const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
   const [sending, setSending] = useState(false);
 
+  // FIXME: Во всём коде заменить getLanguage() ---> language
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {

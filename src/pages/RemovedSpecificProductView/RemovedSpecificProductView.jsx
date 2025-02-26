@@ -27,7 +27,7 @@ import {
   pageUp,
   deleteRemovedProduct,
 } from 'functions';
-import { languageWrapper } from 'middlewares';
+import { languageWrapper, titleWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
@@ -357,7 +357,11 @@ export default function SpecificProductView({
       {showAlert && (
         <Alert
           callBack={() =>
-            deleteRemovedProduct(product, changeGlobalState, navigate)
+            deleteRemovedProduct(
+              product,
+              titleWrapper(language, product),
+              navigate,
+            )
           }
           closeAlert={toggleAlert}
         />

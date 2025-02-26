@@ -2,7 +2,7 @@ import { ref, deleteObject } from 'firebase/storage';
 import { storage } from 'db';
 import { toast } from 'react-toastify';
 
-export default async function deleteImagesApi(product) {
+export default async function deleteImagesApi(product, title) {
   if (product.imagesIds && product.imagesIds.length > 0) {
     try {
       for (let i = 0; i < product.images.length; i++) {
@@ -13,7 +13,7 @@ export default async function deleteImagesApi(product) {
 
       // FIXME
       toast.success(
-        `Зображення товару "${product.title}" успішно видалено з каталогу товарів`,
+        `Зображення товару "${title}" успішно видалено з каталогу товарів`,
       );
     } catch (error) {
       // FIXME

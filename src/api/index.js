@@ -7,6 +7,7 @@ export { default as addRemovedProductApi } from './addRemovedProductApi';
 export { default as saveChangesProductApi } from './saveChangesProductApi';
 export { default as deleteImageApi } from './deleteImageApi';
 export { default as deleteImagesApi } from './deleteImagesApi';
+export { default as deleteProductApi } from './deleteProductApi';
 export { default as deleteRemovedProductApi } from './deleteRemovedProductApi';
 export { default as sendСart } from './ordersApi';
 export { default as fetchTags } from './tagsApi';

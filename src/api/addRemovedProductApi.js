@@ -2,7 +2,7 @@ import { doc, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 import { db } from 'db';
 
-export default async function addRemovedProductApi(removedProduct) {
+export default async function addRemovedProductApi(removedProduct, title) {
   try {
     await setDoc(
       doc(db, 'removedProducts', removedProduct._id),
@@ -10,11 +10,9 @@ export default async function addRemovedProductApi(removedProduct) {
     );
 
     // FIXME
-    toast.success(
-      `Товар ${removedProduct.title} успішно видалено з каталогу товарів`,
-    );
+    toast.success(`Товар ${title} успішно переміщено у видалені товари`);
   } catch (error) {
     // FIXME
-    toast.error(`Помилка видалення товару: ${error}`);
+    toast.error(`Помилка переміщення товару: ${error}`);
   }
 }

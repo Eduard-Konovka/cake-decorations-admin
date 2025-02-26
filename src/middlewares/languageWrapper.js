@@ -1,5 +1,5 @@
-export default function languageWrapper(lang, obj) {
-  switch (lang) {
+export default function languageWrapper(language, obj) {
+  switch (language) {
     case 'UA':
       return obj.ukr;
 
