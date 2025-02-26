@@ -168,19 +168,9 @@ export default function EditProductView({ setProductsByTag }) {
       tagsDictionary &&
       linksDictionary
     ) {
-      setTags(
-        getTags(
-          language === 'RU' ? product.ruTitle : product.uaTitle,
-          tagsDictionary,
-          'tags',
-        ),
-      );
+      setTags(getTags(titleWrapper(language, product), tagsDictionary, 'tags'));
       setLinks(
-        getTags(
-          language === 'RU' ? product.ruTitle : product.uaTitle,
-          linksDictionary,
-          'links',
-        ),
+        getTags(titleWrapper(language, product), linksDictionary, 'links'),
       );
     }
   }, [language, product, tagsDictionary, linksDictionary]);
@@ -809,11 +799,7 @@ export default function EditProductView({ setProductsByTag }) {
                 id="finishDescription"
                 languageDeterminer={languageDeterminer}
                 style={s.finishDescriptionSection}
-                description={
-                  language === 'RU'
-                    ? product.ruDescription
-                    : product.uaDescription || product.description
-                }
+                description={descriptionWrapper(language, product)}
                 callback={descriptionChangeHandler}
               />
             </div>
@@ -823,11 +809,7 @@ export default function EditProductView({ setProductsByTag }) {
             id="startDescription"
             languageDeterminer={languageDeterminer}
             style={s.startDescriptionSection}
-            description={
-              language === 'RU'
-                ? product.ruDescription
-                : product.uaDescription || product.description
-            }
+            description={descriptionWrapper(language, product)}
             callback={descriptionChangeHandler}
           />
         </>
