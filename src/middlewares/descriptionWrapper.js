@@ -25,6 +25,6 @@ export default function descriptionWrapper(language, obj) {
       );
 
     default:
-      return obj?.description || '';
+      return obj?.description ?? '';
   }
 }

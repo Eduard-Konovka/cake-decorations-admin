@@ -10,6 +10,6 @@ export default function titleWrapper(language, obj) {
       return obj?.enTitle ?? obj?.title ?? obj?.uaTitle ?? obj?.ruTitle;
 
     default:
-      return obj?.title || '';
+      return obj?.title ?? '';
   }
 }
