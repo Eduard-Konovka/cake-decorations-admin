@@ -20,7 +20,7 @@ import {
   deleteImageApi,
   saveChangesProductApi,
 } from 'api';
-import { Spinner, Button, Tags, Links, Modal, Alert } from 'components';
+import { Spinner, Button, Tags, Links, Modal, Confirm } from 'components';
 import {
   getLanguage,
   getTags,
@@ -68,7 +68,7 @@ export default function EditProductView({ setProductsByTag }) {
   const [links, setLinks] = useState([]);
   const [draggable, setDraggable] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
 
   const productId = location.pathname.slice(15, location.pathname.length);
   const savedProduct = products.filter(product => product._id === productId)[0];
@@ -244,8 +244,8 @@ export default function EditProductView({ setProductsByTag }) {
     navigate(`/products/${productId}`);
   };
 
-  const toggleAlert = () => {
-    setShowAlert(!showAlert);
+  const toggleConfirm = () => {
+    setShowConfirm(!showConfirm);
   };
 
   function titleChangHandler(event) {
@@ -826,12 +826,12 @@ export default function EditProductView({ setProductsByTag }) {
         />
       )}
 
-      {showAlert && (
-        <Alert
+      {showConfirm && (
+        <Confirm
           callBack={() =>
             deleteRemovedProduct(product, title, changeGlobalState, navigate)
           }
-          closeAlert={toggleAlert}
+          closeConfirm={toggleConfirm}
         />
       )}
     </main>

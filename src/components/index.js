@@ -1,4 +1,3 @@
-export { default as Alert } from './Alert';
 export { default as AppBar } from './AppBar';
 export { default as Blank } from './Blank';
 export { default as Product } from './Product';
@@ -8,6 +7,7 @@ export { default as CartBar } from './CartBar';
 export { default as CartList } from './CartList';
 export { default as Category } from './Category';
 export { default as CategoriesList } from './CategoriesList';
+export { default as Confirm } from './Confirm';
 export { default as Container } from './Container';
 export { default as CountForm } from './CountForm';
 export { default as CursorInteraction } from './CursorInteraction';

@@ -23,7 +23,7 @@ import {
   Links,
   CountForm,
   Modal,
-  Alert,
+  Confirm,
 } from 'components';
 import {
   getLanguage,
@@ -61,7 +61,7 @@ export default function RemovedSpecificProductView({
   const [tags, setTags] = useState([]);
   const [links, setLinks] = useState([]);
   const [showModal, setShowModal] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
 
   const productId = location.pathname.slice(17, location.pathname.length);
   const selectedProduct = cart.filter(
@@ -172,8 +172,8 @@ export default function RemovedSpecificProductView({
     navigate(`/removedProducts/edit/${productId}`);
   };
 
-  const toggleAlert = () => {
-    setShowAlert(!showAlert);
+  const toggleConfirm = () => {
+    setShowConfirm(!showConfirm);
   };
 
   return (
@@ -293,7 +293,7 @@ export default function RemovedSpecificProductView({
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={toggleAlert}
+                      onClick={toggleConfirm}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.deleteButton.text,
@@ -357,8 +357,8 @@ export default function RemovedSpecificProductView({
         />
       )}
 
-      {showAlert && (
-        <Alert
+      {showConfirm && (
+        <Confirm
           callBack={() =>
             deleteRemovedProduct(
               removedProduct,
@@ -367,7 +367,7 @@ export default function RemovedSpecificProductView({
               navigate,
             )
           }
-          closeAlert={toggleAlert}
+          closeConfirm={toggleConfirm}
         />
       )}
     </main>

@@ -6,28 +6,28 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import icons from 'assets/icons.svg';
-import s from './Alert.module.css';
+import s from './Confirm.module.css';
 
 const modalRoot = document.querySelector('#modal-root');
 
-export default function Alert({ callBack, closeAlert }) {
-  const [alertFading, setAlertFading] = useState(false);
+export default function Confirm({ callBack, closeConfirm }) {
+  const [alertFading, setConfirmFading] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  const onCloseAlert = useCallback(() => {
-    setAlertFading(true);
+  const onCloseConfirm = useCallback(() => {
+    setConfirmFading(true);
 
     setTimeout(() => {
-      closeAlert();
-      setAlertFading(false);
+      closeConfirm();
+      setConfirmFading(false);
     }, 450);
-  }, [closeAlert]);
+  }, [closeConfirm]);
 
-  const onBackdropClick = e => e.target === e.currentTarget && onCloseAlert();
+  const onBackdropClick = e => e.target === e.currentTarget && onCloseConfirm();
   const onEscapePress = useCallback(
-    e => e.code === 'Escape' && onCloseAlert(),
-    [onCloseAlert],
+    e => e.code === 'Escape' && onCloseConfirm(),
+    [onCloseConfirm],
   );
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function Alert({ callBack, closeAlert }) {
             )}
             type="button"
             styles={s.btn}
-            onClick={onCloseAlert}
+            onClick={onCloseConfirm}
           >
             {languageDeterminer(LANGUAGE.productViews.cancelDeleteButton.text)}
           </Button>
@@ -73,7 +73,7 @@ export default function Alert({ callBack, closeAlert }) {
           type="button"
           typeForm="icon"
           styles={s.iconCloseBtn}
-          onClick={onCloseAlert}
+          onClick={onCloseConfirm}
         >
           <svg className={s.icon}>
             <use href={`${icons}#icon-close`}></use>
@@ -85,7 +85,7 @@ export default function Alert({ callBack, closeAlert }) {
   );
 }
 
-Alert.propTypes = {
+Confirm.propTypes = {
   callBack: PropTypes.func.isRequired,
-  closeAlert: PropTypes.func.isRequired,
+  closeConfirm: PropTypes.func.isRequired,
 };
