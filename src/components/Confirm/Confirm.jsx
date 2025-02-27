@@ -11,7 +11,7 @@ import s from './Confirm.module.css';
 const modalRoot = document.querySelector('#modal-root');
 
 export default function Confirm({ callBack, closeConfirm }) {
-  const [alertFading, setConfirmFading] = useState(false);
+  const [confirmFading, setConfirmFading] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -40,10 +40,10 @@ export default function Confirm({ callBack, closeConfirm }) {
 
   return createPortal(
     <div
-      className={alertFading ? s.backdropFading : s.backdropEmergence}
+      className={confirmFading ? s.backdropFading : s.backdropEmergence}
       onClick={onBackdropClick}
     >
-      <div className={alertFading ? s.contentFading : s.contentEmergence}>
+      <div className={confirmFading ? s.contentFading : s.contentEmergence}>
         <h2>Ви дійсно хочете видалити цей товар?</h2>
 
         <div className={s.buttonBox}>
