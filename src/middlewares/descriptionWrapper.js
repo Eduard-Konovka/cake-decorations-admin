@@ -5,7 +5,8 @@ export default function descriptionWrapper(language, obj) {
         obj?.uaDescription ??
         obj?.description ??
         obj?.ruDescription ??
-        obj?.enDescription
+        obj?.enDescription ??
+        ''
       );
 
     case 'RU':
@@ -13,7 +14,8 @@ export default function descriptionWrapper(language, obj) {
         obj?.ruDescription ??
         obj?.description ??
         obj?.uaDescription ??
-        obj?.enDescription
+        obj?.enDescription ??
+        ''
       );
 
     case 'EN':
@@ -21,7 +23,8 @@ export default function descriptionWrapper(language, obj) {
         obj?.enDescription ??
         obj?.description ??
         obj?.uaDescription ??
-        obj?.ruDescription
+        obj?.ruDescription ??
+        ''
       );
 
     default:
