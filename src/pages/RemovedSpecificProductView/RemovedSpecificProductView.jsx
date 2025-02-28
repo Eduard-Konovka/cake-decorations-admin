@@ -30,7 +30,7 @@ import {
   getCategory,
   getTags,
   pageUp,
-  restoreProduct,
+  restoreRemovedProduct,
   deleteRemovedProduct,
 } from 'functions';
 import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
@@ -173,6 +173,29 @@ export default function RemovedSpecificProductView({
     setShowConfirm(!showConfirm);
   };
 
+  const restoreRemovedProductHandler = () => {
+    setLoading(true);
+
+    restoreRemovedProduct(
+      removedProduct,
+      titleWrapper(language, removedProduct),
+      changeGlobalState,
+      navigate,
+    );
+  };
+
+  const deleteRemovedProductHandler = () => {
+    setLoading(true);
+    toggleConfirm();
+
+    deleteRemovedProduct(
+      removedProduct,
+      titleWrapper(language, removedProduct),
+      changeGlobalState,
+      navigate,
+    );
+  };
+
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>
       {loading && <Spinner size={70} color="red" />}
@@ -277,14 +300,7 @@ export default function RemovedSpecificProductView({
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={() =>
-                        restoreProduct(
-                          removedProduct,
-                          titleWrapper(language, removedProduct),
-                          changeGlobalState,
-                          navigate,
-                        )
-                      }
+                      onClick={restoreRemovedProductHandler}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.restoreButton.text,
@@ -363,14 +379,7 @@ export default function RemovedSpecificProductView({
 
       {showConfirm && (
         <Confirm
-          callBack={() =>
-            deleteRemovedProduct(
-              removedProduct,
-              titleWrapper(language, removedProduct),
-              changeGlobalState,
-              navigate,
-            )
-          }
+          callBack={deleteRemovedProductHandler}
           closeConfirm={toggleConfirm}
         />
       )}

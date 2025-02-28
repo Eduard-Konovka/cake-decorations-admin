@@ -240,7 +240,7 @@ export default function EditProductView({ setProductsByTag }) {
     setShowModal(!showModal);
   };
 
-  const cancelEditProduct = async () => {
+  const cancelEditProductHandler = async () => {
     navigate(`/products/${productId}`);
   };
 
@@ -363,20 +363,27 @@ export default function EditProductView({ setProductsByTag }) {
     }
   }
 
-  async function saveChangesProduct() {
+  async function saveChangesProductHandler() {
+    setLoading(true);
+
     if (!title) {
+      setLoading(false);
       toast.error('Не заповнене поле назви товару!');
       return;
     } else if (!category) {
+      setLoading(false);
       toast.error('Не вибране поле кагорії товару!');
       return;
     } else if (!description) {
+      setLoading(false);
       toast.error('Не заповнене поле опису про товар!');
       return;
     } else if (!price) {
+      setLoading(false);
       toast.error('Не вказана ціна товару!');
       return;
     } else if (!quantity) {
+      setLoading(false);
       toast.error('Не вказана кількість товару!');
       return;
     }
@@ -384,10 +391,12 @@ export default function EditProductView({ setProductsByTag }) {
     let detailsCondition = true;
     for (let i = 0; i < details.length; i++) {
       if (details[i].attribute_name.length < 1) {
+        setLoading(false);
         toast.error('Не заповнене поле властивості подробиць товару!');
         detailsCondition = false;
         break;
       } else if (details[i].attribute_value.length < 1) {
+        setLoading(false);
         toast.error('Не заповнене поле значення подробиць товару!');
         detailsCondition = false;
         break;
@@ -409,6 +418,7 @@ export default function EditProductView({ setProductsByTag }) {
           imagesLinks.push(imageLink.url);
           imagesIds.push(imageLink.id);
         } catch (error) {
+          setLoading(false);
           toast.error(`Error of addImages(): ${error.message}`);
           break;
         }
@@ -737,7 +747,7 @@ export default function EditProductView({ setProductsByTag }) {
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={cancelEditProduct}
+                      onClick={cancelEditProductHandler}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.cancelButton.text,
@@ -750,7 +760,7 @@ export default function EditProductView({ setProductsByTag }) {
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={saveChangesProduct}
+                      onClick={saveChangesProductHandler}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.saveChangesButton.text,

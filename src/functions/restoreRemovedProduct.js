@@ -10,7 +10,7 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 
-export async function restoreProduct(
+export async function restoreRemovedProduct(
   removedProduct,
   title,
   changeGlobalState,

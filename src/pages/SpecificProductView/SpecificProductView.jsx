@@ -153,12 +153,24 @@ export default function SpecificProductView({
     setShowModal(!showModal);
   };
 
-  const editProduct = async () => {
+  const toggleConfirm = () => {
+    setShowConfirm(!showConfirm);
+  };
+
+  const editProductHandler = () => {
     navigate(`/products/edit/${productId}`);
   };
 
-  const toggleConfirm = () => {
-    setShowConfirm(!showConfirm);
+  const deleteProductHandler = () => {
+    setLoading(true);
+    toggleConfirm();
+
+    deleteProduct(
+      product,
+      titleWrapper(language, product),
+      changeGlobalState,
+      navigate,
+    );
   };
 
   return (
@@ -263,7 +275,7 @@ export default function SpecificProductView({
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={editProduct}
+                      onClick={editProductHandler}
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.editButton.text,
@@ -341,17 +353,7 @@ export default function SpecificProductView({
       )}
 
       {showConfirm && (
-        <Confirm
-          callBack={() =>
-            deleteProduct(
-              product,
-              titleWrapper(language, product),
-              changeGlobalState,
-              navigate,
-            )
-          }
-          closeConfirm={toggleConfirm}
-        />
+        <Confirm callBack={deleteProductHandler} closeConfirm={toggleConfirm} />
       )}
     </main>
   );
