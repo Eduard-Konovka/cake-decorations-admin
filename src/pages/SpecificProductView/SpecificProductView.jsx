@@ -10,7 +10,13 @@ import {
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProduct, fetchTags, fetchLinks } from 'api';
+import {
+  fetchCategories,
+  fetchProduct,
+  fetchTags,
+  fetchLinks,
+  addProductApi,
+} from 'api';
 import {
   Spinner,
   Button,
@@ -161,6 +167,18 @@ export default function SpecificProductView({
     navigate(`/products/edit/${productId}`);
   };
 
+  const duplicateProductHandler = () => {
+    setLoading(true);
+
+    // FIXME: duplicate images to new product
+
+    const newProduct = { ...product };
+    newProduct.count = count;
+    newProduct._id = Date.now().toString();
+
+    addProductApi(newProduct, titleWrapper(language, newProduct));
+  };
+
   const deleteProductHandler = () => {
     setLoading(true);
     toggleConfirm();
@@ -248,15 +266,12 @@ export default function SpecificProductView({
 
                   <CountForm
                     value={count}
-                    price={product.price}
                     min={GLOBAL.productCount.min}
                     max={GLOBAL.productCount.max}
                     styles={{
                       formStyle: s.count,
                       labelStyle: s.boldfont,
                       inputStyle: s.input,
-                      spanStyle: s.boldfont,
-                      totalPriceStyle: s.count,
                     }}
                     setCount={count => {
                       setCount(count);
@@ -279,6 +294,19 @@ export default function SpecificProductView({
                     >
                       {languageDeterminer(
                         LANGUAGE.productViews.editButton.text,
+                      )}
+                    </Button>
+
+                    <Button
+                      title={languageDeterminer(
+                        LANGUAGE.productViews.duplicateButton.title,
+                      )}
+                      type="button"
+                      styles={s.btn}
+                      onClick={duplicateProductHandler}
+                    >
+                      {languageDeterminer(
+                        LANGUAGE.productViews.duplicateButton.text,
                       )}
                     </Button>
 

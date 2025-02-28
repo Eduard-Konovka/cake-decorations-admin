@@ -483,11 +483,14 @@
 .buttonBox {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 0.5vw;
 }
 
 .btn {
   width: 28vw;
   height: 8.75vw;
+  margin: 0.5vw;
 }
 
 @media screen and (min-width: 320px) {

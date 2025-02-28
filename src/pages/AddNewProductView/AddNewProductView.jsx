@@ -595,7 +595,7 @@ export default function AddNewProductView() {
                     />
                   </div>
 
-                  <div>
+                  <div className={s.buttonBox}>
                     <Button
                       title={languageDeterminer(
                         LANGUAGE.productViews.saveButton.title,

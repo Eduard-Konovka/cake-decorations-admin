@@ -15,6 +15,7 @@ import {
   fetchRemovedProduct,
   fetchTags,
   fetchLinks,
+  addRemovedProductApi,
 } from 'api';
 import {
   Spinner,
@@ -173,6 +174,25 @@ export default function RemovedSpecificProductView({
     setShowConfirm(!showConfirm);
   };
 
+  const editRemovedProductHandler = () => {
+    navigate(`/removedProduct/edit/${productId}`);
+  };
+
+  const duplicateRemovedProductHandler = () => {
+    setLoading(true);
+
+    // FIXME: duplicate images to new product
+
+    const newRemovedProduct = { ...removedProduct };
+    newRemovedProduct.count = count;
+    newRemovedProduct._id = Date.now().toString();
+
+    addRemovedProductApi(
+      newRemovedProduct,
+      titleWrapper(language, newRemovedProduct),
+    );
+  };
+
   const restoreRemovedProductHandler = () => {
     setLoading(true);
 
@@ -273,15 +293,12 @@ export default function RemovedSpecificProductView({
 
                   <CountForm
                     value={count}
-                    price={removedProduct.price}
                     min={GLOBAL.productCount.min}
                     max={GLOBAL.productCount.max}
                     styles={{
                       formStyle: s.count,
                       labelStyle: s.boldfont,
                       inputStyle: s.input,
-                      spanStyle: s.boldfont,
-                      totalPriceStyle: s.count,
                     }}
                     setCount={count => {
                       setCount(count);
@@ -294,6 +311,32 @@ export default function RemovedSpecificProductView({
                   />
 
                   <div className={s.buttonBox}>
+                    <Button
+                      title={languageDeterminer(
+                        LANGUAGE.productViews.editButton.title,
+                      )}
+                      type="button"
+                      styles={s.btn}
+                      onClick={editRemovedProductHandler}
+                    >
+                      {languageDeterminer(
+                        LANGUAGE.productViews.editButton.text,
+                      )}
+                    </Button>
+
+                    <Button
+                      title={languageDeterminer(
+                        LANGUAGE.productViews.duplicateButton.removedTitle,
+                      )}
+                      type="button"
+                      styles={s.btn}
+                      onClick={duplicateRemovedProductHandler}
+                    >
+                      {languageDeterminer(
+                        LANGUAGE.productViews.duplicateButton.text,
+                      )}
+                    </Button>
+
                     <Button
                       title={languageDeterminer(
                         LANGUAGE.productViews.restoreButton.title,
@@ -309,7 +352,7 @@ export default function RemovedSpecificProductView({
 
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.deleteButton.title,
+                        LANGUAGE.productViews.deleteButton.removedTitle,
                       )}
                       type="button"
                       styles={s.btn}

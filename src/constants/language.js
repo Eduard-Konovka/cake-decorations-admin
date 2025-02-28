@@ -478,6 +478,26 @@ export const LANGUAGE = {
       },
     },
 
+    duplicateButton: {
+      title: {
+        eng: 'Duplicate a product in the product catalog',
+        ukr: 'Дублювати товар в каталозі товарів',
+        rus: 'Дублировать товар в каталоге товаров',
+      },
+
+      removedTitle: {
+        eng: 'Duplicate product into deleted products',
+        ukr: 'Дублювати товар у видалені товари',
+        rus: 'Дублировать товар в удаленные товары',
+      },
+
+      text: {
+        eng: 'Duplicate',
+        ukr: 'Дублювати',
+        rus: 'Дублировать',
+      },
+    },
+
     restoreButton: {
       title: {
         eng: 'Restore product to product catalog',
@@ -525,6 +545,12 @@ export const LANGUAGE = {
         eng: 'Remove product from product catalog',
         ukr: 'Видалити товар з каталогу товарів',
         rus: 'Удалить товар из каталога товаров',
+      },
+
+      removedTitle: {
+        eng: 'Delete the product permanently',
+        ukr: 'Видалити продукт остаточно',
+        rus: 'Удалить продукт окончательно',
       },
 
       text: {
@@ -636,12 +662,6 @@ export const LANGUAGE = {
       eng: 'Count, units:',
       ukr: 'Кількість:',
       rus: 'Количество:',
-    },
-
-    totalPrice: {
-      eng: 'Total price:',
-      ukr: 'Загальна сума:',
-      rus: 'Общая сумма:',
     },
 
     error: {

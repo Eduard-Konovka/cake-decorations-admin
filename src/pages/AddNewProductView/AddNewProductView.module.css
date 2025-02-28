@@ -682,6 +682,12 @@
   }
 }
 
+.buttonBox {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
 .btn {
   width: 28vw;
   height: 8.75vw;

@@ -49,16 +49,12 @@ export default function SelectedProduct({
 
         <CountForm
           value={count}
-          price={price}
           min={GLOBAL.productCount.min}
           max={GLOBAL.productCount.max}
           styles={{
             formStyle: s.countForm,
             labelStyle: s.countLabel,
             inputStyle: s.countInput,
-            totalPriceStyle: s.totalPrice,
-            totalPriceTitleStyle: s.totalPriceTitle,
-            totalPriceValueStyle: s.totalPriceValue,
           }}
           setCount={count => changeSelectCount({ count, _id })}
         />
