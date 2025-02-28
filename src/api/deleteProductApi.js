@@ -10,6 +10,6 @@ export default async function deleteProductApi(removedProduct, title) {
     toast.success(`Товар "${title}" успішно видалено з каталогу товарів`);
   } catch (error) {
     // FIXME
-    toast.error(`Помилка видалення товару: ${error}`);
+    toast.error(`Помилка видалення товару з каталогу товарів: ${error}`);
   }
 }

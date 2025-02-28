@@ -48,8 +48,7 @@ export async function deleteProduct(
     .catch(error =>
       toast.error(
         `${languageDeterminer(
-          // FIXME: Change gettingProducts to gettingRemovedProducts
-          LANGUAGE.toastErrors.gettingProducts,
+          LANGUAGE.toastErrors.gettingRemovedProducts,
         )}:\n${error}`,
       ),
     );

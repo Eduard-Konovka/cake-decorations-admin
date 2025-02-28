@@ -30,6 +30,12 @@ export const LANGUAGE = {
       rus: 'Не удалось загрузить товары',
     },
 
+    gettingRemovedProducts: {
+      eng: 'Failed to load deleted products',
+      ukr: 'Не вдалося завантажити видалені товари',
+      rus: 'Не удалось загрузить удаленные товары',
+    },
+
     gettingTags: {
       eng: 'Failed to load the tags',
       ukr: 'Не вдалося завантажити теги',

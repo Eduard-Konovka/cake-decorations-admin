@@ -7,9 +7,9 @@ export default async function deleteRemovedProductApi(removedProduct, title) {
     await deleteDoc(doc(db, 'removedProducts', removedProduct._id));
 
     // FIXME
-    toast.success(`Товар "${title}" успішно видалено`);
+    toast.success(`Товар "${title}" успішно видалено з бази даних`);
   } catch (error) {
     // FIXME
-    toast.error(`Помилка видалення товару: ${error}`);
+    toast.error(`Помилка видалення товару з бази даних: ${error}`);
   }
 }
