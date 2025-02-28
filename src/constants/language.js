@@ -472,6 +472,20 @@ export const LANGUAGE = {
       },
     },
 
+    restoreButton: {
+      title: {
+        eng: 'Restore product to product catalog',
+        ukr: 'Відновити товар до каталогу товарів',
+        rus: 'Восстановить товар в каталог товаров',
+      },
+
+      text: {
+        eng: 'Restore',
+        ukr: 'Відновити',
+        rus: 'Восстановить',
+      },
+    },
+
     cancelButton: {
       title: {
         eng: 'Cancel editing product parameters',

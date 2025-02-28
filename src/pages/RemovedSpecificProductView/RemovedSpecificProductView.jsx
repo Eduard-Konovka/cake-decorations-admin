@@ -30,6 +30,7 @@ import {
   getCategory,
   getTags,
   pageUp,
+  restoreProduct,
   deleteRemovedProduct,
 } from 'functions';
 import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
@@ -168,10 +169,6 @@ export default function RemovedSpecificProductView({
     setShowModal(!showModal);
   };
 
-  const editProduct = async () => {
-    navigate(`/removedProducts/edit/${productId}`);
-  };
-
   const toggleConfirm = () => {
     setShowConfirm(!showConfirm);
   };
@@ -276,14 +273,21 @@ export default function RemovedSpecificProductView({
                   <div className={s.buttonBox}>
                     <Button
                       title={languageDeterminer(
-                        LANGUAGE.productViews.editButton.title,
+                        LANGUAGE.productViews.restoreButton.title,
                       )}
                       type="button"
                       styles={s.btn}
-                      onClick={editProduct}
+                      onClick={() =>
+                        restoreProduct(
+                          removedProduct,
+                          titleWrapper(language, removedProduct),
+                          changeGlobalState,
+                          navigate,
+                        )
+                      }
                     >
                       {languageDeterminer(
-                        LANGUAGE.productViews.editButton.text,
+                        LANGUAGE.productViews.restoreButton.text,
                       )}
                     </Button>
 
