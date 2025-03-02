@@ -7,11 +7,13 @@ import {
   useGlobalState,
   useChangeGlobalState,
   updateCategories,
+  updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
 import {
   fetchCategories,
+  fetchRemovedProducts,
   fetchRemovedProduct,
   fetchTags,
   fetchLinks,
@@ -33,6 +35,8 @@ import {
   pageUp,
   restoreRemovedProduct,
   deleteRemovedProduct,
+  getFileFromUrl,
+  uploadImageToStorage,
 } from 'functions';
 import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -178,10 +182,35 @@ export default function RemovedSpecificProductView({
     navigate(`/removedProduct/edit/${productId}`);
   };
 
-  const duplicateRemovedProductHandler = () => {
+  const duplicateRemovedProductHandler = async () => {
     setLoading(true);
 
-    // FIXME: duplicate images to new product
+    const productTimeStamp = Date.now().toString();
+
+    const imagesLinks = [];
+    const imagesIds = [];
+    for (let i = 0; i < removedProduct.images.length; i++) {
+      try {
+        const imageId = Date.now().toString();
+        const file = await getFileFromUrl(
+          removedProduct.images[i],
+          `${imageId}.jpg`,
+        );
+
+        const imageLink = await uploadImageToStorage(
+          language,
+          file,
+          productTimeStamp,
+        );
+
+        imagesLinks.push(imageLink.url);
+        imagesIds.push(imageId);
+      } catch (error) {
+        setLoading(false);
+        toast.error(`Error of addImages(): ${error.message}`);
+        break;
+      }
+    }
 
     const newRemovedProduct = { ...removedProduct };
     newRemovedProduct.count = count;
@@ -191,6 +220,24 @@ export default function RemovedSpecificProductView({
       newRemovedProduct,
       titleWrapper(language, newRemovedProduct),
     );
+
+    fetchRemovedProducts()
+      .then(removedProducts => {
+        removedProducts.sort(
+          (firstRemovedProduct, secondRemovedProduct) =>
+            secondRemovedProduct._id - firstRemovedProduct._id,
+        );
+        changeGlobalState(updateRemovedProducts, removedProducts);
+        navigate('/removedProducts');
+      })
+      .catch(error =>
+        toast.error(
+          `${languageDeterminer(
+            // FIXME: change gettingProducts to gettingRemovedProducts
+            LANGUAGE.toastErrors.gettingProducts,
+          )}:\n${error}`,
+        ),
+      );
   };
 
   const restoreRemovedProductHandler = () => {

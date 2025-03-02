@@ -7,11 +7,13 @@ import {
   useGlobalState,
   useChangeGlobalState,
   updateCategories,
+  updateProducts,
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
 import {
   fetchCategories,
+  fetchProducts,
   fetchProduct,
   fetchTags,
   fetchLinks,
@@ -32,6 +34,8 @@ import {
   getTags,
   pageUp,
   deleteProduct,
+  getFileFromUrl,
+  uploadImageToStorage,
 } from 'functions';
 import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
@@ -167,16 +171,56 @@ export default function SpecificProductView({
     navigate(`/products/edit/${productId}`);
   };
 
-  const duplicateProductHandler = () => {
+  const duplicateProductHandler = async () => {
     setLoading(true);
 
-    // FIXME: duplicate images to new product
+    const productTimeStamp = Date.now().toString();
+
+    const imagesLinks = [];
+    const imagesIds = [];
+    for (let i = 0; i < product.images.length; i++) {
+      try {
+        const imageId = Date.now().toString();
+        const file = await getFileFromUrl(product.images[i], `${imageId}.jpg`);
+
+        const imageLink = await uploadImageToStorage(
+          language,
+          file,
+          productTimeStamp,
+        );
+
+        imagesLinks.push(imageLink.url);
+        imagesIds.push(imageId);
+      } catch (error) {
+        setLoading(false);
+        toast.error(`Error of addImages(): ${error.message}`);
+        break;
+      }
+    }
 
     const newProduct = { ...product };
+    newProduct._id = productTimeStamp;
     newProduct.count = count;
-    newProduct._id = Date.now().toString();
+    newProduct.images = imagesLinks;
+    newProduct.imagesIds = imagesIds;
 
     addProductApi(newProduct, titleWrapper(language, newProduct));
+
+    fetchProducts()
+      .then(products => {
+        products.sort(
+          (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+        );
+        changeGlobalState(updateProducts, products);
+        navigate('/products');
+      })
+      .catch(error =>
+        toast.error(
+          `${languageDeterminer(
+            LANGUAGE.toastErrors.gettingProducts,
+          )}:\n${error}`,
+        ),
+      );
   };
 
   const deleteProductHandler = () => {

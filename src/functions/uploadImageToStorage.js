@@ -4,7 +4,7 @@ import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { storage } from 'db';
 import { PHOTO } from 'constants';
 
-export async function uploadImageToStorage(language, photo, productTimeStamp) {
+export async function uploadImageToStorage(language, image, productTimeStamp) {
   const languageDeterminer = obj => languageWrapper(language, obj);
   const uniqueImageId = Date.now().toString();
   const storageRef = ref(
@@ -12,7 +12,7 @@ export async function uploadImageToStorage(language, photo, productTimeStamp) {
     `productsImages/${productTimeStamp}/${uniqueImageId}`,
   );
 
-  await uploadBytes(storageRef, photo)
+  await uploadBytes(storageRef, image)
     .then(() =>
       toast.success(
         `${languageDeterminer(

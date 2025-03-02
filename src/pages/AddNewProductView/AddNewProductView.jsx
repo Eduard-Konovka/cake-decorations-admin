@@ -105,7 +105,7 @@ export default function AddNewProductView() {
       const img = {};
       img.file = files[i];
       img.src = window.URL.createObjectURL(files[i]);
-      images.push(img);
+      newImages.push(img);
     }
 
     setImages(prevImages => [...prevImages, ...newImages]);

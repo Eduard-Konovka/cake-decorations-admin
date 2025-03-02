@@ -7,4 +7,5 @@ export { restoreRemovedProduct } from './restoreRemovedProduct';
 export { storeLanguage } from './storeLanguage';
 export { deleteProduct } from './deleteProduct';
 export { deleteRemovedProduct } from './deleteRemovedProduct';
+export { getFileFromUrl } from './getFileFromUrl';
 export { uploadImageToStorage } from './uploadImageToStorage';
