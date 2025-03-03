@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useState, useEffect } from 'react';
+import React, { lazy, useState, useEffect, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Puff } from 'react-loader-spinner';
@@ -27,19 +27,9 @@ const CategoriesView = lazy(() =>
 const ProductsView = lazy(() =>
   import('pages/ProductsView' /* webpackChunkName: "ProductsView" */),
 );
-const RemovedProductsView = lazy(() =>
-  import(
-    'pages/RemovedProductsView' /* webpackChunkName: "RemovedProductsView" */
-  ),
-);
 const SpecificProductView = lazy(() =>
   import(
     'pages/SpecificProductView' /* webpackChunkName: "SpecificProductView" */
-  ),
-);
-const RemovedSpecificProductView = lazy(() =>
-  import(
-    'pages/RemovedSpecificProductView' /* webpackChunkName: "RemovedSpecificProductView" */
   ),
 );
 const AddNewProductView = lazy(() =>
@@ -47,6 +37,21 @@ const AddNewProductView = lazy(() =>
 );
 const EditProductView = lazy(() =>
   import('pages/EditProductView' /* webpackChunkName: "EditProductView" */),
+);
+const RemovedProductsView = lazy(() =>
+  import(
+    'pages/RemovedProductsView' /* webpackChunkName: "RemovedProductsView" */
+  ),
+);
+const RemovedSpecificProductView = lazy(() =>
+  import(
+    'pages/RemovedSpecificProductView' /* webpackChunkName: "RemovedSpecificProductView" */
+  ),
+);
+const EditRemovedProductView = lazy(() =>
+  import(
+    'pages/EditRemovedProductView' /* webpackChunkName: "EditRemovedProductView" */
+  ),
 );
 const OrdersView = lazy(() =>
   import('pages/OrdersView' /* webpackChunkName: "OrdersView" */),
@@ -240,6 +245,17 @@ export default function App() {
                 <RemovedSpecificProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                   changeSelectCount={changeCount}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/removedProducts/edit/:id"
+            element={
+              <PrivateRoute redirectTo="/signin">
+                <EditRemovedProductView
+                  setProductsByTag={setProductsByCategoryOrTag}
                 />
               </PrivateRoute>
             }

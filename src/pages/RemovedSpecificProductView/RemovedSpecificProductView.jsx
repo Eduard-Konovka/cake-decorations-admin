@@ -179,7 +179,7 @@ export default function RemovedSpecificProductView({
   };
 
   const editRemovedProductHandler = () => {
-    navigate(`/removedProduct/edit/${productId}`);
+    navigate(`/removedProducts/edit/${productId}`);
   };
 
   const duplicateRemovedProductHandler = async () => {

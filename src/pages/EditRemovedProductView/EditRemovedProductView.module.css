@@ -1,0 +1,832 @@
+.page {
+  position: relative;
+}
+
+.errorBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.errorText {
+  padding: 0;
+  margin: 0;
+}
+
+.errorLabel {
+  composes: errorText;
+  font-weight: 500;
+}
+
+.row {
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/*#region IMAGES */
+.imagesSection {
+  width: 27.9%;
+  height: 100%;
+}
+
+.image {
+  border-radius: 2.5vw;
+  background-color: #e9e9ff;
+  box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
+    2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
+
+  transition: box-shadow var(--time-action) var(--time-distribution-function),
+    transform var(--time-action) var(--time-distribution-function);
+}
+
+@media screen and (min-width: 320px) {
+  .image {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .image {
+    border-radius: 8px;
+  }
+}
+
+.mainImage {
+  composes: image;
+  width: 100%;
+}
+
+.mainImage:hover,
+.mainImage:focus-visible {
+  box-shadow: 0.1vw 0.3vw 0.3vw rgba(86, 202, 33, 0.8),
+    -0.1vw 0.1vw 0.5vw rgba(86, 202, 33, 0.5);
+  transform: scale(1.01);
+}
+
+.additionalImagesBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 0.5vw;
+  margin-top: 0.375px;
+}
+
+@media screen and (min-width: 320px) {
+  .additionalImagesBox {
+    border-radius: 8px;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .additionalImagesBox {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .additionalImagesBox {
+    border-radius: 10px;
+    margin-top: 8px;
+  }
+}
+
+.additionalImageBar {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  border-radius: 2.5vw;
+  background-color: #e9e9ff;
+  box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
+    2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
+  margin: 0.4vw;
+
+  transition: box-shadow var(--time-action) var(--time-distribution-function),
+    transform var(--time-action) var(--time-distribution-function);
+}
+
+@media screen and (min-width: 320px) {
+  .additionalImageBar {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .additionalImageBar {
+    border-radius: 0.5vw;
+  }
+}
+
+.additionalImageBar:hover,
+.additionalImageBar:focus-visible {
+  box-shadow: 0.2vw 0.3vw 0.3vw #ca7b21;
+  transform: scale(1.05);
+}
+
+.additionalImage {
+  border-radius: 2.5vw;
+}
+
+@media screen and (min-width: 320px) {
+  .additionalImage {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .additionalImage {
+    border-radius: 0.5vw;
+  }
+}
+
+.iconCloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  fill: inherit;
+  background-color: transparent;
+  border-radius: 50%;
+  transform: rotateZ(0);
+  transform-origin: center center;
+
+  transition: fill var(--modal-plus-action) var(--time-distribution-function),
+    transform var(--modal-action) var(--time-distribution-function);
+  animation: rotateX 1500ms var(--time-distribution-function);
+}
+
+.iconCloseBtn:hover,
+.iconCloseBtn:focus-visible {
+  fill: var(--error-color);
+  transform: rotateZ(1turn);
+}
+
+.iconClose {
+  width: 20px;
+  height: 20px;
+}
+
+.addImageBar {
+  composes: additionalImageBar;
+
+  height: 8vw;
+
+  transition: box-shadow calc(var(--time-action) * 2.5)
+      var(--time-distribution-function),
+    transform calc(var(--time-action) * 2.5) var(--time-distribution-function);
+}
+
+.addImageBar_draggable {
+  composes: addImageBar;
+
+  background-color: var(--active-add-color);
+}
+
+.addBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font: inherit;
+  fill: var(--add-color);
+  background-color: transparent;
+  cursor: pointer;
+  scale: 1;
+  transform: rotateZ(0);
+  transform-origin: center center;
+
+  transition: fill calc(var(--modal-plus-action) * 2.5)
+      var(--time-distribution-function),
+    scale calc(var(--modal-plus-action) * 2.5) var(--time-distribution-function),
+    transform calc(var(--modal-action) * 3) var(--time-distribution-function);
+  animation: rotateX 1500ms var(--time-distribution-function);
+}
+
+.addBtn:hover,
+.addBtn:focus-visible {
+  fill: var(--active-add-color);
+  scale: 1.01;
+  transform: rotateZ(-1turn);
+}
+
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(2turn);
+  }
+}
+
+.iconAdd {
+  width: 7vw;
+  height: 7vw;
+  padding: 1vw;
+}
+
+/*#endregion IMAGES */
+
+@media screen and (min-width: 800px) {
+  .thumb {
+    width: 70%;
+  }
+
+  .monitor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+/*#region STATS */
+.statsSection {
+  padding: 5px 3.4vw 4vw;
+  border-radius: 2.5vw;
+  background-color: #e9e9ff;
+  box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
+    2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
+  margin: 1.875vw 0;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 320px) {
+  .statsSection {
+    padding: 6px 2vw 3vw;
+    border-radius: 8px;
+    margin: 6px 0;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .statsSection {
+    padding: 7px 2.5vw 2vw;
+    margin: 7px 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .statsSection {
+    width: 57%;
+    padding-bottom: 1vw;
+    border-radius: 8px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .statsSection {
+    width: 67%;
+  }
+}
+
+.title {
+  font-size: 5.625vw;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 320px) {
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .title {
+    position: static;
+
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .title {
+    font-size: 1.875vw;
+  }
+}
+
+.input {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 5vw;
+  text-align: justify;
+  color: #705050;
+
+  width: 100%;
+  height: 10vw;
+  border: 1px solid var(--input-border-color);
+  border-radius: 2.5vw;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+}
+
+.input:valid {
+  border-color: #00ff00;
+}
+
+.input:invalid {
+  border-color: #ff0000;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 320px) {
+  .input {
+    font-size: 16px;
+    height: 32px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .input {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .input {
+    font-size: 1vw;
+    height: 2vw;
+    border-radius: 0.625vw;
+  }
+}
+
+.textarea {
+  composes: input;
+  height: auto;
+  resize: none;
+}
+
+.select {
+  composes: input;
+}
+
+.titleInput {
+  composes: textarea;
+  font-size: 6vw;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 320px) {
+  .titleInput {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .titleInput {
+    font-size: 1.4vw;
+  }
+}
+
+.stat {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 4.7vw;
+  padding: 5px 0;
+  border-radius: 2.5vw;
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .stat {
+    padding: 6px 0;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .stat {
+    display: block;
+
+    padding: 7px 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .stat {
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .stat {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .stat {
+    border-radius: 0.625vw;
+    font-size: 1.375vw;
+  }
+}
+
+.detailsStat {
+  composes: stat;
+  background-color: #fcffd0;
+  border: 1px solid var(--input-border-color);
+  margin: 0.7vw 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: stretch;
+}
+
+.semiboldfont {
+  font-weight: 600;
+}
+
+.boldfont {
+  font-weight: 700;
+}
+
+.statName {
+  composes: semiboldfont;
+  margin-right: 10px;
+}
+
+.tagBox {
+  margin: 2px;
+}
+
+@media screen and (min-width: 1600px) {
+  .tagBox {
+    margin: 0.2vw;
+  }
+}
+
+.tag {
+  display: block;
+  text-indent: 0;
+  font-weight: 400;
+  padding: 2px 10px;
+  border-radius: 2vw;
+  color: #70304f;
+  background-color: #ffc1c1;
+
+  transition: color var(--time-action) var(--time-distribution-function),
+    text-shadow var(--time-action) var(--time-distribution-function),
+    box-shadow var(--time-action) var(--time-distribution-function);
+}
+
+@media screen and (min-width: 320px) {
+  .tag {
+    border-radius: 6px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .tag {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .tag {
+    padding: 0.125vw 0.625vw;
+    border-radius: 0.625vw;
+  }
+}
+
+.tag:hover,
+.tag:focus-visible {
+  color: #fc029c;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25), 2px 1px 1px rgba(0, 0, 0, 0.3),
+    -1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.linkBox {
+  composes: tagBox;
+}
+
+.link {
+  composes: tag;
+}
+
+.googleLink {
+  width: 9%;
+}
+/*#endregion STATS */
+
+/*#region CONTROLS */
+.controlsSection {
+  padding: 2vw 2vw 4vw 2vw;
+  font-size: 15px;
+  text-align: end;
+  background-color: #fff1f1;
+  border-radius: 2.5vw;
+  box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
+    2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
+}
+
+@media screen and (min-width: 320px) {
+  .controlsSection {
+    font-size: 16px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .controlsSection {
+    padding: 2.5vw;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .controlsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 40%;
+    padding: 1vw;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .controlsSection {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .controlsSection {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .controlsSection {
+    font-size: 1.125vw;
+  }
+}
+
+.controlsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.countInput {
+  width: 28vw;
+  height: 8.75vw;
+  border: 1px solid var(--input-border-color);
+  border-radius: 1vw;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  color: #705050;
+}
+
+.countInput::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 320px) {
+  .countInput {
+    width: 85px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .countInput {
+    width: 104px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .countInput {
+    width: 12.5vw;
+    height: 30px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .countInput {
+    width: 10.2vw;
+    height: 2.7vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .countInput {
+    width: 9vw;
+    height: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .countInput {
+    width: 8.2vw;
+    height: 2.25vw;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .countInput {
+    width: 7.2vw;
+    border-radius: 0.625vw;
+  }
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 28vw;
+  height: 8.75vw;
+  margin: 0.5vw;
+}
+
+@media screen and (min-width: 320px) {
+  .btn {
+    width: 85px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .btn {
+    width: 104px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn {
+    width: 12.5vw;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    width: 10.2vw;
+    height: 2.7vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn {
+    width: 9vw;
+    height: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .btn {
+    width: 8.2vw;
+    height: 2.25vw;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .btn {
+    width: 7.2vw;
+  }
+}
+/*#endregion CONTROLS */
+
+/*#region PARAGRAPH */
+.paragraph {
+  font-weight: 500;
+  font-size: 4.375vw;
+  padding: 5px 3.4vw;
+  border-radius: 2.5vw;
+  background-color: #e9ffe9;
+  box-shadow: 0px 2px 4px 2px rgba(66, 38, 38, 0.25),
+    2px 1px 1px rgba(71, 29, 29, 0.3), -2px 1px 3px rgba(77, 25, 25, 0.15);
+  margin: 5px 0 0 0;
+}
+
+@media screen and (min-width: 320px) {
+  .paragraph {
+    font-size: 14px;
+    padding: 6px 2vw;
+    border-radius: 8px;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .paragraph {
+    font-size: 15px;
+    padding: 7px 2.5vw;
+    margin-top: 7px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .paragraph {
+    border-radius: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .paragraph {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .paragraph {
+    font-size: 1.25vw;
+    margin-top: 0.625vw;
+    border-radius: 0.625vw;
+  }
+}
+
+.linksSection {
+  composes: paragraph;
+  background-color: #ffffc9;
+}
+
+.linksBox {
+  composes: stat;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .startDescriptionSection {
+    composes: paragraph;
+    display: none;
+  }
+}
+
+.finishDescriptionSection {
+  composes: paragraph;
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .finishDescriptionSection {
+    display: block;
+  }
+}
+/*#endregion PARAGRAPH */
