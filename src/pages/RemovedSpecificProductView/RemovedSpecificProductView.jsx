@@ -191,10 +191,9 @@ export default function RemovedSpecificProductView({
     const imagesIds = [];
     for (let i = 0; i < removedProduct.images.length; i++) {
       try {
-        const imageId = Date.now().toString();
         const file = await getFileFromUrl(
           removedProduct.images[i],
-          `${imageId}.jpg`,
+          `${Date.now().toString()}.jpg`,
         );
 
         const imageLink = await uploadImageToStorage(
@@ -204,10 +203,10 @@ export default function RemovedSpecificProductView({
         );
 
         imagesLinks.push(imageLink.url);
-        imagesIds.push(imageId);
+        imagesIds.push(imageLink.id);
       } catch (error) {
         setLoading(false);
-        toast.error(`Error of addImages(): ${error.message}`);
+        toast.error(`Error of addImages(): ${error.message}`); // FIXME
         break;
       }
     }

@@ -180,8 +180,10 @@ export default function SpecificProductView({
     const imagesIds = [];
     for (let i = 0; i < product.images.length; i++) {
       try {
-        const imageId = Date.now().toString();
-        const file = await getFileFromUrl(product.images[i], `${imageId}.jpg`);
+        const file = await getFileFromUrl(
+          product.images[i],
+          `${Date.now().toString()}.jpg`,
+        );
 
         const imageLink = await uploadImageToStorage(
           language,
@@ -190,10 +192,10 @@ export default function SpecificProductView({
         );
 
         imagesLinks.push(imageLink.url);
-        imagesIds.push(imageId);
+        imagesIds.push(imageLink.id);
       } catch (error) {
         setLoading(false);
-        toast.error(`Error of addImages(): ${error.message}`);
+        toast.error(`Error of addImages(): ${error.message}`); // FIXME
         break;
       }
     }
