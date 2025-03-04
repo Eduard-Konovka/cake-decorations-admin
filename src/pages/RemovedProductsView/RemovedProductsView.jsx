@@ -331,7 +331,7 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
         />
       )}
 
-      {removedProducts.length > 0 && (
+      {!loading && !error && removedProducts.length > 0 && (
         <>
           <section className={s.bars}>
             <form className={s.searchBar}>

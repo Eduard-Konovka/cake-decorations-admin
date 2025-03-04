@@ -328,7 +328,7 @@ export default function ProductsView({ productsByCategoryOrTag }) {
         />
       )}
 
-      {products.length > 0 && (
+      {!loading && !error && products.length > 0 && (
         <>
           <section className={s.bars}>
             <form className={s.searchBar}>

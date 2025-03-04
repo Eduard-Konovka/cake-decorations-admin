@@ -123,7 +123,7 @@ export default function CategoriesView({ setProductsByCategory }) {
         />
       )}
 
-      {categories.length > 0 && (
+      {!loading && !error && categories.length > 0 && (
         <>
           <section className={s.categoriesList}>
             <CategoriesList setProductsByCategory={setProductsByCategory} />
