@@ -13,7 +13,7 @@ import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import icons from 'assets/icons.svg';
-import imageBlank from 'assets/shop.jpg';
+import imageBlank from 'assets/empty-trash-bin.jpg';
 import s from './RemovedProductsView.module.css';
 
 export default function RemovedProductsView({ productsByCategoryOrTag }) {
@@ -325,9 +325,9 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
 
       {!loading && !error && removedProducts.length === 0 && (
         <Blank
-          title={languageDeterminer(LANGUAGE.noProducts)}
+          title={languageDeterminer(LANGUAGE.noRemovedProducts)}
           image={imageBlank}
-          alt={languageDeterminer(LANGUAGE.openShopAlt)}
+          alt={languageDeterminer(LANGUAGE.emptyTrashCanAlt)}
         />
       )}
 

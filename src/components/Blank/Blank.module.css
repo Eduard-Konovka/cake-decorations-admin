@@ -19,3 +19,9 @@
     margin: 0 auto 10px auto;
   }
 }
+
+.img {
+  width: 100%;
+  max-width: 20vw;
+  margin: 0 auto;
+}

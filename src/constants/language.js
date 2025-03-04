@@ -287,6 +287,18 @@ export const LANGUAGE = {
     rus: 'На данный момент в магазине нет товаров в продаже',
   },
 
+  emptyTrashCanAlt: {
+    eng: 'Empty trash can',
+    ukr: 'Порожній кошик для сміття',
+    rus: 'Пустая корзина для мусора',
+  },
+
+  noRemovedProducts: {
+    eng: 'There are currently no removed products',
+    ukr: 'На даний момент немає видалених товарів',
+    rus: 'На данный момент нет удаленных товаров',
+  },
+
   searchByName: {
     title: {
       eng: 'Search by product name',
