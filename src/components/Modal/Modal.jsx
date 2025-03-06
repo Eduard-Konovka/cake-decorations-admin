@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
+import { useGlobalState } from 'state';
 import { Button, Swiper } from 'components';
 import { getLanguage } from 'functions';
-import { languageWrapper } from 'middlewares';
+import { languageWrapper, titleWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import icons from 'assets/icons.svg';
 import imageNotFound from 'assets/notFound.png';
@@ -12,6 +13,8 @@ import s from './Modal.module.css';
 const modalRoot = document.querySelector('#modal-root');
 
 export default function Modal({ product, mainImageIdx, closeModal }) {
+  const { language } = useGlobalState('global');
+
   const [modalImageIdx, setModalImageIdx] = useState(mainImageIdx);
   const [modalFading, setModalFading] = useState(false);
   const [startLeftAnimationX, setStartLeftAnimationX] = useState(false);
@@ -86,10 +89,10 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
           <img
             src={
               product?.images?.length > 0
-                ? product.images[modalImageIdx]
+                ? product.images[modalImageIdx].url
                 : imageNotFound
             }
-            alt={product.title}
+            alt={titleWrapper(language, product)}
             className={
               startLeftAnimationX
                 ? s.onStartLeftTranslateAnimationX
@@ -152,7 +155,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
 Modal.propTypes = {
   product: PropTypes.shape({
     title: PropTypes.string,
-    images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    images: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
   }).isRequired,
   mainImageIdx: PropTypes.number.isRequired,
   closeModal: PropTypes.func.isRequired,

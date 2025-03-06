@@ -145,10 +145,7 @@ export default function RemovedSpecificProductView({
 
   useEffect(() => {
     if (
-      (removedProduct.uaTitle || // FIXME
-        removedProduct.ruTitle ||
-        removedProduct.enTitle ||
-        removedProduct.title) &&
+      removedProduct?.title?.['ua' || 'ru' || 'en'] &&
       tagsDictionary &&
       linksDictionary
     ) {

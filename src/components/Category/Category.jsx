@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
+import { titleWrapper } from 'middlewares';
 import defaultImage from 'assets/notFound.png';
 import s from './Category.module.css';
 
@@ -27,14 +28,12 @@ export default function Category({ category, setProductsByCategory }) {
           <img
             className={s.image}
             src={category?.image?.length > 0 ? category.image : defaultImage}
-            alt={language === 'RU' ? category.ruTitle : category.uaTitle}
+            alt={titleWrapper(language, category)}
           />
         </div>
 
         <div className={s.thumb}>
-          <h3 className={s.title}>
-            {language === 'RU' ? category.ruTitle : category.uaTitle}
-          </h3>
+          <h3 className={s.title}>{titleWrapper(language, category)}</h3>
         </div>
       </article>
     </Link>
@@ -44,8 +43,7 @@ export default function Category({ category, setProductsByCategory }) {
 Category.propTypes = {
   category: PropTypes.shape({
     _id: PropTypes.string.isRequired,
-    uaTitle: PropTypes.string.isRequired,
-    ruTitle: PropTypes.string.isRequired,
+    title: PropTypes.objectOf(PropTypes.string).isRequired,
     image: PropTypes.string.isRequired,
   }).isRequired,
   setProductsByCategory: PropTypes.func.isRequired,

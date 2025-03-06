@@ -169,7 +169,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
 
   useEffect(() => {
     if (
-      (removedProduct.uaTitle || removedProduct.ruTitle) &&
+      removedProduct?.title?.['ua' || 'ru' || 'en'] &&
       tagsDictionary &&
       linksDictionary
     ) {
@@ -614,9 +614,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                     >
                       {categories.map(category => (
                         <option key={category._id} value={category._id}>
-                          {language === 'RU'
-                            ? category.ruTitle
-                            : category.uaTitle}
+                          {titleWrapper(language, category)}
                         </option>
                       ))}
                     </select>

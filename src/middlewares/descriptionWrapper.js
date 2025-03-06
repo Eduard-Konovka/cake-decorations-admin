@@ -2,32 +2,29 @@ export default function descriptionWrapper(language, obj) {
   switch (language) {
     case 'UA':
       return (
-        obj?.uaDescription ??
-        obj?.description ??
-        obj?.ruDescription ??
-        obj?.enDescription ??
+        obj?.description?.ua ??
+        obj?.description?.ru ??
+        obj?.description?.en ??
         ''
       );
 
     case 'RU':
       return (
-        obj?.ruDescription ??
-        obj?.description ??
-        obj?.uaDescription ??
-        obj?.enDescription ??
+        obj?.description?.ru ??
+        obj?.description?.ua ??
+        obj?.description?.en ??
         ''
       );
 
     case 'EN':
       return (
-        obj?.enDescription ??
-        obj?.description ??
-        obj?.uaDescription ??
-        obj?.ruDescription ??
+        obj?.description?.en ??
+        obj?.description?.ua ??
+        obj?.description?.ru ??
         ''
       );
 
     default:
-      return obj?.description ?? '';
+      return obj?.description?.ua ?? '';
   }
 }

@@ -1,23 +1,23 @@
 export default function localizationWrapper(language, obj, title, description) {
   switch (language) {
     case 'UA':
-      obj.uaTitle = title;
-      obj.uaDescription = description;
+      obj.title.ua = title;
+      obj.description.ua = description;
       return obj;
 
     case 'RU':
-      obj.ruTitle = title;
-      obj.ruDescription = description;
+      obj.title.ru = title;
+      obj.description.ru = description;
       return obj;
 
     case 'EN':
-      obj.enTitle = title;
-      obj.enDescription = description;
+      obj.title.en = title;
+      obj.description.en = description;
       return obj;
 
     default:
-      obj.title = title;
-      obj.tescription = description;
+      obj.title.ua = title;
+      obj.description.ua = description;
       return obj;
   }
 }

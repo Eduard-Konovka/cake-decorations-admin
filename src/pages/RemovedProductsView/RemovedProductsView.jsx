@@ -9,7 +9,7 @@ import {
 import { fetchRemovedProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage, pageUp } from 'functions';
-import { languageWrapper } from 'middlewares';
+import { languageWrapper, titleWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import icons from 'assets/icons.svg';
@@ -168,7 +168,11 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
   function handleNameClick() {
     const visibleProductsToLowerCase = removedProducts.map(product => ({
       ...product,
-      title: product.title.toLowerCase(),
+      title: {
+        ua: titleWrapper('UA', product).toLowerCase(),
+        ru: titleWrapper('RU', product).toLowerCase(),
+        en: titleWrapper('EN', product).toLowerCase(),
+      },
     }));
 
     const queryArr = searchByName
@@ -181,7 +185,7 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
         let result = !product;
 
         for (let i = 0; i < queryArr.length; i++) {
-          if (product.title.includes(queryArr[i])) {
+          if (product.title['ua' || 'ru' || 'en'].includes(queryArr[i])) {
             result = product;
           }
         }

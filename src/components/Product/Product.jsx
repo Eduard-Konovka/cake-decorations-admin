@@ -53,7 +53,9 @@ export default function Product({ product, productsType }) {
         <div className={s.imageBox}>
           <img
             className={s.image}
-            src={product?.images?.length > 0 ? product.images[0] : defaultImage}
+            src={
+              product?.images?.length > 0 ? product.images[0].url : defaultImage
+            }
             alt={titleWrapper(language, product)}
           />
         </div>
@@ -104,14 +106,10 @@ export default function Product({ product, productsType }) {
 Product.propTypes = {
   product: PropTypes.shape({
     _id: PropTypes.string.isRequired,
-    title: PropTypes.string,
-    uaTitle: PropTypes.string,
-    ruTitle: PropTypes.string,
-    description: PropTypes.string,
-    uaDescription: PropTypes.string,
-    ruDescription: PropTypes.string,
+    title: PropTypes.objectOf(PropTypes.string).isRequired,
+    description: PropTypes.objectOf(PropTypes.string).isRequired,
     category: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
-    images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    images: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
   }).isRequired,
 };

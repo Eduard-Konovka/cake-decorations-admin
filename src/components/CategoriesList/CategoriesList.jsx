@@ -7,8 +7,10 @@ import s from './CategoriesList.module.css';
 
 const ALL_PRODUCTS = {
   _id: 'allProducts',
-  uaTitle: 'Всі категорії',
-  ruTitle: 'Все категории',
+  title: {
+    ua: 'Всі категорії',
+    ru: 'Все категории',
+  },
   image: allProducts,
 };
 
