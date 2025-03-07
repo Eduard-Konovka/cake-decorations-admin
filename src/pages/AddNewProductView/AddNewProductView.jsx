@@ -451,7 +451,7 @@ export default function AddNewProductView() {
                       title={languageDeterminer(
                         LANGUAGE.addNewProductView.titleInput,
                       )}
-                      defaultValue={category || null}
+                      value={category}
                       className={s.select}
                       onChange={categoryChangeHandler}
                     >

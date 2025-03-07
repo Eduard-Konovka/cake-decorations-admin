@@ -17,7 +17,7 @@ import {
   fetchProduct,
   fetchTags,
   fetchLinks,
-  deleteImageApi,
+  deleteRemovedImagesApi,
   saveChangesProductApi,
 } from 'api';
 import { Spinner, Button, Tags, Links, Modal, Confirm } from 'components';
@@ -428,7 +428,7 @@ export default function EditProductView({ setProductsByTag }) {
       .filter(imageObj => !imagesIds.includes(imageObj.id))
       .map(imageObj => imageObj.id);
 
-    await deleteImageApi(deletedImagesIds, product._id, title);
+    await deleteRemovedImagesApi(deletedImagesIds, product._id, title);
 
     let newProduct = {
       _id: product._id,
@@ -502,7 +502,7 @@ export default function EditProductView({ setProductsByTag }) {
                       />
 
                       <Button
-                        title={'Видалити зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        title={'Видалити зображення товару'} // FIXME languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                         type="button"
                         typeForm="icon"
                         styles={s.iconCloseBtn}
@@ -528,7 +528,7 @@ export default function EditProductView({ setProductsByTag }) {
                     <>
                       <label
                         htmlFor="fileElem"
-                        title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        title={'Додати зображення товару'} // FIXME languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                         className={s.addBtn}
                       >
                         <svg className={s.iconAdd}>
@@ -587,7 +587,7 @@ export default function EditProductView({ setProductsByTag }) {
                       title={languageDeterminer(
                         LANGUAGE.addNewProductView.titleInput,
                       )}
-                      defaultValue={product?.category ?? null}
+                      value={category}
                       className={s.select}
                       onChange={categoryChangeHandler}
                     >
@@ -625,7 +625,7 @@ export default function EditProductView({ setProductsByTag }) {
                             )}
                             autoComplete="given-name family-name"
                             minLength={GLOBAL.addNewProductView.input.minLength}
-                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            // FIXME maxLength={GLOBAL.addNewProductView.input.maxLength}
                             value={detail.attribute_name}
                             className={s.input}
                             onChange={event =>
@@ -660,7 +660,7 @@ export default function EditProductView({ setProductsByTag }) {
                             )}
                             autoComplete="given-name family-name"
                             minLength={GLOBAL.addNewProductView.input.minLength}
-                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            // FIXME maxLength={GLOBAL.addNewProductView.input.maxLength}
                             value={detail.attribute_value}
                             className={s.input}
                             onChange={event =>
@@ -863,7 +863,7 @@ export function Description({
         defaultValue={description}
         autoComplete="given-name family-name"
         minLength={GLOBAL.addNewProductView.input.minLength}
-        // maxLength={GLOBAL.addNewProductView.input.maxLength}
+        // FIXME maxLength={GLOBAL.addNewProductView.input.maxLength}
         autoCorrect="on"
         className={s.textarea}
         onChange={callback}

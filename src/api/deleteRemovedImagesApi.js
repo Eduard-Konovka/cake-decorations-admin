@@ -2,7 +2,7 @@ import { ref, deleteObject } from 'firebase/storage';
 import { storage } from 'db';
 import { toast } from 'react-toastify';
 
-export default async function deleteImageApi(imagesIds, _id, title) {
+export default async function deleteRemovedImagesApi(imagesIds, _id, title) {
   if (imagesIds && imagesIds.length > 0) {
     try {
       for (let i = 0; i < imagesIds.length; i++) {

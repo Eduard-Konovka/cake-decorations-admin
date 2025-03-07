@@ -1,7 +1,7 @@
 import { toast } from 'react-toastify';
 import { updateProducts, updateRemovedProducts } from 'state';
 import {
-  deleteImagesApi,
+  deleteProductImagesApi,
   deleteRemovedProductApi,
   fetchProducts,
   fetchRemovedProducts,
@@ -18,7 +18,7 @@ export async function deleteRemovedProduct(
 ) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  await deleteImagesApi(removedProduct, title);
+  await deleteProductImagesApi(removedProduct, title);
   await deleteRemovedProductApi(removedProduct, title);
 
   fetchRemovedProducts()

@@ -17,7 +17,7 @@ import {
   fetchRemovedProduct,
   fetchTags,
   fetchLinks,
-  deleteImageApi,
+  deleteRemovedImagesApi,
   saveChangesRemovedProductApi,
 } from 'api';
 import { Spinner, Button, Tags, Links, Modal, Confirm } from 'components';
@@ -440,7 +440,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
       .filter(imageObj => !imagesIds.includes(imageObj.id))
       .map(imageObj => imageObj.id);
 
-    await deleteImageApi(deletedImagesIds, removedProduct._id, title);
+    await deleteRemovedImagesApi(deletedImagesIds, removedProduct._id, title);
 
     let newRemovedProduct = {
       _id: removedProduct._id,
@@ -603,7 +603,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                       title={languageDeterminer(
                         LANGUAGE.addNewProductView.titleInput,
                       )}
-                      defaultValue={removedProduct?.category ?? null}
+                      value={category}
                       className={s.select}
                       onChange={categoryChangeHandler}
                     >

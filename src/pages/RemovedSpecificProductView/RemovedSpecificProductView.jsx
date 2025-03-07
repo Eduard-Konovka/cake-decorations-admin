@@ -184,7 +184,7 @@ export default function RemovedSpecificProductView({
 
     const productTimeStamp = Date.now().toString();
 
-    const duplicateImages = [];
+    const newImages = [];
     for (let i = 0; i < removedProduct.images.length; i++) {
       try {
         const file = await getFileFromUrl(
@@ -192,13 +192,13 @@ export default function RemovedSpecificProductView({
           `${Date.now().toString()}.jpg`,
         );
 
-        const imageLink = await uploadImageToStorage(
+        const newImage = await uploadImageToStorage(
           language,
           file,
           productTimeStamp,
         );
 
-        duplicateImages.push({ id: imageLink.id, url: imageLink.url });
+        newImages.push(newImage);
       } catch (error) {
         setLoading(false);
         toast.error(`Error of addImages(): ${error.message}`); // FIXME
@@ -207,8 +207,9 @@ export default function RemovedSpecificProductView({
     }
 
     const newRemovedProduct = { ...removedProduct };
+    newRemovedProduct._id = productTimeStamp;
     newRemovedProduct.count = count;
-    newRemovedProduct._id = Date.now().toString();
+    newRemovedProduct.images = newImages;
 
     addRemovedProductApi(
       newRemovedProduct,
