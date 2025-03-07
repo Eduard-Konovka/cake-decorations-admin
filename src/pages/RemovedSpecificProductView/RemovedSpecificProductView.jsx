@@ -184,12 +184,11 @@ export default function RemovedSpecificProductView({
 
     const productTimeStamp = Date.now().toString();
 
-    const imagesLinks = [];
-    const imagesIds = [];
+    const duplicateImages = [];
     for (let i = 0; i < removedProduct.images.length; i++) {
       try {
         const file = await getFileFromUrl(
-          removedProduct.images[i],
+          removedProduct.images[i].url,
           `${Date.now().toString()}.jpg`,
         );
 
@@ -199,8 +198,7 @@ export default function RemovedSpecificProductView({
           productTimeStamp,
         );
 
-        imagesLinks.push(imageLink.url);
-        imagesIds.push(imageLink.id);
+        duplicateImages.push({ id: imageLink.id, url: imageLink.url });
       } catch (error) {
         setLoading(false);
         toast.error(`Error of addImages(): ${error.message}`); // FIXME
@@ -279,7 +277,7 @@ export default function RemovedSpecificProductView({
               <img
                 src={
                   removedProduct?.images?.length > 0
-                    ? removedProduct.images[mainImageIdx]
+                    ? removedProduct.images[mainImageIdx].url
                     : imageNotFound
                 }
                 alt={titleWrapper(language, removedProduct)}
@@ -289,10 +287,10 @@ export default function RemovedSpecificProductView({
 
               {removedProduct?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {removedProduct.images.map((imageLink, idx) => (
+                  {removedProduct.images.map((imageObj, idx) => (
                     <img
-                      key={imageLink}
-                      src={imageLink}
+                      key={imageObj.url}
+                      src={imageObj.url}
                       alt={titleWrapper(language, removedProduct)}
                       className={s.additionalImage}
                       onClick={() => setMainImageIdx(idx)}

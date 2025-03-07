@@ -113,11 +113,7 @@ export default function EditProductView({ setProductsByTag }) {
   }, [productId, products.length, savedProduct]);
 
   useEffect(() => {
-    const startImages = product?.images?.map(imageLink => ({
-      fileId: imageLink.slice(128, 141),
-      src: imageLink,
-    }));
-    product?.images && setImages(startImages);
+    product?.images && setImages(product.images);
   }, [product]);
 
   useEffect(() => {
@@ -219,8 +215,8 @@ export default function EditProductView({ setProductsByTag }) {
     for (let i = 0; i < files.length; i++) {
       const img = {};
       img.file = files[i];
-      img.src = window.URL.createObjectURL(files[i]);
-      images.push(img);
+      img.url = window.URL.createObjectURL(files[i]);
+      newImages.push(img);
     }
 
     setImages(prevImages => [...prevImages, ...newImages]);
@@ -404,41 +400,40 @@ export default function EditProductView({ setProductsByTag }) {
     }
     if (!detailsCondition) return;
 
-    const imagesLinks = [];
+    const newImages = [];
     const imagesIds = [];
     for (let i = 0; i < images.length; i++) {
       if (images[i].file) {
         try {
-          const imageLink = await uploadImageToStorage(
+          const newImage = await uploadImageToStorage(
             language,
             images[i].file,
             product._id,
           );
 
-          imagesLinks.push(imageLink.url);
-          imagesIds.push(imageLink.id);
+          newImages.push(newImage);
+          imagesIds.push(newImage.id);
         } catch (error) {
           setLoading(false);
-          toast.error(`Error of addImages(): ${error.message}`);
+          toast.error(`Error of addImages(): ${error.message}`); // FIXME
           break;
         }
       } else {
-        imagesLinks.push(images[i].src);
-        imagesIds.push(images[i].fileId);
+        newImages.push(images[i]);
+        imagesIds.push(images[i].id);
       }
     }
 
     const deletedImagesIds = product.images
-      .filter(image => !imagesIds.includes(image.slice(128, 141)))
-      .map(imageLink => imageLink.slice(128, 141));
+      .filter(imageObj => !imagesIds.includes(imageObj.id))
+      .map(imageObj => imageObj.id);
 
     await deleteImageApi(deletedImagesIds, product._id, title);
 
     let newProduct = {
       _id: product._id,
       category,
-      images: imagesLinks,
-      imagesIds,
+      images: newImages,
       price,
       quantity,
       product_details: details,
@@ -484,7 +479,7 @@ export default function EditProductView({ setProductsByTag }) {
             <div className={s.imagesSection}>
               <img
                 src={
-                  images.length > 0 ? images[mainImageIdx].src : imageNotFound
+                  images.length > 0 ? images[mainImageIdx].url : imageNotFound
                 }
                 title={'Збільшити'}
                 alt={title}
@@ -495,9 +490,9 @@ export default function EditProductView({ setProductsByTag }) {
               <div className={s.additionalImagesBox}>
                 {images.length > 0 &&
                   images.map((image, idx) => (
-                    <div key={idx + image.src} className={s.additionalImageBar}>
+                    <div key={idx + image.url} className={s.additionalImageBar}>
                       <img
-                        src={image.src}
+                        src={image.url}
                         alt={title}
                         className={s.additionalImage}
                         onDragStart={() => dragStart(idx)}
@@ -827,7 +822,7 @@ export default function EditProductView({ setProductsByTag }) {
         <Modal
           product={{
             title,
-            images: images.map(image => image.src),
+            images,
           }}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}

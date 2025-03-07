@@ -27,7 +27,7 @@ export default function SelectedProduct({
         className={s.thumb}
       >
         <img
-          src={images?.length > 0 ? images[0] : defaultImage}
+          src={images?.length > 0 ? images[0].url : defaultImage}
           alt={title}
           className={s.image}
         />

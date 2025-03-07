@@ -7,7 +7,7 @@ export default async function deleteImagesApi(product, title) {
     try {
       for (let i = 0; i < product.images.length; i++) {
         await deleteObject(
-          ref(storage, `productsImages/${product._id}/${product.imagesIds[i]}`),
+          ref(storage, `productsImages/${product._id}/${product.images[i].id}`),
         );
       }
 

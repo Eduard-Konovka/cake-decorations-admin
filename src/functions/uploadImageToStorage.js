@@ -27,9 +27,9 @@ export async function uploadImageToStorage(language, image, productTimeStamp) {
     );
 
   return {
+    id: uniqueImageId,
     url: await getDownloadURL(
       ref(storage, `productsImages/${productTimeStamp}/${uniqueImageId}`),
     ),
-    id: uniqueImageId,
   };
 }

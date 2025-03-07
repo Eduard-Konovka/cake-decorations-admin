@@ -108,7 +108,7 @@ export default function AddNewProductView() {
     for (let i = 0; i < files.length; i++) {
       const img = {};
       img.file = files[i];
-      img.src = window.URL.createObjectURL(files[i]);
+      img.url = window.URL.createObjectURL(files[i]);
       newImages.push(img);
     }
 
@@ -287,21 +287,19 @@ export default function AddNewProductView() {
 
     const productTimeStamp = Date.now().toString();
 
-    const imagesLinks = [];
-    const imagesIds = [];
+    const newImages = [];
     for (let i = 0; i < images.length; i++) {
       try {
-        const imageLink = await uploadImageToStorage(
+        const newImage = await uploadImageToStorage(
           language,
           images[i].file,
           productTimeStamp,
         );
 
-        imagesLinks.push(imageLink.url);
-        imagesIds.push(imageLink.id);
+        newImages.push(newImage);
       } catch (error) {
         setLoading(false);
-        toast.error(`Error of addImages(): ${error.message}`);
+        toast.error(`Error of addImages(): ${error.message}`); // FIXME
         break;
       }
     }
@@ -309,8 +307,7 @@ export default function AddNewProductView() {
     let newProduct = {
       _id: productTimeStamp,
       category,
-      images: imagesLinks,
-      imagesIds,
+      images: newImages,
       price,
       quantity,
       product_details: details,
@@ -347,7 +344,7 @@ export default function AddNewProductView() {
             <div className={s.imagesSection}>
               <img
                 src={
-                  images.length > 0 ? images[mainImageIdx].src : imageNotFound
+                  images.length > 0 ? images[mainImageIdx].url : imageNotFound
                 }
                 title={'Збільшити'}
                 alt={title}
@@ -358,9 +355,9 @@ export default function AddNewProductView() {
               <div className={s.additionalImagesBox}>
                 {images.length > 0 &&
                   images.map((image, idx) => (
-                    <div key={idx + image.src} className={s.additionalImageBar}>
+                    <div key={idx + image.url} className={s.additionalImageBar}>
                       <img
-                        src={image.src}
+                        src={image.url}
                         alt={title}
                         className={s.additionalImage}
                         onDragStart={() => dragStart(idx)}
@@ -636,7 +633,7 @@ export default function AddNewProductView() {
         <Modal
           product={{
             title,
-            images: images.map(image => image.src),
+            images,
           }}
           mainImageIdx={mainImageIdx}
           closeModal={toggleModal}

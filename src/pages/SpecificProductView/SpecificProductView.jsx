@@ -173,23 +173,21 @@ export default function SpecificProductView({
 
     const productTimeStamp = Date.now().toString();
 
-    const imagesLinks = [];
-    const imagesIds = [];
+    const newImages = [];
     for (let i = 0; i < product.images.length; i++) {
       try {
         const file = await getFileFromUrl(
-          product.images[i],
+          product.images[i].url,
           `${Date.now().toString()}.jpg`,
         );
 
-        const imageLink = await uploadImageToStorage(
+        const newImage = await uploadImageToStorage(
           language,
           file,
           productTimeStamp,
         );
 
-        imagesLinks.push(imageLink.url);
-        imagesIds.push(imageLink.id);
+        newImages.push(newImage);
       } catch (error) {
         setLoading(false);
         toast.error(`Error of addImages(): ${error.message}`); // FIXME
@@ -200,8 +198,7 @@ export default function SpecificProductView({
     const newProduct = { ...product };
     newProduct._id = productTimeStamp;
     newProduct.count = count;
-    newProduct.images = imagesLinks;
-    newProduct.imagesIds = imagesIds;
+    newProduct.images = newImages;
 
     addProductApi(newProduct, titleWrapper(language, newProduct));
 
@@ -254,7 +251,7 @@ export default function SpecificProductView({
               <img
                 src={
                   product?.images?.length > 0
-                    ? product.images[mainImageIdx]
+                    ? product.images[mainImageIdx].url
                     : imageNotFound
                 }
                 alt={titleWrapper(language, product)}
@@ -264,10 +261,10 @@ export default function SpecificProductView({
 
               {product?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {product.images.map((imageLink, idx) => (
+                  {product.images.map((imageObj, idx) => (
                     <img
-                      key={imageLink}
-                      src={imageLink}
+                      key={imageObj.url}
+                      src={imageObj.url}
                       alt={titleWrapper(language, product)}
                       className={s.additionalImage}
                       onClick={() => setMainImageIdx(idx)}
