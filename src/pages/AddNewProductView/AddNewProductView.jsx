@@ -10,11 +10,7 @@ import {
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Spinner, Button, Modal } from 'components';
 import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
-import {
-  languageWrapper,
-  localizationWrapper,
-  titleWrapper,
-} from 'middlewares';
+import { languageWrapper, titleWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -304,16 +300,16 @@ export default function AddNewProductView() {
       }
     }
 
-    let newProduct = {
+    const newProduct = {
       _id: productTimeStamp,
-      category,
       images: newImages,
+      title: { [language.toLowerCase()]: title },
+      category,
+      product_details: { [language.toLowerCase()]: details },
       price,
       quantity,
-      product_details: details,
+      description: { [language.toLowerCase()]: description },
     };
-
-    newProduct = localizationWrapper(language, newProduct, title, description);
 
     await addProductApi(newProduct, title);
 

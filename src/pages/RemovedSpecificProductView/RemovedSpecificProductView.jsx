@@ -314,15 +314,18 @@ export default function RemovedSpecificProductView({
                     {getCategory(language, categories, removedProduct)}
                   </p>
 
-                  {removedProduct?.product_details?.length > 0 &&
-                    removedProduct.product_details.map(detail => (
-                      <p key={detail.attribute_name} className={s.stat}>
-                        <span className={s.statName}>
-                          {detail.attribute_name}:
-                        </span>
-                        {detail.attribute_value}
-                      </p>
-                    ))}
+                  {removedProduct?.product_details?.[language.toLowerCase()]
+                    ?.length > 0 &&
+                    removedProduct.product_details[language.toLowerCase()].map(
+                      detail => (
+                        <p key={detail.attribute_name} className={s.stat}>
+                          <span className={s.statName}>
+                            {detail.attribute_name}:
+                          </span>
+                          {detail.attribute_value}
+                        </p>
+                      ),
+                    )}
                 </section>
 
                 <section className={s.controlsSection}>

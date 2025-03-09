@@ -285,15 +285,18 @@ export default function SpecificProductView({
                     {getCategory(language, categories, product)}
                   </p>
 
-                  {product?.product_details?.length > 0 &&
-                    product.product_details.map(detail => (
-                      <p key={detail.attribute_name} className={s.stat}>
-                        <span className={s.statName}>
-                          {detail.attribute_name}:
-                        </span>
-                        {detail.attribute_value}
-                      </p>
-                    ))}
+                  {product?.product_details?.[language.toLowerCase()]?.length >
+                    0 &&
+                    product.product_details[language.toLowerCase()].map(
+                      detail => (
+                        <p key={detail.attribute_name} className={s.stat}>
+                          <span className={s.statName}>
+                            {detail.attribute_name}:
+                          </span>
+                          {detail.attribute_value}
+                        </p>
+                      ),
+                    )}
                 </section>
 
                 <section className={s.controlsSection}>

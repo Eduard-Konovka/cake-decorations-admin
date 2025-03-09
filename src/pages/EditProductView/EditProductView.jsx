@@ -28,12 +28,7 @@ import {
   uploadImageToStorage,
   deleteRemovedProduct,
 } from 'functions';
-import {
-  languageWrapper,
-  localizationWrapper,
-  titleWrapper,
-  descriptionWrapper,
-} from 'middlewares';
+import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -120,7 +115,7 @@ export default function EditProductView({ setProductsByTag }) {
     if (product) {
       setCategory(product?.category ?? '');
       setTitle(titleWrapper(language, product));
-      setDetails(product?.product_details ?? []);
+      setDetails(product?.product_details?.[language.toLowerCase()] ?? []);
       setDescription(descriptionWrapper(language, product));
       setPrice(product?.price ?? 0.01);
       setQuantity(product?.quantity ?? 0);
@@ -430,16 +425,22 @@ export default function EditProductView({ setProductsByTag }) {
 
     await deleteRemovedImagesApi(deletedImagesIds, product._id, title);
 
-    let newProduct = {
+    const newProduct = {
       _id: product._id,
-      category,
       images: newImages,
+      title: { ...product.title, [language.toLowerCase()]: title },
+      category,
+      product_details: {
+        ...product.product_details,
+        [language.toLowerCase()]: details,
+      },
       price,
       quantity,
-      product_details: details,
+      description: {
+        ...product.description,
+        [language.toLowerCase()]: description,
+      },
     };
-
-    newProduct = localizationWrapper(language, newProduct, title, description);
 
     await saveChangesProductApi(newProduct, title);
 
