@@ -37,7 +37,12 @@ import {
   getFileFromUrl,
   uploadImageToStorage,
 } from 'functions';
-import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
+import {
+  languageWrapper,
+  titleWrapper,
+  detailsWrapper,
+  descriptionWrapper,
+} from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
@@ -285,18 +290,16 @@ export default function SpecificProductView({
                     {getCategory(language, categories, product)}
                   </p>
 
-                  {product?.product_details?.[language.toLowerCase()]?.length >
+                  {product?.product_details?.['ua' || 'ru' || 'en']?.length >
                     0 &&
-                    product.product_details[language.toLowerCase()].map(
-                      detail => (
-                        <p key={detail.attribute_name} className={s.stat}>
-                          <span className={s.statName}>
-                            {detail.attribute_name}:
-                          </span>
-                          {detail.attribute_value}
-                        </p>
-                      ),
-                    )}
+                    detailsWrapper(language, product).map(detail => (
+                      <p key={detail.attribute_name} className={s.stat}>
+                        <span className={s.statName}>
+                          {detail.attribute_name}:
+                        </span>
+                        {detail.attribute_value}
+                      </p>
+                    ))}
                 </section>
 
                 <section className={s.controlsSection}>
