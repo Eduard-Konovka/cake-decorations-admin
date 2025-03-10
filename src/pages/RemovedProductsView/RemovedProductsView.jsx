@@ -13,7 +13,7 @@ import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import icons from 'assets/icons.svg';
-import imageBlank from 'assets/empty-trash-bin.jpg';
+import imageBlank from 'assets/empty-trash-bin.png';
 import s from './RemovedProductsView.module.css';
 
 export default function RemovedProductsView({ productsByCategoryOrTag }) {
