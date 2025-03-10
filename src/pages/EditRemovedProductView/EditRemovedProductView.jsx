@@ -28,7 +28,7 @@ import {
   uploadImageToStorage,
   deleteRemovedProduct,
 } from 'functions';
-import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -119,11 +119,11 @@ export default function EditRemovedProductView({ setProductsByTag }) {
   useEffect(() => {
     if (removedProduct) {
       setCategory(removedProduct?.category ?? '');
-      setTitle(titleWrapper(language, removedProduct));
+      setTitle(propertyWrapper(language, removedProduct, 'title'));
       setDetails(
         removedProduct?.product_details?.[language.toLowerCase()] ?? [],
       );
-      setDescription(descriptionWrapper(language, removedProduct));
+      setDescription(propertyWrapper(language, removedProduct, 'description'));
       setPrice(removedProduct?.price ?? 0.01);
       setQuantity(removedProduct?.quantity ?? 0);
     }
@@ -167,11 +167,15 @@ export default function EditRemovedProductView({ setProductsByTag }) {
       linksDictionary
     ) {
       setTags(
-        getTags(titleWrapper(language, removedProduct), tagsDictionary, 'tags'),
+        getTags(
+          propertyWrapper(language, removedProduct, 'title'),
+          tagsDictionary,
+          'tags',
+        ),
       );
       setLinks(
         getTags(
-          titleWrapper(language, removedProduct),
+          propertyWrapper(language, removedProduct, 'title'),
           linksDictionary,
           'links',
         ),
@@ -607,7 +611,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                     >
                       {categories.map(category => (
                         <option key={category._id} value={category._id}>
-                          {titleWrapper(language, category)}
+                          {propertyWrapper(language, category, 'title')}
                         </option>
                       ))}
                     </select>
@@ -816,7 +820,11 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                 id="finishDescription"
                 languageDeterminer={languageDeterminer}
                 style={s.finishDescriptionSection}
-                description={descriptionWrapper(language, removedProduct)}
+                description={propertyWrapper(
+                  language,
+                  removedProduct,
+                  'description',
+                )}
                 callback={descriptionChangeHandler}
               />
             </div>
@@ -826,7 +834,11 @@ export default function EditRemovedProductView({ setProductsByTag }) {
             id="startDescription"
             languageDeterminer={languageDeterminer}
             style={s.startDescriptionSection}
-            description={descriptionWrapper(language, removedProduct)}
+            description={propertyWrapper(
+              language,
+              removedProduct,
+              'description',
+            )}
             callback={descriptionChangeHandler}
           />
         </>

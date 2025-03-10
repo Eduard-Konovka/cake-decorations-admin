@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { getLanguage, getPureArr } from 'functions';
-import { languageWrapper, titleWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import s from './Tags.module.css';
 
@@ -16,7 +16,7 @@ export default function Tags({ tags, boxStyles, tagStyles, setProductsByTag }) {
   function handleTagClick(tagQueries) {
     const lowerCaseTitlesProducts = products.map(product => ({
       lowerCaseProductId: product._id,
-      lowerCaseTitle: titleWrapper(language, product).toLowerCase(),
+      lowerCaseTitle: propertyWrapper(language, product, 'title').toLowerCase(),
     }));
 
     const pureTitlesProducts = lowerCaseTitlesProducts.map(obj => {

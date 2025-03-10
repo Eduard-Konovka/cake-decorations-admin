@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { Button, Swiper } from 'components';
 import { getLanguage } from 'functions';
-import { languageWrapper, titleWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import icons from 'assets/icons.svg';
 import imageNotFound from 'assets/notFound.png';
@@ -92,7 +92,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
                 ? product.images[modalImageIdx].url
                 : imageNotFound
             }
-            alt={titleWrapper(language, product)}
+            alt={propertyWrapper(language, product, 'title')}
             className={
               startLeftAnimationX
                 ? s.onStartLeftTranslateAnimationX

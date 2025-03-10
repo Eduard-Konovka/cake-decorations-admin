@@ -9,7 +9,7 @@ import {
 import { fetchRemovedProducts } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage, pageUp } from 'functions';
-import { languageWrapper, titleWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import icons from 'assets/icons.svg';
@@ -169,9 +169,9 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
     const visibleProductsToLowerCase = removedProducts.map(product => ({
       ...product,
       title: {
-        ua: titleWrapper('UA', product).toLowerCase(),
-        ru: titleWrapper('RU', product).toLowerCase(),
-        en: titleWrapper('EN', product).toLowerCase(),
+        ua: propertyWrapper('UA', product, 'title').toLowerCase(),
+        ru: propertyWrapper('RU', product, 'title').toLowerCase(),
+        en: propertyWrapper('EN', product, 'title').toLowerCase(),
       },
     }));
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { titleWrapper } from 'middlewares';
+import { propertyWrapper } from 'middlewares';
 import defaultImage from 'assets/notFound.png';
 import s from './Category.module.css';
 
@@ -28,12 +28,14 @@ export default function Category({ category, setProductsByCategory }) {
           <img
             className={s.image}
             src={category?.image?.length > 0 ? category.image : defaultImage}
-            alt={titleWrapper(language, category)}
+            alt={propertyWrapper(language, category, 'title')}
           />
         </div>
 
         <div className={s.thumb}>
-          <h3 className={s.title}>{titleWrapper(language, category)}</h3>
+          <h3 className={s.title}>
+            {propertyWrapper(language, category, 'title')}
+          </h3>
         </div>
       </article>
     </Link>

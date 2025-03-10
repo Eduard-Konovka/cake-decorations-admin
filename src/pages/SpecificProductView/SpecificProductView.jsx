@@ -37,12 +37,7 @@ import {
   getFileFromUrl,
   uploadImageToStorage,
 } from 'functions';
-import {
-  languageWrapper,
-  titleWrapper,
-  detailsWrapper,
-  descriptionWrapper,
-} from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './SpecificProductView.module.css';
@@ -149,16 +144,26 @@ export default function SpecificProductView({
       tagsDictionary &&
       linksDictionary
     ) {
-      setTags(getTags(titleWrapper(language, product), tagsDictionary, 'tags'));
+      setTags(
+        getTags(
+          propertyWrapper(language, product, 'title'),
+          tagsDictionary,
+          'tags',
+        ),
+      );
       setLinks(
-        getTags(titleWrapper(language, product), linksDictionary, 'links'),
+        getTags(
+          propertyWrapper(language, product, 'title'),
+          linksDictionary,
+          'links',
+        ),
       );
     }
   }, [language, product, tagsDictionary, linksDictionary]);
 
   useEffect(() => {
     const description = document.querySelector('#description');
-    description.innerHTML = descriptionWrapper(language, product);
+    description.innerHTML = propertyWrapper(language, product, 'description');
   }, [language, product]);
 
   const toggleModal = () => {
@@ -205,7 +210,7 @@ export default function SpecificProductView({
     newProduct.count = count;
     newProduct.images = newImages;
 
-    addProductApi(newProduct, titleWrapper(language, newProduct));
+    addProductApi(newProduct, propertyWrapper(language, newProduct, 'title'));
 
     fetchProducts()
       .then(products => {
@@ -230,7 +235,7 @@ export default function SpecificProductView({
 
     deleteProduct(
       product,
-      titleWrapper(language, product),
+      propertyWrapper(language, product, 'title'),
       changeGlobalState,
       navigate,
     );
@@ -259,7 +264,7 @@ export default function SpecificProductView({
                     ? product.images[mainImageIdx].url
                     : imageNotFound
                 }
-                alt={titleWrapper(language, product)}
+                alt={propertyWrapper(language, product, 'title')}
                 className={s.mainImage}
                 onClick={toggleModal}
               />
@@ -270,7 +275,7 @@ export default function SpecificProductView({
                     <img
                       key={imageObj.url}
                       src={imageObj.url}
-                      alt={titleWrapper(language, product)}
+                      alt={propertyWrapper(language, product, 'title')}
                       className={s.additionalImage}
                       onClick={() => setMainImageIdx(idx)}
                     />
@@ -282,7 +287,9 @@ export default function SpecificProductView({
             <div className={s.thumb}>
               <div className={s.monitor}>
                 <section className={s.statsSection}>
-                  <h3 className={s.title}>{titleWrapper(language, product)}</h3>
+                  <h3 className={s.title}>
+                    {propertyWrapper(language, product, 'title')}
+                  </h3>
                   <p className={s.stat}>
                     <span className={s.statName}>
                       {languageDeterminer(LANGUAGE.productViews.category)}
@@ -292,14 +299,16 @@ export default function SpecificProductView({
 
                   {product?.product_details?.['ua' || 'ru' || 'en']?.length >
                     0 &&
-                    detailsWrapper(language, product).map(detail => (
-                      <p key={detail.attribute_name} className={s.stat}>
-                        <span className={s.statName}>
-                          {detail.attribute_name}:
-                        </span>
-                        {detail.attribute_value}
-                      </p>
-                    ))}
+                    propertyWrapper(language, product, 'product_details').map(
+                      detail => (
+                        <p key={detail.attribute_name} className={s.stat}>
+                          <span className={s.statName}>
+                            {detail.attribute_name}:
+                          </span>
+                          {detail.attribute_value}
+                        </p>
+                      ),
+                    )}
                 </section>
 
                 <section className={s.controlsSection}>

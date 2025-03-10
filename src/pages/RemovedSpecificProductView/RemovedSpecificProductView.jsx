@@ -38,12 +38,7 @@ import {
   getFileFromUrl,
   uploadImageToStorage,
 } from 'functions';
-import {
-  languageWrapper,
-  titleWrapper,
-  detailsWrapper,
-  descriptionWrapper,
-} from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import s from './RemovedSpecificProductView.module.css';
@@ -155,11 +150,15 @@ export default function RemovedSpecificProductView({
       linksDictionary
     ) {
       setTags(
-        getTags(titleWrapper(language, removedProduct), tagsDictionary, 'tags'),
+        getTags(
+          propertyWrapper(language, removedProduct, 'title'),
+          tagsDictionary,
+          'tags',
+        ),
       );
       setLinks(
         getTags(
-          titleWrapper(language, removedProduct),
+          propertyWrapper(language, removedProduct, 'title'),
           linksDictionary,
           'links',
         ),
@@ -169,7 +168,11 @@ export default function RemovedSpecificProductView({
 
   useEffect(() => {
     const description = document.querySelector('#description');
-    description.innerHTML = descriptionWrapper(language, removedProduct);
+    description.innerHTML = propertyWrapper(
+      language,
+      removedProduct,
+      'description',
+    );
   }, [language, removedProduct]);
 
   const toggleModal = () => {
@@ -218,7 +221,7 @@ export default function RemovedSpecificProductView({
 
     addRemovedProductApi(
       newRemovedProduct,
-      titleWrapper(language, newRemovedProduct),
+      propertyWrapper(language, newRemovedProduct, 'title'),
     );
 
     fetchRemovedProducts()
@@ -245,7 +248,7 @@ export default function RemovedSpecificProductView({
 
     restoreRemovedProduct(
       removedProduct,
-      titleWrapper(language, removedProduct),
+      propertyWrapper(language, removedProduct, 'title'),
       changeGlobalState,
       navigate,
     );
@@ -257,7 +260,7 @@ export default function RemovedSpecificProductView({
 
     deleteRemovedProduct(
       removedProduct,
-      titleWrapper(language, removedProduct),
+      propertyWrapper(language, removedProduct, 'title'),
       changeGlobalState,
       navigate,
     );
@@ -286,7 +289,7 @@ export default function RemovedSpecificProductView({
                     ? removedProduct.images[mainImageIdx].url
                     : imageNotFound
                 }
-                alt={titleWrapper(language, removedProduct)}
+                alt={propertyWrapper(language, removedProduct, 'title')}
                 className={s.mainImage}
                 onClick={toggleModal}
               />
@@ -297,7 +300,7 @@ export default function RemovedSpecificProductView({
                     <img
                       key={imageObj.url}
                       src={imageObj.url}
-                      alt={titleWrapper(language, removedProduct)}
+                      alt={propertyWrapper(language, removedProduct, 'title')}
                       className={s.additionalImage}
                       onClick={() => setMainImageIdx(idx)}
                     />
@@ -310,7 +313,7 @@ export default function RemovedSpecificProductView({
               <div className={s.monitor}>
                 <section className={s.statsSection}>
                   <h3 className={s.title}>
-                    {titleWrapper(language, removedProduct)}
+                    {propertyWrapper(language, removedProduct, 'title')}
                   </h3>
                   <p className={s.stat}>
                     <span className={s.statName}>
@@ -321,7 +324,11 @@ export default function RemovedSpecificProductView({
 
                   {removedProduct?.product_details?.['ua' || 'ru' || 'en']
                     ?.length > 0 &&
-                    detailsWrapper(language, removedProduct).map(detail => (
+                    propertyWrapper(
+                      language,
+                      removedProduct,
+                      'product_details',
+                    ).map(detail => (
                       <p key={detail.attribute_name} className={s.stat}>
                         <span className={s.statName}>
                           {detail.attribute_name}:

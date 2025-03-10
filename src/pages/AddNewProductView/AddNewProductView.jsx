@@ -10,7 +10,7 @@ import {
 import { fetchCategories, fetchProducts, addProductApi } from 'api';
 import { Spinner, Button, Modal } from 'components';
 import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
-import { languageWrapper, titleWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
 import icons from 'assets/icons.svg';
@@ -453,7 +453,7 @@ export default function AddNewProductView() {
                     >
                       {categories.map(category => (
                         <option key={category._id} value={category._id}>
-                          {titleWrapper(language, category)}
+                          {propertyWrapper(language, category, 'title')}
                         </option>
                       ))}
                     </select>

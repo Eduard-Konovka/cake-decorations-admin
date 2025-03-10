@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { getLanguage, getCategory } from 'functions';
-import { languageWrapper, titleWrapper, descriptionWrapper } from 'middlewares';
+import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './Product.module.css';
@@ -56,23 +56,23 @@ export default function Product({ product, productsType }) {
             src={
               product?.images?.length > 0 ? product.images[0].url : defaultImage
             }
-            alt={titleWrapper(language, product)}
+            alt={propertyWrapper(language, product, 'title')}
           />
         </div>
 
         <div className={s.thumb}>
           <h3 className={s.title}>
-            {titleWrapper(language, product).length <
+            {propertyWrapper(language, product, 'title').length <
             GLOBAL.productView.titleLength
-              ? titleWrapper(language, product)
-              : titleWrapper(language, product).slice(
+              ? propertyWrapper(language, product, 'title')
+              : propertyWrapper(language, product, 'title').slice(
                   0,
                   GLOBAL.productView.titleLength,
                 ) + '...'}
           </h3>
 
           <p className={s.shortDescription}>
-            {getPureText(descriptionWrapper(language, product))}
+            {getPureText(propertyWrapper(language, product, 'description'))}
           </p>
         </div>
       </Link>
