@@ -121,7 +121,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
       setCategory(removedProduct?.category ?? '');
       setTitle(propertyWrapper(language, removedProduct, 'title'));
       setDetails(
-        removedProduct?.product_details?.[language.toLowerCase()] ?? [],
+        propertyWrapper(language, removedProduct, 'product_details') ?? [],
       );
       setDescription(propertyWrapper(language, removedProduct, 'description'));
       setPrice(removedProduct?.price ?? 0.01);

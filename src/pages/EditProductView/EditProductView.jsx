@@ -115,7 +115,7 @@ export default function EditProductView({ setProductsByTag }) {
     if (product) {
       setCategory(product?.category ?? '');
       setTitle(propertyWrapper(language, product, 'title'));
-      setDetails(product?.product_details?.[language.toLowerCase()] ?? []);
+      setDetails(propertyWrapper(language, product, 'product_details') ?? []);
       setDescription(propertyWrapper(language, product, 'description'));
       setPrice(product?.price ?? 0.01);
       setQuantity(product?.quantity ?? 0);
