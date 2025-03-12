@@ -53,11 +53,11 @@ const actions = {
     return updatedState;
   },
 
-  updateCart: (state, payload) => {
-    localStorage.setItem('cart', JSON.stringify(payload));
+  updateOrders: (state, payload) => {
+    localStorage.setItem('orders', JSON.stringify(payload));
 
     const updatedState = { ...state };
-    updatedState.global.cart = payload;
+    updatedState.global.orders = payload;
     return updatedState;
   },
 };
@@ -71,5 +71,5 @@ export const {
   updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
-  updateCart,
+  updateOrders,
 } = actions;

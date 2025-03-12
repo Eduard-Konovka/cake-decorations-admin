@@ -6,9 +6,9 @@ import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
-import s from './SelectedProduct.module.css';
+import s from './Order.module.css';
 
-export default function SelectedProduct({
+export default function Order({
   selectedProduct,
   changeSelectCount,
   onDeleteProduct,
@@ -72,7 +72,7 @@ export default function SelectedProduct({
   );
 }
 
-SelectedProduct.propTypes = {
+Order.propTypes = {
   selectedProduct: PropTypes.object.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
   onDeleteProduct: PropTypes.func.isRequired,

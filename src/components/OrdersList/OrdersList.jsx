@@ -1,14 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SelectedProduct from 'components/SelectedProduct';
-import s from './CartList.module.css';
+import { Order } from 'components';
+import s from './OrdersList.module.css';
 
-export default function CartList({ cart, changeSelectCount, onDeleteProduct }) {
+export default function OrdersList({
+  orders,
+  changeSelectCount,
+  onDeleteProduct,
+}) {
   return (
     <ul className={s.list}>
-      {cart.map(item => (
+      {orders.map(item => (
         <li key={item._id} className={s.item}>
-          <SelectedProduct
+          <Order
             selectedProduct={item}
             changeSelectCount={changeSelectCount}
             onDeleteProduct={() => onDeleteProduct(item._id)}
@@ -19,8 +23,8 @@ export default function CartList({ cart, changeSelectCount, onDeleteProduct }) {
   );
 }
 
-CartList.propTypes = {
-  cart: PropTypes.arrayOf(
+OrdersList.propTypes = {
+  orders: PropTypes.arrayOf(
     PropTypes.shape({
       _id: PropTypes.string.isRequired,
     }).isRequired,

@@ -8,5 +8,5 @@ export {
   updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
-  updateCart,
+  updateOrders,
 } from './actions';

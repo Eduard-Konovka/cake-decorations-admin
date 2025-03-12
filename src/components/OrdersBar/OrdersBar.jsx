@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { CartList, Button } from 'components';
+import { Order, Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
-import s from './CartBar.module.css';
+import s from './OrdersBar.module.css';
 
-export default function CartBar({
+export default function OrdersBar({
   changeSelectCount,
   onDeleteProduct,
   onSubmit,
 }) {
-  const { cart } = useGlobalState('global');
+  const { orders } = useGlobalState('global');
 
   const [totalCost, setTotalCost] = useState(0);
 
@@ -20,14 +20,14 @@ export default function CartBar({
 
   useEffect(() => {
     setTotalCost(
-      cart.reduce((acc, obj) => acc + obj.count * obj.price, 0).toFixed(2),
+      orders.reduce((acc, obj) => acc + obj.count * obj.price, 0).toFixed(2),
     );
-  }, [cart]);
+  }, [orders]);
 
   return (
     <div className={s.cartbar}>
-      <CartList
-        cart={cart}
+      <Order
+        orders={orders}
         changeSelectCount={changeSelectCount}
         onDeleteProduct={onDeleteProduct}
       />
@@ -50,7 +50,7 @@ export default function CartBar({
   );
 }
 
-CartBar.propTypes = {
+OrdersBar.propTypes = {
   changeSelectCount: PropTypes.func.isRequired,
   onDeleteProduct: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,

@@ -373,7 +373,7 @@ export const LANGUAGE = {
     },
   },
 
-  cart: {
+  orders: {
     title: {
       eng: 'Your cart is empty',
       ukr: 'Ваш кошик порожній',

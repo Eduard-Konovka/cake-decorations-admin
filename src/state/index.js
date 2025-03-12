@@ -8,6 +8,6 @@ export {
   updateRemovedProducts,
   updateTagsDictionary,
   updateLinksDictionary,
-  updateCart,
+  updateOrders,
 } from './global';
 export { default as GlobalState } from './GlobalState.jsx';

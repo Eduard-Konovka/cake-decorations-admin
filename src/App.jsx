@@ -7,7 +7,7 @@ import {
   useGlobalState,
   useChangeGlobalState,
   updateMainHeight,
-  updateCart,
+  updateOrders,
 } from 'state';
 import {
   Container,
@@ -111,7 +111,7 @@ export default function App() {
     };
 
     changeGlobalState(
-      updateCart,
+      updateOrders,
       cart.map(product =>
         product._id === obj._id ? setCount(product) : product,
       ),
@@ -120,7 +120,7 @@ export default function App() {
 
   function removeFromCart(_id) {
     const newCart = cart.filter(obj => obj._id !== _id);
-    changeGlobalState(updateCart, newCart);
+    changeGlobalState(updateOrders, newCart);
   }
 
   function submitCart(totalCost) {
@@ -132,7 +132,7 @@ export default function App() {
         cart: cart.map(obj => ({ _id: obj._id, quantity: obj.count })),
         totalCost,
       }).finally(() => {
-        changeGlobalState(updateCart, []);
+        changeGlobalState(updateOrders, []);
         setSending(false);
       });
     }, GLOBAL.sending);

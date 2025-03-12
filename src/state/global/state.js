@@ -9,5 +9,5 @@ export const global = {
   removedProducts: [],
   tagsDictionary: null,
   linksDictionary: null,
-  cart: JSON.parse(localStorage.getItem('cart')) || [],
+  orders: JSON.parse(localStorage.getItem('orders')) || [],
 };
