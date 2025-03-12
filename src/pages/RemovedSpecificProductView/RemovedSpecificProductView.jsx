@@ -12,8 +12,7 @@ import {
   updateLinksDictionary,
 } from 'state';
 import {
-  fetchCategories,
-  fetchRemovedProducts,
+  fetchCollection,
   fetchRemovedProduct,
   fetchTags,
   fetchLinks,
@@ -87,7 +86,7 @@ export default function RemovedSpecificProductView({
 
   useEffect(() => {
     if (categories.length === 0) {
-      fetchCategories()
+      fetchCollection('categories')
         .then(categories => changeGlobalState(updateCategories, categories))
         .catch(error =>
           toast.error(
@@ -224,7 +223,7 @@ export default function RemovedSpecificProductView({
       propertyWrapper(language, newRemovedProduct, 'title'),
     );
 
-    fetchRemovedProducts()
+    fetchCollection('removedProducts')
       .then(removedProducts => {
         removedProducts.sort(
           (firstRemovedProduct, secondRemovedProduct) =>

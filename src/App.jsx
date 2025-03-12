@@ -2,7 +2,6 @@ import React, { lazy, useState, useEffect, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Puff } from 'react-loader-spinner';
-import { sendСart } from 'api';
 import {
   useGlobalState,
   useChangeGlobalState,
@@ -18,7 +17,7 @@ import {
 } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE } from 'constants';
+import { LANGUAGE } from 'constants';
 import 'App.css';
 
 const CategoriesView = lazy(() =>
@@ -67,11 +66,10 @@ const NotFoundView = lazy(() =>
 );
 
 export default function App() {
-  const { user, orders } = useGlobalState('global');
+  const { orders } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
-  const [sending, setSending] = useState(false);
 
   // FIXME: Во всём коде заменить getLanguage() ---> language
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -122,21 +120,6 @@ export default function App() {
   function removeFromCart(_id) {
     const newCart = orders.filter(obj => obj._id !== _id);
     changeGlobalState(updateOrders, newCart);
-  }
-
-  function submitCart(totalCost) {
-    setSending(true);
-
-    setTimeout(() => {
-      sendСart({
-        user,
-        orders: orders.map(obj => ({ _id: obj._id, quantity: obj.count })),
-        totalCost,
-      }).finally(() => {
-        changeGlobalState(updateOrders, []);
-        setSending(false);
-      });
-    }, GLOBAL.sending);
   }
 
   return (
@@ -267,10 +250,8 @@ export default function App() {
             element={
               <PrivateRoute redirectTo="/signin">
                 <OrdersView
-                  sending={sending}
                   changeSelectCount={changeCount}
                   onDeleteProduct={removeFromCart}
-                  onSubmit={submitCart}
                 />
               </PrivateRoute>
             }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
-import { fetchProducts } from 'api';
+import { fetchCollection } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
@@ -45,7 +45,7 @@ export default function ProductsView({ productsByCategoryOrTag }) {
     if (products.length === 0) {
       setLoading(true);
 
-      fetchProducts()
+      fetchCollection('products')
         .then(products => {
           products.sort(
             (firstProduct, secondProduct) =>

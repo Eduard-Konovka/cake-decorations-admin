@@ -3,8 +3,7 @@ import { updateProducts, updateRemovedProducts } from 'state';
 import {
   deleteProductImagesApi,
   deleteRemovedProductApi,
-  fetchProducts,
-  fetchRemovedProducts,
+  fetchCollection,
 } from 'api';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -21,7 +20,7 @@ export async function deleteRemovedProduct(
   await deleteProductImagesApi(removedProduct, title);
   await deleteRemovedProductApi(removedProduct, title);
 
-  fetchRemovedProducts()
+  fetchCollection('removedProducts')
     .then(removedProducts => {
       removedProducts.sort(
         (firstRemovedProduct, secondRemovedProduct) =>
@@ -38,7 +37,7 @@ export async function deleteRemovedProduct(
       ),
     );
 
-  fetchProducts()
+  fetchCollection('products')
     .then(products => {
       products.sort(
         (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,

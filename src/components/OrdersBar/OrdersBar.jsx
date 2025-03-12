@@ -7,11 +7,7 @@ import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import s from './OrdersBar.module.css';
 
-export default function OrdersBar({
-  changeSelectCount,
-  onDeleteProduct,
-  onSubmit,
-}) {
+export default function OrdersBar({ changeSelectCount, onDeleteProduct }) {
   const { orders } = useGlobalState('global');
 
   const [totalCost, setTotalCost] = useState(0);
@@ -41,7 +37,7 @@ export default function OrdersBar({
         <Button
           title={languageDeterminer(LANGUAGE.cartBar.buttonTitle)}
           type="button"
-          onClick={() => onSubmit(Number(totalCost))}
+          onClick={() => alert(Number(totalCost))}
         >
           {languageDeterminer(LANGUAGE.cartBar.buttonText)}
         </Button>
@@ -53,5 +49,4 @@ export default function OrdersBar({
 OrdersBar.propTypes = {
   changeSelectCount: PropTypes.func.isRequired,
   onDeleteProduct: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired,
 };

@@ -12,8 +12,7 @@ import {
   updateLinksDictionary,
 } from 'state';
 import {
-  fetchCategories,
-  fetchProducts,
+  fetchCollection,
   fetchProduct,
   fetchTags,
   fetchLinks,
@@ -74,7 +73,7 @@ export default function EditProductView({ setProductsByTag }) {
 
   useEffect(() => {
     if (categories.length === 0) {
-      fetchCategories()
+      fetchCollection('categories')
         .then(categories => changeGlobalState(updateCategories, categories))
         .catch(error =>
           toast.error(
@@ -454,7 +453,7 @@ export default function EditProductView({ setProductsByTag }) {
 
     await saveChangesProductApi(newProduct, title);
 
-    fetchProducts()
+    fetchCollection('products')
       .then(products => {
         products.sort(
           (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,

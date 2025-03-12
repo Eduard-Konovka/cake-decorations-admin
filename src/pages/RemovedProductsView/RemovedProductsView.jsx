@@ -6,7 +6,7 @@ import {
   useChangeGlobalState,
   updateRemovedProducts,
 } from 'state';
-import { fetchRemovedProducts } from 'api';
+import { fetchCollection } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
@@ -48,7 +48,7 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
     if (removedProducts.length === 0) {
       setLoading(true);
 
-      fetchRemovedProducts()
+      fetchCollection('removedProducts')
         .then(removedProducts => {
           removedProducts.sort(
             (firstRemovedProduct, secondRemovedProduct) =>

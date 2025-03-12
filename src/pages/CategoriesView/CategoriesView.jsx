@@ -9,7 +9,7 @@ import {
   updateTagsDictionary,
   updateLinksDictionary,
 } from 'state';
-import { fetchCategories, fetchProducts, fetchTags, fetchLinks } from 'api';
+import { fetchCollection, fetchTags, fetchLinks } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -42,7 +42,7 @@ export default function CategoriesView({ setProductsByCategory }) {
     if (categories.length === 0) {
       setLoading(true);
 
-      fetchCategories()
+      fetchCollection('categories')
         .then(categories => changeGlobalState(updateCategories, categories))
         .catch(error => setError(error))
         .finally(() => setLoading(false));
@@ -52,7 +52,7 @@ export default function CategoriesView({ setProductsByCategory }) {
 
   useEffect(() => {
     if (products.length === 0) {
-      fetchProducts()
+      fetchCollection('products')
         .then(products => {
           products.sort(
             (firstProduct, secondProduct) =>

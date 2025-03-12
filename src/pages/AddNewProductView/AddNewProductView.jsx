@@ -7,7 +7,7 @@ import {
   updateCategories,
   updateProducts,
 } from 'state';
-import { fetchCategories, fetchProducts, addProductApi } from 'api';
+import { fetchCollection, addProductApi } from 'api';
 import { Spinner, Button, Modal } from 'components';
 import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
@@ -40,7 +40,7 @@ export default function AddNewProductView() {
 
   useEffect(() => {
     if (categories.length === 0) {
-      fetchCategories()
+      fetchCollection('categories')
         .then(categories => changeGlobalState(updateCategories, categories))
         .catch(error =>
           toast.error(
@@ -313,7 +313,7 @@ export default function AddNewProductView() {
 
     await addProductApi(newProduct, title);
 
-    fetchProducts()
+    fetchCollection('products')
       .then(products => {
         products.sort(
           (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,

@@ -1,11 +1,6 @@
 import { toast } from 'react-toastify';
 import { updateProducts, updateRemovedProducts } from 'state';
-import {
-  addProductApi,
-  deleteRemovedProductApi,
-  fetchProducts,
-  fetchRemovedProducts,
-} from 'api';
+import { addProductApi, deleteRemovedProductApi, fetchCollection } from 'api';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
@@ -21,7 +16,7 @@ export async function restoreRemovedProduct(
   await addProductApi(removedProduct, title);
   await deleteRemovedProductApi(removedProduct, title);
 
-  fetchProducts()
+  fetchCollection('removedProduct')
     .then(products => {
       products.sort(
         (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
@@ -37,7 +32,7 @@ export async function restoreRemovedProduct(
       ),
     );
 
-  fetchRemovedProducts()
+  fetchCollection('removedProducts')
     .then(removedProducts => {
       removedProducts.sort(
         (firstRemovedProduct, secondRemovedProduct) =>

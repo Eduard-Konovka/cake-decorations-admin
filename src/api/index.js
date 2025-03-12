@@ -1,7 +1,5 @@
-export { default as fetchCategories } from './categoriesApi';
-export { default as fetchProducts } from './productsApi';
+export { default as fetchCollection } from './collectionApi';
 export { default as fetchProduct } from './productApi';
-export { default as fetchRemovedProducts } from './removedProductsApi';
 export { default as fetchRemovedProduct } from './removedProductApi';
 export { default as addProductApi } from './addProductApi';
 export { default as addRemovedProductApi } from './addRemovedProductApi';
@@ -11,6 +9,5 @@ export { default as deleteProductImagesApi } from './deleteProductImagesApi';
 export { default as deleteRemovedImagesApi } from './deleteRemovedImagesApi';
 export { default as deleteProductApi } from './deleteProductApi';
 export { default as deleteRemovedProductApi } from './deleteRemovedProductApi';
-export { default as sendСart } from './ordersApi';
 export { default as fetchTags } from './tagsApi';
 export { default as fetchLinks } from './linksApi';
