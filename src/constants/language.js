@@ -375,15 +375,15 @@ export const LANGUAGE = {
 
   orders: {
     title: {
-      eng: 'Your cart is empty',
-      ukr: 'Ваш кошик порожній',
-      rus: 'Ваша корзина пуста',
+      eng: 'No orders',
+      ukr: 'Немає замовлень',
+      rus: 'Нет заказов',
     },
 
-    emptyCartAlt: {
-      eng: 'Empty cart',
-      ukr: 'Порожній кошик',
-      rus: 'Ваша корзина пуста',
+    emptyOrdersAlt: {
+      eng: 'No orders',
+      ukr: 'Немає замовлень',
+      rus: 'Нет заказов',
     },
   },
 

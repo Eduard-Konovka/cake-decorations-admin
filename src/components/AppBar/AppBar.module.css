@@ -374,8 +374,8 @@
 }
 /*#endregion USERBAR */
 
-/*#region CART */
-.cart {
+/*#region ORDERS */
+.orders {
   position: relative;
   width: 8vw;
   height: 8vw;
@@ -384,7 +384,7 @@
 }
 
 @media screen and (min-width: 320px) {
-  .cart {
+  .orders {
     width: 6vw;
     height: 6vw;
     margin-right: 1.5vw;
@@ -392,7 +392,7 @@
 }
 
 @media screen and (min-width: 420px) {
-  .cart {
+  .orders {
     width: 4vw;
     height: 4vw;
     margin-right: 1.5vw;
@@ -400,7 +400,7 @@
 }
 
 @media screen and (min-width: 800px) {
-  .cart {
+  .orders {
     width: 3vw;
     height: 3vw;
     margin-right: 1vw;
@@ -408,7 +408,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .cart {
+  .orders {
     width: 2.5vw;
     height: 2.5vw;
     margin-right: 0.75vw;
@@ -417,8 +417,9 @@
   }
 }
 
+/* FIXME: url('assets/cart.svg')??? */
 .inactiveCart {
-  composes: cart;
+  composes: orders;
   background-image: url('assets/cart.svg');
   transition: transform var(--time-action) var(--time-distribution-function);
 }
@@ -429,7 +430,7 @@
 }
 
 .activeCart {
-  composes: cart;
+  composes: orders;
   pointer-events: none;
   background-image: url('assets/activeCart.svg');
 }
@@ -449,7 +450,7 @@
   height: 25px;
   border-radius: 50%;
 }
-/*#endregion CART */
+/*#endregion ORDERS */
 
 .btnLink {
   text-decoration: none;

@@ -37,7 +37,7 @@ export default function OrdersView({
         <Blank
           title={languageDeterminer(LANGUAGE.orders.title)}
           image={imageBlank}
-          alt={languageDeterminer(LANGUAGE.orders.emptyCartAlt)}
+          alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
         />
       )}
     </main>

@@ -56,7 +56,7 @@ export default function RemovedSpecificProductView({
     removedProducts,
     tagsDictionary,
     linksDictionary,
-    cart,
+    orders,
   } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -70,7 +70,7 @@ export default function RemovedSpecificProductView({
   const [showConfirm, setShowConfirm] = useState(false);
 
   const productId = location.pathname.slice(17, location.pathname.length);
-  const selectedProduct = cart.filter(
+  const selectedProduct = orders.filter(
     removedProduct => removedProduct._id === productId,
   )[0];
   const savedProduct = removedProducts.filter(

@@ -67,7 +67,7 @@ const NotFoundView = lazy(() =>
 );
 
 export default function App() {
-  const { user, cart } = useGlobalState('global');
+  const { user, orders } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
@@ -104,6 +104,7 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // FIXME: changeCount()???
   function changeCount(obj) {
     const setCount = item => {
       item.count = Number(obj.count);
@@ -112,14 +113,14 @@ export default function App() {
 
     changeGlobalState(
       updateOrders,
-      cart.map(product =>
+      orders.map(product =>
         product._id === obj._id ? setCount(product) : product,
       ),
     );
   }
 
   function removeFromCart(_id) {
-    const newCart = cart.filter(obj => obj._id !== _id);
+    const newCart = orders.filter(obj => obj._id !== _id);
     changeGlobalState(updateOrders, newCart);
   }
 
@@ -129,7 +130,7 @@ export default function App() {
     setTimeout(() => {
       sendСart({
         user,
-        cart: cart.map(obj => ({ _id: obj._id, quantity: obj.count })),
+        orders: orders.map(obj => ({ _id: obj._id, quantity: obj.count })),
         totalCost,
       }).finally(() => {
         changeGlobalState(updateOrders, []);

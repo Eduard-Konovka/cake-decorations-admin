@@ -55,7 +55,7 @@ export default function SpecificProductView({
     products,
     tagsDictionary,
     linksDictionary,
-    cart,
+    orders,
   } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -69,7 +69,9 @@ export default function SpecificProductView({
   const [showConfirm, setShowConfirm] = useState(false);
 
   const productId = location.pathname.slice(10, location.pathname.length);
-  const selectedProduct = cart.filter(product => product._id === productId)[0];
+  const selectedProduct = orders.filter(
+    product => product._id === productId,
+  )[0];
   const savedProduct = products.filter(product => product._id === productId)[0];
 
   const [count, setCount] = useState(
