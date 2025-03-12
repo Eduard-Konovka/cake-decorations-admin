@@ -1,79 +1,45 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { CountForm, Button } from 'components';
+import { OrderedProduct, Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE } from 'constants';
-import defaultImage from 'assets/notFound.png';
+import { LANGUAGE } from 'constants';
 import s from './Order.module.css';
 
-export default function Order({
-  selectedProduct,
-  changeSelectCount,
-  onDeleteProduct,
-}) {
-  const { _id, images, title, price, count } = selectedProduct;
-
+export default function Order({ order, changeSelectCount, onDeleteProduct }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
-    <article className={s.card}>
-      <Link
-        to={`/products/${_id}`}
-        title={`${languageDeterminer(
-          LANGUAGE.selectedProduct.titleLink,
-        )} "${title}"`}
-        className={s.thumb}
-      >
-        <img
-          src={images?.length > 0 ? images[0].url : defaultImage}
-          alt={title}
-          className={s.image}
+    <section className={s.order}>
+      {order.cart.map(orderedProduct => (
+        <OrderedProduct
+          key={orderedProduct._id}
+          orderedProduct={orderedProduct}
+          changeSelectCount={changeSelectCount}
+          onDeleteProduct={onDeleteProduct}
         />
+      ))}
 
-        <h3 className={s.title}>
-          {title.length < GLOBAL.titleLength
-            ? title
-            : title.slice(0, GLOBAL.titleLength) + '...'}
-        </h3>
-      </Link>
-
-      <div className={s.controls}>
-        <p className={s.price}>
-          <span className={s.priceTitle}>
-            {languageDeterminer(LANGUAGE.selectedProduct.price)}
-          </span>
-          <span className={s.priceValue}>{price} ₴</span>
+      <div className={s.priceBox}>
+        <p className={s.totalCost}>
+          {languageDeterminer(LANGUAGE.cartBar.totalCost)}
+          {order.totalCost} ₴
         </p>
 
-        <CountForm
-          value={count}
-          min={GLOBAL.productCount.min}
-          max={GLOBAL.productCount.max}
-          styles={{
-            formStyle: s.countForm,
-            labelStyle: s.countLabel,
-            inputStyle: s.countInput,
-          }}
-          setCount={count => changeSelectCount({ count, _id })}
-        />
-
         <Button
-          title={languageDeterminer(LANGUAGE.selectedProduct.buttonTitle)}
+          title={languageDeterminer(LANGUAGE.cartBar.buttonTitle)}
           type="button"
-          styles={s.btn}
-          onClick={onDeleteProduct}
+          onClick={() => alert(Number(order.totalCost))}
         >
-          {languageDeterminer(LANGUAGE.selectedProduct.buttonText)}
+          {languageDeterminer(LANGUAGE.cartBar.buttonText)}
         </Button>
       </div>
-    </article>
+    </section>
   );
 }
 
 Order.propTypes = {
-  selectedProduct: PropTypes.object.isRequired,
+  order: PropTypes.object.isRequired,
   changeSelectCount: PropTypes.func.isRequired,
   onDeleteProduct: PropTypes.func.isRequired,
 };

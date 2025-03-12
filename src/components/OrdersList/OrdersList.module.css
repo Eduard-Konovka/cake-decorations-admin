@@ -1,3 +1,38 @@
+.bar {
+  width: 100%;
+  padding: 2.5vw;
+}
+
+@media screen and (min-width: 320px) {
+  .bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .bar {
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .bar {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bar {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .bar {
+    padding: 1.25vw;
+  }
+}
+
 .list {
   padding: 0;
   margin: 0;

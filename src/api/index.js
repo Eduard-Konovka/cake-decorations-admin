@@ -11,3 +11,5 @@ export { default as deleteProductApi } from './deleteProductApi';
 export { default as deleteRemovedProductApi } from './deleteRemovedProductApi';
 export { default as fetchTags } from './tagsApi';
 export { default as fetchLinks } from './linksApi';
+
+// FIXME: Уніфікувати API
