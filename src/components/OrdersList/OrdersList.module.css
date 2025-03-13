@@ -1,38 +1,3 @@
-.bar {
-  width: 100%;
-  padding: 2.5vw;
-}
-
-@media screen and (min-width: 320px) {
-  .bar {
-    padding: 8px;
-  }
-}
-
-@media screen and (min-width: 420px) {
-  .bar {
-    padding: 12px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .bar {
-    padding: 16px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .bar {
-    padding: 20px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .bar {
-    padding: 1.25vw;
-  }
-}
-
 .list {
   padding: 0;
   margin: 0;
@@ -46,20 +11,20 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   background-color: var(--secondary-color);
-  margin-bottom: 0.625vw;
+  margin-top: 0.625vw;
 }
 
 @media screen and (min-width: 320px) {
   .item {
     padding: 5px 8px;
-    margin-bottom: 4px;
+    margin-top: 4px;
   }
 }
 
 @media screen and (min-width: 420px) {
   .item {
     padding: 6px 12px;
-    margin-bottom: 6px;
+    margin-top: 6px;
   }
 }
 
@@ -67,14 +32,14 @@
   .item {
     border-radius: 10px;
     padding: 8px 16px;
-    margin-bottom: 8px;
+    margin-top: 8px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .item {
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
@@ -82,6 +47,6 @@
   .item {
     border-radius: 0.625vw;
     padding: 0.625vw 1.25vw;
-    margin-bottom: 0.625vw;
+    margin-top: 0.625vw;
   }
 }

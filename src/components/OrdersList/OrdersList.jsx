@@ -9,19 +9,17 @@ export default function OrdersList({
   onDeleteProduct,
 }) {
   return (
-    <div className={s.bar}>
-      <ul className={s.list}>
-        {orders.map(item => (
-          <li key={item._id} className={s.item}>
-            <Order
-              order={item}
-              changeSelectCount={changeSelectCount}
-              onDeleteProduct={() => onDeleteProduct(item._id)}
-            />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={s.list}>
+      {orders.map(item => (
+        <li key={item._id} className={s.item}>
+          <Order
+            order={item}
+            changeSelectCount={changeSelectCount}
+            onDeleteProduct={() => onDeleteProduct(item._id)}
+          />
+        </li>
+      ))}
+    </ul>
   );
 }
 

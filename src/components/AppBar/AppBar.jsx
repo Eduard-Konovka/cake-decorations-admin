@@ -20,6 +20,7 @@ export default function AppBar({ setDefaultsProducts }) {
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+  const newOrders = orders?.filter(order => order.type === 'new');
 
   return (
     <header id="header" className={s.header}>
@@ -157,8 +158,8 @@ export default function AppBar({ setDefaultsProducts }) {
               end
             >
               {languageDeterminer(LANGUAGE.titles.orders)}
-              {orders?.length > 0 && (
-                <span className={s.quantityIcon}>{orders.length}</span>
+              {newOrders?.length > 0 && (
+                <span className={s.quantityIcon}>{newOrders.length}</span>
               )}
             </NavLink>
 
