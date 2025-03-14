@@ -10,7 +10,7 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   return (
-    <section className={s.order}>
+    <section>
       {order.cart.map(orderedProduct => (
         <OrderedProduct
           key={orderedProduct._id}
