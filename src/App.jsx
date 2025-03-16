@@ -75,32 +75,36 @@ export default function App() {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
-    const appHeight = window.innerHeight;
+    requestAnimationFrame(() => {
+      const appHeight = window.innerHeight;
 
-    const container = document.getElementById('container');
-    const containerStyle = window.getComputedStyle(container);
-    const containerPaddings =
-      Number.parseInt(containerStyle.getPropertyValue('padding')) * 2;
+      const container = document.getElementById('container');
+      const header = document.getElementById('header');
+      const footer = document.getElementById('footer');
 
-    const header = document.getElementById('header');
-    const headerStyle = window.getComputedStyle(header);
-    const headerHeight =
-      Number.parseInt(headerStyle.getPropertyValue('height')) +
-      Number.parseInt(headerStyle.getPropertyValue('margin-bottom'));
+      if (!container || !header || !footer) return;
 
-    const footer = document.getElementById('footer');
-    const footerStyle = window.getComputedStyle(footer);
-    const footerHeight =
-      Number.parseInt(footerStyle.getPropertyValue('margin-top')) +
-      Number.parseInt(footerStyle.getPropertyValue('height'));
+      const containerStyle = window.getComputedStyle(container);
+      const containerPaddings =
+        Number.parseInt(containerStyle.getPropertyValue('padding')) * 2;
 
-    // Container, header and footer subtracted from viewport height
-    const computedHeight =
-      appHeight - (containerPaddings + headerHeight + footerHeight);
+      const headerStyle = window.getComputedStyle(header);
+      const headerHeight =
+        Number.parseInt(headerStyle.getPropertyValue('height')) +
+        Number.parseInt(headerStyle.getPropertyValue('margin-bottom'));
 
-    changeGlobalState(updateMainHeight, computedHeight);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+      const footerStyle = window.getComputedStyle(footer);
+      const footerHeight =
+        Number.parseInt(footerStyle.getPropertyValue('margin-top')) +
+        Number.parseInt(footerStyle.getPropertyValue('height'));
+
+      // Container, header and footer subtracted from viewport height
+      const computedHeight =
+        appHeight - (containerPaddings + headerHeight + footerHeight);
+
+      changeGlobalState(updateMainHeight, computedHeight);
+    });
+  }, [changeGlobalState]);
 
   // FIXME: changeCount()???
   function changeCount(obj) {

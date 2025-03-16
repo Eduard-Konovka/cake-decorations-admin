@@ -17,8 +17,10 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
   const [error, setError] = useState(null);
   const [ordersType, setOrdersType] = useState('new');
   const [newOrders, setNewOrders] = useState([]);
-  const [processingOrders, setProcessingOrders] = useState([]);
-  const [readyOrders, setReadyOrders] = useState([]);
+  const [paidOrders, setPaidOrders] = useState([]);
+  const [acceptedOrders, setAcceptedOrders] = useState([]);
+  const [canceledOrders, setCanceledOrders] = useState([]);
+  const [shippedOrders, setShippedOrders] = useState([]);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -42,14 +44,16 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
 
   useEffect(() => {
     const newOrders = orders.filter(order => order?.type === 'new');
-    const processingOrders = orders.filter(
-      order => order?.type === 'processing',
-    );
-    const readyOrders = orders.filter(order => order?.type === 'ready');
+    const acceptedOrders = orders.filter(order => order?.type === 'accepted');
+    const paidOrders = orders.filter(order => order?.type === 'paid');
+    const shippedOrders = orders.filter(order => order?.type === 'shipped');
+    const canceledOrders = orders.filter(order => order?.type === 'canceled');
 
     setNewOrders(newOrders);
-    setProcessingOrders(processingOrders);
-    setReadyOrders(readyOrders);
+    setAcceptedOrders(acceptedOrders);
+    setPaidOrders(paidOrders);
+    setShippedOrders(shippedOrders);
+    setCanceledOrders(canceledOrders);
   }, [orders]);
 
   return (
@@ -77,27 +81,47 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 styles={s.btn}
                 onClick={() => setOrdersType('new')}
               >
-                {'Нові замовлення'}
+                {'Нові'}
               </Button>
 
               <Button
                 title={languageDeterminer(LANGUAGE.addProductButton.title)}
                 type="button"
-                disabled={ordersType === 'processing'}
+                disabled={ordersType === 'accepted'}
                 styles={s.btn}
-                onClick={() => setOrdersType('processing')}
+                onClick={() => setOrdersType('accepted')}
               >
-                {'В обробці'}
+                {'Прийняті'}
               </Button>
 
               <Button
                 title={languageDeterminer(LANGUAGE.addProductButton.title)}
                 type="button"
-                disabled={ordersType === 'ready'}
+                disabled={ordersType === 'paid'}
                 styles={s.btn}
-                onClick={() => setOrdersType('ready')}
+                onClick={() => setOrdersType('paid')}
               >
-                {'Виконані замовлення'}
+                {'Оплачені'}
+              </Button>
+
+              <Button
+                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                type="button"
+                disabled={ordersType === 'shipped'}
+                styles={s.btn}
+                onClick={() => setOrdersType('shipped')}
+              >
+                {'Відправлені'}
+              </Button>
+
+              <Button
+                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                type="button"
+                disabled={ordersType === 'canceled'}
+                styles={s.btn}
+                onClick={() => setOrdersType('canceled')}
+              >
+                {'Скасовані'}
               </Button>
 
               <Button
@@ -107,7 +131,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 styles={s.btn}
                 onClick={() => setOrdersType('all')}
               >
-                {'Всі замовлення'}
+                {'Всі'}
               </Button>
             </div>
           </section>
@@ -126,30 +150,58 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'processing' ? (
-            processingOrders.length > 0 ? (
+          ) : ordersType === 'accepted' ? (
+            acceptedOrders.length > 0 ? (
               <OrdersList
-                orders={processingOrders}
+                orders={acceptedOrders}
                 changeSelectCount={changeSelectCount}
                 onDeleteProduct={onDeleteProduct}
               />
             ) : (
               <Blank
-                title={'Немає замовлень в обробці'}
+                title={'Немає прийнятих замовлень'}
                 image={imageBlank}
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'ready' ? (
-            readyOrders.length > 0 ? (
+          ) : ordersType === 'paid' ? (
+            paidOrders.length > 0 ? (
               <OrdersList
-                orders={readyOrders}
+                orders={paidOrders}
                 changeSelectCount={changeSelectCount}
                 onDeleteProduct={onDeleteProduct}
               />
             ) : (
               <Blank
-                title={'Немає виконаних замовлень'}
+                title={'Немає оплачених замовлень'}
+                image={imageBlank}
+                alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
+              />
+            )
+          ) : ordersType === 'shipped' ? (
+            shippedOrders.length > 0 ? (
+              <OrdersList
+                orders={shippedOrders}
+                changeSelectCount={changeSelectCount}
+                onDeleteProduct={onDeleteProduct}
+              />
+            ) : (
+              <Blank
+                title={'Немає відправлених замовлень'}
+                image={imageBlank}
+                alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
+              />
+            )
+          ) : ordersType === 'canceled' ? (
+            canceledOrders.length > 0 ? (
+              <OrdersList
+                orders={canceledOrders}
+                changeSelectCount={changeSelectCount}
+                onDeleteProduct={onDeleteProduct}
+              />
+            ) : (
+              <Blank
+                title={'Немає скасованих замовлень'}
                 image={imageBlank}
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
