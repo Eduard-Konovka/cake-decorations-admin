@@ -44,25 +44,27 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
           {order.totalCost} ₴
         </p>
 
-        <Button
-          title={languageDeterminer(LANGUAGE.orderBar.rejectButton.title)}
-          type="button"
-          disabled={order.type === 'rejected'}
-          styles={s.btn}
-          onClick={() => acceptOrderApi(order._id, 'rejected')}
-        >
-          {languageDeterminer(LANGUAGE.orderBar.rejectButton.text)}
-        </Button>
+        {order.type !== 'rejected' && (
+          <Button
+            title={languageDeterminer(LANGUAGE.orderBar.rejectButton.title)}
+            type="button"
+            styles={s.btn}
+            onClick={() => acceptOrderApi(order._id, 'rejected')}
+          >
+            {languageDeterminer(LANGUAGE.orderBar.rejectButton.text)}
+          </Button>
+        )}
 
-        <Button
-          title={languageDeterminer(LANGUAGE.orderBar.acceptButton.title)}
-          type="button"
-          disabled={order.type === 'accepted'}
-          styles={s.btn}
-          onClick={() => acceptOrderApi(order._id, 'accepted')}
-        >
-          {languageDeterminer(LANGUAGE.orderBar.acceptButton.text)}
-        </Button>
+        {order.type !== 'accepted' && (
+          <Button
+            title={languageDeterminer(LANGUAGE.orderBar.acceptButton.title)}
+            type="button"
+            styles={s.btn}
+            onClick={() => acceptOrderApi(order._id, 'accepted')}
+          >
+            {languageDeterminer(LANGUAGE.orderBar.acceptButton.text)}
+          </Button>
+        )}
       </div>
     </section>
   );
