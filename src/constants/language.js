@@ -649,23 +649,45 @@ export const LANGUAGE = {
     },
   },
 
-  cartBar: {
+  orderBar: {
+    user: {
+      eng: 'Buyer: ',
+      ukr: 'Покупець: ',
+      rus: 'Покупатель: ',
+    },
+
     totalCost: {
       eng: 'Total cost: ',
       ukr: 'Загальна вартість: ',
       rus: 'Общая стоимость:',
     },
 
-    buttonTitle: {
-      eng: 'Send order for clearance',
-      ukr: 'Відправити замовлення на оформлення',
-      rus: 'Отправить заказ на оформление',
+    rejectButton: {
+      title: {
+        eng: 'Reject order',
+        ukr: 'Відхилити замовлення',
+        rus: 'Отклонить заказ',
+      },
+
+      text: {
+        eng: 'Reject',
+        ukr: 'Відхилити',
+        rus: 'Отклонить',
+      },
     },
 
-    buttonText: {
-      eng: 'Purchase',
-      ukr: 'Оформлення',
-      rus: 'Оформление',
+    acceptButton: {
+      title: {
+        eng: 'Accept order for processing',
+        ukr: 'Прийняти замовлення на оформлення',
+        rus: 'Принять заказ на оформление',
+      },
+
+      text: {
+        eng: 'Accept',
+        ukr: 'Прийняти',
+        rus: 'Принять',
+      },
     },
   },
 

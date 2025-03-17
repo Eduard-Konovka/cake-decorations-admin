@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useChangeGlobalState, updateOrders } from 'state';
+import { fetchCollection, acceptOrderApi } from 'api';
 import { OrderedProduct, Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
@@ -7,7 +9,18 @@ import { LANGUAGE } from 'constants';
 import s from './Order.module.css';
 
 export default function Order({ order, changeSelectCount, onDeleteProduct }) {
+  const changeGlobalState = useChangeGlobalState();
+
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
+  useEffect(() => {
+    fetchCollection('orders').then(orders => {
+      orders.sort(
+        (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+      );
+      changeGlobalState(updateOrders, orders);
+    });
+  }, [changeGlobalState]);
 
   return (
     <section>
@@ -22,16 +35,33 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
 
       <div className={s.priceBox}>
         <p className={s.totalCost}>
-          {languageDeterminer(LANGUAGE.cartBar.totalCost)}
+          {languageDeterminer(LANGUAGE.orderBar.user)}
+          {order.user.name}
+        </p>
+
+        <p className={s.totalCost}>
+          {languageDeterminer(LANGUAGE.orderBar.totalCost)}
           {order.totalCost} ₴
         </p>
 
         <Button
-          title={languageDeterminer(LANGUAGE.cartBar.buttonTitle)}
+          title={languageDeterminer(LANGUAGE.orderBar.rejectButton.title)}
           type="button"
-          onClick={() => alert(Number(order.totalCost))}
+          disabled={order.type === 'rejected'}
+          styles={s.btn}
+          onClick={() => acceptOrderApi(order._id, 'rejected')}
         >
-          {languageDeterminer(LANGUAGE.cartBar.buttonText)}
+          {languageDeterminer(LANGUAGE.orderBar.rejectButton.text)}
+        </Button>
+
+        <Button
+          title={languageDeterminer(LANGUAGE.orderBar.acceptButton.title)}
+          type="button"
+          disabled={order.type === 'accepted'}
+          styles={s.btn}
+          onClick={() => acceptOrderApi(order._id, 'accepted')}
+        >
+          {languageDeterminer(LANGUAGE.orderBar.acceptButton.text)}
         </Button>
       </div>
     </section>

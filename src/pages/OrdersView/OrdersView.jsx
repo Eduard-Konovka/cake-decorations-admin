@@ -47,7 +47,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
     const acceptedOrders = orders.filter(order => order?.type === 'accepted');
     const paidOrders = orders.filter(order => order?.type === 'paid');
     const shippedOrders = orders.filter(order => order?.type === 'shipped');
-    const canceledOrders = orders.filter(order => order?.type === 'canceled');
+    const canceledOrders = orders.filter(order => order?.type === 'rejected');
 
     setNewOrders(newOrders);
     setAcceptedOrders(acceptedOrders);
@@ -117,9 +117,9 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
               <Button
                 title={languageDeterminer(LANGUAGE.addProductButton.title)}
                 type="button"
-                disabled={ordersType === 'canceled'}
+                disabled={ordersType === 'rejected'}
                 styles={s.btn}
-                onClick={() => setOrdersType('canceled')}
+                onClick={() => setOrdersType('rejected')}
               >
                 {'Скасовані'}
               </Button>
@@ -192,7 +192,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'canceled' ? (
+          ) : ordersType === 'rejected' ? (
             canceledOrders.length > 0 ? (
               <OrdersList
                 orders={canceledOrders}

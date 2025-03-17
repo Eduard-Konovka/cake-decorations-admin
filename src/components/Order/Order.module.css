@@ -35,6 +35,40 @@
   }
 }
 
+.btn {
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 320px) {
+  .btn {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .btn {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .btn {
+    margin-left: 2vw;
+  }
+}
+
 .totalCost {
   margin: 0 8px;
   font-size: 5vw;
