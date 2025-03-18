@@ -5,7 +5,7 @@ import { fetchCollection } from 'api';
 import { Spinner, Button, Blank, OrdersList } from 'components';
 import { getLanguage, pageUp } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { LANGUAGE } from 'constants';
+import { GLOBAL, LANGUAGE } from 'constants';
 import imageBlank from 'assets/empty-trash-bin.png';
 import s from './OrdersView.module.css';
 
@@ -15,7 +15,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [ordersType, setOrdersType] = useState('new');
+  const [ordersType, setOrdersType] = useState(GLOBAL.ordersTypes.new);
   const [newOrders, setNewOrders] = useState([]);
   const [paidOrders, setPaidOrders] = useState([]);
   const [acceptedOrders, setAcceptedOrders] = useState([]);
@@ -43,11 +43,21 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
   }, []);
 
   useEffect(() => {
-    const newOrders = orders.filter(order => order?.type === 'new');
-    const acceptedOrders = orders.filter(order => order?.type === 'accepted');
-    const paidOrders = orders.filter(order => order?.type === 'paid');
-    const shippedOrders = orders.filter(order => order?.type === 'shipped');
-    const canceledOrders = orders.filter(order => order?.type === 'rejected');
+    const newOrders = orders.filter(
+      order => order?.type === GLOBAL.ordersTypes.new,
+    );
+    const acceptedOrders = orders.filter(
+      order => order?.type === GLOBAL.ordersTypes.accepted,
+    );
+    const paidOrders = orders.filter(
+      order => order?.type === GLOBAL.ordersTypes.paid,
+    );
+    const shippedOrders = orders.filter(
+      order => order?.type === GLOBAL.ordersTypes.shipped,
+    );
+    const canceledOrders = orders.filter(
+      order => order?.type === GLOBAL.ordersTypes.rejected,
+    );
 
     setNewOrders(newOrders);
     setAcceptedOrders(acceptedOrders);
@@ -75,68 +85,80 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
           <section className={s.bar}>
             <div className={s.btnBox}>
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.new.title.button,
+                )}
                 type="button"
-                disabled={ordersType === 'new'}
+                disabled={ordersType === GLOBAL.ordersTypes.new}
                 styles={s.btn}
-                onClick={() => setOrdersType('new')}
+                onClick={() => setOrdersType(GLOBAL.ordersTypes.new)}
               >
-                {'Нові'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.new.text)}
               </Button>
 
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.accepted.title.button,
+                )}
                 type="button"
-                disabled={ordersType === 'accepted'}
+                disabled={ordersType === GLOBAL.ordersTypes.accepted}
                 styles={s.btn}
-                onClick={() => setOrdersType('accepted')}
+                onClick={() => setOrdersType(GLOBAL.ordersTypes.accepted)}
               >
-                {'Прийняті'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.accepted.text)}
               </Button>
 
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.paid.title.button,
+                )}
                 type="button"
-                disabled={ordersType === 'paid'}
+                disabled={ordersType === GLOBAL.ordersTypes.paid}
                 styles={s.btn}
-                onClick={() => setOrdersType('paid')}
+                onClick={() => setOrdersType(GLOBAL.ordersTypes.paid)}
               >
-                {'Оплачені'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.paid.text)}
               </Button>
 
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.shipped.title.button,
+                )}
                 type="button"
-                disabled={ordersType === 'shipped'}
+                disabled={ordersType === GLOBAL.ordersTypes.shipped}
                 styles={s.btn}
-                onClick={() => setOrdersType('shipped')}
+                onClick={() => setOrdersType(GLOBAL.ordersTypes.shipped)}
               >
-                {'Відправлені'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.shipped.text)}
               </Button>
 
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.rejected.title.button,
+                )}
                 type="button"
-                disabled={ordersType === 'rejected'}
+                disabled={ordersType === GLOBAL.ordersTypes.rejected}
                 styles={s.btn}
-                onClick={() => setOrdersType('rejected')}
+                onClick={() => setOrdersType(GLOBAL.ordersTypes.rejected)}
               >
-                {'Скасовані'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.rejected.text)}
               </Button>
 
               <Button
-                title={languageDeterminer(LANGUAGE.addProductButton.title)}
+                title={languageDeterminer(
+                  LANGUAGE.orderBar.orderType.all.title.button,
+                )}
                 type="button"
                 disabled={ordersType === 'all'}
                 styles={s.btn}
                 onClick={() => setOrdersType('all')}
               >
-                {'Всі'}
+                {languageDeterminer(LANGUAGE.orderBar.orderType.all.text)}
               </Button>
             </div>
           </section>
 
-          {ordersType === 'new' ? (
+          {ordersType === GLOBAL.ordersTypes.new ? (
             newOrders.length > 0 ? (
               <OrdersList
                 orders={newOrders}
@@ -150,7 +172,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'accepted' ? (
+          ) : ordersType === GLOBAL.ordersTypes.accepted ? (
             acceptedOrders.length > 0 ? (
               <OrdersList
                 orders={acceptedOrders}
@@ -164,7 +186,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'paid' ? (
+          ) : ordersType === GLOBAL.ordersTypes.paid ? (
             paidOrders.length > 0 ? (
               <OrdersList
                 orders={paidOrders}
@@ -178,7 +200,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'shipped' ? (
+          ) : ordersType === GLOBAL.ordersTypes.shipped ? (
             shippedOrders.length > 0 ? (
               <OrdersList
                 orders={shippedOrders}
@@ -192,7 +214,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
                 alt={languageDeterminer(LANGUAGE.orders.emptyOrdersAlt)}
               />
             )
-          ) : ordersType === 'rejected' ? (
+          ) : ordersType === GLOBAL.ordersTypes.rejected ? (
             canceledOrders.length > 0 ? (
               <OrdersList
                 orders={canceledOrders}

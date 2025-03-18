@@ -10,7 +10,7 @@ import {
 import { Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { LANGUAGE } from 'constants';
+import { GLOBAL, LANGUAGE } from 'constants';
 import logo from 'assets/logo.jpg';
 import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
@@ -20,7 +20,9 @@ export default function AppBar({ setDefaultsProducts }) {
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
-  const newOrders = orders?.filter(order => order.type === 'new');
+  const newOrders = orders?.filter(
+    order => order.type === GLOBAL.ordersTypes.new,
+  );
 
   return (
     <header id="header" className={s.header}>

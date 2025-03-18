@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useChangeGlobalState, updateOrders } from 'state';
 import { fetchCollection, acceptOrderApi } from 'api';
-import { OrderedProduct, Button } from 'components';
+import { OrderedProduct } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { LANGUAGE } from 'constants';
+import { GLOBAL, LANGUAGE } from 'constants';
 import s from './Order.module.css';
 
 export default function Order({ order, changeSelectCount, onDeleteProduct }) {
@@ -44,27 +44,64 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
           {order.totalCost} ₴
         </p>
 
-        {order.type !== 'rejected' && (
-          <Button
-            title={languageDeterminer(LANGUAGE.orderBar.rejectButton.title)}
-            type="button"
-            styles={s.btn}
-            onClick={() => acceptOrderApi(order._id, 'rejected')}
-          >
-            {languageDeterminer(LANGUAGE.orderBar.rejectButton.text)}
-          </Button>
-        )}
+        <form className={s.bar}>
+          <label htmlFor="orderType" className={s.typeLabel}>
+            {languageDeterminer(LANGUAGE.orderBar.orderType.label)}
+          </label>
 
-        {order.type !== 'accepted' && (
-          <Button
-            title={languageDeterminer(LANGUAGE.orderBar.acceptButton.title)}
-            type="button"
-            styles={s.btn}
-            onClick={() => acceptOrderApi(order._id, 'accepted')}
+          <select
+            id="orderType"
+            name="orderType"
+            className={s.select}
+            defaultValue={order.type}
+            onChange={event => acceptOrderApi(order._id, event.target.value)}
           >
-            {languageDeterminer(LANGUAGE.orderBar.acceptButton.text)}
-          </Button>
-        )}
+            <option
+              title={languageDeterminer(
+                LANGUAGE.orderBar.orderType.new.title.select,
+              )}
+              value={GLOBAL.ordersTypes.new}
+            >
+              {languageDeterminer(LANGUAGE.orderBar.orderType.new.text)}
+            </option>
+
+            <option
+              title={languageDeterminer(
+                LANGUAGE.orderBar.orderType.accepted.title.select,
+              )}
+              value={GLOBAL.ordersTypes.accepted}
+            >
+              {languageDeterminer(LANGUAGE.orderBar.orderType.accepted.text)}
+            </option>
+
+            <option
+              title={languageDeterminer(
+                LANGUAGE.orderBar.orderType.paid.title.select,
+              )}
+              value={GLOBAL.ordersTypes.paid}
+            >
+              {languageDeterminer(LANGUAGE.orderBar.orderType.paid.text)}
+            </option>
+
+            <option
+              title={languageDeterminer(
+                LANGUAGE.orderBar.orderType.shipped.title.select,
+              )}
+              value={GLOBAL.ordersTypes.shipped}
+            >
+              {languageDeterminer(LANGUAGE.orderBar.orderType.shipped.text)}
+            </option>
+
+            <option
+              title={languageDeterminer(
+                LANGUAGE.orderBar.orderType.rejected.title.select,
+              )}
+              value={GLOBAL.ordersTypes.rejected}
+            >
+              {languageDeterminer(LANGUAGE.orderBar.orderType.rejected.text)}
+            </option>
+          </select>
+        </form>
       </div>
     </section>
   );

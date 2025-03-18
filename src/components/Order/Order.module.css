@@ -109,3 +109,149 @@
     font-size: 1.375vw;
   }
 }
+
+/*#region BAR */
+.bar {
+  display: flex;
+  justify-content: center;
+
+  background-color: #f9e7e7;
+  width: 100%;
+  padding: 3.125vw 0 3.125vw 3.125vw;
+  border-radius: 2.5vw;
+  box-shadow: 0px 2px 5px rgba(68, 42, 42, 0.75),
+    0px 1px 3px rgba(68, 38, 38, 0.14), 0px 1px 2px rgba(139, 77, 77, 0.12);
+}
+
+@media screen and (min-width: 320px) {
+  .bar {
+    padding: 10px 0 10px 10px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .bar {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bar {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .bar {
+    padding: 0.625vw 0 0.625vw 0.625vw;
+    border-radius: 0.625vw;
+  }
+}
+/*#endregion BAR */
+
+/*#region BAR_ELEMENT */
+.barElement {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 4.8vw;
+
+  height: 8vw;
+  border-radius: 1vw;
+  margin-right: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .barElement {
+    font-size: 14px;
+    height: 24px;
+
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .barElement {
+    font-size: 16px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .barElement {
+    height: 30px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .barElement {
+    height: 32px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .barElement {
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .barElement {
+    font-size: 1vw;
+    border-radius: 0.625vw;
+    margin-right: 0.625vw;
+  }
+}
+/*#endregion BAR_ELEMENT */
+
+.typeLabel {
+  composes: barElement;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #503030;
+}
+
+.select {
+  composes: barElement;
+  background-color: var(--secondary-color);
+  color: #705050;
+  font-weight: 400;
+
+  width: 57vw;
+  padding-left: 0.3vw;
+  border: 1px solid var(--input-border-color);
+}
+
+@media screen and (min-width: 320px) {
+  .select {
+    width: 56vw;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .select {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .select {
+    width: 28vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .select {
+    width: 22vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select {
+    width: 16vw;
+  }
+}

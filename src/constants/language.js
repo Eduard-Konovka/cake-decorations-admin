@@ -662,31 +662,137 @@ export const LANGUAGE = {
       rus: 'Общая стоимость:',
     },
 
-    rejectButton: {
-      title: {
-        eng: 'Reject order',
-        ukr: 'Відхилити замовлення',
-        rus: 'Отклонить заказ',
+    orderType: {
+      label: {
+        eng: 'Order type',
+        ukr: 'Тип замовлення',
+        rus: 'Тип заказа',
       },
 
-      text: {
-        eng: 'Reject',
-        ukr: 'Відхилити',
-        rus: 'Отклонить',
-      },
-    },
+      new: {
+        title: {
+          button: {
+            eng: 'New orders',
+            ukr: 'Нові замовлення',
+            rus: 'Новые заказы',
+          },
 
-    acceptButton: {
-      title: {
-        eng: 'Accept order for processing',
-        ukr: 'Прийняти замовлення на оформлення',
-        rus: 'Принять заказ на оформление',
+          select: {
+            eng: 'Mark as new order',
+            ukr: 'Позначити як нове замовлення',
+            rus: 'Отметить как новый заказ',
+          },
+        },
+
+        text: {
+          eng: 'New',
+          ukr: 'Нові',
+          rus: 'Новые',
+        },
       },
 
-      text: {
-        eng: 'Accept',
-        ukr: 'Прийняти',
-        rus: 'Принять',
+      accepted: {
+        title: {
+          button: {
+            eng: 'Accepted orders',
+            ukr: 'Прийняті замовлення',
+            rus: 'Принятые заказы',
+          },
+
+          select: {
+            eng: 'Accept order for processing',
+            ukr: 'Прийняти замовлення на оформлення',
+            rus: 'Принять заказ на оформление',
+          },
+        },
+
+        text: {
+          eng: 'Accepted',
+          ukr: 'Прийняті',
+          rus: 'Принятые',
+        },
+      },
+
+      paid: {
+        title: {
+          button: {
+            eng: 'Paid orders',
+            ukr: 'Оплачені замовлення',
+            rus: 'Оплаченные заказы',
+          },
+
+          select: {
+            eng: 'Mark as paid order',
+            ukr: 'Позначити як оплачене замовлення',
+            rus: 'Отметить как оплаченный заказ',
+          },
+        },
+
+        text: {
+          eng: 'Paid',
+          ukr: 'Оплачені',
+          rus: 'Оплаченные',
+        },
+      },
+
+      shipped: {
+        title: {
+          button: {
+            eng: 'Shipped orders',
+            ukr: 'Відправлені замовлення',
+            rus: 'Отправленные заказы',
+          },
+
+          select: {
+            eng: 'Mark as shipped order',
+            ukr: 'Позначити як відправлені замовлення',
+            rus: 'Отметить как отправленный заказ',
+          },
+        },
+
+        text: {
+          eng: 'Shipped',
+          ukr: 'Відправлені',
+          rus: 'Отправленные',
+        },
+      },
+
+      rejected: {
+        title: {
+          button: {
+            eng: 'Rejected orders',
+            ukr: 'Відхилені замовлення',
+            rus: 'Отклоненные заказы',
+          },
+
+          select: {
+            eng: 'Mark as rejected order',
+            ukr: 'Позначити як відхилене замовлення',
+            rus: 'Отметить как отклоненный заказ',
+          },
+        },
+
+        text: {
+          eng: 'Rejected',
+          ukr: 'Відхилені',
+          rus: 'Отклоненные',
+        },
+      },
+
+      all: {
+        title: {
+          button: {
+            eng: 'All orders',
+            ukr: 'Всі замовлення',
+            rus: 'Все заказы',
+          },
+        },
+
+        text: {
+          eng: 'All',
+          ukr: 'Всі',
+          rus: 'Все',
+        },
       },
     },
   },

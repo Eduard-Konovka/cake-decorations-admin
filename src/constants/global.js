@@ -53,4 +53,12 @@ export const GLOBAL = {
   sending: 3000,
 
   dozen: 12,
+
+  ordersTypes: {
+    new: 'new',
+    paid: 'paid',
+    accepted: 'accepted',
+    shipped: 'shipped',
+    rejected: 'rejected',
+  },
 };
