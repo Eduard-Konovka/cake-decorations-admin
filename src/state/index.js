@@ -10,4 +10,10 @@ export {
   updateLinksDictionary,
   updateOrders,
 } from './global';
+export {
+  authSignUpUser,
+  authSignInUser,
+  authSignOutUser,
+  authStateChangeUser,
+} from './auth';
 export { default as GlobalState } from './GlobalState.jsx';

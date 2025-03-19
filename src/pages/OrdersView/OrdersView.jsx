@@ -160,11 +160,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
 
           {ordersType === GLOBAL.ordersTypes.new ? (
             newOrders.length > 0 ? (
-              <OrdersList
-                orders={newOrders}
-                changeSelectCount={changeSelectCount}
-                onDeleteProduct={onDeleteProduct}
-              />
+              <OrdersList orders={newOrders} />
             ) : (
               <Blank
                 title={'Немає нових замовлень'}
@@ -174,11 +170,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
             )
           ) : ordersType === GLOBAL.ordersTypes.accepted ? (
             acceptedOrders.length > 0 ? (
-              <OrdersList
-                orders={acceptedOrders}
-                changeSelectCount={changeSelectCount}
-                onDeleteProduct={onDeleteProduct}
-              />
+              <OrdersList orders={acceptedOrders} />
             ) : (
               <Blank
                 title={'Немає прийнятих замовлень'}
@@ -188,11 +180,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
             )
           ) : ordersType === GLOBAL.ordersTypes.paid ? (
             paidOrders.length > 0 ? (
-              <OrdersList
-                orders={paidOrders}
-                changeSelectCount={changeSelectCount}
-                onDeleteProduct={onDeleteProduct}
-              />
+              <OrdersList orders={paidOrders} />
             ) : (
               <Blank
                 title={'Немає оплачених замовлень'}
@@ -202,11 +190,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
             )
           ) : ordersType === GLOBAL.ordersTypes.shipped ? (
             shippedOrders.length > 0 ? (
-              <OrdersList
-                orders={shippedOrders}
-                changeSelectCount={changeSelectCount}
-                onDeleteProduct={onDeleteProduct}
-              />
+              <OrdersList orders={shippedOrders} />
             ) : (
               <Blank
                 title={'Немає відправлених замовлень'}
@@ -216,11 +200,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
             )
           ) : ordersType === GLOBAL.ordersTypes.rejected ? (
             canceledOrders.length > 0 ? (
-              <OrdersList
-                orders={canceledOrders}
-                changeSelectCount={changeSelectCount}
-                onDeleteProduct={onDeleteProduct}
-              />
+              <OrdersList orders={canceledOrders} />
             ) : (
               <Blank
                 title={'Немає скасованих замовлень'}
@@ -229,11 +209,7 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
               />
             )
           ) : orders.length > 0 ? (
-            <OrdersList
-              orders={orders}
-              changeSelectCount={changeSelectCount}
-              onDeleteProduct={onDeleteProduct}
-            />
+            <OrdersList orders={orders} />
           ) : (
             <Blank
               title={'Немає замовлень'}

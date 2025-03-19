@@ -3,18 +3,14 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
-import { CountForm, Button } from 'components';
+import { CountForm } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './OrderedProduct.module.css';
 
-export default function OrderedProduct({
-  orderedProduct,
-  changeSelectCount,
-  onDeleteProduct,
-}) {
+export default function OrderedProduct({ orderedProduct }) {
   const { _id, quantity } = orderedProduct;
   const { language } = useGlobalState('global');
 
@@ -71,17 +67,8 @@ export default function OrderedProduct({
             labelStyle: s.countLabel,
             inputStyle: s.countInput,
           }}
-          setCount={count => changeSelectCount({ count, _id })}
+          setCount={() => {}}
         />
-
-        <Button
-          title={languageDeterminer(LANGUAGE.selectedProduct.buttonTitle)}
-          type="button"
-          styles={s.btn}
-          onClick={onDeleteProduct}
-        >
-          {languageDeterminer(LANGUAGE.selectedProduct.buttonText)}
-        </Button>
       </div>
     </article>
   );
@@ -89,6 +76,4 @@ export default function OrderedProduct({
 
 OrderedProduct.propTypes = {
   orderedProduct: PropTypes.object.isRequired,
-  changeSelectCount: PropTypes.func.isRequired,
-  onDeleteProduct: PropTypes.func.isRequired,
 };

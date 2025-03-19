@@ -8,7 +8,7 @@ import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import s from './Order.module.css';
 
-export default function Order({ order, changeSelectCount, onDeleteProduct }) {
+export default function Order({ order }) {
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -28,8 +28,6 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
         <OrderedProduct
           key={orderedProduct._id}
           orderedProduct={orderedProduct}
-          changeSelectCount={changeSelectCount}
-          onDeleteProduct={onDeleteProduct}
         />
       ))}
 
@@ -109,6 +107,4 @@ export default function Order({ order, changeSelectCount, onDeleteProduct }) {
 
 Order.propTypes = {
   order: PropTypes.object.isRequired,
-  changeSelectCount: PropTypes.func.isRequired,
-  onDeleteProduct: PropTypes.func.isRequired,
 };
