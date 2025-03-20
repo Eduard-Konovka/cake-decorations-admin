@@ -4,7 +4,7 @@ export const GLOBAL = {
   signInView: {
     input: {
       minLength: 4,
-      maxLength: 16,
+      maxLength: 160,
     },
 
     pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,

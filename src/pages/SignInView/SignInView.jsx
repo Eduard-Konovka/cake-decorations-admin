@@ -1,24 +1,69 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useGlobalState, useChangeGlobalState, updateUser } from 'state';
+import { toast } from 'react-toastify';
+import {
+  useGlobalState,
+  useChangeGlobalState,
+  updateUser,
+  authSignInUser,
+} from 'state';
 import { Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
-import { GLOBAL, LANGUAGE } from 'constants';
+import { GLOBAL, LANGUAGE, LOGIN } from 'constants';
 import avatar from 'assets/avatar.png';
 import s from './SignInView.module.css';
+
+const initialState = {
+  email: '',
+  password: '',
+};
 
 export default function SignInView() {
   const { mainHeight } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
-  const [name, setName] = useState('');
+  const [state, setState] = useState(initialState);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  const handleChange = event => {
+  const handleEmailChange = event => {
     const value = event.target.value.trim();
-    setName(value);
+
+    setState(prevState => ({
+      ...prevState,
+      email: value,
+    }));
+  };
+
+  const handlePasswordChange = event => {
+    const value = event.target.value.trim();
+
+    setState(prevState => ({
+      ...prevState,
+      password: value,
+    }));
+  };
+
+  const handlePress = () => {
+    if (!state.email || state.email === '') {
+      toast.error(
+        `${languageDeterminer(LOGIN.alert.noEmail.title)}: 
+        ${languageDeterminer(LOGIN.alert.noEmail.description)}`,
+      );
+    } else if (!state.password || state.password === '') {
+      toast.error(
+        `${languageDeterminer(LOGIN.alert.noPassword.title)}
+        ${languageDeterminer(LOGIN.alert.noPassword.description)}`,
+      );
+    } else {
+      changeGlobalState(updateUser, { name: state.email });
+      changeGlobalState(authSignInUser, {
+        user: state,
+        errorTitle: languageDeterminer(LOGIN.alert.authSignInUser),
+      });
+      setState(initialState);
+    }
   };
 
   return (
@@ -27,13 +72,30 @@ export default function SignInView() {
         <img src={avatar} alt="avatar" className={s.avatar} />
 
         <form className={s.form}>
-          <label htmlFor="username" className={s.label}>
+          <label htmlFor="email" className={s.label}>
             {languageDeterminer(LANGUAGE.signInView.username)}
           </label>
 
           <input
-            id="username"
-            name="username"
+            id="email"
+            name="email"
+            type="text"
+            title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
+            placeholder={'Введідь ел. пошту...'}
+            autoComplete="email"
+            minLength={GLOBAL.signInView.input.minLength}
+            maxLength={GLOBAL.signInView.input.maxLength}
+            className={s.input}
+            onChange={handleEmailChange}
+          />
+
+          <label htmlFor="password" className={s.label}>
+            {languageDeterminer(LANGUAGE.signInView.username)}
+          </label>
+
+          <input
+            id="password"
+            name="password"
             type="text"
             title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
             pattern={languageDeterminer(GLOBAL.signInView.pattern)}
@@ -44,7 +106,7 @@ export default function SignInView() {
             minLength={GLOBAL.signInView.input.minLength}
             maxLength={GLOBAL.signInView.input.maxLength}
             className={s.input}
-            onChange={handleChange}
+            onChange={handlePasswordChange}
           />
 
           <Button
@@ -52,13 +114,13 @@ export default function SignInView() {
             type="button"
             typeForm="signin"
             disabled={
-              name.length < GLOBAL.signInView.input.minLength ||
-              name.length > GLOBAL.signInView.input.maxLength
+              state.email.length < GLOBAL.signInView.input.minLength ||
+              state.email.length > GLOBAL.signInView.input.maxLength
             }
-            onClick={() => changeGlobalState(updateUser, { name })}
+            onClick={handlePress}
           >
-            {name.length >= GLOBAL.signInView.input.minLength &&
-            name.length <= GLOBAL.signInView.input.maxLength ? (
+            {state.email.length >= GLOBAL.signInView.input.minLength &&
+            state.email.length <= GLOBAL.signInView.input.maxLength ? (
               <Link to="/categories" className={s.btnLink}>
                 {languageDeterminer(LANGUAGE.signInView.buttonText)}
               </Link>

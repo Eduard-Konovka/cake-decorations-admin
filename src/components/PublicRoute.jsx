@@ -11,9 +11,9 @@ export default function PublicRoute({
   restricted = false,
   redirectTo = '/',
 }) {
-  const { user } = useGlobalState('global');
+  const { stateChange } = useGlobalState('auth');
 
-  const shouldRedirect = user.name && restricted;
+  const shouldRedirect = stateChange && restricted;
   return shouldRedirect ? <Navigate to={redirectTo} /> : children;
 }
 
