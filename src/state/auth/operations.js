@@ -35,7 +35,7 @@ export const authSignUpUser = async (
 
     return changeGlobalState(updateUserProfile, userUpdateProfile);
   } catch (error) {
-    toast.error(errorTitle, error.message);
+    toast.error(`${errorTitle}: ${error.message}`);
   }
 };
 
@@ -45,7 +45,7 @@ export const authSignInUser = async (state, { user, errorTitle }) => {
   try {
     await signInWithEmailAndPassword(auth, email, password);
   } catch (error) {
-    toast.error(errorTitle, error.message);
+    toast.error(`${errorTitle}: ${error.message}`);
   }
 };
 

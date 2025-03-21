@@ -20,6 +20,8 @@ import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import 'App.css';
 
+import { auth as authDb } from 'db';
+
 const CategoriesView = lazy(() =>
   import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
 );
@@ -68,6 +70,17 @@ const NotFoundView = lazy(() =>
 export default function App() {
   const { orders } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
+
+  const { name, userId, stateChange } = useGlobalState('auth');
+  console.log(
+    'name -',
+    name,
+    '/userId -',
+    userId,
+    '/stateChange -',
+    stateChange,
+  );
+  console.log('uid', authDb.currentUser.uid);
 
   const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
 

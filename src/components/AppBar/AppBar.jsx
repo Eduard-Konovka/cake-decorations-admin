@@ -6,6 +6,7 @@ import {
   useChangeGlobalState,
   updateUser,
   updateLanguage,
+  authSignOutUser,
 } from 'state';
 import { Button } from 'components';
 import { getLanguage } from 'functions';
@@ -23,6 +24,11 @@ export default function AppBar({ setDefaultsProducts }) {
   const newOrders = orders?.filter(
     order => order.type === GLOBAL.ordersTypes.new,
   );
+
+  const signOut = () => {
+    changeGlobalState(authSignOutUser);
+    changeGlobalState(updateUser, {});
+  };
 
   return (
     <header id="header" className={s.header}>
@@ -58,7 +64,7 @@ export default function AppBar({ setDefaultsProducts }) {
               <Button
                 title={languageDeterminer(LANGUAGE.appBar.signOut.title)}
                 type="button"
-                onClick={() => changeGlobalState(updateUser, {})}
+                onClick={signOut}
               >
                 <Link to="/signin" className={s.btnLink}>
                   {languageDeterminer(LANGUAGE.appBar.signOut.text)}
