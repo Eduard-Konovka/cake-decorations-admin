@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
 import { fetchProduct } from 'api';
@@ -10,6 +11,14 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import defaultImage from 'assets/notFound.png';
 import s from './OrderedProduct.module.css';
 
+const nonExistentProduct = {
+  title: {
+    ru: 'Несуществующий товар (возможно, он уже удалён)',
+    ua: 'Неіснуючий товар (можливо, його вже видалено)',
+    en: 'Non-existent product (maybe it was already deleted)',
+  },
+};
+
 export default function OrderedProduct({ orderedProduct }) {
   const { _id, quantity } = orderedProduct;
   const { language } = useGlobalState('global');
@@ -19,17 +28,22 @@ export default function OrderedProduct({ orderedProduct }) {
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
   useEffect(() => {
-    fetchProduct(orderedProduct._id).then(product => setProduct(product));
+    fetchProduct(orderedProduct._id).then(product =>
+      setProduct(product ?? nonExistentProduct),
+    );
   }, [orderedProduct]);
 
   return (
     <article className={s.card}>
       <Link
-        to={`/products/${_id}`}
+        to={product?._id ? `/products/${_id}` : null}
         title={`${languageDeterminer(
           LANGUAGE.selectedProduct.titleLink,
         )} "${propertyWrapper(language, product, 'title')}"`}
         className={s.thumb}
+        onClick={() =>
+          !product?._id && toast.error('Цей товар зараз недоступний')
+        } // FIXME
       >
         <img
           src={
@@ -55,7 +69,7 @@ export default function OrderedProduct({ orderedProduct }) {
           <span className={s.priceTitle}>
             {languageDeterminer(LANGUAGE.selectedProduct.price)}
           </span>
-          <span className={s.priceValue}>{product.price} ₴</span>
+          <span className={s.priceValue}>{product?.price ?? 0} ₴</span>
         </p>
 
         <CountForm
