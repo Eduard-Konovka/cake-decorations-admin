@@ -471,6 +471,32 @@ export const LANGUAGE = {
       ukr: 'Довжина назви продукту повинна бути не менше 2 і не більше 160 символів',
       rus: 'Длина названия продукта должна быть не менее 2 и не более 160 символов.',
     },
+
+    placeholders: {
+      title: {
+        eng: 'Enter the product name...',
+        ukr: 'Введіть назву товару...',
+        rus: 'Введите название товара...',
+      },
+
+      attributeName: {
+        eng: 'Enter the product property...',
+        ukr: 'Введіть властивість товару...',
+        rus: 'Введите свойство товара...',
+      },
+
+      attributeValue: {
+        eng: 'Enter the product property value...',
+        ukr: 'Введіть значення властивості товару...',
+        rus: 'Введите значение свойства товара...',
+      },
+
+      description: {
+        eng: 'Enter a product description...',
+        ukr: 'Введіть опис товару...',
+        rus: 'Введите описание товара...',
+      },
+    },
   },
 
   productViews: {

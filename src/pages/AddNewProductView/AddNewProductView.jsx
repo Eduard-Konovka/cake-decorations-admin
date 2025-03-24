@@ -426,7 +426,7 @@ export default function AddNewProductView() {
                       LANGUAGE.addNewProductView.titleInput,
                     )}
                     placeholder={languageDeterminer(
-                      LANGUAGE.signInView.common.placeholder,
+                      LANGUAGE.addNewProductView.placeholders.title,
                     )}
                     autoComplete="given-name family-name"
                     minLength={GLOBAL.inputs.common.minLength}
@@ -481,7 +481,8 @@ export default function AddNewProductView() {
                               GLOBAL.inputs.common.pattern,
                             )}
                             placeholder={languageDeterminer(
-                              LANGUAGE.signInView.common.placeholder,
+                              LANGUAGE.addNewProductView.placeholders
+                                .attributeName,
                             )}
                             autoComplete="given-name family-name"
                             minLength={GLOBAL.inputs.common.minLength}
@@ -516,7 +517,8 @@ export default function AddNewProductView() {
                               GLOBAL.inputs.common.pattern,
                             )}
                             placeholder={languageDeterminer(
-                              LANGUAGE.signInView.common.placeholder,
+                              LANGUAGE.addNewProductView.placeholders
+                                .attributeValue,
                             )}
                             autoComplete="given-name family-name"
                             minLength={GLOBAL.inputs.common.minLength}
@@ -651,7 +653,9 @@ export function Description({ id, languageDeterminer, style, callback }) {
         name={id}
         rows="10"
         title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
-        placeholder={languageDeterminer(LANGUAGE.signInView.common.placeholder)}
+        placeholder={languageDeterminer(
+          LANGUAGE.addNewProductView.placeholders.description,
+        )}
         autoComplete="given-name family-name"
         minLength={GLOBAL.inputs.common.minLength}
         // maxLength={GLOBAL.inputs.common.maxLength}
