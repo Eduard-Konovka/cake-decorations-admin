@@ -1,24 +1,14 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { useGlobalState } from 'state';
+import { auth } from 'db';
 
-// - If the route is restricted and the user is logged in, redirects to "redirectTo"
-// - Otherwise renders the component
-
-export default function PublicRoute({
-  children,
-  restricted = false,
-  redirectTo = '/',
-}) {
-  const { stateChange } = useGlobalState('auth');
-
-  const shouldRedirect = stateChange && restricted;
-  return shouldRedirect ? <Navigate to={redirectTo} /> : children;
+export default function PublicRoute({ children, restricted = false }) {
+  const shouldRedirect = auth.currentUser && restricted;
+  return !shouldRedirect ? children : <Navigate replace to="/categories" />;
 }
 
 PublicRoute.propTypes = {
   children: PropTypes.element.isRequired,
   restricted: PropTypes.bool,
-  redirectTo: PropTypes.string,
 };

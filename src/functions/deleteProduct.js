@@ -22,7 +22,7 @@ export async function deleteProduct(
         (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
       );
       changeGlobalState(updateProducts, products);
-      navigate('/products');
+      navigate('/categories');
     })
     .catch(error =>
       toast.error(

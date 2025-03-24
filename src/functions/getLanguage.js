@@ -1,3 +1,3 @@
 export function getLanguage() {
-  return JSON.parse(localStorage.getItem('language')) || null;
+  return JSON.parse(localStorage.getItem('language')) || 'UA';
 }

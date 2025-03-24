@@ -20,8 +20,6 @@ import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import 'App.css';
 
-import { auth as authDb } from 'db';
-
 const CategoriesView = lazy(() =>
   import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
 );
@@ -70,17 +68,6 @@ const NotFoundView = lazy(() =>
 export default function App() {
   const { orders } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
-
-  const { name, userId, stateChange } = useGlobalState('auth');
-  console.log(
-    'name -',
-    name,
-    '/userId -',
-    userId,
-    '/stateChange -',
-    stateChange,
-  );
-  console.log('uid', authDb.currentUser.uid);
 
   const [productsByCategoryOrTag, setProductsByCategoryOrTag] = useState([]);
 
@@ -163,12 +150,12 @@ export default function App() {
         }
       >
         <Routes>
-          <Route path="/" element={<Navigate to="/signin" />} />
+          <Route path="/" element={<Navigate to="/categories" />} />
 
           <Route
             path="/signin"
             element={
-              <PublicRoute redirectTo="/categories" restricted>
+              <PublicRoute restricted>
                 <SignInView />
               </PublicRoute>
             }
@@ -177,7 +164,7 @@ export default function App() {
           <Route
             path="/categories"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <CategoriesView
                   setProductsByCategory={setProductsByCategoryOrTag}
                 />
@@ -188,7 +175,7 @@ export default function App() {
           <Route
             path="/products"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <ProductsView
                   productsByCategoryOrTag={productsByCategoryOrTag}
                 />
@@ -199,7 +186,7 @@ export default function App() {
           <Route
             path="/products/:id"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <SpecificProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                   changeSelectCount={changeCount}
@@ -211,7 +198,7 @@ export default function App() {
           <Route
             path="/products/new"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AddNewProductView />
               </PrivateRoute>
             }
@@ -220,7 +207,7 @@ export default function App() {
           <Route
             path="/products/edit/:id"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <EditProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                 />
@@ -231,7 +218,7 @@ export default function App() {
           <Route
             path="/removedProducts"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <RemovedProductsView
                   productsByCategoryOrTag={productsByCategoryOrTag}
                 />
@@ -242,7 +229,7 @@ export default function App() {
           <Route
             path="/removedProducts/:id"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <RemovedSpecificProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                   changeSelectCount={changeCount}
@@ -254,7 +241,7 @@ export default function App() {
           <Route
             path="/removedProducts/edit/:id"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <EditRemovedProductView
                   setProductsByTag={setProductsByCategoryOrTag}
                 />
@@ -265,7 +252,7 @@ export default function App() {
           <Route
             path="/orders"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <OrdersView
                   changeSelectCount={changeCount}
                   onDeleteProduct={removeFromCart}
@@ -277,7 +264,7 @@ export default function App() {
           <Route
             path="/messages"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.messages)}
                   wave3D
@@ -289,7 +276,7 @@ export default function App() {
           <Route
             path="/notifications"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.notifications)}
                   waveReflection
@@ -301,7 +288,7 @@ export default function App() {
           <Route
             path="/promotions"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.promotions)}
                 />
@@ -312,7 +299,7 @@ export default function App() {
           <Route
             path="/clients"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView text={languageDeterminer(LANGUAGE.titles.clients)} />
               </PrivateRoute>
             }
@@ -321,7 +308,7 @@ export default function App() {
           <Route
             path="/reviews"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView text={languageDeterminer(LANGUAGE.titles.reviews)} />
               </PrivateRoute>
             }
@@ -330,7 +317,7 @@ export default function App() {
           <Route
             path="/statistics"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PrivateRoute>
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.statistics)}
                 />
@@ -341,11 +328,11 @@ export default function App() {
           <Route
             path="*"
             element={
-              <PrivateRoute redirectTo="/signin">
+              <PublicRoute>
                 <NotFoundView
-                  message={languageDeterminer(LANGUAGE.notFoundView)}
+                  message={languageDeterminer(LANGUAGE.notFoundView.pageTitle)}
                 />
-              </PrivateRoute>
+              </PublicRoute>
             }
           />
         </Routes>

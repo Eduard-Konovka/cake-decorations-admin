@@ -1,22 +1,24 @@
 const ENTER_KEY_CODE = 13;
 
 export const GLOBAL = {
-  signInView: {
-    input: {
-      minLength: 4,
-      maxLength: 160,
-    },
-
-    pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
-  },
-
-  addNewProductView: {
-    input: {
+  inputs: {
+    common: {
       minLength: 2,
       maxLength: 200,
+      pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
     },
 
-    pattern: `^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$`,
+    email: {
+      // eslint-disable-next-line no-useless-escape
+      pattern: `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$`,
+    },
+
+    password: {
+      minLength: 8,
+      maxLength: 128,
+      // eslint-disable-next-line no-useless-escape
+      pattern: `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,128}$`,
+    },
   },
 
   keyСodes: {

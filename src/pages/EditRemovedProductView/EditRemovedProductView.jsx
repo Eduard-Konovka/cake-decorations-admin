@@ -582,12 +582,12 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                       LANGUAGE.addNewProductView.titleInput,
                     )}
                     placeholder={languageDeterminer(
-                      LANGUAGE.signInView.inputPlaceholder,
+                      LANGUAGE.signInView.common.placeholder,
                     )}
                     value={title}
                     autoComplete="given-name family-name"
-                    minLength={GLOBAL.addNewProductView.input.minLength}
-                    maxLength={GLOBAL.addNewProductView.input.maxLength}
+                    minLength={GLOBAL.inputs.common.minLength}
+                    maxLength={GLOBAL.inputs.common.maxLength}
                     autoCorrect="on"
                     className={s.titleInput}
                     onChange={titleChangHandler}
@@ -635,14 +635,14 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                               LANGUAGE.addNewProductView.titleInput,
                             )}
                             pattern={languageDeterminer(
-                              GLOBAL.addNewProductView.pattern,
+                              GLOBAL.inputs.common.pattern,
                             )}
                             placeholder={languageDeterminer(
-                              LANGUAGE.signInView.inputPlaceholder,
+                              LANGUAGE.signInView.common.placeholder,
                             )}
                             autoComplete="given-name family-name"
-                            minLength={GLOBAL.addNewProductView.input.minLength}
-                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            minLength={GLOBAL.inputs.common.minLength}
+                            // maxLength={GLOBAL.inputs.common.maxLength}
                             value={detail.attribute_name}
                             className={s.input}
                             onChange={event =>
@@ -670,14 +670,14 @@ export default function EditRemovedProductView({ setProductsByTag }) {
                               LANGUAGE.addNewProductView.titleInput,
                             )}
                             pattern={languageDeterminer(
-                              GLOBAL.addNewProductView.pattern,
+                              GLOBAL.inputs.common.pattern,
                             )}
                             placeholder={languageDeterminer(
-                              LANGUAGE.signInView.inputPlaceholder,
+                              LANGUAGE.signInView.common.placeholder,
                             )}
                             autoComplete="given-name family-name"
-                            minLength={GLOBAL.addNewProductView.input.minLength}
-                            // maxLength={GLOBAL.addNewProductView.input.maxLength}
+                            minLength={GLOBAL.inputs.common.minLength}
+                            // maxLength={GLOBAL.inputs.common.maxLength}
                             value={detail.attribute_value}
                             className={s.input}
                             onChange={event =>
@@ -889,11 +889,11 @@ export function Description({
         name={id}
         rows="10"
         title={languageDeterminer(LANGUAGE.addNewProductView.titleInput)}
-        placeholder={languageDeterminer(LANGUAGE.signInView.inputPlaceholder)}
+        placeholder={languageDeterminer(LANGUAGE.signInView.common.placeholder)}
         defaultValue={description}
         autoComplete="given-name family-name"
-        minLength={GLOBAL.addNewProductView.input.minLength}
-        // maxLength={GLOBAL.addNewProductView.input.maxLength}
+        minLength={GLOBAL.inputs.common.minLength}
+        // maxLength={GLOBAL.inputs.common.maxLength}
         autoCorrect="on"
         className={s.textarea}
         onChange={callback}

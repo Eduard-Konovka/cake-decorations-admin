@@ -60,7 +60,7 @@ export default function SpecificProductView({
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [product, setProduct] = useState({});
+  const [product, setProduct] = useState(null);
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [tags, setTags] = useState([]);
   const [links, setLinks] = useState([]);
@@ -163,8 +163,11 @@ export default function SpecificProductView({
   }, [language, product, tagsDictionary, linksDictionary]);
 
   useEffect(() => {
+    if (!product) return;
     const description = document.querySelector('#description');
-    description.innerHTML = propertyWrapper(language, product, 'description');
+    if (description) {
+      description.innerHTML = propertyWrapper(language, product, 'description');
+    }
   }, [language, product]);
 
   const toggleModal = () => {

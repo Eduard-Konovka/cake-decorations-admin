@@ -6,9 +6,10 @@ import {
   useChangeGlobalState,
   updateUser,
   authSignInUser,
+  authStateChangeUser,
 } from 'state';
 import { Spinner, Button } from 'components';
-import { getLanguage } from 'functions';
+import { getLanguage, saveProfileToDatabase } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE, LOGIN } from 'constants';
 import avatar from 'assets/avatar.png';
@@ -46,28 +47,33 @@ export default function SignInView() {
     }));
   };
 
-  const handlePress = () => {
+  const handleLoginPress = () => {
     setLoading(true);
 
     if (!state.email || state.email === '') {
-      setLoading(false);
       toast.error(
         `${languageDeterminer(LOGIN.alert.noEmail.title)}: 
         ${languageDeterminer(LOGIN.alert.noEmail.description)}`,
       );
-    } else if (!state.password || state.password === '') {
+      setState(initialState);
       setLoading(false);
+    } else if (!state.password || state.password === '') {
       toast.error(
         `${languageDeterminer(LOGIN.alert.noPassword.title)}:
         ${languageDeterminer(LOGIN.alert.noPassword.description)}`,
       );
+      setState(initialState);
+      setLoading(false);
     } else {
+      changeGlobalState(authStateChangeUser);
       changeGlobalState(updateUser, { name: state.email });
       changeGlobalState(authSignInUser, {
         user: state,
         errorTitle: languageDeterminer(LOGIN.alert.authSignInUser),
       });
+      saveProfileToDatabase();
       setState(initialState);
+      setLoading(false);
     }
   };
 
@@ -81,62 +87,62 @@ export default function SignInView() {
 
           <form className={s.form}>
             <label htmlFor="email" className={s.label}>
-              {languageDeterminer(LANGUAGE.signInView.username)}
+              {languageDeterminer(LANGUAGE.signInView.email.label)}
             </label>
 
             <input
               id="email"
               name="email"
-              type="text"
-              title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-              placeholder={'Введідь ел. пошту...'}
+              type="email"
+              title={languageDeterminer(LANGUAGE.signInView.email.title)}
+              pattern={languageDeterminer(GLOBAL.inputs.email.pattern)}
+              placeholder={languageDeterminer(
+                LANGUAGE.signInView.email.placeholder,
+              )}
               autoComplete="email"
-              minLength={GLOBAL.signInView.input.minLength}
-              maxLength={GLOBAL.signInView.input.maxLength}
               className={s.input}
               onChange={handleEmailChange}
             />
 
             <label htmlFor="password" className={s.label}>
-              {languageDeterminer(LANGUAGE.signInView.username)}
+              {languageDeterminer(LANGUAGE.signInView.password.label)}
             </label>
 
             <input
               id="password"
               name="password"
-              type="text"
-              title={languageDeterminer(LANGUAGE.signInView.inputTitle)}
-              pattern={languageDeterminer(GLOBAL.signInView.pattern)}
+              type="password"
+              title={languageDeterminer(LANGUAGE.signInView.password.title)}
+              pattern={languageDeterminer(GLOBAL.inputs.password.pattern)}
               placeholder={languageDeterminer(
-                LANGUAGE.signInView.inputPlaceholder,
+                LANGUAGE.signInView.password.placeholder,
               )}
-              autoComplete="given-name family-name"
-              minLength={GLOBAL.signInView.input.minLength}
-              maxLength={GLOBAL.signInView.input.maxLength}
+              autoComplete="current-password"
+              minLength={GLOBAL.inputs.password.minLength}
+              maxLength={GLOBAL.inputs.password.maxLength}
               className={s.input}
               onChange={handlePasswordChange}
             />
 
             <Button
-              title={languageDeterminer(LANGUAGE.signInView.buttonTitle)}
+              title={languageDeterminer(LANGUAGE.signInView.button.title)}
               type="button"
               typeForm="signin"
               disabled={
-                state.email.length < GLOBAL.signInView.input.minLength ||
-                state.email.length > GLOBAL.signInView.input.maxLength ||
-                state.password.length < GLOBAL.signInView.input.minLength ||
-                state.password.length > GLOBAL.signInView.input.maxLength
+                state.password.length < GLOBAL.inputs.password.minLength ||
+                state.password.length > GLOBAL.inputs.password.maxLength
               }
-              onClick={handlePress}
+              onClick={handleLoginPress}
             >
-              {state.email.length >= GLOBAL.signInView.input.minLength &&
-              state.email.length <= GLOBAL.signInView.input.maxLength ? (
+              {state.email.length > 5 &&
+              state.password.length >= GLOBAL.inputs.password.minLength &&
+              state.password.length <= GLOBAL.inputs.password.maxLength ? (
                 <Link to="/categories" className={s.btnLink}>
-                  {languageDeterminer(LANGUAGE.signInView.buttonText)}
+                  {languageDeterminer(LANGUAGE.signInView.button.text)}
                 </Link>
               ) : (
                 <p className={s.btnLink}>
-                  {languageDeterminer(LANGUAGE.signInView.buttonText)}
+                  {languageDeterminer(LANGUAGE.signInView.button.text)}
                 </p>
               )}
             </Button>

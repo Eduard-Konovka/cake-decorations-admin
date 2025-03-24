@@ -5,18 +5,6 @@ const actions = {
     updatedState.auth.name = payload.name;
     return updatedState;
   },
-
-  authSignOut: (state, payload) => {
-    const updatedState = { ...state };
-    updatedState.auth = payload;
-    return updatedState;
-  },
-
-  authStateChange: (state, payload) => {
-    const updatedState = { ...state };
-    updatedState.auth.stateChange = payload;
-    return updatedState;
-  },
 };
 
-export const { updateUserProfile, authSignOut, authStateChange } = actions;
+export const { updateUserProfile } = actions;

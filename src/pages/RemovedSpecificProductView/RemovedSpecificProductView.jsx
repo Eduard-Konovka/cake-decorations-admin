@@ -61,7 +61,7 @@ export default function RemovedSpecificProductView({
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [removedProduct, setRemovedProduct] = useState({});
+  const [removedProduct, setRemovedProduct] = useState(null);
   const [mainImageIdx, setMainImageIdx] = useState(0);
   const [tags, setTags] = useState([]);
   const [links, setLinks] = useState([]);
@@ -166,12 +166,15 @@ export default function RemovedSpecificProductView({
   }, [language, removedProduct, tagsDictionary, linksDictionary]);
 
   useEffect(() => {
+    if (!removedProduct) return;
     const description = document.querySelector('#description');
-    description.innerHTML = propertyWrapper(
-      language,
-      removedProduct,
-      'description',
-    );
+    if (description) {
+      description.innerHTML = propertyWrapper(
+        language,
+        removedProduct,
+        'description',
+      );
+    }
   }, [language, removedProduct]);
 
   const toggleModal = () => {

@@ -244,9 +244,25 @@ export const LANGUAGE = {
   },
 
   notFoundView: {
-    eng: 'Check the correctness of the entered in the address bar',
-    ukr: 'Перевірте правильність введеного в адресному рядку',
-    rus: 'Проверьте правильность введенной в адресной строке',
+    pageTitle: {
+      eng: 'Check the correctness of the entered in the address bar',
+      ukr: 'Перевірте правильність введеного в адресному рядку',
+      rus: 'Проверьте правильность введенной в адресной строке',
+    },
+
+    redirect: {
+      title: {
+        eng: 'Go to the main page',
+        ukr: 'Перейти на головну сторінку',
+        rus: 'Перейти на главную страницу',
+      },
+
+      text: {
+        eng: 'Main page',
+        ukr: 'Головна сторінка',
+        rus: 'Главная страница',
+      },
+    },
   },
 
   order: {
@@ -388,34 +404,58 @@ export const LANGUAGE = {
   },
 
   signInView: {
-    username: {
-      eng: 'Username:',
-      ukr: 'Ім’я користувача:',
-      rus: 'Имя пользователя:',
+    email: {
+      label: {
+        eng: 'Email:',
+        ukr: 'Електронна пошта:',
+        rus: 'Электронная почта:',
+      },
+
+      title: {
+        eng: 'Enter a valid email. It must contain @ and a domain. For example, example@email.com',
+        ukr: 'Введіть коректну електронну пошту. Вона повинна містити @ і домен. Наприклад, example@email.com',
+        rus: 'Введите корректную электронную почту. Она должна содержать @ и домен. К примеру, example@email.com',
+      },
+
+      placeholder: {
+        eng: 'Enter your email...',
+        ukr: 'Введіть вашу пошту...',
+        rus: 'Введите вашу почту...',
+      },
     },
 
-    inputTitle: {
-      eng: 'The length of the name must not be less than 4 and more than 16 characters. The name can only consist of letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d’Artagnan, etc.',
-      ukr: 'Довжина імені не повинна бути менше 4 і більше 16 символів. Ім’я може складатися лише з букв, апострофа, тире та пробілів. Наприклад, Адріан, Якоб Мерсер, Шарль де Бац де Кастельмор д’Артаньян тощо.',
-      rus: "Длина имени не должна быть менее 4 и более 16 символов. Имя может состоять только из букв, апострофа, тире и пробелов. Например, Адриан, Якоб Мерсер, Шарль де Бац де Кастельмор д'Артаньян и т.д.",
+    password: {
+      label: {
+        eng: 'Password:',
+        ukr: 'Пароль:',
+        rus: 'Пароль:',
+      },
+
+      title: {
+        eng: 'The password must be between 8 and 128 characters long, including uppercase and lowercase letters, numbers, and special characters.',
+        ukr: 'Пароль має містити від 8 до 128 символів, включаючи великі та малі літери, цифри та спеціальні символи.',
+        rus: 'Пароль должен содержать от 8 до 128 символов, включая прописные и строчные буквы, цифры и специальные символы.',
+      },
+
+      placeholder: {
+        eng: 'Enter your password...',
+        ukr: 'Введіть ваш пароль...',
+        rus: 'Введите ваш пароль...',
+      },
     },
 
-    inputPlaceholder: {
-      eng: 'Enter your name...',
-      ukr: 'Введіть ім’я...',
-      rus: 'Введите имя...',
-    },
+    button: {
+      title: {
+        eng: 'Sign in to your account',
+        ukr: 'Увійдіть у свій обліковий запис',
+        rus: 'Войдите в свой аккаунт',
+      },
 
-    buttonTitle: {
-      eng: 'Sign in to your account',
-      ukr: 'Увійдіть у свій обліковий запис',
-      rus: 'Войдите в свой аккаунт',
-    },
-
-    buttonText: {
-      eng: 'Sign in',
-      ukr: 'Увійти',
-      rus: 'Войти',
+      text: {
+        eng: 'Sign in',
+        ukr: 'Увійти',
+        rus: 'Войти',
+      },
     },
   },
 

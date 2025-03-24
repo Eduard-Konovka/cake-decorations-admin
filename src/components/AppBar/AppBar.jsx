@@ -12,6 +12,7 @@ import { Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
+import { auth } from 'db';
 import logo from 'assets/logo.jpg';
 import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
@@ -21,6 +22,7 @@ export default function AppBar({ setDefaultsProducts }) {
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
+
   const newOrders = orders?.filter(
     order => order.type === GLOBAL.ordersTypes.new,
   );
@@ -59,7 +61,7 @@ export default function AppBar({ setDefaultsProducts }) {
         </div>
 
         <div className={s.controlBox}>
-          {user.name ? (
+          {auth.currentUser ? (
             <div className={s.userbar}>
               <Button
                 title={languageDeterminer(LANGUAGE.appBar.signOut.title)}
@@ -120,7 +122,7 @@ export default function AppBar({ setDefaultsProducts }) {
       </div>
 
       <nav className={s.nav}>
-        {user.name && (
+        {auth.currentUser && (
           <>
             <NavLink
               title={languageDeterminer(LANGUAGE.appBar.categoriesLink)}
