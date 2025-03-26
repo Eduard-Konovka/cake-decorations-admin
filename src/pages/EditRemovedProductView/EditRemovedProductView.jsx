@@ -427,7 +427,11 @@ export default function EditRemovedProductView({ setProductsByTag }) {
           imagesIds.push(newImage.id);
         } catch (error) {
           setLoading(false);
-          toast.error(`Error of addImages(): ${error.message}`); // FIXME
+          toast.error(
+            `${languageDeterminer(LANGUAGE.toastErrors.imageUploading)}: ${
+              error.message
+            }`,
+          );
           break;
         }
       } else {

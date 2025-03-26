@@ -47,6 +47,12 @@ export const LANGUAGE = {
       ukr: 'Не вдалося завантажити посилання',
       rus: 'Не удалось загрузить ccылки',
     },
+
+    imageUploading: {
+      eng: 'Failed to upload image',
+      ukr: 'Не вдалося завантажити зображення',
+      rus: 'Не удалось загрузить изображение',
+    },
   },
 
   logoAlt: {
