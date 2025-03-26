@@ -27,7 +27,7 @@ export async function deleteProduct(
     .catch(error =>
       toast.error(
         `${languageDeterminer(
-          LANGUAGE.toastErrors.gettingProducts,
+          LANGUAGE.toastErrors.productsGetting,
         )}:\n${error}`,
       ),
     );
@@ -43,7 +43,7 @@ export async function deleteProduct(
     .catch(error =>
       toast.error(
         `${languageDeterminer(
-          LANGUAGE.toastErrors.gettingRemovedProducts,
+          LANGUAGE.toastErrors.removedProductsGetting,
         )}:\n${error}`,
       ),
     );

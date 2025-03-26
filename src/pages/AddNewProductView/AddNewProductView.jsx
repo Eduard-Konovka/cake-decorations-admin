@@ -45,7 +45,7 @@ export default function AddNewProductView() {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingCategories,
+              LANGUAGE.toastErrors.categoriesGetting,
             )}:\n${error}`,
           ),
         );
@@ -328,7 +328,7 @@ export default function AddNewProductView() {
       .catch(error =>
         toast.error(
           `${languageDeterminer(
-            LANGUAGE.toastErrors.gettingProducts,
+            LANGUAGE.toastErrors.productsGetting,
           )}:\n${error}`,
         ),
       );

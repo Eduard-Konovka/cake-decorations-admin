@@ -83,7 +83,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingCategories,
+              LANGUAGE.toastErrors.categoriesGetting,
             )}:\n${error}`,
           ),
         );
@@ -137,7 +137,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingTags,
+              LANGUAGE.toastErrors.tagsGetting,
             )}:\n${error}`,
           ),
         );
@@ -151,7 +151,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingLinks,
+              LANGUAGE.toastErrors.linksGetting,
             )}:\n${error}`,
           ),
         );
@@ -477,7 +477,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
       .catch(error =>
         toast.error(
           `${languageDeterminer(
-            LANGUAGE.toastErrors.gettingProducts,
+            LANGUAGE.toastErrors.productsGetting,
           )}:\n${error}`,
         ),
       );

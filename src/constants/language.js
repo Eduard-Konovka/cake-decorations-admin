@@ -18,31 +18,31 @@ export const LANGUAGE = {
   },
 
   toastErrors: {
-    gettingCategories: {
+    categoriesGetting: {
       eng: 'Unable to load product categories',
       ukr: 'Не вдалося завантажити категорії товарів',
       rus: 'Не удалось загрузить категории товаров',
     },
 
-    gettingProducts: {
+    productsGetting: {
       eng: 'Failed to load the products',
       ukr: 'Не вдалося завантажити товари',
       rus: 'Не удалось загрузить товары',
     },
 
-    gettingRemovedProducts: {
+    removedProductsGetting: {
       eng: 'Failed to load deleted products',
       ukr: 'Не вдалося завантажити видалені товари',
       rus: 'Не удалось загрузить удаленные товары',
     },
 
-    gettingTags: {
+    tagsGetting: {
       eng: 'Failed to load the tags',
       ukr: 'Не вдалося завантажити теги',
       rus: 'Не удалось загрузить теги',
     },
 
-    gettingLinks: {
+    linksGetting: {
       eng: 'Failed to load the links',
       ukr: 'Не вдалося завантажити посилання',
       rus: 'Не удалось загрузить ccылки',

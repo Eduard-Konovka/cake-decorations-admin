@@ -91,7 +91,7 @@ export default function RemovedSpecificProductView({
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingCategories,
+              LANGUAGE.toastErrors.categoriesGetting,
             )}:\n${error}`,
           ),
         );
@@ -120,7 +120,7 @@ export default function RemovedSpecificProductView({
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingTags,
+              LANGUAGE.toastErrors.tagsGetting,
             )}:\n${error}`,
           ),
         );
@@ -134,7 +134,7 @@ export default function RemovedSpecificProductView({
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingLinks,
+              LANGUAGE.toastErrors.linksGetting,
             )}:\n${error}`,
           ),
         );
@@ -242,8 +242,8 @@ export default function RemovedSpecificProductView({
       .catch(error =>
         toast.error(
           `${languageDeterminer(
-            // FIXME: change gettingProducts to gettingRemovedProducts
-            LANGUAGE.toastErrors.gettingProducts,
+            // FIXME: change productsGetting to removedProductsGetting
+            LANGUAGE.toastErrors.productsGetting,
           )}:\n${error}`,
         ),
       );

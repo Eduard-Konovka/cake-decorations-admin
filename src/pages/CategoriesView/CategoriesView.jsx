@@ -63,7 +63,7 @@ export default function CategoriesView({ setProductsByCategory }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingProducts,
+              LANGUAGE.toastErrors.productsGetting,
             )}:\n${error}`,
           ),
         );
@@ -80,7 +80,7 @@ export default function CategoriesView({ setProductsByCategory }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingTags,
+              LANGUAGE.toastErrors.tagsGetting,
             )}:\n${error}`,
           ),
         );
@@ -94,7 +94,7 @@ export default function CategoriesView({ setProductsByCategory }) {
         .catch(error =>
           toast.error(
             `${languageDeterminer(
-              LANGUAGE.toastErrors.gettingLinks,
+              LANGUAGE.toastErrors.linksGetting,
             )}:\n${error}`,
           ),
         );
