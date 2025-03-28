@@ -4,7 +4,7 @@ export { getPureArr } from './getPureArr';
 export { getTags } from './getTags';
 export { pageUp } from './pageUp';
 export { restoreRemovedProduct } from './restoreRemovedProduct';
-export { saveProfileToDatabase } from './saveProfileToDatabase';
+export { getProfileFromDatabase } from './getProfileFromDatabase';
 export { storeLanguage } from './storeLanguage';
 export { deleteProduct } from './deleteProduct';
 export { deleteRemovedProduct } from './deleteRemovedProduct';

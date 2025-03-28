@@ -15,14 +15,6 @@ const actions = {
     return updatedState;
   },
 
-  updateUser: (state, payload) => {
-    localStorage.setItem('user', JSON.stringify(payload));
-
-    const updatedState = { ...state };
-    updatedState.global.user = payload;
-    return updatedState;
-  },
-
   updateCategories: (state, payload) => {
     const updatedState = { ...state };
     updatedState.global.categories = payload;
@@ -65,7 +57,6 @@ const actions = {
 export const {
   updateLanguage,
   updateMainHeight,
-  updateUser,
   updateCategories,
   updateProducts,
   updateRemovedProducts,

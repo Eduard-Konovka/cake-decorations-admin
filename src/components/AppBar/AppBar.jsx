@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import {
   useGlobalState,
   useChangeGlobalState,
-  updateUser,
   updateLanguage,
   authSignOutUser,
 } from 'state';
@@ -18,7 +17,8 @@ import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
 export default function AppBar({ setDefaultsProducts }) {
-  const { user, language, orders } = useGlobalState('global');
+  const { language, orders } = useGlobalState('global');
+  const { user } = useGlobalState('auth');
   const changeGlobalState = useChangeGlobalState();
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
@@ -29,7 +29,6 @@ export default function AppBar({ setDefaultsProducts }) {
 
   const signOut = () => {
     changeGlobalState(authSignOutUser);
-    changeGlobalState(updateUser, {});
   };
 
   return (
@@ -75,7 +74,7 @@ export default function AppBar({ setDefaultsProducts }) {
 
               <img
                 className={s.avatar}
-                src={user.avatar ?? defaultAvatar}
+                src={user?.avatar?.length > 0 ? user.avatar : defaultAvatar}
                 alt={languageDeterminer(LANGUAGE.appBar.avatarAlt)}
               />
 
@@ -83,7 +82,9 @@ export default function AppBar({ setDefaultsProducts }) {
             </div>
           ) : (
             <p className={s.user}>
-              {languageDeterminer(LANGUAGE.appBar.hello)}
+              {auth.currentUser
+                ? user?.firstName
+                : languageDeterminer(LANGUAGE.appBar.hello)}
             </p>
           )}
 

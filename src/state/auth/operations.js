@@ -5,13 +5,23 @@ import {
 } from 'firebase/auth';
 import { auth } from 'db';
 import { updateUserProfile } from './actions';
+import { getProfileFromDatabase } from 'functions';
+import { initialUser } from 'state';
 import { toast } from 'react-toastify';
 
-export const authSignInUser = async (state, { user, errorTitle }) => {
+export const authSignInUser = async (
+  state,
+  { user, errorTitle },
+  changeGlobalState,
+) => {
   const { email, password } = user;
 
   try {
     await signInWithEmailAndPassword(auth, email, password);
+
+    const newUser = await getProfileFromDatabase(auth.currentUser.uid);
+
+    return changeGlobalState(updateUserProfile, newUser);
   } catch (error) {
     toast.error(`${errorTitle}: ${error.message}`);
   }
@@ -20,27 +30,18 @@ export const authSignInUser = async (state, { user, errorTitle }) => {
 export const authSignOutUser = async (state, payload, changeGlobalState) => {
   await signOut(auth);
 
-  const initialState = {
-    name: null,
-    userId: null,
-  };
-
-  changeGlobalState(updateUserProfile, initialState);
+  return changeGlobalState(updateUserProfile, initialUser);
 };
 
-export const authStateChangeUser = async (
-  state,
-  payload,
-  changeGlobalState,
-) => {
+export const authStateChange = async (state, payload, changeGlobalState) => {
   await onAuthStateChanged(auth, user => {
     if (user) {
-      const userUpdateProfile = {
-        name: user.displayName,
-        userId: user.uid,
+      const newUser = {
+        uid: user.uid,
+        fullName: user.displayName,
       };
 
-      changeGlobalState(updateUserProfile, userUpdateProfile);
+      changeGlobalState(updateUserProfile, newUser);
     }
   });
 };

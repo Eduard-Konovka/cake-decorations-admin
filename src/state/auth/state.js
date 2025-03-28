@@ -1,4 +1,16 @@
+export const initialUser = {
+  uid: null,
+  avatar: '',
+  firstName: '',
+  lastName: '',
+  fullName: '',
+  phone: '',
+  locality: '',
+  address: '',
+  delivery: '',
+  email: '',
+};
+
 export const auth = {
-  name: null,
-  userId: null,
+  user: JSON.parse(localStorage.getItem('user')) || { ...initialUser },
 };

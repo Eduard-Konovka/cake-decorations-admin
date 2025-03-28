@@ -409,7 +409,127 @@ export const LANGUAGE = {
     },
   },
 
-  signInView: {
+  authorizationViews: {
+    firstName: {
+      label: {
+        eng: 'First name:',
+        ukr: 'Ім’я:',
+        rus: 'Имя:',
+      },
+
+      title: {
+        eng: 'The name length must be at least 4 and no more than 16 characters. The name can only consist of letters, apostrophes, dashes, and spaces. For example, Adrian, Jean-Claude, D’Angelo, etc.',
+        ukr: 'Довжина імені не повинна бути менше 4 і більше 16 символів. Ім’я може складатися лише з букв, апострофа, тире та пробілів. Наприклад, Адріан, Жан-Клод, Д’Анджело тощо',
+        rus: 'Длина имени не должна быть менее 4 и более 16 символов. Имя может состоять только из букв, апострофа, тире и пробелов. Например, Адриан, Жан-Клод, Д’Анджело и т.д.',
+      },
+
+      placeholder: {
+        eng: 'Enter your name...',
+        ukr: 'Введіть ім’я...',
+        rus: 'Введите имя...',
+      },
+    },
+
+    lastName: {
+      label: {
+        eng: 'Last name:',
+        ukr: 'Прізвище:',
+        rus: 'Фамилия:',
+      },
+
+      title: {
+        eng: 'The length of the surname should not be less than 4 and more than 16 characters. The surname can consist only of letters, apostrophes, dashes and spaces. For example, Antonenko, Karpenko-Kary, de Castelmore, d’Artagnan, O’Brien, etc.',
+        ukr: 'Довжина прізвища не повинна бути менше 4 і більше 16 символів. Прізвище може складатися лише з букв, апострофа, тире та пробілів. Наприклад, Антоненко, Карпенко-Карий, де Кастельмор, д’Артаньян, О’Браєн тощо',
+        rus: 'Длина фамилии не должна быть менее 4 и более 16 символов. Фамилия может состоять только из букв, апострофа, тире и пробелов. Например, Антоненко, Карпенко-Карий, де Кастельмор, д’Артаньян, О’Брайен и т.д.',
+      },
+
+      placeholder: {
+        eng: 'Enter your last name...',
+        ukr: 'Введіть прізвище...',
+        rus: 'Введите фамилию...',
+      },
+    },
+
+    phone: {
+      label: {
+        eng: 'Phone:',
+        ukr: 'Телефон:',
+        rus: 'Телефон:',
+      },
+
+      title: {
+        eng: 'The phone number must contain 7 to 15 digits. Only numbers, spaces, hyphens, parentheses, and the "+" sign are allowed. For example: +380 67 123-45-67, (044) 123-4567',
+        ukr: 'Номер телефону повинен містити від 7 до 15 цифр. Дозволені лише цифри, пробіли, дефіси, круглі дужки та знак "+". Наприклад: +380 67 123-45-67, (044) 123-4567',
+        rus: 'Номер телефона должен содержать от 7 до 15 цифр. Разрешены только цифры, пробелы, дефисы, круглые скобки и знак "+". Например: +380 67 123-45-67, (044) 123-4567',
+      },
+
+      placeholder: {
+        eng: 'Enter your phone...',
+        ukr: 'Введіть телефон...',
+        rus: 'Введите телефон...',
+      },
+    },
+
+    locality: {
+      label: {
+        eng: 'Locality (city, village):',
+        ukr: 'Населений пункт (місто, село):',
+        rus: 'Населенный пункт (город, село):',
+      },
+
+      title: {
+        eng: 'The length of the name of the settlement should not be less than 4 and more than 16 characters. The settlement can consist only of letters, apostrophes, dashes and spaces. For example, Odesa, Ivano-Frankivsk, Kryvyi Rih, etc.',
+        ukr: 'Довжина назви населенного пункту не повинна бути менше 4 і більше 16 символів. Населений пункт може складатися лише з букв, апострофа, тире та пробілів. Наприклад, Одеса, Івано-Франківськ, Кривий Ріг тощо',
+        rus: 'Длина названия населенного пункта не должна быть менее 4 и более 16 символов. Населенный пункт может состоять только из букв, апострофа, тире и пробелов. Например, Одесса, Ивано-Франковск, Кривой Рог и т.п.',
+      },
+
+      placeholder: {
+        eng: 'Enter the settlement...',
+        ukr: 'Введіть населений пункт...',
+        rus: 'Введите населенный пункт...',
+      },
+    },
+
+    address: {
+      label: {
+        eng: 'Courier delivery address (street, house number, apartment):',
+        ukr: 'Адреса курʼєрської доставки (вулиця, номер будинку, квартири):',
+        rus: 'Адрес курьерской доставки (улица, номер дома, квартиры):',
+      },
+
+      title: {
+        eng: 'Enter the address for courier delivery: street, house number and apartment (if necessary). For example: 10 Shevchenko St., apt. 25 or 45 Nezalezhnosti Ave.',
+        ukr: 'Введіть адресу для кур’єрської доставки: вулиця, номер будинку та квартири (за потреби). Наприклад: вул. Шевченка, 10, кв. 25 або просп. Незалежності, 45',
+        rus: 'Введите адрес для курьерской доставки: улица, номер дома и квартиры (при необходимости). К примеру: ул. Шевченко, 10, кв. 25 или просп. Независимости, 45',
+      },
+
+      placeholder: {
+        eng: 'Enter your address...',
+        ukr: 'Введіть адресу...',
+        rus: 'Введите адрес...',
+      },
+    },
+
+    delivery: {
+      label: {
+        eng: 'Branch or post box "Nova Poshta":',
+        ukr: 'Відділення або поштомат "Нової пошти":',
+        rus: 'Отделение или почтомат "Новой почты":',
+      },
+
+      title: {
+        eng: 'Enter the number or address of the Nova Poshta branch or ATM. For example: 25, 101, 200/1 or 15637 (22 Khreshchatyk St.)',
+        ukr: 'Введіть номер або адресу відділення чи поштомату "Нової пошти". Наприклад: 25, 101, 200/1 або 15637 (вул. Хрещатик, 22)',
+        rus: 'Введите номер или адрес отделения или почтовой почты "Новой почты". Например: 25, 101, 200/1 или 15637 (ул. Крещатик, 22)',
+      },
+
+      placeholder: {
+        eng: 'Enter the branch or post box number...',
+        ukr: 'Введіть № відділення або поштомату...',
+        rus: 'Введите № отделения или почтомата...',
+      },
+    },
+
     email: {
       label: {
         eng: 'Email:',
@@ -425,8 +545,8 @@ export const LANGUAGE = {
 
       placeholder: {
         eng: 'Enter your email...',
-        ukr: 'Введіть вашу пошту...',
-        rus: 'Введите вашу почту...',
+        ukr: 'Введіть пошту...',
+        rus: 'Введите почту...',
       },
     },
 
@@ -445,12 +565,18 @@ export const LANGUAGE = {
 
       placeholder: {
         eng: 'Enter your password...',
-        ukr: 'Введіть ваш пароль...',
-        rus: 'Введите ваш пароль...',
+        ukr: 'Введіть пароль...',
+        rus: 'Введите пароль...',
       },
     },
 
-    button: {
+    separator: {
+      eng: 'or',
+      ukr: 'або',
+      rus: 'или',
+    },
+
+    signInButton: {
       title: {
         eng: 'Sign in to your account',
         ukr: 'Увійдіть у свій обліковий запис',
@@ -461,6 +587,76 @@ export const LANGUAGE = {
         eng: 'Sign in',
         ukr: 'Увійти',
         rus: 'Войти',
+      },
+    },
+
+    signUpButton: {
+      title: {
+        eng: 'Register your account',
+        ukr: 'Зареєструйте свій обліковий запис',
+        rus: 'Зарегистрируйте свой аккаунт',
+      },
+
+      text: {
+        eng: 'Sign up',
+        ukr: 'Зареєструватися',
+        rus: 'Зарегистрироваться',
+      },
+    },
+
+    alert: {
+      noFirstName: {
+        eng: 'Please fill in the name field',
+        ukr: 'Будь ласка, заповніть поле імені',
+        rus: 'Пожалуйста, заполните поле имени',
+      },
+
+      noLastName: {
+        eng: 'Please fill in the last name field',
+        ukr: 'Будь ласка, заповніть поле прізвища',
+        rus: 'Пожалуйста, заполните поле фамилии',
+      },
+
+      noPhone: {
+        eng: 'Please fill in the phone number field',
+        ukr: 'Будь ласка, заповніть поле номеру телефону',
+        rus: 'Пожалуйста, заполните поле телефонного номера',
+      },
+
+      noLocality: {
+        eng: 'Please fill in the settlement field',
+        ukr: 'Будь ласка, заповніть поле населеного пункту',
+        rus: 'Пожалуйста, заполните поле населенного пункта',
+      },
+
+      noAddress: {
+        eng: 'Please fill in the courier delivery address field',
+        ukr: 'Будь ласка, заповніть поле адреси курʼєрської доставки',
+        rus: 'Пожалуйста, заполните поле адреса курьерской доставки',
+      },
+
+      noDelivery: {
+        eng: 'Please fill in the field for the branch or post box of "Nova Poshta"',
+        ukr: 'Будь ласка, заповніть поле відділення або поштомату "Нової пошти"',
+        rus: 'Пожалуйста, заполните поле отделения или почтомата "Новой почты"',
+      },
+
+      noEmail: {
+        eng: 'Please fill in the email field',
+        ukr: 'Будь ласка, заповніть поле електронної пошти',
+        rus: 'Пожалуйста, заполните поле электронной почты',
+      },
+
+      noPassword: {
+        eng: 'Please fill in the password field',
+        ukr: 'Будь ласка, заповніть поле пароля',
+        rus: 'Пожалуйста, заполните поле пароля',
+      },
+
+      authSignInUser: {
+        eng: 'Authorization Error',
+        ukr: 'Помилка авторизації',
+        rus: 'Ошибка авторизации',
       },
     },
   },

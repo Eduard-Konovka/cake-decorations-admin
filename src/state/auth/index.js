@@ -1,6 +1,2 @@
-export { auth } from './state';
-export {
-  authSignInUser,
-  authSignOutUser,
-  authStateChangeUser,
-} from './operations';
+export { initialUser, auth } from './state';
+export { authSignInUser, authSignOutUser, authStateChange } from './operations';
