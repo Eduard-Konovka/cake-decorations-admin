@@ -8,8 +8,9 @@ import s from './CategoriesList.module.css';
 const ALL_PRODUCTS = {
   _id: 'allProducts',
   title: {
-    ua: 'Всі категорії',
-    ru: 'Все категории',
+    ua: 'Всі товари',
+    ru: 'Все товары',
+    en: 'All products',
   },
   image: allProducts,
 };

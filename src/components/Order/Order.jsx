@@ -34,7 +34,7 @@ export default function Order({ order }) {
       <div className={s.priceBox}>
         <p className={s.totalCost}>
           {languageDeterminer(LANGUAGE.orderBar.user)}
-          {order.uid}
+          {order.customer.fullName}
         </p>
 
         <p className={s.totalCost}>
