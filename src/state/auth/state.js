@@ -3,7 +3,6 @@ export const initialUser = {
   avatar: '',
   firstName: '',
   lastName: '',
-  fullName: '',
   phone: '',
   locality: '',
   address: '',

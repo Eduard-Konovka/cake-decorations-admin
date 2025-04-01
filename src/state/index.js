@@ -9,10 +9,5 @@ export {
   updateLinksDictionary,
   updateOrders,
 } from './global';
-export {
-  initialUser,
-  authSignInUser,
-  authSignOutUser,
-  authStateChange,
-} from './auth';
+export { initialUser, authSignInUser, authSignOutUser } from './auth';
 export { default as GlobalState } from './GlobalState.jsx';

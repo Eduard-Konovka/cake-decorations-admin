@@ -1,8 +1,4 @@
-import {
-  signInWithEmailAndPassword,
-  onAuthStateChanged,
-  signOut,
-} from 'firebase/auth';
+import { signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from 'db';
 import { updateUserProfile } from './actions';
 import { getProfileFromDatabase } from 'functions';
@@ -31,17 +27,4 @@ export const authSignOutUser = async (state, payload, changeGlobalState) => {
   await signOut(auth);
 
   return changeGlobalState(updateUserProfile, initialUser);
-};
-
-export const authStateChange = async (state, payload, changeGlobalState) => {
-  await onAuthStateChanged(auth, user => {
-    if (user) {
-      const newUser = {
-        uid: user.uid,
-        fullName: user.displayName,
-      };
-
-      changeGlobalState(updateUserProfile, newUser);
-    }
-  });
 };
