@@ -1,117 +1,119 @@
-.priceBox {
+.statsBox {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1.25vw 2.5vw 0 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 1.25vw;
 }
 
 @media screen and (min-width: 320px) {
-  .priceBox {
-    padding: 4px 8px 0 0;
+  .statsBox {
+    padding-top: 4px;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .priceBox {
-    padding: 6px 12px 0 0;
+  .statsBox {
+    padding-top: 6px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .priceBox {
-    padding: 8px 16px 0 0;
+  .statsBox {
+    padding-top: 8px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .priceBox {
-    padding: 10px 20px 0 0;
+  .statsBox {
+    padding-top: 10px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .priceBox {
-    padding: 0.625vw 1.25vw 0 0;
+  .statsBox {
+    padding-top: 0.16vw;
   }
 }
 
-.btn {
-  margin-left: 8px;
-}
-
-@media screen and (min-width: 320px) {
-  .btn {
-    margin-left: 16px;
-  }
-}
-
-@media screen and (min-width: 420px) {
-  .btn {
-    margin-left: 20px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .btn {
-    margin-left: 30px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .btn {
-    margin-left: 32px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .btn {
-    margin-left: 2vw;
-  }
-}
-
-.totalCost {
-  margin: 0 8px;
+.statsFirstItem {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.8rem 8px 0;
   font-size: 5vw;
   font-weight: 700;
 }
 
 @media screen and (min-width: 320px) {
-  .totalCost {
-    margin: 0 16px;
+  .statsFirstItem {
+    margin-top: 0.8rem;
+    margin-left: 16px;
+    margin-right: 16px;
     font-size: 15px;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .totalCost {
-    margin: 0 20px;
+  .statsFirstItem {
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 17px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .totalCost {
-    margin: 0 30px;
+  .statsFirstItem {
+    margin-left: 30px;
+    margin-right: 30px;
     font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .totalCost {
-    margin: 0 32px;
+  .statsFirstItem {
+    margin-left: 0;
+    margin-right: 0;
     font-size: 22px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .totalCost {
-    margin: 0 2vw;
+  .statsFirstItem {
     font-size: 1.375vw;
   }
 }
 
+.statsSecondItem {
+  composes: statsFirstItem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+.statsTitle {
+  margin: 0 0.5rem 0 0;
+}
+
+.customerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.statsDescription {
+  margin: 0;
+  font-weight: 500;
+}
+
+.btn {
+  margin-right: 0.5rem;
+}
+
 /*#region BAR */
-.bar {
+.statsThirdItem {
   display: flex;
   justify-content: center;
 
@@ -124,26 +126,26 @@
 }
 
 @media screen and (min-width: 320px) {
-  .bar {
+  .statsThirdItem {
     padding: 10px 0 10px 10px;
     border-radius: 8px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .bar {
+  .statsThirdItem {
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .bar {
+  .statsThirdItem {
     width: auto;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .bar {
+  .statsThirdItem {
     padding: 0.625vw 0 0.625vw 0.625vw;
     border-radius: 0.625vw;
   }
@@ -151,10 +153,15 @@
 /*#endregion BAR */
 
 /*#region BAR_ELEMENT */
-.barElement {
+.formElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 4.8vw;
+  color: #503030;
 
   height: 8vw;
   border-radius: 1vw;
@@ -162,7 +169,7 @@
 }
 
 @media screen and (min-width: 320px) {
-  .barElement {
+  .formElement {
     font-size: 14px;
     height: 24px;
 
@@ -171,34 +178,34 @@
 }
 
 @media screen and (min-width: 420px) {
-  .barElement {
+  .formElement {
     font-size: 16px;
     height: 28px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .barElement {
+  .formElement {
     height: 30px;
     border-radius: 8px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .barElement {
+  .formElement {
     height: 32px;
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .barElement {
+  .formElement {
     height: 36px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .barElement {
+  .formElement {
     font-size: 1vw;
     border-radius: 0.625vw;
     margin-right: 0.625vw;
@@ -206,8 +213,8 @@
 }
 /*#endregion BAR_ELEMENT */
 
-.typeLabel {
-  composes: barElement;
+.label {
+  composes: formElement;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,7 +223,7 @@
 }
 
 .select {
-  composes: barElement;
+  composes: formElement;
   background-color: var(--secondary-color);
   color: #705050;
   font-weight: 400;

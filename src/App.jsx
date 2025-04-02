@@ -8,6 +8,7 @@ import {
   updateMainHeight,
   updateOrders,
 } from 'state';
+import { fetchCollection } from 'api';
 import {
   Container,
   AppBar,
@@ -106,6 +107,15 @@ export default function App() {
     });
   }, [changeGlobalState]);
 
+  useEffect(() => {
+    fetchCollection('orders').then(orders => {
+      orders.sort(
+        (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+      );
+      changeGlobalState(updateOrders, orders);
+    });
+  }, [changeGlobalState]);
+
   // FIXME: changeCount()???
   function changeCount(obj) {
     const setCount = item => {
@@ -119,11 +129,6 @@ export default function App() {
         product._id === obj._id ? setCount(product) : product,
       ),
     );
-  }
-
-  function removeFromCart(_id) {
-    const newCart = orders.filter(obj => obj._id !== _id);
-    changeGlobalState(updateOrders, newCart);
   }
 
   return (
@@ -253,10 +258,7 @@ export default function App() {
             path="/orders"
             element={
               <PrivateRoute>
-                <OrdersView
-                  changeSelectCount={changeCount}
-                  onDeleteProduct={removeFromCart}
-                />
+                <OrdersView />
               </PrivateRoute>
             }
           />

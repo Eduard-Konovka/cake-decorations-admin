@@ -6,7 +6,7 @@
 
 .item {
   width: 100%;
-  padding: 2vw 2.5vw;
+  padding: 2.5vw;
   border-radius: 8px;
   box-shadow: var(--primery-box-shadow);
   background-color: #fff3f8;
@@ -15,14 +15,14 @@
 
 @media screen and (min-width: 320px) {
   .item {
-    padding: 5px 8px;
+    padding: 8px;
     margin-top: 4px;
   }
 }
 
 @media screen and (min-width: 420px) {
   .item {
-    padding: 6px 12px;
+    padding: 12px;
     margin-top: 6px;
   }
 }
@@ -30,14 +30,14 @@
 @media screen and (min-width: 800px) {
   .item {
     border-radius: 10px;
-    padding: 8px 16px;
+    padding: 16px;
     margin-top: 8px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .item {
-    padding: 10px 20px;
+    padding: 20px;
     margin-top: 10px;
   }
 }
@@ -45,7 +45,7 @@
 @media screen and (min-width: 1600px) {
   .item {
     border-radius: 0.625vw;
-    padding: 0.625vw 1.25vw;
+    padding: 1.25vw;
     margin-top: 0.625vw;
   }
 }

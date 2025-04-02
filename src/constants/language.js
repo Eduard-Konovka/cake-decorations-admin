@@ -918,10 +918,54 @@ export const LANGUAGE = {
   },
 
   orderBar: {
-    user: {
+    fullName: {
       eng: 'Buyer: ',
       ukr: 'Покупець: ',
       rus: 'Покупатель: ',
+    },
+
+    phone: {
+      eng: 'Phone: ',
+      ukr: 'Телефон: ',
+      rus: 'Телефон: ',
+    },
+
+    locality: {
+      eng: 'Settlement: ',
+      ukr: 'Населений пункт: ',
+      rus: 'Населенный пункт: ',
+    },
+
+    delivery: {
+      eng: 'Delivery method: ',
+      ukr: 'Спосіб доставки: ',
+      rus: 'Способ доставки: ',
+    },
+
+    deliveryValue: {
+      branch: {
+        eng: 'to the branch',
+        ukr: 'у відділення',
+        rus: 'в отделение',
+      },
+
+      mailbox: {
+        eng: 'to the mailbox',
+        ukr: 'в поштомат',
+        rus: 'в почтомат',
+      },
+
+      courier: {
+        eng: 'by courier',
+        ukr: 'курʼєром',
+        rus: 'курьером',
+      },
+    },
+
+    address: {
+      eng: 'Number or address: ',
+      ukr: 'Номер або адреса: ',
+      rus: 'Номер или адрес: ',
     },
 
     totalCost: {

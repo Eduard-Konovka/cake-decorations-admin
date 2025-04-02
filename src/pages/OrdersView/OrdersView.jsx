@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateOrders } from 'state';
 import { fetchCollection } from 'api';
 import { Spinner, Button, Blank, OrdersList } from 'components';
@@ -9,7 +8,7 @@ import { GLOBAL, LANGUAGE } from 'constants';
 import imageBlank from 'assets/empty-trash-bin.png';
 import s from './OrdersView.module.css';
 
-export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
+export default function OrdersView() {
   const { mainHeight, orders } = useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
@@ -222,8 +221,3 @@ export default function OrdersView({ changeSelectCount, onDeleteProduct }) {
     </main>
   );
 }
-
-OrdersView.propTypes = {
-  changeSelectCount: PropTypes.func.isRequired,
-  onDeleteProduct: PropTypes.func.isRequired,
-};

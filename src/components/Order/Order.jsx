@@ -1,26 +1,34 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useChangeGlobalState, updateOrders } from 'state';
-import { fetchCollection, acceptOrderApi } from 'api';
-import { OrderedProduct } from 'components';
+import { acceptOrderApi } from 'api';
+import { OrderedProduct, Button } from 'components';
 import { getLanguage } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import s from './Order.module.css';
 
 export default function Order({ order }) {
-  const changeGlobalState = useChangeGlobalState();
+  const [expandedList, setExpandedList] = useState(false);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(() => {
-    fetchCollection('orders').then(orders => {
-      orders.sort(
-        (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
-      );
-      changeGlobalState(updateOrders, orders);
-    });
-  }, [changeGlobalState]);
+  const toggleList = () => setExpandedList(!expandedList);
+
+  const getDelivery = () => {
+    switch (order.customer.delivery) {
+      case 'branch':
+        return languageDeterminer(LANGUAGE.orderBar.deliveryValue.branch);
+
+      case 'mailbox':
+        return languageDeterminer(LANGUAGE.orderBar.deliveryValue.mailbox);
+
+      case 'courier':
+        return languageDeterminer(LANGUAGE.orderBar.deliveryValue.courier);
+
+      default:
+        break;
+    }
+  };
 
   return (
     <section>
@@ -31,19 +39,89 @@ export default function Order({ order }) {
         />
       ))}
 
-      <div className={s.priceBox}>
-        <p className={s.totalCost}>
-          {languageDeterminer(LANGUAGE.orderBar.user)}
-          {`${order.customer.firstName} ${order.customer.lastName}`}
-        </p>
+      <div className={s.statsBox}>
+        <div className={s.statsFirstItem}>
+          <Button
+            title={languageDeterminer(
+              LANGUAGE.productViews.cancelDeleteButton.title,
+            )}
+            styles={s.btn}
+            onClick={toggleList}
+          >
+            {expandedList ? 'ᐱ' : 'ᐯ'}
+          </Button>
 
-        <p className={s.totalCost}>
-          {languageDeterminer(LANGUAGE.orderBar.totalCost)}
-          {order.totalCost} ₴
-        </p>
+          <div className={s.customerBox}>
+            {!expandedList ? (
+              <div className={s.row}>
+                <p className={s.statsTitle}>
+                  {languageDeterminer(LANGUAGE.orderBar.fullName)}
+                </p>
 
-        <form className={s.bar}>
-          <label htmlFor="orderType" className={s.typeLabel}>
+                <p
+                  className={s.statsDescription}
+                >{`${order.customer.firstName} ${order.customer.lastName}`}</p>
+              </div>
+            ) : (
+              <>
+                <div className={s.row}>
+                  <p className={s.statsTitle}>
+                    {languageDeterminer(LANGUAGE.orderBar.fullName)}
+                  </p>
+
+                  <p className={s.statsDescription}>
+                    {order.customer.firstName + ' ' + order.customer.lastName}
+                  </p>
+                </div>
+
+                <div className={s.row}>
+                  <p className={s.statsTitle}>
+                    {languageDeterminer(LANGUAGE.orderBar.phone)}
+                  </p>
+
+                  <p className={s.statsDescription}>{order.customer.phone}</p>
+                </div>
+
+                <div className={s.row}>
+                  <p className={s.statsTitle}>
+                    {languageDeterminer(LANGUAGE.orderBar.locality)}
+                  </p>
+
+                  <p className={s.statsDescription}>
+                    {order.customer.locality}
+                  </p>
+                </div>
+
+                <div className={s.row}>
+                  <p className={s.statsTitle}>
+                    {languageDeterminer(LANGUAGE.orderBar.delivery)}
+                  </p>
+
+                  <p className={s.statsDescription}>{getDelivery()}</p>
+                </div>
+
+                <div className={s.row}>
+                  <p className={s.statsTitle}>
+                    {languageDeterminer(LANGUAGE.orderBar.address)}
+                  </p>
+
+                  <p className={s.statsDescription}>{order.customer.address}</p>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+
+        <div className={s.statsSecondItem}>
+          <p className={s.statsTitle}>
+            {languageDeterminer(LANGUAGE.orderBar.totalCost)}
+          </p>
+
+          <p className={s.statsDescription}>{order.totalCost} ₴</p>
+        </div>
+
+        <form className={s.statsThirdItem}>
+          <label htmlFor="orderType" className={s.label}>
             {languageDeterminer(LANGUAGE.orderBar.orderType.label)}
           </label>
 
