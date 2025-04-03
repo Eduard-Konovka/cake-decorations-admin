@@ -104,6 +104,7 @@ export default function AddNewProductView() {
     for (let i = 0; i < files.length; i++) {
       const img = {};
       img.file = files[i];
+      img.type = files[i].type.slice(0, 5);
       img.url = window.URL.createObjectURL(files[i]);
       newImages.push(img);
     }
@@ -342,32 +343,54 @@ export default function AddNewProductView() {
         <>
           <div className={s.row}>
             <div className={s.imagesSection}>
-              <img
-                src={
-                  images.length > 0 ? images[mainImageIdx].url : imageNotFound
-                }
-                title={'Збільшити'}
-                alt={title}
-                className={s.mainImage}
-                onClick={toggleModal}
-              />
+              {images[mainImageIdx]?.type === 'video' ? (
+                <video
+                  src={images[mainImageIdx].url}
+                  title={'Збільшити'}
+                  controls
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              ) : (
+                <img
+                  src={
+                    images.length > 0 ? images[mainImageIdx].url : imageNotFound
+                  }
+                  title={'Збільшити'}
+                  alt={title}
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              )}
 
               <div className={s.additionalImagesBox}>
                 {images.length > 0 &&
                   images.map((image, idx) => (
                     <div key={idx + image.url} className={s.additionalImageBar}>
-                      <img
-                        src={image.url}
-                        alt={title}
-                        className={s.additionalImage}
-                        onDragStart={() => dragStart(idx)}
-                        onDragOver={preventDefault}
-                        onDrop={() => dropOfMovement(idx)}
-                        onClick={() => setMainImageIdx(idx)}
-                      />
+                      {image.type === 'image' ? (
+                        <img
+                          src={image.url}
+                          alt={title}
+                          className={s.additionalImage}
+                          onDragStart={() => dragStart(idx)}
+                          onDragOver={preventDefault}
+                          onDrop={() => dropOfMovement(idx)}
+                          onClick={() => setMainImageIdx(idx)}
+                        />
+                      ) : (
+                        <video
+                          src={image.url}
+                          controls
+                          className={s.additionalVideo}
+                          onDragStart={() => dragStart(idx)}
+                          onDragOver={preventDefault}
+                          onDrop={() => dropOfMovement(idx)}
+                          onClick={() => setMainImageIdx(idx)}
+                        />
+                      )}
 
                       <Button
-                        title={'Видалити зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        title={'Видалити світлину товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                         type="button"
                         typeForm="icon"
                         styles={s.iconCloseBtn}
@@ -404,7 +427,7 @@ export default function AddNewProductView() {
                       <input
                         type="file"
                         id="fileElem"
-                        accept="image/*"
+                        accept="image/* video/*"
                         multiple
                         style={{ display: 'none' }}
                         onChange={addImages}

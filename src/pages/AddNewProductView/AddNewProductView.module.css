@@ -155,6 +155,11 @@
   }
 }
 
+.additionalVideo {
+  composes: additionalImage;
+  max-width: 100%;
+}
+
 .iconCloseBtn {
   position: absolute;
   top: 0;
