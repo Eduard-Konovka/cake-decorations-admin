@@ -348,6 +348,7 @@ export default function AddNewProductView() {
                   src={images[mainImageIdx].url}
                   title={'Збільшити'}
                   controls
+                  draggable="true"
                   className={s.mainImage}
                   onClick={toggleModal}
                 />
@@ -381,6 +382,7 @@ export default function AddNewProductView() {
                         <video
                           src={image.url}
                           controls
+                          draggable="true"
                           className={s.additionalVideo}
                           onDragStart={() => dragStart(idx)}
                           onDragOver={preventDefault}
