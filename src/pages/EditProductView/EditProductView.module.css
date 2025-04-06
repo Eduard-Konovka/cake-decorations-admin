@@ -70,6 +70,7 @@
 .mainImage {
   composes: image;
   width: 100%;
+  cursor: zoom-in;
 }
 
 .mainImage:hover,
@@ -153,6 +154,11 @@
   .additionalImage {
     border-radius: 0.5vw;
   }
+}
+
+.additionalVideo {
+  composes: additionalImage;
+  max-width: 100%;
 }
 
 .iconCloseBtn {

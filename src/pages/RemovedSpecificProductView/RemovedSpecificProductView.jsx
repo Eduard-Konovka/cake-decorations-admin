@@ -204,7 +204,7 @@ export default function RemovedSpecificProductView({
 
         const newImage = await uploadImageToStorage(
           language,
-          file,
+          { file, type: removedProduct.images[i]?.type || 'image' },
           productTimeStamp,
         );
 
@@ -289,28 +289,49 @@ export default function RemovedSpecificProductView({
         <>
           <div className={s.row}>
             <section className={s.imagesSection}>
-              <img
-                src={
-                  removedProduct?.images?.length > 0
-                    ? removedProduct.images[mainImageIdx].url
-                    : imageNotFound
-                }
-                alt={propertyWrapper(language, removedProduct, 'title')}
-                className={s.mainImage}
-                onClick={toggleModal}
-              />
+              {removedProduct.images[mainImageIdx]?.type === 'video' ? (
+                <video
+                  src={removedProduct.images[mainImageIdx].url}
+                  title={'Збільшити'} // FIXME
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              ) : (
+                <img
+                  src={
+                    removedProduct?.images?.length > 0
+                      ? removedProduct.images[mainImageIdx].url
+                      : imageNotFound
+                  }
+                  title={'Збільшити'} // FIXME
+                  alt={propertyWrapper(language, removedProduct, 'title')}
+                  draggable="false"
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              )}
 
               {removedProduct?.images?.length > 1 && (
                 <div className={s.additionalImagesBox}>
-                  {removedProduct.images.map((imageObj, idx) => (
-                    <img
-                      key={imageObj.url}
-                      src={imageObj.url}
-                      alt={propertyWrapper(language, removedProduct, 'title')}
-                      className={s.additionalImage}
-                      onClick={() => setMainImageIdx(idx)}
-                    />
-                  ))}
+                  {removedProduct.images.map((imageObj, idx) =>
+                    imageObj?.type === 'video' ? (
+                      <video
+                        key={imageObj.url}
+                        src={imageObj.url}
+                        className={s.additionalVideo}
+                        onClick={() => setMainImageIdx(idx)}
+                      />
+                    ) : (
+                      <img
+                        key={imageObj.url}
+                        src={imageObj.url}
+                        alt={propertyWrapper(language, removedProduct, 'title')}
+                        draggable="false"
+                        className={s.additionalImage}
+                        onClick={() => setMainImageIdx(idx)}
+                      />
+                    ),
+                  )}
                 </div>
               )}
             </section>

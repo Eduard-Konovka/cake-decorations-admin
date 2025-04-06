@@ -86,25 +86,43 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
     >
       <div className={modalFading ? s.contentFading : s.contentEmergence}>
         <Swiper onRight={onLeftHandler} onLeft={onRightHandler}>
-          <img
-            src={
-              product?.images?.length > 0
-                ? product.images[modalImageIdx].url
-                : imageNotFound
-            }
-            alt={propertyWrapper(language, product, 'title')}
-            className={
-              startLeftAnimationX
-                ? s.onStartLeftTranslateAnimationX
-                : startRightAnimationX
-                ? s.onStartRightTranslateAnimationX
-                : finishLeftAnimationX
-                ? s.onFinishLeftTranslateAnimationX
-                : finishRightAnimationX
-                ? s.onFinishRightTranslateAnimationX
-                : s.modalImage
-            }
-          />
+          {product?.images[modalImageIdx]?.type === 'video' ? (
+            <video
+              src={product.images[modalImageIdx].url}
+              controls
+              className={
+                startLeftAnimationX
+                  ? s.onStartLeftTranslateAnimationX
+                  : startRightAnimationX
+                  ? s.onStartRightTranslateAnimationX
+                  : finishLeftAnimationX
+                  ? s.onFinishLeftTranslateAnimationX
+                  : finishRightAnimationX
+                  ? s.onFinishRightTranslateAnimationX
+                  : s.modalImage
+              }
+            />
+          ) : (
+            <img
+              src={
+                product?.images?.length > 0
+                  ? product.images[modalImageIdx].url
+                  : imageNotFound
+              }
+              alt={propertyWrapper(language, product, 'title')}
+              className={
+                startLeftAnimationX
+                  ? s.onStartLeftTranslateAnimationX
+                  : startRightAnimationX
+                  ? s.onStartRightTranslateAnimationX
+                  : finishLeftAnimationX
+                  ? s.onFinishLeftTranslateAnimationX
+                  : finishRightAnimationX
+                  ? s.onFinishRightTranslateAnimationX
+                  : s.modalImage
+              }
+            />
+          )}
         </Swiper>
 
         <Button
@@ -154,7 +172,7 @@ export default function Modal({ product, mainImageIdx, closeModal }) {
 
 Modal.propTypes = {
   product: PropTypes.shape({
-    title: PropTypes.string,
+    title: PropTypes.objectOf(PropTypes.string),
     images: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
   }).isRequired,
   mainImageIdx: PropTypes.number.isRequired,

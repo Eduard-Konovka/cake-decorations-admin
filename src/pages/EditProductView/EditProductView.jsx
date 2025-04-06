@@ -219,6 +219,7 @@ export default function EditProductView({ setProductsByTag }) {
     for (let i = 0; i < files.length; i++) {
       const img = {};
       img.file = files[i];
+      img.type = files[i].type.slice(0, 5);
       img.url = window.URL.createObjectURL(files[i]);
       newImages.push(img);
     }
@@ -411,7 +412,7 @@ export default function EditProductView({ setProductsByTag }) {
         try {
           const newImage = await uploadImageToStorage(
             language,
-            images[i].file,
+            images[i],
             product._id,
           );
 
@@ -491,29 +492,51 @@ export default function EditProductView({ setProductsByTag }) {
         <>
           <div className={s.row}>
             <div className={s.imagesSection}>
-              <img
-                src={
-                  images.length > 0 ? images[mainImageIdx].url : imageNotFound
-                }
-                title={'Збільшити'}
-                alt={title}
-                className={s.mainImage}
-                onClick={toggleModal}
-              />
+              {images[mainImageIdx]?.type === 'video' ? (
+                <video
+                  src={images[mainImageIdx].url}
+                  title={'Збільшити'} // FIXME
+                  draggable="true"
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              ) : (
+                <img
+                  src={
+                    images.length > 0 ? images[mainImageIdx].url : imageNotFound
+                  }
+                  title={'Збільшити'} // FIXME
+                  alt={title}
+                  className={s.mainImage}
+                  onClick={toggleModal}
+                />
+              )}
 
               <div className={s.additionalImagesBox}>
                 {images.length > 0 &&
                   images.map((image, idx) => (
                     <div key={idx + image.url} className={s.additionalImageBar}>
-                      <img
-                        src={image.url}
-                        alt={title}
-                        className={s.additionalImage}
-                        onDragStart={() => dragStart(idx)}
-                        onDragOver={preventDefault}
-                        onDrop={() => dropOfMovement(idx)}
-                        onClick={() => setMainImageIdx(idx)}
-                      />
+                      {image?.type === 'video' ? (
+                        <video
+                          src={image.url}
+                          draggable="true"
+                          className={s.additionalVideo}
+                          onDragStart={() => dragStart(idx)}
+                          onDragOver={preventDefault}
+                          onDrop={() => dropOfMovement(idx)}
+                          onClick={() => setMainImageIdx(idx)}
+                        />
+                      ) : (
+                        <img
+                          src={image.url}
+                          alt={title}
+                          className={s.additionalImage}
+                          onDragStart={() => dragStart(idx)}
+                          onDragOver={preventDefault}
+                          onDrop={() => dropOfMovement(idx)}
+                          onClick={() => setMainImageIdx(idx)}
+                        />
+                      )}
 
                       <Button
                         title={'Видалити зображення товару'} // FIXME languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
@@ -553,7 +576,7 @@ export default function EditProductView({ setProductsByTag }) {
                       <input
                         type="file"
                         id="fileElem"
-                        accept="image/*"
+                        accept="image/* video/*"
                         multiple
                         style={{ display: 'none' }}
                         onChange={addImages}
@@ -837,7 +860,7 @@ export default function EditProductView({ setProductsByTag }) {
       {showModal && (
         <Modal
           product={{
-            title,
+            title: { [language.toLowerCase()]: title },
             images,
           }}
           mainImageIdx={mainImageIdx}

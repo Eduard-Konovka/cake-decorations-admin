@@ -12,7 +12,7 @@ export async function uploadImageToStorage(language, image, productTimeStamp) {
     `productsImages/${productTimeStamp}/${uniqueImageId}`,
   );
 
-  await uploadBytes(storageRef, image)
+  await uploadBytes(storageRef, image.file)
     .then(() =>
       toast.success(
         `${languageDeterminer(
@@ -28,6 +28,7 @@ export async function uploadImageToStorage(language, image, productTimeStamp) {
 
   return {
     id: uniqueImageId,
+    type: image?.type || 'image',
     url: await getDownloadURL(
       ref(storage, `productsImages/${productTimeStamp}/${uniqueImageId}`),
     ),
