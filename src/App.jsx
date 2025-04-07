@@ -21,6 +21,9 @@ import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import 'App.css';
 
+const SignInView = lazy(() =>
+  import('pages/SignInView' /* webpackChunkName: "SignInView" */),
+);
 const CategoriesView = lazy(() =>
   import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
 );
@@ -58,9 +61,6 @@ const OrdersView = lazy(() =>
 );
 const AboutView = lazy(() =>
   import('pages/AboutView' /* webpackChunkName: "AboutView" */),
-);
-const SignInView = lazy(() =>
-  import('pages/SignInView' /* webpackChunkName: "SignInView" */),
 );
 const NotFoundView = lazy(() =>
   import('pages/NotFoundView' /* webpackChunkName: "NotFoundView" */),
@@ -288,17 +288,6 @@ export default function App() {
           />
 
           <Route
-            path="/promotions"
-            element={
-              <PrivateRoute>
-                <AboutView
-                  text={languageDeterminer(LANGUAGE.titles.promotions)}
-                />
-              </PrivateRoute>
-            }
-          />
-
-          <Route
             path="/clients"
             element={
               <PrivateRoute>
@@ -322,6 +311,17 @@ export default function App() {
               <PrivateRoute>
                 <AboutView
                   text={languageDeterminer(LANGUAGE.titles.statistics)}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/settings"
+            element={
+              <PrivateRoute>
+                <AboutView
+                  text={languageDeterminer(LANGUAGE.titles.settings)}
                 />
               </PrivateRoute>
             }

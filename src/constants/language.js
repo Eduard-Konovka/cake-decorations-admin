@@ -104,12 +104,6 @@ export const LANGUAGE = {
       rus: 'Уведомления',
     },
 
-    promotions: {
-      eng: 'Promotions',
-      ukr: 'Акції',
-      rus: 'Акции',
-    },
-
     clients: {
       eng: 'Clients',
       ukr: 'Клієнти',
@@ -126,6 +120,12 @@ export const LANGUAGE = {
       eng: 'Statistics',
       ukr: 'Статистика',
       rus: 'Статистика',
+    },
+
+    settings: {
+      eng: 'Settings',
+      ukr: 'Налаштування',
+      rus: 'Настройки',
     },
   },
 
@@ -186,18 +186,6 @@ export const LANGUAGE = {
       rus: 'Перейти на страницу уведомлений',
     },
 
-    promotionsLink: {
-      eng: 'Go to the promotions page',
-      ukr: 'Перейти на сторінку акцій',
-      rus: 'Перейти на страницу акций',
-    },
-
-    statisticsLink: {
-      eng: 'Go to the statistics page',
-      ukr: 'Перейти на сторінку статистики',
-      rus: 'Перейти на страницу статистики',
-    },
-
     clientsLink: {
       eng: 'Go to client list',
       ukr: 'Перейти до списку клієнтів',
@@ -208,6 +196,18 @@ export const LANGUAGE = {
       eng: 'Go to the reviews page',
       ukr: 'Перейти на сторінку відгуків',
       rus: 'Перейти на страницу отзывов',
+    },
+
+    statisticsLink: {
+      eng: 'Go to the statistics page',
+      ukr: 'Перейти на сторінку статистики',
+      rus: 'Перейти на страницу статистики',
+    },
+
+    settingsLink: {
+      eng: 'Go to the settings page',
+      ukr: 'Перейти на сторінку налаштувань',
+      rus: 'Перейти на страницу настроек',
     },
 
     cartLink: {
