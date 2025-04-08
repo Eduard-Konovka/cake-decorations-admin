@@ -458,44 +458,63 @@
 }
 
 /*#region AVATAR */
-.avatar {
+.avatarBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 8vw;
   height: 8vw;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
   border-radius: 50%;
-  margin-right: 2vw;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 320px) {
-  .avatar {
-    width: 6.5vw;
-    height: 6.5vw;
-    margin-right: 0;
-    margin-left: 1.75vw;
+  .avatarBtn {
+    width: 7vw;
+    height: 7vw;
   }
 }
 
 @media screen and (min-width: 420px) {
-  .avatar {
-    width: 6vw;
-    height: 6vw;
-    margin-left: 1.75vw;
+  .avatarBtn {
+    width: 5vw;
+    height: 5vw;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .avatar {
-    width: 3.5vw;
-    height: 3.5vw;
-    margin-left: 1.25vw;
+  .avatarBtn {
+    width: 4vw;
+    height: 4vw;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .avatar {
-    width: 3vw;
-    height: 3vw;
-    margin-left: 1vw;
+  .avatarBtn {
+    width: 3.5vw;
+    height: 3.5vw;
   }
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: var(--primery-box-shadow);
+  transition: transform var(--time-action) var(--time-distribution-function);
+  cursor: pointer;
+  margin: 0;
+}
+
+.avatar:hover,
+.avatar:focus-visible {
+  transform: scale(1.1);
 }
 /*#endregion AVATAR */
 

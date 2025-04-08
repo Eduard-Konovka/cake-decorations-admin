@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {
   useGlobalState,
@@ -17,6 +17,7 @@ import defaultAvatar from 'assets/defaultAvatar.png';
 import s from './AppBar.module.css';
 
 export default function AppBar({ setDefaultsProducts }) {
+  const navigate = useNavigate();
   const { language, orders } = useGlobalState('global');
   const { user } = useGlobalState('auth');
   const changeGlobalState = useChangeGlobalState();
@@ -60,33 +61,31 @@ export default function AppBar({ setDefaultsProducts }) {
         </div>
 
         <div className={s.controlBox}>
-          {auth.currentUser ? (
-            <div className={s.userbar}>
-              <Button
-                title={languageDeterminer(LANGUAGE.appBar.signOut.title)}
-                type="button"
-                onClick={signOut}
-              >
-                <Link to="/signin" className={s.btnLink}>
-                  {languageDeterminer(LANGUAGE.appBar.signOut.text)}
-                </Link>
-              </Button>
-
+          <div className={s.userbar}>
+            <Button
+              title={
+                auth?.currentUser
+                  ? languageDeterminer(LANGUAGE.appBar.signOut.title)
+                  : languageDeterminer(LANGUAGE.appBar.signIn.title)
+              }
+              type="button"
+              typeForm="icon"
+              className={s.avatarBtn}
+              onClick={auth?.currentUser ? signOut : () => navigate('/signin')}
+            >
               <img
                 className={s.avatar}
                 src={user?.avatar?.length > 0 ? user.avatar : defaultAvatar}
                 alt={languageDeterminer(LANGUAGE.appBar.avatarAlt)}
               />
+            </Button>
 
-              <p className={s.user}>{user.name}</p>
-            </div>
-          ) : (
             <p className={s.user}>
               {auth.currentUser
                 ? user?.firstName
                 : languageDeterminer(LANGUAGE.appBar.hello)}
             </p>
-          )}
+          </div>
 
           <div className={s.languageBox}>
             <Button

@@ -216,6 +216,20 @@ export const LANGUAGE = {
       rus: 'Перейти в корзину',
     },
 
+    signIn: {
+      title: {
+        eng: 'Sign in to your account',
+        ukr: 'Увійдіть у свій обліковий запис',
+        rus: 'Войдите в свой аккаунт',
+      },
+
+      text: {
+        eng: 'Sign in',
+        ukr: 'Увійти',
+        rus: 'Войти',
+      },
+    },
+
     signOut: {
       title: {
         eng: 'Signing out of your account',
