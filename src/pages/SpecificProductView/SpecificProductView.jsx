@@ -165,12 +165,23 @@ export default function SpecificProductView({
   useEffect(() => {
     if (!product) return;
 
-    const description =
-      document.querySelector('#mobileDescription') ||
-      document.querySelector('#desktopDescription');
+    const mobileDescription = document.querySelector('#mobileDescription');
+    const desktopDescription = document.querySelector('#desktopDescription');
 
-    if (description) {
-      description.innerHTML = propertyWrapper(language, product, 'description');
+    if (mobileDescription) {
+      mobileDescription.innerHTML = propertyWrapper(
+        language,
+        product,
+        'description',
+      );
+    }
+
+    if (desktopDescription) {
+      desktopDescription.innerHTML = propertyWrapper(
+        language,
+        product,
+        'description',
+      );
     }
   }, [language, product]);
 

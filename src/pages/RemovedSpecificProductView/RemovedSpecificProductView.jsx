@@ -168,12 +168,19 @@ export default function RemovedSpecificProductView({
   useEffect(() => {
     if (!removedProduct) return;
 
-    const description =
-      document.querySelector('#mobileDescription') ||
-      document.querySelector('#desktopDescription');
+    const mobileDescription = document.querySelector('#mobileDescription');
+    const desktopDescription = document.querySelector('#desktopDescription');
 
-    if (description) {
-      description.innerHTML = propertyWrapper(
+    if (mobileDescription) {
+      mobileDescription.innerHTML = propertyWrapper(
+        language,
+        removedProduct,
+        'description',
+      );
+    }
+
+    if (desktopDescription) {
+      desktopDescription.innerHTML = propertyWrapper(
         language,
         removedProduct,
         'description',
