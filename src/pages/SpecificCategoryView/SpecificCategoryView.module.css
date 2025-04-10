@@ -1,0 +1,466 @@
+.page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 6.25vw;
+  border-radius: 2.5vw;
+  box-shadow: 0px 2px 5px rgba(68, 42, 42, 0.75),
+    0px 1px 3px rgba(68, 38, 38, 0.14), 0px 1px 2px rgba(139, 77, 77, 0.12);
+  background-color: var(--third-background-color);
+}
+
+@media screen and (min-width: 320px) {
+  .page {
+    padding: 20px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .page {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .page {
+    padding: 1.25vw;
+    border-radius: 0.625vw;
+  }
+}
+
+.errorBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.errorText {
+  padding: 0;
+  margin: 0;
+}
+
+.errorLabel {
+  composes: errorText;
+  font-weight: 500;
+}
+
+.bars {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .bars {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bars {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+  }
+}
+
+/*#region BAR */
+.bar {
+  display: flex;
+  justify-content: center;
+
+  background-color: #f9e7e7;
+  width: 100%;
+  padding: 3.125vw 0 3.125vw 3.125vw;
+  border-radius: 2.5vw;
+  box-shadow: 0px 2px 5px rgba(68, 42, 42, 0.75),
+    0px 1px 3px rgba(68, 38, 38, 0.14), 0px 1px 2px rgba(139, 77, 77, 0.12);
+}
+
+@media screen and (min-width: 320px) {
+  .bar {
+    padding: 10px 0 10px 10px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .bar {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bar {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .bar {
+    padding: 0.625vw 0 0.625vw 0.625vw;
+    border-radius: 0.625vw;
+  }
+}
+/*#endregion BAR */
+
+.searchBar {
+  composes: bar;
+  flex-wrap: wrap;
+
+  padding-top: 0;
+  margin-top: -3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .searchBar {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .searchBar {
+    padding: 10px 0 10px 10px;
+    margin-top: 0;
+  }
+}
+
+.searchByName {
+  position: relative;
+}
+
+/*#region BAR_ELEMENT */
+.barElement {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 4.8vw;
+
+  height: 8vw;
+  border-radius: 1vw;
+  margin-right: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .barElement {
+    font-size: 14px;
+    height: 24px;
+
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .barElement {
+    font-size: 16px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .barElement {
+    height: 30px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .barElement {
+    height: 32px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .barElement {
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .barElement {
+    font-size: 1vw;
+    border-radius: 0.625vw;
+    margin-right: 0.625vw;
+  }
+}
+/*#endregion BAR_ELEMENT */
+
+.input {
+  composes: barElement;
+  background-color: var(--secondary-color);
+  color: #705050;
+  font-weight: 400;
+
+  padding-left: 0.3vw;
+  border: 1px solid var(--input-border-color);
+}
+
+/*#region INPUT_BY_NAME */
+.inputByName {
+  composes: input;
+  width: 60.5vw;
+  margin-top: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .inputByName {
+    width: 56vw;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .inputByName {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .inputByName {
+    width: 28vw;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .inputByName {
+    width: 22vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inputByName {
+    width: 20vw;
+  }
+}
+/*#endregion INPUT_BY_NAME */
+
+/*#region ICON_BUTTON */
+.iconButton {
+  position: absolute;
+  top: 0;
+  right: 5%;
+
+  background-color: transparent;
+  width: 8.75vw;
+  height: 8.75vw;
+  margin-top: 2.5vw;
+}
+
+@media screen and (min-width: 320px) {
+  .iconButton {
+    width: 28px;
+    height: 28px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .iconButton {
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .iconButton {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iconButton {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .iconButton {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .iconButton {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+}
+/*#endregion ICON_BUTTON */
+
+/*#region INPUT_BY_PRICE */
+.inputByPrice {
+  composes: input;
+  width: 30vw;
+  margin-top: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .inputByPrice {
+    width: 28vw;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .inputByPrice {
+    width: 23vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .inputByPrice {
+    width: 14vw;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .inputByPrice {
+    width: 12vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inputByPrice {
+    width: 10vw;
+  }
+}
+/*#endregion INPUT_BY_PRICE */
+
+.btn {
+  composes: barElement;
+  margin-top: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn {
+    margin-top: 0;
+  }
+}
+
+.btnLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sortBar {
+  composes: bar;
+  margin-top: 6.25vw;
+}
+
+@media screen and (min-width: 320px) {
+  .sortBar {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sortBar {
+    margin: 0;
+  }
+}
+
+.sortLabel {
+  composes: barElement;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #503030;
+}
+
+/*#region INPUT_BY_SORT */
+.select {
+  composes: input;
+  width: 57vw;
+}
+
+@media screen and (min-width: 320px) {
+  .select {
+    width: 56vw;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .select {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .select {
+    width: 28vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .select {
+    width: 22vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select {
+    width: 16vw;
+  }
+}
+/*#endregion INPUT_BY_SORT */
+
+.productList {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .productList {
+    margin-right: -20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .productList {
+    margin-right: -1.25vw;
+  }
+}
+
+.iconUpBtn {
+  position: fixed;
+  right: 3vw;
+  bottom: 3vw;
+  fill: var(--secondary-color);
+  background-color: var(--secondary-background-color);
+  border-radius: 50%;
+  transform-origin: center center;
+}
+
+.iconUpBtn:hover,
+.iconUpBtn:focus-visible {
+  fill: var(--secondary-background-color);
+  background-color: var(--primery-background-color);
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
