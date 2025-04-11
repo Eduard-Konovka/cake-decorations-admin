@@ -150,10 +150,15 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lastTarget]);
 
-  setTimeout(() => {
-    setFirstTarget(document.getElementById('productList')?.firstElementChild);
-    setLastTarget(document.getElementById('productList')?.lastElementChild);
-  }, 250);
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const list = document.getElementById('productList');
+      setFirstTarget(list?.firstElementChild || null);
+      setLastTarget(list?.lastElementChild || null);
+    });
+
+    return () => cancelAnimationFrame(raf);
+  }, [dozensOfProducts]);
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
