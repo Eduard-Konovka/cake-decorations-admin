@@ -27,6 +27,11 @@ const SignInView = lazy(() =>
 const CategoriesView = lazy(() =>
   import('pages/CategoriesView' /* webpackChunkName: "CategoriesView" */),
 );
+const SpecificCategoryView = lazy(() =>
+  import(
+    'pages/SpecificCategoryView' /* webpackChunkName: "SpecificCategoryView" */
+  ),
+);
 const ProductsView = lazy(() =>
   import('pages/ProductsView' /* webpackChunkName: "ProductsView" */),
 );
@@ -172,6 +177,17 @@ export default function App() {
               <PrivateRoute>
                 <CategoriesView
                   setProductsByCategory={setProductsByCategoryOrTag}
+                />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/categories/:id"
+            element={
+              <PrivateRoute>
+                <SpecificCategoryView
+                  productsByCategoryOrTag={productsByCategoryOrTag}
                 />
               </PrivateRoute>
             }

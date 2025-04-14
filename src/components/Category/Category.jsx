@@ -19,7 +19,11 @@ export default function Category({ category, setProductsByCategory }) {
 
   return (
     <Link
-      to={`/products`}
+      to={
+        category._id === 'allProducts'
+          ? '/products'
+          : `/categories/${category._id}`
+      }
       className={s.link}
       onClick={() => handleCategoryClick(category._id)}
     >
