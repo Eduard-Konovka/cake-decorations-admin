@@ -23,16 +23,10 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState([]);
-  const [ordinalOfDozen, setOrdinalOfDozen] = useState(0);
-  const [dozensOfProducts, setDozensOfProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
-  const [lastTarget, setLastTarget] = useState(null);
-  const [firstTarget, setFirstTarget] = useState(null);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
-
-  useEffect(pageUp, []);
 
   useEffect(() => {
     window.onscroll = () =>
@@ -73,89 +67,21 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
     );
 
     setVisibleProducts(difference);
-    setOrdinalOfDozen(1);
   }, [productsByName, productsByPrice]);
 
   useEffect(() => {
-    const productsByDozens = visibleProducts.slice(
-      (ordinalOfDozen - 1) * GLOBAL.dozen,
-      (ordinalOfDozen + 1) * GLOBAL.dozen,
-    );
-
-    setDozensOfProducts(productsByDozens);
-  }, [visibleProducts, ordinalOfDozen]);
+    if (visibleProducts.length !== 0) {
+      const savedPosition = sessionStorage.getItem('scrollPosition');
+      if (savedPosition !== null) {
+        window.scrollTo(0, parseInt(savedPosition, 10));
+        sessionStorage.removeItem('scrollPosition');
+      }
+    }
+  }, [visibleProducts]);
 
   useEffect(() => {
     setOptionList(true);
   }, [optionList]);
-
-  const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1,
-  };
-
-  useEffect(() => {
-    const firstObserverCallback = (entries, firstObserver) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          firstObserver.unobserve(firstTarget);
-          setOrdinalOfDozen(prev => prev - 1);
-        }
-      });
-    };
-
-    const firstObserver = new IntersectionObserver(
-      firstObserverCallback,
-      observerOptions,
-    );
-
-    firstTarget &&
-      ordinalOfDozen > 1 &&
-      visibleProducts.length > GLOBAL.dozen &&
-      firstObserver.observe(firstTarget);
-
-    return () => {
-      firstTarget && firstObserver.unobserve(firstTarget);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [firstTarget]);
-
-  useEffect(() => {
-    const lastObserverCallback = (entries, lastObserver) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          lastObserver.unobserve(lastTarget);
-          setOrdinalOfDozen(prev => prev + 1);
-        }
-      });
-    };
-
-    const lastObserver = new IntersectionObserver(
-      lastObserverCallback,
-      observerOptions,
-    );
-
-    lastTarget &&
-      ordinalOfDozen < Math.floor(products.length / GLOBAL.dozen) &&
-      visibleProducts.length > GLOBAL.dozen &&
-      lastObserver.observe(lastTarget);
-
-    return () => {
-      lastTarget && lastObserver.unobserve(lastTarget);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lastTarget]);
-
-  useEffect(() => {
-    const raf = requestAnimationFrame(() => {
-      const list = document.getElementById('productList');
-      setFirstTarget(list?.firstElementChild || null);
-      setLastTarget(list?.lastElementChild || null);
-    });
-
-    return () => cancelAnimationFrame(raf);
-  }, [dozensOfProducts]);
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
@@ -277,27 +203,22 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
     switch (value) {
       case 'ascendingDate':
         setVisibleProducts(ascendingDate);
-        setOrdinalOfDozen(1);
         break;
 
       case 'descendingDate':
         setVisibleProducts(descendingDate);
-        setOrdinalOfDozen(1);
         break;
 
       case 'ascendingPrice':
         setVisibleProducts(ascendingPrice);
-        setOrdinalOfDozen(1);
         break;
 
       case 'descendingPrice':
         setVisibleProducts(descendingPrice);
-        setOrdinalOfDozen(1);
         break;
 
       default:
         setVisibleProducts(descendingDate);
-        setOrdinalOfDozen(1);
         break;
     }
   }
@@ -307,13 +228,10 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
     setOptionList(false);
     setProductsByName(products);
     setProductsByPrice(products);
-    setOrdinalOfDozen(1);
   }
 
   function upHandler() {
-    setOrdinalOfDozen(1);
-
-    setTimeout(pageUp, 100);
+    requestAnimationFrame(() => pageUp());
   }
 
   return (
@@ -424,7 +342,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
           </section>
 
           <section className={s.productList}>
-            <ProductList products={dozensOfProducts} />
+            <ProductList products={visibleProducts} specificCategory />
           </section>
 
           {scrolledTop > 300 && (

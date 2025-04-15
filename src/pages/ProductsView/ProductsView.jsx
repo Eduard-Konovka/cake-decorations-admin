@@ -32,8 +32,6 @@ export default function ProductsView({ productsByCategoryOrTag }) {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
-
   useEffect(() => {
     window.onscroll = () =>
       setScrolledTop(
