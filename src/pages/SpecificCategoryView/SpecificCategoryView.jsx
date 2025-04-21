@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
@@ -14,7 +14,9 @@ import imageBlank from 'assets/shop.jpg';
 import s from './SpecificCategoryView.module.css';
 
 export default function SpecificCategoryView({ productsByCategoryOrTag }) {
-  const { mainHeight, products } = useGlobalState('global');
+  const location = useLocation();
+  const { mainHeight, language, categories, products } =
+    useGlobalState('global');
   const changeGlobalState = useChangeGlobalState();
 
   const [loading, setLoading] = useState(false);
@@ -25,6 +27,9 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   const [visibleProducts, setVisibleProducts] = useState([]);
   const [searchByName, setSearchByName] = useState('');
   const [optionList, setOptionList] = useState(true);
+
+  const categoryId = location.pathname.slice(12, location.pathname.length);
+  const category = categories.find(category => category._id === categoryId);
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -257,6 +262,45 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
 
       {!loading && !error && products.length > 0 && (
         <>
+          <section className={s.titleSection}>
+            <form className={s.sortBar}>
+              <label htmlFor="inputBySort" className={s.sortLabel}>
+                {languageDeterminer(LANGUAGE.category.label)}
+                {propertyWrapper(language, category, 'title')}
+              </label>
+
+              <select
+                id="inputBySort"
+                name="inputBySort"
+                className={s.select}
+                defaultValue={'descendingDate'}
+                onChange={handleSort}
+              >
+                <option value={'ascendingPrice'}>
+                  {languageDeterminer(LANGUAGE.sortBy.ascendingPrice)}
+                </option>
+                <option value={'descendingPrice'}>
+                  {languageDeterminer(LANGUAGE.sortBy.descendingPrice)}
+                </option>
+                <option value={'ascendingDate'}>
+                  {languageDeterminer(LANGUAGE.sortBy.ascendingDate)}
+                </option>
+                <option value={'descendingDate'}>
+                  {languageDeterminer(LANGUAGE.sortBy.descendingDate)}
+                </option>
+              </select>
+
+              <Button
+                title={languageDeterminer(LANGUAGE.resetFiltersButton.title)}
+                type="button"
+                styles={s.btn}
+                onClick={null}
+              >
+                {languageDeterminer(LANGUAGE.resetFiltersButton.text)}
+              </Button>
+            </form>
+          </section>
+
           <section className={s.bars}>
             <form className={s.searchBar}>
               <div className={s.searchByName}>

@@ -7,7 +7,7 @@ import defaultImage from 'assets/notFound.png';
 import s from './Category.module.css';
 
 export default function Category({ category, setProductsByCategory }) {
-  const { products, language } = useGlobalState('global');
+  const { language, products } = useGlobalState('global');
 
   function handleCategoryClick(categoryId) {
     const productsFromCategory = products.filter(product =>

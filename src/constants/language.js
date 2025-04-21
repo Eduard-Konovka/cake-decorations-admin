@@ -335,6 +335,14 @@ export const LANGUAGE = {
     rus: 'На данный момент нет удаленных товаров',
   },
 
+  category: {
+    label: {
+      eng: 'Product category: ',
+      ukr: 'Категорія товарів: ',
+      rus: 'Категория товаров: ',
+    },
+  },
+
   searchByName: {
     title: {
       eng: 'Search by product name',

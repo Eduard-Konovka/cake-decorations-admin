@@ -76,6 +76,23 @@
   }
 }
 
+.titleSection {
+  composes: bars;
+  margin-bottom: 3.125vw;
+}
+
+@media screen and (min-width: 320px) {
+  .titleSection {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .titleSection {
+    margin-bottom: 1.25vw;
+  }
+}
+
 /*#region BAR */
 .bar {
   display: flex;
