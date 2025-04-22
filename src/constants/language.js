@@ -343,9 +343,35 @@ export const LANGUAGE = {
     },
 
     label: {
-      eng: 'Increase the price of all products in the category by ',
-      ukr: 'Підвищити ціну всіх товарів у категорії на ',
-      rus: 'Повысить цену всех товаров в категории на ',
+      eng: 'Change the price of all products in the category by ',
+      ukr: 'Змінити ціну всіх товарів у категорії на ',
+      rus: 'Изменить цену всех товаров в категории на ',
+    },
+
+    button: {
+      title: {
+        eng: 'Change the price of all products in the category',
+        ukr: 'Змінити ціну всіх товарів у категорії',
+        rus: 'Изменить цену всех товаров в категории',
+      },
+
+      text: {
+        eng: 'Change price',
+        ukr: 'Змінити ціну',
+        rus: 'Изменить цену',
+      },
+    },
+
+    success: {
+      eng: 'The price of all products in the category has been successfully changed',
+      ukr: 'Ціна всіх товарів у категорії успішно змінена',
+      rus: 'Цена всех товаров в категории успешно изменена',
+    },
+
+    error: {
+      eng: 'Failed to change the price of all products in the category',
+      ukr: 'Не вдалося змінити ціну всіх товарів у категорії',
+      rus: 'Не удалось изменить цену всех товаров в категории',
     },
   },
 

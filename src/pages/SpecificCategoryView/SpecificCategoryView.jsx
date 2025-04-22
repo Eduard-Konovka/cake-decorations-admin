@@ -22,6 +22,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   const [loading, setLoading] = useState(false);
   const [scrolledTop, setScrolledTop] = useState(0);
   const [error, setError] = useState(null);
+  const [countValue, setCountValue] = useState(0);
   const [priceMultiplier, setPriceMultiplier] = useState('increase');
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
@@ -89,18 +90,42 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
     setOptionList(true);
   }, [optionList]);
 
+  function handleCountKeyPress(event) {
+    if (
+      GLOBAL.keyСodes.prohibited.includes(event.charCode) ||
+      (event.charCode === GLOBAL.keyСodes.zero && !event.target.value)
+    ) {
+      event.preventDefault();
+    }
+  }
+
+  function handleCountChange(event) {
+    const inputValue = Number(event.target.value);
+
+    setCountValue(inputValue);
+  }
+
   function handleMassPriceChange() {
-    const massPriceChange = products.map(product => {
-      const price = product.price * GLOBAL.priceMultiplier[priceMultiplier];
-      return {
-        ...product,
-        price: Math.round(price * 100) / 100,
-      };
-    });
-    changeGlobalState(updateProducts, massPriceChange);
-    setVisibleProducts(massPriceChange);
-    setPriceMultiplier('increase');
-    toast.success(languageDeterminer(LANGUAGE.massPriceChange.success));
+    try {
+      const updatedProducts = [];
+      products.forEach(product => {
+        if (product.category === categoryId) {
+          const newPrice =
+            priceMultiplier === 'increase'
+              ? product.price + countValue
+              : product.price + (product.price / 100) * countValue;
+
+          updatedProducts.push({ ...product, price: newPrice });
+        }
+      });
+
+      // TODO: зробити зміни в базі даних
+      // TODO: оновити products в глобальному стані
+
+      toast.success(languageDeterminer(LANGUAGE.category.success));
+    } catch (error) {
+      toast.error(languageDeterminer(LANGUAGE.category.error));
+    }
   }
 
   function handleKeyPress(event) {
@@ -284,9 +309,21 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
                 {propertyWrapper(language, category, 'title')}
               </h2>
 
-              <label htmlFor="category" className={s.sortLabel}>
+              <label htmlFor="count" className={s.sortLabel}>
                 {languageDeterminer(LANGUAGE.category.label)}
               </label>
+
+              <input
+                name="count"
+                id="count"
+                type="number"
+                step={0.01}
+                value={countValue}
+                className={s.input}
+                style={{ width: '80px' }}
+                onKeyPress={handleCountKeyPress}
+                onChange={handleCountChange}
+              />
 
               <select
                 id="category"
@@ -300,12 +337,12 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
               </select>
 
               <Button
-                title={languageDeterminer(LANGUAGE.resetFiltersButton.title)}
+                title={languageDeterminer(LANGUAGE.category.button.title)}
                 type="button"
                 styles={s.btn}
                 onClick={handleMassPriceChange}
               >
-                {languageDeterminer(LANGUAGE.resetFiltersButton.text)}
+                {languageDeterminer(LANGUAGE.category.button.text)}
               </Button>
             </form>
           </section>
