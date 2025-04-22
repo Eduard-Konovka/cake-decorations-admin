@@ -22,6 +22,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   const [loading, setLoading] = useState(false);
   const [scrolledTop, setScrolledTop] = useState(0);
   const [error, setError] = useState(null);
+  const [priceMultiplier, setPriceMultiplier] = useState('increase');
   const [productsByName, setProductsByName] = useState([]);
   const [productsByPrice, setProductsByPrice] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState([]);
@@ -87,6 +88,20 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   useEffect(() => {
     setOptionList(true);
   }, [optionList]);
+
+  function handleMassPriceChange() {
+    const massPriceChange = products.map(product => {
+      const price = product.price * GLOBAL.priceMultiplier[priceMultiplier];
+      return {
+        ...product,
+        price: Math.round(price * 100) / 100,
+      };
+    });
+    changeGlobalState(updateProducts, massPriceChange);
+    setVisibleProducts(massPriceChange);
+    setPriceMultiplier('increase');
+    toast.success(languageDeterminer(LANGUAGE.massPriceChange.success));
+  }
 
   function handleKeyPress(event) {
     if (event.charCode === GLOBAL.keyСodes.enter) {
@@ -264,37 +279,31 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
         <>
           <section className={s.titleSection}>
             <form className={s.sortBar}>
-              <label htmlFor="inputBySort" className={s.sortLabel}>
-                {languageDeterminer(LANGUAGE.category.label)}
+              <h2 className={s.categoryTitle}>
+                {languageDeterminer(LANGUAGE.category.title)}
                 {propertyWrapper(language, category, 'title')}
+              </h2>
+
+              <label htmlFor="category" className={s.sortLabel}>
+                {languageDeterminer(LANGUAGE.category.label)}
               </label>
 
               <select
-                id="inputBySort"
-                name="inputBySort"
-                className={s.select}
-                defaultValue={'descendingDate'}
-                onChange={handleSort}
+                id="category"
+                name="category"
+                className={s.input}
+                defaultValue={'increase'}
+                onChange={event => setPriceMultiplier(event.target.value)}
               >
-                <option value={'ascendingPrice'}>
-                  {languageDeterminer(LANGUAGE.sortBy.ascendingPrice)}
-                </option>
-                <option value={'descendingPrice'}>
-                  {languageDeterminer(LANGUAGE.sortBy.descendingPrice)}
-                </option>
-                <option value={'ascendingDate'}>
-                  {languageDeterminer(LANGUAGE.sortBy.ascendingDate)}
-                </option>
-                <option value={'descendingDate'}>
-                  {languageDeterminer(LANGUAGE.sortBy.descendingDate)}
-                </option>
+                <option value={'increase'}>{'₴'}</option>
+                <option value={'percent'}>{'%'}</option>
               </select>
 
               <Button
                 title={languageDeterminer(LANGUAGE.resetFiltersButton.title)}
                 type="button"
                 styles={s.btn}
-                onClick={null}
+                onClick={handleMassPriceChange}
               >
                 {languageDeterminer(LANGUAGE.resetFiltersButton.text)}
               </Button>

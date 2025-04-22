@@ -336,10 +336,16 @@ export const LANGUAGE = {
   },
 
   category: {
-    label: {
+    title: {
       eng: 'Product category: ',
       ukr: 'Категорія товарів: ',
       rus: 'Категория товаров: ',
+    },
+
+    label: {
+      eng: 'Increase the price of all products in the category by ',
+      ukr: 'Підвищити ціну всіх товарів у категорії на ',
+      rus: 'Повысить цену всех товаров в категории на ',
     },
   },
 
