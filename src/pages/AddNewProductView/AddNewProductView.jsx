@@ -246,23 +246,23 @@ export default function AddNewProductView() {
 
     if (!title) {
       setLoading(false);
-      toast.error('Не заповнене поле назви товару!');
+      toast.error('Не заповнене поле назви товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.titleInput)
       return;
     } else if (!category) {
       setLoading(false);
-      toast.error('Не вибране поле кагорії товару!');
+      toast.error('Не вибране поле кагорії товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.categoryInput)
       return;
     } else if (!description) {
       setLoading(false);
-      toast.error('Не заповнене поле опису про товар!');
+      toast.error('Не заповнене поле опису про товар!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.descriptionInput)
       return;
     } else if (!price) {
       setLoading(false);
-      toast.error('Не вказана ціна товару!');
+      toast.error('Не вказана ціна товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.priceInput)
       return;
     } else if (!quantity) {
       setLoading(false);
-      toast.error('Не вказана кількість товару!');
+      toast.error('Не вказана кількість товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.quantityInput)
       return;
     }
 
@@ -270,12 +270,12 @@ export default function AddNewProductView() {
     for (let i = 0; i < details.length; i++) {
       if (details[i].attribute_name.length < 1) {
         setLoading(false);
-        toast.error('Не заповнене поле властивості подробиць товару!');
+        toast.error('Не заповнене поле властивості подробиць товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.attributeNameInput)
         detailsCondition = false;
         break;
       } else if (details[i].attribute_value.length < 1) {
         setLoading(false);
-        toast.error('Не заповнене поле значення подробиць товару!');
+        toast.error('Не заповнене поле значення подробиць товару!'); // TODO: languageDeterminer(LANGUAGE.addNewProductView.attributeValueInput)
         detailsCondition = false;
         break;
       }
@@ -346,7 +346,7 @@ export default function AddNewProductView() {
               {images[mainImageIdx]?.type === 'video' ? (
                 <video
                   src={images[mainImageIdx].url}
-                  title={'Збільшити'} // FIXME
+                  title={'Збільшити'} // TODO: languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                   draggable="true"
                   className={s.mainImage}
                   onClick={toggleModal}
@@ -356,7 +356,7 @@ export default function AddNewProductView() {
                   src={
                     images.length > 0 ? images[mainImageIdx].url : imageNotFound
                   }
-                  title={'Збільшити'} // FIXME
+                  title={'Збільшити'} // TODO: languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                   alt={title}
                   className={s.mainImage}
                   onClick={toggleModal}
@@ -390,7 +390,7 @@ export default function AddNewProductView() {
                       )}
 
                       <Button
-                        title={'Видалити світлину товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        title={'Видалити світлину товару'} // TODO: languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                         type="button"
                         typeForm="icon"
                         styles={s.iconCloseBtn}
@@ -416,7 +416,7 @@ export default function AddNewProductView() {
                     <>
                       <label
                         htmlFor="fileElem"
-                        title={'Додати зображення товару'} // languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
+                        title={'Додати зображення товару'} // TODO: languageDeterminer(LANGUAGE.productViews.сollapseButtonTitle)
                         className={s.addBtn}
                       >
                         <svg className={s.iconAdd}>

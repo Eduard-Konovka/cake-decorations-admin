@@ -5,6 +5,7 @@ export { default as addProductApi } from './addProductApi';
 export { default as addRemovedProductApi } from './addRemovedProductApi';
 export { default as saveChangesProductApi } from './saveChangesProductApi';
 export { default as saveChangesRemovedProductApi } from './saveChangesRemovedProductApi';
+export { default as changeProductsPricesApi } from './changeProductsPricesApi';
 export { default as deleteProductImagesApi } from './deleteProductImagesApi';
 export { default as deleteRemovedImagesApi } from './deleteRemovedImagesApi';
 export { default as deleteProductApi } from './deleteProductApi';

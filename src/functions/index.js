@@ -1,6 +1,7 @@
 export { getCategory } from './getCategory';
 export { getLanguage } from './getLanguage';
 export { getPureArr } from './getPureArr';
+export { getSum } from './getSum';
 export { getTags } from './getTags';
 export { pageUp } from './pageUp';
 export { restoreRemovedProduct } from './restoreRemovedProduct';

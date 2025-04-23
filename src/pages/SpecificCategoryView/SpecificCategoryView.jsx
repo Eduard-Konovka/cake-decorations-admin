@@ -3,9 +3,9 @@ import { useLocation, Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
-import { fetchCollection } from 'api';
+import { fetchCollection, changeProductsPricesApi } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
-import { getLanguage, pageUp } from 'functions';
+import { getLanguage, pageUp, getSum } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
@@ -105,27 +105,54 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
     setCountValue(inputValue);
   }
 
-  function handleMassPriceChange() {
-    try {
-      const updatedProducts = [];
-      products.forEach(product => {
-        if (product.category === categoryId) {
-          const newPrice =
-            priceMultiplier === 'increase'
-              ? product.price + countValue
-              : product.price + (product.price / 100) * countValue;
+  async function handleMassPriceChange() {
+    const updatedProducts = [];
+    products.forEach(product => {
+      if (product.category === categoryId) {
+        const newPrice =
+          priceMultiplier === 'increase'
+            ? getSum(Number(product.price), countValue)
+            : getSum(
+                Number(product.price),
+                (Number(product.price) / 100) * countValue,
+              ).toFixed(2);
 
-          updatedProducts.push({ ...product, price: newPrice });
-        }
-      });
+        updatedProducts.push({ ...product, price: newPrice });
+      }
+    });
 
-      // TODO: зробити зміни в базі даних
-      // TODO: оновити products в глобальному стані
+    const response = await changeProductsPricesApi(
+      updatedProducts,
+      propertyWrapper(language, category, 'title'),
+    );
 
-      toast.success(languageDeterminer(LANGUAGE.category.success));
-    } catch (error) {
-      toast.error(languageDeterminer(LANGUAGE.category.error));
+    if (response !== 'success') {
+      toast.error(
+        `${languageDeterminer(LANGUAGE.category.alert.dbError)}: ${response}`,
+      );
+      return;
     }
+
+    fetchCollection('products')
+      .then(products => {
+        products.sort(
+          (firstProduct, secondProduct) => secondProduct._id - firstProduct._id,
+        );
+        changeGlobalState(updateProducts, products);
+        toast.success(languageDeterminer(LANGUAGE.category.alert.success));
+      })
+      .catch(error => {
+        toast.error(
+          `${languageDeterminer(LANGUAGE.category.alert.error)}: ${
+            error.message
+          }`,
+        );
+      })
+      .finally(() => {
+        setCountValue(0);
+        setPriceMultiplier('increase');
+        toast.info(languageDeterminer(LANGUAGE.category.alert.info));
+      });
   }
 
   function handleKeyPress(event) {
@@ -305,7 +332,10 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
           <section className={s.titleSection}>
             <form className={s.sortBar}>
               <h2 className={s.categoryTitle}>
-                {languageDeterminer(LANGUAGE.category.title)}
+                <span className={s.categoryTitleSpan}>
+                  {languageDeterminer(LANGUAGE.category.title)}
+                </span>
+
                 {propertyWrapper(language, category, 'title')}
               </h2>
 
@@ -318,7 +348,8 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
                 id="count"
                 type="number"
                 step={0.01}
-                value={countValue}
+                value={countValue || ''}
+                placeholder={'0'}
                 className={s.input}
                 style={{ width: '80px' }}
                 onKeyPress={handleCountKeyPress}

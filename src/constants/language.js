@@ -362,16 +362,30 @@ export const LANGUAGE = {
       },
     },
 
-    success: {
-      eng: 'The price of all products in the category has been successfully changed',
-      ukr: 'Ціна всіх товарів у категорії успішно змінена',
-      rus: 'Цена всех товаров в категории успешно изменена',
-    },
+    alert: {
+      dbError: {
+        eng: 'Failed to change the price of products in the database',
+        ukr: 'Не вдалося змінити ціну товарів у базі даних',
+        rus: 'Не удалось изменить цену товаров в базе данных',
+      },
 
-    error: {
-      eng: 'Failed to change the price of all products in the category',
-      ukr: 'Не вдалося змінити ціну всіх товарів у категорії',
-      rus: 'Не удалось изменить цену всех товаров в категории',
+      success: {
+        eng: 'The price of all products in the category has been successfully changed',
+        ukr: 'Ціна всіх товарів у категорії успішно змінена',
+        rus: 'Цена всех товаров в категории успешно изменена',
+      },
+
+      error: {
+        eng: 'Failed to change the price of all products in the category',
+        ukr: 'Не вдалося змінити ціну всіх товарів у категорії',
+        rus: 'Не удалось изменить цену всех товаров в категории',
+      },
+
+      info: {
+        eng: 'To see the changes, refresh the page',
+        ukr: 'Щоб побачити зміни, перезавантажте сторінку',
+        rus: 'Чтобы увидеть изменения, перезагрузите страницу',
+      },
     },
   },
 

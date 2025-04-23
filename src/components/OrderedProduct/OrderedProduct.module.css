@@ -65,7 +65,7 @@
 .thumb:focus-visible {
   color: var(--secondary-background-color);
   outline: 1px solid var(--outline-color);
-  box-shadow: var(--secondary-box-shadow);
+  box-shadow: var(--third-box-shadow);
   scale: 1.01;
 }
 
