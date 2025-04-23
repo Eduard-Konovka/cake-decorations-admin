@@ -220,7 +220,7 @@
   background-color: #f5f5e9;
   padding: 0 3.125vw 0.3vw 3.125vw;
   border-radius: 1vw;
-  box-shadow: var(--primery-box-shadow);
+  box-shadow: var(--third-box-shadow);
   margin: -0.625vw 3.125vw 0 0;
 }
 @media screen and (min-width: 320px) {

@@ -60,7 +60,7 @@
 .btn:focus-visible {
   background-color: var(--primery-background-color);
   color: var(--primery-color);
-  box-shadow: var(--third-box-shadow);
+  box-shadow: var(--active-box-shadow);
   transform: scale(1.05);
 }
 
