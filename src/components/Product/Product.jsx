@@ -58,13 +58,19 @@ export default function Product({ product, productsType, specificCategory }) {
         }}
       >
         <div className={s.imageBox}>
-          <img
-            className={s.image}
-            src={
-              product?.images?.length > 0 ? product.images[0].url : defaultImage
-            }
-            alt={propertyWrapper(language, product, 'title')}
-          />
+          {product?.images[0]?.type === 'video' ? (
+            <video src={product.images[0].url} className={s.image} />
+          ) : (
+            <img
+              src={
+                product?.images?.length > 0
+                  ? product.images[0].url
+                  : defaultImage
+              }
+              alt={propertyWrapper(language, product, 'title')}
+              className={s.image}
+            />
+          )}
         </div>
 
         <div className={s.thumb}>
