@@ -22,8 +22,10 @@ const nonExistentProduct = {
 export default function OrderedProduct({ orderedProduct }) {
   const { _id, quantity } = orderedProduct;
   const { language } = useGlobalState('global');
-
   const [product, setProduct] = useState({});
+  console.log(
+    product?.images?.length > 0 && product?.images[0]?.type === 'video',
+  );
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
@@ -45,13 +47,17 @@ export default function OrderedProduct({ orderedProduct }) {
           !product?._id && toast.error('Цей товар зараз недоступний')
         } // FIXME
       >
-        <img
-          src={
-            product?.images?.length > 0 ? product.images[0].url : defaultImage
-          }
-          alt={propertyWrapper(language, product, 'title')}
-          className={s.image}
-        />
+        {product?.images?.length > 0 && product?.images[0]?.type === 'video' ? (
+          <video src={product.images[0].url} className={s.image} />
+        ) : (
+          <img
+            src={
+              product?.images?.length > 0 ? product.images[0].url : defaultImage
+            }
+            alt={propertyWrapper(language, product, 'title')}
+            className={s.image}
+          />
+        )}
 
         <h3 className={s.title}>
           {propertyWrapper(language, product, 'title').length <
