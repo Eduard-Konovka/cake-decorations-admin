@@ -8,7 +8,7 @@ import {
 } from 'state';
 import { fetchCollection } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
-import { getLanguage, pageUp } from 'functions';
+import { getLanguage, setScrollPosition } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
@@ -314,7 +314,7 @@ export default function RemovedProductsView({ productsByCategoryOrTag }) {
   function upHandler() {
     setOrdinalOfDozen(1);
 
-    setTimeout(pageUp, 100);
+    setTimeout(setScrollPosition, 100);
   }
 
   return (

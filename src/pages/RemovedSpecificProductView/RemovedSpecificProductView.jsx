@@ -31,7 +31,7 @@ import {
   getLanguage,
   getCategory,
   getTags,
-  pageUp,
+  setScrollPosition,
   restoreRemovedProduct,
   deleteRemovedProduct,
   getFileFromUrl,
@@ -82,7 +82,7 @@ export default function RemovedSpecificProductView({
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   useEffect(() => {
     if (categories.length === 0) {

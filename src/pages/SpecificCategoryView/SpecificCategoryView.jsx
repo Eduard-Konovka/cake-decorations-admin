@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchCollection, changeProductsPricesApi } from 'api';
 import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
-import { getLanguage, pageUp, getSum } from 'functions';
+import { getLanguage, setScrollPosition, getSum } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
@@ -79,9 +79,12 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   useEffect(() => {
     if (visibleProducts.length !== 0) {
       const savedPosition = sessionStorage.getItem('scrollPosition');
+
       if (savedPosition !== null) {
-        window.scrollTo(0, parseInt(savedPosition, 10));
+        setScrollPosition(parseInt(savedPosition, 10));
         sessionStorage.removeItem('scrollPosition');
+      } else {
+        setScrollPosition();
       }
     }
   }, [visibleProducts]);
@@ -303,7 +306,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   }
 
   function upHandler() {
-    requestAnimationFrame(() => pageUp());
+    requestAnimationFrame(() => setScrollPosition());
   }
 
   return (

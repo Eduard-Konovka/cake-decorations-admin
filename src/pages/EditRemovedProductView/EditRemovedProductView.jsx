@@ -23,7 +23,7 @@ import { Spinner, Button, Tags, Links, Modal, Confirm } from 'components';
 import {
   getLanguage,
   getTags,
-  pageUp,
+  setScrollPosition,
   uploadImageToStorage,
   deleteRemovedProduct,
 } from 'functions';
@@ -74,7 +74,7 @@ export default function EditRemovedProductView({ setProductsByTag }) {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   useEffect(() => {
     if (categories.length === 0) {

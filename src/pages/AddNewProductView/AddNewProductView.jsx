@@ -9,7 +9,11 @@ import {
 } from 'state';
 import { fetchCollection, addProductApi } from 'api';
 import { Spinner, Button, Modal } from 'components';
-import { getLanguage, pageUp, uploadImageToStorage } from 'functions';
+import {
+  getLanguage,
+  setScrollPosition,
+  uploadImageToStorage,
+} from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageNotFound from 'assets/notFound.png';
@@ -36,7 +40,7 @@ export default function AddNewProductView() {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   useEffect(() => {
     if (categories.length === 0) {

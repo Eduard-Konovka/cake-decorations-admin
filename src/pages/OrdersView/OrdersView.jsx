@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useGlobalState, useChangeGlobalState, updateOrders } from 'state';
 import { fetchCollection } from 'api';
 import { Spinner, Button, Blank, OrdersList } from 'components';
-import { getLanguage, pageUp } from 'functions';
+import { getLanguage, setScrollPosition } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import imageBlank from 'assets/empty-trash-bin.png';
@@ -23,7 +23,7 @@ export default function OrdersView() {
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   useEffect(() => {
     setLoading(true);

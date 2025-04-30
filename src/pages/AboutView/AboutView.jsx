@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useGlobalState } from 'state';
-import { pageUp } from 'functions';
+import { setScrollPosition } from 'functions';
 import s from './AboutView.module.css';
 
 export default function AboutView({ text, wave3D, waveReflection }) {
@@ -9,7 +9,7 @@ export default function AboutView({ text, wave3D, waveReflection }) {
 
   const textArray = ['"', ...text.split(''), '"'];
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   return (
     <main className={s.page} style={{ minHeight: mainHeight }}>

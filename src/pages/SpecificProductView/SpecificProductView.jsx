@@ -31,7 +31,7 @@ import {
   getLanguage,
   getCategory,
   getTags,
-  pageUp,
+  setScrollPosition,
   deleteProduct,
   getFileFromUrl,
   uploadImageToStorage,
@@ -79,7 +79,7 @@ export default function SpecificProductView({
 
   const languageDeterminer = obj => languageWrapper(getLanguage(), obj);
 
-  useEffect(pageUp, []);
+  useEffect(setScrollPosition, []);
 
   useEffect(() => {
     if (categories.length === 0) {

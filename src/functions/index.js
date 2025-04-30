@@ -3,7 +3,7 @@ export { getLanguage } from './getLanguage';
 export { getPureArr } from './getPureArr';
 export { getSum } from './getSum';
 export { getTags } from './getTags';
-export { pageUp } from './pageUp';
+export { setScrollPosition } from './setScrollPosition';
 export { restoreRemovedProduct } from './restoreRemovedProduct';
 export { getProfileFromDatabase } from './getProfileFromDatabase';
 export { storeLanguage } from './storeLanguage';

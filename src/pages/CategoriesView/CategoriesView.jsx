@@ -11,7 +11,7 @@ import {
 } from 'state';
 import { fetchCollection, fetchTags, fetchLinks } from 'api';
 import { Spinner, Blank, Button, CategoriesList } from 'components';
-import { getLanguage, pageUp } from 'functions';
+import { getLanguage, setScrollPosition } from 'functions';
 import { languageWrapper } from 'middlewares';
 import { LANGUAGE } from 'constants';
 import icons from 'assets/icons.svg';
@@ -133,7 +133,7 @@ export default function CategoriesView({ setProductsByCategory }) {
               type="button"
               typeForm="icon"
               styles={s.iconUpBtn}
-              onClick={pageUp}
+              onClick={setScrollPosition}
             >
               <svg className={s.arrow}>
                 <use href={`${icons}#icon-arrow-up`}></use>
