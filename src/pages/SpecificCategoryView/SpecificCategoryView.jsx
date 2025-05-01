@@ -4,13 +4,12 @@ import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { useGlobalState, useChangeGlobalState, updateProducts } from 'state';
 import { fetchCollection, changeProductsPricesApi } from 'api';
-import { Spinner, Blank, Button, OptionList, ProductList } from 'components';
+import { Spinner, Button, OptionList, ProductList } from 'components';
 import { getLanguage, setScrollPosition, getSum } from 'functions';
 import { languageWrapper, propertyWrapper } from 'middlewares';
 import { GLOBAL, LANGUAGE } from 'constants';
 import { ReactComponent as SearchIcon } from 'assets/search.svg';
 import icons from 'assets/icons.svg';
-import imageBlank from 'assets/shop.jpg';
 import s from './SpecificCategoryView.module.css';
 
 export default function SpecificCategoryView({ productsByCategoryOrTag }) {
@@ -53,18 +52,14 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
               secondProduct._id - firstProduct._id,
           );
           changeGlobalState(updateProducts, products);
-          setProductsByName(products);
-          setProductsByPrice(products);
         })
         .catch(error => setError(error))
         .finally(() => setLoading(false));
-    } else if (productsByCategoryOrTag.length !== 0) {
-      setProductsByName(productsByCategoryOrTag);
-      setProductsByPrice(products);
-    } else {
-      setProductsByName(products);
-      setProductsByPrice(products);
     }
+
+    setProductsByName(productsByCategoryOrTag);
+    setProductsByPrice(productsByCategoryOrTag);
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -169,7 +164,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   }
 
   function handleNameClick() {
-    const visibleProductsToLowerCase = products.map(product => ({
+    const visibleProductsToLowerCase = productsByCategoryOrTag.map(product => ({
       ...product,
       title: {
         ua: propertyWrapper('UA', product, 'title').toLowerCase(),
@@ -201,12 +196,12 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
       productToLowerCase => productToLowerCase._id,
     );
 
-    const targetProducts = products.filter(product =>
+    const targetProducts = productsByCategoryOrTag.filter(product =>
       productIds.includes(product._id),
     );
 
     if (!searchByName) {
-      setProductsByName(products);
+      setProductsByName(productsByCategoryOrTag);
     } else if (targetProducts.length > 0) {
       setProductsByName(targetProducts);
     } else {
@@ -218,12 +213,12 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   function handlePriceChange(event) {
     switch (event.target.value) {
       case 'allPrices':
-        setProductsByPrice(products);
+        setProductsByPrice(productsByCategoryOrTag);
         break;
 
       case `${GLOBAL.pricesBreakPoint.min}>`:
         setProductsByPrice(
-          products.filter(
+          productsByCategoryOrTag.filter(
             product =>
               product.price > GLOBAL.pricesBreakPoint.min &&
               product.price <= GLOBAL.pricesBreakPoint.first,
@@ -233,7 +228,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
 
       case `${GLOBAL.pricesBreakPoint.first}>`:
         setProductsByPrice(
-          products.filter(
+          productsByCategoryOrTag.filter(
             product =>
               product.price > GLOBAL.pricesBreakPoint.first &&
               product.price <= GLOBAL.pricesBreakPoint.second,
@@ -243,7 +238,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
 
       case `${GLOBAL.pricesBreakPoint.second}>`:
         setProductsByPrice(
-          products.filter(
+          productsByCategoryOrTag.filter(
             product => product.price > GLOBAL.pricesBreakPoint.second,
           ),
         );
@@ -251,7 +246,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
 
       default:
         setProductsByPrice(
-          products.filter(
+          productsByCategoryOrTag.filter(
             product => product.price === Number(event.target.value),
           ),
         );
@@ -301,8 +296,8 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
   function reset() {
     setSearchByName('');
     setOptionList(false);
-    setProductsByName(products);
-    setProductsByPrice(products);
+    setProductsByName(productsByCategoryOrTag);
+    setProductsByPrice(productsByCategoryOrTag);
   }
 
   function upHandler() {
@@ -322,15 +317,7 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
         </div>
       )}
 
-      {!loading && !error && products.length === 0 && (
-        <Blank
-          title={languageDeterminer(LANGUAGE.noProducts)}
-          image={imageBlank}
-          alt={languageDeterminer(LANGUAGE.openShopAlt)}
-        />
-      )}
-
-      {!loading && !error && products.length > 0 && (
+      {!loading && !error && (
         <>
           <section className={s.titleSection}>
             <form className={s.sortBar}>
@@ -412,7 +399,9 @@ export default function SpecificCategoryView({ productsByCategoryOrTag }) {
                 className={s.inputByPrice}
                 onChange={handlePriceChange}
               >
-                {optionList && <OptionList products={products} />}
+                {optionList && (
+                  <OptionList products={productsByCategoryOrTag} />
+                )}
               </select>
 
               <Button
